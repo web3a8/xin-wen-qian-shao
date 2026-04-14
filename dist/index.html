@@ -3,44 +3,36 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>News Push Data</title>
+    <title>news push</title>
     <style>
       :root {
         color-scheme: light;
-        --bg: #f4f7fb;
-        --bg-strong: #eef3f9;
+        --bg: #f5f5f5;
         --panel: #ffffff;
-        --panel-soft: #f8fafc;
+        --panel-soft: #fafafa;
         --text: #111827;
         --muted: #6b7280;
         --line: #e5e7eb;
+        --line-strong: #d1d5db;
         --accent: #2563eb;
-        --accent-soft: #dbeafe;
-        --accent-ink: #1d4ed8;
-        --success: #15803d;
-        --success-soft: #dcfce7;
-        --danger: #dc2626;
-        --danger-soft: #fee2e2;
-        --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+        --accent-soft: #eff6ff;
+        --accent-line: #bfdbfe;
+        --shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
       }
 
       body[data-theme="dark"] {
         color-scheme: dark;
-        --bg: #0f172a;
-        --bg-strong: #111827;
+        --bg: #0b1220;
         --panel: #111827;
-        --panel-soft: #1f2937;
+        --panel-soft: #0f172a;
         --text: #e5e7eb;
         --muted: #9ca3af;
-        --line: #374151;
+        --line: #253045;
+        --line-strong: #334155;
         --accent: #60a5fa;
-        --accent-soft: rgba(37, 99, 235, 0.18);
-        --accent-ink: #bfdbfe;
-        --success: #4ade80;
-        --success-soft: rgba(22, 163, 74, 0.16);
-        --danger: #f87171;
-        --danger-soft: rgba(220, 38, 38, 0.18);
-        --shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
+        --accent-soft: rgba(96, 165, 250, 0.12);
+        --accent-line: rgba(96, 165, 250, 0.28);
+        --shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
       }
 
       * {
@@ -53,11 +45,8 @@
 
       body {
         margin: 0;
-        font-family: "SF Pro Display", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-        background:
-          radial-gradient(circle at top left, rgba(37, 99, 235, 0.09), transparent 28%),
-          radial-gradient(circle at top right, rgba(14, 165, 233, 0.07), transparent 24%),
-          linear-gradient(180deg, var(--bg) 0%, var(--bg-strong) 100%);
+        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SF Pro Text", sans-serif;
+        background: var(--bg);
         color: var(--text);
       }
 
@@ -75,53 +64,42 @@
         position: sticky;
         top: 0;
         z-index: 20;
-        backdrop-filter: blur(16px);
-        background: color-mix(in srgb, var(--bg) 88%, transparent);
-        border-bottom: 1px solid color-mix(in srgb, var(--line) 70%, transparent);
+        background: color-mix(in srgb, var(--panel) 92%, transparent);
+        backdrop-filter: blur(18px);
+        border-bottom: 1px solid var(--line);
       }
 
       .topbar-inner,
       .page {
-        width: min(1240px, calc(100vw - 28px));
+        width: min(1320px, calc(100vw - 32px));
         margin: 0 auto;
       }
 
       .topbar-inner {
+        min-height: 72px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 16px;
-        min-height: 72px;
+        gap: 20px;
       }
 
       .brand {
-        display: flex;
-        align-items: center;
-        gap: 14px;
+        min-width: 0;
       }
 
-      .brand-mark {
-        width: 44px;
-        height: 44px;
-        border-radius: 14px;
-        display: grid;
-        place-items: center;
-        background: linear-gradient(135deg, var(--accent) 0%, #38bdf8 100%);
-        color: #fff;
-        font-size: 1rem;
-        font-weight: 800;
-        letter-spacing: 0.06em;
-        box-shadow: 0 10px 26px rgba(37, 99, 235, 0.24);
-      }
-
-      .brand-copy h1 {
+      .brand-title {
         margin: 0;
-        font-size: 1.1rem;
-        font-weight: 700;
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: -0.04em;
       }
 
-      .brand-copy p {
-        margin: 4px 0 0;
+      .brand-title span {
+        color: var(--accent);
+      }
+
+      .brand-subtitle {
+        margin: 6px 0 0;
         color: var(--muted);
         font-size: 0.92rem;
       }
@@ -135,247 +113,158 @@
 
       .toolbar-link,
       .theme-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        height: 40px;
+        padding: 0 14px;
         border: 1px solid var(--line);
+        border-radius: 999px;
         background: var(--panel);
         color: var(--text);
-        padding: 10px 14px;
-        border-radius: 999px;
-        font-size: 0.92rem;
-        box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+        transition: border-color 0.18s ease, background-color 0.18s ease, transform 0.18s ease;
       }
 
       .toolbar-link:hover,
       .theme-toggle:hover {
-        border-color: color-mix(in srgb, var(--accent) 40%, var(--line));
+        border-color: var(--accent-line);
+        background: var(--panel-soft);
+        transform: translateY(-1px);
+      }
+
+      .toolbar-icon {
+        width: 16px;
+        height: 16px;
+        flex: 0 0 16px;
+        color: var(--accent);
       }
 
       .page {
-        padding: 24px 0 48px;
+        padding: 24px 0 40px;
       }
 
-      .hero {
-        background: linear-gradient(135deg, color-mix(in srgb, var(--panel) 92%, var(--accent-soft)) 0%, var(--panel) 70%);
-        border: 1px solid var(--line);
-        border-radius: 28px;
-        box-shadow: var(--shadow);
-        padding: 28px;
+      .layout {
         display: grid;
-        grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.9fr);
-        gap: 22px;
+        grid-template-columns: 250px minmax(0, 1fr);
+        gap: 24px;
+        align-items: start;
       }
 
-      .hero h2 {
-        margin: 0;
-        font-size: clamp(2rem, 3vw, 2.8rem);
-        line-height: 1.04;
-        letter-spacing: -0.03em;
-      }
-
-      .hero p {
-        margin: 14px 0 0;
-        color: var(--muted);
-        line-height: 1.75;
-        font-size: 1rem;
-      }
-
-      .pill-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 18px;
-      }
-
-      .pill {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 9px 12px;
-        border-radius: 999px;
-        background: var(--panel);
-        border: 1px solid var(--line);
-        color: var(--muted);
-        font-size: 0.92rem;
-      }
-
-      .pill strong {
-        color: var(--text);
-      }
-
-      .hero-side {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 12px;
-      }
-
-      .hero-stat {
-        background: var(--panel);
-        border: 1px solid var(--line);
-        border-radius: 22px;
-        padding: 18px;
-      }
-
-      .hero-stat span {
-        display: block;
-        color: var(--muted);
-        font-size: 0.88rem;
-      }
-
-      .hero-stat strong {
-        display: block;
-        margin-top: 10px;
-        font-size: 1.75rem;
-        line-height: 1;
-        letter-spacing: -0.04em;
-      }
-
-      .content-grid {
-        display: grid;
-        grid-template-columns: 310px minmax(0, 1fr);
-        gap: 20px;
-        margin-top: 22px;
-      }
-
-      .sidebar {
-        display: grid;
-        gap: 16px;
-        align-content: start;
-      }
-
-      .sticky {
+      .nav {
         position: sticky;
         top: 96px;
       }
 
-      .card {
-        background: var(--panel);
-        border: 1px solid var(--line);
-        border-radius: 24px;
-        box-shadow: var(--shadow);
-      }
-
-      .card-head {
-        padding: 18px 20px 14px;
-        border-bottom: 1px solid var(--line);
-      }
-
-      .card-head h3 {
-        margin: 0;
-        font-size: 1rem;
-      }
-
-      .card-head p {
-        margin: 6px 0 0;
+      .nav-title {
+        margin: 0 0 10px;
         color: var(--muted);
-        font-size: 0.9rem;
-        line-height: 1.6;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
       }
 
-      .card-body {
-        padding: 18px 20px 20px;
+      .nav-list {
+        display: grid;
+        gap: 10px;
       }
 
-      .file-list,
-      .meta-list,
-      .source-list,
-      .breakdown-list,
-      .article-list {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      .file-list li + li,
-      .meta-list li + li,
-      .source-list li + li,
-      .breakdown-list li + li,
-      .article-list li + li {
-        margin-top: 12px;
-      }
-
-      .file-link {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        padding: 14px 15px;
-        border-radius: 18px;
-        background: var(--panel-soft);
-        border: 1px solid var(--line);
-      }
-
-      .file-link strong {
-        font-size: 0.96rem;
-      }
-
-      .file-link span,
-      .meta-note,
-      .source-meta,
-      .article-meta {
-        color: var(--muted);
-        font-size: 0.88rem;
-        line-height: 1.6;
-      }
-
-      .meta-list li,
-      .breakdown-list li {
+      .nav-item {
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 12px;
-        padding: 10px 0;
+        gap: 10px;
+        padding: 12px 14px;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background: var(--panel);
+        color: var(--text);
+        text-align: left;
+        transition: border-color 0.18s ease, background-color 0.18s ease, transform 0.18s ease;
       }
 
-      .badge {
+      .nav-item:hover {
+        border-color: var(--accent-line);
+        background: var(--panel-soft);
+        transform: translateY(-1px);
+      }
+
+      .nav-item.active {
+        border-color: var(--accent-line);
+        background: var(--accent-soft);
+      }
+
+      .nav-item span {
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .nav-count {
+        flex: 0 0 auto;
+        min-width: 26px;
+        height: 26px;
+        padding: 0 8px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        min-width: 34px;
-        height: 28px;
-        padding: 0 10px;
         border-radius: 999px;
-        background: var(--accent-soft);
-        color: var(--accent-ink);
-        font-size: 0.84rem;
-        font-weight: 700;
+        background: color-mix(in srgb, var(--panel-soft) 72%, transparent);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.76rem;
       }
 
-      .badge.badge-danger {
-        background: var(--danger-soft);
-        color: var(--danger);
+      .feed {
+        border: 1px solid var(--line);
+        border-radius: 26px;
+        background: var(--panel);
+        box-shadow: var(--shadow);
+        overflow: hidden;
       }
 
-      .badge.badge-success {
-        background: var(--success-soft);
-        color: var(--success);
-      }
-
-      .main-column {
-        display: grid;
-        gap: 18px;
-      }
-
-      .section-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 18px;
-      }
-
-      .toolbar-panel {
+      .feed-toolbar {
+        padding: 22px 24px;
+        border-bottom: 1px solid var(--line);
         display: flex;
         align-items: center;
-        gap: 12px;
         justify-content: space-between;
-        flex-wrap: wrap;
+        gap: 16px;
+      }
+
+      .feed-title {
+        margin: 0;
+        font-size: 1.05rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+
+      .feed-caption {
+        margin: 6px 0 0;
+        color: var(--muted);
+        font-size: 0.92rem;
       }
 
       .search {
-        flex: 1 1 280px;
-        display: flex;
+        flex: 0 1 320px;
+        display: inline-flex;
         align-items: center;
         gap: 10px;
-        padding: 12px 14px;
-        border-radius: 16px;
-        background: var(--panel-soft);
+        height: 44px;
+        padding: 0 14px;
         border: 1px solid var(--line);
+        border-radius: 999px;
+        background: var(--panel-soft);
+      }
+
+      .search svg {
+        width: 16px;
+        height: 16px;
+        color: var(--muted);
+        flex: 0 0 16px;
       }
 
       .search input {
@@ -386,145 +275,187 @@
         color: var(--text);
       }
 
-      .chip-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
+      .list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
       }
 
-      .chip {
-        border: 1px solid var(--line);
-        background: var(--panel);
-        color: var(--muted);
-        padding: 8px 12px;
-        border-radius: 999px;
-        font-size: 0.88rem;
-      }
-
-      .chip.active {
-        border-color: color-mix(in srgb, var(--accent) 35%, var(--line));
-        background: var(--accent-soft);
-        color: var(--accent-ink);
-      }
-
-      .article-list li {
+      .item {
         display: grid;
-        grid-template-columns: 46px minmax(0, 1fr);
-        gap: 14px;
-        padding: 16px 0;
+        grid-template-columns: 56px minmax(0, 1fr) 44px;
+        gap: 16px;
+        align-items: center;
+        padding: 18px 24px;
         border-bottom: 1px solid var(--line);
+        transition: background-color 0.18s ease;
       }
 
-      .article-list li:last-child {
+      .item:last-child {
         border-bottom: 0;
-        padding-bottom: 0;
       }
 
-      .article-rank {
-        width: 42px;
-        height: 42px;
-        border-radius: 14px;
-        display: grid;
-        place-items: center;
+      .item:hover {
         background: var(--panel-soft);
-        border: 1px solid var(--line);
-        color: var(--muted);
-        font-size: 0.94rem;
-        font-weight: 700;
       }
 
-      .article-title {
+      .rank {
+        font-size: 1.55rem;
+        line-height: 1;
+        font-weight: 800;
+        letter-spacing: -0.04em;
+        color: #9ca3af;
+      }
+
+      .item:nth-child(1) .rank {
+        color: #ef4444;
+      }
+
+      .item:nth-child(2) .rank {
+        color: #f97316;
+      }
+
+      .item:nth-child(3) .rank {
+        color: #f59e0b;
+      }
+
+      .title {
+        margin: 0;
         font-size: 1rem;
-        line-height: 1.55;
         font-weight: 600;
+        line-height: 1.6;
+        letter-spacing: -0.01em;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
       }
 
-      .article-title a:hover {
+      .title a:hover {
         color: var(--accent);
       }
 
-      .article-summary {
+      .meta {
         margin-top: 8px;
-        color: var(--muted);
-        font-size: 0.92rem;
-        line-height: 1.7;
-      }
-
-      .source-list li {
-        padding: 14px 0;
-        border-bottom: 1px solid var(--line);
-      }
-
-      .source-list li:last-child {
-        border-bottom: 0;
-        padding-bottom: 0;
-      }
-
-      .source-row {
         display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 12px;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        color: var(--muted);
+        font-size: 0.84rem;
       }
 
-      .source-row strong {
-        display: block;
-        font-size: 0.95rem;
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 24px;
+        padding: 0 10px;
+        border-radius: 999px;
+        background: var(--panel-soft);
+        border: 1px solid var(--line);
+        color: var(--text);
+      }
+
+      .domain {
+        max-width: 240px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .open-link {
+        width: 36px;
+        height: 36px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        color: var(--muted);
+        background: var(--panel);
+        transition: border-color 0.18s ease, color 0.18s ease, background-color 0.18s ease;
+      }
+
+      .item:hover .open-link {
+        border-color: var(--accent-line);
+        color: var(--accent);
+        background: color-mix(in srgb, var(--accent-soft) 52%, var(--panel));
+      }
+
+      .open-link svg {
+        width: 15px;
+        height: 15px;
       }
 
       .empty {
+        padding: 28px 24px;
         color: var(--muted);
-        padding: 8px 0;
-        line-height: 1.7;
-      }
-
-      .footer {
-        margin-top: 18px;
-        text-align: center;
-        color: var(--muted);
-        font-size: 0.88rem;
+        line-height: 1.8;
       }
 
       @media (max-width: 1080px) {
-        .hero,
-        .content-grid,
-        .section-grid {
+        .layout {
           grid-template-columns: 1fr;
         }
 
-        .sticky {
+        .nav {
           position: static;
+        }
+
+        .nav-list {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
         }
       }
 
       @media (max-width: 720px) {
         .topbar-inner {
-          min-height: 64px;
+          align-items: flex-start;
+          padding: 14px 0;
+          min-height: unset;
         }
 
-        .hero {
-          padding: 22px;
+        .topbar-inner,
+        .page {
+          width: min(100vw - 20px, 1320px);
         }
 
-        .hero-side {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
+        .toolbar {
+          width: 100%;
         }
 
-        .card-head,
-        .card-body {
-          padding-left: 16px;
-          padding-right: 16px;
+        .toolbar-link,
+        .theme-toggle {
+          flex: 1 1 calc(33.333% - 7px);
+          justify-content: center;
         }
 
-        .article-list li {
-          grid-template-columns: 38px minmax(0, 1fr);
-          gap: 12px;
+        .nav-list {
+          grid-template-columns: 1fr 1fr;
         }
 
-        .article-rank {
-          width: 38px;
-          height: 38px;
-          border-radius: 12px;
+        .feed-toolbar {
+          padding: 18px 16px;
+          align-items: stretch;
+          flex-direction: column;
+        }
+
+        .search {
+          width: 100%;
+          flex-basis: auto;
+        }
+
+        .item {
+          grid-template-columns: 42px minmax(0, 1fr);
+          padding: 16px;
+        }
+
+        .open-link {
+          display: none;
+        }
+
+        .rank {
+          font-size: 1.28rem;
         }
       }
     </style>
@@ -533,191 +464,82 @@
     <header class="topbar">
       <div class="topbar-inner">
         <div class="brand">
-          <div class="brand-mark">NP</div>
-          <div class="brand-copy">
-            <h1>News Push Data</h1>
-            <p>像热榜站一样浏览数据，但只展示你自己的整理结果</p>
-          </div>
+          <h1 class="brand-title"><span>&gt;</span> news push</h1>
+          <p class="brand-subtitle">目前专注于AI</p>
         </div>
         <div class="toolbar">
-          <a class="toolbar-link" href="./latest.json">Full JSON</a>
-          <a class="toolbar-link" href="./meta.json">Meta</a>
-          <button class="theme-toggle" id="theme-toggle" type="button">切换主题</button>
+          <a class="toolbar-link" href="./latest.json">
+            <svg class="toolbar-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M8 5 3 12l5 7M16 5l5 7-5 7M13 4l-2 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Full JSON</span>
+          </a>
+          <a class="toolbar-link" href="./meta.json">
+            <svg class="toolbar-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M12 10v6M12 7.5h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Meta</span>
+          </a>
+          <button class="theme-toggle" id="theme-toggle" type="button">
+            <svg class="toolbar-icon" id="theme-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"></svg>
+            <span>切换主题</span>
+          </button>
         </div>
       </div>
     </header>
 
     <main class="page">
-      <section class="hero">
-        <div>
-          <h2>把结果做成可读的“今日热榜式”数据页，而不是冷冰冰的文件目录。</h2>
-          <p id="hero-text">
-            页面会直接读取当前仓库里的 <code>latest-lite.json</code> 和 <code>meta.json</code>，把发布文件、运行状态、失败源和最新内容整理成一个轻量信息面板。
-          </p>
-          <div class="pill-row" id="hero-pills">
-            <span class="pill"><strong>等待加载</strong> 正在读取数据文件</span>
-          </div>
-        </div>
-        <div class="hero-side" id="hero-stats">
-          <div class="hero-stat">
-            <span>Articles</span>
-            <strong>--</strong>
-          </div>
-          <div class="hero-stat">
-            <span>Sources</span>
-            <strong>--</strong>
-          </div>
-          <div class="hero-stat">
-            <span>Warnings</span>
-            <strong>--</strong>
-          </div>
-          <div class="hero-stat">
-            <span>Updated</span>
-            <strong>--</strong>
-          </div>
-        </div>
-      </section>
-
-      <section class="content-grid">
-        <aside class="sidebar sticky">
-          <article class="card">
-            <div class="card-head">
-              <h3>发布文件</h3>
-              <p>公开仓库只暴露整理后的结果，不再公开内部抓取配置。</p>
-            </div>
-            <div class="card-body">
-              <ul class="file-list">
-                <li>
-                  <a class="file-link" href="./latest.json">
-                    <strong>latest.json</strong>
-                    <span>完整数据集，适合消费端拉取全量结果。</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="file-link" href="./latest-lite.json">
-                    <strong>latest-lite.json</strong>
-                    <span>轻量版结果，适合前台快速加载。</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="file-link" href="./meta.json">
-                    <strong>meta.json</strong>
-                    <span>运行状态、失败分类和源级诊断。</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="file-link" href="./src/schema/latest.schema.json">
-                    <strong>latest.schema.json</strong>
-                    <span>对外公开的数据契约。</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <h3>运行概览</h3>
-              <p>从 `meta.json` 抽取出来的核心运行指标。</p>
-            </div>
-            <div class="card-body">
-              <ul class="meta-list" id="meta-list">
-                <li><span>生成时间</span><span class="badge">--</span></li>
-                <li><span>成功源</span><span class="badge badge-success">--</span></li>
-                <li><span>失败源</span><span class="badge badge-danger">--</span></li>
-                <li><span>告警数</span><span class="badge">--</span></li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <h3>失败分类</h3>
-              <p>优先看分类，而不是直接看长长的错误列表。</p>
-            </div>
-            <div class="card-body">
-              <ul class="breakdown-list" id="breakdown-list">
-                <li class="empty">等待加载失败分类…</li>
-              </ul>
-            </div>
-          </article>
+      <div class="layout">
+        <aside class="nav">
+          <h2 class="nav-title">Sources</h2>
+          <div class="nav-list" id="source-filters"></div>
         </aside>
 
-        <section class="main-column">
-          <article class="card">
-            <div class="card-head">
-              <h3>数据面板</h3>
-              <p>保留结果页的实用信息密度，但视觉语言向热榜站靠拢。</p>
+        <section class="feed">
+          <div class="feed-toolbar">
+            <div>
+              <h2 class="feed-title">信息流</h2>
+              <p class="feed-caption" id="feed-caption">正在读取最新数据…</p>
             </div>
-            <div class="card-body section-grid">
-              <div class="card" style="box-shadow:none;">
-                <div class="card-head">
-                  <h3>最新内容</h3>
-                  <p>按当前仓库输出的轻量数据流展示。</p>
-                </div>
-                <div class="card-body">
-                  <div class="toolbar-panel">
-                    <label class="search">
-                      <span>搜索</span>
-                      <input id="search-input" type="search" placeholder="筛选标题或来源">
-                    </label>
-                  </div>
-                  <div class="chip-row" id="source-filters" style="margin-top: 14px;"></div>
-                </div>
-              </div>
-              <div class="card" style="box-shadow:none;">
-                <div class="card-head">
-                  <h3>失败源</h3>
-                  <p>把排障信息整理成一个能快速扫读的列表。</p>
-                </div>
-                <div class="card-body">
-                  <ul class="source-list" id="failed-sources">
-                    <li class="empty">等待加载失败源…</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <h3>信息流</h3>
-              <p id="article-caption">按发布时间和筛选条件展示最新结果。</p>
-            </div>
-            <div class="card-body">
-              <ul class="article-list" id="article-list">
-                <li class="empty">正在读取最新数据…</li>
-              </ul>
-            </div>
-          </article>
+            <label class="search">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.8"/>
+                <path d="m16 16 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              <input id="search-input" type="search" placeholder="搜索标题或来源">
+            </label>
+          </div>
+          <ul class="list" id="article-list">
+            <li class="empty">正在读取最新数据…</li>
+          </ul>
         </section>
-      </section>
-
-      <p class="footer">
-        页面样式参考了 <a href="https://www.hotday.uk/" target="_blank" rel="noreferrer">hotday.uk</a> 的浅色热榜站风格，但只服务当前仓库的公开数据分发。
-      </p>
+      </div>
     </main>
 
     <script>
       const state = {
         articles: [],
-        filteredArticles: [],
-        failedSources: [],
         sourceFilter: "全部",
-        query: ""
+        query: "",
+        generatedAt: ""
       };
 
       const articleList = document.getElementById("article-list");
       const sourceFilters = document.getElementById("source-filters");
-      const failedSources = document.getElementById("failed-sources");
-      const breakdownList = document.getElementById("breakdown-list");
-      const metaList = document.getElementById("meta-list");
-      const heroStats = document.getElementById("hero-stats");
-      const heroPills = document.getElementById("hero-pills");
-      const heroText = document.getElementById("hero-text");
-      const articleCaption = document.getElementById("article-caption");
+      const feedCaption = document.getElementById("feed-caption");
       const searchInput = document.getElementById("search-input");
       const themeToggle = document.getElementById("theme-toggle");
+      const themeIcon = document.getElementById("theme-icon");
+
+      function escapeHtml(value) {
+        return String(value || "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll("\"", "&quot;")
+          .replaceAll("'", "&#39;");
+      }
 
       function formatNumber(value) {
         return new Intl.NumberFormat("zh-CN").format(Number(value || 0));
@@ -734,22 +556,33 @@
         }
 
         return new Intl.DateTimeFormat("zh-CN", {
-          dateStyle: "medium",
-          timeStyle: "short"
+          month: "numeric",
+          day: "numeric",
+          hour: "2-digit",
+          minute: "2-digit"
         }).format(date);
       }
 
-      function escapeHtml(value) {
-        return String(value || "")
-          .replaceAll("&", "&amp;")
-          .replaceAll("<", "&lt;")
-          .replaceAll(">", "&gt;")
-          .replaceAll("\"", "&quot;")
-          .replaceAll("'", "&#39;");
+      function getDomain(value) {
+        try {
+          const url = new URL(value);
+          return url.hostname.replace(/^www\./, "");
+        } catch (error) {
+          return "";
+        }
+      }
+
+      function getThemeIcon(theme) {
+        if (theme === "dark") {
+          return '<path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+        }
+
+        return '<circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.8v2.1M12 19.1v2.1M21.2 12h-2.1M4.9 12H2.8M18.5 5.5 17 7M7 17l-1.5 1.5M18.5 18.5 17 17M7 7 5.5 5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>';
       }
 
       function setTheme(theme) {
         document.body.dataset.theme = theme;
+        themeIcon.innerHTML = getThemeIcon(theme);
         localStorage.setItem("news-push-theme", theme);
       }
 
@@ -764,56 +597,18 @@
         setTheme(prefersDark ? "dark" : "light");
       }
 
-      function renderHero(meta) {
-        heroStats.innerHTML = `
-          <div class="hero-stat">
-            <span>Articles</span>
-            <strong>${formatNumber(meta.article_count)}</strong>
-          </div>
-          <div class="hero-stat">
-            <span>Sources</span>
-            <strong>${formatNumber(meta.source_succeeded)}</strong>
-          </div>
-          <div class="hero-stat">
-            <span>Warnings</span>
-            <strong>${formatNumber((meta.warnings || []).length)}</strong>
-          </div>
-          <div class="hero-stat">
-            <span>Updated</span>
-            <strong style="font-size:1.05rem; line-height:1.4;">${escapeHtml(formatDate(meta.generated_at))}</strong>
-          </div>
-        `;
+      function getVisibleArticles() {
+        const query = state.query.trim().toLowerCase();
 
-        heroPills.innerHTML = `
-          <span class="pill"><strong>${escapeHtml(meta.dataset_id || "--")}</strong> Dataset ID</span>
-          <span class="pill"><strong>${formatNumber(meta.source_total)}</strong> total sources</span>
-          <span class="pill"><strong>${formatNumber(meta.source_failed)}</strong> failed sources</span>
-        `;
+        return state.articles.filter((article) => {
+          const matchesSource = state.sourceFilter === "全部" || article.source_name === state.sourceFilter;
+          const matchesQuery =
+            !query ||
+            article.title.toLowerCase().includes(query) ||
+            article.source_name.toLowerCase().includes(query);
 
-        heroText.textContent = meta.source_failed > 0
-          ? `当前数据集共有 ${meta.source_total} 个源参与，本轮有 ${meta.source_failed} 个源失败。页面优先把结果文件、失败分类和最新内容整理成更像热榜站的阅读界面。`
-          : `当前数据集所有源都成功产出了结果。页面直接围绕结果文件、运行概览和最新内容组织，避免把公开仓库做成内部生产系统的展示窗口。`;
-      }
-
-      function renderMeta(meta) {
-        metaList.innerHTML = `
-          <li><span>生成时间</span><span class="badge">${escapeHtml(formatDate(meta.generated_at))}</span></li>
-          <li><span>成功源</span><span class="badge badge-success">${formatNumber(meta.source_succeeded)}</span></li>
-          <li><span>失败源</span><span class="badge badge-danger">${formatNumber(meta.source_failed)}</span></li>
-          <li><span>告警数</span><span class="badge">${formatNumber((meta.warnings || []).length)}</span></li>
-        `;
-
-        const breakdown = Array.isArray(meta.failure_breakdown) ? meta.failure_breakdown : [];
-        breakdownList.innerHTML = breakdown.length
-          ? breakdown
-              .map((item) => `
-                <li>
-                  <span>${escapeHtml(item.category)}</span>
-                  <span class="badge">${formatNumber(item.count)}</span>
-                </li>
-              `)
-              .join("")
-          : '<li class="empty">这一轮没有失败分类。</li>';
+          return matchesSource && matchesQuery;
+        });
       }
 
       function renderFilters() {
@@ -823,21 +618,20 @@
           counts.set(article.source_name, (counts.get(article.source_name) || 0) + 1);
         }
 
-        const topSources = [...counts.entries()]
-          .sort((left, right) => right[1] - left[1])
-          .slice(0, 10)
-          .map(([name]) => name);
-
-        const filterNames = ["全部", ...topSources];
+        const filterNames = [
+          ["全部", state.articles.length],
+          ...[...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 18)
+        ];
 
         sourceFilters.innerHTML = filterNames
-          .map((name) => `
+          .map(([name, count]) => `
             <button
               type="button"
-              class="chip ${name === state.sourceFilter ? "active" : ""}"
+              class="nav-item ${name === state.sourceFilter ? "active" : ""}"
               data-source="${escapeHtml(name)}"
             >
-              ${escapeHtml(name)}
+              <span>${escapeHtml(name)}</span>
+              <span class="nav-count">${formatNumber(count)}</span>
             </button>
           `)
           .join("");
@@ -851,56 +645,37 @@
         }
       }
 
-      function renderFailedSources() {
-        failedSources.innerHTML = state.failedSources.length
-          ? state.failedSources
-              .slice(0, 12)
-              .map((item) => `
-                <li>
-                  <div class="source-row">
-                    <div>
-                      <strong>${escapeHtml(item.source_name)}</strong>
-                      <div class="source-meta">${escapeHtml(item.failure_category || "unknown")} · ${formatNumber(item.duration_ms)} ms</div>
-                    </div>
-                    <span class="badge badge-danger">${escapeHtml(item.http_status || "ERR")}</span>
-                  </div>
-                  <div class="source-meta" style="margin-top: 8px;">${escapeHtml(item.failure_detail || "请求失败")}</div>
-                </li>
-              `)
-              .join("")
-          : '<li class="empty">当前没有失败源。</li>';
-      }
-
       function renderArticles() {
-        const filtered = state.articles.filter((article) => {
-          const matchesSource = state.sourceFilter === "全部" || article.source_name === state.sourceFilter;
-          const query = state.query.trim().toLowerCase();
-          const matchesQuery =
-            !query ||
-            article.title.toLowerCase().includes(query) ||
-            article.source_name.toLowerCase().includes(query);
+        const visible = getVisibleArticles();
+        const updatedSuffix = state.generatedAt ? ` · 更新于 ${formatDate(state.generatedAt)}` : "";
+        feedCaption.textContent = `共 ${formatNumber(visible.length)} 条，按发布时间展示最新结果${updatedSuffix}。`;
 
-          return matchesSource && matchesQuery;
-        });
-
-        state.filteredArticles = filtered;
-        articleCaption.textContent = `共匹配 ${formatNumber(filtered.length)} 条结果，默认展示前 60 条。`;
-
-        articleList.innerHTML = filtered.length
-          ? filtered
-              .slice(0, 60)
-              .map((article, index) => `
-                <li>
-                  <div class="article-rank">${index + 1}</div>
-                  <div>
-                    <div class="article-title">
-                      <a href="${escapeHtml(article.link)}" target="_blank" rel="noreferrer">${escapeHtml(article.title)}</a>
+        articleList.innerHTML = visible.length
+          ? visible
+              .slice(0, 120)
+              .map((article, index) => {
+                const domain = getDomain(article.link);
+                return `
+                  <li class="item">
+                    <div class="rank">${index + 1}</div>
+                    <div>
+                      <p class="title">
+                        <a href="${escapeHtml(article.link)}" target="_blank" rel="noreferrer">${escapeHtml(article.title)}</a>
+                      </p>
+                      <div class="meta">
+                        <span class="badge">${escapeHtml(article.source_name)}</span>
+                        <span>${escapeHtml(formatDate(article.published_at))}</span>
+                        ${domain ? `<span class="domain">${escapeHtml(domain)}</span>` : ""}
+                      </div>
                     </div>
-                    <div class="article-meta">${escapeHtml(article.source_name)} · ${escapeHtml(formatDate(article.published_at))}</div>
-                    <div class="article-summary">${escapeHtml(article.link)}</div>
-                  </div>
-                </li>
-              `)
+                    <a class="open-link" href="${escapeHtml(article.link)}" target="_blank" rel="noreferrer" aria-label="打开原文">
+                      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="M8 16 16 8M10 8h6v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </a>
+                  </li>
+                `;
+              })
               .join("")
           : '<li class="empty">没有匹配到结果，试试切换来源或清空搜索词。</li>';
       }
@@ -918,22 +693,21 @@
 
           const meta = await metaResponse.json();
           const latestLite = await latestLiteResponse.json();
+          const articles = Array.isArray(latestLite.articles) ? latestLite.articles.slice() : [];
 
-          state.articles = Array.isArray(latestLite.articles) ? latestLite.articles : [];
-          state.failedSources = Array.isArray(meta.sources)
-            ? meta.sources.filter((item) => item.status === "failed")
-            : [];
+          articles.sort((left, right) => {
+            const leftTime = new Date(left.published_at || 0).getTime();
+            const rightTime = new Date(right.published_at || 0).getTime();
+            return rightTime - leftTime;
+          });
 
-          renderHero(meta);
-          renderMeta(meta);
+          state.articles = articles;
+          state.generatedAt = meta && meta.generated_at ? meta.generated_at : "";
           renderFilters();
-          renderFailedSources();
           renderArticles();
         } catch (error) {
-          heroText.textContent = `读取数据失败：${error.message || error}`;
-          articleList.innerHTML = '<li class="empty">页面未能加载 `latest-lite.json` 或 `meta.json`。</li>';
-          breakdownList.innerHTML = '<li class="empty">读取失败分类失败。</li>';
-          failedSources.innerHTML = '<li class="empty">读取失败源失败。</li>';
+          feedCaption.textContent = "数据读取失败";
+          articleList.innerHTML = `<li class="empty">页面未能加载数据文件：${escapeHtml(error.message || error)}</li>`;
         }
       }
 
