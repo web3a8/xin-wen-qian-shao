@@ -502,7 +502,7 @@
       <div class="topbar-inner">
         <div class="brand">
           <h1 class="brand-title"><span>&gt;</span> news push</h1>
-          <p class="brand-subtitle" id="brand-subtitle">目前共有 -- 条信源，专注于AI</p>
+          <p class="brand-subtitle" id="brand-subtitle">定时从 -- 条信源抓取最新资讯，目前专注于AI</p>
         </div>
         <div class="toolbar">
           <a class="toolbar-link" href="./latest.json">
@@ -529,7 +529,6 @@
     <main class="page">
       <div class="layout">
         <aside class="nav">
-          <h2 class="nav-title">信息源</h2>
           <div class="nav-list" id="source-filters"></div>
         </aside>
 
@@ -720,7 +719,7 @@
       function renderArticles() {
         const visible = getVisibleArticles();
         const updatedSuffix = state.generatedAt ? ` · 更新于 ${formatDate(state.generatedAt)}` : "";
-        feedCaption.textContent = `共 ${formatNumber(visible.length)} 条，按发布时间展示最近 24 小时结果${updatedSuffix}。`;
+        feedCaption.textContent = `按发布时间展示最近 24 小时内容${updatedSuffix}。`;
 
         articleList.innerHTML = visible.length
           ? visible
@@ -777,7 +776,7 @@
           state.articles = articles;
           state.generatedAt = meta && meta.generated_at ? meta.generated_at : "";
           if (brandSubtitle) {
-            brandSubtitle.textContent = `目前共有 ${formatNumber(meta && meta.source_total ? meta.source_total : 0)} 条信源，专注于AI`;
+            brandSubtitle.textContent = `定时从 ${formatNumber(meta && meta.source_total ? meta.source_total : 0)} 条信源抓取最新资讯，目前专注于AI`;
           }
           renderFilters();
           renderArticles();
