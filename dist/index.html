@@ -502,7 +502,7 @@
       <div class="topbar-inner">
         <div class="brand">
           <h1 class="brand-title"><span>&gt;</span> news push</h1>
-          <p class="brand-subtitle">目前专注于AI</p>
+          <p class="brand-subtitle" id="brand-subtitle">目前共有 -- 条信源，专注于AI</p>
         </div>
         <div class="toolbar">
           <a class="toolbar-link" href="./latest.json">
@@ -536,7 +536,6 @@
         <section class="feed">
           <div class="feed-toolbar">
             <div>
-              <h2 class="feed-title">信息流</h2>
               <p class="feed-caption" id="feed-caption">正在读取最近 24 小时的数据…</p>
             </div>
             <label class="search">
@@ -568,6 +567,8 @@
       const searchInput = document.getElementById("search-input");
       const themeToggle = document.getElementById("theme-toggle");
       const themeIcon = document.getElementById("theme-icon");
+      const brandSubtitle = document.getElementById("brand-subtitle");
+      const feedSection = document.querySelector(".feed");
 
       function escapeHtml(value) {
         return String(value || "")
@@ -648,6 +649,39 @@
         });
       }
 
+      function scrollResultsToTop() {
+        if (!feedSection) {
+          return;
+        }
+
+        const targetTop = Math.max(
+          Math.round(feedSection.getBoundingClientRect().top + window.scrollY - 88),
+          0
+        );
+        const startTop = window.scrollY;
+        const destinationTop = startTop > targetTop ? targetTop : startTop;
+        const distance = destinationTop - startTop;
+
+        if (Math.abs(distance) < 8) {
+          window.scrollTo(0, destinationTop);
+          return;
+        }
+
+        const duration = 140;
+        const startedAt = performance.now();
+
+        const tick = (now) => {
+          const progress = Math.min((now - startedAt) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          window.scrollTo(0, Math.round(startTop + distance * eased));
+          if (progress < 1) {
+            requestAnimationFrame(tick);
+          }
+        };
+
+        requestAnimationFrame(tick);
+      }
+
       function renderFilters() {
         const counts = new Map();
 
@@ -678,6 +712,7 @@
             state.sourceFilter = button.dataset.source;
             renderFilters();
             renderArticles();
+            scrollResultsToTop();
           });
         }
       }
@@ -741,6 +776,9 @@
 
           state.articles = articles;
           state.generatedAt = meta && meta.generated_at ? meta.generated_at : "";
+          if (brandSubtitle) {
+            brandSubtitle.textContent = `目前共有 ${formatNumber(meta && meta.source_total ? meta.source_total : 0)} 条信源，专注于AI`;
+          }
           renderFilters();
           renderArticles();
         } catch (error) {
