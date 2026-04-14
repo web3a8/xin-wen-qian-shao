@@ -368,6 +368,17 @@
         font-size: 0.84rem;
       }
 
+      .summary {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 0.92rem;
+        line-height: 1.75;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
       .badge {
         display: inline-flex;
         align-items: center;
@@ -518,7 +529,7 @@
     <main class="page">
       <div class="layout">
         <aside class="nav">
-          <h2 class="nav-title">Sources</h2>
+          <h2 class="nav-title">信息源</h2>
           <div class="nav-list" id="source-filters"></div>
         </aside>
 
@@ -526,7 +537,7 @@
           <div class="feed-toolbar">
             <div>
               <h2 class="feed-title">信息流</h2>
-              <p class="feed-caption" id="feed-caption">正在读取最新数据…</p>
+              <p class="feed-caption" id="feed-caption">正在读取最近 24 小时的数据…</p>
             </div>
             <label class="search">
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -674,7 +685,7 @@
       function renderArticles() {
         const visible = getVisibleArticles();
         const updatedSuffix = state.generatedAt ? ` · 更新于 ${formatDate(state.generatedAt)}` : "";
-        feedCaption.textContent = `共 ${formatNumber(visible.length)} 条，按发布时间展示最新结果${updatedSuffix}。`;
+        feedCaption.textContent = `共 ${formatNumber(visible.length)} 条，按发布时间展示最近 24 小时结果${updatedSuffix}。`;
 
         articleList.innerHTML = visible.length
           ? visible
@@ -693,6 +704,7 @@
                         <span>${escapeHtml(formatDate(article.published_at))}</span>
                         ${domain ? `<span class="domain">${escapeHtml(domain)}</span>` : ""}
                       </div>
+                      ${article.summary && article.summary !== article.title ? `<p class="summary">${escapeHtml(article.summary)}</p>` : ""}
                     </div>
                     <a class="open-link" href="${escapeHtml(article.link)}" target="_blank" rel="noreferrer" aria-label="打开原文">
                       <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
