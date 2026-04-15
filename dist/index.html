@@ -502,7 +502,7 @@
       <div class="topbar-inner">
         <div class="brand">
           <h1 class="brand-title"><span>&gt;</span> news push</h1>
-          <p class="brand-subtitle" id="brand-subtitle">定时从 -- 条信源抓取最新资讯，目前专注于AI</p>
+          <p class="brand-subtitle" id="brand-subtitle">定时从 -- 个信源抓取最新资讯，目前专注于AI</p>
         </div>
         <div class="toolbar">
           <a class="toolbar-link" href="./latest.json">
@@ -776,7 +776,7 @@
           state.articles = articles;
           state.generatedAt = meta && meta.generated_at ? meta.generated_at : "";
           if (brandSubtitle) {
-            brandSubtitle.textContent = `定时从 ${formatNumber(meta && meta.source_total ? meta.source_total : 0)} 条信源抓取最新资讯，目前专注于AI`;
+            brandSubtitle.textContent = `定时从 ${formatNumber(meta && meta.source_total ? meta.source_total : 0)} 个信源抓取最新资讯，目前专注于AI`;
           }
           renderFilters();
           renderArticles();

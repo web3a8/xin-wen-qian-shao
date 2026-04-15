@@ -1,0 +1,868 @@
+{
+  "dataset_id": "2026-04-15T01:11:29.436Z",
+  "generated_at": "2026-04-15T01:11:29.436Z",
+  "topic_count": 13,
+  "topics": [
+    {
+      "topic_id": "5b4a4e3c08237fd4201bf4d7b2c1d585c3c8079c",
+      "topic_key": "llm_research",
+      "title": "LLM Research",
+      "summary": "过去24小时内，围绕 LLM Research 的内容共有 357 篇，来自 14 个来源。重点包括：QA: expand Matrix config scenario coverage；Authorization for LLM Tool Schemas: Formal Model with Noninterference Guarantees [pdf]；A Coding Implementation of Crawl4AI for Web Crawling, Markdown Generation, JavaScript Execution, a…",
+      "why_it_matters": "该主题已经在多个来源交叉出现，说明它不只是单点消息。",
+      "topic_score": 2269,
+      "article_count": 357,
+      "source_count": 14,
+      "ai_deep_count": 159,
+      "freshest_published_at": "2026-04-15T01:07:31.000Z",
+      "signals": [
+        "llm",
+        "large language model",
+        "benchmark",
+        "rag",
+        "inference",
+        "foundation model"
+      ],
+      "source_names": [
+        "Hacker News AI",
+        "Hacker News Ask",
+        "Hacker News LLM",
+        "MIT Technology Review",
+        "MarkTechPost (Playwright)",
+        "OpenClaw Commits",
+        "TechCrunch",
+        "The Hacker News",
+        "V2EX 技术",
+        "arXiv AI"
+      ],
+      "articles": [
+        {
+          "id": "bc71b9c6e73b71539de86be90888cee07f1104a1",
+          "title": "QA: expand Matrix config scenario coverage",
+          "link": "https://github.com/openclaw/openclaw/commit/9463f1c498bdb5b8810b638037a93670cebcfb2a",
+          "summary": "QA: expand Matrix config scenario coverage",
+          "source_name": "OpenClaw Commits",
+          "published_at": "2026-04-15T01:07:31.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 5
+        },
+        {
+          "id": "dbce71853fd65a1312e13e289f48c5e2c5e64c2a",
+          "title": "Authorization for LLM Tool Schemas: Formal Model with Noninterference Guarantees [pdf]",
+          "link": "https://raw.githubusercontent.com/AndyGauge/andygauge.github.io/master/publication/noninterference%20guarantee.pdf",
+          "summary": "Article URL: https://raw.githubusercontent.com/AndyGauge/andygauge.github.io/master/publication/noninterference%20guarantee.pdf Comments URL: https://news.ycombinator.com/item?id=…",
+          "source_name": "Hacker News LLM",
+          "published_at": "2026-04-15T00:41:17.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 12
+        },
+        {
+          "id": "11161b04f5eb697ad6373c588069deb54ca7f5bf",
+          "title": "A Coding Implementation of Crawl4AI for Web Crawling, Markdown Generation, JavaScript Execution, and LLM-Based Structured Extraction",
+          "link": "https://www.marktechpost.com/2026/04/14/a-coding-implementation-of-crawl4ai-for-web-crawling-markdown-generation-javascript-execution-and-llm-based-structured-extraction/",
+          "summary": "In this tutorial, we build a complete and practical Crawl4AI workflow and explore how modern web crawling goes far beyond simply downloading page HTML....",
+          "source_name": "MarkTechPost (Playwright)",
+          "published_at": "2026-04-15T00:39:12.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 17
+        },
+        {
+          "id": "aeff313dd861348a4306535ffdeb51fe775be33a",
+          "title": "The Biggest Advance in AI Since the LLM",
+          "link": "https://cacm.acm.org/blogcacm/the-biggest-advance-in-ai-since-the-llm/",
+          "summary": "Article URL: https://cacm.acm.org/blogcacm/the-biggest-advance-in-ai-since-the-llm/ Comments URL: https://news.ycombinator.com/item?id=47773173 Points: 2 # Comments: 0",
+          "source_name": "Hacker News AI",
+          "published_at": "2026-04-15T00:21:30.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 13
+        },
+        {
+          "id": "d310733ee7ad5e9f63130368746a81afafb6245c",
+          "title": "QA: tighten Matrix substrate coverage",
+          "link": "https://github.com/openclaw/openclaw/commit/3aae0fb16d6077e1a4607e1840080169530bc61f",
+          "summary": "QA: tighten Matrix substrate coverage",
+          "source_name": "OpenClaw Commits",
+          "published_at": "2026-04-15T00:06:08.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 5
+        }
+      ]
+    },
+    {
+      "topic_id": "cc7dc957a13d6a67d8fb93e817abacc558326ebc",
+      "topic_key": "agents_mcp",
+      "title": "AI Agents / MCP",
+      "summary": "过去24小时内，围绕 AI Agents / MCP 的内容共有 103 篇，来自 11 个来源。重点包括：Show HN: An edge MCP file system with a 50ms undo button for AI agents；ci(tests): split agentic node shard into three lanes；Show HN: I built a self-improving autonomous AI agent that runs 24/7。",
+      "why_it_matters": "该主题已经在多个来源交叉出现，说明它不只是单点消息。",
+      "topic_score": 629,
+      "article_count": 103,
+      "source_count": 11,
+      "ai_deep_count": 36,
+      "freshest_published_at": "2026-04-15T01:05:30.000Z",
+      "signals": [
+        "agents",
+        "agentic",
+        "ai agent",
+        "mcp"
+      ],
+      "source_names": [
+        "Cloudflare Blog",
+        "GitHub Blog",
+        "Hacker News AI",
+        "Hacker News Ask",
+        "Hacker News LLM",
+        "Hacker News Show",
+        "OpenClaw Commits",
+        "arXiv AI",
+        "arXiv NLP",
+        "arXiv 机器学习"
+      ],
+      "articles": [
+        {
+          "id": "fb720e7b90b6a3b550aa48db5aa64d1aea6f5c52",
+          "title": "Show HN: An edge MCP file system with a 50ms undo button for AI agents",
+          "link": "https://mcp.undisk.app",
+          "summary": "You can watch an agent destroy a file and instantly revert it in an interactive browser terminal here (no signup): https://mcp.undisk.app/e2b Comments URL: https://news.ycombinato…",
+          "source_name": "Hacker News AI",
+          "published_at": "2026-04-15T01:05:30.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 9
+        },
+        {
+          "id": "08d13f747f2bcd0b9b6f84cdc2c8627932e6675e",
+          "title": "ci(tests): split agentic node shard into three lanes",
+          "link": "https://github.com/openclaw/openclaw/commit/0329ec40db01fff8e24113e819741d07ce0b56fe",
+          "summary": "ci(tests): split agentic node shard into three lanes",
+          "source_name": "OpenClaw Commits",
+          "published_at": "2026-04-14T23:55:41.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 5
+        },
+        {
+          "id": "86748b7783e2528d6e6800525c833a5b0a22d63c",
+          "title": "Show HN: I built a self-improving autonomous AI agent that runs 24/7",
+          "link": "https://hergimuci.gumroad.com/l/ai-agent-blueprint",
+          "summary": "Article URL: https://hergimuci.gumroad.com/l/ai-agent-blueprint Comments URL: https://news.ycombinator.com/item?id=47772707 Points: 1 # Comments: 0",
+          "source_name": "Hacker News AI",
+          "published_at": "2026-04-14T23:18:26.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 9
+        },
+        {
+          "id": "e0177097b1d5ecb0b29127adeafa13eab02f8caf",
+          "title": "BridgeBase – A Quantum-Safe Gateway for AI Agents (ML-KEM-768)",
+          "link": "https://pqc-gateway-production.up.railway.app/",
+          "summary": "Article URL: https://pqc-gateway-production.up.railway.app/ Comments URL: https://news.ycombinator.com/item?id=47772142 Points: 1 # Comments: 0",
+          "source_name": "Hacker News AI",
+          "published_at": "2026-04-14T22:12:11.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 9
+        },
+        {
+          "id": "be6ad703677c7fc7d97f9189921a592b3c6c113b",
+          "title": "Paperasse: Skills for AI agents specializing in French bureaucracy",
+          "link": "https://github.com/romainsimon/paperasse",
+          "summary": "Article URL: https://github.com/romainsimon/paperasse Comments URL: https://news.ycombinator.com/item?id=47771997 Points: 1 # Comments: 1",
+          "source_name": "Hacker News AI",
+          "published_at": "2026-04-14T21:54:56.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 9
+        }
+      ]
+    },
+    {
+      "topic_id": "7cb775c73a6ab9fd232591bf06b107cf08157adc",
+      "topic_key": "multimodal",
+      "title": "Multimodal",
+      "summary": "过去24小时内，围绕 Multimodal 的内容共有 92 篇，来自 4 个来源。重点包括：Audio-Omni: Extending Multi-modal Understanding to Versatile Audio Generation and Editing；Benchmarking Large Vision-Language Models on Fine-Grained Image Tasks: A Comprehensive Evaluation；Semantic-Geometric Dual Compression: Trainin…",
+      "why_it_matters": "该主题已经在多个来源交叉出现，说明它不只是单点消息。",
+      "topic_score": 617,
+      "article_count": 92,
+      "source_count": 4,
+      "ai_deep_count": 47,
+      "freshest_published_at": "2026-04-14T04:00:00.000Z",
+      "signals": [
+        "multimodal",
+        "computer vision"
+      ],
+      "source_names": [
+        "arXiv AI",
+        "arXiv NLP",
+        "arXiv 机器学习",
+        "arXiv 计算机视觉"
+      ],
+      "articles": [
+        {
+          "id": "f920d1720703adb7fadf4f9313917c943f2a76c1",
+          "title": "Audio-Omni: Extending Multi-modal Understanding to Versatile Audio Generation and Editing",
+          "link": "https://arxiv.org/abs/2604.10708",
+          "summary": "arXiv:2604.10708v1 Announce Type: cross Abstract: Recent progress in multimodal models has spurred rapid advances in audio understanding, generation, and editing. However, these c…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 5
+        },
+        {
+          "id": "f7bb7648a1eeb2be0a256c8a0ac096db5b2c72a7",
+          "title": "Benchmarking Large Vision-Language Models on Fine-Grained Image Tasks: A Comprehensive Evaluation",
+          "link": "https://arxiv.org/abs/2504.14988",
+          "summary": "arXiv:2504.14988v3 Announce Type: replace Abstract: Recent advancements in Large Vision-Language Models (LVLMs) have demonstrated remarkable multimodal perception capabilities, ga…",
+          "source_name": "arXiv 计算机视觉",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 6
+        },
+        {
+          "id": "f581d117e6bbca330fd0f957e8b92835055b0a19",
+          "title": "Semantic-Geometric Dual Compression: Training-Free Visual Token Reduction for Ultra-High-Resolution Remote Sensing Understanding",
+          "link": "https://arxiv.org/abs/2604.11122",
+          "summary": "arXiv:2604.11122v1 Announce Type: cross Abstract: Multimodal Large Language Models (MLLMs) have demonstrated immense potential in Earth observation. However, the massive visual to…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 7
+        },
+        {
+          "id": "f26d35a35cd3c89e955ea4976a4915d2d71eeaa2",
+          "title": "Anthropogenic Regional Adaptation in Multimodal Vision-Language Model",
+          "link": "https://arxiv.org/abs/2604.11490",
+          "summary": "arXiv:2604.11490v1 Announce Type: new Abstract: While the field of vision-language (VL) has achieved remarkable success in integrating visual and textual information across multip…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 6
+        },
+        {
+          "id": "f19203983e8f09d8d90fec705fa056aa1a86f5a1",
+          "title": "M$^3$KG-RAG: Multi-hop Multimodal Knowledge Graph-enhanced Retrieval-Augmented Generation",
+          "link": "https://arxiv.org/abs/2512.20136",
+          "summary": "arXiv:2512.20136v3 Announce Type: replace-cross Abstract: Retrieval-Augmented Generation (RAG) has recently been extended to multimodal settings, connecting multimodal large langu…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 13
+        }
+      ]
+    },
+    {
+      "topic_id": "6fa24e99c7c7469d90265d13ebbdf1aaf5aabf4a",
+      "topic_key": "general_ai",
+      "title": "General AI",
+      "summary": "过去24小时内，围绕 General AI 的内容共有 114 篇，来自 13 个来源。重点包括：Show HN: AI connects your health data after a supplement nearly killed me racing；How to See Inside Your AI Model in 3 Lines of Python；AI and reasoning: Are we in danger?。",
+      "why_it_matters": "该主题已经在多个来源交叉出现，说明它不只是单点消息。",
+      "topic_score": 575,
+      "article_count": 114,
+      "source_count": 13,
+      "ai_deep_count": 16,
+      "freshest_published_at": "2026-04-15T00:55:06.000Z",
+      "signals": [],
+      "source_names": [
+        "Ars Technica",
+        "Dev.to",
+        "Hacker News",
+        "Hacker News AI",
+        "Hacker News Ask",
+        "Schneier on Security",
+        "arXiv AI",
+        "arXiv NLP",
+        "arXiv 机器学习",
+        "arXiv 计算机视觉"
+      ],
+      "articles": [
+        {
+          "id": "001e859ed3c503b2a81b8ab5db5f4c468869122b",
+          "title": "Show HN: AI connects your health data after a supplement nearly killed me racing",
+          "link": "https://vitalityaihealth.com",
+          "summary": "Article URL: https://vitalityaihealth.com Comments URL: https://news.ycombinator.com/item?id=47773372 Points: 2 # Comments: 1",
+          "source_name": "Hacker News AI",
+          "published_at": "2026-04-15T00:55:06.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 8
+        },
+        {
+          "id": "87a0ba05448ca193cb065f035e5578977fca1be0",
+          "title": "How to See Inside Your AI Model in 3 Lines of Python",
+          "link": "https://dev.to/staffman76/how-to-see-inside-your-ai-model-in-3-lines-of-python-1cbd",
+          "summary": "I built a tool that makes any PyTorch model inspectable with one line of code. No retraining, no architecture changes, no extra memory. Here's how it works. The Problem You train…",
+          "source_name": "Dev.to",
+          "published_at": "2026-04-15T00:52:21.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 5
+        },
+        {
+          "id": "603ed5155ca91c5989b5c04865ca90dc1ab25760",
+          "title": "AI and reasoning: Are we in danger?",
+          "link": "https://www.johndcook.com/blog/2026/04/14/ai-and-reasoning-are-we-in-danger/",
+          "summary": "The post AI and reasoning: Are we in danger? first appeared on John D. Cook .",
+          "source_name": "johndcook.com",
+          "published_at": "2026-04-15T00:50:22.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 6
+        },
+        {
+          "id": "9d8663030bde35f02f5247576373030e444f839c",
+          "title": "Nvidia should be 'shaking in their boots' as quantum computing battles AI GPUs",
+          "link": "https://finance.yahoo.com/news/d-wave-ceo-says-nvidia-should-be-shaking-in-their-boots-as-quantum-computing-battles-ai-gpus-180249321.html",
+          "summary": "Article URL: https://finance.yahoo.com/news/d-wave-ceo-says-nvidia-should-be-shaking-in-their-boots-as-quantum-computing-battles-ai-gpus-180249321.html Comments URL: https://news.…",
+          "source_name": "Hacker News AI",
+          "published_at": "2026-04-15T00:41:55.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 9
+        },
+        {
+          "id": "caecfe4442ec98b693dddc3beb40db77998c911a",
+          "title": "20CM闪崩→20CM涨停→再涨停！300561三个交易日经历了什么？",
+          "link": "https://www.yicai.com/video/103133212.html",
+          "summary": "4月9日尾盘，*ST 汇科（原汇金科技）突然上演离奇“闪崩”，20CM跌停直接把近2万名股东拽入“地狱模式”；谁知次日（4月10日）便巨量封单“一字板”涨停，今天（4月13日）再度以T字涨停强势收尾。短短三个交易日，股价从跌停到连续涨停极限切换，这场“过山车”的背后，藏着怎样的反转逻辑？ 熟悉 A 股的投资者一定对*ST汇科的前身不陌生——它曾是不折不扣的…",
+          "source_name": "第一财经最新",
+          "published_at": "2026-04-15T00:30:46.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        }
+      ]
+    },
+    {
+      "topic_id": "1fa482dac0686c24943cb76f313b915ff8cdce8a",
+      "topic_key": "anthropic_claude",
+      "title": "Anthropic / Claude",
+      "summary": "过去24小时内，围绕 Anthropic / Claude 的内容共有 42 篇，来自 19 个来源。重点包括：OpenAI推出Cyber紧咬Anthropic，AI漏洞挖掘能力引监管层忧虑；codex free 的速率今天貌似变快了？；佬，github pro+套餐咨询，有经验的佬帮下我。",
+      "why_it_matters": "该主题已经在多个来源交叉出现，说明它不只是单点消息。",
+      "topic_score": 283,
+      "article_count": 42,
+      "source_count": 19,
+      "ai_deep_count": 11,
+      "freshest_published_at": "2026-04-15T01:09:01.000Z",
+      "signals": [
+        "claude",
+        "anthropic",
+        "claude code"
+      ],
+      "source_names": [
+        "Ars Technica",
+        "Dev.to",
+        "Hacker News",
+        "Hacker News AI",
+        "Hacker News Ask",
+        "Hacker News LLM",
+        "Hacker News Show",
+        "IT之家",
+        "LinuxDo 最新话题",
+        "Readhub 热门"
+      ],
+      "articles": [
+        {
+          "id": "8df855376d89f8ca01b2012b9fb0b7e81408df53",
+          "title": "OpenAI推出Cyber紧咬Anthropic，AI漏洞挖掘能力引监管层忧虑",
+          "link": "https://readhub.cn/topic/8sKjonXlcSM",
+          "summary": "OpenAI允许选定用户群体访问全新人工智能模型GPT - 5.4 - Cyber，该模型旨在发现软件问题以利修复。一周前，竞争对手Anthropic发布人工智能工具Mythos，可识别和利用系统及浏览器漏洞，引发金融机构和政府部门担忧，上周会议警告华尔街领导人严肃对待。OpenAI拟增加早期访问计划参与者，先让数百人测试新模型，未来几周扩大到数千人。 媒…",
+          "source_name": "Readhub 热门",
+          "published_at": "2026-04-15T01:09:01.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 8
+        },
+        {
+          "id": "af4a6ade5c34b5d3f2dc6c43ac17a81b8db830c1",
+          "title": "codex free 的速率今天貌似变快了？",
+          "link": "https://linux.do/t/topic/1968999",
+          "summary": "不确定是把agent从claude code换到codex的原因，还是速度真的变快了 3 个帖子 - 3 位参与者 阅读完整话题",
+          "source_name": "LinuxDo 最新话题",
+          "published_at": "2026-04-15T01:02:44.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 6
+        },
+        {
+          "id": "8a9fbab1570e83a150338030dc195ac757a1b6b9",
+          "title": "佬，github pro+套餐咨询，有经验的佬帮下我",
+          "link": "https://linux.do/t/topic/1968971",
+          "summary": "佬，github pro+套餐咨询，有经验的佬帮下我。 1他这个请求次数500次，是指的是我问一个问题就算1次吗，发起请求就算1次吗？ 2.那如果不同模型呢，一会用gpt，一会用claude，他怎么算？次数累加吗？ 3.response不算次数咯？ 4.还有就是他的gpt5.4能调xhigh模式吗？ 5.买3个账号够一个团队（4-5）个人用吗？ 6.能统一…",
+          "source_name": "LinuxDo 最新话题",
+          "published_at": "2026-04-15T00:57:47.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "22a3f066dc9a0035e16b1574e9a542dd7437d103",
+          "title": "有哪些中转站能有claude，codex用，正规能开fp，价格适中",
+          "link": "https://linux.do/t/topic/1968935",
+          "summary": "考虑考虑看看能不能找公司报销，找找看有没有这样的平台，自己搓的中转站用free账号感觉吃紧了 3 个帖子 - 3 位参与者 阅读完整话题",
+          "source_name": "LinuxDo 最新话题",
+          "published_at": "2026-04-15T00:52:20.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "2ffb7e4f2dac61cf88ea8de662b92448f8ddac4c",
+          "title": "Claude中文字体修复插件（Chrome拓展，支持Windows，Mac）",
+          "link": "https://linux.do/t/topic/1968894",
+          "summary": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色…",
+          "source_name": "LinuxDo 最新话题",
+          "published_at": "2026-04-15T00:46:44.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        }
+      ]
+    },
+    {
+      "topic_id": "4e5193ea72d137455621741c2feecff07f08296c",
+      "topic_key": "openai_gpt",
+      "title": "OpenAI / GPT",
+      "summary": "过去24小时内，围绕 OpenAI / GPT 的内容共有 16 篇，来自 11 个来源。重点包括：Cursor的cli有点cc那味了；“AI 医生”并不可靠，研究称五款头部 AI 平台半数医学建议存在误导性；谷歌 Chrome 浏览器新增 AI Skills 功能，支持保存复用提示词。",
+      "why_it_matters": "该主题已经在多个来源交叉出现，说明它不只是单点消息。",
+      "topic_score": 121,
+      "article_count": 16,
+      "source_count": 11,
+      "ai_deep_count": 4,
+      "freshest_published_at": "2026-04-15T01:03:20.000Z",
+      "signals": [
+        "gpt",
+        "openai",
+        "chatgpt",
+        "codex"
+      ],
+      "source_names": [
+        "Hacker News",
+        "IT之家",
+        "LinuxDo 最新话题",
+        "OpenClaw Releases",
+        "Readhub 热门",
+        "The Verge",
+        "V2EX 技术",
+        "arXiv AI",
+        "arXiv 机器学习",
+        "arXiv 计算机视觉"
+      ],
+      "articles": [
+        {
+          "id": "ef0cf0a20dca42430cceff77d9b708a427223167",
+          "title": "Cursor的cli有点cc那味了",
+          "link": "https://linux.do/t/topic/1969007",
+          "summary": "刚刚体验，看起来挺像cc，但是读文件什么的还是像codex那样用powershell 1 个帖子 - 1 位参与者 阅读完整话题",
+          "source_name": "LinuxDo 最新话题",
+          "published_at": "2026-04-15T01:03:20.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "d9bd732cdc9117051e1adb1ae4060a964edc7b36",
+          "title": "“AI 医生”并不可靠，研究称五款头部 AI 平台半数医学建议存在误导性",
+          "link": "https://www.ithome.com/0/939/189.htm",
+          "summary": "IT之家 4 月 15 日消息，北京时间今天（4 月 15 日）早间，据彭博社报道，最新研究指出，AI 聊天机器人在约一半情况下会提供存在问题的医疗建议。 来自美国、加拿大和英国的研究团队对五款主流平台 ChatGPT、Gemini、Meta AI、Grok 和 DeepSeek 进行了测试。他们围绕五类健康主题提出 10 个问题。本周发表在《BMJ Op…",
+          "source_name": "IT之家",
+          "published_at": "2026-04-15T00:30:53.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 6
+        },
+        {
+          "id": "2e1c8ad95330b39e18c4be2ad5ca470606037e14",
+          "title": "谷歌 Chrome 浏览器新增 AI Skills 功能，支持保存复用提示词",
+          "link": "https://www.ithome.com/0/939/166.htm",
+          "summary": "IT之家 4 月 15 日消息，谷歌当地时间周二宣布，将为其 Chrome 浏览器新增更多人工智能功能。该公司将推出一项名为 Skills（技能）的新功能，允许用户保存并重复使用自己常用的 AI 提示词，这些提示词可在不同网页间通用，无需重复输入。 该功能与谷歌将 Gemini AI 集成到 Chrome 浏览器的举措相呼应。与此同时，浏览器生态也迎来了一…",
+          "source_name": "IT之家",
+          "published_at": "2026-04-14T22:48:13.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 8
+        },
+        {
+          "id": "bec0c720c1cbc65788a61444dc4ea61e0f2b451e",
+          "title": "Trusted access for the next era of cyber defense",
+          "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+          "summary": "Comments",
+          "source_name": "Hacker News",
+          "published_at": "2026-04-14T20:07:20.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "134a20ecb28ec0b7ce746ccb73826c441ab48036",
+          "title": "The attacks on Sam Altman are a warning for the AI world",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/911778/ai-violence-sam-altman-home",
+          "summary": "Before allegedly throwing a Molotov cocktail at OpenAI CEO Sam Altman's home, the 20-year-old accused attacker wrote about his fear that the AI race would cause humans to go extin…",
+          "source_name": "The Verge",
+          "published_at": "2026-04-14T19:20:05.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 5
+        }
+      ]
+    },
+    {
+      "topic_id": "6a62703e7c4ce92be96db85bbbd263acc0015bb7",
+      "topic_key": "google_gemini",
+      "title": "Google / Gemini / DeepMind",
+      "summary": "过去24小时内，围绕 Google / Gemini / DeepMind 的内容共有 7 篇，来自 4 个来源。重点包括：Google introduces \"Skills\" in Chrome to make Gemini prompts instantly reusable；Turn your best AI prompts into one-click tools in Chrome；Google adds AI Skills to Chrome to help you save favorite workflows。",
+      "why_it_matters": "该主题已经在多个来源交叉出现，说明它不只是单点消息。",
+      "topic_score": 57,
+      "article_count": 7,
+      "source_count": 4,
+      "ai_deep_count": 3,
+      "freshest_published_at": "2026-04-14T17:00:37.000Z",
+      "signals": [
+        "gemini",
+        "google ai"
+      ],
+      "source_names": [
+        "Ars Technica",
+        "Google AI Blog",
+        "TechCrunch",
+        "arXiv 计算机视觉"
+      ],
+      "articles": [
+        {
+          "id": "59f21e61149ccf0faf073267f86bb7d03ff129eb",
+          "title": "Google introduces \"Skills\" in Chrome to make Gemini prompts instantly reusable",
+          "link": "https://arstechnica.com/google/2026/04/google-introduces-skills-in-chrome-to-make-gemini-prompts-instantly-reusable/",
+          "summary": "You can save custom prompts you find useful or grab a premade Skill from Google's library.",
+          "source_name": "Ars Technica",
+          "published_at": "2026-04-14T17:00:37.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 10
+        },
+        {
+          "id": "4ac5bc463de662f7470a00bac1680e9e5743e228",
+          "title": "Turn your best AI prompts into one-click tools in Chrome",
+          "link": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+          "summary": "Turn your best AI prompts into one-click tools in Chrome",
+          "source_name": "Google AI Blog",
+          "published_at": "2026-04-14T17:00:00.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 13
+        },
+        {
+          "id": "2da129696970fa2b35ebe6c5ff88135c4c8934c5",
+          "title": "Google adds AI Skills to Chrome to help you save favorite workflows",
+          "link": "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/",
+          "summary": "Google is adding “Skills” to Chrome, letting users save and reuse AI prompts across websites. The feature builds on Gemini’s browser integration.",
+          "source_name": "TechCrunch",
+          "published_at": "2026-04-14T17:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 6
+        },
+        {
+          "id": "148b4369a175851c869549f628c316f1dbab61b7",
+          "title": "Google brings its Gemini Personal Intelligence feature to India",
+          "link": "https://techcrunch.com/2026/04/14/google-brings-its-gemini-personal-intelligence-feature-to-india/",
+          "summary": "The feature lets users connect Google accounts like Gmail and Photos to get personalized answers.",
+          "source_name": "TechCrunch",
+          "published_at": "2026-04-14T14:48:34.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 5
+        },
+        {
+          "id": "d6460099a4123c9efe0e362119ccf2bf4158a252",
+          "title": "Bringing people together at AI for the Economy Forum",
+          "link": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
+          "summary": "Bringing people together at AI for the Economy Forum",
+          "source_name": "Google AI Blog",
+          "published_at": "2026-04-14T09:00:00.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 11
+        }
+      ]
+    },
+    {
+      "topic_id": "6a5d14ddc1bce0234388304581a1eff69d43c531",
+      "topic_key": "reasoning_models",
+      "title": "Reasoning Models",
+      "summary": "过去24小时内，围绕 Reasoning Models 的内容共有 7 篇，来自 2 个来源。重点包括：AI Achieves a Perfect LSAT Score；Conflicts Make Large Reasoning Models Vulnerable to Attacks；Challenging the Boundaries of Reasoning: An Olympiad-Level Math Benchmark for Large Language Models。",
+      "why_it_matters": "该主题命中了多条高置信 AI 信号，适合进入优先阅读队列。",
+      "topic_score": 45,
+      "article_count": 7,
+      "source_count": 2,
+      "ai_deep_count": 2,
+      "freshest_published_at": "2026-04-14T04:00:00.000Z",
+      "signals": [
+        "reasoning model"
+      ],
+      "source_names": [
+        "arXiv AI",
+        "arXiv NLP"
+      ],
+      "articles": [
+        {
+          "id": "f7dfb68ce8242653dd8631a3825418590e828dd6",
+          "title": "AI Achieves a Perfect LSAT Score",
+          "link": "https://arxiv.org/abs/2604.10034",
+          "summary": "arXiv:2604.10034v1 Announce Type: new Abstract: This paper reports the first documented instance of a language model achieving a perfect score on an officially disclosed Law Schoo…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "d9b9708fde80ff22e54b0109d94255a243e7682d",
+          "title": "Conflicts Make Large Reasoning Models Vulnerable to Attacks",
+          "link": "https://arxiv.org/abs/2604.09750",
+          "summary": "arXiv:2604.09750v1 Announce Type: cross Abstract: Large Reasoning Models (LRMs) have achieved remarkable performance across diverse domains, yet their decision-making under confli…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "b26d23b60f33bd940ee2dfa5f02c702008e16c85",
+          "title": "Challenging the Boundaries of Reasoning: An Olympiad-Level Math Benchmark for Large Language Models",
+          "link": "https://arxiv.org/abs/2503.21380",
+          "summary": "arXiv:2503.21380v3 Announce Type: replace Abstract: The rapid advancement of large reasoning models has saturated existing math benchmarks, underscoring the urgent need for more c…",
+          "source_name": "arXiv NLP",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 9
+        },
+        {
+          "id": "a83a50165c7ad1a59ff3f03165ae8b71d19e5f76",
+          "title": "SWE-AGILE: A Software Agent Framework for Efficiently Managing Dynamic Reasoning Context",
+          "link": "https://arxiv.org/abs/2604.11716",
+          "summary": "arXiv:2604.11716v1 Announce Type: new Abstract: Prior representative ReAct-style approaches in autonomous Software Engineering (SWE) typically lack the explicit System-2 reasoning…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "6eb473bc843357109dde114cccede8c79440b8b6",
+          "title": "MEMENTO: Teaching LLMs to Manage Their Own Context",
+          "link": "https://arxiv.org/abs/2604.09852",
+          "summary": "arXiv:2604.09852v1 Announce Type: new Abstract: Reasoning models think in long, unstructured streams with no mechanism for compressing or organizing their own intermediate state.…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 7
+        }
+      ]
+    },
+    {
+      "topic_id": "be8109f07b1ad5a7b968403ab68305e860eb44af",
+      "topic_key": "open_source_models",
+      "title": "Open-source Models",
+      "summary": "过去24小时内，围绕 Open-source Models 的内容共有 5 篇，来自 3 个来源。重点包括：CapyMOA: Efficient Machine Learning for Data Streams and Online Continual Learning in Python；Immunizing 3D Gaussian Generative Models Against Unauthorized Fine-Tuning via Attribute-Space Traps；FREE-Switch: Frequency-based Dyn…",
+      "why_it_matters": "该主题已经在多个来源交叉出现，说明它不只是单点消息。",
+      "topic_score": 36,
+      "article_count": 5,
+      "source_count": 3,
+      "ai_deep_count": 1,
+      "freshest_published_at": "2026-04-14T04:00:00.000Z",
+      "signals": [
+        "open-source",
+        "weights"
+      ],
+      "source_names": [
+        "arXiv AI",
+        "arXiv 机器学习",
+        "arXiv 计算机视觉"
+      ],
+      "articles": [
+        {
+          "id": "d36aaa62a0bb3cd177fc7ab408a1873a7598f9bf",
+          "title": "CapyMOA: Efficient Machine Learning for Data Streams and Online Continual Learning in Python",
+          "link": "https://arxiv.org/abs/2502.07432",
+          "summary": "arXiv:2502.07432v2 Announce Type: replace Abstract: CapyMOA is an open-source Python library for efficient machine learning on data streams and online continual learning. It provi…",
+          "source_name": "arXiv 机器学习",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "cf227ba95f2742ce2782bd2da9ababa872fdc127",
+          "title": "Immunizing 3D Gaussian Generative Models Against Unauthorized Fine-Tuning via Attribute-Space Traps",
+          "link": "https://arxiv.org/abs/2604.09688",
+          "summary": "arXiv:2604.09688v1 Announce Type: new Abstract: Recent large-scale generative models enable high-quality 3D synthesis. However, the public accessibility of pre-trained weights int…",
+          "source_name": "arXiv 计算机视觉",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "c98d9714580cff90ec447626e43fc04399ca710f",
+          "title": "FREE-Switch: Frequency-based Dynamic LoRA Switch for Style Transfer",
+          "link": "https://arxiv.org/abs/2604.10023",
+          "summary": "arXiv:2604.10023v1 Announce Type: cross Abstract: With the growing availability of open-sourced adapters trained on the same diffusion backbone for diverse scenes and objects, com…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "6e2f66b5d31889f779d5299009d13d579b4ce865",
+          "title": "Fairboard: a quantitative framework for equity assessment of healthcare models",
+          "link": "https://arxiv.org/abs/2604.09656",
+          "summary": "arXiv:2604.09656v1 Announce Type: cross Abstract: Despite there now being more than 1,000 FDA-authorised AI medical devices, formal equity assessments -- whether model performance…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "03aa226e49957035f3b3e3ac6b03e4ad0d2f3b1e",
+          "title": "WebLLM: A High-Performance In-Browser LLM Inference Engine",
+          "link": "https://arxiv.org/abs/2412.15803",
+          "summary": "arXiv:2412.15803v2 Announce Type: replace-cross Abstract: Advancements in large language models (LLMs) have unlocked remarkable capabilities. While deploying these models typicall…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 13
+        }
+      ]
+    },
+    {
+      "topic_id": "e92bc6ff6384c2f2b00cf4e9e7ef8e5ca867cb06",
+      "topic_key": "meta_llama",
+      "title": "Meta / Llama",
+      "summary": "过去24小时内，围绕 Meta / Llama 的内容共有 2 篇，来自 2 个来源。重点包括：SmileyLlama: Modifying Large Language Models for Directed Chemical Space Exploration；Back to the Barn with LLAMAs: Evolving Pretrained LLM Backbones in Finetuning Vision Language Models。",
+      "why_it_matters": "该主题命中了多条高置信 AI 信号，适合进入优先阅读队列。",
+      "topic_score": 25,
+      "article_count": 2,
+      "source_count": 2,
+      "ai_deep_count": 2,
+      "freshest_published_at": "2026-04-14T04:00:00.000Z",
+      "signals": [
+        "llama"
+      ],
+      "source_names": [
+        "arXiv AI",
+        "arXiv 机器学习"
+      ],
+      "articles": [
+        {
+          "id": "713c45c477e5a9b389d73e97a3742a22dad4b5be",
+          "title": "SmileyLlama: Modifying Large Language Models for Directed Chemical Space Exploration",
+          "link": "https://arxiv.org/abs/2409.02231",
+          "summary": "arXiv:2409.02231v5 Announce Type: replace-cross Abstract: We show that large language model (LLMs) can be transformed via supervised fine-tuning (SFT) of engineered prompts into S…",
+          "source_name": "arXiv 机器学习",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 13
+        },
+        {
+          "id": "33a46516a4032f157a4f5590c714dccd72a59402",
+          "title": "Back to the Barn with LLAMAs: Evolving Pretrained LLM Backbones in Finetuning Vision Language Models",
+          "link": "https://arxiv.org/abs/2604.10985",
+          "summary": "arXiv:2604.10985v1 Announce Type: new Abstract: Vision-Language Models (VLMs) have rapidly advanced by leveraging powerful pre-trained Large Language Models (LLMs) as core reasoni…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 14
+        }
+      ]
+    },
+    {
+      "topic_id": "61e7a9a44ec34ad47c761aa2a4bff704a2b82175",
+      "topic_key": "deepseek",
+      "title": "DeepSeek",
+      "summary": "过去24小时内，围绕 DeepSeek 的内容共有 3 篇，来自 2 个来源。重点包括：月薪3万，去内蒙草原给DeepSeek守机房；Solving Physics Olympiad via Reinforcement Learning on Physics Simulators；Agentic Application in Power Grid Static Analysis: Automatic Code Generation and Error Correction。",
+      "why_it_matters": "该主题目前主要由 deepseek 等信号触发，适合后续继续观察。",
+      "topic_score": 24,
+      "article_count": 3,
+      "source_count": 2,
+      "ai_deep_count": 1,
+      "freshest_published_at": "2026-04-14T10:35:06.000Z",
+      "signals": [
+        "deepseek"
+      ],
+      "source_names": [
+        "arXiv AI",
+        "华尔街见闻最热"
+      ],
+      "articles": [
+        {
+          "id": "6d495ca35550e5aa7ffdccfb75ea71701f1e4671",
+          "title": "月薪3万，去内蒙草原给DeepSeek守机房",
+          "link": "https://wallstreetcn.com/articles/3769935",
+          "summary": "月薪30K，去草原给DeepSeek运维机房。 深度求索放出新的招聘岗位，这次不招算法工程师，也不招大模型研究员。 而是数据中心高级运维工程师、数据中心高级交付经理。 划重点了，“负责数据中心从立项、建设、交付至运营的全流程项目管理”。 这家以“低成本算法奇迹”著称的公司，突然转向最重的资产运营。 过去面对算力受限的现实，DeepSeek没有坐等更好的硬件…",
+          "source_name": "华尔街见闻最热",
+          "published_at": "2026-04-14T10:35:06.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 4
+        },
+        {
+          "id": "bf5f567ecf235cadc872b4eaf2cd03bce11de92a",
+          "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
+          "link": "https://arxiv.org/abs/2604.11805",
+          "summary": "arXiv:2604.11805v1 Announce Type: cross Abstract: We have witnessed remarkable advances in LLM reasoning capabilities with the advent of DeepSeek-R1. However, much of this progres…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 6
+        },
+        {
+          "id": "9770e1d28b16acf3cfdcb08918ac7ebddd96da46",
+          "title": "Agentic Application in Power Grid Static Analysis: Automatic Code Generation and Error Correction",
+          "link": "https://arxiv.org/abs/2604.09995",
+          "summary": "arXiv:2604.09995v1 Announce Type: cross Abstract: This paper introduces an LLM agent that automates power grid static analysis by converting natural language into MATPOWER scripts…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 9
+        }
+      ]
+    },
+    {
+      "topic_id": "f751b8828ef23efd613b30602303a90e4e09e42d",
+      "topic_key": "qwen",
+      "title": "Qwen",
+      "summary": "过去24小时内，围绕 Qwen 的内容共有 2 篇，来自 2 个来源。重点包括：One Layer, +12%: What 667 Configs Reveal About Small LLM Anatomy；Tuning Qwen2.5-VL to Improve Its Web Interaction Skills。",
+      "why_it_matters": "该主题目前主要由 qwen 等信号触发，适合后续继续观察。",
+      "topic_score": 20,
+      "article_count": 2,
+      "source_count": 2,
+      "ai_deep_count": 1,
+      "freshest_published_at": "2026-04-14T21:54:05.000Z",
+      "signals": [
+        "qwen"
+      ],
+      "source_names": [
+        "Hacker News LLM",
+        "arXiv AI"
+      ],
+      "articles": [
+        {
+          "id": "8cd0d985c73253e11543d8aa4b5628fbd1f4535e",
+          "title": "One Layer, +12%: What 667 Configs Reveal About Small LLM Anatomy",
+          "link": "https://austinsnerdythings.com/2026/04/14/rys-layer-duplication-qwen3-4b/",
+          "summary": "Article URL: https://austinsnerdythings.com/2026/04/14/rys-layer-duplication-qwen3-4b/ Comments URL: https://news.ycombinator.com/item?id=47771990 Points: 2 # Comments: 0",
+          "source_name": "Hacker News LLM",
+          "published_at": "2026-04-14T21:54:05.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 13
+        },
+        {
+          "id": "75627fd5e5db38f9e30d33f3668c6192b39d7989",
+          "title": "Tuning Qwen2.5-VL to Improve Its Web Interaction Skills",
+          "link": "https://arxiv.org/abs/2604.09571",
+          "summary": "arXiv:2604.09571v1 Announce Type: cross Abstract: Recent advances in vision-language models (VLMs) have sparked growing interest in using them to automate web tasks, yet their fea…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_candidate",
+          "ai_score": 5
+        }
+      ]
+    },
+    {
+      "topic_id": "62a1d949c77deb36d6c0058e7656bb67f3e6319a",
+      "topic_key": "coding_agents",
+      "title": "Coding Agents",
+      "summary": "过去24小时内，围绕 Coding Agents 的内容共有 1 篇，来自 1 个来源。重点包括：Characterizing Performance-Energy Trade-offs of Large Language Models in Multi-Request Workflows。",
+      "why_it_matters": "该主题目前主要由 copilot 等信号触发，适合后续继续观察。",
+      "topic_score": 13,
+      "article_count": 1,
+      "source_count": 1,
+      "ai_deep_count": 1,
+      "freshest_published_at": "2026-04-14T04:00:00.000Z",
+      "signals": [
+        "copilot"
+      ],
+      "source_names": [
+        "arXiv AI"
+      ],
+      "articles": [
+        {
+          "id": "7115e01285710ca24f3fe2b9a050c0a294e4b30a",
+          "title": "Characterizing Performance-Energy Trade-offs of Large Language Models in Multi-Request Workflows",
+          "link": "https://arxiv.org/abs/2604.09611",
+          "summary": "arXiv:2604.09611v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly used in applications forming multi-request workflows like document summarization, s…",
+          "source_name": "arXiv AI",
+          "published_at": "2026-04-14T04:00:00.000Z",
+          "ai_label": "ai_deep",
+          "ai_score": 11
+        }
+      ]
+    }
+  ]
+}
