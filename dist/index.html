@@ -249,122 +249,6 @@
         overflow: hidden;
       }
 
-      .focus {
-        padding: 22px 24px 20px;
-        border-bottom: 1px solid var(--line);
-        display: grid;
-        gap: 18px;
-      }
-
-      .focus[hidden] {
-        display: none;
-      }
-
-      .section-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 12px;
-        margin-bottom: 12px;
-      }
-
-      .section-title {
-        margin: 0;
-        font-size: 0.96rem;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-      }
-
-      .brief-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 14px;
-      }
-
-      .brief-card {
-        display: block;
-        border: 1px solid var(--line);
-        border-radius: 20px;
-        background: var(--panel-soft);
-        padding: 16px 16px 15px;
-        transition: border-color 0.18s ease, background-color 0.18s ease, transform 0.18s ease;
-      }
-
-      .brief-card:hover {
-        border-color: var(--accent-line);
-        background: color-mix(in srgb, var(--accent-soft) 36%, var(--panel-soft));
-        transform: translateY(-1px);
-      }
-
-      .brief-card-top {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 12px;
-        margin-bottom: 10px;
-      }
-
-      .brief-card-title {
-        margin: 0;
-        font-size: 0.98rem;
-        font-weight: 700;
-        line-height: 1.5;
-        letter-spacing: -0.01em;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
-
-      .brief-card-summary {
-        margin: 0;
-        color: var(--muted);
-        font-size: 0.9rem;
-        line-height: 1.72;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
-
-      .brief-card-meta {
-        margin-top: 12px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        flex-wrap: wrap;
-        color: var(--muted);
-        font-size: 0.8rem;
-      }
-
-      .topic-strip {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-      }
-
-      .topic-chip {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        min-height: 36px;
-        padding: 0 12px;
-        border-radius: 999px;
-        border: 1px solid var(--line);
-        background: var(--panel-soft);
-        color: var(--text);
-      }
-
-      .topic-chip-name {
-        font-size: 0.88rem;
-        font-weight: 600;
-      }
-
-      .topic-chip-count {
-        color: var(--muted);
-        font-size: 0.8rem;
-      }
-
       .feed-toolbar {
         padding: 22px 24px;
         border-bottom: 1px solid var(--line);
@@ -593,14 +477,6 @@
           flex-direction: column;
         }
 
-        .focus {
-          padding: 18px 16px;
-        }
-
-        .brief-grid {
-          grid-template-columns: 1fr;
-        }
-
         .search {
           width: 100%;
           flex-basis: auto;
@@ -657,22 +533,6 @@
         </aside>
 
         <section class="feed">
-          <div class="focus" id="ai-focus" hidden>
-            <section id="ai-brief-section" hidden>
-              <div class="section-header">
-                <h2 class="section-title">AI 重点</h2>
-              </div>
-              <div class="brief-grid" id="ai-brief-list"></div>
-            </section>
-
-            <section id="ai-topics-section" hidden>
-              <div class="section-header">
-                <h2 class="section-title">AI 主题</h2>
-              </div>
-              <div class="topic-strip" id="ai-topic-list"></div>
-            </section>
-          </div>
-
           <div class="feed-toolbar">
             <div>
               <p class="feed-caption" id="feed-caption">正在读取最近 24 小时的数据…</p>
@@ -695,8 +555,6 @@
     <script>
       const state = {
         articles: [],
-        aiBrief: [],
-        aiTopics: [],
         sourceFilter: "全部",
         query: "",
         generatedAt: ""
@@ -710,11 +568,6 @@
       const themeIcon = document.getElementById("theme-icon");
       const brandSubtitle = document.getElementById("brand-subtitle");
       const feedSection = document.querySelector(".feed");
-      const aiFocus = document.getElementById("ai-focus");
-      const aiBriefSection = document.getElementById("ai-brief-section");
-      const aiBriefList = document.getElementById("ai-brief-list");
-      const aiTopicsSection = document.getElementById("ai-topics-section");
-      const aiTopicList = document.getElementById("ai-topic-list");
 
       function escapeHtml(value) {
         return String(value || "")
@@ -795,14 +648,6 @@
         });
       }
 
-      function trimText(value, limit = 140) {
-        const normalized = String(value || "").trim();
-        if (normalized.length <= limit) {
-          return normalized;
-        }
-        return normalized.slice(0, limit - 1).trimEnd() + "…";
-      }
-
       function scrollResultsToTop() {
         if (!feedSection) {
           return;
@@ -845,7 +690,7 @@
 
         const filterNames = [
           ["全部", state.articles.length],
-          ...[...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 18)
+          ...[...counts.entries()].sort((a, b) => b[1] - a[1])
         ];
 
         sourceFilters.innerHTML = filterNames
@@ -869,59 +714,6 @@
             scrollResultsToTop();
           });
         }
-      }
-
-      function renderAiBrief() {
-        if (!aiFocus || !aiBriefSection || !aiBriefList) {
-          return;
-        }
-
-        const topics = Array.isArray(state.aiBrief) ? state.aiBrief : [];
-        if (!topics.length) {
-          aiBriefSection.hidden = true;
-          return;
-        }
-
-        aiBriefSection.hidden = false;
-        aiBriefList.innerHTML = topics.slice(0, 4).map((topic) => {
-          const topArticle = topic.top_article || {};
-          const href = topArticle.link || "#";
-          const summary = trimText(topic.summary || "", 150);
-          const articleCount = formatNumber(topic.article_count || 0);
-          const sourceCount = formatNumber(topic.source_count || 0);
-          return `
-            <a class="brief-card" href="${escapeHtml(href)}" target="_blank" rel="noreferrer">
-              <div class="brief-card-top">
-                <h3 class="brief-card-title">${escapeHtml(topic.title || "")}</h3>
-              </div>
-              <p class="brief-card-summary">${escapeHtml(summary)}</p>
-              <div class="brief-card-meta">
-                <span class="badge">${articleCount} 条</span>
-                <span>${sourceCount} 个来源</span>
-              </div>
-            </a>
-          `;
-        }).join("");
-      }
-
-      function renderAiTopics() {
-        if (!aiFocus || !aiTopicsSection || !aiTopicList) {
-          return;
-        }
-
-        const topics = Array.isArray(state.aiTopics) ? state.aiTopics : [];
-        if (!topics.length) {
-          aiTopicsSection.hidden = true;
-          return;
-        }
-
-        aiTopicsSection.hidden = false;
-        aiTopicList.innerHTML = topics.slice(0, 10).map((topic) => `
-          <div class="topic-chip">
-            <span class="topic-chip-name">${escapeHtml(topic.title || "")}</span>
-            <span class="topic-chip-count">${formatNumber(topic.article_count || 0)}</span>
-          </div>
-        `).join("");
       }
 
       function renderArticles() {
@@ -966,10 +758,6 @@
             fetch("./meta.json", { cache: "no-store" }),
             fetch("./latest-lite.json", { cache: "no-store" })
           ]);
-          const [aiBriefResponse, aiTopicsResponse] = await Promise.allSettled([
-            fetch("./ai-brief.json", { cache: "no-store" }),
-            fetch("./ai-topics.json", { cache: "no-store" })
-          ]);
 
           if (!metaResponse.ok || !latestLiteResponse.ok) {
             throw new Error("数据文件读取失败");
@@ -977,14 +765,6 @@
 
           const meta = await metaResponse.json();
           const latestLite = await latestLiteResponse.json();
-          const aiBrief =
-            aiBriefResponse.status === "fulfilled" && aiBriefResponse.value.ok
-              ? await aiBriefResponse.value.json()
-              : { topics: [] };
-          const aiTopics =
-            aiTopicsResponse.status === "fulfilled" && aiTopicsResponse.value.ok
-              ? await aiTopicsResponse.value.json()
-              : { topics: [] };
           const articles = Array.isArray(latestLite.articles) ? latestLite.articles.slice() : [];
 
           articles.sort((left, right) => {
@@ -994,18 +774,10 @@
           });
 
           state.articles = articles;
-          state.aiBrief = Array.isArray(aiBrief.topics) ? aiBrief.topics : [];
-          state.aiTopics = Array.isArray(aiTopics.topics) ? aiTopics.topics : [];
           state.generatedAt = meta && meta.generated_at ? meta.generated_at : "";
           if (brandSubtitle) {
             brandSubtitle.textContent = `定时从 ${formatNumber(meta && meta.source_total ? meta.source_total : 0)} 个信源抓取最新资讯，目前专注于AI`;
           }
-          if (aiFocus) {
-            const hasAiData = state.aiBrief.length > 0 || state.aiTopics.length > 0;
-            aiFocus.hidden = !hasAiData;
-          }
-          renderAiBrief();
-          renderAiTopics();
           renderFilters();
           renderArticles();
         } catch (error) {
