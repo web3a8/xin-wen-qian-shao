@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>大火蒸馏</title>
-    <link rel="icon" type="image/png" href="./assets/images/logo.png">
-    <link rel="apple-touch-icon" href="./assets/images/logo.png">
+    <link rel="icon" type="image/gif" href="./assets/images/zl.gif">
+    <link rel="shortcut icon" type="image/gif" href="./assets/images/zl.gif">
+    <link rel="apple-touch-icon" href="./assets/images/zl.gif">
     <style>
       :root {
         color-scheme: light;
@@ -93,24 +94,32 @@
         margin: 0;
         display: inline-flex;
         align-items: center;
-        gap: 10px;
-        font-size: 1.25rem;
+        gap: 12px;
+        font-size: 1.62rem;
+        line-height: 1;
         font-weight: 800;
         letter-spacing: -0.04em;
       }
 
       .brand-title-gif {
-        width: 28px;
-        height: 28px;
-        flex: 0 0 28px;
+        width: 42px;
+        height: 42px;
+        flex: 0 0 42px;
         display: block;
-        border-radius: 8px;
+        border-radius: 10px;
       }
 
       .brand-subtitle {
         margin: 6px 0 0;
         color: var(--muted);
         font-size: 0.92rem;
+      }
+
+      .brand-curve {
+        margin-top: 8px;
+        width: 220px;
+        height: 18px;
+        display: block;
       }
 
       .toolbar {
@@ -842,6 +851,21 @@
           width: 100%;
         }
 
+        .brand-title {
+          font-size: 1.42rem;
+        }
+
+        .brand-title-gif {
+          width: 36px;
+          height: 36px;
+          flex-basis: 36px;
+        }
+
+        .brand-curve {
+          width: 180px;
+          height: 16px;
+        }
+
         .toolbar {
           width: 100%;
           justify-content: flex-start;
@@ -912,6 +936,17 @@
             <img class="brand-title-gif" src="./assets/images/zl.gif" alt="">
           </h1>
           <p class="brand-subtitle" id="brand-subtitle">Less, but Better</p>
+          <svg class="brand-curve" viewBox="0 0 220 18" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="brand-curve-gradient" x1="0" y1="9" x2="220" y2="9" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#60A5FA"/>
+                <stop offset="0.5" stop-color="#A78BFA"/>
+                <stop offset="1" stop-color="#22C55E"/>
+              </linearGradient>
+            </defs>
+            <path d="M2 12.5C24 2.5 42 2.5 61 9.8C82 17.3 101 16.8 121 8.9C140 1.5 158 1.8 178 8.4C191 12.6 204 13.5 218 8.2" stroke="url(#brand-curve-gradient)" stroke-width="3" stroke-linecap="round"/>
+            <path d="M16 15C33 9.4 47 9.2 61 12.2C78 15.8 93 15.5 109 11.1C124 7.1 140 6.7 158 10.6C171 13.3 184 13.7 198 11.4" stroke="url(#brand-curve-gradient)" stroke-opacity="0.3" stroke-width="2" stroke-linecap="round"/>
+          </svg>
         </div>
         <div class="toolbar">
           <a class="toolbar-link" href="./rss.xml">
