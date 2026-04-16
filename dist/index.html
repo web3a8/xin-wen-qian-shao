@@ -94,31 +94,36 @@
         min-width: 0;
       }
 
-      .brand-logo-wrap {
+      .brand-lockup {
         display: inline-flex;
         align-items: center;
+        gap: 16px;
+        min-width: 0;
       }
 
-      .brand-logo {
+      .brand-mark {
         display: block;
-        height: 42px;
+        height: 60px;
         width: auto;
+        flex: 0 0 auto;
       }
 
-      .brand-logo-dark-theme {
-        display: none;
+      .brand-copy {
+        min-width: 0;
+        display: grid;
+        gap: 6px;
+        align-items: start;
       }
 
-      body[data-theme="dark"] .brand-logo-light-theme {
-        display: none;
-      }
-
-      body[data-theme="dark"] .brand-logo-dark-theme {
+      .brand-wordmark {
         display: block;
+        height: 40px;
+        width: auto;
+        max-width: min(320px, 100%);
       }
 
       .brand-subtitle {
-        margin: 8px 0 0;
+        margin: 0;
         color: var(--muted);
         font-size: 0.92rem;
       }
@@ -852,8 +857,16 @@
           width: 100%;
         }
 
-        .brand-logo {
-          height: 36px;
+        .brand-lockup {
+          gap: 12px;
+        }
+
+        .brand-mark {
+          height: 50px;
+        }
+
+        .brand-wordmark {
+          height: 32px;
         }
 
         .toolbar {
@@ -921,11 +934,13 @@
     <header class="topbar">
       <div class="topbar-inner">
         <div class="brand">
-          <div class="brand-logo-wrap">
-            <img class="brand-logo brand-logo-light-theme" src="./assets/images/hei.jpg" alt="大火蒸馏">
-            <img class="brand-logo brand-logo-dark-theme" src="./assets/images/bai.jpg" alt="大火蒸馏">
+          <div class="brand-lockup">
+            <img class="brand-mark" src="./assets/images/hei.png" alt="大火蒸馏">
+            <div class="brand-copy">
+              <img class="brand-wordmark" src="./assets/images/txt-logo.png" alt="大火蒸馏文字标识">
+              <p class="brand-subtitle" id="brand-subtitle">AI驱动的新闻前哨站点</p>
+            </div>
           </div>
-          <p class="brand-subtitle" id="brand-subtitle">AI驱动的新闻前哨站点</p>
         </div>
         <div class="toolbar">
           <a class="toolbar-link" href="./rss.xml">
