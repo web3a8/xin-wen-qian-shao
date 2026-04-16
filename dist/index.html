@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>大火蒸馏</title>
-    <link rel="icon" type="image/gif" href="./assets/images/zl.gif">
-    <link rel="shortcut icon" type="image/gif" href="./assets/images/zl.gif">
-    <link rel="apple-touch-icon" href="./assets/images/zl.gif">
+    <link rel="icon" type="image/png" href="./assets/images/logo.png">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/logo.png">
+    <link rel="apple-touch-icon" href="./assets/images/logo.png">
     <style>
       :root {
         color-scheme: light;
@@ -67,9 +67,12 @@
         position: sticky;
         top: 0;
         z-index: 20;
-        background: color-mix(in srgb, var(--panel) 92%, transparent);
-        backdrop-filter: blur(18px);
+        background: #ffffff;
         border-bottom: 1px solid var(--line);
+      }
+
+      body[data-theme="dark"] .topbar {
+        background: #000000;
       }
 
       .topbar-inner,
@@ -91,40 +94,33 @@
         min-width: 0;
       }
 
-      .brand-title {
-        margin: 0;
-        font-size: 1.62rem;
-        line-height: 1;
-        font-weight: 800;
-        letter-spacing: -0.04em;
-      }
-
-      .brand-subtitle-row {
-        margin-top: 6px;
+      .brand-logo-wrap {
         display: inline-flex;
         align-items: center;
-        gap: 8px;
       }
 
-      .brand-subtitle-gif {
-        width: 26px;
-        height: 26px;
-        flex: 0 0 26px;
+      .brand-logo {
         display: block;
-        border-radius: 8px;
+        height: 42px;
+        width: auto;
+      }
+
+      .brand-logo-dark-theme {
+        display: none;
+      }
+
+      body[data-theme="dark"] .brand-logo-light-theme {
+        display: none;
+      }
+
+      body[data-theme="dark"] .brand-logo-dark-theme {
+        display: block;
       }
 
       .brand-subtitle {
-        margin: 0;
+        margin: 8px 0 0;
         color: var(--muted);
         font-size: 0.92rem;
-      }
-
-      .brand-curve {
-        margin-top: 3px;
-        width: 148px;
-        height: 10px;
-        display: block;
       }
 
       .toolbar {
@@ -856,19 +852,8 @@
           width: 100%;
         }
 
-        .brand-title {
-          font-size: 1.42rem;
-        }
-
-        .brand-subtitle-gif {
-          width: 24px;
-          height: 24px;
-          flex-basis: 24px;
-        }
-
-        .brand-curve {
-          width: 132px;
-          height: 10px;
+        .brand-logo {
+          height: 36px;
         }
 
         .toolbar {
@@ -936,22 +921,11 @@
     <header class="topbar">
       <div class="topbar-inner">
         <div class="brand">
-          <h1 class="brand-title">大火蒸馏</h1>
-          <div class="brand-subtitle-row">
-            <img class="brand-subtitle-gif" src="./assets/images/zl.gif" alt="">
-            <p class="brand-subtitle" id="brand-subtitle">Less, but Better</p>
+          <div class="brand-logo-wrap">
+            <img class="brand-logo brand-logo-light-theme" src="./assets/images/hei.jpg" alt="大火蒸馏">
+            <img class="brand-logo brand-logo-dark-theme" src="./assets/images/bai.jpg" alt="大火蒸馏">
           </div>
-          <svg class="brand-curve" viewBox="0 0 148 10" fill="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="brand-curve-gradient" x1="0" y1="5" x2="148" y2="5" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#60A5FA"/>
-                <stop offset="0.5" stop-color="#A78BFA"/>
-                <stop offset="1" stop-color="#22C55E"/>
-              </linearGradient>
-            </defs>
-            <path d="M1.5 6.8C16 2.1 28 2 41 4.9C54 7.7 66 7.8 79 4.6C91 1.9 103 1.9 116 4.8C126 6.9 136 7.1 146.5 4.7" stroke="url(#brand-curve-gradient)" stroke-width="1.8" stroke-linecap="round"/>
-            <path d="M11 8.2C22 5.7 32 5.4 42 6.7C53 8.1 63 8 74 6C84 4.2 95 4 107 5.8C116 7.2 126 7.3 137 6.1" stroke="url(#brand-curve-gradient)" stroke-opacity="0.26" stroke-width="1.1" stroke-linecap="round"/>
-          </svg>
+          <p class="brand-subtitle" id="brand-subtitle">AI驱动的新闻前哨站点</p>
         </div>
         <div class="toolbar">
           <a class="toolbar-link" href="./rss.xml">
@@ -977,7 +951,7 @@
                 <path d="M12 3.75 5.75 7.25v5.5c0 3.4 2.51 6.45 6.25 7.5 3.74-1.05 6.25-4.1 6.25-7.5v-5.5L12 3.75Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="m9.25 12 1.75 1.75 3.75-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              <h2 class="report-band-title">已经蒸馏</h2>
+              <h2 class="report-band-title">AI总结</h2>
             </div>
             <p class="report-band-disclaimer">内容是AI生成，仅供参考</p>
           </div>
@@ -1634,7 +1608,7 @@
           state.aiReport = prepareAiReport(aiReport);
           state.generatedAt = rss.generatedAt || "";
           if (brandSubtitle) {
-            brandSubtitle.textContent = "Less, but Better";
+            brandSubtitle.textContent = "AI驱动的新闻前哨站点";
           }
           renderAiReport();
           renderFilters();
