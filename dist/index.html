@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>新闻蒸馏</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo.png">
+    <link rel="apple-touch-icon" href="./assets/images/logo.png">
     <style>
       :root {
         color-scheme: light;
@@ -176,6 +178,13 @@
         gap: 8px;
       }
 
+      .report-band-header-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 18px;
+      }
+
       .report-band-title-row {
         display: inline-flex;
         align-items: center;
@@ -194,6 +203,7 @@
         color: var(--muted);
         font-size: 0.8rem;
         line-height: 1.65;
+        text-align: right;
       }
 
       .report-band-brief {
@@ -846,6 +856,16 @@
           grid-template-columns: 1fr;
         }
 
+        .report-band-header-top {
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+
+        .report-band-disclaimer {
+          width: 100%;
+          text-align: left;
+        }
+
         .nav-list {
           grid-template-columns: 1fr 1fr;
         }
@@ -901,14 +921,16 @@
     <section class="report-band" id="ai-report-brief-section" hidden>
       <div class="report-band-inner">
         <div class="report-band-header">
-          <div class="report-band-title-row">
-            <svg class="report-band-title-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M12 3.75 5.75 7.25v5.5c0 3.4 2.51 6.45 6.25 7.5 3.74-1.05 6.25-4.1 6.25-7.5v-5.5L12 3.75Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="m9.25 12 1.75 1.75 3.75-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <h2 class="report-band-title">已经蒸馏</h2>
+          <div class="report-band-header-top">
+            <div class="report-band-title-row">
+              <svg class="report-band-title-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3.75 5.75 7.25v5.5c0 3.4 2.51 6.45 6.25 7.5 3.74-1.05 6.25-4.1 6.25-7.5v-5.5L12 3.75Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="m9.25 12 1.75 1.75 3.75-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <h2 class="report-band-title">已经蒸馏</h2>
+            </div>
+            <p class="report-band-disclaimer">此处观点由AI生成，仅供参考</p>
           </div>
-          <p class="report-band-disclaimer">此处观点由AI生成，仅供参考</p>
           <p class="report-band-brief" id="ai-report-brief"></p>
         </div>
       </div>
@@ -918,14 +940,16 @@
       <div class="report-band-inner">
         <section class="report-band-group">
           <div class="report-band-header">
-            <div class="report-band-title-row">
-              <svg class="report-band-title-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M12 4.75 6.5 7.5v4.25c0 3.06 2.23 5.8 5.5 6.75 3.27-.95 5.5-3.69 5.5-6.75V7.5L12 4.75Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M9.25 12h5.5M12 9.25v5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              <h3 class="report-band-group-title">AI大事件</h3>
+            <div class="report-band-header-top">
+              <div class="report-band-title-row">
+                <svg class="report-band-title-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 4.75 6.5 7.5v4.25c0 3.06 2.23 5.8 5.5 6.75 3.27-.95 5.5-3.69 5.5-6.75V7.5L12 4.75Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9.25 12h5.5M12 9.25v5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h3 class="report-band-group-title">AI大事件</h3>
+              </div>
+              <p class="report-band-disclaimer">此处观点由AI生成，仅供参考</p>
             </div>
-            <p class="report-band-disclaimer">此处观点由AI生成，仅供参考</p>
           </div>
           <div class="report-band-list" id="ai-report-facts"></div>
         </section>
@@ -936,14 +960,16 @@
       <div class="report-band-inner">
         <section class="report-band-group">
           <div class="report-band-header">
-            <div class="report-band-title-row">
-              <svg class="report-band-title-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M12 5.25c-3.94 0-7.13 3.19-7.13 7.12S8.06 19.5 12 19.5s7.13-3.19 7.13-7.13S15.94 5.25 12 5.25Z" stroke="currentColor" stroke-width="1.8"/>
-                <path d="M12 9v3.25l2.25 1.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              <h3 class="report-band-group-title">洞察</h3>
+            <div class="report-band-header-top">
+              <div class="report-band-title-row">
+                <svg class="report-band-title-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 5.25c-3.94 0-7.13 3.19-7.13 7.12S8.06 19.5 12 19.5s7.13-3.19 7.13-7.13S15.94 5.25 12 5.25Z" stroke="currentColor" stroke-width="1.8"/>
+                  <path d="M12 9v3.25l2.25 1.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h3 class="report-band-group-title">洞察</h3>
+              </div>
+              <p class="report-band-disclaimer">此处观点由AI生成，仅供参考</p>
             </div>
-            <p class="report-band-disclaimer">此处观点由AI生成，仅供参考</p>
           </div>
           <div class="report-band-list" id="ai-report-opinions"></div>
         </section>
