@@ -824,18 +824,11 @@
           <p class="brand-subtitle" id="brand-subtitle">定时从 -- 个信源抓取最新资讯，目前专注于AI</p>
         </div>
         <div class="toolbar">
-          <a class="toolbar-link" href="./latest.json">
+          <a class="toolbar-link" href="./rss.xml">
             <svg class="toolbar-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M8 5 3 12l5 7M16 5l5 7-5 7M13 4l-2 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6 18a2 2 0 1 0 0-.01ZM5 10a9 9 0 0 1 9 9M5 5a14 14 0 0 1 14 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            <span>Full JSON</span>
-          </a>
-          <a class="toolbar-link" href="./meta.json">
-            <svg class="toolbar-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/>
-              <path d="M12 10v6M12 7.5h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <span>Meta</span>
+            <span>RSS</span>
           </a>
           <button class="theme-toggle" id="theme-toggle" type="button">
             <svg class="toolbar-icon" id="theme-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"></svg>
@@ -951,6 +944,39 @@
           hour: "2-digit",
           minute: "2-digit"
         }).format(date);
+      }
+
+      function parsePublicRss(xmlText) {
+        const parser = new DOMParser();
+        const documentNode = parser.parseFromString(xmlText, "application/xml");
+        const parseError = documentNode.querySelector("parsererror");
+        if (parseError) {
+          throw new Error("RSS 解析失败");
+        }
+
+        const channel = documentNode.querySelector("channel");
+        if (!channel) {
+          throw new Error("RSS channel 缺失");
+        }
+
+        const generatedAt = channel.querySelector("lastBuildDate")?.textContent?.trim() || "";
+        const articles = [...channel.querySelectorAll("item")].map((item) => ({
+          title: item.querySelector("title")?.textContent?.trim() || "",
+          link: item.querySelector("link")?.textContent?.trim() || "",
+          summary: item.querySelector("description")?.textContent?.trim() || "",
+          source_name: item.querySelector("source")?.textContent?.trim() || "Unknown Source",
+          published_at: ""
+        })).filter((article) => article.title && article.link);
+
+        const sourceCount = new Set(
+          articles.map((article) => sanitizeSourceName(article.source_name || "")).filter(Boolean)
+        ).size;
+
+        return {
+          generatedAt,
+          sourceCount,
+          articles
+        };
       }
 
       function sanitizeSourceName(value) {
@@ -1369,7 +1395,7 @@
       function renderArticles() {
         const visible = getVisibleArticles();
         const updatedSuffix = state.generatedAt ? ` · 更新于 ${formatDate(state.generatedAt)}` : "";
-        feedCaption.textContent = `按发布时间展示最近 24 小时内容${updatedSuffix}。`;
+        feedCaption.textContent = `展示最近 24 小时内容${updatedSuffix}。`;
 
         articleList.innerHTML = visible.length
           ? visible
@@ -1377,6 +1403,7 @@
               .map((article, index) => {
                 const presentation = getArticlePresentation(article);
                 const domain = getDomain(presentation.articleLink || article.link);
+                const publishedAt = article.published_at ? `<span>${escapeHtml(formatDate(article.published_at))}</span>` : "";
                 return `
                   <li class="item">
                     <div class="rank">${index + 1}</div>
@@ -1394,7 +1421,7 @@
                             <span>HN 讨论</span>
                           </a>
                         ` : ""}
-                        <span>${escapeHtml(formatDate(article.published_at))}</span>
+                        ${publishedAt}
                         ${domain ? `<span class="domain">${escapeHtml(domain)}</span>` : ""}
                         ${presentation.activityLabel ? `<span class="meta-note">${escapeHtml(presentation.activityLabel)}</span>` : ""}
                       </div>
@@ -1414,40 +1441,28 @@
 
       async function loadData() {
         try {
-          const [metaResponse, latestLiteResponse] = await Promise.all([
-            fetch("./meta.json", { cache: "no-store" }),
-            fetch("./latest-lite.json", { cache: "no-store" })
+          const [rssResponse, aiReportResponse] = await Promise.all([
+            fetch("./rss.xml", { cache: "no-store" }),
+            fetch("./ai-report.json", { cache: "no-store" }).catch(() => null)
           ]);
 
-          if (!metaResponse.ok || !latestLiteResponse.ok) {
-            throw new Error("数据文件读取失败");
+          if (!rssResponse.ok) {
+            throw new Error("RSS 文件读取失败");
           }
 
-          const meta = await metaResponse.json();
-          const latestLite = await latestLiteResponse.json();
+          const rss = parsePublicRss(await rssResponse.text());
           let aiReport = null;
 
-          try {
-            const aiReportResponse = await fetch("./ai-report.json", { cache: "no-store" });
-            if (aiReportResponse.ok) {
-              aiReport = await aiReportResponse.json();
-            }
-          } catch (error) {
-            aiReport = null;
+          if (aiReportResponse && aiReportResponse.ok) {
+            aiReport = await aiReportResponse.json();
           }
-          const articles = Array.isArray(latestLite.articles) ? latestLite.articles.slice() : [];
-
-          articles.sort((left, right) => {
-            const leftTime = new Date(left.published_at || 0).getTime();
-            const rightTime = new Date(right.published_at || 0).getTime();
-            return rightTime - leftTime;
-          });
+          const articles = Array.isArray(rss.articles) ? rss.articles.slice() : [];
 
           state.articles = articles;
           state.aiReport = prepareAiReport(aiReport);
-          state.generatedAt = meta && meta.generated_at ? meta.generated_at : "";
+          state.generatedAt = rss.generatedAt || "";
           if (brandSubtitle) {
-            brandSubtitle.textContent = `定时从 ${formatNumber(meta && meta.source_total ? meta.source_total : 0)} 个信源抓取最新资讯，目前专注于AI`;
+            brandSubtitle.textContent = `定时从 ${formatNumber(rss.sourceCount || 0)} 个信源抓取最新资讯，目前专注于AI`;
           }
           renderAiReport();
           renderFilters();
