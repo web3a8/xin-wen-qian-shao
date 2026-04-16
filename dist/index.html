@@ -665,6 +665,35 @@
         color: var(--text);
       }
 
+      .meta-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        min-height: 24px;
+        padding: 0 10px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: color-mix(in srgb, var(--panel-soft) 68%, transparent);
+        color: var(--muted);
+        transition: border-color 0.18s ease, color 0.18s ease, background-color 0.18s ease;
+      }
+
+      .meta-link:hover {
+        border-color: var(--accent-line);
+        color: var(--accent);
+        background: color-mix(in srgb, var(--accent-soft) 36%, var(--panel-soft));
+      }
+
+      .meta-link svg {
+        width: 12px;
+        height: 12px;
+        flex: 0 0 12px;
+      }
+
+      .meta-note {
+        color: var(--muted);
+      }
+
       .domain {
         max-width: 240px;
         overflow: hidden;
@@ -932,6 +961,59 @@
           .replace(/\s+([，。！？；：,.!?;:])/g, "$1")
           .replace(/([，。！？；：,.!?;:])\s*([，。！？；：,.!?;:])/g, "$1")
           .trim();
+      }
+
+      function isHackerNewsDerivedSource(sourceName) {
+        return sanitizeSourceName(sourceName || "").startsWith("Hacker News");
+      }
+
+      function parseHackerNewsSummary(summary) {
+        const text = String(summary || "");
+        const articleUrlMatch = text.match(/Article URL:\s*(https?:\/\/\S+)/i);
+        const commentsUrlMatch = text.match(/Comments URL:\s*(https?:\/\/\S+)/i);
+        const pointsMatch = text.match(/Points:\s*(\d+)/i);
+        const commentsMatch = text.match(/#\s*Comments:\s*(\d+)/i);
+        return {
+          articleUrl: articleUrlMatch ? articleUrlMatch[1] : "",
+          commentsUrl: commentsUrlMatch ? commentsUrlMatch[1] : "",
+          points: pointsMatch ? pointsMatch[1] : "",
+          comments: commentsMatch ? commentsMatch[1] : "",
+          matched: Boolean(articleUrlMatch || commentsUrlMatch || pointsMatch || commentsMatch)
+        };
+      }
+
+      function getArticlePresentation(article) {
+        const sourceName = sanitizeSourceName(article.source_name || "");
+        const hnMeta = isHackerNewsDerivedSource(sourceName) ? parseHackerNewsSummary(article.summary) : null;
+        const articleLink = hnMeta && hnMeta.articleUrl ? hnMeta.articleUrl : String(article.link || "");
+        const discussionLink = hnMeta && hnMeta.commentsUrl ? hnMeta.commentsUrl : "";
+        const sourceBadgeLabel = discussionLink ? `经由 ${sourceName}` : sourceName;
+
+        let summary = String(article.summary || "").trim();
+        if (hnMeta && hnMeta.matched) {
+          summary = "";
+        }
+
+        let activityLabel = "";
+        if (hnMeta && (hnMeta.points || hnMeta.comments)) {
+          const parts = [];
+          if (hnMeta.points) {
+            parts.push(`${hnMeta.points} 分`);
+          }
+          if (hnMeta.comments) {
+            parts.push(`${hnMeta.comments} 评`);
+          }
+          activityLabel = parts.length ? `HN · ${parts.join(" · ")}` : "";
+        }
+
+        return {
+          sourceName,
+          sourceBadgeLabel,
+          articleLink,
+          discussionLink,
+          summary,
+          activityLabel
+        };
       }
 
       function buildTextUnits(value) {
@@ -1286,22 +1368,32 @@
           ? visible
               .slice(0, 120)
               .map((article, index) => {
-                const domain = getDomain(article.link);
+                const presentation = getArticlePresentation(article);
+                const domain = getDomain(presentation.articleLink || article.link);
                 return `
                   <li class="item">
                     <div class="rank">${index + 1}</div>
                     <div>
                       <p class="title">
-                        <a href="${escapeHtml(article.link)}" target="_blank" rel="noreferrer">${escapeHtml(article.title)}</a>
+                        <a href="${escapeHtml(presentation.articleLink || article.link)}" target="_blank" rel="noreferrer">${escapeHtml(article.title)}</a>
                       </p>
                       <div class="meta">
-                        <span class="badge">${escapeHtml(sanitizeSourceName(article.source_name || ""))}</span>
+                        <span class="badge">${escapeHtml(presentation.sourceBadgeLabel)}</span>
+                        ${presentation.discussionLink ? `
+                          <a class="meta-link" href="${escapeHtml(presentation.discussionLink)}" target="_blank" rel="noreferrer" aria-label="打开 Hacker News 讨论">
+                            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                              <path d="M6.75 8.75h10.5M6.75 12h7.5M9.5 15.25h4.75M6 4.75h12a2.25 2.25 0 0 1 2.25 2.25v8A2.25 2.25 0 0 1 18 17.25h-7.172L6.75 20v-2.75H6A2.25 2.25 0 0 1 3.75 15V7A2.25 2.25 0 0 1 6 4.75Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>HN 讨论</span>
+                          </a>
+                        ` : ""}
                         <span>${escapeHtml(formatDate(article.published_at))}</span>
                         ${domain ? `<span class="domain">${escapeHtml(domain)}</span>` : ""}
+                        ${presentation.activityLabel ? `<span class="meta-note">${escapeHtml(presentation.activityLabel)}</span>` : ""}
                       </div>
-                      ${article.summary && article.summary !== article.title ? `<p class="summary">${escapeHtml(article.summary)}</p>` : ""}
+                      ${presentation.summary && presentation.summary !== article.title ? `<p class="summary">${escapeHtml(presentation.summary)}</p>` : ""}
                     </div>
-                    <a class="open-link" href="${escapeHtml(article.link)}" target="_blank" rel="noreferrer" aria-label="打开原文">
+                    <a class="open-link" href="${escapeHtml(presentation.articleLink || article.link)}" target="_blank" rel="noreferrer" aria-label="打开原文">
                       <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
                         <path d="M8 16 16 8M10 8h6v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                       </svg>
