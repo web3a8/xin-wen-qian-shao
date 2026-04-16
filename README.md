@@ -1,10 +1,12 @@
 # 新闻前哨
 
-一个 AI 驱动的新闻采集站，提供 RSS 订阅源，地址：[https://web3a8.github.io/xin-wen-qian-shao/](新闻前哨)。
+一个 AI 驱动的新闻采集站，提供 RSS 订阅源，网站地址：[https://xinwen.zhangweiguo.com](新闻前哨)。
 
 目前新闻总结的重点是 AI 领域，后续可能会拓展到更多。
 
 如果想自己做总结，可以使用我的订阅源获取新闻，交给龙虾或Claude code做总结。
+
+rss地址：[https://xinwen.zhangweiguo.com](https://xinwen.zhangweiguo.com/rss.xml)
 
 ## 这个项目能做什么
 
