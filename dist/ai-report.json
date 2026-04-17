@@ -1,23 +1,9 @@
 {
-  "global_brief": "OpenAI 发布其首个生命科学专用模型 GPT-Rosalind，并大幅升级其智能体编程工具 Codex，新增计算机控制、应用内浏览等功能。Anthropic 发布 Claude Opus 4.7 模型，并已在 AWS Bedrock 上线。同时，开源模型 Qwen 在多项基准测试中表现亮眼，引发社区关注。",
+  "global_brief": "OpenAI 大幅升级其智能体编码工具 Codex，新增计算机使用、应用内浏览、图像生成等功能，直接对标 Anthropic 的 Claude。同时，Anthropic 发布了 Claude Opus 4.7 模型，并已在 AWS Bedrock 上线。开源模型方面，Qwen 团队发布了稀疏 MoE 视觉语言模型 Qwen3.6-35B-A3B，具备智能体编码能力。",
   "highlight_facts": [
     {
-      "title": "OpenAI 发布首个生命科学专用模型 GPT-Rosalind",
-      "summary": "OpenAI 正式推出其首个生命科学领域的前沿推理模型 GPT-Rosalind，旨在加速药物发现和基因组学研究，该模型目前为封闭访问 。",
-      "references": [
-        {
-          "source_name": "MarkTechPost",
-          "link": "https://marktechpost.com/2026/04/16/openai-launches-gpt-rosalind-life-sciences-ai"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/science/2026/04/openai-starts-offering-a-biology-tuned-llm"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI 大幅升级 Codex 智能体编程工具",
-      "summary": "OpenAI 为其智能体编程工具 Codex 推出重大更新，新增计算机控制、应用内浏览、图像生成、记忆等功能，使其能更深入地控制用户桌面 。",
+      "title": "OpenAI 全面升级 Codex 智能体编码工具",
+      "summary": "OpenAI 发布了 Codex 的重大更新，为 macOS 和 Windows 应用新增了计算机使用、应用内浏览、图像生成、记忆和文件上传等功能，使其能更深入地控制用户桌面 。",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -30,8 +16,8 @@
       ]
     },
     {
-      "title": "Anthropic 发布 Claude Opus 4.7 模型并上线 AWS Bedrock",
-      "summary": "Anthropic 发布了其最智能的 Opus 模型 Claude Opus 4.7，该模型支持高强度的思考模式，并已在亚马逊 AWS Bedrock 平台上线 。",
+      "title": "Anthropic 发布 Claude Opus 4.7 模型并登陆 AWS",
+      "summary": "Anthropic 发布了其最智能的 Opus 模型 Claude Opus 4.7，该模型支持高强度的思考模式，并已在亚马逊 AWS Bedrock 服务中上线 。",
       "references": [
         {
           "source_name": "少数派",
@@ -48,17 +34,89 @@
         {
           "source_name": "AWS Blog",
           "link": "https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/16/llm-anthropic"
         }
       ]
     },
     {
-      "title": "通义千问模型在多项研究中表现突出",
-      "summary": "通义千问（Qwen）模型在多项学术研究中被应用和评估，包括在临床问答任务中的微调、在特定基准测试中表现优于 Claude Opus 4.7，以及在多语言适应能力基准测试中与其他开源模型对比 。",
+      "title": "Qwen 团队开源稀疏 MoE 视觉语言模型",
+      "summary": "Qwen 团队开源了 Qwen3.6-35B-A3B，这是一个稀疏混合专家模型，拥有 350 亿总参数和 30 亿激活参数，具备视觉理解和智能体编码能力 。",
       "references": [
+        {
+          "source_name": "MarkTechPost",
+          "link": "https://marktechpost.com/2026/04/16/qwen-team-open-sources-qwen3-6-35b-a3b-a-sparse-moe-vision-language-model-with-3b-active-parameters-and-agentic-coding-capabilities"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 开始提供生物信息学专用大模型",
+      "summary": "OpenAI 开始提供名为 GPT-Rosalind 的大模型，该模型专门针对生物学工作流程进行训练，目前以封闭访问形式提供 。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/science/2026/04/openai-starts-offering-a-biology-tuned-llm"
+        }
+      ]
+    },
+    {
+      "title": "研究提出针对多模态大模型的越狱框架",
+      "summary": "研究人员提出了 GAMBIT，一个针对多模态大模型的游戏化越狱框架，揭示了此类模型在广泛部署中的潜在安全风险 。",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2601.03416"
+        }
+      ]
+    },
+    {
+      "title": "研究评估 Llama、Mistral 和 Qwen 在罗马化尼泊尔语上的表现",
+      "summary": "一项研究对 Llama-3.1-8B、Mistral-7B-v0.1 和 Qwen3-8B 在罗马化尼泊尔语上的语言适应能力进行了基准测试 。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.14171"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "智能体工具竞争加剧，开源与闭源方案并行发展",
+      "summary": "OpenAI 升级 Codex 与 Anthropic 发布 Claude Opus 4.7 形成直接竞争，同时社区涌现出如 agent-hub 等开源工具，旨在统一管理本地或远程的多种 AI 智能体，显示出智能体生态正朝着商业化巨头与开源社区并行的方向发展 。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop"
+        },
+        {
+          "source_name": "AWS Blog",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/Potarix/agent-hub"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/1987140"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1206579"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=47801971"
+        }
+      ]
+    },
+    {
+      "title": "大模型专业化与领域化趋势明显",
+      "summary": "除了通用能力的竞争，大模型正加速向特定领域渗透。OpenAI 推出生物信息学专用模型 GPT-Rosalind，而学术研究则专注于临床问答、硬件 bug 修复等垂直任务，表明模型能力正从“通才”向“专才”演进 。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/science/2026/04/openai-starts-offering-a-biology-tuned-llm"
+        },
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.14175"
@@ -68,98 +126,26 @@
           "link": "https://arxiv.org/abs/2604.14164"
         },
         {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus"
-        },
-        {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.14171"
+          "link": "https://arxiv.org/abs/2604.14709"
         }
       ]
     },
     {
-      "title": "Meta 发布关于引导大语言模型推理的元推理骨架研究",
-      "summary": "Meta 的研究人员提出了一种搜索元推理骨架的方法，以指导大语言模型的推理过程 。",
+      "title": "大模型推理能力与安全性研究成为学术焦点",
+      "summary": "近期大量学术研究聚焦于提升大模型的推理能力、理解其失败机制，并加强其安全性。从元推理骨架搜索到针对推理级后门攻击的防御框架，显示出学术界在推动大模型走向更可靠、更可控应用方面的努力 。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2510.04116"
-        }
-      ]
-    },
-    {
-      "title": "社区关注智能体工具的可观测性与内存管理",
-      "summary": "开发者社区正积极讨论如何对 Claude Code 等智能体工具进行调用追踪和可观测性分析，并涌现出多个开源项目来解决智能体会话间的持久化内存问题 。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://arthur.ai/blog/claude-code-observability-tracing-with-arthur"
         },
         {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/1986406"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.10681"
         },
         {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=47798952"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/skorotkiewicz/mempalace/tree/agent/agent"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/GG-QandV/mnemostroma"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "专用领域模型竞赛加剧，OpenAI 与 Anthropic 展开多线竞争",
-      "summary": "OpenAI 发布生命科学模型 GPT-Rosalind，同时大幅增强其通用编程智能体 Codex，而 Anthropic 则推出更强大的 Claude Opus 4.7。这表明头部 AI 公司正在从通用模型竞争，扩展到针对特定垂直领域（如生物、编程）的深度优化和功能强化，竞争维度更加多元 。",
-      "references": [
-        {
-          "source_name": "MarkTechPost",
-          "link": "https://marktechpost.com/2026/04/16/openai-launches-gpt-rosalind-life-sciences-ai"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/codex-for-almost-everything"
-        },
-        {
-          "source_name": "AWS Blog",
-          "link": "https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock"
-        }
-      ]
-    },
-    {
-      "title": "智能体工作流的基础设施与安全成为开发焦点",
-      "summary": "社区讨论不仅围绕智能体工具的功能，更深入至其底层基础设施，如内存管理、调用追踪、隔离安全和推理优化。这反映出随着智能体应用逐渐复杂和深入生产环境，开发者对可靠性、可观测性和安全性的需求日益迫切，相关工具链生态正在快速成型 。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://arthur.ai/blog/claude-code-observability-tracing-with-arthur"
-        },
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/1986406"
-        },
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=47798952"
-        },
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/Potarix/agent-hub"
-        },
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/1986461"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1206579"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.14528"
         }
       ]
     }
