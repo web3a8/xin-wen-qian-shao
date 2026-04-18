@@ -1,31 +1,143 @@
 {
-  "global_brief": "过去24小时的 AI 动态主要集中在：Benchmarking Linguistic Adaptation in Comparable-Sized LLMs: A Study of Llama-3.1-8B, Mistral-7B-v0.1, and Qwen3-8B on Romanized Nepali；美国医学会旗下期刊：现阶段 AI 难以直接应用于临床决策，早期诊断错误率达到 80%；QU-NLP at ArchEHR-QA 2026: Two-Stage QLoRA Fine-Tuning of Qwen3-4B for Patient-Or…",
+  "global_brief": "Anthropic 发布了名为 Claude Mythos Preview 的 AI 模型，其强大的漏洞发现和利用能力引发了网络安全担忧。同时，开源社区在 LLM 基准测试、推理优化和智能体工具开发方面持续活跃，涌现出多项新研究。",
   "highlight_facts": [
     {
-      "title": "Benchmarking Linguistic Adaptation in Comparable-Sized LLMs: A Study of Llama-3.1-8B, Mistral-7B-v0.1, and Qwen3-8B on Romanized Nepali",
-      "summary": "arXiv:2604.14171v1 Announce Type: cross Abstract: Romanized Nepali, the Nepali language written in the Latin alphabet,…；Benchmarking Linguistic Adaptation in Comparable-Sized LLMs: A Study of Llama-3.1-8B, Mistral-7B-v0…",
-      "references": []
+      "title": "Anthropic 发布 Claude Mythos Preview 模型，网络安全能力引关注",
+      "summary": "Anthropic 发布了 Claude Mythos Preview 模型，该模型在发现和利用软件漏洞方面展现出极强的能力，引发了对其网络安全影响的讨论 。",
+      "references": [
+        {
+          "source_name": "Schneier on Security",
+          "link": "https://schneier.com/blog/archives/2026/04/mythos-and-cybersecurity.html"
+        }
+      ]
     },
     {
-      "title": "美国医学会旗下期刊：现阶段 AI 难以直接应用于临床决策，早期诊断错误率达到 80%",
-      "summary": "IT之家 4 月 17 日消息，美国医学会旗下期刊 JAMA Network Open 发文，透露业界现有的大型语言模型（LLMs）在临床推理方面仍存在明显短板，尤其是在早期的鉴别诊断阶段，错误率普遍超过 80%。 IT之家参考论文获悉，…；美国医学会旗下期刊：现阶段 AI 难以直接应用于临床决策，早期诊断错误率达到 80%",
-      "references": []
+      "title": "研究对 Llama-3.1-8B、Mistral-7B 和 Qwen3-8B 进行罗马化尼泊尔语适应能力基准测试",
+      "summary": "一项研究对 Llama-3.1-8B、Mistral-7B-v0.1 和 Qwen3-8B 等规模相近的开源大语言模型在罗马化尼泊尔语（用拉丁字母书写的尼泊尔语）上的语言适应能力进行了基准测试 。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.14171"
+        }
+      ]
     },
     {
-      "title": "QU-NLP at ArchEHR-QA 2026: Two-Stage QLoRA Fine-Tuning of Qwen3-4B for Patient-Oriented Clinical Question Answering and Evidence Sentence Alignment",
-      "summary": "arXiv:2604.14175v1 Announce Type: cross Abstract: We present a unified system addressing both Subtask 3 (answer generat…；QU-NLP at ArchEHR-QA 2026: Two-Stage QLoRA Fine-Tuning of Qwen3-4B for Patient-Oriented Clinical Q…",
-      "references": []
+      "title": "研究提出 GAMBIT 框架，用于评估多模态大语言模型的越狱脆弱性",
+      "summary": "研究人员提出了 GAMBIT，一个用于评估多模态大语言模型越狱脆弱性的游戏化框架，旨在测试 MLLM 的安全性 。",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2601.03416"
+        }
+      ]
     },
     {
-      "title": "Searching Meta Reasoning Skeleton to Guide LLM Reasoning",
-      "summary": "arXiv:2510.04116v4 Announce Type: replace Abstract: Meta reasoning behaviors work as a skeleton to guide large language…；Searching Meta Reasoning Skeleton to Guide LLM Reasoning",
-      "references": []
+      "title": "研究团队使用 Qwen3-4B 模型进行面向患者的临床问答任务",
+      "summary": "QU-NLP 团队在 ArchEHR-QA 2026 任务中，采用两阶段 QLoRA 微调方法对 Qwen3-4B 模型进行优化，用于面向患者的临床问题解答和证据句子对齐 。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.14175"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2604.14164"
+        }
+      ]
     },
     {
-      "title": "7 ways to travel smarter this summer, with help from Google",
-      "summary": "7 ways to travel smarter this summer, with help from Google",
-      "references": []
+      "title": "社区发布 Local Model Router，提供与 Ollama/OpenAI 兼容的本地 LLM 服务",
+      "summary": "社区发布了一个基于 llama.cpp 的高性能本地 LLM 服务器 Local Model Router，提供与 Ollama 和 OpenAI API 的即插即用兼容性 。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=47809550"
+        }
+      ]
+    },
+    {
+      "title": "社区讨论 Qwen3.6 35B A3B 模型在 OpenCode 基准上的优异表现",
+      "summary": "社区讨论显示，Qwen3.6 35B A3B 模型在 OpenCode 基准测试仪表板上表现突出，被认为是本地 LLM 的佼佼者 。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://youtube.com/watch?v=vlo5cxH5CXM"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 红队测试工具成熟化，反映生成式 AI 安全威胁升级",
+      "summary": "随着生成式 AI 的成熟，针对它的威胁也在增加。AI 红队测试已从小众安全实践演变为主流，相关工具列表的发布 表明行业正系统性地应对模型安全挑战，安全防护进入专业化、工具化阶段。",
+      "references": [
+        {
+          "source_name": "MarkTechPost",
+          "link": "https://marktechpost.com/2026/04/17/top-ai-red-teaming-tools"
+        }
+      ]
+    },
+    {
+      "title": "智能体工作流服务化与工具创新成为社区热点",
+      "summary": "社区近期密集出现了多个与 AI 智能体相关的工具和产品更新，包括服务于智能体工作流的聚合管道 Scepsy 、带持久记忆的本地智能体 、压缩记忆工具 Steno 以及安全运行智能体的沙箱 Nilbox 。这表明智能体的实际部署、效率提升和安全性正成为开发者关注的焦点，生态工具日趋丰富。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.15186"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/nevenkordic/localmind"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/KultMember6Banger/steno"
+        },
+        {
+          "source_name": "Hacker News OpenClaw",
+          "link": "https://nilbox.run/"
+        }
+      ]
+    },
+    {
+      "title": "大模型推理优化研究呈现多元化趋势，聚焦效率与个性化",
+      "summary": "近期多项研究从不同角度优化 LLM 推理，包括自适应层选择进行令牌剪枝 、在潜在嵌入空间压缩序列 、仅预填充阶段剪枝 以及基于响应的用户记忆选择以实现个性化 。这反映出在追求大模型能力的同时，降低计算成本、提升推理速度和使用体验已成为关键研究方向。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.07667"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.15153"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2602.03295"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.14473"
+        }
+      ]
+    },
+    {
+      "title": "开发者对本地运行大模型的硬件需求及部署方案兴趣浓厚",
+      "summary": "社区中关于本地运行类似 Llama-3.1-8B 等模型的硬件需求讨论 ，以及用于部署和服务 LLM 推理引擎的 Kubernetes 算子项目 的出现，表明越来越多开发者和企业正在积极评估和实践本地化部署大模型，对成本、资源要求和生产级部署方案存在普遍需求。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://news.ycombinator.com/item?id=47803176"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://news.ycombinator.com/item?id=47812127"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/cliver-project/AITrigram"
+        }
+      ]
+    }
+  ]
 }
