@@ -1,11 +1,11 @@
 {
-  "global_brief": "过去24小时，AI领域研究产出密集，arXiv涌现大量关于大语言模型推理、幻觉、多模态能力及推理优化的新论文。同时，社区侧对AI代理的实践探索活跃，出现了7个AI代理创业实验、跨平台API调用工具等讨论。国内大模型公司被观察到集体转向Token订阅模式。",
+  "global_brief": "过去24小时，AI领域研究产出密集，重点关注大语言模型推理能力的增强与潜在风险、推理性能优化以及多模态应用。同时，社区对AI代理的实践探索和商业化工具的关注度持续升温。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 35018,
-      "event_count": 581
+      "field_score": 34341,
+      "event_count": 573
     },
     {
       "field_key": "tech",
@@ -22,8 +22,8 @@
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 484,
-      "event_count": 11
+      "field_score": 449,
+      "event_count": 10
     },
     {
       "field_key": "domestic",
@@ -34,18 +34,8 @@
   ],
   "highlight_facts": [
     {
-      "title": "实验启动：7个AI编码代理各获100美元启动资金",
-      "summary": "一项实验启动，7个AI编码代理各自获得100美元和12周时间，从零开始构建真实的初创公司。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ai_made_tools/launch-day-7-ai-agents-start-building-startups-with-100-each-5f8h"
-        }
-      ]
-    },
-    {
-      "title": "研究发现增强LLM推理能力会加剧工具幻觉",
-      "summary": "arXiv研究论文指出，增强大语言模型的推理能力会放大其工具幻觉问题。",
+      "title": "增强LLM推理能力可能加剧工具幻觉",
+      "summary": "一项新研究指出，增强大语言模型的推理能力反而会放大其在使用外部工具时产生幻觉的问题。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -55,7 +45,7 @@
     },
     {
       "title": "谷歌发布面向TPU的高性能LLM推理内核",
-      "summary": "谷歌研究人员发布“Ragged Paged Attention”，一种为TPU设计的高性能、灵活的大语言模型推理内核。",
+      "summary": "谷歌研究人员提出“Ragged Paged Attention”，一种专为TPU设计的高性能、灵活的大语言模型推理内核，旨在优化云端部署成本。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,54 +54,59 @@
       ]
     },
     {
-      "title": "社区开发者发布跨平台LLM API调用翻译工具",
-      "summary": "社区开发者发布工具，可将OpenAI、Anthropic和Gemini的API调用相互翻译，旨在解决维护多个适配器的问题。",
+      "title": "实验启动：7个AI代理各获100美元创建初创公司",
+      "summary": "一项实验启动，7个AI编码代理各自获得100美元和12周时间，从零开始构建真实的初创公司。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Oaklight/llm-rosetta"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/ai_made_tools/launch-day-7-ai-agents-start-building-startups-with-100-each-5f8h"
         }
       ]
     },
     {
-      "title": "国内大模型公司集体转向Token订阅模式",
-      "summary": "过去六十天，国内大模型头部公司集体从卖算力、做项目，转向卖Token、做订阅的商业模式。",
+      "title": "社区开发者发布跨平台LLM API调用翻译工具",
+      "summary": "一位开发者发布工具，旨在解决在项目中同时维护OpenAI、Anthropic和Gemini API适配器的繁琐问题，实现API调用的跨平台翻译。",
+      "references": []
+    },
+    {
+      "title": "思维链可能损害多模态LLM的视觉空间推理能力",
+      "summary": "研究发现，在多模态推理模型中使用思维链方法可能会损害其视觉空间推理能力。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.16060"
+        }
+      ]
+    },
+    {
+      "title": "国内大模型公司集体转向订阅制商业模式",
+      "summary": "过去六十天，国内大模型头部公司正集体从销售算力和项目制，转向按Token收费和订阅制的商业模式。",
       "references": [
         {
           "source_name": "今日热榜 - 36氪",
           "link": "https://36kr.com/p/3774435677766151"
         }
       ]
-    },
-    {
-      "title": "研究提出用于比较分析LLM的交互式工作台",
-      "summary": "研究人员发布LLMbench，一个基于浏览器的交互式工作台，用于对大语言模型进行深入的比较性细读分析。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.15508"
-        }
-      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI代理从研究走向大规模工程化实践",
-      "summary": "从7个AI代理创业实验到跨平台API调用工具的流行，表明AI代理技术正从学术研究快速进入工程化和商业化探索阶段，开发者社区是主要推动力。",
+      "title": "AI代理安全风险研究成为新焦点",
+      "summary": "随着AI代理在商业等领域的应用拓展，其安全性问题受到学界关注，相关研究开始系统性地审视自主LLM代理在商业应用中的安全风险。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ai_made_tools/launch-day-7-ai-agents-start-building-startups-with-100-each-5f8h"
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2604.15367"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Oaklight/llm-rosetta"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2604.15774"
         }
       ]
     },
     {
-      "title": "大模型推理优化成为硬件与算法协同创新的焦点",
-      "summary": "针对TPU的推理内核优化与多种推理时引导框架的提出，显示推理效率已成为LLM部署的关键瓶颈，正驱动底层硬件适配与上层算法优化的协同创新。",
+      "title": "LLM推理优化研究呈现硬件与算法并重趋势",
+      "summary": "当前LLM推理优化研究不仅关注算法层面的改进，如细粒度推理时引导和KV缓存优化，也紧密结合特定硬件（如TPU）进行内核级性能提升，显示出全栈优化的趋势。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -120,12 +115,20 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.15488"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.13226"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2603.21365"
         }
       ]
     },
     {
-      "title": "多模态大模型评估正从通用能力转向垂直领域深度测评",
-      "summary": "新出现的多模态基准开始聚焦于电信、复杂临床病例、化学图表等专业领域，表明MLLM评估正从通用场景的广度测试，转向特定垂直领域的深度、复杂推理能力测评。",
+      "title": "多模态LLM基准测试向复杂专业领域深入",
+      "summary": "多模态大语言模型的评估正从通用场景向电信、复杂临床病例、化学反应图等高度专业化、需要综合推理的领域延伸，标志着MLLM应用落地的深化。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -134,6 +137,24 @@
         {
           "source_name": "arXiv NLP",
           "link": "https://arxiv.org/abs/2602.21950"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.15994"
+        }
+      ]
+    },
+    {
+      "title": "开发者工具生态围绕主流LLM API趋于成熟",
+      "summary": "社区开发活动显示，围绕OpenAI、Anthropic、Google等主流LLM API的开发者工具生态正在快速成熟，涵盖API兼容层、命令行工具到隐私应用，降低了集成与使用门槛。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/moeen-mahmud/remen"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://codeberg.org/mlow/lmcli"
         }
       ]
     }
