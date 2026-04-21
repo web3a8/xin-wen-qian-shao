@@ -1,28 +1,28 @@
 {
-  "global_brief": "AI领域持续活跃，OpenAI宣布其Codex Labs企业级合作计划，旨在全球范围内规模化部署。同时，学术研究聚焦于大模型推理优化、多模态能力评估及安全性问题，而开发者社区则对AI应用成本控制和代理工具生态表现出高度关注。",
+  "global_brief": "AI领域持续聚焦于企业级部署、推理优化与智能体安全。OpenAI宣布与埃森哲、普华永道等合作，推动Codex在企业中的规模化应用。同时，开源社区在长上下文推理、多模态模型及AI智能体安全基准方面涌现大量新研究。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 83206,
-      "event_count": 1409
+      "field_score": 79678,
+      "event_count": 1388
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2877,
-      "event_count": 63
+      "field_score": 3027,
+      "event_count": 67
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 680,
-      "event_count": 13
+      "field_score": 737,
+      "event_count": 15
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 456,
+      "field_score": 402,
       "event_count": 9
     },
     {
@@ -34,8 +34,8 @@
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI启动Codex Labs企业合作计划",
-      "summary": "OpenAI宣布推出Codex Labs，并与埃森哲、普华永道、印孚瑟斯等公司合作，以帮助全球企业部署和规模化应用Codex。",
+      "title": "OpenAI联合多家咨询公司推出Codex Labs以推动企业级部署",
+      "summary": "OpenAI宣布推出Codex Labs，并与埃森哲、普华永道、Infosys等全球咨询公司建立合作伙伴关系，旨在帮助企业部署和规模化应用Codex模型。",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -44,18 +44,8 @@
       ]
     },
     {
-      "title": "《福布斯》发布2026年AI 50强榜单",
-      "summary": "《福布斯》发布第八届AI 50榜单，其中包含20家新上榜公司，OpenAI和Anthropic两家巨头继续领跑，并吸引了硅谷顶级风投和科技巨头的大部分融资。",
-      "references": [
-        {
-          "source_name": "澎湃新闻头条",
-          "link": "https://m.thepaper.cn/detail/33020886"
-        }
-      ]
-    },
-    {
-      "title": "Meta发布个性化LLM对齐的元奖励建模研究",
-      "summary": "Meta的研究人员提出了一种元奖励建模方法，旨在实现大型语言模型的个性化对齐，使单一模型能够适应不同的用户偏好。",
+      "title": "Meta发布新研究探索个性化LLM对齐的元奖励建模方法",
+      "summary": "Meta的研究人员提出了一种名为“元奖励建模”的新方法，旨在使大型语言模型能够适应不同用户的个性化偏好，实现“一个模型适应所有”的对齐目标。",
       "references": [
         {
           "source_name": "arXiv NLP",
@@ -64,8 +54,8 @@
       ]
     },
     {
-      "title": "研究揭示增强推理能力可能加剧工具幻觉",
-      "summary": "一项研究指出，增强大型语言模型的推理能力可能会放大其在使用外部工具时产生的“工具幻觉”问题。",
+      "title": "研究揭示增强LLM推理能力可能加剧工具幻觉风险",
+      "summary": "一项新研究发现，增强大型语言模型的推理能力可能会意外地放大其“工具幻觉”问题，即模型错误地声称使用了其不具备的工具。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -74,8 +64,8 @@
       ]
     },
     {
-      "title": "谷歌发布针对TPU的高性能LLM推理内核",
-      "summary": "谷歌研究人员提出“Ragged Paged Attention”，一种为TPU设计的高性能且灵活的大型语言模型推理内核，以适应成本敏感的边缘部署。",
+      "title": "谷歌为TPU发布高性能LLM推理内核“Ragged Paged Attention”",
+      "summary": "谷歌研究人员发布了一种名为“Ragged Paged Attention”的新型高性能LLM推理内核，专为TPU设计，旨在优化成本敏感型部署场景下的性能。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -84,68 +74,34 @@
       ]
     },
     {
-      "title": "社区讨论聚焦AI应用成本与模型组合方案",
-      "summary": "开发者社区热议使用Claude、GPT等顶级模型进行代码生成和计划制定的高昂成本，并积极探讨结合低成本模型的混合使用方案以控制支出。",
+      "title": "Meta计划收集员工鼠标和键盘数据用于AI训练引发讨论",
+      "summary": "据路透社报道，Meta计划开始捕获员工的鼠标移动和击键数据，以用于人工智能模型的训练，此举在社区引发了关于隐私和伦理的广泛讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21"
+        }
+      ]
+    },
+    {
+      "title": "开发者社区热议AI应用成本，寻求大模型组合方案",
+      "summary": "开发者社区 中，用户反映使用Claude Opus等高级模型进行代码生成和规划成本高昂，半天花费超过40美元，并积极讨论如何通过组合不同模型（如Claude/GPT规划 + 低成本模型执行）来优化成本效益。",
       "references": [
         {
           "source_name": "V2EX 技术",
           "link": "https://v2ex.com/t/1207380"
         },
         {
-          "source_name": "Hacker News Show",
-          "link": "https://aideassistant.com/"
-        },
-        {
           "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2024173"
+          "link": "https://linux.do/t/topic/2024658"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "顶级模型高昂成本催生混合使用策略",
-      "summary": "尽管OpenAI和Anthropic等头部公司吸引了绝大部分资金，但其API的高昂使用成本正促使开发者和企业转向“强模型规划+弱模型执行”的混合策略，以平衡效果与预算。",
-      "references": [
-        {
-          "source_name": "澎湃新闻头条",
-          "link": "https://m.thepaper.cn/detail/33020886"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1207380"
-        },
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://aideassistant.com/"
-        },
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2024173"
-        }
-      ]
-    },
-    {
-      "title": "大模型安全与对齐研究向细粒度发展",
-      "summary": "近期研究不仅关注传统的提示注入和知识污染问题，还深入探讨了个性化对齐、多模态场景下的安全隐患，显示模型安全正从通用防御转向更精细、场景化的治理。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2601.18731"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2508.03793"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2510.22977"
-        }
-      ]
-    },
-    {
-      "title": "推理效率优化成为学术与工程界共同焦点",
-      "summary": "针对苹果芯片的长上下文注意力优化 、为TPU设计的推理内核 等研究密集出现，表明在模型能力快速提升的同时，提升推理速度、降低部署成本已成为迫切的产业需求。",
+      "title": "推理优化与硬件适配成为LLM落地关键瓶颈",
+      "summary": "近期研究密集发布针对Apple Silicon的压缩注意力实现 和针对TPU的Ragged Paged Attention内核，表明在模型能力竞赛之外，针对特定硬件的极致推理优化已成为降低部署成本、提升实用性的核心战场。",
       "references": [
         {
           "source_name": "arXiv 机器学习",
@@ -154,6 +110,42 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.15464"
+        }
+      ]
+    },
+    {
+      "title": "AI智能体安全与可审计性需求急剧上升",
+      "summary": "社区接连出现为AI智能体提供隔离运行环境 、安全基准测试 和行动加密存证 的开源工具，反映出随着智能体能力增强并开始执行真实世界操作，其安全性、可控性与责任追溯已成为亟待解决的关键问题。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/mitshe/mitshe"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/vadimsv1/agent-security-benchmark"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/arian-gogani/nobulex"
+        }
+      ]
+    },
+    {
+      "title": "高昂的API成本正推动开发者转向混合模型策略",
+      "summary": "社区讨论 和学术研究 均显示，纯粹依赖顶级闭源模型的高成本模式难以为继，开发者开始积极探索“强模型规划+弱模型执行”或成本感知的模型编排策略，这可能会催生新的工具层和最佳实践。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1207380"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2024658"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2512.01099"
         }
       ]
     }
