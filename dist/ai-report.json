@@ -1,41 +1,51 @@
 {
-  "global_brief": "过去24小时，AI领域研究持续活跃，重点关注大语言模型推理能力的增强与潜在风险、推理性能优化以及多模态应用。同时，开发者社区对主流API的成本控制和统一网关工具表现出强烈需求。",
+  "global_brief": "过去24小时，AI研究领域持续聚焦于大语言模型（LLM）的安全性、推理能力与部署优化。社区讨论则反映出对多模型API统一、成本控制以及开源LLM网关的强烈需求。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 31932,
-      "event_count": 555
+      "field_score": 85001,
+      "event_count": 1401
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1936,
-      "event_count": 44
+      "field_score": 2935,
+      "event_count": 62
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 412,
-      "event_count": 9
+      "field_score": 665,
+      "event_count": 12
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 229,
-      "event_count": 5
+      "field_score": 457,
+      "event_count": 10
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 84,
+      "field_score": 82,
       "event_count": 2
     }
   ],
   "highlight_facts": [
     {
-      "title": "研究揭示增强LLM推理能力可能加剧工具幻觉",
-      "summary": "一项新研究指出，增强大语言模型的推理能力反而会放大其“工具幻觉”问题，即模型错误地声称使用了外部工具。",
+      "title": "Meta提出元奖励建模方法，实现个性化LLM对齐",
+      "summary": "Meta的研究人员提出了一种元奖励建模方法，旨在使单个奖励模型能够适应任何用户的偏好，从而实现个性化的大语言模型对齐。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2601.18731"
+        }
+      ]
+    },
+    {
+      "title": "研究发现增强LLM推理能力会加剧工具幻觉",
+      "summary": "一项研究发现，增强大语言模型的推理能力反而会放大其工具幻觉问题，即模型会更自信地错误调用工具。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -44,8 +54,8 @@
       ]
     },
     {
-      "title": "谷歌发布面向TPU的高性能LLM推理内核",
-      "summary": "谷歌研究人员提出“Ragged Paged Attention”，一种专为TPU设计的高性能、灵活的大语言模型推理内核，旨在优化云端部署成本。",
+      "title": "谷歌发布针对TPU的高性能LLM推理内核",
+      "summary": "谷歌发布了“Ragged Paged Attention”，一个为TPU设计的高性能、灵活的大语言模型推理内核，旨在优化云端的LLM部署。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,94 +64,88 @@
       ]
     },
     {
-      "title": "开发者发布统一本地网关CliGate",
-      "summary": "一名开发者因厌倦为不同AI服务维护独立适配器，构建了名为CliGate的本地网关，可统一接入Claude Code、Codex、Gemini、Telegram、飞书和钉钉。",
+      "title": "社区开发者发布跨平台LLM API转换工具",
+      "summary": "一位开发者发布了“LLM-Rosetta”项目，旨在解决在OpenAI、Anthropic和Gemini等不同LLM API之间维护适配器的麻烦，实现API调用的统一转换。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/codekingai/i-wanted-one-local-gateway-for-claude-code-codex-gemini-telegram-feishu-and-dingtalk-so-i-i83"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/Oaklight/llm-rosetta"
         }
       ]
     },
     {
-      "title": "育碧招聘要求精通生成式AI",
-      "summary": "据报道，育碧等3A游戏大厂正在招聘中明确要求应聘者精通生成式人工智能技术，表明AI正深度渗透游戏开发流程。",
+      "title": "研究提出长上下文LLM的提示注入归因方法",
+      "summary": "针对Gemini-2.5-Pro和Claude-3.5-Sonnet等长上下文大语言模型，研究人员提出了“AttnTrace”方法，用于上下文归因提示注入和知识污染攻击。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/941/439.htm"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2508.03793"
         }
       ]
     },
     {
-      "title": "研究指出思维链可能损害多模态LLM空间推理能力",
-      "summary": "一项研究发现，在多模态大语言模型中使用思维链提示方法，可能会损害其在视觉空间推理任务上的表现。",
+      "title": "开源项目实现Apple Silicon上的长上下文LLM推理优化",
+      "summary": "开源项目“Open-TQ-Metal”实现了首个融合压缩域注意力机制，专门针对Apple Silicon优化，以支持长达128K上下文的70B参数大语言模型推理。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.16060"
-        }
-      ]
-    },
-    {
-      "title": "Hugging Face展示基于合成人物构建韩国AI智能体",
-      "summary": "Hugging Face博客介绍了一项工作，通过合成人物来构建一个更贴近韩国真实人口统计数据的AI智能体。",
-      "references": [
-        {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas"
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.16957"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "开发者社区对主流AI API成本与复杂性感到焦虑",
-      "summary": "社区讨论显示，开发者对Claude、GPT等闭源模型的高昂使用成本感到压力，并寻求组合方案或开源替代品以控制支出。同时，多提供商系统的复杂性因LLM的推理特性而显著增加。",
+      "title": "社区对LLM应用成本与可用性工具需求迫切",
+      "summary": "社区讨论显示，开发者正积极寻求降低LLM使用成本的方案，包括寻找开源LLM网关、组合使用不同模型，以及对API调用进行统一管理和计费，反映出生产部署中的实际痛点。",
       "references": [
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2018426"
+        },
         {
           "source_name": "V2EX 技术",
           "link": "https://v2ex.com/t/1207380"
         },
         {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2017532"
-        },
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=47836090"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://backboard.io/blog/i-think-therefore-i-am%E2%80%A6-a-big-pain-in-the-butt"
-        }
-      ]
-    },
-    {
-      "title": "开源模型与统一接口工具需求旺盛",
-      "summary": "开发者社区积极分享开源模型的生产部署指南，并创建了能在OpenAI、Anthropic、Gemini等主流API间进行调用的翻译工具，反映出市场对降低供应商锁定风险和简化开发流程的强烈需求。",
-      "references": [
-        {
           "source_name": "Hacker News LLM",
           "link": "https://github.com/Oaklight/llm-rosetta"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/phlx0/awesome-open-weight-models"
         }
       ]
     },
     {
-      "title": "AI智能体安全与评估成为研究新焦点",
-      "summary": "近期研究不仅关注智能体的能力构建，也加强了对安全风险的审视，例如对智能体商业应用安全性的系统化研究，以及对智能体记忆错误演变的基准测试，表明该领域正走向成熟。",
+      "title": "AI智能体工具生态持续丰富，向本地化与专业化发展",
+      "summary": "开源社区涌现出更多专注于AI智能体开发的工具，包括本地浏览器自动化CLI、连接手机与智能体的桥梁，以及用于扫描AI生成代码安全漏洞的工具，表明智能体开发正从云端向边缘和特定场景深化。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://arxiv.org/abs/2604.15367"
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/kachilu-inc/kachilu-browser"
         },
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2604.15774"
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/caihongxu/palmier"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/Hephaestus-byte/agent-guard"
+        }
+      ]
+    },
+    {
+      "title": "多模态LLM评估揭示医疗等专业领域应用潜力与挑战",
+      "summary": "近期多项研究对多模态大语言模型在住院诊断、数学推理等专业领域进行评估，结果显示其具备应用潜力，但也暴露出在空间推理、安全性和实际性能成本方面的挑战，推动更细粒度的基准测试和优化方法出现。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.16980"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.18584"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2604.17889"
         }
       ]
     }
