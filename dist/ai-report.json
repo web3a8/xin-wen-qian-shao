@@ -1,29 +1,29 @@
 {
-  "global_brief": "过去24小时，AI研究领域持续高产，重点聚焦于大语言模型（LLM）的推理、对齐、安全及高效推理技术。同时，社区讨论反映出对AI应用成本高昂的普遍担忧，以及开源模型部署指南等实用工具的兴起。",
+  "global_brief": "过去24小时，AI领域的研究与产业动态密集。OpenAI宣布启动企业级Codex合作计划，旨在将AI编程助手规模化推向全球企业。同时，学术界在LLM推理优化、多模态模型评估、AI安全与对齐等方面涌现大量新研究，特别是针对长上下文推理、工具幻觉和提示注入攻击的解决方案。社区讨论则聚焦于高昂的AI使用成本与寻求开源替代方案。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 80745,
-      "event_count": 1365
+      "field_score": 82143,
+      "event_count": 1387
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2838,
-      "event_count": 61
+      "field_score": 2982,
+      "event_count": 65
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 641,
-      "event_count": 12
+      "field_score": 679,
+      "event_count": 13
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 311,
-      "event_count": 7
+      "field_score": 276,
+      "event_count": 6
     },
     {
       "field_key": "domestic",
@@ -34,8 +34,18 @@
   ],
   "highlight_facts": [
     {
-      "title": "Meta提出元奖励建模方法，实现个性化LLM对齐",
-      "summary": "Meta的研究人员提出了一种名为“元奖励建模”的新方法，旨在使单个奖励模型能够适应任何用户的偏好，从而实现个性化的大语言模型对齐。",
+      "title": "OpenAI启动企业级Codex合作计划",
+      "summary": "OpenAI宣布推出“Codex Transformation Partners”项目，与埃森哲、普华永道、印孚瑟斯等公司合作，旨在帮助全球企业大规模部署和应用Codex编程助手。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/scaling-codex-to-enterprises-worldwide"
+        }
+      ]
+    },
+    {
+      "title": "Meta提出个性化LLM对齐的元奖励建模方法",
+      "summary": "Meta的研究人员提出了一种名为“One Adapts to Any”的元奖励建模方法，旨在通过单一模型适应不同用户的个性化偏好，以实现更高效的大语言模型对齐。",
       "references": [
         {
           "source_name": "arXiv NLP",
@@ -44,8 +54,8 @@
       ]
     },
     {
-      "title": "研究揭示增强LLM推理能力可能加剧工具幻觉",
-      "summary": "一项研究发现，增强大语言模型的推理能力可能会意外地放大其“工具幻觉”问题，即模型错误地声称使用了其不具备的工具。",
+      "title": "研究揭示增强推理能力可能加剧工具幻觉",
+      "summary": "一项研究发现，增强大语言模型的推理能力可能会意外地放大其“工具幻觉”问题，即模型错误地声称使用了某些工具或API。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,18 +64,8 @@
       ]
     },
     {
-      "title": "Meta开源适用于Apple Silicon的长上下文LLM推理方案",
-      "summary": "Meta发布了Open-TQ-Metal，这是首个在Apple Silicon上实现融合压缩域注意力机制的开源方案，旨在优化长上下文（如128K）大语言模型（如70B参数模型）的推理性能。",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2604.16957"
-        }
-      ]
-    },
-    {
-      "title": "Google为TPU发布高性能LLM推理内核",
-      "summary": "Google的研究人员发布了“Ragged Paged Attention”，一个专为TPU设计的高性能、灵活的大语言模型推理内核，以应对云端LLM部署的增长需求。",
+      "title": "谷歌发布面向TPU的高性能LLM推理内核",
+      "summary": "谷歌研究人员提出了“Ragged Paged Attention”，一种专为TPU设计的高性能、灵活的大语言模型推理内核，旨在优化云端LLM部署成本。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -74,76 +74,64 @@
       ]
     },
     {
-      "title": "Anthropic与亚马逊锁定千亿美元AI基础设施投资",
-      "summary": "Anthropic与亚马逊达成了一项价值1000亿美元的AI基础设施投资协议，双方将共同押注未来的AI发展。",
+      "title": "社区热议AI使用成本高昂，寻求模型组合方案",
+      "summary": "开发者社区（V2EX， Hacker News等）广泛讨论使用Claude Opus等高级模型编写代码导致的高昂费用，并积极探讨结合开源模型（如Minimax）的混合使用方案以控制成本。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/damogallagher/anthropic-and-amazon-just-locked-in-a-100-billion-ai-infrastructure-bet-1h48"
+          "source_name": "V2EX 最热",
+          "link": "https://v2ex.com/t/1207380"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/amargandhi/claude-buddy-pico"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2023141"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1207493"
         }
       ]
     },
     {
-      "title": "研究提出针对长上下文LLM的提示注入归因方法",
-      "summary": "针对Gemini-2.5-Pro和Claude-3.7-Sonnet等长上下文大语言模型，研究人员提出了AttnTrace方法，用于在上下文归因提示注入和知识污染攻击。",
+      "title": "多模态大模型在真实世界医疗诊断中的表现获评估",
+      "summary": "一项研究评估了十种前沿多模态大语言模型在住院患者诊断任务中的真实世界性能、安全性和成本，为医疗AI应用提供了重要参考。",
       "references": [
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2508.03793"
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.16980"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "社区对主流闭源AI模型的高昂使用成本感到焦虑",
-      "summary": "开发者社区 普遍反映，使用Claude Opus、GPT等顶级闭源模型进行代码生成和任务规划的成本过高，促使他们积极寻求结合开源模型的混合方案以控制支出。",
+      "title": "推理优化与硬件适配成为LLM部署核心挑战",
+      "summary": "多项研究（如面向Apple Silicon的长上下文推理优化、面向TPU的推理内核）表明，在模型能力趋同的背景下，推理效率、成本控制及与特定硬件的深度适配正成为产业界和开源社区竞争的焦点。",
       "references": [
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1207380"
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.16957"
         },
         {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2021991"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.15464"
         }
       ]
     },
     {
-      "title": "开源模型部署指南和自托管工具成为社区热点",
-      "summary": "社区 对开源模型的生产部署指南（如awesome-open-weight-models）以及自托管搜索API（AgentSearch）、DNS过滤工具（Unwired）表现出浓厚兴趣，反映出从依赖API向可控、低成本本地化部署的明显趋势。",
+      "title": "AI安全研究从内容安全向系统与工具安全深化",
+      "summary": "针对提示注入、知识污染、工具幻觉等新型攻击面的研究（如AttnTrace）表明，随着AI代理（Agent）的复杂化，安全威胁已从生成有害内容扩展到误导系统决策、滥用工具权限等更深层次，需要新的归因和防御机制。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/brcrusoe72/agent-search"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2508.03793"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/phlx0/awesome-open-weight-models"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/moe18/Unwired"
-        }
-      ]
-    },
-    {
-      "title": "LLM推理的复杂性给多供应商系统运维带来新挑战",
-      "summary": "行业观察 指出，由于大语言模型的推理过程具有不确定性和状态性，使得构建和运维依赖多个LLM供应商的系统变得异常复杂，故障排查难度显著增加。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://backboard.io/blog/i-think-therefore-i-am%E2%80%A6-a-big-pain-in-the-butt"
-        }
-      ]
-    },
-    {
-      "title": "用小规模LLM标注替代海量人工标注成为可行新思路",
-      "summary": "有案例 显示，仅花费25美元利用LLM进行数据标注，其效果超过了基于150万次购买行为的人工标注，这为数据标注领域提供了极具成本效益的新范式。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://hopitai.substack.com/p/25-beat-everything-we-had-built"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2510.22977"
         }
       ]
     }
