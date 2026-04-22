@@ -1,117 +1,68 @@
 {
-  "global_brief": "过去24小时，AI领域动态密集，产业与学术并进。Anthropic获亚马逊50亿美元投资并达成芯片采购协议，SpaceX则获得以600亿美元收购AI初创公司Cursor的期权，显示资本与硬件正深度重塑AI格局。同时，OpenAI的ChatGPT Images 2.0模型发布，其文本生成能力引发关注，而美国佛罗里达州首次将AI（ChatGPT）纳入刑事调查，标志着监管压力迫近。",
+  "global_brief": "过去24小时的重要动态主要集中在：Assessing Capabilities of Large Language Models in Social Media Analytics: A Multi-task Quest；Google unveils two new TPUs designed for the \"agentic era\"；Speeding up agentic workflows with WebSockets in the Responses API。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 43420,
-      "event_count": 723
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1267,
-      "event_count": 31
+      "field_score": 40923,
+      "event_count": 703
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1140,
-      "event_count": 26
+      "field_score": 1026,
+      "event_count": 25
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 860,
+      "event_count": 22
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 923,
-      "event_count": 18
+      "field_score": 782,
+      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 916,
-      "event_count": 18
+      "field_score": 753,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic获亚马逊50亿美元投资用于购买其定制芯片",
-      "summary": "Anthropic从亚马逊获得50亿美元投资，并将利用这笔资金购买亚马逊的定制AI芯片。这笔交易还包括确保获得亚马逊5千兆瓦的定制硅产能，以满足其Claude模型不断增长的需求。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/anthropic-gets-5b-investment-from-amazon-will-use-it-to-buy-amazon-chips"
-        }
-      ]
+      "title": "Anthropic 更新 OpenAI",
+      "summary": "Anthropic 更新 OpenAI；时间：2026-04-22T15:15:34.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "SpaceX获得以600亿美元收购AI初创公司Cursor的期权",
-      "summary": "SpaceX正在与AI代码助手初创公司Cursor合作，并已获得以600亿美元收购该公司的期权。此举被认为可能弥补双方各自的弱点。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion"
-        }
-      ]
+      "title": "Anthropic 更新 OpenAI",
+      "summary": "Anthropic 更新 OpenAI；时间：2026-04-22T12:22:56.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "OpenAI发布ChatGPT Images 2.0，文本生成能力突出",
-      "summary": "OpenAI发布了最新的图像生成模型ChatGPT Images 2.0。该模型在生成文本方面表现出令人惊讶的良好能力，显示出AI能力的快速演进。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text"
-        },
-        {
-          "source_name": "Product Hunt",
-          "link": "https://producthunt.com/products/chatgpt-images-2-0"
-        }
-      ]
+      "title": "We're 发布 ing two specialized TPUs for the agentic era.",
+      "summary": "We're 发布 ing two specialized TPUs for the agentic era.；时间：2026-04-22T12:00:00.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "美国首次将人工智能纳入刑事调查范畴",
-      "summary": "美国佛罗里达州检察官宣布，正式针对OpenAI及其ChatGPT启动刑事调查，指控其在2025年的一起校园枪击案中可能存在潜在作用。此案成为美国首例将AI纳入刑事调查的案件。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3770603"
-        }
-      ]
+      "title": "Google 发布 TPU 8t / 8i，两款 AI 芯片分别面向训练和智能体推理",
+      "summary": "Google 发布 TPU 8t / 8i，两款 AI 芯片分别面向训练和智能体推理；时间：2026-04-22T13:26:56.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "OpenAI CEO公开批评Anthropic的网络安全模型",
-      "summary": "OpenAI首席执行官Sam Altman在播客节目中批评了竞争对手Anthropic的网络安全模型Mythos，称其为“基于恐惧的营销”。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing"
-        }
-      ]
+      "title": "Anthropic 更新 Google",
+      "summary": "Anthropic 更新 Google；时间：2026-04-22T02:07:34.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     },
     {
-      "title": "谷歌发布两款面向智能体时代的专用TPU",
-      "summary": "谷歌宣布推出两款专门为智能体（Agentic）时代设计的专用TPU（张量处理单元）。",
-      "references": [
-        {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next"
-        }
-      ]
+      "title": "Anthropic 更新 GitHub",
+      "summary": "Anthropic 更新 GitHub；时间：2026-04-22T03:30:02.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI军备竞赛进入“资本+硬件”绑定新阶段",
-      "summary": "Anthropic与亚马逊的深度绑定（投资+芯片采购），以及SpaceX对Cursor的潜在天价收购，表明顶级AI竞争已超越单纯的技术或模型层面，正演变为资本与核心硬件供应链的战略性整合。这可能会进一步拉大巨头与中小玩家在算力资源和长期研发耐力上的差距。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/anthropic-gets-5b-investment-from-amazon-will-use-it-to-buy-amazon-chips"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
