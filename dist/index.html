@@ -936,7 +936,7 @@
             <img class="brand-mark" src="./assets/images/hei.png" alt="大火蒸馏">
             <div class="brand-copy">
               <img class="brand-wordmark" src="./assets/images/txt-logo.png" alt="大火蒸馏文字标识">
-              <p class="brand-subtitle" id="brand-subtitle">AI驱动的新闻前哨站</p>
+              <p class="brand-subtitle" id="brand-subtitle">多领域新闻前哨站</p>
             </div>
           </div>
         </div>
@@ -960,7 +960,7 @@
                 <path d="M12 3.75 5.75 7.25v5.5c0 3.4 2.51 6.45 6.25 7.5 3.74-1.05 6.25-4.1 6.25-7.5v-5.5L12 3.75Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="m9.25 12 1.75 1.75 3.75-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              <h2 class="report-band-title">AI总结</h2>
+              <h2 class="report-band-title">重点摘要</h2>
             </div>
             <p class="report-band-disclaimer">内容是AI生成，仅供参考</p>
           </div>
@@ -979,7 +979,7 @@
                   <path d="M12 4.75 6.5 7.5v4.25c0 3.06 2.23 5.8 5.5 6.75 3.27-.95 5.5-3.69 5.5-6.75V7.5L12 4.75Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M9.25 12h5.5M12 9.25v5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                <h3 class="report-band-group-title">AI大事件</h3>
+                <h3 class="report-band-group-title">重点事件</h3>
               </div>
               <p class="report-band-disclaimer">内容是AI生成，仅供参考</p>
             </div>
@@ -1595,7 +1595,7 @@
           state.aiReport = prepareAiReport(aiReport);
           state.generatedAt = rss.generatedAt || "";
           if (brandSubtitle) {
-            brandSubtitle.textContent = "AI驱动的新闻前哨站";
+            brandSubtitle.textContent = "多领域新闻前哨站";
           }
           renderAiReport();
           renderFilters();

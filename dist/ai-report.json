@@ -1,23 +1,23 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Assessing Capabilities of Large Language Models in Social Media Analytics: A Multi-task Quest；Google unveils two new TPUs designed for the \"agentic era\"；Speeding up agentic workflows with WebSockets in the Responses API。",
+  "global_brief": "过去24小时，AI领域动态聚焦于“智能体时代”的软硬件协同推进。谷歌发布两款专为智能体设计的新TPU，首次将训练与推理芯片分离；OpenAI则通过WebSocket优化其智能体工作流响应速度。同时，开源模型Qwen3.6-27B发布，声称在代码能力上达到旗舰水平。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 41400,
-      "event_count": 709
+      "field_score": 41417,
+      "event_count": 708
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1026,
+      "field_score": 1024,
       "event_count": 25
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 821,
-      "event_count": 21
+      "field_score": 941,
+      "event_count": 24
     },
     {
       "field_key": "world",
@@ -34,35 +34,164 @@
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 更新 OpenAI",
-      "summary": "Anthropic 更新 OpenAI；时间：2026-04-22T15:15:34.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "谷歌发布两款专为“智能体时代”设计的新TPU",
+      "summary": "谷歌在年度开发者大会上发布了两款新的Tensor AI芯片，首次将训练与推理芯片功能拆分，旨在为AI智能体提供专用硬件支持。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/google-unveils-two-new-tpus-designed-for-the-agentic-era"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3770631"
+        },
+        {
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next"
+        }
+      ]
     },
     {
-      "title": "GitHub 更新 Google",
-      "summary": "GitHub 更新 Google；时间：2026-04-22T15:03:21.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "OpenAI推出WebSocket API以加速智能体工作流",
+      "summary": "OpenAI发布新功能，通过WebSocket和连接范围内的缓存来减少API开销，旨在提升智能体工作流的响应速度。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses"
+        }
+      ]
     },
     {
-      "title": "Anthropic 更新 OpenAI",
-      "summary": "Anthropic 更新 OpenAI；时间：2026-04-22T12:22:56.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "阿里云开源Qwen3.6-27B多模态模型",
+      "summary": "阿里云通义千问团队开源了拥有270亿参数的稠密多模态模型Qwen3.6-27B，并宣称其在代码能力上达到旗舰水平。",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Apr/22/qwen36-27b"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/942/302.htm"
+        }
+      ]
     },
     {
-      "title": "We're 发布 ing two specialized TPUs for the agentic era.",
-      "summary": "We're 发布 ing two specialized TPUs for the agentic era.；时间：2026-04-22T12:00:00.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "Anthropic测试从Pro计划中移除Claude Code功能",
+      "summary": "由于需求难以满足，Anthropic正在测试从Claude Pro计划中移除Claude Code功能，并探索新的服务配给方案。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan"
+        }
+      ]
     },
     {
-      "title": "Google 发布 TPU 8t / 8i，两款 AI 芯片分别面向训练和智能体推理",
-      "summary": "Google 发布 TPU 8t / 8i，两款 AI 芯片分别面向训练和智能体推理；时间：2026-04-22T13:26:56.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "OpenAI为美国临床医生免费提供ChatGPT专业版",
+      "summary": "OpenAI宣布，经过验证的美国医生、执业护士和药剂师可以免费使用ChatGPT for Clinicians。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/making-chatgpt-better-for-clinicians"
+        }
+      ]
     },
     {
-      "title": "Anthropic 更新 Google",
-      "summary": "Anthropic 更新 Google；时间：2026-04-22T02:07:34.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "OpenAI发布开源隐私过滤模型",
+      "summary": "OpenAI推出名为“OpenAI Privacy Filter”的开源权重模型，用于检测和编辑文本中的个人可识别信息。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/introducing-openai-privacy-filter"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/livestream-musk-v-altman-trial"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "大厂竞逐“智能体时代”，硬件专业化趋势显现",
+      "summary": "谷歌拆分训练与推理芯片，OpenAI优化智能体API，表明主流厂商正从通用AI基础设施转向为智能体应用场景提供深度定制的软硬件解决方案，产业竞争进入新阶段。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/google-unveils-two-new-tpus-designed-for-the-agentic-era"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3770631"
+        }
+      ]
+    },
+    {
+      "title": "高昂推理成本迫使厂商调整服务策略",
+      "summary": "Anthropic因“难以维持的需求”而测试移除Claude Code，GitHub Copilot个人计划同日亦有变动，反映出当前顶级AI服务（尤其是代码生成）的运营成本压力巨大，厂商开始探索功能拆分或分级定价等理性化商业模式。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Apr/22/changes-to-github-copilot"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion"
+        }
+      ]
+    },
+    {
+      "title": "AI安全与隐私从模型对齐延伸至工具层",
+      "summary": "从OpenAI发布隐私过滤模型，到社区讨论未授权向量数据库暴露企业数据，表明AI安全关注点正从模型本身的对齐与偏见，扩展到实际部署中的数据泄露、代理行为管控等工具与基础设施层风险。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/introducing-openai-privacy-filter"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/livestream-musk-v-altman-trial"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://news.ycombinator.com/item?id=47868779"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/thirdkeyai/symbiont"
+        }
+      ]
+    }
+  ]
 }
