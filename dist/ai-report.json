@@ -1,41 +1,59 @@
 {
-  "global_brief": "过去24小时，AI领域动态聚焦于“智能体时代”的软硬件协同推进。谷歌发布两款专为智能体设计的新TPU，首次将训练与推理芯片分离；OpenAI则通过WebSocket优化其智能体工作流响应速度。同时，开源模型Qwen3.6-27B发布，声称在代码能力上达到旗舰水平。",
+  "global_brief": "过去24小时，AI领域动态聚焦于智能体（Agent）的产业化落地与硬件支持。OpenAI和Google相继推出面向企业工作流和“智能体时代”的新产品与专用芯片，同时开源社区在模型推理优化、多模态安全及智能体协作框架等方面涌现大量研究。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 41417,
-      "event_count": 708
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1024,
-      "event_count": 25
+      "field_score": 39644,
+      "event_count": 677
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 941,
+      "field_score": 965,
+      "event_count": 24
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 960,
       "event_count": 24
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 782,
-      "event_count": 15
+      "field_score": 826,
+      "event_count": 16
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 753,
-      "event_count": 15
+      "field_score": 815,
+      "event_count": 17
     }
   ],
   "highlight_facts": [
     {
-      "title": "谷歌发布两款专为“智能体时代”设计的新TPU",
-      "summary": "谷歌在年度开发者大会上发布了两款新的Tensor AI芯片，首次将训练与推理芯片功能拆分，旨在为AI智能体提供专用硬件支持。",
+      "title": "OpenAI发布面向团队的AI智能体，支持长周期复杂任务",
+      "summary": "OpenAI宣布在ChatGPT中推出Workspace Agents（工作空间智能体），支持团队创建协作智能体，能7*24小时在线处理复杂任务和长周期工作流。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/942/362.htm"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots"
+        }
+      ]
+    },
+    {
+      "title": "Google发布两款专为“智能体时代”设计的新TPU",
+      "summary": "Google发布了两款新的Tensor AI芯片，专为“智能体时代”设计，其中一款专注于推理任务。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -44,10 +62,6 @@
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3770631"
         },
         {
           "source_name": "Google AI Blog",
@@ -56,40 +70,8 @@
       ]
     },
     {
-      "title": "OpenAI推出WebSocket API以加速智能体工作流",
-      "summary": "OpenAI发布新功能，通过WebSocket和连接范围内的缓存来减少API开销，旨在提升智能体工作流的响应速度。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses"
-        }
-      ]
-    },
-    {
-      "title": "阿里云开源Qwen3.6-27B多模态模型",
-      "summary": "阿里云通义千问团队开源了拥有270亿参数的稠密多模态模型Qwen3.6-27B，并宣称其在代码能力上达到旗舰水平。",
-      "references": [
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/22/qwen36-27b"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/942/302.htm"
-        }
-      ]
-    },
-    {
       "title": "Anthropic测试从Pro计划中移除Claude Code功能",
-      "summary": "由于需求难以满足，Anthropic正在测试从Claude Pro计划中移除Claude Code功能，并探索新的服务配给方案。",
+      "summary": "由于需求难以满足，Anthropic正在测试从其Claude Pro计划中移除Claude Code功能，并探索新的服务配给方案。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -98,42 +80,44 @@
       ]
     },
     {
-      "title": "OpenAI为美国临床医生免费提供ChatGPT专业版",
-      "summary": "OpenAI宣布，经过验证的美国医生、执业护士和药剂师可以免费使用ChatGPT for Clinicians。",
+      "title": "通义千问发布Qwen3.6-27B模型，宣称具备旗舰级编码能力",
+      "summary": "通义千问（Qwen）发布了Qwen3.6-27B模型，声称这个270亿参数的稠密模型具备旗舰级的编码能力。",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/making-chatgpt-better-for-clinicians"
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Apr/22/qwen36-27b"
         }
       ]
     },
     {
-      "title": "OpenAI发布开源隐私过滤模型",
-      "summary": "OpenAI推出名为“OpenAI Privacy Filter”的开源权重模型，用于检测和编辑文本中的个人可识别信息。",
+      "title": "研究揭示不同LLM在多轮对话中的行为差异",
+      "summary": "一项arXiv研究通过“修复”行为分析，揭示了GPT和Claude等大型语言模型在多轮对话中不可靠的行为差异，例如GPT倾向于“万事通”，而Claude则更爱“反复思量”。",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/introducing-openai-privacy-filter"
-        },
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.19245"
+        }
+      ]
+    },
+    {
+      "title": "研究评估LLM在生成运动处方时的一致性",
+      "summary": "一项跨三个大型语言模型（Anthropic， Google， OpenAI）的重复生成研究表明，不同模型在生成运动处方时的一致性存在差异。",
+      "references": [
         {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/livestream-musk-v-altman-trial"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.19598"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "大厂竞逐“智能体时代”，硬件专业化趋势显现",
-      "summary": "谷歌拆分训练与推理芯片，OpenAI优化智能体API，表明主流厂商正从通用AI基础设施转向为智能体应用场景提供深度定制的软硬件解决方案，产业竞争进入新阶段。",
+      "title": "大厂竞逐企业级AI智能体市场，基础设施竞赛同步升级",
+      "summary": "OpenAI推出Workspace Agents，Google发布专用TPU，表明头部公司正将AI竞争从通用模型转向企业工作流和智能体解决方案。这预示着下一阶段AI应用将深度嵌入业务流程，并对底层推理硬件提出更高要求。",
       "references": [
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/google-unveils-two-new-tpus-designed-for-the-agentic-era"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/942/362.htm"
         },
         {
           "source_name": "OpenAI 博客",
@@ -144,18 +128,18 @@
           "link": "https://theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots"
         },
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/google-unveils-two-new-tpus-designed-for-the-agentic-era"
         },
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3770631"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern"
         }
       ]
     },
     {
-      "title": "高昂推理成本迫使厂商调整服务策略",
-      "summary": "Anthropic因“难以维持的需求”而测试移除Claude Code，GitHub Copilot个人计划同日亦有变动，反映出当前顶级AI服务（尤其是代码生成）的运营成本压力巨大，厂商开始探索功能拆分或分级定价等理性化商业模式。",
+      "title": "模型服务成本压力显现，厂商开始调整产品策略",
+      "summary": "Anthropic因“难以满足的需求”测试移除Claude Code，GitHub Copilot同日调整个人计划，反映出领先的AI编码辅助工具正面临巨大的运营成本与资源分配压力，可能预示着行业将从“功能堆砌”转向更精细化的服务与定价模式。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -172,24 +156,50 @@
       ]
     },
     {
-      "title": "AI安全与隐私从模型对齐延伸至工具层",
-      "summary": "从OpenAI发布隐私过滤模型，到社区讨论未授权向量数据库暴露企业数据，表明AI安全关注点正从模型本身的对齐与偏见，扩展到实际部署中的数据泄露、代理行为管控等工具与基础设施层风险。",
+      "title": "开源研究聚焦于LLM的部署优化与安全评估",
+      "summary": "近期大量arXiv研究集中于LLM的边缘部署加速、模型剪枝、多模态安全评估（如ProjLens）以及智能体协作框架（如OMAC）。这表明在基础模型能力趋同的背景下，社区的研究重点正向提升实用性、安全性和降低推理成本等工程化挑战转移。",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/introducing-openai-privacy-filter"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.18655"
         },
         {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/livestream-musk-v-altman-trial"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.19398"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.19083"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2505.11765"
+        }
+      ]
+    },
+    {
+      "title": "社区对AI智能体的热情高涨，但工具评价出现分化",
+      "summary": "社区涌现出Tencent的CubeSandbox、桌面GUI智能体Clippy等多种智能体项目，显示开发者生态活跃。但同时，关于Claude Code与Codex等编码工具孰优孰劣的讨论 也表明，用户对AI工具的实际效用和稳定性有了更挑剔的评价标准。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/tencentcloud/CubeSandbox"
         },
         {
           "source_name": "Hacker News AI",
-          "link": "https://news.ycombinator.com/item?id=47868779"
+          "link": "https://github.com/AmrDab/clippyai-desktop"
         },
         {
           "source_name": "Hacker News AI",
-          "link": "https://github.com/thirdkeyai/symbiont"
+          "link": "https://arcade.dev/blog/claude-code-ai-sre-oncall-workflows"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1207828"
+        },
+        {
+          "source_name": "V2EX 最热",
+          "link": "https://v2ex.com/t/1207711"
         }
       ]
     }
