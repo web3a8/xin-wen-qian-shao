@@ -1,41 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域研究持续活跃，重点关注大语言模型（LLM）的评估、推理优化与多模态能力。同时，产业界围绕“智能体时代”的硬件与工具发布引人注目，谷歌推出新型TPU，OpenAI优化智能体工作流，小米也发布了新的推理模型。",
+  "global_brief": "过去24小时，AI领域研究持续活跃，重点关注大语言模型（LLM）的评估、推理优化与多模态能力。产业侧，谷歌发布面向“智能体时代”的新TPU，OpenAI则优化了其API以加速智能体工作流。同时，关于模型训练数据来源的伦理问题引发社区讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 50137,
-      "event_count": 819
+      "field_score": 50777,
+      "event_count": 829
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1701,
+      "field_score": 1669,
       "event_count": 38
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1048,
+      "field_score": 1058,
       "event_count": 26
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 920,
-      "event_count": 16
+      "field_score": 883,
+      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 741,
-      "event_count": 15
+      "field_score": 673,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "谷歌发布两款面向“智能体时代”的新型TPU",
-      "summary": "谷歌发布了两款新的Tensor AI芯片，一款专为推理设计，另一款专为训练设计，旨在支持日益增长的智能体应用需求。其AI博客也同步宣布了这两款专用TPU的发布。",
+      "title": "谷歌发布面向“智能体时代”的新一代TPU",
+      "summary": "谷歌发布了两款专为“智能体时代”设计的新Tensor AI芯片，旨在提升推理效率，以支持其Workspace中日益增多的自动化功能。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -44,26 +44,12 @@
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern"
-        },
-        {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next"
         }
       ]
     },
     {
-      "title": "OpenAI发布GPT-Image-2，在Arena评测中综合表现第一",
-      "summary": "OpenAI发布了GPT-Image-2模型，该模型在Arena评测榜单的文生图任务中取得了1512的高分，综合表现位列第一。",
-      "references": [
-        {
-          "source_name": "澎湃新闻头条",
-          "link": "https://m.thepaper.cn/detail/32940820"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI优化智能体工作流，在Responses API中引入WebSockets",
-      "summary": "OpenAI在其Responses API中引入WebSockets和连接范围的缓存，旨在加速智能体工作流，减少API开销并改善延迟。",
+      "title": "OpenAI优化API以加速智能体工作流",
+      "summary": "OpenAI在其Responses API中引入WebSocket支持和连接范围的缓存，旨在减少API开销并提升智能体工作流的速度。",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -72,44 +58,66 @@
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots"
+        },
+        {
+          "source_name": "Product Hunt",
+          "link": "https://producthunt.com/products/openai"
         }
       ]
     },
     {
-      "title": "小米深夜发布MiMo-V2.5等四款新模型",
-      "summary": "小米发布了包括旗舰推理模型MiMo-V2.5在内的四款新大模型，据称其推理能力相比Kimi K2.6可节省42%的Token。",
+      "title": "Meta被曝记录员工击键数据用于AI训练",
+      "summary": "据TechCrunch报道，Meta将记录员工的击键操作，并计划利用这些数据来训练其人工智能模型，此举引发了关于数据所有权和隐私的讨论。",
       "references": [
         {
-          "source_name": "今日热榜 - 36氪",
-          "link": "https://36kr.com/p/3778536198264067"
+          "source_name": "Hacker News AI",
+          "link": "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2037586"
         }
       ]
     },
     {
-      "title": "通义千问发布Qwen3.6-27B，声称达到旗舰级编码能力",
-      "summary": "通义千问发布了Qwen3.6-27B模型，宣称这款270亿参数的稠密模型在编码任务上达到了旗舰级水平。",
+      "title": "通义千问发布声称具备旗舰级编码能力的27B模型",
+      "summary": "通义千问（Qwen）发布了Qwen3.6-27B模型，宣称其在27B的密集模型中实现了旗舰级的编码能力。",
       "references": [
         {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/Apr/22/qwen36-27b"
+        },
+        {
+          "source_name": "Product Hunt",
+          "link": "https://producthunt.com/products/qwen3"
         }
       ]
     },
     {
       "title": "Anthropic测试从Pro计划中移除Claude Code功能",
-      "summary": "由于需求难以满足，Anthropic正在测试从Claude Pro计划中移除Claude Code功能，并探索新的服务配给方法。",
+      "summary": "由于需求难以满足，Anthropic正在测试从其Claude Pro计划中移除Claude Code功能，并探索新的服务配给方法。",
       "references": [
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan"
         }
       ]
+    },
+    {
+      "title": "OpenAI为美国临床医生提供免费版ChatGPT",
+      "summary": "OpenAI宣布，为经过验证的美国医生、执业护士和药剂师免费提供“ChatGPT for Clinicians”，旨在优化临床工作。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/making-chatgpt-better-for-clinicians"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "硬件与软件协同演进，共同定义“智能体时代”基础设施",
-      "summary": "谷歌发布专用TPU与OpenAI优化智能体API表明，产业界正从通用AI计算向支持复杂、持续交互的智能体工作负载进行针对性优化，硬件与软件栈的协同设计成为关键趋势。",
+      "title": "硬件竞赛聚焦智能体推理，专用芯片成新战场",
+      "summary": "谷歌发布专为智能体设计的新TPU，与OpenAI优化API以加速智能体工作流的举措相呼应。这表明，随着AI应用从单纯的内容生成转向复杂的多步骤任务执行，对高效、低成本推理硬件的需求正成为产业竞争的新焦点。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -126,30 +134,34 @@
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots"
+        },
+        {
+          "source_name": "Product Hunt",
+          "link": "https://producthunt.com/products/openai"
         }
       ]
     },
     {
-      "title": "模型推理效率成为竞争新焦点，端侧部署受关注",
-      "summary": "从小米强调节省Token、多篇论文研究KV缓存压缩与量化，到社区工具关注上下文压缩，表明在追求模型能力的同时，推理成本与效率正成为厂商和开发者的核心关切，推动技术向更轻量、更高效的端侧部署发展。",
+      "title": "企业为训练数据“开源节流”，员工数据使用引伦理争议",
+      "summary": "Meta计划利用员工击键数据训练AI，而Anthropic因资源压力考虑削减Claude Code服务。这反映出头部公司在高质量训练数据获取和计算资源分配上均面临瓶颈，可能促使企业更激进地挖掘内部数据，但也将加剧关于数据隐私和员工权益的伦理风险。",
       "references": [
         {
-          "source_name": "今日热榜 - 36氪",
-          "link": "https://36kr.com/p/3778536198264067"
+          "source_name": "Hacker News AI",
+          "link": "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models"
         },
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2412.03594"
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2037586"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/ojuschugh1/sqz"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan"
         }
       ]
     },
     {
-      "title": "开源模型评估体系日趋精细，覆盖更多专业与安全维度",
-      "summary": "近期arXiv涌现大量针对LLM在社交媒体分析、临床访谈、税务实践、同行评审影响乃至模型安全校准等方面的专项评估研究，显示学术界正致力于构建更细粒度、更贴近真实场景的评估基准，以深入理解模型能力边界与潜在风险。",
+      "title": "开源模型评估向纵深发展，覆盖临床、社会分析等专业领域",
+      "summary": "近期arXiv上涌现大量针对LLM在垂直领域能力的评估研究，如临床访谈分析、社交媒体分析、税务实践等。这表明开源社区的研究重点正从通用能力基准测试，转向更贴近真实世界复杂场景的专业化、细粒度评估，以推动模型的实际应用。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -162,10 +174,24 @@
         {
           "source_name": "arXiv NLP",
           "link": "https://arxiv.org/abs/2604.08948"
+        }
+      ]
+    },
+    {
+      "title": "社区工具生态围绕智能体与成本控制两极分化",
+      "summary": "开发者社区同时涌现出管理AI编码智能体的IDE工具和压缩LLM上下文以节省成本的工具。这反映了当前AI应用开发的两大核心诉求：一是构建更强大、可控的自动化工作流；二是在模型能力提升的同时，迫切需要通过技术手段降低日益增长的推理成本。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/Keesan12/martin-loop"
         },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.19578"
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/elirantutia/vibeyard"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/ojuschugh1/sqz"
         }
       ]
     }
