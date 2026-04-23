@@ -1,35 +1,35 @@
 {
-  "global_brief": "今日AI领域密集发布多项研究进展与产品更新，Anthropic二级市场估值突破1万亿美元反超OpenAI，成为行业最受关注的资本动态；同时，Google推出专为智能体时代设计的新一代TPU，OpenAI通过WebSocket优化智能体工作流，AI基础设施与模型能力竞争持续升温。 [FACT] TITLE: Anthropic二级市场估值飙升至1万亿美元，反超OpenAI SUMMARY: 据Business Insider报道，急于入手的买家正争相抢购日益稀缺的Anthropic二手股份，推动其在私募二级市场的估值突破1万亿美元，一举超越OpenAI，…",
+  "global_brief": "过去24小时，AI领域竞争白热化，Google发布面向“智能体时代”的两款新TPU，同时中国大模型厂商密集发布新模型，包括腾讯混元Hy3 Preview、阿里Qwen 3.6 Max等。此外，Anthropic在二级市场估值飙升至1万亿美元，反超OpenAI，而微软GitHub Copilot传出将转向按词元计费模式。 [FACT] TITLE: Google发布面向智能体时代的两款新TPU SUMMARY: Google推出了两款专为“智能体时代”设计的新一代张量处理单元（TPU），分别针对推理和训练场景，并同步为Workspace引入多项自动化功能…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49696,
-      "event_count": 808
+      "field_score": 48647,
+      "event_count": 809
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1776,
+      "field_score": 1789,
       "event_count": 41
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1262,
-      "event_count": 31
+      "field_score": 1176,
+      "event_count": 29
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 961,
-      "event_count": 17
+      "field_score": 855,
+      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 668,
-      "event_count": 14
+      "field_score": 813,
+      "event_count": 17
     }
   ],
   "highlight_facts": [
@@ -64,20 +64,16 @@
       ]
     },
     {
-      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and im…；Speeding up agentic workflows with WebSockets in the Respo…",
+      "title": "Google unveils two new TPUs designed for the \"agentic era\"",
+      "summary": "Google unveils two new TPUs designed for the \"agentic era\"；Google's new generation of Tensor AI chips is actually two chips, one for inference and one for training.；Google has int…",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/google-unveils-two-new-tpus-designed-for-the-agentic-era"
         },
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots"
-        },
-        {
-          "source_name": "Product Hunt",
-          "link": "https://producthunt.com/products/openai"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern"
         }
       ]
     }
