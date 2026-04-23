@@ -1,23 +1,23 @@
 {
-  "global_brief": "过去24小时，AI领域竞争白热化，中国大模型厂商密集发布新品，同时Google推出新一代TPU芯片，Anthropic则因需求激增调整Claude Code定价策略，引发行业对AI成本与商业模式的广泛讨论。",
+  "global_brief": "OpenAI 正式发布 GPT-5.5，并同步启动生物安全漏洞悬赏计划，同时 Anthropic 的 Claude Mythos 遭遇泄露事件，中国大模型领域迎来密集更新，腾讯混元 Hy3 Preview 亮相，阿里 Qwen 3.6 Max 与月之暗面 Kimi 2.6 相继登场，AI 产业竞争持续升温。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 47731,
-      "event_count": 813
+      "field_score": 47114,
+      "event_count": 800
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1935,
-      "event_count": 44
+      "field_score": 2120,
+      "event_count": 48
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1046,
-      "event_count": 26
+      "field_score": 1113,
+      "event_count": 28
     },
     {
       "field_key": "world",
@@ -26,53 +26,136 @@
       "event_count": 14
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 668,
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 676,
       "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "Assessing Capabilities of Large Language Models in Social Media Analytics: A Multi-task Quest",
-      "summary": "arXiv:2604.18955v1 Announce Type: cross Abstract: In this study, we present the first comprehensive evaluation of moder…；Assessing Capabilities of Large Language Models in Social…",
+      "title": "OpenAI 发布 GPT-5.5 模型",
+      "summary": "OpenAI 正式推出其最新模型 GPT-5.5，官方称其为“最智能、最直观”的模型，在编码、研究和复杂任务上表现更优且效率更高。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/917612/openai-gpt-5-5-chatgpt"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/introducing-gpt-5-5"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic 的 Claude Mythos 遭遇泄露",
+      "summary": "Anthropic 严格控制发布的 Claude Mythos 模型遭遇了尴尬的泄露事件，被描述为“羞辱性”的违规。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation"
+        }
+      ]
+    },
+    {
+      "title": "中国大模型领域迎来密集更新",
+      "summary": "本周中国大模型市场更新频繁，阿里发布 Qwen 3.6 Max，月之暗面推出 Kimi 2.6，腾讯混元也正式亮相 Hy3 Preview 模型。",
+      "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1663500"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 启动 GPT-5.5 生物安全漏洞悬赏计划",
+      "summary": "OpenAI 为 GPT-5.5 启动了“生物漏洞悬赏”计划，邀请红队专家寻找通用越狱方法以评估生物安全风险。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/gpt-5-5-bio-bug-bounty"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示 LLM 在多轮对话中的不可靠行为",
+      "summary": "一项新研究通过分析“修复”机制，揭示了 GPT 和 Claude 等大语言模型在多轮对话中存在的不可靠行为模式。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.18955"
+          "link": "https://arxiv.org/abs/2604.19245"
         }
       ]
     },
     {
-      "title": "Cross-Model Consistency of AI-Generated Exercise Prescriptions: A Repeated Generation Study Across Three Large Language…",
-      "summary": "arXiv:2604.19598v1 Announce Type: cross Abstract: This study compared repeated generation consistency of exercise presc…；Cross-Model Consistency of AI-Generated Exercise Prescript…",
+      "title": "Google 在奥地利投资建设首个数据中心",
+      "summary": "Google 宣布在奥地利阿尔卑斯地区投资建设其首个数据中心。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.19598"
-        }
-      ]
-    },
-    {
-      "title": "MIRROR: A Hierarchical Benchmark for Metacognitive Calibration in Large Language Models",
-      "summary": "arXiv:2604.19809v1 Announce Type: cross Abstract: We introduce MIRROR, a benchmark comprising eight experiments across…；MIRROR: A Hierarchical Benchmark for Metacognitive Calibrat…",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2604.19809"
-        }
-      ]
-    },
-    {
-      "title": "Google unveils two new TPUs designed for the \"agentic era\"",
-      "summary": "Google unveils two new TPUs designed for the \"agentic era\"；Google's new generation of Tensor AI chips is actually two chips, one for inference and one for training.",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/google-unveils-two-new-tpus-designed-for-the-agentic-era"
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "模型安全与发布节奏的博弈加剧",
+      "summary": "OpenAI 在发布 GPT-5.5 的同时启动生物安全悬赏，而 Anthropic 的 Mythos 却遭遇泄露，这表明在追求模型能力快速迭代的同时，安全管控和发布流程的挑战日益凸显，行业正面临更严格的审视。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/gpt-5-5-bio-bug-bounty"
+        }
+      ]
+    },
+    {
+      "title": "模型压缩与端侧部署成为研究热点",
+      "summary": "多项研究聚焦于 Transformer 压缩、边缘部署和多 LoRA 加速，表明业界正积极寻求将大模型高效部署到手机等移动设备上的解决方案，以拓展应用场景。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.20682"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2506.02132"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.18655"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2603.09046"
+        }
+      ]
+    },
+    {
+      "title": "AI 在专业领域的应用评估日趋精细化",
+      "summary": "从社交媒体分析、临床访谈到税务实践，一系列针对 LLM 在特定垂直领域能力的基准测试被提出，反映出行业正从通用能力评估转向更精细、更贴近实际应用场景的效能验证。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.18955"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2501.03624"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2604.08948"
+        }
+      ]
+    }
+  ]
 }
