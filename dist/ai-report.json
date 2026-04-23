@@ -1,75 +1,78 @@
 {
-  "global_brief": "OpenAI 正式发布 GPT-5.5，强调其编码与效率提升，同时推出 Codex 平台与生物安全漏洞赏金计划。Anthropic 的 Claude Mythos 模型遭遇未授权访问，引发安全担忧。Meta 宣布裁员约 8000 人，以应对 AI 领域的高额支出。",
+  "global_brief": "OpenAI 正式发布 GPT-5.5，并同步推出生物安全漏洞赏金计划，同时其 Codex 平台迎来多项更新。Anthropic 的 Claude Mythos 模型遭遇未授权访问事件，引发安全担忧。中国大模型领域竞争白热化，腾讯混元发布 Hy3 Preview，阿里、月之暗面等也密集更新。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 47131,
-      "event_count": 795
+      "field_score": 47091,
+      "event_count": 797
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1970,
-      "event_count": 43
+      "field_score": 2025,
+      "event_count": 46
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1103,
+      "field_score": 1075,
       "event_count": 28
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 774,
-      "event_count": 14
+      "field_score": 813,
+      "event_count": 15
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 624,
-      "event_count": 14
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 790,
+      "event_count": 16
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 发布 GPT-5.5 模型",
-      "summary": "OpenAI 正式发布 GPT-5.5，称其为“最智能、最直观”的模型，在编码、研究和复杂任务上表现更佳，并已通过 Codex 平台向付费用户开放。",
+      "title": "Assessing Capabilities of Large Language Models in Social Media Analytics: A Multi-task Quest",
+      "summary": "arXiv:2604.18955v1 Announce Type: cross Abstract: In this study, we present the first comprehensive evaluation of moder…；Assessing Capabilities of Large Language Models in Social…",
       "references": [
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/917612/openai-gpt-5-5-chatgpt"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/introducing-gpt-5-5"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.18955"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "AI 模型安全与访问控制面临挑战",
-      "summary": "Anthropic 的 Mythos 泄露事件表明，即使是最严格控制的 AI 模型，其安全防线也可能被突破，这凸显了行业在模型访问控制和内部威胁防范上的普遍短板。",
+      "title": "Cross-Model Consistency of AI-Generated Exercise Prescriptions: A Repeated Generation Study Across Three Large Language…",
+      "summary": "arXiv:2604.19598v1 Announce Type: cross Abstract: This study compared repeated generation consistency of exercise presc…；Cross-Model Consistency of AI-Generated Exercise Prescript…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.19598"
+        }
+      ]
+    },
+    {
+      "title": "MIRROR: A Hierarchical Benchmark for Metacognitive Calibration in Large Language Models",
+      "summary": "arXiv:2604.19809v1 Announce Type: cross Abstract: We introduce MIRROR, a benchmark comprising eight experiments across…；MIRROR: A Hierarchical Benchmark for Metacognitive Calibrat…",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.19809"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic&#8217;s Mythos breach was humiliating",
+      "summary": "Anthropic&#8217;s Mythos breach was humiliating；Anthropic's tightly controlled rollout of Claude Mythos has taken an awkward turn. After spending weeks insisting the A…",
       "references": [
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
