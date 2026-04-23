@@ -1,169 +1,78 @@
 {
-  "global_brief": "过去24小时，AI领域迎来密集更新：Google发布面向“智能体时代”的两款新TPU，中国大模型厂商展开新一轮激烈竞争，Qwen 3.6、Kimi 2.6及混元新模型相继亮相。同时，多项研究聚焦于LLM的元认知校准、多轮对话可靠性及边缘端部署优化，Anthropic的Project Glasswing在漏洞发现方面展现潜力，但其后续修复问题引发讨论。",
+  "global_brief": "过去24小时，AI领域迎来密集更新：Google发布面向智能体时代的两款新TPU，中国大模型厂商（阿里、月之暗面、腾讯）集中推出新版本，同时Anthropic因需求过高正测试从Pro计划中移除Claude Code。学术界则围绕LLM的元认知校准、多轮对话可靠性、边缘部署及多模态安全等方向发布了多项新研究。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48206,
-      "event_count": 803
+      "field_score": 46871,
+      "event_count": 790
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1555,
-      "event_count": 35
+      "field_score": 1607,
+      "event_count": 37
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1135,
-      "event_count": 28
+      "field_score": 1020,
+      "event_count": 25
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 855,
-      "event_count": 15
+      "field_score": 902,
+      "event_count": 16
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 757,
-      "event_count": 16
+      "field_score": 708,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
     {
-      "title": "Google发布面向智能体时代的两款新TPU",
-      "summary": "Google推出了两款新的Tensor AI芯片，分别针对推理和训练场景，旨在支持“智能体时代”的算力需求，并同步为Workspace引入多项自动化功能。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/google-unveils-two-new-tpus-designed-for-the-agentic-era"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern"
-        }
-      ]
-    },
-    {
-      "title": "中国大模型厂商密集发布新模型，竞争白热化",
-      "summary": "阿里发布Qwen 3.6 Max，月之暗面推出Kimi 2.6，腾讯混元也正式亮相Hy3 Preview模型，同时DeepSeek V4也即将发布，中国大模型市场进入新一轮高强度竞争周期。",
-      "references": [
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1663500"
-        }
-      ]
-    },
-    {
-      "title": "Qwen3.6-27B发布，声称达到旗舰级编码能力",
-      "summary": "Qwen发布了3.6-27B稠密模型，宣称其在27B参数规模下实现了旗舰级的代码生成能力，该模型受到开发者社区关注。",
-      "references": [
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/22/qwen36-27b"
-        },
-        {
-          "source_name": "Product Hunt",
-          "link": "https://producthunt.com/products/qwen3"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI为美国临床医生免费提供ChatGPT服务",
-      "summary": "OpenAI宣布，经过验证的美国医生、执业护士和药剂师可免费使用ChatGPT for Clinicians，旨在提升AI在临床场景中的应用。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/making-chatgpt-better-for-clinicians"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic测试从Pro计划中移除Claude Code",
-      "summary": "由于需求激增导致服务压力过大，Anthropic正在探索新的服务配给方式，并已测试将Claude Code从Pro计划中移除的可能性。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示LLM在社交媒体分析中的能力与局限",
-      "summary": "一项新研究首次全面评估了包括DeepSeek、Google、Meta和OpenAI在内的主流大语言模型在社交媒体分析多任务场景中的表现。",
+      "title": "Assessing Capabilities of Large Language Models in Social Media Analytics: A Multi-task Quest",
+      "summary": "arXiv:2604.18955v1 Announce Type: cross Abstract: In this study, we present the first comprehensive evaluation of moder…；Assessing Capabilities of Large Language Models in Social…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.18955"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "中国大模型“军备竞赛”加剧，但差异化竞争仍是关键",
-      "summary": "阿里、月之暗面、腾讯等厂商在短时间内密集发布新模型，反映出国内AI市场的激烈竞争。然而，模型性能的快速迭代也引发社区讨论，认为单纯追求参数和版本号更新可能无法形成长期壁垒，如何实现差异化应用和生态建设才是关键。",
+      "title": "Cross-Model Consistency of AI-Generated Exercise Prescriptions: A Repeated Generation Study Across Three Large Language…",
+      "summary": "arXiv:2604.19598v1 Announce Type: cross Abstract: This study compared repeated generation consistency of exercise presc…；Cross-Model Consistency of AI-Generated Exercise Prescript…",
       "references": [
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1663500"
-        },
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2040425"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.19598"
         }
       ]
     },
     {
-      "title": "AI Agent安全与数据防护成为社区关注焦点",
-      "summary": "随着AI Agent的普及，如何防止敏感数据通过Agent泄露成为开发者社区的热点。多个开源项目（如ClaudeCoworkGuard）和讨论都聚焦于构建本地防火墙或监控面板来管理AI Agent的会话和数据流动。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/Katherine-Holland/ClaudeCoworkGuard"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/jwillmer/ai-status"
-        }
-      ]
-    },
-    {
-      "title": "LLM基准测试方法存在缺陷，“先训练后测试”或能提升排名一致性",
-      "summary": "社区讨论指出，当前LLM基准测试的排名可能因测试方法不当而失真。一项新提出的“Train-Before-Test”简单修正方法，被认为能使不同基准的排名结果趋于一致，这引发了对现有评估体系可靠性的反思。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://ghzhang233.github.io/blog/2026/03/05/train-before-test"
-        }
-      ]
-    },
-    {
-      "title": "边缘端部署LLM成为研究热点，但安全与性能平衡仍是挑战",
-      "summary": "多项研究（如FlexServe、Unlocking the Edge deployment）聚焦于在移动设备等边缘端高效、安全地部署LLM。这表明业界正努力将AI能力下沉，但如何在资源受限的设备上平衡推理速度、安全隔离和模型性能，仍是待解决的核心难题。",
+      "title": "MIRROR: A Hierarchical Benchmark for Metacognitive Calibration in Large Language Models",
+      "summary": "arXiv:2604.19809v1 Announce Type: cross Abstract: We introduce MIRROR, a benchmark comprising eight experiments across…；MIRROR: A Hierarchical Benchmark for Metacognitive Calibrat…",
       "references": [
         {
           "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2603.09046"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.18655"
+          "link": "https://arxiv.org/abs/2604.19809"
         }
       ]
     },
     {
-      "title": "AI在漏洞发现上取得突破，但修复环节的“最后一公里”问题凸显",
-      "summary": "Anthropic的Project Glasswing展示了AI在发现软件漏洞方面的卓越能力，但随之而来的问题是：谁来修复这些被发现的漏洞？这揭示了AI安全工具链中，从发现到修复的自动化闭环尚未形成，可能带来新的运维压力。",
+      "title": "Google unveils two new TPUs designed for the \"agentic era\"",
+      "summary": "Google unveils two new TPUs designed for the \"agentic era\"；Google's new generation of Tensor AI chips is actually two chips, one for inference and one for training.",
       "references": [
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/google-unveils-two-new-tpus-designed-for-the-agentic-era"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
