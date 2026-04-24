@@ -1,58 +1,99 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：China’s DeepSeek previews new AI model a year after jolting US rivals；DeepSeek V4 - almost on the frontier, a fraction of the price；Cross-Model Consistency of AI-Generated Exercise Prescriptions: A Repeated Generation Study Across Three Large Language Models。",
+  "global_brief": "过去24小时，AI领域迎来重大进展：DeepSeek发布接近前沿水平的V4模型，OpenAI推出GPT-5.5，同时谷歌计划向Anthropic投资高达400亿美元，显示出行业巨头在基础模型和Agent基础设施上的激烈竞争。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 42753,
-      "event_count": 715
+      "field_score": 41598,
+      "event_count": 713
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2356,
-      "event_count": 53
+      "field_score": 2211,
+      "event_count": 49
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1525,
+      "field_score": 1508,
       "event_count": 38
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 557,
-      "event_count": 12
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 615,
+      "event_count": 13
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 555,
+      "field_score": 561,
       "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 发布 GPT-5.5, bringing company one step closer to an AI ‘super app’",
-      "summary": "OpenAI 发布 GPT-5.5, bringing company one step closer to an AI ‘super app’；时间：2026-04-23T18:29:29.000Z；证据级别：weak；置信度：0.45",
-      "references": []
-    },
-    {
-      "title": "刚刚，GPT-5.5 发布 ！Claude Code 连夜治好降智，「奥特曼瘫倒」喜提续集",
-      "summary": "刚刚，GPT-5.5 发布！Claude Code 连夜治好降智，「奥特曼瘫倒」喜提续集；时间：2026-04-24T03:50:01.000Z；证据级别：weak；置信度：0.35",
-      "references": []
-    },
-    {
-      "title": "An 更新 on recent Claude Code quality reports",
-      "summary": "An 更新 on recent Claude Code quality reports；时间：2026-04-24T01:31:25.000Z；证据级别：weak；置信度：0.35",
-      "references": []
-    },
-    {
-      "title": "早报｜特斯拉第三代人形机器人预计年中亮相/更省token，GPT-5.5正式 发布 /西山居游戏辟谣「解散」传言：将依法追究恶意造谣",
-      "summary": "早报｜特斯拉第三代人形机器人预计年中亮相/更省token，GPT-5.5正式 发布 /西山居游戏辟谣「解散」传言：将依法追究恶意造谣；时间：2026-04-24T00:20:58.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "DeepSeek发布V4模型，接近前沿水平且价格低廉",
+      "summary": "中国AI实验室DeepSeek发布了V4模型，该模型拥有百万token上下文，性能接近前沿模型，但价格仅为竞争对手的一小部分。该模型提供Pro和Flash两种API版本。",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4"
+        },
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/deepseekv4"
+        },
+        {
+          "source_name": "华尔街见闻最热",
+          "link": "https://wallstreetcn.com/articles/3770782"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/943/330.htm"
+        },
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/super_jarvis_76aa3fc6035d/deepseek-v4-price-pro-vs-flash-api-costs-4lba"
+        },
+        {
+          "source_name": "Product Hunt",
+          "link": "https://producthunt.com/products/deepseek"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "模型发布与资本注入并行，AI军备竞赛进入新阶段",
+      "summary": "DeepSeek V4和GPT-5.5的密集发布，叠加谷歌对Anthropic的巨额投资，表明AI领域的竞争已从单纯的技术比拼升级为资本、算力和生态的全方位军备竞赛。DeepSeek的低价策略正在重塑市场定价，而谷歌对Anthropic的投资则是对OpenAI主导地位的直接挑战。",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4"
+        },
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/deepseekv4"
+        },
+        {
+          "source_name": "华尔街见闻最热",
+          "link": "https://wallstreetcn.com/articles/3770782"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/943/330.htm"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp"
+        },
+        {
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/109032"
+        }
+      ]
+    }
+  ]
 }
