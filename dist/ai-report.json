@@ -1,71 +1,78 @@
 {
-  "global_brief": "OpenAI 正式发布 GPT-5.5，称其更智能、更省 token，并同步更新了 Codex 工具链；同时，多项研究揭示了 LLM 在元认知校准、欺诈检测和多轮对话可靠性方面的最新进展，中国大模型领域也迎来密集更新，腾讯混元发布新模型 Hy3 Preview。",
+  "global_brief": "过去24小时，AI领域迎来密集模型发布与前沿研究，OpenAI推出GPT-5.5，DeepSeek发布V4版本，同时多项研究揭示了LLM在欺诈检测、多轮对话可靠性及量化失败模式上的新发现。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 38058,
-      "event_count": 650
+      "field_score": 45857,
+      "event_count": 745
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2208,
-      "event_count": 49
+      "field_score": 2286,
+      "event_count": 51
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1284,
-      "event_count": 32
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 581,
-      "event_count": 13
+      "field_score": 1399,
+      "event_count": 34
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 544,
+      "field_score": 575,
+      "event_count": 12
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 527,
       "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 发布 GPT-5.5",
-      "summary": "OpenAI 正式推出 GPT-5.5，称其为目前最智能的模型，在编码、研究等复杂任务上更快、能力更强，并更节省 token。",
+      "title": "Cross-Model Consistency of AI-Generated Exercise Prescriptions: A Repeated Generation Study Across Three Large Language…",
+      "summary": "arXiv:2604.19598v2 Announce Type: replace Abstract: This study compared repeated generation consistency of exercise pre…；Cross-Model Consistency of AI-Generated Exercise Prescript…",
       "references": [
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp"
-        },
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2604.19598"
+        }
+      ]
+    },
+    {
+      "title": "MIRROR: A Hierarchical Benchmark for Metacognitive Calibration in Large Language Models",
+      "summary": "arXiv:2604.19809v1 Announce Type: new Abstract: We introduce MIRROR, a benchmark comprising eight experiments across fo…；MIRROR: A Hierarchical Benchmark for Metacognitive Calibra…",
+      "references": [
         {
-          "source_name": "少数派",
-          "link": "https://sspai.com/post/109032"
-        },
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.19809"
+        }
+      ]
+    },
+    {
+      "title": "Large Language Models Outperform Humans in Fraud Detection and Resistance to Motivated Investor Pressure",
+      "summary": "arXiv:2604.20652v2 Announce Type: new Abstract: Large language models trained on human feedback may suppress fraud warn…；Large Language Models Outperform Humans in Fraud Detection…",
+      "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/introducing-gpt-5-5"
-        },
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.20652"
+        }
+      ]
+    },
+    {
+      "title": "Talking to a Know-It-All GPT or a Second-Guesser Claude? How Repair reveals unreliable Multi-Turn Behavior in LLMs",
+      "summary": "arXiv:2604.19245v2 Announce Type: replace-cross Abstract: Repair, an important resource for resolving trouble in human-…；Talking to a Know-It-All GPT or a Second-Guesser Claude? H…",
+      "references": [
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1663686"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.19245"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "中国大模型进入“周更”竞赛阶段",
-      "summary": "阿里、月之暗面、腾讯等厂商在一周内密集发布新模型，表明中国大模型领域的竞争已进入白热化阶段，产品迭代速度显著加快。",
-      "references": [
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1663500"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
