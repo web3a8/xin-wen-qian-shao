@@ -1,90 +1,71 @@
 {
-  "global_brief": "过去24小时，AI领域迎来密集发布：DeepSeek V4预览版正式发布，编程能力获评“大幅领先”并计划开源，引发港股概念股波动；OpenAI同步推出GPT-5.5，强调更快的速度和更低的token消耗，向“超级应用”迈进；同时，腾讯混元Hy3 Preview、阿里Qwen 3.6 Max等国产模型也相继亮相，中国大模型竞争进入白热化阶段。",
+  "global_brief": "过去24小时，AI领域迎来密集发布：DeepSeek发布接近前沿性能的V4预览版，OpenAI推出GPT-5.5，同时中国多家厂商（阿里、月之暗面、腾讯）也相继更新模型，竞争白热化。此外，关于AI货币化压力及本地化部署的讨论热度上升。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 45683,
-      "event_count": 740
+      "field_score": 43926,
+      "event_count": 710
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2235,
-      "event_count": 50
+      "field_score": 2438,
+      "event_count": 55
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1296,
-      "event_count": 32
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 672,
-      "event_count": 15
+      "field_score": 1699,
+      "event_count": 42
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 614,
-      "event_count": 13
+      "field_score": 575,
+      "event_count": 12
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 510,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-      "summary": "DeepSeek：预计下半年昇腾950超节点批量上市后 V4-Pro模型价格会大幅下调；Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December. They just dropped the first o…；DeepSeek V4 -…",
+      "title": "DeepSeek发布V4预览版，性能接近前沿且价格低廉",
+      "summary": "中国AI实验室DeepSeek发布了其最新大语言模型V4的预览版，该模型性能接近前沿水平，但价格仅为竞争对手的一小部分，并计划以开源形式发布。",
       "references": [
         {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4"
         },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/943/018.htm"
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3770795"
         },
         {
-          "source_name": "华尔街见闻最新资讯",
+          "source_name": "华尔街见闻最热",
           "link": "https://wallstreetcn.com/articles/3770782"
         },
         {
-          "source_name": "第一财经最新",
-          "link": "https://yicai.com/news/103150830.html"
-        }
-      ]
-    },
-    {
-      "title": "Cross-Model Consistency of AI-Generated Exercise Prescriptions: A Repeated Generation Study Across Three Large Language…",
-      "summary": "arXiv:2604.19598v2 Announce Type: replace Abstract: This study compared repeated generation consistency of exercise pre…；Cross-Model Consistency of AI-Generated Exercise Prescript…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2604.19598"
-        }
-      ]
-    },
-    {
-      "title": "MIRROR: A Hierarchical Benchmark for Metacognitive Calibration in Large Language Models",
-      "summary": "arXiv:2604.19809v1 Announce Type: new Abstract: We introduce MIRROR, a benchmark comprising eight experiments across fo…；MIRROR: A Hierarchical Benchmark for Metacognitive Calibra…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.19809"
-        }
-      ]
-    },
-    {
-      "title": "Large Language Models Outperform Humans in Fraud Detection and Resistance to Motivated Investor Pressure",
-      "summary": "arXiv:2604.20652v2 Announce Type: new Abstract: Large language models trained on human feedback may suppress fraud warn…；Large Language Models Outperform Humans in Fraud Detection…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.20652"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1663704"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI货币化压力加剧，用户将感受到成本转嫁",
+      "summary": "随着Anthropic和OpenAI等公司寻求盈利，AI货币化的压力正在增加，用户可能很快会感受到这种成本压力，例如通过更高的订阅费用或更严格的token限制。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue"
+        }
+      ]
+    }
+  ]
 }
