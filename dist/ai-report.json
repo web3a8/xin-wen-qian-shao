@@ -1,99 +1,90 @@
 {
-  "global_brief": "过去24小时，AI领域迎来密集模型发布：中国DeepSeek发布V4预览版，OpenAI推出GPT-5.5，同时多篇研究聚焦于LLM推理效率、量化失败模式及Agent应用。行业讨论热点集中在AI编程工具的使用体验、模型成本压力以及AI生成内容对人才评估的影响。",
+  "global_brief": "过去24小时，AI领域迎来重大模型发布潮：中国DeepSeek预览其下一代模型，OpenAI发布GPT-5.5，同时多篇研究探讨了LLM在欺诈检测、元认知校准及多轮对话可靠性方面的表现。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 43492,
-      "event_count": 725
+      "field_score": 43201,
+      "event_count": 724
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2264,
-      "event_count": 51
+      "field_score": 2313,
+      "event_count": 52
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1334,
-      "event_count": 33
+      "field_score": 1373,
+      "event_count": 34
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 637,
+      "field_score": 641,
       "event_count": 14
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 555,
+      "field_score": 557,
       "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "DeepSeek发布V4模型预览版，性能接近前沿且价格低廉",
-      "summary": "中国AI公司DeepSeek发布了其下一代模型V4的预览版，包含Flash（284B总参数，13B激活）和Pro（1.6T总参数，49B激活）两个版本，支持百万级上下文窗口，在编程任务上表现优异，被视为开源模型的新标杆。",
+      "title": "China’s DeepSeek previews new AI model a year after jolting US rivals",
+      "summary": "China’s DeepSeek previews new AI model a year after jolting US rivals；Chinese AI company DeepSeek released a preview of its hotly anticipated next-generation AI model V4 on Friday…",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+      "summary": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December. They just dropped the first o…；DeepSeek V4 - almost on the frontier, a fraction of the pr…",
       "references": [
         {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4"
         },
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3770798"
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/deepseekv4"
         },
         {
           "source_name": "华尔街见闻最热",
           "link": "https://wallstreetcn.com/articles/3770782"
         },
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1663704"
-        },
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/943/330.htm"
+        }
+      ]
+    },
+    {
+      "title": "Cross-Model Consistency of AI-Generated Exercise Prescriptions: A Repeated Generation Study Across Three Large Language…",
+      "summary": "arXiv:2604.19598v2 Announce Type: replace Abstract: This study compared repeated generation consistency of exercise pre…；Cross-Model Consistency of AI-Generated Exercise Prescript…",
+      "references": [
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model"
-        },
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2604.19598"
+        }
+      ]
+    },
+    {
+      "title": "MIRROR: A Hierarchical Benchmark for Metacognitive Calibration in Large Language Models",
+      "summary": "arXiv:2604.19809v1 Announce Type: new Abstract: We introduce MIRROR, a benchmark comprising eight experiments across fo…；MIRROR: A Hierarchical Benchmark for Metacognitive Calibra…",
+      "references": [
         {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=47885230"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.19809"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "DeepSeek V4与GPT-5.5同日发布，AI模型竞争进入“双轨”时代",
-      "summary": "一边是DeepSeek以极低成本提供接近前沿性能的开源模型，另一边是OpenAI持续迭代闭源旗舰。这种“开源追赶、闭源领跑”的格局正在加速，迫使所有厂商在性价比和生态上做出抉择。",
-      "references": [
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3770798"
-        },
-        {
-          "source_name": "华尔街见闻最热",
-          "link": "https://wallstreetcn.com/articles/3770782"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1663704"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp"
-        },
-        {
-          "source_name": "少数派",
-          "link": "https://sspai.com/post/109032"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
