@@ -1,49 +1,75 @@
 {
-  "global_brief": "过去24小时，AI领域迎来巨额资本注入与模型密集发布。谷歌宣布向Anthropic投资高达400亿美元，同时DeepSeek V4系列模型在安卓端与国产算力平台实现快速适配，OpenAI也推出了GPT-5.5模型并发布提示指南。此外，多项研究聚焦于LLM的安全性、推理能力与Agent系统，社区则涌现出大量面向Agent记忆与浏览器控制的工具。",
+  "global_brief": "AI 领域资本竞赛白热化，Google 计划向 Anthropic 投资高达 400 亿美元，与此同时，OpenAI 发布 GPT-5.5 模型并统一了 Codex 与主模型，DeepSeek-V4 系列则在安卓端和国产算力平台快速落地。多篇研究关注 LLM 的安全性与偏见，包括逻辑越狱、后门攻击及意识形态偏见。 [FACT] TITLE: Google 计划向 Anthropic 投资高达 400 亿美元 SUMMARY: Google 计划以现金和算力形式向 AI 公司 Anthropic 投资高达 40…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 23257,
-      "event_count": 386
+      "field_score": 23581,
+      "event_count": 399
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1392,
+      "field_score": 1405,
       "event_count": 31
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1372,
-      "event_count": 35
+      "field_score": 1292,
+      "event_count": 33
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 588,
-      "event_count": 11
+      "field_score": 505,
+      "event_count": 9
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 387,
-      "event_count": 8
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 375,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "谷歌计划向Anthropic投资高达400亿美元",
-      "summary": "谷歌宣布将向AI公司Anthropic投资高达400亿美元，形式包括现金和计算资源。此举紧随亚马逊此前对Anthropic的较小规模投资，凸显了科技巨头在AI算力领域的激烈竞争。",
+      "title": "Spatial Metaphors for LLM Memory: A Critical Analysis of the MemPalace Architecture",
+      "summary": "arXiv:2604.21284v1 Announce Type: new Abstract: MemPalace is an open-source AI memory system that applies the ancient m…；Spatial Metaphors for LLM Memory: A Critical Analysis of t…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.21284"
+        }
+      ]
+    },
+    {
+      "title": "Cross-Model Consistency of AI-Generated Exercise Prescriptions: A Repeated Generation Study Across Three Large Language…",
+      "summary": "arXiv:2604.19598v2 Announce Type: replace-cross Abstract: This study compared repeated generation consistency of exerci…；Cross-Model Consistency of AI-Generated Exercise Prescript…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.19598"
+        }
+      ]
+    },
+    {
+      "title": "Google will invest as much as $40 billion in Anthropic",
+      "summary": "Google will invest as much as $40 billion in Anthropic；This follows a similar, but smaller, investment by Amazon just days ago.",
       "references": [
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/ai/2026/04/google-will-invest-as-much-as-40-billion-in-anthropic"
-        },
+        }
+      ]
+    },
+    {
+      "title": "HWE-Bench: Benchmarking LLM Agents on Real-World Hardware Bug Repair Tasks",
+      "summary": "arXiv:2604.14709v2 Announce Type: replace Abstract: Existing benchmarks for hardware design primarily evaluate Large La…；HWE-Bench: Benchmarking LLM Agents on Real-World Hardware…",
+      "references": [
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.14709"
         }
       ]
     }
