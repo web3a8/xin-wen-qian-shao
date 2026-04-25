@@ -1,41 +1,41 @@
 {
-  "global_brief": "AI 领域持续主导今日动态，Google 计划向 Anthropic 投资高达 400 亿美元，同时 OpenAI 发布了 GPT-5.5 模型。学术界则涌现大量关于 LLM 安全、偏见、推理能力及 Agent 应用的基准测试与攻击方法研究。",
+  "global_brief": "AI 领域持续主导今日动态，谷歌宣布向 Anthropic 投资高达 400 亿美元，同时 OpenAI 发布了 GPT-5.5 模型及其提示指南。此外，多项研究聚焦于 LLM 的安全性、偏见及 Agent 能力评估，包括针对模型记忆化、后门攻击和硬件 Bug 修复的基准测试。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 25236,
-      "event_count": 413
+      "field_score": 24641,
+      "event_count": 402
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1673,
+      "field_score": 1648,
       "event_count": 37
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1387,
+      "field_score": 1379,
       "event_count": 35
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 558,
-      "event_count": 12
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 441,
+      "field_score": 457,
+      "event_count": 9
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 445,
       "event_count": 9
     }
   ],
   "highlight_facts": [
     {
       "title": "Google 计划向 Anthropic 投资高达 400 亿美元",
-      "summary": "继亚马逊近期投资后，Google 计划以现金和算力形式向 AI 公司 Anthropic 投资高达 400 亿美元。",
+      "summary": "谷歌宣布将向 AI 公司 Anthropic 投资高达 400 亿美元，形式包括现金和计算资源。此举紧随亚马逊此前对 Anthropic 的较小规模投资。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -48,8 +48,8 @@
       ]
     },
     {
-      "title": "OpenAI 发布 GPT-5.5 模型及提示词指南",
-      "summary": "OpenAI 发布了 GPT-5.5 模型，并随之提供了详细的提示词指南。",
+      "title": "OpenAI 发布 GPT-5.5 模型及提示指南",
+      "summary": "OpenAI 发布了新模型 GPT-5.5，并随之推出了详细的提示指南，为开发者提供了使用该模型的最佳实践。",
       "references": [
         {
           "source_name": "Simon Willison's Blog",
@@ -63,7 +63,7 @@
     },
     {
       "title": "新研究揭示 LLM 在欺诈检测中优于人类",
-      "summary": "一项新研究显示，大型语言模型在欺诈检测和抵抗投资者压力方面表现优于人类。",
+      "summary": "一项新研究（arXiv:2604.20652v2）表明，大型语言模型在欺诈检测和抵抗投资者压力方面表现优于人类。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "title": "新基准测试评估 LLM Agent 在硬件修复中的能力",
-      "summary": "研究人员发布了 HWE-Bench，这是一个用于评估 LLM Agent 在真实世界硬件错误修复任务中能力的基准测试。",
+      "title": "新基准测试评估 LLM Agent 在硬件 Bug 修复中的能力",
+      "summary": "研究论文“HWE-Bench”提出了一个用于评估 LLM Agent 在真实世界硬件 Bug 修复任务中表现的基准测试。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -82,35 +82,9 @@
       ]
     },
     {
-      "title": "研究揭示针对 Agent 模型的新型函数劫持攻击",
-      "summary": "一项新研究展示了针对 Agent 模型函数调用机制的“函数劫持”攻击，对 MCP 协议构成威胁。",
+      "title": "研究揭示针对 LLM 的新型安全威胁",
+      "summary": "多项研究 揭示了针对 LLM 的新安全威胁，包括“Breaking MCP with Function Hijacking Attacks”和“Stealthy Backdoor Attacks against LLMs Based on Natural Style Triggers”，以及通过形式逻辑表达式绕过安全限制的“Logic Jailbreak”方法。",
       "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.20994"
-        }
-      ]
-    },
-    {
-      "title": "研究发现结构化视觉叙事可破坏多模态 LLM 安全对齐",
-      "summary": "一项研究表明，结构化视觉叙事能够破坏多模态大语言模型的安全对齐。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.21697"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "LLM 安全研究进入“攻防”深水区",
-      "summary": "从逻辑越狱、后门攻击到函数劫持，近期多项研究 表明，针对 LLM 的攻击手段正变得愈发复杂和隐蔽，这要求安全对齐策略必须从被动防御转向主动、动态的对抗性测试。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2505.13527"
-        },
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.20994"
@@ -118,12 +92,28 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.21700"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2505.13527"
         }
       ]
     },
     {
-      "title": "Agent 应用正从概念验证走向严谨评估",
-      "summary": "多个新基准（如 HWE-Bench、AgencyBench）的发布，标志着 AI Agent 领域正从展示能力转向系统性地评估其在复杂、真实世界任务中的可靠性，这对 Agent 的工程化落地至关重要。",
+      "title": "研究显示 LLM 在经济学推理中存在意识形态偏见",
+      "summary": "一项新研究（arXiv:2604.21334v1）探讨了大型语言模型在经济学因果推理中是否表现出系统性的意识形态偏见。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.21334"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "LLM 评估正从通用能力转向专业领域和偏见检测",
+      "summary": "今日发布的多个基准测试，如针对硬件修复的 HWE-Bench、化学推理的 ReactBench 和战略推理的 ChessArena，以及多项关于偏见（意识形态、方言）的研究，共同表明 LLM 评估正变得更加精细化和专业化。业界不再满足于通用问答能力，而是深入考察模型在特定任务中的可靠性、安全性和公平性。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -131,17 +121,11 @@
         },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.11044"
-        }
-      ]
-    },
-    {
-      "title": "LLM 的“偏见”问题研究正从文本扩展到多模态和经济学推理",
-      "summary": "多项研究 揭示了 LLM 在语音识别、经济学因果推理和方言理解中存在的系统性偏见，表明偏见问题并非仅存在于文本内容，而是渗透到模型理解和推理的各个层面。",
-      "references": [
+          "link": "https://arxiv.org/abs/2604.15994"
+        },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21276"
+          "link": "https://arxiv.org/abs/2509.24239"
         },
         {
           "source_name": "arXiv AI",
@@ -150,20 +134,6 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.21152"
-        }
-      ]
-    },
-    {
-      "title": "开源社区持续推动 LLM 工具链和可观测性发展",
-      "summary": "社区发布了新的 LLM 命令行工具版本和开源可观测性工具，表明开发者生态正在积极构建更完善的工具链，以支持 LLM 应用的开发、调试和监控。",
-      "references": [
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/24/llm"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/unni_mana_d760476b6a16eda/llm-observability-tool-1lfm"
         }
       ]
     }
