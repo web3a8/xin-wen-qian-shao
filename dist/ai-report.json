@@ -1,38 +1,48 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导全球科技动态，模型发布与巨额投资成为焦点。谷歌宣布向Anthropic投资高达400亿美元，同时DeepSeek-V4大模型在安卓端首发落地并完成国产算力适配。此外，OpenAI发布了GPT-5.5模型并统一了Codex与主模型，社区则围绕AI Agent的可靠性、安全性与新工具展开了广泛讨论。 [FACT] TITLE: Google将向Anthropic投资高达400亿美元 SUMMARY: 谷歌宣布将向AI公司Anthropic投资高达400亿美元，紧随亚马逊数日前的一笔较小规模投资之后。 SCORE: 77…",
+  "global_brief": "AI 领域持续高热，谷歌宣布向 Anthropic 投资高达 400 亿美元，紧随亚马逊此前的类似动作，显示出科技巨头对前沿 AI 公司的争夺进入白热化。同时，DeepSeek-V4 大模型在安卓端和国产算力平台实现快速适配落地，而 OpenAI 则通过统一 Codex 与主模型、发布 GPT-5.5 及提示指南 巩固其生态地位。此外，围绕 AI Agent 的工具链和安全性研究密集涌现，社区对 AI 商业化带来的成本压力也展开了讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 22704,
-      "event_count": 383
+      "field_score": 22695,
+      "event_count": 382
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1270,
+      "field_score": 1246,
       "event_count": 33
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1151,
-      "event_count": 25
+      "field_score": 1095,
+      "event_count": 24
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 505,
-      "event_count": 9
+      "field_score": 456,
+      "event_count": 8
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 409,
-      "event_count": 8
+      "field_score": 455,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
+    {
+      "title": "Taming MCPs, Skills, and Agent Chaos with ToolHive",
+      "summary": "I use a lot of AI coding tools: OpenCode, Antigravity, Claude Code, Codex, Gemini CLI, Pi, Zed, GitHub Copilot, and pro…；Taming MCPs, Skills, and Agent Chaos with ToolHive",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/thisisryanswift/taming-mcps-skills-and-agent-chaos-with-toolhive-192e"
+        }
+      ]
+    },
     {
       "title": "Spatial Metaphors for LLM Memory: A Critical Analysis of the MemPalace Architecture",
       "summary": "arXiv:2604.21284v1 Announce Type: new Abstract: MemPalace is an open-source AI memory system that applies the ancient m…；Spatial Metaphors for LLM Memory: A Critical Analysis of t…",
@@ -60,16 +70,6 @@
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/ai/2026/04/google-will-invest-as-much-as-40-billion-in-anthropic"
-        }
-      ]
-    },
-    {
-      "title": "HWE-Bench: Benchmarking LLM Agents on Real-World Hardware Bug Repair Tasks",
-      "summary": "arXiv:2604.14709v2 Announce Type: replace Abstract: Existing benchmarks for hardware design primarily evaluate Large La…；HWE-Bench: Benchmarking LLM Agents on Real-World Hardware…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.14709"
         }
       ]
     }
