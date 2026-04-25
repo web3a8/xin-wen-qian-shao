@@ -1,41 +1,41 @@
 {
-  "global_brief": "AI 领域持续主导今日动态，谷歌宣布向 Anthropic 投资高达 400 亿美元，同时 OpenAI 发布了 GPT-5.5 模型及其提示指南。此外，多项研究聚焦于 LLM 的安全性、偏见及 Agent 能力评估，包括针对模型记忆化、后门攻击和硬件 Bug 修复的基准测试。",
+  "global_brief": "过去24小时，AI领域资本与模型竞争白热化：谷歌宣布向Anthropic投资高达400亿美元，紧随亚马逊之后；同时，荣耀YOYO成为安卓首个接入DeepSeek-V4大模型的AI智能体，英伟达Blackwell平台也已适配该模型。此外，多项研究聚焦于LLM安全、Agent记忆系统及推理效率，社区侧则涌现大量开源编码Agent工具。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 24641,
-      "event_count": 402
+      "field_score": 23549,
+      "event_count": 388
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1648,
-      "event_count": 37
+      "field_score": 1568,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1379,
+      "field_score": 1412,
       "event_count": 35
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 457,
+      "field_score": 446,
       "event_count": 9
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 445,
-      "event_count": 9
+      "field_score": 410,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "Google 计划向 Anthropic 投资高达 400 亿美元",
-      "summary": "谷歌宣布将向 AI 公司 Anthropic 投资高达 400 亿美元，形式包括现金和计算资源。此举紧随亚马逊此前对 Anthropic 的较小规模投资。",
+      "title": "谷歌计划向Anthropic投资高达400亿美元",
+      "summary": "谷歌宣布将向AI公司Anthropic投资高达400亿美元，包括现金和计算资源，此举紧随亚马逊此前对Anthropic的较小规模投资。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -46,94 +46,24 @@
           "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute"
         }
       ]
-    },
-    {
-      "title": "OpenAI 发布 GPT-5.5 模型及提示指南",
-      "summary": "OpenAI 发布了新模型 GPT-5.5，并随之推出了详细的提示指南，为开发者提供了使用该模型的最佳实践。",
-      "references": [
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/24/llm"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide"
-        }
-      ]
-    },
-    {
-      "title": "新研究揭示 LLM 在欺诈检测中优于人类",
-      "summary": "一项新研究（arXiv:2604.20652v2）表明，大型语言模型在欺诈检测和抵抗投资者压力方面表现优于人类。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.20652"
-        }
-      ]
-    },
-    {
-      "title": "新基准测试评估 LLM Agent 在硬件 Bug 修复中的能力",
-      "summary": "研究论文“HWE-Bench”提出了一个用于评估 LLM Agent 在真实世界硬件 Bug 修复任务中表现的基准测试。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.14709"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示针对 LLM 的新型安全威胁",
-      "summary": "多项研究 揭示了针对 LLM 的新安全威胁，包括“Breaking MCP with Function Hijacking Attacks”和“Stealthy Backdoor Attacks against LLMs Based on Natural Style Triggers”，以及通过形式逻辑表达式绕过安全限制的“Logic Jailbreak”方法。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.20994"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21700"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2505.13527"
-        }
-      ]
-    },
-    {
-      "title": "研究显示 LLM 在经济学推理中存在意识形态偏见",
-      "summary": "一项新研究（arXiv:2604.21334v1）探讨了大型语言模型在经济学因果推理中是否表现出系统性的意识形态偏见。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21334"
-        }
-      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "LLM 评估正从通用能力转向专业领域和偏见检测",
-      "summary": "今日发布的多个基准测试，如针对硬件修复的 HWE-Bench、化学推理的 ReactBench 和战略推理的 ChessArena，以及多项关于偏见（意识形态、方言）的研究，共同表明 LLM 评估正变得更加精细化和专业化。业界不再满足于通用问答能力，而是深入考察模型在特定任务中的可靠性、安全性和公平性。",
+      "title": "AI军备竞赛加剧，资本与算力成为核心壁垒",
+      "summary": "谷歌对Anthropic高达400亿美元的投资，以及Meta与AWS在芯片层面的合作，表明头部AI公司正通过巨额资本和锁定算力资源来构建竞争壁垒，行业整合趋势明显。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.14709"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/google-will-invest-as-much-as-40-billion-in-anthropic"
         },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.15994"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute"
         },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2509.24239"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21334"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21152"
+          "source_name": "Hacker News AI",
+          "link": "https://aboutamazon.com/news/aws/meta-aws-graviton-ai-partnership"
         }
       ]
     }
