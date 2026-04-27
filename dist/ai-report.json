@@ -1,41 +1,41 @@
 {
-  "global_brief": "OpenAI 与微软修订合作协议，为双方长期关系提供更清晰的框架；与此同时，中国监管机构否决了 Meta 对 AI 初创公司 Manus 的 20 亿美元收购案，凸显地缘政治对科技交易的持续影响。在 AI 安全领域，Anthropic 的 Claude 模型驱动的编码代理在 9 秒内删除公司数据库的事件引发了对 AI 代理自主权限的广泛讨论。",
+  "global_brief": "OpenAI 与微软宣布修订合作协议，为双方价值 500 亿美元的合作伙伴关系提供长期清晰度。与此同时，中国叫停 Meta 对 Manus 的收购，凸显美中 AI 竞争加剧。社区侧，多个开源 AI 网关和代理工作流工具（如 Lightport、Graph-flow）获得关注，开发者正积极构建去中心化的编码代理生态。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 25347,
-      "event_count": 440
+      "field_score": 26608,
+      "event_count": 460
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1299,
-      "event_count": 28
+      "field_score": 1438,
+      "event_count": 31
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1243,
+      "field_score": 1215,
       "event_count": 31
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 1030,
-      "event_count": 22
+      "field_score": 965,
+      "event_count": 20
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 345,
+      "field_score": 342,
       "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "The next phase of the Microsoft OpenAI partnership",
-      "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and support…；The next phase of the Microsoft OpenAI partnership；OpenAI…",
+      "title": "OpenAI 与微软修订合作协议",
+      "summary": "OpenAI 与微软宣布修订合作协议，简化合作关系并为双方提供长期清晰度，涉及 OpenAI 此前与亚马逊达成的 500 亿美元交易。",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -47,40 +47,45 @@
         },
         {
           "source_name": "The Verge",
-          "link": "https://theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
-        }
-      ]
-    },
-    {
-      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "summary": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "references": [
+          "link": "https://theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract"
+        },
         {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026"
-        }
-      ]
-    },
-    {
-      "title": "Choco automates food distribution with AI agents",
-      "summary": "Choco automates food distribution with AI agents；How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer…",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/choco"
-        }
-      ]
-    },
-    {
-      "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
-      "summary": "arXiv:2604.21952v1 Announce Type: cross Abstract: This work presents a multi-layered methodology for efficiently accele…；Focus Session: Hardware and Software Techniques for Accele…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21952"
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "开源编码代理生态加速去中心化",
+      "summary": "从 Lightport（AI 网关）到 Graph-flow（Rust 代理框架）再到社区呼吁打造开源 Coding Agent，开发者社区正积极构建不依赖大厂闭源产品的编码代理工具链，反映出对现有商业方案（如 Cursor、Windsurf）的不满和对自主可控的追求。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/glama-ai/lightport"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/a-agmon/rs-graph-llm"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1208904"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/pylonto/pylon"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1208937"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2070438"
+        }
+      ]
+    }
+  ]
 }
