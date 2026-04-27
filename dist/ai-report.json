@@ -1,75 +1,49 @@
 {
-  "global_brief": "AI领域持续高热，模型迭代加速，开源社区与商业巨头在推理效率、Agent框架和安全对齐上展开密集竞争。Anthropic隐含估值一度突破万亿美元，与OpenAI的差距急剧缩小，标志着大模型市场格局正在重塑。同时，开源社区涌现大量轻量级Agent工具和推理优化方案，推动AI应用向边缘和本地化部署加速渗透。",
+  "global_brief": "过去24小时，AI领域持续主导全球科技动态，其中DeepSeek发布V4预览版引发市场震荡与行业讨论，同时OpenAI与微软宣布修订合作协议，Google DeepMind与韩国达成科研合作。此外，多篇关于LLM安全、推理效率及多模态评估的学术研究集中涌现。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 23198,
-      "event_count": 395
+      "field_score": 25712,
+      "event_count": 434
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1639,
-      "event_count": 41
+      "field_score": 1391,
+      "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 984,
-      "event_count": 23
+      "field_score": 1363,
+      "event_count": 31
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 355,
+      "field_score": 353,
       "event_count": 7
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 250,
-      "event_count": 6
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 345,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "Llama-Server Router Mode - Dynamic Model Switching Without Restarts",
-      "summary": "For a long time, llama.cpp had a glaring limitation: you could only serve one model per process, and switching meant a…；Llama-Server Router Mode - Dynamic Model Switching Without…",
+      "title": "DeepSeek发布V4预览版，引发市场震荡",
+      "summary": "4月24日，DeepSeek发布V4预览版，导致国内AI大模型板块股价下挫，智谱和MiniMax等公司受到冲击。摩根大通发布研究报告认为，V4打破了算力束缚，对行业是利好。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/rosgluk/llama-server-router-mode-dynamic-model-switching-without-restarts-1h0j"
-        }
-      ]
-    },
-    {
-      "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
-      "summary": "arXiv:2604.21952v1 Announce Type: cross Abstract: This work presents a multi-layered methodology for efficiently accele…；Focus Session: Hardware and Software Techniques for Accele…",
-      "references": [
+          "source_name": "华尔街见闻最热",
+          "link": "https://wallstreetcn.com/articles/3770936"
+        },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21952"
-        }
-      ]
-    },
-    {
-      "title": "Mochi: Aligning Pre-training and Inference for Efficient Graph Foundation Models via Meta-Learning",
-      "summary": "arXiv:2604.22031v1 Announce Type: cross Abstract: We propose Mochi, a Graph Foundation Model that addresses task unific…；Mochi: Aligning Pre-training and Inference for Efficient G…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.22031"
-        }
-      ]
-    },
-    {
-      "title": "Unlocking the Edge deployment and ondevice acceleration of multi-LoRA enabled one-for-all foundational LLM",
-      "summary": "arXiv:2604.18655v2 Announce Type: replace-cross Abstract: Deploying large language models (LLMs) on smartphones poses s…；Unlocking the Edge deployment and ondevice acceleration of…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.18655"
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/04/27/1136438/the-download-deepseek-v4-ai-world-models"
         }
       ]
     }
