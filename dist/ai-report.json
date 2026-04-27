@@ -1,75 +1,45 @@
 {
-  "global_brief": "今日AI领域持续主导技术动态，多项研究聚焦于提升大语言模型（LLM）的推理效率、安全性与多模态能力。同时，产业侧出现重要动向，中国信通院正式启动对DeepSeek V4的国产化适配测试，标志着国产大模型生态建设进入新阶段。此外，关于LLM上下文窗口有效性的质疑与模型安全性的新攻击方法也引发了广泛讨论。 [FACT] TITLE: 中国信通院启动DeepSeek V4国产化适配测试 SUMMARY: 中国信息通信研究院联合人工智能软硬件协同创新与适配验证中心，正式启动DeepSeek V4的国产化适配测试工作，旨在推动其与国产软硬件的深度适配与产业落地（…",
+  "global_brief": "过去24小时AI领域迎来密集发布期，多家厂商在9天内推出5款前沿大模型，价格下降约50%，同时中国阻止Meta以20亿美元收购AI公司Manus，DeepSeek V4展示华为AI芯片能力，谷歌DeepMind宣布与韩国合作加速科学突破。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 25949,
-      "event_count": 434
+      "field_score": 25405,
+      "event_count": 423
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1561,
-      "event_count": 39
+      "field_score": 1883,
+      "event_count": 47
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 996,
-      "event_count": 24
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 474,
-      "event_count": 11
+      "field_score": 1134,
+      "event_count": 27
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 380,
-      "event_count": 8
+      "field_score": 412,
+      "event_count": 9
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 365,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
-      "summary": "arXiv:2604.21952v1 Announce Type: cross Abstract: This work presents a multi-layered methodology for efficiently accele…；Focus Session: Hardware and Software Techniques for Accele…",
+      "title": "9天内5款前沿大模型发布，价格下降约50%",
+      "summary": "自GPT-4发布以来最重要的一个月，多家厂商在9天内密集推出5款前沿大模型，价格下降约50%，涉及Anthropic、Kimi、OpenAI、Qwen等厂商。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21952"
-        }
-      ]
-    },
-    {
-      "title": "Mochi: Aligning Pre-training and Inference for Efficient Graph Foundation Models via Meta-Learning",
-      "summary": "arXiv:2604.22031v1 Announce Type: cross Abstract: We propose Mochi, a Graph Foundation Model that addresses task unific…；Mochi: Aligning Pre-training and Inference for Efficient G…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.22031"
-        }
-      ]
-    },
-    {
-      "title": "Unlocking the Edge deployment and ondevice acceleration of multi-LoRA enabled one-for-all foundational LLM",
-      "summary": "arXiv:2604.18655v2 Announce Type: replace-cross Abstract: Deploying large language models (LLMs) on smartphones poses s…；Unlocking the Edge deployment and ondevice acceleration of…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.18655"
-        }
-      ]
-    },
-    {
-      "title": "EuropeMedQA Study Protocol: A Multilingual, Multimodal Medical Examination Dataset for Language Model Evaluation",
-      "summary": "arXiv:2604.14306v2 Announce Type: replace-cross Abstract: While Large Language Models (LLMs) have demonstrated high pro…；EuropeMedQA Study Protocol: A Multilingual, Multimodal Med…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.14306"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/tokenmixai/april-2026s-llm-avalanche-5-frontier-drops-in-9-days-50-price-cut-3-migrations-to-plan-now-4och"
         }
       ]
     }
