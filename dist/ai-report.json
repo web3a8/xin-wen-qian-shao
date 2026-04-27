@@ -1,55 +1,41 @@
 {
-  "global_brief": "今日AI领域持续主导技术动态，DeepSeek发布V4预览版引发市场震荡与行业讨论，同时多篇研究聚焦于LLM推理效率、安全性与多模态能力。开发者社区则关注AI辅助编程带来的“认知债务”问题。",
+  "global_brief": "今日AI领域持续主导技术动态，多项研究聚焦于提升大语言模型（LLM）的推理效率、安全性与多模态能力。同时，产业侧出现重要动向，中国信通院正式启动对DeepSeek V4的国产化适配测试，标志着国产大模型生态建设进入新阶段。此外，关于LLM上下文窗口有效性的质疑与模型安全性的新攻击方法也引发了广泛讨论。 [FACT] TITLE: 中国信通院启动DeepSeek V4国产化适配测试 SUMMARY: 中国信息通信研究院联合人工智能软硬件协同创新与适配验证中心，正式启动DeepSeek V4的国产化适配测试工作，旨在推动其与国产软硬件的深度适配与产业落地（…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 24867,
-      "event_count": 415
+      "field_score": 25949,
+      "event_count": 434
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1675,
-      "event_count": 42
+      "field_score": 1561,
+      "event_count": 39
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 930,
-      "event_count": 22
+      "field_score": 996,
+      "event_count": 24
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 412,
-      "event_count": 10
+      "field_score": 474,
+      "event_count": 11
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 386,
-      "event_count": 9
+      "field_score": 380,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "DeepSeek发布V4预览版，引发市场震荡",
-      "summary": "DeepSeek于4月24日发布V4预览版，导致国内AI大模型板块应声下挫，智谱和MiniMax等公司受到冲击。摩根大通认为，V4打破了算力束缚，是行业利好。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3770936"
-        },
-        {
-          "source_name": "华尔街见闻最热",
-          "link": "https://wallstreetcn.com/articles/3770923"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出多模态基础模型加速方法论",
-      "summary": "一项新研究（arXiv:2604.21952v1）提出了多层方法论，用于高效加速多模态基础模型，聚焦于硬件与软件技术。",
+      "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
+      "summary": "arXiv:2604.21952v1 Announce Type: cross Abstract: This work presents a multi-layered methodology for efficiently accele…；Focus Session: Hardware and Software Techniques for Accele…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -58,8 +44,8 @@
       ]
     },
     {
-      "title": "新研究提出Mochi图基础模型，对齐预训练与推理",
-      "summary": "一项新研究（arXiv:2604.22031v1）提出了Mochi，一种通过元学习对齐预训练与推理的图基础模型，旨在解决任务统一问题。",
+      "title": "Mochi: Aligning Pre-training and Inference for Efficient Graph Foundation Models via Meta-Learning",
+      "summary": "arXiv:2604.22031v1 Announce Type: cross Abstract: We propose Mochi, a Graph Foundation Model that addresses task unific…；Mochi: Aligning Pre-training and Inference for Efficient G…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -68,96 +54,25 @@
       ]
     },
     {
-      "title": "研究揭示LLM在零温度下仍存在隐藏随机性",
-      "summary": "一项新研究（arXiv:2604.22411v1）引入了“背景温度”概念，以表征大型语言模型在解码温度设为0时仍存在的隐藏随机性。",
+      "title": "Unlocking the Edge deployment and ondevice acceleration of multi-LoRA enabled one-for-all foundational LLM",
+      "summary": "arXiv:2604.18655v2 Announce Type: replace-cross Abstract: Deploying large language models (LLMs) on smartphones poses s…；Unlocking the Edge deployment and ondevice acceleration of…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.22411"
+          "link": "https://arxiv.org/abs/2604.18655"
         }
       ]
     },
     {
-      "title": "新研究提出通过形式逻辑表达式高效破解LLM安全限制",
-      "summary": "一项新研究（arXiv:2505.13527v4）提出了“逻辑越狱”方法，通过形式逻辑表达式高效解锁大型语言模型的安全限制。",
+      "title": "EuropeMedQA Study Protocol: A Multilingual, Multimodal Medical Examination Dataset for Language Model Evaluation",
+      "summary": "arXiv:2604.14306v2 Announce Type: replace-cross Abstract: While Large Language Models (LLMs) have demonstrated high pro…；EuropeMedQA Study Protocol: A Multilingual, Multimodal Med…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2505.13527"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出在LLM训练中植入逻辑地雷的后门攻击方法",
-      "summary": "一项新研究（arXiv:2604.22117v1）提出了PermaFrost-Attack，一种在大型语言模型训练期间通过隐蔽预训练播种植入逻辑地雷的方法。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.22117"
+          "link": "https://arxiv.org/abs/2604.14306"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI辅助编程引发“认知债务”担忧",
-      "summary": "开发者社区讨论指出，过度依赖Copilot、Claude和ChatGPT等AI工具进行编程，虽然提升了生产力，但可能导致人类大脑的认知能力下降，形成“认知债务”。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/christian_altwibbing_985/cognitive-debt-why-your-brain-suffers-when-ai-does-the-thinking-14ea"
-        }
-      ]
-    },
-    {
-      "title": "代码库正成为AI Agent的新交互界面",
-      "summary": "开发者社区观点认为，在AI Agent时代，代码库本身正在成为与AI交互的新“提示词”，而非传统的自然语言指令。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/my2centsonai/stop-auto-generating-your-agentsmd-36md"
-        }
-      ]
-    },
-    {
-      "title": "扩散语言模型在Agent工作流中的实用性受到质疑",
-      "summary": "一项综合研究对扩散语言模型在实时Agent交互中的应用进行了现实检验，指出其在追求实时性方面存在根本性局限。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2601.12979"
-        }
-      ]
-    },
-    {
-      "title": "监督微调（SFT）在LLM学习中存在根本性缺陷",
-      "summary": "一项系统研究指出，监督微调（SFT）在大型语言模型中会导致“不完全学习”问题，即模型未能真正掌握任务本质。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2604.10079"
-        }
-      ]
-    },
-    {
-      "title": "学习率衰减策略可能浪费LLM预训练中的最佳数据",
-      "summary": "一项研究指出，在基于课程学习的LLM预训练中，不当的学习率衰减策略可能导致高质量数据未能被充分利用。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2511.18903"
-        }
-      ]
-    },
-    {
-      "title": "LLM在生成随机数方面存在固有缺陷",
-      "summary": "一项研究指出，大型语言模型在需要从统计分布中生成随机数时表现不佳，这限制了其在需要随机性的应用场景中的使用。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.05414"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
