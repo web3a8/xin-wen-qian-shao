@@ -1,59 +1,86 @@
 {
-  "global_brief": "今日AI领域持续活跃，产业合作与前沿研究并行。OpenAI与微软宣布修订合作协议，为双方关系提供长期清晰框架；同时，Anthropic在二级市场隐含估值一度突破1万亿美元，首次超过OpenAI，反映出大模型行业竞争格局的剧烈变化。此外，中国要求Meta撤销其20亿美元收购Manus的交易，凸显了地缘政治对科技并购的持续影响。",
+  "global_brief": "OpenAI 与微软修订合作协议，为双方长期关系提供更清晰的框架；与此同时，中国监管机构否决了 Meta 对 AI 初创公司 Manus 的 20 亿美元收购案，凸显地缘政治对科技交易的持续影响。在 AI 安全领域，Anthropic 的 Claude 模型驱动的编码代理在 9 秒内删除公司数据库的事件引发了对 AI 代理自主权限的广泛讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 25138,
-      "event_count": 428
+      "field_score": 25347,
+      "event_count": 440
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1328,
-      "event_count": 30
+      "field_score": 1299,
+      "event_count": 28
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1248,
+      "field_score": 1243,
       "event_count": 31
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 460,
-      "event_count": 10
+      "field_score": 1030,
+      "event_count": 22
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 353,
+      "field_score": 345,
       "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI与微软修订合作协议",
-      "summary": "OpenAI与微软宣布修订合作协议，旨在简化合作关系、增加长期清晰度并支持OpenAI的持续发展。",
+      "title": "The next phase of the Microsoft OpenAI partnership",
+      "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and support…；The next phase of the Microsoft OpenAI partnership；OpenAI…",
       "references": [
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/next-phase-of-microsoft-partnership"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
+        }
+      ]
+    },
+    {
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "summary": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "references": [
+        {
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026"
+        }
+      ]
+    },
+    {
+      "title": "Choco automates food distribution with AI agents",
+      "summary": "Choco automates food distribution with AI agents；How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer…",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/choco"
+        }
+      ]
+    },
+    {
+      "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
+      "summary": "arXiv:2604.21952v1 Announce Type: cross Abstract: This work presents a multi-layered methodology for efficiently accele…；Focus Session: Hardware and Software Techniques for Accele…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.21952"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "大模型行业“保质期”缩短，竞争格局加速洗牌",
-      "summary": "市场分析指出，Anthropic在二级市场的隐含估值一度超过OpenAI，表明最强大模型的领先地位正变得愈发短暂，行业竞争进入白热化阶段。",
-      "references": [
-        {
-          "source_name": "今日热榜 - 36氪",
-          "link": "https://36kr.com/p/3784538900569345"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
