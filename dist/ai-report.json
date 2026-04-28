@@ -1,115 +1,57 @@
 {
-  "global_brief": "AI 领域持续活跃，Anthropic 的 Claude 模型在安全性与工具集成方面取得新进展，同时 OpenAI 与 AWS 的合作深化，而 Musk 与 Altman 的法律纠纷成为行业焦点。此外，GitHub 因成本压力调整 Copilot 收费模式，欧盟则要求 Google 开放 Android 上的 AI 服务。",
+  "global_brief": "OpenAI 模型及 Agent 服务正式登陆 AWS，标志着其云分发策略的重大转变；与此同时，Elon Musk 与 Sam Altman 就 OpenAI 未来的庭审正式开打，为行业格局增添不确定性。在安全领域，Anthropic 的 Claude Mythos 模型被曝可自主发现并武器化软件漏洞，引发广泛担忧。此外，中国 AI 公司因“AI 盗窃”指控面临美国国务院升级的制裁压力，而 DeepSeek、Qwen 等低成本模型正引发硅谷对竞争格局的重新评估。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 47155,
-      "event_count": 830
+      "field_score": 46610,
+      "event_count": 817
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1966,
+      "field_score": 1994,
       "event_count": 45
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1118,
+      "field_score": 1092,
       "event_count": 28
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 988,
-      "event_count": 22
+      "field_score": 893,
+      "event_count": 19
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 847,
-      "event_count": 18
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 851,
+      "event_count": 19
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 发布 Claude Mythos Preview，可自主发现并利用软件漏洞",
-      "summary": "Anthropic 宣布其新模型 Claude Mythos Preview 能够自主发现并武器化软件漏洞，引发对网络安全未来的广泛讨论。",
-      "references": [
-        {
-          "source_name": "Schneier on Security",
-          "link": "https://schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html"
-        },
-        {
-          "source_name": "steveblank.com",
-          "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI 模型及 Codex 工具登陆 AWS 平台",
-      "summary": "OpenAI 的 GPT 模型、Codex 以及托管代理现已通过 Amazon Bedrock 在 AWS 上可用，使企业能在其云环境中构建安全的 AI 应用。",
+      "title": "OpenAI 模型与 Agent 服务登陆 AWS",
+      "summary": "OpenAI 宣布其 GPT 模型、Codex 以及 Managed Agents 服务现已可在 AWS 上使用，允许企业在其云环境中构建安全的 AI 应用。此举发生在微软放弃对 OpenAI 云服务的独家权利之后。",
       "references": [
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/openai-on-aws"
-        }
-      ]
-    },
-    {
-      "title": "Musk 与 Altman 对簿公堂，将决定 OpenAI 未来走向",
-      "summary": "一项修订后的协议为 OpenAI 模型在 Amazon Bedrock 上运行扫清了道路，与此同时，马斯克与奥特曼在法庭上就 OpenAI 的未来使命展开对决。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future"
         },
         {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause"
-        }
-      ]
-    },
-    {
-      "title": "GitHub 将根据实际 AI 使用量向 Copilot 用户收费",
-      "summary": "GitHub 表示无法再承担来自重度 AI 用户不断攀升的推理成本，因此将改变 Copilot 的收费模式，按实际使用量计费。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/github-will-start-charging-copilot-users-based-on-their-actual-ai-usage"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic 推出 Claude 连接器，可接入 Photoshop 等创意软件",
-      "summary": "Anthropic 发布了一套 Claude 连接器，使 AI 聊天机器人能够直接接入 Photoshop、Blender 和 Ableton 等流行创意软件。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender"
-        }
-      ]
-    },
-    {
-      "title": "欧盟要求 Google 开放 Android 上的 AI 服务",
-      "summary": "欧盟要求 Google 开放 Android 平台上的 AI 服务，认为 Gemini 获得了优待；Google 则回应称这是“无理的干预”。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 推理成本压力正从模型提供商传导至下游应用",
-      "summary": "GitHub 因无法承受推理成本而改变 Copilot 收费模式，CoreWeave 则紧急澄清其业务不依赖单一客户，表明 AI 算力成本高企正重塑整个产业链的商业模式。",
+      "title": "AI 推理成本压力正从模型训练向应用层传导",
+      "summary": "GitHub 因 Copilot 推理成本过高而改变收费模式，结合 CoreWeave 对 OpenAI 销售目标未达预期的回应，表明 AI 推理环节的成本压力正在显著影响下游应用的经济模型和定价策略。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -118,78 +60,6 @@
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3771154"
-        }
-      ]
-    },
-    {
-      "title": "LLM 系统正从“提示工程”转向“架构工程”",
-      "summary": "社区讨论指出，Claude 泄露事件证实了 LLM 系统的核心在于架构而非提示词，同时涌现出大量如 Lightport、NARE 等旨在优化 LLM 系统架构的开源工具，标志着开发范式正在转变。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/gfernandf/agent-skills"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/glama-ai/lightport"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/starface77/Neuro-Adaptive-Reasoning-Engine"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent 自动开发成为主流趋势，开发者面临范式转换焦虑",
-      "summary": "社区热议显示，从对话式编程到 Agent 自动开发的工作流转变正引发开发者“是否落后”的焦虑，而 Anthropic 和 OpenAI 等公司推出的 Agent 工具则加速了这一进程。",
-      "references": [
-        {
-          "source_name": "V2EX 最热",
-          "link": "https://v2ex.com/t/1209036"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender"
-        }
-      ]
-    },
-    {
-      "title": "LLM 安全研究进入深水区，从被动防御转向主动攻击测试",
-      "summary": "多项新研究（如 Logic Jailbreak、PermaFrost-Attack）和开源工具（如 VoiceGoat）表明，社区正从单纯的对齐研究转向更复杂的攻击与防御方法探索，以应对 LLM 部署中的安全挑战。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2505.13527"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.22117"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/redcaller/voice-goat"
-        }
-      ]
-    },
-    {
-      "title": "多模态与边缘部署成为 LLM 研究的两大核心方向",
-      "summary": "大量新研究聚焦于加速多模态基础模型、优化边缘设备上的 LLM 推理（如多 LoRA 部署、KV 缓存压缩），表明行业正致力于将强大模型推向更广泛的应用场景。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21952"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2603.11504"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.18655"
-        },
-        {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence"
         }
       ]
     }
