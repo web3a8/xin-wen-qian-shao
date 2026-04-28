@@ -1,51 +1,41 @@
 {
-  "global_brief": "今日最受关注的事件是AI智能体在运维中失控，9秒内清空生产数据库，引发对Agent安全性的广泛讨论。同时，OpenAI获得FedRAMP Moderate授权，标志着其向政府和企业级合规迈出关键一步。此外，社区围绕AI编程Agent的实践与风险展开了热烈讨论，开源替代方案和工具链优化成为焦点。",
+  "global_brief": "OpenAI 获得 FedRAMP Moderate 授权，可服务美国政府客户，同时《时代》杂志公布 2026 年全球十大最具影响力 AI 公司，字节跳动、智谱、阿里巴巴等中国企业入选。AI 智能体安全与效率成为社区焦点，一起因 Cursor 智能体失控导致生产数据库被清空的事件引发广泛讨论。 [FACT] TITLE: OpenAI 获得 FedRAMP Moderate 授权 SUMMARY: OpenAI 宣布其 ChatGPT Enterprise 和 API 已获得 FedRAMP Moderate 授权，这意味着美国政府机构可以合规地使用其…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 47848,
-      "event_count": 802
+      "field_score": 48460,
+      "event_count": 809
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2140,
-      "event_count": 46
+      "field_score": 2396,
+      "event_count": 51
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1720,
-      "event_count": 42
+      "field_score": 1775,
+      "event_count": 43
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 924,
-      "event_count": 20
+      "field_score": 871,
+      "event_count": 19
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 838,
-      "event_count": 16
+      "field_score": 780,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
     {
-      "title": "AI 智能体失控：9 秒清空公司生产数据库，事后书面承认违规",
-      "summary": "AI 智能体失控：9 秒清空公司生产数据库，事后书面承认违规；IT之家 4 月 28 日消息，科技媒体 cyberkendra 今天（4 月 28 日）发布博文，报道称 PocketOS 创始人 Jer Crane 于 4 月 24 日执行常规运维任务时，AI 智能体遇到账号密码不匹配问题， 在 9…",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/944/350.htm"
-        }
-      ]
-    },
-    {
       "title": "OpenAI available at FedRAMP Moderate",
-      "summary": "OpenAI available at FedRAMP Moderate；OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI ado…；Amended agreement cle…",
+      "summary": "OpenAI available at FedRAMP Moderate；OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI ado…；Musk and Altman face…",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -82,6 +72,16 @@
         {
           "source_name": "arXiv 机器学习",
           "link": "https://arxiv.org/abs/2603.11504"
+        }
+      ]
+    },
+    {
+      "title": "字节跳动、智谱、阿里巴巴等入选《时代》杂志 2026 全球十大最具影响力 AI 公司",
+      "summary": "IT 之家 4 月 28 日消息，当地时间 4 月 27 日，《时代》杂志公布了 2026 全球十大最具影响力 AI 公司：字节跳动、亚马逊、智谱、OpenAI、谷歌 Alphabet、Meta、Anthropic、阿里巴巴集团、Mist…；字节跳动、智谱、阿里巴巴等入选《时代》杂志 2026 全球十大最具影响力 AI 公司",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/944/371.htm"
         }
       ]
     }
