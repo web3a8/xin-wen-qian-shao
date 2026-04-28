@@ -1,46 +1,42 @@
 {
-  "global_brief": "OpenAI 获得 FedRAMP Moderate 授权，可服务于美国政府云环境，同时 Google 员工联名要求 CEO 拒绝军事 AI 合作，凸显 AI 产业在合规与伦理间的张力。Anthropic 的 Mythos 模型展示了自主发现并利用软件漏洞的能力，引发对 AI 安全边界的讨论。学术界围绕 LLM 推理效率、多模态融合及安全测试发表了大量新研究。",
+  "global_brief": "AI 领域持续主导今日动态，核心事件包括 OpenAI 与马斯克的对决审判、Anthropic 模型安全能力的突破性进展，以及 DeepSeek 发布新一代旗舰模型。同时，AI 代理工具和边缘部署技术成为社区讨论热点，而 Google 员工对军事 AI 应用的抗议也引发了广泛关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 46649,
-      "event_count": 804
+      "field_score": 47845,
+      "event_count": 820
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2144,
-      "event_count": 47
+      "field_score": 2069,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1129,
-      "event_count": 28
+      "field_score": 1298,
+      "event_count": 32
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 1079,
-      "event_count": 23
+      "field_score": 1213,
+      "event_count": 26
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 750,
-      "event_count": 15
+      "field_score": 789,
+      "event_count": 16
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI available at FedRAMP Moderate",
-      "summary": "OpenAI available at FedRAMP Moderate；OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI ado…；Amended agreement cle…",
+      "title": "Musk 与 Altman 对簿公堂，OpenAI 未来走向成焦点",
+      "summary": "马斯克与奥特曼在法庭上就 OpenAI 的未来发展方向展开对决。一项修订后的协议为 OpenAI 模型在亚马逊 Bedrock 上运行扫清了障碍。该事件由多家媒体报道。",
       "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/openai-available-at-fedramp-moderate"
-        },
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future"
@@ -52,43 +48,170 @@
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/tech/919469/elon-musk-dont-like"
-        }
-      ]
-    },
-    {
-      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "summary": "Join the new AI Agents Vibe Coding Course from Google and Kaggle；I Built Multi-Agent Systems Before NEXT '26 — Here's What the New ADK, MCP & A2A Stack Actually Changes；This is a…",
-      "references": [
-        {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026"
         },
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/gaurang_bhatt_b6d91a19879/i-built-multi-agent-systems-before-next-26-heres-what-the-new-adk-mcp-a2a-stack-actually-3ek1"
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future"
         }
       ]
     },
     {
-      "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
-      "summary": "Two weeks ago, Anthropic announced that its new model, Claude Mythos Preview, can autonomously find and weaponize softw…；What Anthropic’s Mythos Means for the Future of Cybersecur…",
+      "title": "Anthropic 新模型可自主发现并武器化软件漏洞",
+      "summary": "据 Anthropic 宣布，其新模型 Claude Mythos Preview 能够自主发现并武器化软件漏洞，这引发了关于网络安全未来的广泛讨论。",
       "references": [
         {
           "source_name": "Schneier on Security",
           "link": "https://schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html"
+        },
+        {
+          "source_name": "steveblank.com",
+          "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box"
         }
       ]
     },
     {
-      "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
-      "summary": "arXiv:2604.21952v1 Announce Type: cross Abstract: This work presents a multi-layered methodology for efficiently accele…；Focus Session: Hardware and Software Techniques for Accele…",
+      "title": "DeepSeek 发布新一代旗舰 AI 模型",
+      "summary": "在颠覆硅谷一年后，DeepSeek 发布了其最新的旗舰 AI 模型，再次引发行业关注。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21952"
+          "source_name": "Hacker News AI",
+          "link": "https://bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 营收未达预期，投资者股价下跌",
+      "summary": "据报道，OpenAI 未能达到营收目标，导致其投资者英伟达、甲骨文等公司的股价下跌。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://forbes.com/sites/tylerroush/2026/04/28/openai-investors-nvidia-oracle-more-fall-after-ai-giant-reportedly-misses-revenue-target"
+        }
+      ]
+    },
+    {
+      "title": "超过 600 名 Google 员工联名反对将 AI 用于军事",
+      "summary": "超过 600 名 Google 员工签署联名信，要求 CEO 桑达尔·皮查伊拒绝将 AI 用于机密军事用途。此前有报道称 Google 与五角大楼就“任何合法”使用 AI 达成协议。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter"
+        },
+        {
+          "source_name": "OpenClaw Releases",
+          "link": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.26"
+        },
+        {
+          "source_name": "Product Hunt",
+          "link": "https://producthunt.com/products/sonicmeet"
+        }
+      ]
+    },
+    {
+      "title": "非开发者使用 Claude Code 成功构建原生 Android 终端 IDE",
+      "summary": "一位自称不会写代码的开发者，利用 Claude Code 和 Codex 成功构建并发布了可在 Android 上原生运行的终端 IDE，无需 Termux。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/ryoitabashi/i-cant-write-code-but-i-shipped-a-native-android-terminal-ide-with-claude-code-codex-running-21ja"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 代理开发工具生态正从对话模式向自动化工作流演进",
+      "summary": "社区讨论显示，开发者正从简单的对话式 AI 编程转向更复杂的 Agent 工作流，如自动拆解任务、编写代码和进行代码审查。这反映了 AI 辅助开发范式的根本性转变，但同时也引发了关于开发者是否“落后”的焦虑。",
+      "references": [
+        {
+          "source_name": "V2EX 最热",
+          "link": "https://v2ex.com/t/1209036"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://ai-clean.dev/"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://hahooh.xyz/download"
+        }
+      ]
+    },
+    {
+      "title": "模型推理效率和边缘部署成为 AI 落地的关键瓶颈",
+      "summary": "多篇研究论文聚焦于 KV 缓存压缩、低秩压缩和边缘端适配，表明在追求模型性能之后，如何高效、低成本地部署和运行大模型已成为产业界和学术界共同关注的核心问题。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2603.11504"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2506.01897"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.22783"
+        }
+      ]
+    },
+    {
+      "title": "LLM 安全研究出现新范式：从被动防御转向主动攻击与形式化验证",
+      "summary": "近期研究不仅关注如何破解 LLM 的安全限制（如 Logic Jailbreak），还提出了更严谨的安全测试方法论（如 Jailbreak Oracle 问题），并开始探索在训练阶段植入后门（如 PermaFrost-Attack），表明安全攻防战正在升级。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2505.13527"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2506.17299"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.22117"
+        }
+      ]
+    },
+    {
+      "title": "多模态大模型在专业领域应用深化，但基础能力仍存短板",
+      "summary": "研究显示，多模态大模型正被应用于生物力学建模、工业异常检测和情感分析等专业领域，但同时也暴露出在理解小物体、文档重建等基础任务上的不足，表明其能力边界仍需探索。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2510.03248"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2602.17419"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2604.23813"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2604.22884"
+        }
+      ]
+    },
+    {
+      "title": "开源社区正构建更强大的 AI 代理基础设施",
+      "summary": "多个开源项目（如 Lightport、Hahooh、NARE）旨在为 AI 代理提供更底层的支持，包括兼容性网关、工具构建能力和记忆推理机制，这预示着 AI 代理将从一个演示概念走向更复杂、更自主的生产力工具。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/glama-ai/lightport"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://hahooh.xyz/download"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/starface77/Neuro-Adaptive-Reasoning-Engine"
+        }
+      ]
+    }
+  ]
 }
