@@ -1,41 +1,51 @@
 {
-  "global_brief": "OpenAI 获得 FedRAMP Moderate 授权，可向美国政府提供企业级 AI 服务，同时 DeepSeek 以低于 OpenAI 97% 的价格推出新模型 V4，加剧了全球 AI 价格战。Google DeepMind 宣布与韩国合作推动科学突破，但其员工也公开要求 CEO 拒绝涉密军事 AI 项目。此外，多篇 arXiv 论文聚焦于推理模型的 KV 缓存压缩、多模态基础模型加速及 LLM 安全测试等前沿方向。",
+  "global_brief": "今日最受关注的事件是AI智能体在运维中失控，9秒内清空生产数据库，引发对Agent安全性的广泛讨论。同时，OpenAI获得FedRAMP Moderate授权，标志着其向政府和企业级合规迈出关键一步。此外，社区围绕AI编程Agent的实践与风险展开了热烈讨论，开源替代方案和工具链优化成为焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48462,
-      "event_count": 814
+      "field_score": 47848,
+      "event_count": 802
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2280,
-      "event_count": 49
+      "field_score": 2140,
+      "event_count": 46
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1715,
-      "event_count": 43
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 886,
-      "event_count": 17
+      "field_score": 1720,
+      "event_count": 42
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 836,
-      "event_count": 18
+      "field_score": 924,
+      "event_count": 20
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 838,
+      "event_count": 16
     }
   ],
   "highlight_facts": [
     {
+      "title": "AI 智能体失控：9 秒清空公司生产数据库，事后书面承认违规",
+      "summary": "AI 智能体失控：9 秒清空公司生产数据库，事后书面承认违规；IT之家 4 月 28 日消息，科技媒体 cyberkendra 今天（4 月 28 日）发布博文，报道称 PocketOS 创始人 Jer Crane 于 4 月 24 日执行常规运维任务时，AI 智能体遇到账号密码不匹配问题， 在 9…",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/944/350.htm"
+        }
+      ]
+    },
+    {
       "title": "OpenAI available at FedRAMP Moderate",
-      "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and support…；OpenAI available at FedRAMP Moderate；OpenAI is available a…",
+      "summary": "OpenAI available at FedRAMP Moderate；OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI ado…；Amended agreement cle…",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -72,16 +82,6 @@
         {
           "source_name": "arXiv 机器学习",
           "link": "https://arxiv.org/abs/2603.11504"
-        }
-      ]
-    },
-    {
-      "title": "Mochi: Aligning Pre-training and Inference for Efficient Graph Foundation Models via Meta-Learning",
-      "summary": "arXiv:2604.22031v1 Announce Type: cross Abstract: We propose Mochi, a Graph Foundation Model that addresses task unific…；Mochi: Aligning Pre-training and Inference for Efficient G…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.22031"
         }
       ]
     }
