@@ -1,41 +1,41 @@
 {
-  "global_brief": "OpenAI 获得 FedRAMP Moderate 授权，可服务美国政府客户，同时《时代》杂志公布 2026 年全球十大最具影响力 AI 公司，字节跳动、智谱、阿里巴巴等中国企业入选。AI 智能体安全与效率成为社区焦点，一起因 Cursor 智能体失控导致生产数据库被清空的事件引发广泛讨论。 [FACT] TITLE: OpenAI 获得 FedRAMP Moderate 授权 SUMMARY: OpenAI 宣布其 ChatGPT Enterprise 和 API 已获得 FedRAMP Moderate 授权，这意味着美国政府机构可以合规地使用其…",
+  "global_brief": "OpenAI 获得 FedRAMP Moderate 授权，可服务美国政府客户，同时社区热议 AI 编码 Agent 工作流与 Token 成本问题，多篇研究聚焦 LLM 推理效率与安全。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48460,
-      "event_count": 809
+      "field_score": 47502,
+      "event_count": 817
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2396,
-      "event_count": 51
+      "field_score": 2308,
+      "event_count": 50
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1775,
-      "event_count": 43
+      "field_score": 1472,
+      "event_count": 36
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 871,
-      "event_count": 19
+      "field_score": 815,
+      "event_count": 18
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 780,
-      "event_count": 15
+      "field_score": 789,
+      "event_count": 16
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI available at FedRAMP Moderate",
-      "summary": "OpenAI available at FedRAMP Moderate；OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI ado…；Musk and Altman face…",
+      "title": "OpenAI 获得 FedRAMP Moderate 授权",
+      "summary": "OpenAI 宣布其 ChatGPT Enterprise 和 API 已获得 FedRAMP Moderate 授权，并修订了协议，允许其模型在 Amazon Bedrock 上运行。",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -56,18 +56,8 @@
       ]
     },
     {
-      "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
-      "summary": "arXiv:2604.21952v1 Announce Type: cross Abstract: This work presents a multi-layered methodology for efficiently accele…；Focus Session: Hardware and Software Techniques for Accele…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21952"
-        }
-      ]
-    },
-    {
-      "title": "LongFlow: Efficient KV Cache Compression for Reasoning Models",
-      "summary": "arXiv:2603.11504v2 Announce Type: replace Abstract: Recent reasoning models such as OpenAI-o1 and DeepSeek-R1 have show…；LongFlow: Efficient KV Cache Compression for Reasoning Mod…",
+      "title": "研究提出 LongFlow 方法压缩推理模型 KV 缓存",
+      "summary": "一项新研究（arXiv:2603.11504v2）提出了 LongFlow，一种针对 OpenAI-o1 和 DeepSeek-R1 等推理模型的高效 KV 缓存压缩方法。",
       "references": [
         {
           "source_name": "arXiv 机器学习",
@@ -76,15 +66,132 @@
       ]
     },
     {
-      "title": "字节跳动、智谱、阿里巴巴等入选《时代》杂志 2026 全球十大最具影响力 AI 公司",
-      "summary": "IT 之家 4 月 28 日消息，当地时间 4 月 27 日，《时代》杂志公布了 2026 全球十大最具影响力 AI 公司：字节跳动、亚马逊、智谱、OpenAI、谷歌 Alphabet、Meta、Anthropic、阿里巴巴集团、Mist…；字节跳动、智谱、阿里巴巴等入选《时代》杂志 2026 全球十大最具影响力 AI 公司",
+      "title": "Google 与 Kaggle 推出 AI Agent 编程课程",
+      "summary": "Google AI 博客宣布与 Kaggle 合作，推出新的“AI Agents Vibe Coding Course”，专注于 AI Agent 开发。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/944/371.htm"
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026"
+        }
+      ]
+    },
+    {
+      "title": "研究提出 Mochi 图基础模型",
+      "summary": "一项新研究（arXiv:2604.22031v1）提出了 Mochi，一种通过元学习对齐预训练和推理的图基础模型。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.22031"
+        }
+      ]
+    },
+    {
+      "title": "研究提出混合 JIT-CUDA 图优化实现低延迟 LLM 推理",
+      "summary": "一项新研究（arXiv:2604.23467v1）提出了混合 JIT-CUDA 图优化方法，用于实现低延迟的大语言模型推理。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.23467"
+        }
+      ]
+    },
+    {
+      "title": "白宫 AI 官员上任四天后被解职",
+      "summary": "据报道，白宫在一位新 AI 官员上任仅四天后就将其解职，该事件与 Anthropic 有关联。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://washingtonpost.com/technology/2026/04/24/white-house-fires-ai-official-anthropic"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 编码 Agent 工作流引发开发者社区两极分化",
+      "summary": "社区讨论显示，开发者对 AI 编码 Agent 的态度出现分化：一部分人积极拥抱 Agent 自动开发工作流，认为对话式编码已落后；另一部分人则对现有工具（如 Cursor、Claude Code）的定价和 Token 成本感到焦虑，并呼吁打造开源社区驱动的 Coding Agent。",
+      "references": [
+        {
+          "source_name": "V2EX 最热",
+          "link": "https://v2ex.com/t/1209036"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1208904"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2074939"
+        }
+      ]
+    },
+    {
+      "title": "LLM 安全研究持续聚焦越狱攻击与防御",
+      "summary": "多篇新研究（如 PermaFrost-Attack、Logic Jailbreak、Toward Principled LLM Safety Testing）从不同角度探讨 LLM 安全，包括在训练阶段植入逻辑地雷、利用形式逻辑表达式绕过安全限制，以及提出更严谨的安全测试方法论，表明该领域仍是研究热点。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.22117"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2505.13527"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2506.17299"
+        }
+      ]
+    },
+    {
+      "title": "边缘端和移动端部署 LLM 成为技术趋势",
+      "summary": "多项研究和技术文章（如 Unlocking the Edge deployment、The Future of Android is Local、Parameter Efficiency Is Not Memory Efficiency）共同指向一个趋势：将 LLM 高效部署到智能手机等边缘设备上，并解决内存和计算效率问题，这正在成为重要的技术方向。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.18655"
+        },
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/programmingcentral/the-future-of-android-is-local-how-to-run-custom-llms-llama-gemma-on-device-with-mediapipe-and-3f3"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.22783"
+        }
+      ]
+    },
+    {
+      "title": "多模态大模型能力评估与安全研究并行发展",
+      "summary": "社区同时关注多模态大模型（MLLM）的能力边界和潜在风险，一方面有研究（如 ShredBench、EmoTrans）评估其在文档重建、情感理解等任务上的语义推理能力，另一方面也有研究（如 FAIR_XAI）关注其公平性和可解释性，显示出该领域正从能力提升向全面评估演进。",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2604.23813"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2604.23348"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.23786"
+        }
+      ]
+    },
+    {
+      "title": "AI 工具生态趋于整合，开发者追求统一接口",
+      "summary": "社区中出现了多个旨在统一 AI 工具接口的项目，例如将不同 LLM 提供商转为 OpenAI 兼容格式的 AI 网关（Lightport），以及同步不同 AI 编码工具规则的方案（AgentsMesh），反映出开发者对碎片化工具生态的厌倦和对标准化接口的需求。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/glama-ai/lightport"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/sampleXbro/agentsmesh"
+        }
+      ]
+    }
+  ]
 }
