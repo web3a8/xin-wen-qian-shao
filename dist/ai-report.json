@@ -1,41 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导全球科技动态，OpenAI获得FedRAMP Moderate授权以服务美国政府客户，同时欧盟要求Google在Android上开放AI竞争。中美AI竞争加剧，中国阻止了Meta对Manus的收购。学术界则密集发布了关于LLM推理效率、安全性和多模态评估的新研究。",
+  "global_brief": "OpenAI 获得 FedRAMP Moderate 授权，标志着其企业级合规能力的重要进展；同时，DeepSeek 以低于 GPT-5.5 97% 的价格推出新模型，引发市场对 AI 定价策略的讨论。此外，欧盟要求 Google 在 Android 上开放 AI 服务，而 Google 则与韩国达成前沿科学合作，显示出 AI 领域的监管与地缘合作并行发展。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 25256,
-      "event_count": 437
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1628,
-      "event_count": 35
+      "field_score": 25469,
+      "event_count": 441
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1146,
+      "field_score": 1436,
+      "event_count": 36
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 1313,
       "event_count": 29
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 763,
-      "event_count": 16
+      "field_score": 487,
+      "event_count": 10
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 370,
-      "event_count": 8
+      "field_score": 406,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI获得FedRAMP Moderate授权",
-      "summary": "OpenAI宣布其ChatGPT Enterprise和API已获得FedRAMP Moderate授权，可服务于美国政府客户。同时，OpenAI与微软修订了合作协议以简化合作关系。",
+      "title": "OpenAI available at FedRAMP Moderate",
+      "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and support…；OpenAI available at FedRAMP Moderate；OpenAI is available a…",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -56,28 +56,28 @@
       ]
     },
     {
-      "title": "欧盟要求Google在Android上开放AI竞争",
-      "summary": "欧盟要求Google在Android平台上开放AI服务，允许用户选择除Gemini之外的AI助手。Google回应称这是“无理的干预”。",
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "summary": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
       "references": [
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants"
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026"
         }
       ]
     },
     {
-      "title": "中国阻止Meta收购Manus",
-      "summary": "由于中美AI竞争加剧，中国阻止了Meta对AI初创公司Manus的收购。报道指出，这显示了科技创始人在处理与中国关系时面临的困境。",
+      "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
+      "summary": "arXiv:2604.21952v1 Announce Type: cross Abstract: This work presents a multi-layered methodology for efficiently accele…；Focus Session: Hardware and Software Techniques for Accele…",
       "references": [
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/china-kills-metas-acquisition-of-manus-as-us-china-ai-rivalry-deepens"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.21952"
         }
       ]
     },
     {
-      "title": "Google DeepMind与韩国达成AI合作",
-      "summary": "Google DeepMind宣布与大韩民国建立合作伙伴关系，旨在利用前沿AI加速科学突破。",
+      "title": "Announcing our partnership with the Republic of Korea",
+      "summary": "Announcing our partnership with the Republic of Korea；Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models；Google employees ask Sundar…",
       "references": [
         {
           "source_name": "Google DeepMind",
@@ -88,110 +88,7 @@
           "link": "https://theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter"
         }
       ]
-    },
-    {
-      "title": "新研究提出加速多模态基础模型的硬件与软件技术",
-      "summary": "一篇新论文提出了用于高效加速多模态基础模型的多层次方法论，重点关注硬件与软件技术。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.21952"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出用于图基础模型的预训练与推理对齐方法",
-      "summary": "一篇新论文提出了Mochi，一种通过元学习对齐预训练与推理的图基础模型，旨在解决任务统一问题。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.22031"
-        }
-      ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI监管与地缘政治博弈加剧",
-      "summary": "欧盟对Google Android AI的监管要求，以及中国阻止Meta收购Manus的事件，共同表明AI领域的监管和地缘政治因素正成为影响科技巨头战略布局的关键变量。企业需要在商业扩张与合规、地缘风险之间寻求平衡。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/china-kills-metas-acquisition-of-manus-as-us-china-ai-rivalry-deepens"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent正从概念走向复杂系统集成",
-      "summary": "多项研究（如Sovereign Agentic Loops、AdaptEvolve）和开发者实践（如WBS + AI）表明，AI Agent正从简单的任务自动化向更复杂的、解耦推理与执行、并具备自适应模型选择能力的系统演进。这预示着下一代AI应用将更加注重系统架构的鲁棒性和效率。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/kanta13jp1/wbs-ai-how-i-automated-task-management-across-12-parallel-ai-instances-401i"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2602.11931"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2604.22136"
-        }
-      ]
-    },
-    {
-      "title": "LLM安全与对齐研究进入精细化阶段",
-      "summary": "近期多篇论文（如Logic Jailbreak、PermaFrost-Attack、Toward Principled LLM Safety Testing）表明，学术界对LLM安全性的研究已从简单的红队测试转向更精细化的攻击与防御机制分析，包括利用形式逻辑进行越狱、在预训练阶段植入后门以及解决安全测试中的“预言机问题”。这反映了对LLM安全挑战复杂性的深入认识。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2505.13527"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.22117"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2506.17299"
-        }
-      ]
-    },
-    {
-      "title": "边缘部署与推理效率成为LLM落地的核心瓶颈",
-      "summary": "多篇研究（如Unlocking the Edge deployment、NeuronMLP、Motivating Next-Gen Accelerators）聚焦于LLM在边缘设备上的部署和推理加速，涵盖多LoRA模型、SVD压缩和激活稀疏性等技术。这表明，在追求模型能力的同时，如何高效、低成本地运行模型已成为产业落地的关键挑战。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.18655"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2510.25977"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2509.22166"
-        }
-      ]
-    },
-    {
-      "title": "多模态LLM评估正从通用基准走向领域专用化",
-      "summary": "新发布的评估框架如V-MAGE（游戏视觉能力）和MTT-Bench（小鼠社会行为预测）表明，多模态大语言模型的评估正从传统的通用问答基准，向更具领域针对性的任务拓展，例如游戏交互和生物行为分析。这有助于更精确地衡量模型在特定场景下的实际能力。",
-      "references": [
-        {
-          "source_name": "arXiv 计算机视觉",
-          "link": "https://arxiv.org/abs/2504.06148"
-        },
-        {
-          "source_name": "arXiv 计算机视觉",
-          "link": "https://arxiv.org/abs/2604.22492"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
