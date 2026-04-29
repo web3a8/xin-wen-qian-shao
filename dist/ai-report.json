@@ -1,78 +1,87 @@
 {
-  "global_brief": "今日AI领域持续高强度产出，安全与对齐研究成为焦点，同时开源多模态模型与前沿图像生成风险引发广泛讨论。OpenAI在网络安全与法律诉讼中面临双重压力，而Google Translate迎来20周年更新。",
+  "global_brief": "AI安全与治理成为今日焦点：OpenAI面临Tumbler Ridge校园枪击案相关诉讼，同时发布网络安全行动计划；Anthropic的Claude AI agent因误操作删除公司数据库引发对Agent可靠性的广泛讨论；开源社区则涌现出多款基于泄露代码的AI编程助手及安全审计工具。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54751,
-      "event_count": 899
+      "field_score": 52983,
+      "event_count": 888
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1850,
-      "event_count": 40
+      "field_score": 2136,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1677,
-      "event_count": 41
+      "field_score": 1613,
+      "event_count": 40
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 1098,
-      "event_count": 23
+      "field_score": 926,
+      "event_count": 19
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 652,
-      "event_count": 14
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 682,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Patching LLM Like Software: A Lightweight Method for Improving Safety Policy in Large Language Models",
-      "summary": "arXiv:2511.08484v2 Announce Type: replace Abstract: We propose patching for large language models (LLMs) like software…；Patching LLM Like Software: A Lightweight Method for Improv…",
+      "title": "OpenAI 因未报告 ChatGPT 用户遭起诉",
+      "summary": "Tumbler Ridge校园枪击案受害者家属起诉OpenAI，指控其未向警方报告相关ChatGPT用户，以保护CEO Sam Altman和公司IPO。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2511.08484"
-        }
-      ]
-    },
-    {
-      "title": "开源版的 GPT Image 2，信息图、连续图文、本地部署全拿下｜商汤SenseNova U1实测",
-      "summary": "开源版的 GPT Image 2，信息图、连续图文、本地部署全拿下｜商汤SenseNova U1实测；最近 GPT Image 2 火了之后，网上都是那些彻底以假乱真的 AI 生成图片。大模型在视觉这条路上越走越远，让人兴奋又让人敬畏。 而 GPT Image 2 在眼下的 AI 生图领域，几乎是没什么好争的。但如果说云端闭源收费的最好模…",
-      "references": [
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit"
+        },
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1664423"
-        }
-      ]
-    },
-    {
-      "title": "Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk",
-      "summary": "arXiv:2604.24197v1 Announce Type: cross Abstract: Frontier image generation has moved from artistic synthesis toward sy…；Seeing Is No Longer Believing: Frontier Image Generation M…",
-      "references": [
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/04/school-shooting-lawsuits-accuse-openai-of-hiding-violent-chatgpt-users"
+        },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.24197"
-        }
-      ]
-    },
-    {
-      "title": "MetaGAI: A Large-Scale and High-Quality Benchmark for Generative AI Model and Data Card Generation",
-      "summary": "arXiv:2604.23539v1 Announce Type: new Abstract: The rapid proliferation of Generative AI necessitates rigorous document…；MetaGAI: A Large-Scale and High-Quality Benchmark for Gene…",
-      "references": [
+          "source_name": "daringfireball.net",
+          "link": "https://theatlantic.com/technology/2026/04/openai-trial-elon-musk-sam-altman/686984?gift=iWa_iB9lkw4UuiWbIbrWGYJmg9p-llxzEAgykQekDFA"
+        },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.23539"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI Agent 可靠性危机加剧",
+      "summary": "从Claude agent误删数据库到社区对零信任模型的讨论，业界对AI Agent的自主性和安全性信心受挫，这或将推动更严格的Agent行为规范和审计机制的出现。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://the-independent.com/tech/claude-ai-agent-deletes-startup-anthropic-b2966176.html"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://patrickmccanna.net/two-claude-code-sessions-one-repo-and-a-protocol-they-helped-write"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1209400"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2084640"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://worklifenotes.com/2026/04/29/when-the-paradigm-shifts-a-zero-trust-model-for-ai-agents"
+        }
+      ]
+    }
+  ]
 }
