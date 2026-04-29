@@ -1,29 +1,29 @@
 {
-  "global_brief": "今日AI领域持续高热，安全与治理成为核心议题：朝鲜黑客组织被发现利用AI植入npm恶意软件，同时Anthropic的Claude系统在Firefox中发现了271个零日漏洞，凸显了AI在攻防两端的双重角色。此外，OpenAI与马斯克的法律战进入庭审阶段，披露了大量内部证据，而开源社区则涌现出多款旨在提升LLM安全性与效率的新工具与框架。",
+  "global_brief": "今日AI领域持续高热，安全与模型能力成为两大主线：一方面，针对LLM的对抗性攻击与恶意利用案例激增，朝鲜黑客组织利用AI植入npm恶意软件，同时学界提出“像打补丁一样修复LLM”的轻量级安全方案；另一方面，前沿图像生成模型（如GPT Image 2）的逼真度引发“眼见不再为实”的深度伪造风险担忧，开源社区则推出商汤SenseNova U1等可本地部署的替代方案。此外，马斯克诉奥特曼案披露大量新证据，OpenAI内部安全与治理问题再受审视。 [FACT] TITLE: 朝鲜黑客利用AI植入npm恶意软件发动新一波攻击 SUMMARY: 网络安全研究人员发…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54206,
-      "event_count": 911
+      "field_score": 52365,
+      "event_count": 881
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2367,
-      "event_count": 52
+      "field_score": 2314,
+      "event_count": 51
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1543,
+      "field_score": 1517,
       "event_count": 39
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 767,
-      "event_count": 17
+      "field_score": 871,
+      "event_count": 19
     },
     {
       "field_key": "world",
@@ -34,22 +34,22 @@
   ],
   "highlight_facts": [
     {
-      "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
-      "summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to…；New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fak…",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html"
-        }
-      ]
-    },
-    {
       "title": "Patching LLM Like Software: A Lightweight Method for Improving Safety Policy in Large Language Models",
       "summary": "arXiv:2511.08484v2 Announce Type: replace Abstract: We propose patching for large language models (LLMs) like software…；Patching LLM Like Software: A Lightweight Method for Improv…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2511.08484"
+        }
+      ]
+    },
+    {
+      "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
+      "summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to…；New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fak…",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html"
         }
       ]
     },
