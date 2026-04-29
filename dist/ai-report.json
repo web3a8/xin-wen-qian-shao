@@ -1,35 +1,35 @@
 {
-  "global_brief": "过去24小时，AI安全与模型能力边界成为最受关注的两条主线：Anthropic的Claude Mythos模型被指可自主发现并武器化软件漏洞，引发网络安全界对“潘多拉魔盒”的担忧；同时，多项研究揭示了LLM在安全对齐、数据投毒和对抗性攻击方面的脆弱性。此外，GitHub因推理成本飙升宣布调整Copilot计费模式，而OpenAI与马斯克的法律战也进入关键庭审阶段。",
+  "global_brief": "过去24小时，AI安全与Agent架构成为最受关注的两大主线：Anthropic的Claude Mythos被证实可自主发现并武器化软件漏洞，引发对AI安全边界的广泛讨论；同时，社区围绕Agent Team、LLM系统架构等话题展开热烈讨论，多篇研究聚焦于提升LLM推理效率与安全性。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 59128,
-      "event_count": 1000
+      "field_score": 56488,
+      "event_count": 907
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2210,
-      "event_count": 49
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 1180,
-      "event_count": 24
+      "field_score": 2054,
+      "event_count": 45
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1174,
-      "event_count": 29
+      "field_score": 1462,
+      "event_count": 36
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 1183,
+      "event_count": 25
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 740,
-      "event_count": 16
+      "field_score": 635,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
@@ -44,36 +44,32 @@
       ]
     },
     {
-      "title": "Envenenando LLMs por $12: el campeonato falso que engañó a GPT y Claude",
-      "summary": "El envenenamiento de LLMs dejó de ser un escenario hipotético reservado a papers académicos. En 2026 basta con un domin…；Envenenando LLMs por $12: el campeonato falso que engañó a…",
+      "title": "Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk",
+      "summary": "arXiv:2604.24197v1 Announce Type: cross Abstract: Frontier image generation has moved from artistic synthesis toward sy…；Seeing Is No Longer Believing: Frontier Image Generation M…",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/lu1tr0n/envenenando-llms-por-12-el-campeonato-falso-que-engano-a-gpt-y-claude-2032"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.24197"
         }
       ]
     },
     {
-      "title": "Field Notes from a Solo Builder — Shipping the Beloved Claude Code Buddy Into the Wild - Part III",
-      "summary": "Field Notes from a Solo Builder — Shipping the Beloved Claude Code Buddy Into the Wild - Part III；Friday's launch felt good. We posted on LinkedIn, Reddit, the GitHub community th…",
+      "title": "MetaGAI: A Large-Scale and High-Quality Benchmark for Generative AI Model and Data Card Generation",
+      "summary": "arXiv:2604.23539v1 Announce Type: new Abstract: The rapid proliferation of Generative AI necessitates rigorous document…；MetaGAI: A Large-Scale and High-Quality Benchmark for Gene…",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/fiorastudio/open-source-community-and-the-art-of-listening-454k"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.23539"
         }
       ]
     },
     {
-      "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
-      "summary": "Two weeks ago, Anthropic announced that its new model, Claude Mythos Preview, can autonomously find and weaponize softw…；What Anthropic’s Mythos Means for the Future of Cybersecur…",
+      "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+      "summary": "arXiv:2604.25135v1 Announce Type: new Abstract: Large Language Models are being increasingly deployed as the decision-m…；FAMA: Failure-Aware Meta-Agentic Framework for Open-Source…",
       "references": [
         {
-          "source_name": "Schneier on Security",
-          "link": "https://schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html"
-        },
-        {
-          "source_name": "steveblank.com",
-          "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2604.25135"
         }
       ]
     }
