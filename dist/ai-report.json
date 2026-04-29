@@ -1,41 +1,83 @@
 {
-  "global_brief": "过去24小时，AI安全与模型能力成为最受关注的两大主线。Anthropic的Claude Mythos模型在自主发现并武器化软件漏洞方面取得惊人进展，已发现Firefox 271个零日漏洞，引发对AI安全边界的广泛讨论。同时，多篇研究聚焦于LLM的安全对齐、对抗性攻击防御以及端侧部署效率，显示出行业正从追求模型性能转向更务实的工程化与安全治理。 [FACT] TITLE: Anthropic Claude Mythos 自主发现并武器化软件漏洞 SUMMARY: 据Schneier on Security和steveblank.com报道，Anthro…",
+  "global_brief": "今日AI领域持续活跃，安全与合规成为焦点：OpenAI因未报告ChatGPT用户暴力内容而面临多起诉讼，同时发布了网络安全行动计划；Anthropic的Claude在Firefox漏洞挖掘中取得惊人成果，发现271个零日漏洞。此外，AI Agent工具链迎来密集创新，多个开源项目聚焦于Agent间通信、共享内存与安全防护，社区对Agent安全性的关注度显著提升。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 56843,
-      "event_count": 932
+      "field_score": 55963,
+      "event_count": 915
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2041,
-      "event_count": 46
+      "field_score": 2131,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1465,
+      "field_score": 1463,
       "event_count": 37
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 1132,
-      "event_count": 22
+      "field_score": 1228,
+      "event_count": 25
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 660,
-      "event_count": 13
+      "field_score": 693,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "Patching LLM Like Software: A Lightweight Method for Improving Safety Policy in Large Language Models",
-      "summary": "arXiv:2511.08484v2 Announce Type: replace Abstract: We propose patching for large language models (LLMs) like software…；Patching LLM Like Software: A Lightweight Method for Improv…",
+      "title": "OpenAI 因未报告 ChatGPT 用户暴力内容面临多起诉讼",
+      "summary": "多起校园枪击案相关诉讼指控 OpenAI 隐瞒 ChatGPT 用户的暴力倾向，以保护 CEO Sam Altman 和公司 IPO 计划。马斯克也在另一起审判中重提与 Altman 的旧日恩怨。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/04/school-shooting-lawsuits-accuse-openai-of-hiding-violent-chatgpt-users"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship"
+        },
+        {
+          "source_name": "wheresyoured.at",
+          "link": "https://wheresyoured.at/openai-projects-chatgpt-plus-subscriptions-to-drop-by-80-from-44-million-in-2025-to-9-million-in-2026-made-up-using-cheaper-subscriptions-somehow"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/model-behavior-elon-musk-testifies-at-musk-v-altman-trial"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic Claude 在 Firefox 中发现 271 个零日漏洞",
+      "summary": "安全专家 Bruce Schneier 报道，自二月以来，Anthropic 的 Claude 模型在 Firefox 浏览器中发现了 271 个零日漏洞，数量惊人。",
+      "references": [
+        {
+          "source_name": "Schneier on Security",
+          "link": "https://schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 发布“智能时代”网络安全行动计划",
+      "summary": "OpenAI 在其官方博客中概述了一项包含五个部分的行动计划，旨在加强智能时代的网络安全。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age"
+        }
+      ]
+    },
+    {
+      "title": "研究提出像修补软件一样修补 LLM 安全策略的轻量级方法",
+      "summary": "一项新研究（arXiv:2511.08484v2）提出了“patching”方法，旨在像修补软件一样，轻量级地改进大型语言模型的安全策略。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -44,8 +86,8 @@
       ]
     },
     {
-      "title": "Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk",
-      "summary": "arXiv:2604.24197v1 Announce Type: cross Abstract: Frontier image generation has moved from artistic synthesis toward sy…；Seeing Is No Longer Believing: Frontier Image Generation M…",
+      "title": "前沿图像生成模型引发合成视觉证据与真实世界风险担忧",
+      "summary": "一项新研究（arXiv:2604.24197v1）指出，前沿图像生成模型已从艺术合成转向合成视觉证据的生成，带来了真实世界的风险。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,25 +96,100 @@
       ]
     },
     {
-      "title": "MetaGAI: A Large-Scale and High-Quality Benchmark for Generative AI Model and Data Card Generation",
-      "summary": "arXiv:2604.23539v1 Announce Type: new Abstract: The rapid proliferation of Generative AI necessitates rigorous document…；MetaGAI: A Large-Scale and High-Quality Benchmark for Gene…",
+      "title": "Google 翻译庆祝 20 周年，新增发音练习功能",
+      "summary": "Google 翻译迎来 20 周年，推出了发音练习等新功能，该功能首先在美国和印度上线，支持英语、西班牙语等语言。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.23539"
-        }
-      ]
-    },
-    {
-      "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
-      "summary": "arXiv:2604.25135v1 Announce Type: new Abstract: Large Language Models are being increasingly deployed as the decision-m…；FAMA: Failure-Aware Meta-Agentic Framework for Open-Source…",
-      "references": [
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years"
+        },
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2604.25135"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/29/google-translate-now-lets-you-practice-pronunciation"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI Agent 安全防护严重不足，76% 的工具调用缺乏防护",
+      "summary": "一项对 16 个 AI Agent 仓库的扫描发现，76% 的工具调用没有任何安全防护措施，这揭示了当前 Agent 生态中普遍存在的安全漏洞风险。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/Diplomat-ai/diplomat-agent"
+        }
+      ]
+    },
+    {
+      "title": "LLM 系统本质是架构而非提示词工程",
+      "summary": "社区讨论认为，Claude 代码泄露事件证实了 LLM 系统的核心在于架构设计，而非单纯的提示词编写，这标志着 AI 工程化思维的转变。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/gfernandf/agent-skills"
+        }
+      ]
+    },
+    {
+      "title": "AI 编程工具配置碎片化问题日益严重",
+      "summary": "随着 Cursor、Claude Code 等工具的涌现，AI 编程的配置文件碎片化问题成为社区热议焦点，缺乏统一标准增加了开发者的使用成本。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/sampleXbro/agentsmesh"
+        }
+      ]
+    },
+    {
+      "title": "开源社区正积极构建 Agent 间通信与协作标准",
+      "summary": "多个开源项目如 ANP（Agent间价格协商协议）、Monet（共享内存）和 GraphOS（可视化调试器）的涌现，表明社区正试图为 AI Agent 团队建立基础通信与协作框架。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/victornominista/anp"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/team-monet/monet"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/ahmedbutt2015/graphos"
+        }
+      ]
+    },
+    {
+      "title": "本地部署与远程 Agent 编程体验成为开发者关注焦点",
+      "summary": "社区讨论显示，开发者对本地部署开源模型并适配 Coding Agent 的需求强烈，同时也在探索远程“vibe coding”的最佳实践，反映出对开发效率和自主可控的双重追求。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1209412"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=47944637"
+        },
+        {
+          "source_name": "V2EX 最热",
+          "link": "https://v2ex.com/t/1209195"
+        },
+        {
+          "source_name": "Hacker News",
+          "link": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents"
+        }
+      ]
+    },
+    {
+      "title": "联邦研究资金流向正深刻影响 LLM 发展方向",
+      "summary": "一项研究（arXiv:2601.15485v2）分析了美国联邦研究资金对大型语言模型研究方向和多样性的影响，表明资金分配是塑造 AI 技术格局的关键力量。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.15485"
+        }
+      ]
+    }
+  ]
 }
