@@ -1,55 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导技术动态，多模型编排、模型部署与推理效率成为核心议题。OpenAI 模型正式登陆 AWS 平台，同时 Anthropic 的 Claude Mythos 模型在网络安全领域引发关于自主漏洞利用能力的深刻讨论。此外，GitHub 因推理成本飙升宣布调整 Copilot 计费模式，反映出 AI 服务商业化面临的现实压力。",
+  "global_brief": "过去24小时，AI领域持续主导技术新闻，安全与推理效率成为两大核心议题。Anthropic的Claude Mythos模型因自主发现并利用软件漏洞的能力引发安全界广泛讨论，同时多项研究聚焦于降低大模型推理成本与边缘部署。此外，GitHub因推理成本飙升宣布调整Copilot计费模式，Elon Musk与Sam Altman关于OpenAI未来的法庭对决也备受关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 47473,
+      "field_score": 47353,
       "event_count": 832
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1943,
+      "field_score": 1933,
       "event_count": 44
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 1239,
-      "event_count": 27
+      "field_score": 1178,
+      "event_count": 26
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1082,
-      "event_count": 28
+      "field_score": 1051,
+      "event_count": 27
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 833,
-      "event_count": 18
+      "field_score": 796,
+      "event_count": 17
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 模型与托管代理登陆 AWS 平台",
-      "summary": "OpenAI 宣布其 GPT 模型、Codex 以及 Managed Agents 现已可在 AWS 上使用，使企业能够在自身云环境中构建安全的 AI 应用。此举发生在 OpenAI 与微软达成协议结束独家合作关系的次日。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/openai-on-aws"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic 发布 Claude Mythos，可自主发现并利用软件漏洞",
-      "summary": "Anthropic 发布其新模型 Claude Mythos Preview，该模型能够自主发现并武器化软件漏洞。这一进展引发了关于网络安全未来的广泛讨论，有评论认为这如同打开了潘多拉魔盒。",
+      "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
+      "summary": "Two weeks ago, Anthropic announced that its new model, Claude Mythos Preview, can autonomously find and weaponize softw…；What Anthropic’s Mythos Means for the Future of Cybersecur…",
       "references": [
         {
           "source_name": "Schneier on Security",
@@ -62,64 +48,35 @@
       ]
     },
     {
-      "title": "GitHub 将根据实际 AI 使用量向 Copilot 用户收费",
-      "summary": "GitHub 宣布将改变 Copilot 的计费模式，从固定订阅转向基于实际 AI 推理使用量收费。GitHub 表示，已无法再吸收来自重度 AI 用户不断攀升的推理成本。",
+      "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+      "summary": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
       "references": [
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/github-will-start-charging-copilot-users-based-on-their-actual-ai-usage"
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years"
         }
       ]
     },
     {
-      "title": "多模型 LLM 编排实践：OpenRouter 实现请求路由",
-      "summary": "一篇来自 Dev.to 的技术文章介绍了多模型 LLM 编排的实践，即根据任务需求将 AI 请求路由到不同的模型，例如通过 OpenRouter 服务实现。",
+      "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
+      "summary": "arXiv:2604.21952v1 Announce Type: cross Abstract: This work presents a multi-layered methodology for efficiently accele…；Focus Session: Hardware and Software Techniques for Accele…",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/sym/multi-model-llm-orchestration-with-openrouter-g4l"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.21952"
         }
       ]
     },
     {
-      "title": "新研究 LongFlow 提出针对推理模型的高效 KV 缓存压缩方法",
-      "summary": "一项新研究提出了 LongFlow，一种针对 OpenAI-o1 和 DeepSeek-R1 等推理模型的高效 KV 缓存压缩技术，旨在解决其长上下文推理中的内存瓶颈。",
+      "title": "LongFlow: Efficient KV Cache Compression for Reasoning Models",
+      "summary": "arXiv:2603.11504v2 Announce Type: replace Abstract: Recent reasoning models such as OpenAI-o1 and DeepSeek-R1 have show…；LongFlow: Efficient KV Cache Compression for Reasoning Mod…",
       "references": [
         {
           "source_name": "arXiv 机器学习",
           "link": "https://arxiv.org/abs/2603.11504"
-        }
-      ]
-    },
-    {
-      "title": "NVIDIA 发布 Nemotron 3 Nano Omni 多模态智能体模型",
-      "summary": "Hugging Face 博客介绍了 NVIDIA 新发布的 Nemotron 3 Nano Omni 模型，该模型专为处理文档、音频和视频的长上下文多模态智能体任务而设计。",
-      "references": [
-        {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "边缘部署与推理优化成为 LLM 落地的关键瓶颈",
-      "summary": "多项新研究（如 LongFlow、NeuronMLP、边缘部署方案）集中关注 LLM 的推理效率、内存压缩和边缘端部署，这表明学术界和工业界已形成共识：在模型能力达到一定水平后，如何低成本、低延迟地运行模型，是决定其能否大规模落地的核心挑战。",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2603.11504"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2510.25977"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.18655"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
