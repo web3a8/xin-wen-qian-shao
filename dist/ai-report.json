@@ -1,41 +1,55 @@
 {
-  "global_brief": "过去24小时，AI安全与Agent架构成为最受关注的两大主线：Anthropic的Claude Mythos被证实可自主发现并武器化软件漏洞，引发对AI安全边界的广泛讨论；同时，社区围绕Agent Team、LLM系统架构等话题展开热烈讨论，多篇研究聚焦于提升LLM推理效率与安全性。",
+  "global_brief": "今日AI安全与Agent架构成为最受关注的两大主线：Anthropic Claude Mythos模型被曝可自主发现并武器化软件漏洞，引发对AI安全边界的广泛讨论；同时，社区围绕LLM系统架构设计、Agent工具编排及推理效率优化涌现大量新研究与实践。多篇论文聚焦于模型剪枝、KV缓存优化与端侧部署，推动大模型向更高效、更安全的方向演进。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 56488,
-      "event_count": 907
+      "field_score": 57339,
+      "event_count": 917
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2054,
-      "event_count": 45
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1462,
-      "event_count": 36
+      "field_score": 2227,
+      "event_count": 49
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 1183,
-      "event_count": 25
+      "field_score": 1344,
+      "event_count": 28
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 635,
-      "event_count": 13
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1177,
+      "event_count": 29
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 704,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
     {
-      "title": "Patching LLM Like Software: A Lightweight Method for Improving Safety Policy in Large Language Models",
-      "summary": "arXiv:2511.08484v2 Announce Type: replace Abstract: We propose patching for large language models (LLMs) like software…；Patching LLM Like Software: A Lightweight Method for Improv…",
+      "title": "Anthropic Claude Mythos模型可自主发现并武器化软件漏洞",
+      "summary": "据Schneier on Security与steveblank.com报道，Anthropic新模型Claude Mythos Preview能够自主发现并武器化软件漏洞，引发对AI安全边界的广泛担忧。",
+      "references": [
+        {
+          "source_name": "Schneier on Security",
+          "link": "https://schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html"
+        },
+        {
+          "source_name": "steveblank.com",
+          "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box"
+        }
+      ]
+    },
+    {
+      "title": "研究提出像打软件补丁一样修复LLM安全策略的轻量方法",
+      "summary": "arXiv AI 发布论文，提出一种类似软件补丁的轻量级方法，用于改进大型语言模型的安全策略，为LLM安全维护提供新思路。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -44,8 +58,8 @@
       ]
     },
     {
-      "title": "Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk",
-      "summary": "arXiv:2604.24197v1 Announce Type: cross Abstract: Frontier image generation has moved from artistic synthesis toward sy…；Seeing Is No Longer Believing: Frontier Image Generation M…",
+      "title": "前沿图像生成模型被指可制造逼真合成视觉证据，带来现实风险",
+      "summary": "arXiv AI 发布研究指出，前沿图像生成模型已从艺术合成转向制造逼真的合成视觉证据，对OpenAI、Qwen等模型构成真实世界风险。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,8 +68,8 @@
       ]
     },
     {
-      "title": "MetaGAI: A Large-Scale and High-Quality Benchmark for Generative AI Model and Data Card Generation",
-      "summary": "arXiv:2604.23539v1 Announce Type: new Abstract: The rapid proliferation of Generative AI necessitates rigorous document…；MetaGAI: A Large-Scale and High-Quality Benchmark for Gene…",
+      "title": "Meta发布MetaGAI基准，用于评估生成式AI模型与数据卡生成",
+      "summary": "arXiv AI 发布MetaGAI，一个大规模高质量基准测试，旨在评估生成式AI模型及数据卡生成的质量，由Meta主导。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,15 +78,126 @@
       ]
     },
     {
-      "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
-      "summary": "arXiv:2604.25135v1 Announce Type: new Abstract: Large Language Models are being increasingly deployed as the decision-m…；FAMA: Failure-Aware Meta-Agentic Framework for Open-Source…",
+      "title": "FAMA框架：面向开源LLM的故障感知元智能体系统",
+      "summary": "arXiv NLP 发布FAMA框架，为开源LLM在交互式工具使用环境中提供故障感知的元智能体能力，由Meta参与研究。",
       "references": [
         {
           "source_name": "arXiv NLP",
           "link": "https://arxiv.org/abs/2604.25135"
         }
       ]
+    },
+    {
+      "title": "社区发现OpenAI GPT-5.4系统提示存在“禁止谈论地精”等奇怪规则",
+      "summary": "据Hacker News、V2EX等多个社区讨论，用户发现OpenAI Codex系统提示中明确禁止谈论地精、浣熊等话题，疑似为GPT-5.4的bug所致。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=47944637"
+        },
+        {
+          "source_name": "Hacker News",
+          "link": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents"
+        },
+        {
+          "source_name": "V2EX 最热",
+          "link": "https://v2ex.com/t/1209209"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1209112"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "LLM系统设计正从“提示工程”转向“架构工程”",
+      "summary": "社区讨论 指出，Claude系统提示泄露事件证实，LLM应用的成功越来越依赖系统架构设计而非单纯提示词优化，Agent架构、工具编排与记忆机制成为核心竞争力。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/gfernandf/agent-skills"
+        }
+      ]
+    },
+    {
+      "title": "AI安全研究正从理论走向实战，漏洞赏金与对抗测试成新趋势",
+      "summary": "多个事件显示，社区开始通过设立漏洞赏金（如2500美元AI对齐赏金）和发布可攻击的语音Agent（VoiceGoat）等方式，推动AI安全从学术研究走向实战演练，安全评估方式正在发生根本性变化。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/Hodlatoor/SyntheticOutlaw"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/redcaller/voice-goat"
+        }
+      ]
+    },
+    {
+      "title": "端侧LLM部署面临“参数效率≠内存效率”的认知误区",
+      "summary": "多项研究 指出，当前PEFT方法虽在参数上高效，但在端侧部署时内存瓶颈依然突出，需要重新思考微调策略，这将对边缘AI产业产生深远影响。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.22783"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2603.15954"
+        }
+      ]
+    },
+    {
+      "title": "多智能体共识机制成为减少LLM幻觉与偏见的新方向",
+      "summary": "研究 提出Council Mode等多智能体共识框架，通过异构Agent间的协作与投票来降低LLM的幻觉与偏见，标志着AI系统正从单模型智能向群体智能演进。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.02923"
+        }
+      ]
+    },
+    {
+      "title": "金融资本加速涌入AI Agent赛道，产业落地预期升温",
+      "summary": "Instacart联合创始人发起专注AI Agent的对冲基金，结合社区对Agent Team 的广泛讨论，表明AI Agent正从技术探索阶段进入资本驱动的产业化阶段。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://privatebankerinternational.com/news/instacart-co-founder-launches-hedge-fund-backing-ai-agents-over-portfolio-managers"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1209315"
+        },
+        {
+          "source_name": "V2EX 最热",
+          "link": "https://v2ex.com/t/1209195"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2080611"
+        }
+      ]
+    },
+    {
+      "title": "多模态LLM在理解小物体与情感过渡方面仍存在显著盲区",
+      "summary": "多项基准研究 表明，当前多模态大模型在理解小物体、识别情感过渡等细粒度任务上表现不佳，视觉漏斗等新方法虽在尝试解决，但“上下文盲区”问题依然严峻。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.22884"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.23348"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2512.10362"
+        }
+      ]
+    }
+  ]
 }
