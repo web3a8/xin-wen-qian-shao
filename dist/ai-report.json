@@ -1,203 +1,69 @@
 {
-  "global_brief": "今日AI领域持续主导全站动态，DeepSeek发布多模态模型技术报告并内测识图模式，OpenAI则披露了GPT-5行为异常的根源与修复过程。同时，Google修复了Gemini CLI中一个CVSS 10的严重安全漏洞，并引发了关于AI默认设置下用户隐私的讨论。",
+  "global_brief": "今日AI领域密集发布多项重要进展：DeepSeek公布多模态模型技术报告，OpenAI披露GPT-5行为异常根源，马斯克与奥特曼就OpenAI未来对簿公堂。同时，多篇学术论文聚焦推理模型、Agent安全与边缘部署，社区则围绕AI编码Agent的安全性与信任边界展开热烈讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30788,
-      "event_count": 524
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1884,
-      "event_count": 47
+      "field_score": 30436,
+      "event_count": 529
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1686,
-      "event_count": 37
+      "field_score": 1942,
+      "event_count": 42
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1832,
+      "event_count": 46
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 489,
-      "event_count": 9
+      "field_score": 929,
+      "event_count": 18
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 437,
+      "field_score": 420,
       "event_count": 9
     }
   ],
   "highlight_facts": [
     {
       "title": "DeepSeek 公布多模态模型技术报告",
-      "summary": "DeepSeek 在 GitHub 发布了其多模态大模型，并公开了基于“视觉原语”的创新推理框架技术报告，旨在突破空间参照任务的核心瓶颈。",
+      "summary": "DeepSeek 在 GitHub 上发布了其多模态大模型及配套技术报告，提出基于“视觉原语”的创新推理框架，旨在突破空间参照任务瓶颈。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/945/740.htm"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI 披露 GPT-5 行为异常根源",
-      "summary": "OpenAI 详细说明了 GPT-5 中“哥布林输出”等个性驱动怪癖的传播时间线、根本原因及修复方案。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/where-the-goblins-came-from"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/921181/openai-codex-goblins"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal"
-        }
-      ]
-    },
-    {
-      "title": "Google 修复 Gemini CLI 严重安全漏洞",
-      "summary": "Google 修复了 Gemini CLI 中一个 CVSS 10 的严重安全漏洞，该漏洞与 Cursor 的缺陷均可能导致远程代码执行。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html"
-        }
-      ]
-    },
-    {
-      "title": "研究提出大模型自适应检索推理方法",
-      "summary": "一项新研究探讨了大型推理模型（如 DeepSeek-R1 和 OpenAI o1）在推理过程中何时进行检索，提出了自适应检索方法。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.26649"
-        }
-      ]
-    },
-    {
-      "title": "Google 探索 AI 协同临床医生新模式",
-      "summary": "Google DeepMind 发布研究，探索通过 AI 协同临床医生实现 AI 增强医疗护理的新模式。",
-      "references": [
-        {
-          "source_name": "Google DeepMind",
-          "link": "https://deepmind.google/blog/ai-co-clinician"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示 Google AI 默认设置下的隐私成本",
-      "summary": "分析指出，Google 声称尊重用户隐私，但其 AI 默认设置和有限的选择权实际上隐藏了隐私成本。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/googles-privacy-maze-how-gemini-traps-you-and-your-data"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "多模态与推理能力成为模型竞争焦点",
-      "summary": "DeepSeek 发布多模态技术报告与 OpenAI 披露 GPT-5 行为异常，共同指向当前 AI 竞争已从单一文本能力转向多模态理解和复杂推理，同时模型行为可控性成为关键挑战。",
+      "title": "AI 编码 Agent 安全性与信任问题引发社区关注",
+      "summary": "社区讨论显示，随着 AI 编码 Agent 的普及，其安全性和信任边界成为焦点。多个项目（如 LLM-safe-haven、Guardians）和讨论（如 Claude Code 信任边界）旨在通过静态验证、沙箱化等手段来加固 Agent，反映出业界对 Agent 失控风险的担忧正在加剧。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/945/740.htm"
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/metareflection/guardians"
         },
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/where-the-goblins-came-from"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/pleasedodisturb/llm-safe-haven"
         },
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins"
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=47963671"
         },
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/921181/openai-codex-goblins"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal"
-        }
-      ]
-    },
-    {
-      "title": "AI 安全与隐私问题从理论走向实践",
-      "summary": "Google 修复 CVSS 10 的 CLI 漏洞以及对其 AI 默认隐私设置的质疑，表明 AI 安全与隐私问题已从学术研究演变为影响广泛用户的现实风险，需要更严格的行业标准和用户选择权。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/googles-privacy-maze-how-gemini-traps-you-and-your-data"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained"
-        }
-      ]
-    },
-    {
-      "title": "边缘设备推理优化成为研究热点",
-      "summary": "多项研究聚焦于在移动设备等边缘端高效运行 LLM，如异步异构架构的推测解码和 KV-Cache 卸载，这预示着 AI 应用将从云端向终端大规模迁移。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.25326"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.26557"
-        }
-      ]
-    },
-    {
-      "title": "大模型在专业领域的应用需警惕偏见与幻觉",
-      "summary": "多项研究指出，LLM 在教育咨询、金融应用和医疗诊断中存在社会人口偏见、谄媚行为和可靠性问题，表明在专业领域部署 AI 前需进行严格的审计和校准。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.25932"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.24668"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.22063"
-        }
-      ]
-    },
-    {
-      "title": "扩散语言模型作为新范式受到关注",
-      "summary": "多篇论文探讨了扩散大语言模型（dLLM）的幻觉检测、跨架构蒸馏和并行解码优势，表明 dLLM 正作为自回归模型之外的重要替代范式获得学界关注。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2604.26139"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.26951"
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2091217"
         }
       ]
     }
