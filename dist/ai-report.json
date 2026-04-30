@@ -1,51 +1,41 @@
 {
-  "global_brief": "今日AI领域持续主导全球科技动态，DeepSeek发布多模态模型技术报告，同时马斯克在法庭上承认xAI使用OpenAI模型训练Grok，引发行业对模型蒸馏与竞争的广泛讨论。此外，OpenAI推出高级账户安全功能，并披露了GPT-5行为异常的根因分析。",
+  "global_brief": "今日AI领域持续震荡：马斯克在法庭上承认xAI使用OpenAI模型训练Grok，引发行业对蒸馏技术的讨论；DeepSeek公布多模态模型技术报告，提出视觉原语推理框架；同时，OpenAI与Anthropic在安全策略上出现分歧，前者限制网络安全工具访问，后者发布内部AI模型风险报告。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 31378,
-      "event_count": 547
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1796,
-      "event_count": 46
+      "field_score": 30509,
+      "event_count": 532
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1666,
-      "event_count": 37
+      "field_score": 1921,
+      "event_count": 43
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1814,
+      "event_count": 47
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 871,
-      "event_count": 17
+      "field_score": 816,
+      "event_count": 16
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 543,
-      "event_count": 12
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 434,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "DeepSeek 公布多模态模型技术报告",
-      "summary": "DeepSeek 在 GitHub 上发布了其多模态大模型及配套技术报告，提出基于“视觉原语”的创新推理框架，旨在提升空间参照任务能力。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/945/740.htm"
-        }
-      ]
-    },
-    {
-      "title": "马斯克承认 xAI 使用 OpenAI 模型训练 Grok",
-      "summary": "在加州联邦法庭上，埃隆·马斯克证实其公司 xAI 使用了 OpenAI 的模型来训练 Grok，这一证词发生在马斯克诉奥特曼的庭审中。",
+      "title": "Elon Musk confirms xAI used OpenAI’s models to train Grok",
+      "summary": "在加州联邦法庭上，Elon Musk 证实其公司 xAI 使用了 OpenAI 的模型来训练 Grok，这一行为涉及“蒸馏”技术，成为前沿实验室防止小型竞争对手获取优势的热点话题。",
       "references": [
         {
           "source_name": "The Verge",
@@ -56,14 +46,48 @@
           "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models"
         },
         {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/garyljackson/chapter-11-the-full-gpt-assembling-the-model-2o0i"
+        },
+        {
           "source_name": "Wired",
           "link": "https://wired.com/story/elon-musk-distill-openai-models-partly-xai"
         }
       ]
     },
     {
-      "title": "OpenAI 推出高级账户安全功能",
-      "summary": "OpenAI 宣布为 ChatGPT 账户推出可选的高级安全保护，包括与 Yubico 合作提供的防钓鱼登录和更强的账户恢复功能。",
+      "title": "DeepSeek 公布多模态模型技术报告",
+      "summary": "DeepSeek 在 GitHub 上发布了其多模态大模型及配套技术报告，提出基于“视觉原语”的创新推理框架，旨在突破当前多模态大语言模型在空间参照任务中的核心瓶颈。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/945/740.htm"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 限制网络安全工具访问，与 Anthropic 安全策略分歧",
+      "summary": "OpenAI 开始推出网络安全测试工具 GPT-5.5 Cyber，但限制了其访问权限。此前，OpenAI 曾批评 Anthropic 限制其模型 Mythos，此举显示出两家公司在模型安全开放策略上的分歧。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too"
+        }
+      ]
+    },
+    {
+      "title": "Google 修复 Gemini CLI 严重安全漏洞",
+      "summary": "Google 修复了 Gemini CLI 中一个 CVSS 10 分的严重安全漏洞，该漏洞可能导致远程代码执行。同时，Cursor 等工具也存在类似缺陷。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 为 ChatGPT 推出高级账户安全功能",
+      "summary": "OpenAI 宣布为 ChatGPT 账户推出可选的高级安全保护，包括与 Yubico 合作的防钓鱼登录、更强的恢复机制和增强保护。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -76,82 +100,78 @@
       ]
     },
     {
-      "title": "Google 修复 Gemini CLI 严重安全漏洞",
-      "summary": "Google 修复了 Gemini CLI 中一个 CVSS 10 分的严重安全漏洞，该漏洞可能导致远程代码执行，同时修复了 Cursor 中的相关缺陷。",
+      "title": "研究提出自适应检索方法用于大型推理模型",
+      "summary": "一项新研究（arXiv:2604.26649）探讨了大型推理模型（如 DeepSeek-R1 和 OpenAI o1）在推理过程中何时进行检索，提出了自适应检索方法以提升效率。",
       "references": [
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI 披露 GPT-5 行为异常的根因",
-      "summary": "OpenAI 发布技术博客，详细解释了 GPT-5 中“哥布林输出”现象的传播时间线、根本原因及修复方案，该现象源于模型个性驱动的怪癖行为。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/where-the-goblins-came-from"
-        }
-      ]
-    },
-    {
-      "title": "马斯克与奥特曼就 OpenAI 未来对簿公堂",
-      "summary": "埃隆·马斯克和萨姆·奥特曼在加州联邦法庭展开高风险的诉讼，该案可能改变 OpenAI 的未来走向。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1664570"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.26649"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "多模态与推理能力成为AI模型竞争新焦点",
-      "summary": "DeepSeek 发布基于“视觉原语”的多模态模型，同时多篇研究聚焦于推理过程中的自适应检索和测试时计算扩展，表明行业正从单纯追求参数规模转向提升模型在复杂空间和逻辑任务中的推理效率。",
+      "title": "AI 安全策略分化：开放与限制的博弈",
+      "summary": "OpenAI 与 Anthropic 在模型安全策略上出现明显分歧，前者在批评对手后也采取了限制措施，后者则发布了内部模型风险报告。这表明行业尚未就如何平衡模型能力开放与安全风险管控达成共识，未来可能出现更多“选择性开放”的案例。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/945/740.htm"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too"
         },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.26649"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.26173"
+          "link": "https://arxiv.org/abs/2604.24966"
         }
       ]
     },
     {
-      "title": "AI安全与隐私问题日益凸显，从模型层到应用层全面受检",
-      "summary": "从Google Gemini CLI的严重漏洞、OpenAI的账户安全升级，到多篇关于LLM安全对齐和幻觉检测的研究，AI安全已成为贯穿模型开发、部署和使用的核心议题。Google在AI隐私方面的“选择幻觉”也引发了关于用户数据控制权的讨论。",
+      "title": "边缘设备推理成为研究热点，推动 LLM 落地",
+      "summary": "多项新研究聚焦于边缘设备上的 LLM 推理，如异步异构架构的推测解码（AHASD）和 NVMe-Direct KV-Cache 卸载（DUAL-BLADE）。这表明业界正积极解决大模型在移动端和边缘设备上的部署瓶颈，以拓展其应用场景。",
       "references": [
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/googles-privacy-maze-how-gemini-traps-you-and-your-data"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.25326"
         },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.04389"
+          "link": "https://arxiv.org/abs/2604.26557"
+        }
+      ]
+    },
+    {
+      "title": "AI 编码代理工具生态日趋成熟，安全与记忆成关键",
+      "summary": "社区涌现出大量针对 AI 编码代理的工具，如用于加固代理安全的 LLM-safe-haven、提供持久记忆的 Aide-Memory 以及解决 BYOK 应用 CORS 问题的 Byok-relay。这表明开发者正从“能用”转向“好用且安全”，代理工具的工程化水平正在快速提升。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/pleasedodisturb/llm-safe-haven"
         },
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2604.26139"
+          "source_name": "Hacker News AI",
+          "link": "https://aide-memory.dev/blog/launch"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/avikalpg/byok-relay"
+        }
+      ]
+    },
+    {
+      "title": "AI 在医疗领域的应用加速，但安全与偏见问题不容忽视",
+      "summary": "多项研究显示 AI 在医疗诊断（如急诊科）中表现优于人类医生，同时也有研究关注 LLM 在医疗咨询中的社会人口偏见以及作为机器人健康护理控制器的安全性。这表明 AI 医疗应用正从实验室走向真实世界，但对其可靠性和公平性的审查也日益严格。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://npr.org/2026/04/30/nx-s1-5804474/ai-doctors-openai-patient-care-diagnosis"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.25932"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.26577"
         }
       ]
     }
