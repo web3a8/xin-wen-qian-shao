@@ -1,41 +1,41 @@
 {
-  "global_brief": "OpenAI 宣布扩建 Stargate 超级计算基础设施以支撑 AGI 发展，同时披露了 GPT-5 中“哥布林输出”现象的根源与修复过程。朝鲜黑客组织利用 AI 生成代码在 npm 包中植入恶意软件，引发供应链安全担忧。Meta 因上调 AI 支出预期导致股价下跌，而社区围绕多智能体协作、AI 计费模式及开源编程助手展开了热烈讨论。",
+  "global_brief": "OpenAI 宣布扩大 Stargate 项目以构建 AGI 算力基础设施，同时 Anthropic 的 Claude 在 Firefox 中发现 271 个零日漏洞，凸显 AI 在安全领域的双刃剑效应。此外，Meta 因上调 AI 支出预期导致股价下跌，而多篇研究聚焦于推理模型、Agent 协作及安全对齐等前沿方向。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33848,
-      "event_count": 564
+      "field_score": 33318,
+      "event_count": 555
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1814,
+      "field_score": 1845,
       "event_count": 41
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1367,
-      "event_count": 33
+      "field_score": 1387,
+      "event_count": 35
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 685,
-      "event_count": 14
+      "field_score": 1132,
+      "event_count": 22
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 453,
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 410,
       "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 扩建 Stargate 基础设施并解释 GPT-5 行为异常",
-      "summary": "OpenAI 宣布正在扩建 Stargate 超级计算基础设施，旨在为“智能时代”和 AGI 提供算力支持。同时，OpenAI 发布技术文章，详细说明了 GPT-5 中“哥布林输出”现象的传播时间线、根本原因及修复方案。",
+      "title": "OpenAI 扩大 Stargate 项目，构建 AGI 算力基础设施",
+      "summary": "OpenAI 宣布扩大 Stargate 项目，旨在构建支撑 AGI 的算力基础设施，并新增系统指令以赋予模型更生动的内在个性。",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -52,42 +52,100 @@
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Anthropic Claude 发现 271 个 Firefox 零日漏洞",
+      "summary": "自二月以来，Anthropic 的 Claude 模型在 Firefox 中发现了 271 个零日漏洞，展现了 AI 在安全漏洞挖掘方面的巨大潜力。",
+      "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/where-the-goblins-came-from"
+          "source_name": "Schneier on Security",
+          "link": "https://schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html"
+        }
+      ]
+    },
+    {
+      "title": "朝鲜黑客利用 AI 植入 npm 恶意软件发动新攻击",
+      "summary": "网络安全研究人员发现，朝鲜黑客组织利用 AI 技术将恶意代码植入 npm 包，并配合虚假公司和远程访问木马（RAT）发动新一轮攻击。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html"
+        }
+      ]
+    },
+    {
+      "title": "Google 修复 Gemini CLI 及 Cursor 中的严重安全漏洞",
+      "summary": "Google 修复了 Gemini CLI 中一个 CVSS 10 分的严重远程代码执行漏洞，同时修复了 Cursor 中可导致代码执行的安全缺陷。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html"
+        }
+      ]
+    },
+    {
+      "title": "研究提出自适应检索方法，提升大型推理模型性能",
+      "summary": "一项新研究提出“自适应检索”方法，旨在优化 DeepSeek-R1 和 OpenAI o1 等大型推理模型在推理过程中的信息检索时机，以提升性能。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.26649"
+        }
+      ]
+    },
+    {
+      "title": "Meta 因上调 AI 支出预期导致股价下跌",
+      "summary": "Meta 股价下滑，原因是公司上调了 AI 支出预测，同时面临青少年社交媒体使用反弹的舆论压力。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://nypost.com/2026/04/29/business/meta-shares-slide-as-tech-giant-hikes-ai-spending-forecast-warns-of-youth-social-media-backlash"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 基础设施军备竞赛加剧，成本与安全风险并存",
-      "summary": "OpenAI 扩建 Stargate 与 Meta 因 AI 支出导致股价下跌形成鲜明对比，表明头部公司正不惜代价押注算力基础设施。然而，朝鲜黑客利用 AI 生成恶意代码的事件 警示，AI 的普及也大幅降低了网络攻击的门槛，供应链安全将成为更严峻的挑战。",
+      "title": "AI 巨头烧钱补贴模式不可持续，用户将面临账单压力",
+      "summary": "科技评论家警告，以 Anthropic 和 OpenAI 为代表的 AI 公司正通过巨额补贴换取用户依赖，这种模式终将结束，用户未来将面临高昂的 AI 服务账单。",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age"
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3771377"
+        }
+      ]
+    },
+    {
+      "title": "多 Agent 协作与上下文饱和问题成为社区关注焦点",
+      "summary": "社区讨论显示，随着 LLM Agent 应用增多，如何在上下文接近饱和时建立有效的跨 Agent 协作机制，已成为开发者面临的核心挑战之一。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://patrickmccanna.net/two-claude-code-sessions-one-repo-and-a-protocol-they-helped-write"
         },
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins"
+          "source_name": "V2EX 最热",
+          "link": "https://v2ex.com/t/1209542"
         },
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial"
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2088418"
         },
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal"
-        },
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1209501"
+        }
+      ]
+    },
+    {
+      "title": "AI 安全对齐存在“选择性安全陷阱”，评估需更全面",
+      "summary": "最新研究指出，当前 LLM 安全评估存在“选择性安全陷阱”，即模型在某些场景下安全，但在其他场景下可能失效，表明安全对齐并非普遍适用。",
+      "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://nypost.com/2026/04/29/business/meta-shares-slide-as-tech-giant-hikes-ai-spending-forecast-warns-of-youth-social-media-backlash"
-        },
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.04389"
         }
       ]
     }
