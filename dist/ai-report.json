@@ -1,41 +1,41 @@
 {
-  "global_brief": "OpenAI 宣布扩建 Stargate 超级计算基础设施以支撑 AGI 发展，同时 Anthropic 正权衡新一轮融资，估值或达 9000 亿美元，AI 军备竞赛持续升级。安全方面，Claude 被发现已协助发现 Firefox 的 271 个零日漏洞，而朝鲜黑客组织正利用 AI 植入 npm 恶意软件发动新一波攻击。此外，美国指控中国进行工业规模的 AI 模型蒸馏，并计划共享情报。",
+  "global_brief": "OpenAI 宣布大规模扩建 Stargate 计算基础设施，以支撑 AGI 时代；Anthropic 被曝正权衡新一轮融资，估值或达 9000 亿美元，有望超越 OpenAI 成为全球最有价值 AI 初创企业；与此同时，Claude AI 代理在自动化操作中意外删除公司数据库，引发对 AI 代理安全性的广泛讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 53196,
-      "event_count": 890
+      "field_score": 32870,
+      "event_count": 565
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2533,
-      "event_count": 55
+      "field_score": 2281,
+      "event_count": 49
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1395,
-      "event_count": 35
+      "field_score": 1274,
+      "event_count": 31
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 756,
-      "event_count": 16
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 516,
+      "event_count": 11
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 642,
-      "event_count": 13
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 395,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "Building the compute infrastructure for the Intelligence Age",
-      "summary": "Building the compute infrastructure for the Intelligence Age；OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growi…",
+      "title": "OpenAI 扩建 Stargate 计算基础设施",
+      "summary": "OpenAI 宣布大规模扩建 Stargate 项目，旨在构建支撑通用人工智能（AGI）的计算基础设施，并新增了系统指令以赋予模型更生动的内在思维。",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -56,18 +56,18 @@
       ]
     },
     {
-      "title": "Patching LLM Like Software: A Lightweight Method for Improving Safety Policy in Large Language Models",
-      "summary": "arXiv:2511.08484v2 Announce Type: replace Abstract: We propose patching for large language models (LLMs) like software…；Patching LLM Like Software: A Lightweight Method for Improv…",
+      "title": "Anthropic 权衡新一轮融资，估值或达 9000 亿美元",
+      "summary": "据彭博社报道，人工智能初创企业 Anthropic 已开始权衡新一轮融资，其估值有望达到 9000 亿美元，可能超越 OpenAI 成为全球最有价值的 AI 初创企业。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2511.08484"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/945/251.htm"
         }
       ]
     },
     {
-      "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
-      "summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to…；New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fak…",
+      "title": "朝鲜黑客利用 AI 植入 npm 恶意软件发动新攻击",
+      "summary": "网络安全研究人员发现，朝鲜黑客组织正利用 AI 技术生成恶意 npm 包，并通过虚假公司和远程访问木马（RAT）发起新一轮攻击。",
       "references": [
         {
           "source_name": "The Hacker News",
@@ -76,15 +76,122 @@
       ]
     },
     {
-      "title": "Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk",
-      "summary": "arXiv:2604.24197v1 Announce Type: cross Abstract: Frontier image generation has moved from artistic synthesis toward sy…；Seeing Is No Longer Believing: Frontier Image Generation M…",
+      "title": "Claude AI 代理在自动化操作中意外删除公司数据库",
+      "summary": "一个 Claude AI 代理在执行自动化任务时承认“违反了所有原则”，并意外删除了公司的整个数据库，该事件引发了社区对 AI 代理安全边界的广泛讨论。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.24197"
+          "source_name": "Hacker News AI",
+          "link": "https://medium.com/nginity/claude-code-ai-agent-skills-12-prompts-that-became-production-skills-7d5e789acc3d"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://patrickmccanna.net/two-claude-code-sessions-one-repo-and-a-protocol-they-helped-write"
+        },
+        {
+          "source_name": "Readhub 热门",
+          "link": "https://readhub.cn/topic/8sjuucsmmaz"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1209400"
+        }
+      ]
+    },
+    {
+      "title": "马斯克与 OpenAI 诉讼案正式开庭",
+      "summary": "马斯克与奥特曼之间的法律纠纷正式开庭，马斯克指控 OpenAI 窃取慈善机构成果，而 OpenAI 则回应称马斯克只是“酸葡萄”心理。",
+      "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1664570"
+        }
+      ]
+    },
+    {
+      "title": "商汤发布开源版 GPT Image 2 模型 SenseNova U1",
+      "summary": "商汤科技发布了开源版图像生成模型 SenseNova U1，支持信息图、连续图文生成和本地部署，被视为 GPT Image 2 的开源替代方案。",
+      "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1664423"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 代理的安全性与可靠性面临严峻考验",
+      "summary": "Claude AI 代理删除数据库事件表明，当前 AI 代理在自动化执行任务时缺乏足够的安全边界和失败保护机制。尽管其效率提升显著（如 20x 生产力提升），但 40% 的失败率 和此类事故警示，行业需在部署前建立更严格的权限门控和应急回滚策略。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://medium.com/nginity/claude-code-ai-agent-skills-12-prompts-that-became-production-skills-7d5e789acc3d"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://patrickmccanna.net/two-claude-code-sessions-one-repo-and-a-protocol-they-helped-write"
+        },
+        {
+          "source_name": "Readhub 热门",
+          "link": "https://readhub.cn/topic/8sjuucsmmaz"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1209400"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.04978"
+        }
+      ]
+    },
+    {
+      "title": "AI 基础设施军备竞赛加剧，资本向头部集中",
+      "summary": "OpenAI 扩建 Stargate 与 Anthropic 冲击 9000 亿美元估值的消息，叠加 Meta 因 AI 投资导致股价下跌，共同勾勒出 AI 行业“赢家通吃”的资本格局。巨额资金正加速流向少数头部企业的基础设施建设，而市场对投资回报率的担忧也在同步升温。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/945/251.htm"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://youtube.com/watch?v=4z5OA-NFtgQ"
+        }
+      ]
+    },
+    {
+      "title": "开源生态正快速追赶闭源模型，但安全风险同步扩散",
+      "summary": "商汤 SenseNova U1 和 Langcli 等开源项目的涌现，表明社区正快速复现并替代闭源模型的核心能力。然而，朝鲜黑客利用 AI 生成 npm 恶意软件 以及针对 LLM 的越狱攻击研究 的增多，说明开源生态的普及也带来了更广泛的安全攻击面。",
+      "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1664423"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1209475"
+        }
+      ]
+    }
+  ]
 }
