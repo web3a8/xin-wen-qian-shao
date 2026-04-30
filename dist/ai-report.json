@@ -1,41 +1,51 @@
 {
-  "global_brief": "OpenAI 宣布扩大 Stargate 项目以构建支撑 AGI 的计算基础设施，同时其 GPT-5 模型出现“哥布林输出”行为异常。安全方面，Google 修复了 Gemini CLI 的 CVSS 10 级严重漏洞，且朝鲜黑客组织被曝利用 AI 生成的 npm 恶意软件发起新一波攻击。此外，DeepSeek 内测识图模式，多模态新模型或将发布。",
+  "global_brief": "OpenAI 正在大规模扩建 Stargate 基础设施以支撑 AGI 计算，并计划发布面向关键网络防御者的安全模型 GPT-5.5-Cyber；同时，朝鲜黑客组织被曝利用 AI 生成的 npm 恶意软件发起新一轮攻击，Google 修复了 Gemini CLI 中的 CVSS 10 严重漏洞；学术方面，多篇研究聚焦于大语言模型的推理效率、安全对齐与边缘部署优化。 [FACT] TITLE: OpenAI 扩建 Stargate 基础设施并计划发布网络安全模型 SUMMARY: OpenAI 正在大规模扩建 Stargate 计算基础设施，以支撑 AG…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32000,
-      "event_count": 542
+      "field_score": 31067,
+      "event_count": 529
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1706,
-      "event_count": 43
+      "field_score": 1845,
+      "event_count": 46
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1615,
-      "event_count": 36
+      "field_score": 1548,
+      "event_count": 33
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 1140,
-      "event_count": 23
+      "field_score": 1206,
+      "event_count": 24
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 425,
-      "event_count": 8
+      "field_score": 496,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 扩大 Stargate 项目，为 AGI 构建计算基础设施",
-      "summary": "OpenAI 宣布扩大 Stargate 项目，旨在为智能时代和 AGI 构建计算基础设施，并增加了系统指令以赋予模型更生动的内在人格。",
+      "title": "OWASP Top 10 LLM Vulnerabilities 2026 — Red Team Assessment Framework + Real Exploits",
+      "summary": "OWASP Top 10 LLM Vulnerabilities 2026 — Red Team Assessment Framework + Real Exploits；📰 Originally published on SecurityElites — the canonical, fully-updated version of this artic…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/lucky_lonerusher/owasp-top-10-llm-vulnerabilities-2026-red-team-assessment-framework-real-exploits-2dcj"
+        }
+      ]
+    },
+    {
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "summary": "Building the compute infrastructure for the Intelligence Age；OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growi…",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -46,26 +56,35 @@
           "link": "https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins"
         },
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial"
-        },
-        {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal"
+        },
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://nytimes.com/2026/04/28/technology/openai-trial-elon-musk-sam-altman.html?unlocked_article_code=1.elA.u75G.-STmUe_pILOO"
+        }
+      ]
+    },
+    {
+      "title": "When to Retrieve During Reasoning: Adaptive Retrieval for Large Reasoning Models",
+      "summary": "arXiv:2604.26649v1 Announce Type: cross Abstract: Large reasoning models such as DeepSeek-R1 and OpenAI o1 generate ext…；When to Retrieve During Reasoning: Adaptive Retrieval for…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.26649"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI’s new security model is for ‘critical cyber defenders’ only",
+      "summary": "OpenAI is preparing to launch a new frontier cybersecurity model, GPT-5.5-Cyber. CEO Sam Altman said the model will not…；OpenAI’s new security model is for ‘critical cyber defende…",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/921073/openai-sam-altman-new-cybersecurity-model-gpt-5-5-cyber"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "美国 AI 巨头补贴策略不可持续，用户将面临高额账单",
-      "summary": "科技评论家 Ernie Smith 警告，以 Anthropic 和 OpenAI 为代表的美国 AI 巨头正通过巨额补贴换取用户依赖，这种模式终将结束，用户未来将面临高昂的 AI 账单。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3771377"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
