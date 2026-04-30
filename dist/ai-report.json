@@ -1,45 +1,57 @@
 {
-  "global_brief": "Anthropic 正考虑以超过 9000 亿美元估值进行新一轮融资，有望超越 OpenAI 成为全球估值最高的 AI 初创公司。同时，阿里巴巴发布 Qwen3.6-Max-Preview 模型，在智能体编程能力上挑战 GPT-5.4，而 Anthropic 的 Claude 系统在 Firefox 中发现了 271 个零日漏洞，凸显了 AI 在安全领域的巨大潜力与风险。",
+  "global_brief": "OpenAI 宣布扩建 Stargate 超级计算基础设施以支撑 AGI 发展，同时 Anthropic 正权衡新一轮融资，估值或达 9000 亿美元，AI 军备竞赛持续升级。安全方面，Claude 被发现已协助发现 Firefox 的 271 个零日漏洞，而朝鲜黑客组织正利用 AI 植入 npm 恶意软件发动新一波攻击。此外，美国指控中国进行工业规模的 AI 模型蒸馏，并计划共享情报。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54422,
-      "event_count": 913
+      "field_score": 53196,
+      "event_count": 890
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2374,
-      "event_count": 52
+      "field_score": 2533,
+      "event_count": 55
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1459,
-      "event_count": 38
+      "field_score": 1395,
+      "event_count": 35
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 801,
-      "event_count": 17
+      "field_score": 756,
+      "event_count": 16
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 698,
-      "event_count": 14
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 642,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Alibaba's Qwen3.6-Max-Preview Challenges GPT-5.4 on Agentic Coding",
-      "summary": "Alibaba's Qwen3.6-Max-Preview Challenges GPT-5.4 on Agentic Coding；TL;DR: Qwen3.6-Max-Preview is Alibaba's new proprietary flagship, released April 20, 2026. No open weights — API…",
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "summary": "Building the compute infrastructure for the Intelligence Age；OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growi…",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/techsifted/alibabas-qwen36-max-preview-challenges-gpt-54-on-agentic-coding-3444"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal"
         }
       ]
     },
@@ -54,26 +66,22 @@
       ]
     },
     {
-      "title": "Anthropic考虑按超过9000亿美元估值接受融资报价",
-      "summary": "Anthropic考虑按超过9000亿美元估值接受融资报价；据知情人士透露，人工智能（AI）开发商Anthropic PBC已开始权衡新一轮融资，其估值将超过9000亿美元。这可能使其超越长期对手OpenAI，成为全球估值最高的AI初创公司。 作为Claude的开发商，Anthropic正在考虑投…；Anthropic考虑按超过9000亿美元估值融资",
-      "references": [
-        {
-          "source_name": "华尔街见闻实时快讯",
-          "link": "https://wallstreetcn.com/livenews/3096966"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3771316"
-        }
-      ]
-    },
-    {
       "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
       "summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to…；New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fak…",
       "references": [
         {
           "source_name": "The Hacker News",
           "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html"
+        }
+      ]
+    },
+    {
+      "title": "Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk",
+      "summary": "arXiv:2604.24197v1 Announce Type: cross Abstract: Frontier image generation has moved from artistic synthesis toward sy…；Seeing Is No Longer Believing: Frontier Image Generation M…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.24197"
         }
       ]
     }
