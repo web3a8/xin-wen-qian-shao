@@ -1,63 +1,41 @@
 {
-  "global_brief": "今日AI领域持续震荡：马斯克在法庭上承认xAI使用OpenAI模型训练Grok，引发行业对蒸馏技术的讨论；DeepSeek公布多模态模型技术报告，提出视觉原语推理框架；同时，OpenAI与Anthropic在安全策略上出现分歧，前者限制网络安全工具访问，后者发布内部AI模型风险报告。",
+  "global_brief": "今日 AI 领域竞争激烈，DeepSeek 发布多模态模型技术报告，OpenAI 则推出高级账户安全功能并限制其网络安全测试工具访问，同时马斯克在庭审中承认 xAI 使用 OpenAI 模型训练 Grok，凸显了模型安全、蒸馏与开源生态的复杂博弈。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30509,
-      "event_count": 532
+      "field_score": 30661,
+      "event_count": 535
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1921,
-      "event_count": 43
+      "field_score": 2024,
+      "event_count": 46
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1814,
-      "event_count": 47
+      "field_score": 1892,
+      "event_count": 49
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 816,
+      "field_score": 809,
       "event_count": 16
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 434,
-      "event_count": 10
+      "field_score": 400,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "Elon Musk confirms xAI used OpenAI’s models to train Grok",
-      "summary": "在加州联邦法庭上，Elon Musk 证实其公司 xAI 使用了 OpenAI 的模型来训练 Grok，这一行为涉及“蒸馏”技术，成为前沿实验室防止小型竞争对手获取优势的热点话题。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/garyljackson/chapter-11-the-full-gpt-assembling-the-model-2o0i"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/elon-musk-distill-openai-models-partly-xai"
-        }
-      ]
-    },
-    {
       "title": "DeepSeek 公布多模态模型技术报告",
-      "summary": "DeepSeek 在 GitHub 上发布了其多模态大模型及配套技术报告，提出基于“视觉原语”的创新推理框架，旨在突破当前多模态大语言模型在空间参照任务中的核心瓶颈。",
+      "summary": "DeepSeek 公布多模态模型技术报告；IT之家 4 月 30 日消息，DeepSeek 在 GitHub 平台正式发布了其多模态大模型，并同步公开了配套技术报告。该报告提出了一种基于“视觉原语”的创新推理框架，旨在突破当前多模态大语言模型（MLLMs）在空间参照任务中的核心瓶…",
       "references": [
         {
           "source_name": "IT之家",
@@ -66,42 +44,40 @@
       ]
     },
     {
-      "title": "OpenAI 限制网络安全工具访问，与 Anthropic 安全策略分歧",
-      "summary": "OpenAI 开始推出网络安全测试工具 GPT-5.5 Cyber，但限制了其访问权限。此前，OpenAI 曾批评 Anthropic 限制其模型 Mythos，此举显示出两家公司在模型安全开放策略上的分歧。",
+      "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
+      "summary": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too；OpenAI will begin rolling out its cybersecurity testing tool, GPT-5.5 Cyber only \"to critical cy…",
       "references": [
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too"
-        }
-      ]
-    },
-    {
-      "title": "Google 修复 Gemini CLI 严重安全漏洞",
-      "summary": "Google 修复了 Gemini CLI 中一个 CVSS 10 分的严重安全漏洞，该漏洞可能导致远程代码执行。同时，Cursor 等工具也存在类似缺陷。",
-      "references": [
+        },
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html"
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities"
         }
       ]
     },
     {
-      "title": "OpenAI 为 ChatGPT 推出高级账户安全功能",
-      "summary": "OpenAI 宣布为 ChatGPT 账户推出可选的高级安全保护，包括与 Yubico 合作的防钓鱼登录、更强的恢复机制和增强保护。",
+      "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+      "summary": "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models.；Elon Musk testifies that xAI trained Grok on OpenAI models；Elon Musk s…",
       "references": [
         {
           "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico"
+          "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models"
         },
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/advanced-account-security"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/04/elon-musks-7-biggest-stumbles-on-the-stand-at-openai-trial"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/elon-musk-distill-openai-models-partly-xai"
         }
       ]
     },
     {
-      "title": "研究提出自适应检索方法用于大型推理模型",
-      "summary": "一项新研究（arXiv:2604.26649）探讨了大型推理模型（如 DeepSeek-R1 和 OpenAI o1）在推理过程中何时进行检索，提出了自适应检索方法以提升效率。",
+      "title": "When to Retrieve During Reasoning: Adaptive Retrieval for Large Reasoning Models",
+      "summary": "arXiv:2604.26649v1 Announce Type: cross Abstract: Large reasoning models such as DeepSeek-R1 and OpenAI o1 generate ext…；When to Retrieve During Reasoning: Adaptive Retrieval for…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -110,70 +86,5 @@
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI 安全策略分化：开放与限制的博弈",
-      "summary": "OpenAI 与 Anthropic 在模型安全策略上出现明显分歧，前者在批评对手后也采取了限制措施，后者则发布了内部模型风险报告。这表明行业尚未就如何平衡模型能力开放与安全风险管控达成共识，未来可能出现更多“选择性开放”的案例。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.24966"
-        }
-      ]
-    },
-    {
-      "title": "边缘设备推理成为研究热点，推动 LLM 落地",
-      "summary": "多项新研究聚焦于边缘设备上的 LLM 推理，如异步异构架构的推测解码（AHASD）和 NVMe-Direct KV-Cache 卸载（DUAL-BLADE）。这表明业界正积极解决大模型在移动端和边缘设备上的部署瓶颈，以拓展其应用场景。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.25326"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.26557"
-        }
-      ]
-    },
-    {
-      "title": "AI 编码代理工具生态日趋成熟，安全与记忆成关键",
-      "summary": "社区涌现出大量针对 AI 编码代理的工具，如用于加固代理安全的 LLM-safe-haven、提供持久记忆的 Aide-Memory 以及解决 BYOK 应用 CORS 问题的 Byok-relay。这表明开发者正从“能用”转向“好用且安全”，代理工具的工程化水平正在快速提升。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/pleasedodisturb/llm-safe-haven"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://aide-memory.dev/blog/launch"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/avikalpg/byok-relay"
-        }
-      ]
-    },
-    {
-      "title": "AI 在医疗领域的应用加速，但安全与偏见问题不容忽视",
-      "summary": "多项研究显示 AI 在医疗诊断（如急诊科）中表现优于人类医生，同时也有研究关注 LLM 在医疗咨询中的社会人口偏见以及作为机器人健康护理控制器的安全性。这表明 AI 医疗应用正从实验室走向真实世界，但对其可靠性和公平性的审查也日益严格。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://npr.org/2026/04/30/nx-s1-5804474/ai-doctors-openai-patient-care-diagnosis"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.25932"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.26577"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
