@@ -1,69 +1,157 @@
 {
-  "global_brief": "今日AI领域密集发布多项重要进展：DeepSeek公布多模态模型技术报告，OpenAI披露GPT-5行为异常根源，马斯克与奥特曼就OpenAI未来对簿公堂。同时，多篇学术论文聚焦推理模型、Agent安全与边缘部署，社区则围绕AI编码Agent的安全性与信任边界展开热烈讨论。",
+  "global_brief": "今日AI领域持续主导全球科技动态，DeepSeek发布多模态模型技术报告，同时马斯克在法庭上承认xAI使用OpenAI模型训练Grok，引发行业对模型蒸馏与竞争的广泛讨论。此外，OpenAI推出高级账户安全功能，并披露了GPT-5行为异常的根因分析。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30436,
-      "event_count": 529
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1942,
-      "event_count": 42
+      "field_score": 31378,
+      "event_count": 547
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1832,
+      "field_score": 1796,
       "event_count": 46
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 1666,
+      "event_count": 37
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 929,
-      "event_count": 18
+      "field_score": 871,
+      "event_count": 17
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 420,
-      "event_count": 9
+      "field_score": 543,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
       "title": "DeepSeek 公布多模态模型技术报告",
-      "summary": "DeepSeek 在 GitHub 上发布了其多模态大模型及配套技术报告，提出基于“视觉原语”的创新推理框架，旨在突破空间参照任务瓶颈。",
+      "summary": "DeepSeek 在 GitHub 上发布了其多模态大模型及配套技术报告，提出基于“视觉原语”的创新推理框架，旨在提升空间参照任务能力。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/945/740.htm"
         }
       ]
+    },
+    {
+      "title": "马斯克承认 xAI 使用 OpenAI 模型训练 Grok",
+      "summary": "在加州联邦法庭上，埃隆·马斯克证实其公司 xAI 使用了 OpenAI 的模型来训练 Grok，这一证词发生在马斯克诉奥特曼的庭审中。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/elon-musk-distill-openai-models-partly-xai"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 推出高级账户安全功能",
+      "summary": "OpenAI 宣布为 ChatGPT 账户推出可选的高级安全保护，包括与 Yubico 合作提供的防钓鱼登录和更强的账户恢复功能。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/advanced-account-security"
+        }
+      ]
+    },
+    {
+      "title": "Google 修复 Gemini CLI 严重安全漏洞",
+      "summary": "Google 修复了 Gemini CLI 中一个 CVSS 10 分的严重安全漏洞，该漏洞可能导致远程代码执行，同时修复了 Cursor 中的相关缺陷。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 披露 GPT-5 行为异常的根因",
+      "summary": "OpenAI 发布技术博客，详细解释了 GPT-5 中“哥布林输出”现象的传播时间线、根本原因及修复方案，该现象源于模型个性驱动的怪癖行为。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/where-the-goblins-came-from"
+        }
+      ]
+    },
+    {
+      "title": "马斯克与奥特曼就 OpenAI 未来对簿公堂",
+      "summary": "埃隆·马斯克和萨姆·奥特曼在加州联邦法庭展开高风险的诉讼，该案可能改变 OpenAI 的未来走向。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1664570"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 编码 Agent 安全性与信任问题引发社区关注",
-      "summary": "社区讨论显示，随着 AI 编码 Agent 的普及，其安全性和信任边界成为焦点。多个项目（如 LLM-safe-haven、Guardians）和讨论（如 Claude Code 信任边界）旨在通过静态验证、沙箱化等手段来加固 Agent，反映出业界对 Agent 失控风险的担忧正在加剧。",
+      "title": "多模态与推理能力成为AI模型竞争新焦点",
+      "summary": "DeepSeek 发布基于“视觉原语”的多模态模型，同时多篇研究聚焦于推理过程中的自适应检索和测试时计算扩展，表明行业正从单纯追求参数规模转向提升模型在复杂空间和逻辑任务中的推理效率。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/metareflection/guardians"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/945/740.htm"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/pleasedodisturb/llm-safe-haven"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.26649"
         },
         {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=47963671"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.26173"
+        }
+      ]
+    },
+    {
+      "title": "AI安全与隐私问题日益凸显，从模型层到应用层全面受检",
+      "summary": "从Google Gemini CLI的严重漏洞、OpenAI的账户安全升级，到多篇关于LLM安全对齐和幻觉检测的研究，AI安全已成为贯穿模型开发、部署和使用的核心议题。Google在AI隐私方面的“选择幻觉”也引发了关于用户数据控制权的讨论。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html"
         },
         {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2091217"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/04/googles-privacy-maze-how-gemini-traps-you-and-your-data"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.04389"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2604.26139"
         }
       ]
     }
