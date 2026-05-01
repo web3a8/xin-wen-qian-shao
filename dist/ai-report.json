@@ -1,44 +1,44 @@
 {
-  "global_brief": "DeepSeek 发布多模态模型技术报告，提出基于“视觉原语”的创新推理框架；Elon Musk 在 OpenAI 庭审中作证，承认 xAI 使用 OpenAI 模型训练 Grok；Anthropic 面向企业用户开放基于 Opus 4.7 的 Claude Security 安全工具公测版。",
+  "global_brief": "今日AI领域持续高热，模型发布、安全与治理、以及前沿研究并行推进。DeepSeek公布多模态模型技术报告，OpenAI推出GPT-5.5并引发关于模型蒸馏与安全限制的讨论，同时Anthropic上线Claude Security公测版。学术界则涌现大量关于LLM推理、Agent及安全评估的新研究。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 29062,
-      "event_count": 502
+      "field_score": 36972,
+      "event_count": 607
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1849,
-      "event_count": 42
+      "field_score": 1846,
+      "event_count": 40
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1630,
-      "event_count": 42
+      "field_score": 1473,
+      "event_count": 38
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 676,
-      "event_count": 13
+      "field_score": 780,
+      "event_count": 15
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 432,
-      "event_count": 10
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 581,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
       "title": "DeepSeek 公布多模态模型技术报告",
-      "summary": "DeepSeek 在 GitHub 发布多模态大模型并公开技术报告，提出基于“视觉原语”的创新推理框架，旨在突破多模态大语言模型在空间参照任务中的核心瓶颈。",
+      "summary": "DeepSeek 在 GitHub 上正式发布其多模态大模型，并公开了配套技术报告，提出基于“视觉原语”的创新推理框架。",
       "references": [
         {
-          "source_name": "IT之家",
+          "source_name": "IT之家 24h",
           "link": "https://ithome.com/0/945/740.htm"
         },
         {
@@ -50,21 +50,9 @@
   ],
   "highlight_opinions": [
     {
-      "title": "AI 安全攻防战加剧，模型蒸馏与访问控制成焦点",
-      "summary": "前沿 AI 实验室正面临两难：一方面通过限制访问和起诉来防止模型被蒸馏（如 OpenAI 限制 Cyber 工具、Musk 案），另一方面又需开放工具以推动生态发展。Anthropic 和 OpenAI 同时推出安全工具，表明安全已成为产品差异化竞争的关键维度。",
+      "title": "前沿模型安全与访问控制的矛盾加剧",
+      "summary": "OpenAI 在批评 Anthropic 限制模型能力后，自身也对 GPT-5.5 的网络安全功能实施访问限制，这凸显了前沿AI公司在模型能力开放与安全风险管控之间的两难处境。",
       "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/04/elon-musks-7-biggest-stumbles-on-the-stand-at-openai-trial"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/elon-musk-distill-openai-models-partly-xai"
-        },
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too"
@@ -72,10 +60,6 @@
         {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/945/780.htm"
         }
       ]
     }
