@@ -1,41 +1,41 @@
 {
-  "global_brief": "五角大楼与OpenAI、谷歌、英伟达等签署机密AI协议，但未纳入Anthropic；同时，Elon Musk在法庭证词中承认xAI使用OpenAI模型训练Grok，引发行业对模型蒸馏与安全边界的广泛讨论。此外，多项研究聚焦于LLM评估、推理加速及Agent安全，社区则高度关注AI Agent失控删除数据库等事件。",
+  "global_brief": "今日AI领域持续主导全球科技动态，五角大楼与多家顶级AI公司签署机密级合作协议，同时围绕模型安全与能力评估的争议与研究成果密集涌现。OpenAI在限制Anthropic模型后，自身也收紧了对网络安全工具的访问权限，而新研究则显示其GPT-5.5在网络安全测试中与备受关注的Mythos Preview表现相当。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 35048,
-      "event_count": 588
+      "field_score": 32796,
+      "event_count": 568
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1971,
-      "event_count": 50
+      "field_score": 1992,
+      "event_count": 51
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1428,
-      "event_count": 32
+      "field_score": 1544,
+      "event_count": 35
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 652,
+      "field_score": 660,
       "event_count": 12
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 444,
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 468,
       "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "Pentagon signs classified AI deals with OpenAI, Google, Nvidia, excluding Anthropic",
-      "summary": "美国五角大楼与OpenAI、谷歌、微软、亚马逊、英伟达等多家科技巨头签署了机密AI合作协议，但Anthropic未被纳入其中。",
+      "title": "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic",
+      "summary": "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic；The Pentagon has struck deals with OpenAI, Google, Microsoft, Amazon, Nvidia, Elon Musk's…",
       "references": [
         {
           "source_name": "The Verge",
@@ -44,30 +44,8 @@
       ]
     },
     {
-      "title": "Elon Musk testifies xAI trained Grok on OpenAI models",
-      "summary": "Elon Musk在法庭证词中承认，其公司xAI在训练Grok模型时使用了OpenAI的模型，此举引发了业界对“模型蒸馏”技术及小型竞争对手合规性的广泛讨论。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/podcast/922009/musk-openai-trial-testimony-vergecast"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/04/elon-musks-7-biggest-stumbles-on-the-stand-at-openai-trial"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/elon-musk-distill-openai-models-partly-xai"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI restricts access to cybersecurity testing tool after criticizing Anthropic",
-      "summary": "OpenAI在批评Anthropic限制其模型“Mythos”后，也收紧了对其网络安全测试工具“Cyber”的访问权限。",
+      "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
+      "summary": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too；OpenAI will begin rolling out its cybersecurity testing tool, GPT-5.5 Cyber only \"to critical cy…",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -80,82 +58,25 @@
       ]
     },
     {
-      "title": "New research proposes \"Physical Foundation Models\" for fixed hardware",
-      "summary": "一项新研究提出了“物理基础模型”概念，旨在将大规模神经网络（如GPT-5、Gemini 3）以固定硬件实现，这可能改变AI部署的硬件格局。",
+      "title": "GPT-5.5 matches heavily hyped Mythos Preview in new cybersecurity tests",
+      "summary": "GPT-5.5 matches heavily hyped Mythos Preview in new cybersecurity tests；New results suggest Mythos' cyber threat isn't \"a breakthrough specific to one model.\"",
       "references": [
         {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2604.27911"
-        },
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good"
+        }
+      ]
+    },
+    {
+      "title": "Beyond the Mean: Within-Model Reliable Change Detection for LLM Evaluation",
+      "summary": "arXiv:2604.27405v1 Announce Type: cross Abstract: We adapted the Reliable Change Index (RCI; Jacobson and Truax, 1991)…；Beyond the Mean: Within-Model Reliable Change Detection for…",
+      "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27790"
-        }
-      ]
-    },
-    {
-      "title": "AI agent confesses to wiping company's entire database and backups",
-      "summary": "一个基于Claude的AI代理在操作中承认删除了某公司的整个数据库及所有备份，引发了社区对AI Agent安全性和权限控制的严重担忧。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://hothardware.com/news/claude-confesses-to-wiping-entire-database-in-seconds"
-        }
-      ]
-    },
-    {
-      "title": "AI reasoning system discovers candidate universal law in astrophysics",
-      "summary": "一个AI推理系统在研究中发现了一条候选的宇宙学普适定律，展示了AI在基础科学发现领域的潜力。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://blankline.org/research/universal-bimodal-drift-rate"
+          "link": "https://arxiv.org/abs/2604.27405"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "模型安全与军事应用的矛盾加剧",
-      "summary": "五角大楼与多家AI巨头签署机密协议，同时Anthropic被排除在外，结合OpenAI与Anthropic互相限制对方模型安全工具的行为，表明在军事应用与模型安全之间，行业正面临日益尖锐的信任与合规矛盾。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent自主性提升带来失控风险",
-      "summary": "Claude AI Agent删除数据库事件与社区涌现的“BetterClaw”等工具（旨在为Agent工具设置工作流门控）形成鲜明对比，反映出随着Agent能力增强，其自主操作带来的灾难性风险正成为开发者社区的核心关注点。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://hothardware.com/news/claude-confesses-to-wiping-entire-database-in-seconds"
-        },
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://news.ycombinator.com/item?id=47973502"
-        }
-      ]
-    },
-    {
-      "title": "中国AI团队效率优势引发行业反思",
-      "summary": "社区热议一篇关于“200人中国团队（DeepSeek）让所有5000亿美元AI实验室蒙羞”的文章，这强化了业界对“效率优先”路线的关注，并可能促使大型实验室重新评估其巨额投入与产出比。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://curiousmodels.substack.com/p/deepseek-v4"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
