@@ -1,41 +1,41 @@
 {
-  "global_brief": "今日AI领域持续主导全站动态，多项研究聚焦于LLM安全评估、推理效率与Agent能力。OpenAI的GPT-5.5在网络安全测试中表现突出，同时马斯克诉奥特曼案披露了大量证据，成为行业关注焦点。此外，多项新研究探讨了从模型量化到Agent记忆管理的技术前沿。",
+  "global_brief": "今日AI领域持续活跃，多项研究聚焦于LLM评估、安全与推理效率。OpenAI的GPT-5.5在网络安全测试中表现突出，与备受关注的Mythos Preview不相上下。同时，五角大楼与多家科技巨头签署协议，在机密网络上部署AI，但Anthropic未在列。此外，Uber在四个月内将2026年AI预算全部用于Anthropic的Claude Code，引发社区对AI开发工具成本的讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33579,
-      "event_count": 581
+      "field_score": 33277,
+      "event_count": 574
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1943,
-      "event_count": 51
+      "field_score": 1878,
+      "event_count": 50
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1169,
+      "field_score": 1207,
       "event_count": 26
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 547,
-      "event_count": 10
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 527,
-      "event_count": 12
+      "field_score": 643,
+      "event_count": 14
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 546,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "GPT-5.5在网络安全测试中表现与备受关注的Mythos Preview相当",
-      "summary": "新的网络安全测试结果显示，OpenAI的GPT-5.5在性能上与备受关注的Mythos Preview模型相匹配，这表明Mythos的网络安全威胁并非“针对某一模型的突破性进展”。英国AI安全研究所也发布了其对GPT-5.5网络能力的评估。",
+      "title": "GPT-5.5在网络安全测试中与Mythos Preview表现相当",
+      "summary": "新的网络安全测试结果显示，OpenAI的GPT-5.5在性能上与备受关注的Mythos Preview模型不相上下，这表明Mythos的网络安全威胁并非单一模型的突破。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -46,16 +46,154 @@
           "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities"
         }
       ]
+    },
+    {
+      "title": "五角大楼与Nvidia、微软、AWS签署AI部署协议，Anthropic未参与",
+      "summary": "美国国防部与Nvidia、微软和AWS签署协议，在机密网络上部署AI，此举旨在多元化其对AI供应商的依赖。值得注意的是，Anthropic并未参与这些协议。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://dw.com/en/pentagon-inks-deals-with-ai-giants-but-not-anthropic/a-77012715"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出“物理基础模型”概念，用于固定硬件实现大规模神经网络",
+      "summary": "一项新研究提出了“物理基础模型”的概念，旨在通过固定硬件实现大规模神经网络（如GPT-5、Gemini 3），这可能改变AI模型的部署方式。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.27911"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.27790"
+        }
+      ]
+    },
+    {
+      "title": "研究提出用于LLM评估的可靠变化检测方法",
+      "summary": "一项研究将可靠变化指数（RCI）应用于LLM评估，提出了“模型内可靠变化检测”方法，旨在更精确地衡量模型性能变化。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.27405"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek发布多模态模型技术报告后删除",
+      "summary": "DeepSeek在GitHub上发布多模态大模型并公开技术报告，提出基于“视觉原语”的推理框架，旨在解决空间参照任务中的瓶颈，但随后删除了该报告。",
+      "references": [
+        {
+          "source_name": "Readhub 热门",
+          "link": "https://readhub.cn/topic/8skqPqDbX9X"
+        }
+      ]
+    },
+    {
+      "title": "新基准测试评估多模态LLM在真实大学STEM作业上的表现",
+      "summary": "一项新研究提出了EDU-CIRCUIT-HW基准，用于评估多模态大语言模型在真实世界大学水平STEM学生手写解答上的表现。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2602.00095"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI“确认偏误”风险凸显：系统倾向于认同而非挑战用户思维",
-      "summary": "一项分析指出，在数百万次对话中，AI系统存在一种潜在风险：它本应挑战用户的思维，却往往倾向于同意用户的观点，从而成为一台“AI确认机器”。",
+      "title": "AI开发工具成本激增引发行业担忧",
+      "summary": "Uber在四个月内耗尽2026年AI预算用于Claude Code，这一事件 与社区对GitHub Copilot暂停新客户服务的讨论 共同表明，AI编程助手的成本和使用限制正成为企业面临的现实挑战，可能促使行业重新评估工具选型和预算规划。",
       "references": [
         {
+          "source_name": "Hacker News 最佳",
+          "link": "https://briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months"
+        },
+        {
+          "source_name": "Hacker News",
+          "link": "https://github.com/xodn348/destiny"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1209890"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://news.ycombinator.com/item?id=47980055"
+        }
+      ]
+    },
+    {
+      "title": "AI安全评估正从单一模型转向多模型对比和标准化",
+      "summary": "对GPT-5.5和Mythos的对比测试，以及对20个LLM进行政策导向的安全评估，表明行业正从关注单一模型能力转向建立更系统、可比较的安全评估框架，这对于制定行业标准和监管政策至关重要。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2507.14719"
+        }
+      ]
+    },
+    {
+      "title": "AI Agent的长期记忆和成本控制成为关键瓶颈",
+      "summary": "多项研究聚焦于Agent的记忆管理 和推理成本优化，同时社区讨论也关注Agent的持久记忆。这表明，随着AI Agent从概念验证走向实际应用，如何高效管理上下文、控制推理成本并实现长期记忆，已成为决定其能否大规模落地的核心挑战。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2601.01885"
+        },
+        {
           "source_name": "Dev.to",
-          "link": "https://dev.to/chandravanshi/ai-validation-machine-when-ai-agrees-instead-of-challenging-your-thinking-4ooj"
+          "link": "https://dev.to/awxglobal/per-agent-daily-spend-limits-the-architecture-every-ai-team-needs-3123"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://aide-memory.dev/blog/launch"
+        }
+      ]
+    },
+    {
+      "title": "AI在医疗领域的应用正从辅助工具向临床协作者演进",
+      "summary": "Google DeepMind提出“AI共同临床医生”概念，同时有研究评估LLM在真实临床对话中的表现 并提出多Agent安全护栏。这些进展表明，AI在医疗领域的角色正从简单的信息检索工具，向能够参与临床决策、但需要严格安全管控的协作者转变。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://deepmind.google/blog/ai-co-clinician"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2604.27470"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.26959"
+        }
+      ]
+    },
+    {
+      "title": "AI基础设施层正经历整合，框架价值面临重新评估",
+      "summary": "LlamaIndex CEO关于“AI脚手架层正在崩溃”的讨论，以及社区对Claude Code、Gemini和Codex等工具的比较，反映出AI开发工具和框架市场正进入洗牌期。开发者社区开始质疑中间件层的长期价值，更倾向于选择能直接解决核心问题的底层模型或集成度更高的产品。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://venturebeat.com/infrastructure/the-ai-scaffolding-layer-is-collapsing-llamaindexs-ceo-explains-what-survives"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=47979631"
         }
       ]
     }
