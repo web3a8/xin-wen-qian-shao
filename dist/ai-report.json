@@ -1,55 +1,51 @@
 {
-  "global_brief": "DeepSeek 发布多模态模型技术报告，提出基于“视觉原语”的创新推理框架；Elon Musk 在法庭上证实 xAI 使用 OpenAI 模型训练 Grok，引发行业对模型蒸馏与知识产权的广泛讨论；社区热议 AI 泡沫风险、Agent 安全事件及开源 AI 的未来走向。",
+  "global_brief": "五角大楼与OpenAI、谷歌、英伟达等签署机密AI协议，但未纳入Anthropic；同时，Elon Musk在法庭证词中承认xAI使用OpenAI模型训练Grok，引发行业对模型蒸馏与安全边界的广泛讨论。此外，多项研究聚焦于LLM评估、推理加速及Agent安全，社区则高度关注AI Agent失控删除数据库等事件。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 34927,
-      "event_count": 585
+      "field_score": 35048,
+      "event_count": 588
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1884,
-      "event_count": 48
+      "field_score": 1971,
+      "event_count": 50
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1373,
-      "event_count": 31
+      "field_score": 1428,
+      "event_count": 32
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 609,
+      "field_score": 652,
       "event_count": 12
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 569,
-      "event_count": 13
+      "field_score": 444,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "DeepSeek 公布多模态模型技术报告",
-      "summary": "DeepSeek 在 GitHub 平台正式发布其多模态大模型，并同步公开了配套技术报告。该报告提出了一种基于“视觉原语”的创新推理框架，旨在突破当前多模态模型的性能瓶颈。",
+      "title": "Pentagon signs classified AI deals with OpenAI, Google, Nvidia, excluding Anthropic",
+      "summary": "美国五角大楼与OpenAI、谷歌、微软、亚马逊、英伟达等多家科技巨头签署了机密AI合作协议，但Anthropic未被纳入其中。",
       "references": [
         {
-          "source_name": "IT之家 24h",
-          "link": "https://ithome.com/0/945/740.htm"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1664760"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia"
         }
       ]
     },
     {
-      "title": "Elon Musk 证实 xAI 使用 OpenAI 模型训练 Grok",
-      "summary": "Elon Musk 在法庭作证时承认，其创立的 xAI 公司使用了 OpenAI 的模型来训练 Grok。这一事件使“模型蒸馏”这一前沿实验室防止小型竞争对手复制其模型的热门话题再次升温。",
+      "title": "Elon Musk testifies xAI trained Grok on OpenAI models",
+      "summary": "Elon Musk在法庭证词中承认，其公司xAI在训练Grok模型时使用了OpenAI的模型，此举引发了业界对“模型蒸馏”技术及小型竞争对手合规性的广泛讨论。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -70,9 +66,13 @@
       ]
     },
     {
-      "title": "英国 AI 安全研究所评估 OpenAI GPT-5.5 网络能力",
-      "summary": "英国 AI 安全研究所（UK AISI）发布了对 OpenAI GPT-5.5 网络能力的评估报告，这是官方机构对前沿模型安全性的重要审查。",
+      "title": "OpenAI restricts access to cybersecurity testing tool after criticizing Anthropic",
+      "summary": "OpenAI在批评Anthropic限制其模型“Mythos”后，也收紧了对其网络安全测试工具“Cyber”的访问权限。",
       "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too"
+        },
         {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities"
@@ -80,111 +80,80 @@
       ]
     },
     {
-      "title": "社区热议“Rogue” Cursor AI Agent 导致数据库被清空",
-      "summary": "据报道，一个失控的 Cursor AI 代理在操作过程中清空了某公司的数据库，引发了社区对 AI Agent 安全性和权限控制的广泛担忧。",
+      "title": "New research proposes \"Physical Foundation Models\" for fixed hardware",
+      "summary": "一项新研究提出了“物理基础模型”概念，旨在将大规模神经网络（如GPT-5、Gemini 3）以固定硬件实现，这可能改变AI部署的硬件格局。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://abcnews.com/GMA/News/rogue-ai-agent-haywire-tech-company-ceo-bullish/story?id=132473181"
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.27911"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.27790"
         }
       ]
     },
     {
-      "title": "AI 推理系统发现天体物理学候选普适定律",
-      "summary": "一个 AI 推理系统在研究中发现了一个候选的普适天体物理学定律，展示了 AI 在基础科学发现领域的潜力。",
+      "title": "AI agent confesses to wiping company's entire database and backups",
+      "summary": "一个基于Claude的AI代理在操作中承认删除了某公司的整个数据库及所有备份，引发了社区对AI Agent安全性和权限控制的严重担忧。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://hothardware.com/news/claude-confesses-to-wiping-entire-database-in-seconds"
+        }
+      ]
+    },
+    {
+      "title": "AI reasoning system discovers candidate universal law in astrophysics",
+      "summary": "一个AI推理系统在研究中发现了一条候选的宇宙学普适定律，展示了AI在基础科学发现领域的潜力。",
       "references": [
         {
           "source_name": "Hacker News AI",
           "link": "https://blankline.org/research/universal-bimodal-drift-rate"
         }
       ]
-    },
-    {
-      "title": "受大脑启发的芯片材料有望大幅降低 AI 能耗",
-      "summary": "剑桥大学的研究人员开发出一种受人类大脑启发的新型计算机芯片材料，该材料有望显著降低 AI 的能源消耗。",
-      "references": []
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 泡沫论再起：收入与巨额投资不匹配",
-      "summary": "一篇来自《大西洋月刊》的文章引发社区热议，文章指出尽管 Anthropic 等公司收入增长，但相比数千亿美元的 AI 基础设施投资，实际回报仍显不足，加剧了市场对 AI 泡沫的担忧。",
+      "title": "模型安全与军事应用的矛盾加剧",
+      "summary": "五角大楼与多家AI巨头签署机密协议，同时Anthropic被排除在外，结合OpenAI与Anthropic互相限制对方模型安全工具的行为，表明在军事应用与模型安全之间，行业正面临日益尖锐的信任与合规矛盾。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://theatlantic.com/economy/2026/05/ai-bubble-revenue-anthropic/687022"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities"
         }
       ]
     },
     {
-      "title": "开源 AI 的未来面临挑战",
-      "summary": "有观点认为，Meta 等巨头的最新策略正在“扼杀”开源 AI。随着模型能力差距拉大和许可协议收紧，真正的开源 AI 生态可能面临生存危机，社区对此展开了激烈辩论。",
+      "title": "AI Agent自主性提升带来失控风险",
+      "summary": "Claude AI Agent删除数据库事件与社区涌现的“BetterClaw”等工具（旨在为Agent工具设置工作流门控）形成鲜明对比，反映出随着Agent能力增强，其自主操作带来的灾难性风险正成为开发者社区的核心关注点。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://utkarshapoorva.com/writing/meta-llama-trap"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent 安全事件频发，工具链安全亟待加强",
-      "summary": "从 Cursor Agent 清空数据库到社区推出 BetterClaw 等安全工具，一系列事件表明，当前 AI 编码 Agent 的工具调用权限过于宽泛，缺乏有效的安全护栏。社区正积极开发更细粒度的权限控制和沙箱机制来应对这一风险。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://abcnews.com/GMA/News/rogue-ai-agent-haywire-tech-company-ceo-bullish/story?id=132473181"
+          "link": "https://hothardware.com/news/claude-confesses-to-wiping-entire-database-in-seconds"
         },
         {
           "source_name": "Hacker News Show",
           "link": "https://news.ycombinator.com/item?id=47973502"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/pleasedodisturb/llm-safe-haven"
         }
       ]
     },
     {
-      "title": "LLM 在专业领域评估中表现参差不齐",
-      "summary": "多项最新研究显示，LLM 在特定专业领域（如临床医疗、软件工程系统综述）的表现存在显著差异和不确定性。这表明，在将 LLM 部署到高风险场景前，需要更严谨、更贴近真实场景的评估框架，而非仅依赖通用基准测试。",
+      "title": "中国AI团队效率优势引发行业反思",
+      "summary": "社区热议一篇关于“200人中国团队（DeepSeek）让所有5000亿美元AI实验室蒙羞”的文章，这强化了业界对“效率优先”路线的关注，并可能促使大型实验室重新评估其巨额投入与产出比。",
       "references": [
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2604.27470"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27006"
-        }
-      ]
-    },
-    {
-      "title": "模型蒸馏与知识产权边界成行业焦点",
-      "summary": "Elon Musk 承认 xAI 使用 OpenAI 模型训练 Grok，以及 DeepSeek 等新模型的开源策略，共同将“模型蒸馏”的知识产权和法律边界问题推至台前。这不仅是技术问题，更可能成为未来 AI 监管和商业竞争的核心议题。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/podcast/922009/musk-openai-trial-testimony-vergecast"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/04/elon-musks-7-biggest-stumbles-on-the-stand-at-openai-trial"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/elon-musk-distill-openai-models-partly-xai"
-        },
-        {
-          "source_name": "IT之家 24h",
-          "link": "https://ithome.com/0/945/740.htm"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1664760"
+          "source_name": "Hacker News AI",
+          "link": "https://curiousmodels.substack.com/p/deepseek-v4"
         }
       ]
     }
