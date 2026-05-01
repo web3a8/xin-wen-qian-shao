@@ -1,87 +1,53 @@
 {
-  "global_brief": "今日AI领域密集发布多篇前沿研究，涵盖多模态推理、模型安全与Agent效率；DeepSeek公布多模态模型技术报告，Anthropic推出Claude Security公测版，同时OpenAI与Anthropic在安全策略上出现分歧，Elon Musk在庭审中承认xAI使用OpenAI模型训练Grok。",
+  "global_brief": "今日AI领域研究密集，聚焦于LLM评估方法、推理效率优化及Agent安全。Elon Musk在庭审中承认xAI使用OpenAI模型训练Grok，引发行业对模型蒸馏与竞争的讨论。同时，OpenAI总裁表示AI生成代码占比已从20%跃升至80%，标志着AI编程工具进入新阶段。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 36520,
-      "event_count": 599
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1963,
-      "event_count": 44
+      "field_score": 32084,
+      "event_count": 531
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1454,
-      "event_count": 37
+      "field_score": 1413,
+      "event_count": 35
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 861,
-      "event_count": 17
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 1397,
+      "event_count": 31
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 478,
+      "field_score": 606,
+      "event_count": 14
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 579,
       "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "DeepSeek 公布多模态模型技术报告",
-      "summary": "DeepSeek 公布多模态模型技术报告；感谢IT之家网友 Domado 的线索投递！ IT之家 4 月 30 日消息，DeepSeek 在 GitHub 平台正式发布了其多模态大模型，并同步公开了配套技术报告。该报告提出了一种基于“视觉原语”的创新推理框架，旨在突破当前多模态大…；早报｜苹果：下季度内存成本压力将显著加大/宇树最便宜人形机器发布/5月1日…",
-      "references": [
-        {
-          "source_name": "IT之家 24h",
-          "link": "https://ithome.com/0/945/740.htm"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1664760"
-        }
-      ]
-    },
-    {
-      "title": "Beyond the Mean: Within-Model Reliable Change Detection for LLM Evaluation",
-      "summary": "arXiv:2604.27405v1 Announce Type: cross Abstract: We adapted the Reliable Change Index (RCI; Jacobson and Truax, 1991)…；Beyond the Mean: Within-Model Reliable Change Detection for…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27405"
-        }
-      ]
-    },
-    {
-      "title": "Physical Foundation Models: Fixed hardware implementations of large-scale neural networks",
-      "summary": "arXiv:2604.27911v1 Announce Type: new Abstract: Foundation models are deep neural networks (such as GPT-5, Gemini~3, an…；Physical Foundation Models: Fixed hardware implementations…",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2604.27911"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27790"
-        }
-      ]
-    },
-    {
-      "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
-      "summary": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too；OpenAI will begin rolling out its cybersecurity testing tool, GPT-5.5 Cyber only \"to critical cy…",
+      "title": "Elon Musk承认xAI使用OpenAI模型训练Grok",
+      "summary": "Elon Musk在针对OpenAI的庭审中作证，承认其公司xAI在训练Grok模型时使用了OpenAI的模型，这一行为在业界被称为“蒸馏”，引发了关于前沿实验室如何防止小型竞争对手复制其模型的讨论。",
       "references": [
         {
           "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too"
+          "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models"
         },
         {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/04/elon-musks-7-biggest-stumbles-on-the-stand-at-openai-trial"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/elon-musk-distill-openai-models-partly-xai"
         }
       ]
     }
