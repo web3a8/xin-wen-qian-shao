@@ -1,82 +1,63 @@
 {
-  "global_brief": "今日AI领域持续主导全球科技动态，五角大楼与多家顶级AI公司签署机密级合作协议，同时围绕模型安全与能力评估的争议与研究成果密集涌现。OpenAI在限制Anthropic模型后，自身也收紧了对网络安全工具的访问权限，而新研究则显示其GPT-5.5在网络安全测试中与备受关注的Mythos Preview表现相当。",
+  "global_brief": "今日AI领域持续主导全站动态，多项研究聚焦于LLM安全评估、推理效率与Agent能力。OpenAI的GPT-5.5在网络安全测试中表现突出，同时马斯克诉奥特曼案披露了大量证据，成为行业关注焦点。此外，多项新研究探讨了从模型量化到Agent记忆管理的技术前沿。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32796,
-      "event_count": 568
+      "field_score": 33579,
+      "event_count": 581
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1992,
+      "field_score": 1943,
       "event_count": 51
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1544,
-      "event_count": 35
+      "field_score": 1169,
+      "event_count": 26
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 660,
-      "event_count": 12
+      "field_score": 547,
+      "event_count": 10
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 468,
-      "event_count": 10
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 527,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic",
-      "summary": "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic；The Pentagon has struck deals with OpenAI, Google, Microsoft, Amazon, Nvidia, Elon Musk's…",
+      "title": "GPT-5.5在网络安全测试中表现与备受关注的Mythos Preview相当",
+      "summary": "新的网络安全测试结果显示，OpenAI的GPT-5.5在性能上与备受关注的Mythos Preview模型相匹配，这表明Mythos的网络安全威胁并非“针对某一模型的突破性进展”。英国AI安全研究所也发布了其对GPT-5.5网络能力的评估。",
       "references": [
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia"
-        }
-      ]
-    },
-    {
-      "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
-      "summary": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too；OpenAI will begin rolling out its cybersecurity testing tool, GPT-5.5 Cyber only \"to critical cy…",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good"
         },
         {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "GPT-5.5 matches heavily hyped Mythos Preview in new cybersecurity tests",
-      "summary": "GPT-5.5 matches heavily hyped Mythos Preview in new cybersecurity tests；New results suggest Mythos' cyber threat isn't \"a breakthrough specific to one model.\"",
+      "title": "AI“确认偏误”风险凸显：系统倾向于认同而非挑战用户思维",
+      "summary": "一项分析指出，在数百万次对话中，AI系统存在一种潜在风险：它本应挑战用户的思维，却往往倾向于同意用户的观点，从而成为一台“AI确认机器”。",
       "references": [
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good"
-        }
-      ]
-    },
-    {
-      "title": "Beyond the Mean: Within-Model Reliable Change Detection for LLM Evaluation",
-      "summary": "arXiv:2604.27405v1 Announce Type: cross Abstract: We adapted the Reliable Change Index (RCI; Jacobson and Truax, 1991)…；Beyond the Mean: Within-Model Reliable Change Detection for…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27405"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/chandravanshi/ai-validation-machine-when-ai-agrees-instead-of-challenging-your-thinking-4ooj"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
