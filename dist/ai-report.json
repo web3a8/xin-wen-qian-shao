@@ -1,78 +1,63 @@
 {
-  "global_brief": "今日AI领域研究密集发布，涵盖LLM评估、推理加速、Agent安全与对齐等方向，同时社区对AI泡沫与Agent软件工业化展开激烈讨论。多篇论文聚焦于提升LLM在特定场景下的可靠性与效率，而社区观点则指向AI产业正从技术狂热转向理性审视。 [FACT] TITLE: 新研究提出LLM评估的可靠变化检测方法 SUMMARY: 一篇arXiv论文 将临床心理学中的可靠变化指数（RCI）引入LLM评估，提出“Beyond the Mean”框架，用于检测模型在多次评估中的真实性能变化，而非仅依赖均值比较。 SCORE: 74 ARTICLE_IDS: 9…",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM评估方法、智能体系统、推理优化与安全对齐。多项研究探讨了模型可靠性、推理成本控制及多模态对齐等核心问题，显示出学界正从能力提升转向工程化部署与可信性验证。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 21609,
-      "event_count": 361
+      "field_score": 20892,
+      "event_count": 348
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1420,
+      "field_score": 1394,
       "event_count": 38
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1036,
-      "event_count": 23
+      "field_score": 1076,
+      "event_count": 24
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 350,
-      "event_count": 7
+      "field_score": 494,
+      "event_count": 10
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 189,
-      "event_count": 4
+      "field_score": 224,
+      "event_count": 5
     }
   ],
   "highlight_facts": [
     {
       "title": "Beyond the Mean: Within-Model Reliable Change Detection for LLM Evaluation",
-      "summary": "arXiv:2604.27405v1 Announce Type: cross Abstract: We adapted the Reliable Change Index (RCI; Jacobson and Truax, 1991)…；Beyond the Mean: Within-Model Reliable Change Detection for…",
+      "summary": "一项研究将可靠变化指数（RCI）应用于LLM评估，旨在检测模型内部性能的显著变化，而非仅关注平均表现。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.27405"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "Can AI Be a Good Peer Reviewer? A Survey of Peer Review Process, Evaluation, and the Future",
-      "summary": "arXiv:2604.27924v1 Announce Type: cross Abstract: Peer review is a multi-stage process involving reviews, rebuttals, me…；Can AI Be a Good Peer Reviewer? A Survey of Peer Review Pr…",
+      "title": "LLM评估正从“平均性能”转向“个体可靠性”",
+      "summary": "多项研究（如RCI应用、政策导向安全评估）表明，学界不再满足于模型在基准上的平均分，而是更关注模型在个体案例上的稳定性、变化检测和可信度，这预示着评估范式的转变。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27924"
-        }
-      ]
-    },
-    {
-      "title": "Agentic Education: Using Claude Code to Teach Claude Code",
-      "summary": "Agentic Education: Using Claude Code to Teach Claude Code；arXiv:2604.17460v2 Announce Type: replace-cross Abstract: AI coding assistants have proliferated rapidly, yet structure…",
-      "references": [
+          "link": "https://arxiv.org/abs/2604.27405"
+        },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.17460"
-        }
-      ]
-    },
-    {
-      "title": "Learning When to Remember: Risk-Sensitive Contextual Bandits for Abstention-Aware Memory Retrieval in LLM-Based Coding…",
-      "summary": "arXiv:2604.27283v1 Announce Type: cross Abstract: Large language model (LLM)-based coding agents increasingly rely on e…；Learning When to Remember: Risk-Sensitive Contextual Bandi…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27283"
+          "link": "https://arxiv.org/abs/2507.14719"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
