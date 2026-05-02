@@ -1,75 +1,45 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕大语言模型（LLM）的评估方法、推理效率、智能体应用及安全对齐。多项研究探讨了模型可靠性、幻觉缓解与生产部署中的风险，同时社区关注混合模型路由与网络安全测试结果。 [FACT] TITLE: 新研究提出LLM评估的可靠变化检测方法 SUMMARY: 一项研究 将临床心理学中的可靠变化指数（RCI）应用于LLM评估，旨在超越平均性能指标，检测模型内部的可靠变化。 SCORE: 78 ARTICLE_IDS: 9f8e30920dbbe532685817880f2684a10cca0f36 [FACT] T…",
+  "global_brief": "今日AI领域研究密集发布，涵盖LLM评估方法、安全测试与Agent推理效率，其中GPT-5.5在网络安全测试中与备受关注的Mythos Preview表现相当，同时多项研究聚焦于提升LLM在移动端推理与编码Agent中的可靠性。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 23120,
-      "event_count": 364
+      "field_score": 22599,
+      "event_count": 369
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1485,
-      "event_count": 37
+      "field_score": 1571,
+      "event_count": 40
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1203,
-      "event_count": 27
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 339,
-      "event_count": 7
+      "field_score": 1143,
+      "event_count": 26
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 327,
-      "event_count": 7
+      "field_score": 295,
+      "event_count": 6
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 274,
+      "event_count": 6
     }
   ],
   "highlight_facts": [
     {
-      "title": "Beyond the Mean: Within-Model Reliable Change Detection for LLM Evaluation",
-      "summary": "arXiv:2604.27405v1 Announce Type: cross Abstract: We adapted the Reliable Change Index (RCI; Jacobson and Truax, 1991)…；Beyond the Mean: Within-Model Reliable Change Detection for…",
+      "title": "GPT-5.5在网络安全测试中与Mythos Preview表现相当",
+      "summary": "最新网络安全测试结果显示，OpenAI的GPT-5.5在性能上与备受关注的Mythos Preview模型相匹配，表明Mythos的网络安全威胁并非单一模型的突破性进展。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27405"
-        }
-      ]
-    },
-    {
-      "title": "Can AI Be a Good Peer Reviewer? A Survey of Peer Review Process, Evaluation, and the Future",
-      "summary": "arXiv:2604.27924v1 Announce Type: cross Abstract: Peer review is a multi-stage process involving reviews, rebuttals, me…；Can AI Be a Good Peer Reviewer? A Survey of Peer Review Pr…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27924"
-        }
-      ]
-    },
-    {
-      "title": "Agentic Education: Using Claude Code to Teach Claude Code",
-      "summary": "Agentic Education: Using Claude Code to Teach Claude Code；arXiv:2604.17460v2 Announce Type: replace-cross Abstract: AI coding assistants have proliferated rapidly, yet structure…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.17460"
-        }
-      ]
-    },
-    {
-      "title": "Hybrid LLM Routing: Ollama + Claude API Without Quality Degradation",
-      "summary": "Hybrid LLM Routing: Ollama + Claude API Without Quality Degradation；The bill arrives at the end of the month You ship a bot. Claude responds well, the client is happy. The first m…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/lokyfour/hybrid-llm-routing-ollama-claude-api-without-quality-degradation-5e5b"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good"
         }
       ]
     }
