@@ -1,82 +1,63 @@
 {
-  "global_brief": "今日AI领域持续活跃，多项研究聚焦于LLM评估、安全与推理效率。OpenAI的GPT-5.5在网络安全测试中与备受关注的Mythos Preview表现相当，同时马斯克诉奥特曼案披露了大量证据。此外，多项关于推测解码、奖励模型去偏及智能体强化学习的新研究发布，显示出行业对模型实用性与可控性的深入探索。",
+  "global_brief": "今日AI领域研究密集，多项研究聚焦于LLM评估、安全与推理效率。OpenAI的GPT-5.5在网络安全测试中与备受关注的Mythos Preview表现相当，同时马斯克诉奥特曼案披露了大量证据。此外，多篇论文探讨了物理基础模型、AI同行评审及Agent教育等前沿方向。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33836,
-      "event_count": 583
+      "field_score": 33512,
+      "event_count": 577
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1861,
+      "field_score": 1893,
       "event_count": 50
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1147,
+      "field_score": 1136,
       "event_count": 25
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 461,
+      "event_count": 10
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 566,
-      "event_count": 13
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 522,
+      "field_score": 454,
       "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "Beyond the Mean: Within-Model Reliable Change Detection for LLM Evaluation",
-      "summary": "arXiv:2604.27405v1 Announce Type: cross Abstract: We adapted the Reliable Change Index (RCI; Jacobson and Truax, 1991)…；Beyond the Mean: Within-Model Reliable Change Detection for…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27405"
-        }
-      ]
-    },
-    {
-      "title": "GPT-5.5 matches heavily hyped Mythos Preview in new cybersecurity tests",
-      "summary": "GPT-5.5 matches heavily hyped Mythos Preview in new cybersecurity tests；New results suggest Mythos' cyber threat isn't \"a breakthrough specific to one model.\"",
+      "title": "GPT-5.5在网络安全测试中与Mythos Preview表现相当",
+      "summary": "新的网络安全测试结果显示，OpenAI的GPT-5.5与备受关注的Mythos Preview模型性能匹配，这表明Mythos的网络安全威胁并非单一模型的突破。",
       "references": [
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "I built react-native-llm-meter, LLM cost tracking for Expo apps",
-      "summary": "I built react-native-llm-meter, LLM cost tracking for Expo apps；If you ship Claude, GPT, or Gemini calls from a React Native app, you have a problem nobody's solved well, you don'…",
+      "title": "LLM安全评估正从单一模型对比转向更全面的威胁建模",
+      "summary": "多项研究同时关注LLM安全，包括对20个模型进行政策导向的安全评估，以及对LLM驱动的机器人系统进行威胁建模，表明业界正从关注单一模型能力转向构建更系统的安全评估框架。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ankitvirdi4/i-built-react-native-llm-meter-llm-cost-tracking-for-expo-apps-410h"
-        }
-      ]
-    },
-    {
-      "title": "Physical Foundation Models: Fixed hardware implementations of large-scale neural networks",
-      "summary": "arXiv:2604.27911v1 Announce Type: new Abstract: Foundation models are deep neural networks (such as GPT-5, Gemini~3, an…；Physical Foundation Models: Fixed hardware implementations…",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2604.27911"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2507.14719"
         },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27790"
+          "link": "https://arxiv.org/abs/2604.27267"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
