@@ -1,41 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM评估方法、智能体系统、推理优化与安全对齐。多项研究探讨了模型可靠性、推理成本控制及多模态对齐等核心问题，显示出学界正从能力提升转向工程化部署与可信性验证。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕LLM评估、推理加速与智能体安全。社区热议AI泡沫风险、模型意识争议及Ubuntu集成生成式AI等话题。同时，CISA与五眼联盟发布了AI智能体安全部署指南。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 20892,
-      "event_count": 348
+      "field_score": 20558,
+      "event_count": 342
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1394,
-      "event_count": 38
+      "field_score": 1344,
+      "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1076,
-      "event_count": 24
+      "field_score": 902,
+      "event_count": 20
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 494,
+      "field_score": 516,
       "event_count": 10
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 224,
-      "event_count": 5
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 398,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "Beyond the Mean: Within-Model Reliable Change Detection for LLM Evaluation",
-      "summary": "一项研究将可靠变化指数（RCI）应用于LLM评估，旨在检测模型内部性能的显著变化，而非仅关注平均表现。",
+      "title": "新研究提出LLM评估的可靠变化检测方法",
+      "summary": "一项研究 将可靠变化指数（RCI）应用于LLM评估，提出了超越均值比较的“模型内可靠变化检测”方法。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -46,16 +46,12 @@
   ],
   "highlight_opinions": [
     {
-      "title": "LLM评估正从“平均性能”转向“个体可靠性”",
-      "summary": "多项研究（如RCI应用、政策导向安全评估）表明，学界不再满足于模型在基准上的平均分，而是更关注模型在个体案例上的稳定性、变化检测和可信度，这预示着评估范式的转变。",
+      "title": "AI泡沫风险引发社区担忧",
+      "summary": "一篇来自《大西洋月刊》的文章 引发了关于AI行业收入与巨额投资之间差距的讨论，暗示可能存在泡沫风险。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27405"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2507.14719"
+          "source_name": "Hacker News AI",
+          "link": "https://theatlantic.com/economy/2026/05/ai-bubble-revenue-anthropic/687022"
         }
       ]
     }
