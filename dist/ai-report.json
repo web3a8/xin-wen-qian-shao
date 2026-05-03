@@ -1,71 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM评估方法、Agent系统优化与推理效率提升。同时，行业动态显示AI在医疗诊断中表现优于人类医生，Meta收购机器人初创公司以强化人形机器人布局，而OpenAI CEO奥尔特曼向马斯克示好，邀请其参加GPT-5.5庆功宴。",
+  "global_brief": "AI领域持续活跃，多项研究聚焦于LLM评估、推理加速与安全对齐，同时产业界出现OpenAI CEO向马斯克示好、Meta收购机器人初创公司等动态。社区讨论则围绕AI诊断能力、AI意识争议及Agent部署安全展开。 [FACT] TITLE: OpenAI CEO向马斯克示好，邀请其参加GPT-5.5庆功宴 SUMMARY: 据《商业内幕》报道，在法庭对峙后，OpenAI CEO萨姆·奥尔特曼向埃隆·马斯克发出意外示好信号，公开邀请其参加计划于5月5日举行的GPT-5.5庆功宴。 SCORE: 63 ARTICLE_IDS: 9c9497b864…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 20370,
-      "event_count": 339
+      "field_score": 20596,
+      "event_count": 343
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1355,
-      "event_count": 37
+      "field_score": 1451,
+      "event_count": 39
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1031,
-      "event_count": 23
+      "field_score": 817,
+      "event_count": 18
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 567,
+      "field_score": 540,
       "event_count": 12
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 233,
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 212,
       "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "AI模型在真实医疗诊断测试中表现优于医生",
-      "summary": "一项真实世界测试显示，OpenAI的AI模型在诊断患者方面比人类医生表现更好。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://npr.org/2026/04/30/nx-s1-5804474/ai-doctors-openai-patient-care-diagnosis"
-        }
-      ]
-    },
-    {
-      "title": "Meta收购机器人初创公司以强化人形AI野心",
-      "summary": "Meta收购了一家机器人初创公司，以支持其在人形机器人领域的AI发展计划。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI CEO奥尔特曼向马斯克示好，邀请其参加GPT-5.5庆功宴",
-      "summary": "据IT之家报道，在法庭对峙后，OpenAI CEO萨姆·奥尔特曼向埃隆·马斯克发出意外示好信号，欢迎其参加计划于5月5日举行的GPT-5.5庆功宴。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/946/090.htm"
-        }
-      ]
-    },
-    {
-      "title": "研究提出用于LLM评估的可靠变化检测方法",
-      "summary": "一项研究（arXiv:2604.27405v1）将可靠变化指数（RCI）应用于LLM评估，旨在超越均值比较，实现模型内可靠变化检测。",
+      "title": "Beyond the Mean: Within-Model Reliable Change Detection for LLM Evaluation",
+      "summary": "arXiv:2604.27405v1 Announce Type: cross Abstract: We adapted the Reliable Change Index (RCI; Jacobson and Truax, 1991)…；Beyond the Mean: Within-Model Reliable Change Detection for…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -74,108 +44,35 @@
       ]
     },
     {
-      "title": "研究显示考虑用户感受的AI模型更易出错",
-      "summary": "一项研究表明，那些会考虑用户感受的AI模型反而更有可能产生错误。",
+      "title": "Can AI Be a Good Peer Reviewer? A Survey of Peer Review Process, Evaluation, and the Future",
+      "summary": "arXiv:2604.27924v1 Announce Type: cross Abstract: Peer review is a multi-stage process involving reviews, rebuttals, me…；Can AI Be a Good Peer Reviewer? A Survey of Peer Review Pr…",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://arstechnica.com/ai/2026/05/study-ai-models-that-consider-users-feeling-are-more-likely-to-make-errors"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.27924"
         }
       ]
     },
     {
-      "title": "CISA、NSA及五眼联盟发布AI Agent安全部署指南",
-      "summary": "美国网络安全和基础设施安全局（CISA）、国家安全局（NSA）与五眼联盟联合发布了关于如何安全部署AI Agent的指南。",
+      "title": "Agentic Education: Using Claude Code to Teach Claude Code",
+      "summary": "Agentic Education: Using Claude Code to Teach Claude Code；arXiv:2604.17460v2 Announce Type: replace-cross Abstract: AI coding assistants have proliferated rapidly, yet structure…",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.17460"
+        }
+      ]
+    },
+    {
+      "title": "Learning When to Remember: Risk-Sensitive Contextual Bandits for Abstention-Aware Memory Retrieval in LLM-Based Coding…",
+      "summary": "arXiv:2604.27283v1 Announce Type: cross Abstract: Large language model (LLM)-based coding agents increasingly rely on e…；Learning When to Remember: Risk-Sensitive Contextual Bandi…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.27283"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI Agent热潮面临理性审视，安全与实用性成焦点",
-      "summary": "社区讨论显示，AI Agent领域存在过度炒作现象，同时安全部署指南的发布 和关于Agent编排框架可能被上下文提示取代的研究 表明，行业正从狂热转向对实际效能和安全性的务实评估。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://stevekrouse.com/agent-hype"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27891"
-        }
-      ]
-    },
-    {
-      "title": "LLM应用生态面临互操作性与供应链治理挑战",
-      "summary": "社区讨论关注LLM应用间的互操作性问题，同时有研究提出在LLM供应链中需“先测试再部署”的治理框架，这反映出随着模型和应用增多，行业对标准化和风险管理需求日益迫切。",
-      "references": [
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=47986693"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27789"
-        }
-      ]
-    },
-    {
-      "title": "开源LLM研究重心转向推理效率与Agent能力",
-      "summary": "大量新研究聚焦于移动设备上的投机解码 、推理成本最小化的Web自动化 以及提升本地LLM Agent的攻击能力，表明开源社区正致力于解决LLM在实际部署中的效率瓶颈和Agent化应用的核心挑战。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.25326"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.09718"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27143"
-        }
-      ]
-    },
-    {
-      "title": "生成式AI正在重塑搜索体验，但伴随新风险",
-      "summary": "一项实证研究探讨了生成式AI如何颠覆谷歌搜索、Gemini及AI概览，同时有研究指出LLM在模拟人类个性进行社会议题辩论时可能影响社会话语，这提示AI集成到核心服务中需警惕其对社会认知的潜在塑造力。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27790"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27624"
-        }
-      ]
-    },
-    {
-      "title": "LLM安全评估需超越表面，关注偏见与越狱风险",
-      "summary": "多项研究分别对20个LLM进行了基于政策的安全评估 、审计了LLM的政治偏见，并评估了LLM在智能电网操作中的越狱漏洞，显示出安全研究正从单一维度向多维度、场景化的纵深方向发展。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2507.14719"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27633"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.23341"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
