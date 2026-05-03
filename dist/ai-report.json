@@ -1,42 +1,77 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors；OpenAI 奥尔特曼谈 GPT-5.5 自主策划发布会：希望人类开发者为其祝酒，但它自己拒绝发表祝酒词；SmartTune CLI – APM/BF/PX4 Log Analysis for AI Agents。",
+  "global_brief": "AI领域持续主导技术社区讨论，开源模型在编程基准测试中超越闭源巨头，同时本地LLM工具链和跨平台推理引擎加速涌现，开发者对模型兼容性与实用性的关注度显著上升。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5421,
-      "event_count": 98
+      "field_score": 4190,
+      "event_count": 81
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1429,
+      "field_score": 1407,
       "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 707,
-      "event_count": 17
+      "field_score": 662,
+      "event_count": 16
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 707,
-      "event_count": 14
+      "field_score": 616,
+      "event_count": 13
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 106,
-      "event_count": 2
+      "field_score": 195,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 奥尔特曼谈 GPT-5.5 自主策划 发布 会：希望人类开发者为其祝酒，但它自己拒绝发表祝酒词",
-      "summary": "OpenAI 奥尔特曼谈 GPT-5.5 自主策划 发布 会：希望人类开发者为其祝酒，但它自己拒绝发表祝酒词；时间：2026-05-03T09:08:07.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
+      "summary": "A new study examines how large language models perform in a variety of medical contexts, including real emergency room…；In Harvard study, AI offered more accurate emergency room d…",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors"
+        }
+      ]
+    },
+    {
+      "title": "Show HN: Llmconfig – configfile and CLI for local LLM",
+      "summary": "Article URL: https://github.com/kiliczsh/llmconfig Comments URL: https://news.ycombinator.com/item?id=47997944 Points:…；Show HN: Llmconfig – configfile and CLI for local LLM",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/kiliczsh/llmconfig"
+        }
+      ]
+    },
+    {
+      "title": "Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge",
+      "summary": "Article URL: https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-prog…；Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a codin…",
+      "references": [
+        {
+          "source_name": "Hacker News 最佳",
+          "link": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge"
+        }
+      ]
+    },
+    {
+      "title": "Public Runtime for Convera for LLM's",
+      "summary": "Article URL: https://github.com/cjparadise79/CONVERA-PUBLIC Comments URL: https://news.ycombinator.com/item?id=47999666…；Public Runtime for Convera for LLM's",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/cjparadise79/CONVERA-PUBLIC"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
