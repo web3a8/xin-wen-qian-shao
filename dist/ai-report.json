@@ -1,42 +1,77 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Mistral Medium 3.5 Review: A 128B Open-Weight Model With a Coding Agent That Opens PRs For You；OpenAI 奥尔特曼谈 GPT-5.5 自主策划发布会：希望人类开发者为其祝酒，但它自己拒绝发表祝酒词；fix(plugins): reuse workspace metadata for session model refs (#76655)。",
+  "global_brief": "过去24小时，AI领域持续主导技术社区讨论，开源模型与本地推理工具链成为焦点。Kimi K2.6在编程挑战中击败Claude、GPT-5.5和Gemini，引发对开源模型能力的重新评估。同时，围绕AI Agent身份、代码安全及销售数据可信度的讨论也显著升温。 [FACT] TITLE: Kimi K2.6 在编程挑战中击败多个顶级闭源模型 SUMMARY: 一篇分析文章指出，开源的中国模型Kimi K2.6在编程挑战中击败了Anthropic的Claude、OpenAI的GPT-5.5和Google的Gemini，引发社区对开源模型能力的广泛讨论（S…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5491,
-      "event_count": 99
+      "field_score": 5509,
+      "event_count": 100
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1477,
+      "field_score": 1463,
       "event_count": 37
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 616,
-      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 373,
-      "event_count": 7
+      "field_score": 766,
+      "event_count": 15
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 116,
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 691,
+      "event_count": 17
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 153,
       "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 奥尔特曼谈 GPT-5.5 自主策划 发布 会：希望人类开发者为其祝酒，但它自己拒绝发表祝酒词",
-      "summary": "OpenAI 奥尔特曼谈 GPT-5.5 自主策划 发布 会：希望人类开发者为其祝酒，但它自己拒绝发表祝酒词；时间：2026-05-03T09:08:07.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Dataset Generator v1.0.3-beta ships local LLM support — fine-tune your model without paying a cent for API",
+      "summary": "A some time ago I shipped a desktop app to generate LLM fine-tuning datasets. It worked: my Qwen2.5-Coder-7B fine-tune…；Dataset Generator v1.0.3-beta ships local LLM support — fin…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/arondaron/dataset-generator-v103-beta-ships-local-llm-support-fine-tune-your-model-without-paying-a-cent-3f0o"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 奥尔特曼谈 GPT-5.5 自主策划发布会：希望人类开发者为其祝酒，但它自己拒绝发表祝酒词",
+      "summary": "IT之家 5 月 3 日消息，据《Business Insider》今日报道，OpenAI CEO 萨姆 · 奥尔特曼（Sam Altman）在 Stripe Sessions 的一次炉边谈话中透露，他曾让该公司最新的大模型 GPT-5.…；OpenAI 奥尔特曼谈 GPT-5.5 自主策划发布会：希望人类开发者为其祝酒，但它自己拒绝发表祝酒词；5000…",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/946/140.htm"
+        }
+      ]
+    },
+    {
+      "title": "Show HN: Valkyr LM Inference with Realtime Guarantees",
+      "summary": "Show HN: Valkyr LM Inference with Realtime Guarantees；Valkyr is a fresh take on LM Inference runtimes. It's quite different from llama.cpp, vLLM, or ZINC for example. Writte…",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/Foundation42/valkyr"
+        }
+      ]
+    },
+    {
+      "title": "SmartTune CLI – APM/BF/PX4 Log Analysis for AI Agents",
+      "summary": "Article URL: https://github.com/raylanlin/smarttune-cli Comments URL: https://news.ycombinator.com/item?id=47998067 Poi…；SmartTune CLI – APM/BF/PX4 Log Analysis for AI Agents",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/raylanlin/smarttune-cli"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
