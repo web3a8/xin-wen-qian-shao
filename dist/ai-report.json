@@ -1,61 +1,41 @@
 {
-  "global_brief": "AI领域持续主导技术社区讨论，开源模型在编程基准测试中超越闭源巨头，同时本地LLM工具链和跨平台推理引擎加速涌现，开发者对模型兼容性与实用性的关注度显著上升。",
+  "global_brief": "今日AI领域持续高热，开源模型与智能体工具链竞争白热化，Kimi K2.6在编程挑战中击败Claude、GPT-5.5和Gemini，同时Anthropic的Mythos模型发现OpenBSD中一个存在27年的漏洞，凸显了AI在代码审计与性能评测上的双重突破。此外，多项研究揭示了AI在医疗诊断中的潜力及其在情感感知任务中的局限性，而UAE计划将50%政府工作交由智能体AI执行，标志着AI治理进入新阶段。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 4190,
-      "event_count": 81
+      "field_score": 5735,
+      "event_count": 105
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1407,
-      "event_count": 37
+      "field_score": 1457,
+      "event_count": 38
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 662,
-      "event_count": 16
+      "field_score": 606,
+      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 616,
-      "event_count": 13
+      "field_score": 526,
+      "event_count": 11
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 195,
-      "event_count": 4
+      "field_score": 99,
+      "event_count": 2
     }
   ],
   "highlight_facts": [
     {
-      "title": "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
-      "summary": "A new study examines how large language models perform in a variety of medical contexts, including real emergency room…；In Harvard study, AI offered more accurate emergency room d…",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors"
-        }
-      ]
-    },
-    {
-      "title": "Show HN: Llmconfig – configfile and CLI for local LLM",
-      "summary": "Article URL: https://github.com/kiliczsh/llmconfig Comments URL: https://news.ycombinator.com/item?id=47997944 Points:…；Show HN: Llmconfig – configfile and CLI for local LLM",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/kiliczsh/llmconfig"
-        }
-      ]
-    },
-    {
-      "title": "Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge",
-      "summary": "Article URL: https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-prog…；Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a codin…",
+      "title": "Kimi K2.6 在编程挑战中击败主流模型",
+      "summary": "一款开源权重的中国模型Kimi K2.6在编程挑战中击败了Anthropic的Claude、OpenAI的GPT-5.5和Google的Gemini，引发社区对开源模型性能的广泛讨论。",
       "references": [
         {
           "source_name": "Hacker News 最佳",
@@ -64,15 +44,126 @@
       ]
     },
     {
-      "title": "Public Runtime for Convera for LLM's",
-      "summary": "Article URL: https://github.com/cjparadise79/CONVERA-PUBLIC Comments URL: https://news.ycombinator.com/item?id=47999666…；Public Runtime for Convera for LLM's",
+      "title": "Anthropic Mythos 发现 OpenBSD 中 27 年历史漏洞",
+      "summary": "Anthropic的新模型Mythos在审计中发现了OpenBSD操作系统内一个存在27年的漏洞，OpenBSD被认为是审计最严格的操作系统之一。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/cjparadise79/CONVERA-PUBLIC"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/michelle-jones/mythos-found-a-27-year-old-bug-in-openbsd-your-code-is-next-2om2"
+        }
+      ]
+    },
+    {
+      "title": "哈佛研究显示AI在急诊诊断中优于人类医生",
+      "summary": "一项哈佛大学的研究表明，大型语言模型在多种医疗场景中，包括真实急诊室诊断，其准确性超过了两位人类医生。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors"
+        }
+      ]
+    },
+    {
+      "title": "UAE 计划两年内将 50% 政府工作交由智能体 AI 执行",
+      "summary": "阿联酋宣布计划在未来两年内，将50%的政府运作交由智能体AI管理，这是全球范围内政府AI化最激进的举措之一。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://mitsloanme.com/article/uae-plans-to-run-50-of-government-on-agentic-ai-within-two-years"
+        }
+      ]
+    },
+    {
+      "title": "研究显示考虑用户情绪的AI模型更容易出错",
+      "summary": "一项新研究表明，那些试图考虑用户感受的AI模型，在任务执行中更有可能产生错误。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://arstechnica.com/ai/2026/05/study-ai-models-that-consider-users-feeling-are-more-likely-to-make-errors"
+        }
+      ]
+    },
+    {
+      "title": "MIT 专家警告自动化入门级工作可能适得其反",
+      "summary": "一位来自MIT的AI专家发出警告，认为自动化Gen Z的入门级工作可能会产生反效果，影响劳动力培养。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://fortune.com/2026/05/01/automating-gen-z-entry-level-jobs-could-backfire-mit-ai-researcher-andrew-mcafee-talent-pipelines-at-risk"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 智能体工具链生态正在快速成熟",
+      "summary": "从Obscura浏览器到MCP-x-Mac-Seed，再到Stigmem知识织物，多个开源项目正在构建AI智能体的基础设施，表明该领域正从单一模型竞争转向工具链和生态系统的竞争。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/h4ckf0r0day/obscura"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/reverendish/mcp-x-mac-seed"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://news.ycombinator.com/item?id=48002447"
+        }
+      ]
+    },
+    {
+      "title": "成本优化成为AI应用落地的关键驱动力",
+      "summary": "DeepClaude通过将Claude Code与DeepSeek V4 Pro结合，实现了17倍的成本降低，这种“混合模型”策略可能成为企业级AI部署的主流，以平衡性能与成本。",
+      "references": [
+        {
+          "source_name": "Hacker News",
+          "link": "https://github.com/aattaran/deepclaude"
+        }
+      ]
+    },
+    {
+      "title": "AI 在医疗领域的应用需谨慎评估其可靠性",
+      "summary": "尽管哈佛研究显示AI在急诊诊断中表现优于人类，但另一项研究指出AI在考虑用户情感时更易出错，这表明AI在医疗等高风险领域的应用仍需严格的场景化测试和人类监督。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://arstechnica.com/ai/2026/05/study-ai-models-that-consider-users-feeling-are-more-likely-to-make-errors"
+        }
+      ]
+    },
+    {
+      "title": "中国AI社区在工具使用和模型部署上展现出强烈需求",
+      "summary": "中文技术社区（V2EX、LinuxDo）的讨论显示，用户对Claude Code与OpenAI兼容接口的配置、以及Tolaria笔记等集成工具表现出浓厚兴趣，反映出中国开发者对高效、本地化AI工作流的迫切需求。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1210115"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2106096"
+        }
+      ]
+    },
+    {
+      "title": "AI 自动化对就业市场的影响引发担忧",
+      "summary": "MIT专家的警告与UAE激进的AI政府计划形成对比，前者强调自动化入门级工作可能破坏人才培养，后者则追求效率最大化，这预示着社会对AI替代劳动力的接受度存在巨大分歧。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://mitsloanme.com/article/uae-plans-to-run-50-of-government-on-agentic-ai-within-two-years"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://fortune.com/2026/05/01/automating-gen-z-entry-level-jobs-could-backfire-mit-ai-researcher-andrew-mcafee-talent-pipelines-at-risk"
+        }
+      ]
+    }
+  ]
 }
