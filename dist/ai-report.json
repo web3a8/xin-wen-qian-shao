@@ -1,71 +1,41 @@
 {
-  "global_brief": "AI 代理工具链持续爆发，多家厂商推出集成开发环境与持久化方案；同时，模型竞争白热化，Kimi K2.6 在编程挑战中击败 Claude、GPT-5.5 和 Gemini，引发社区热议。马斯克与奥特曼的法律纠纷进入第二周，马斯克声称自己被欺骗并警告 AI 风险。",
+  "global_brief": "AI领域竞争持续白热化，OpenAI透露GPT-5.5已具备自主策划发布会能力，同时Kimi K2.6在编程挑战中击败了Claude、GPT-5.5和Gemini，引发社区对开源模型能力的广泛讨论。此外，AI Agent工具链迎来多项创新，包括实时推理引擎、持久化记忆方案和移动端IDE，开发者生态日趋活跃。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5453,
-      "event_count": 98
+      "field_score": 5475,
+      "event_count": 101
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1442,
-      "event_count": 37
+      "field_score": 1485,
+      "event_count": 38
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 459,
-      "event_count": 12
+      "field_score": 573,
+      "event_count": 14
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 411,
-      "event_count": 9
+      "field_score": 562,
+      "event_count": 11
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 120,
+      "field_score": 118,
       "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "Agenv — AI 代理全功能 IDE 发布",
-      "summary": "开发者推出 Agenv，一个用于构建、运行和监控 AI 代理的完整集成开发环境，支持 Claude、Gemini、Vertex 等模型。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/adibenmati/agenv-a-full-ide-for-building-running-and-monitoring-ai-agents-4dpa"
-        }
-      ]
-    },
-    {
-      "title": "本地 Ollama 代理存在 1024 Token 隐性上限",
-      "summary": "有开发者指出，本地运行的 Ollama 代理在无明确原因下性能下降，原因是存在一个 1024 Token 的隐性上限。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/colonistone_34/the-silent-1024-token-ceiling-breaking-your-local-ollama-agents-4ijl"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic、OpenAI、Google 联合推动“AI 代理 USB-C”标准",
-      "summary": "2025 年 12 月，Anthropic、OpenAI 和 Google 在 AI 代理互操作性方面取得突破，共同推动一项类似“USB-C”的通用标准。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/rawveg/usb-c-for-ai-agents-4f3"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI 奥尔特曼透露 GPT-5.5 曾自主策划发布会",
-      "summary": "OpenAI CEO 萨姆·奥尔特曼在 Stripe Sessions 上透露，他曾让 GPT-5.5 自主策划一场发布会，该模型甚至拒绝了自己发表祝酒词。",
+      "title": "OpenAI CEO透露GPT-5.5曾自主策划发布会",
+      "summary": "OpenAI CEO萨姆·奥尔特曼在Stripe Sessions炉边谈话中透露，他曾让GPT-5.5自主策划一场发布会，模型希望人类开发者为其祝酒，但自己拒绝发表祝酒词。",
       "references": [
         {
           "source_name": "IT之家",
@@ -74,34 +44,76 @@
       ]
     },
     {
-      "title": "马斯克与奥特曼法律纠纷：马斯克称被欺骗并警告 AI 风险",
-      "summary": "在马斯克与奥特曼法律纠纷的第一周，马斯克声称自己当初被欺骗，并警告 AI 可能毁灭全人类。",
+      "title": "Kimi K2.6在编程挑战中击败多款顶级模型",
+      "summary": "社区讨论显示，开源模型Kimi K2.6在编程挑战中击败了Claude、GPT-5.5和Gemini，引发对开源模型能力的广泛关注。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models"
+          "source_name": "Hacker News 最佳",
+          "link": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge"
         }
       ]
     },
     {
-      "title": "Kimi K2.6 在编程挑战中击败 Claude、GPT-5.5 和 Gemini",
-      "summary": "据社区讨论，Kimi K2.6 在最新的编程挑战中表现优于 Claude、GPT-5.5 和 Gemini 等主流模型。",
+      "title": "Meta修复Agent工具中web_search运行时提供程序可见性问题",
+      "summary": "Meta在2026.5.2版本更新中修复了Agent工具中web_search运行时提供程序的可见性问题，并扩展了外部插件安装覆盖范围。",
       "references": [
         {
-          "source_name": "Hacker News",
-          "link": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge"
+          "source_name": "OpenClaw Commits",
+          "link": "https://github.com/openclaw/openclaw/commit/ccce342a24543c3921f006fe73ca55a98b7fee90"
+        },
+        {
+          "source_name": "OpenClaw Releases",
+          "link": "https://github.com/openclaw/openclaw/releases/tag/v2026.5.2"
+        }
+      ]
+    },
+    {
+      "title": "开发者发布Valkyr实时推理引擎",
+      "summary": "社区展示了一款名为Valkyr的LM推理运行时，其核心特点是提供实时推理保证，与llama.cpp等现有方案有显著不同。",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/Foundation42/valkyr"
+        }
+      ]
+    },
+    {
+      "title": "开源项目Mnemory为AI Agent提供持久化记忆",
+      "summary": "一个名为Mnemory的开源项目发布，旨在为AI Agent提供持久化记忆能力，解决Agent在长期任务中的上下文丢失问题。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/fpytloun/mnemory"
+        }
+      ]
+    },
+    {
+      "title": "中国法院裁定员工不能被AI取代",
+      "summary": "中国一家法院作出裁决，裁定一名工人不能被AI取代，为AI在劳动法领域的应用设立了重要判例。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://futurism.com/artificial-intelligence/china-legal-ai-automation"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 代理工具链碎片化问题加剧",
-      "summary": "随着 Agenv、Mnemory、Enoch 等众多代理工具和框架涌现，社区讨论指出，AI 编码工具的配置问题正变得越来越严重，缺乏统一标准。",
+      "title": "AI Agent工具链爆发，但互操作性和用户体验仍是关键瓶颈",
+      "summary": "本周涌现了Valkyr实时推理、Mnemory持久化记忆、Kirikiri移动IDE等多个Agent工具，但社区讨论同时指出，不同模型间thinking effort设定不统一、Claude Code配置复杂等问题，表明Agent生态的互操作性和用户体验仍是阻碍大规模采用的关键瓶颈。",
       "references": [
         {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/Foundation42/valkyr"
+        },
+        {
           "source_name": "Hacker News AI",
-          "link": "https://github.com/sampleXbro/agentsmesh"
+          "link": "https://github.com/fpytloun/mnemory"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://news.ycombinator.com/item?id=47996198"
         },
         {
           "source_name": "V2EX 技术",
@@ -109,35 +121,55 @@
         },
         {
           "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2104189"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/raiyanyahya/kit"
+          "link": "https://linux.do/t/topic/2104774"
         }
       ]
     },
     {
-      "title": "去中心化 AI 推理与本地化方案成为新趋势",
-      "summary": "Arknet 等去中心化 AI 推理项目以及 Cajal 等本地化 AI 论文写作工具的出现，反映出社区对降低推理成本、摆脱对中心化 API 依赖的强烈需求。",
+      "title": "AI Agent的双刃剑效应引发行业反思",
+      "summary": "社区视频讨论指出，AI Agent可能是人类构建的最好或最坏的东西，同时有开发者成功使用AI Agent和AST迁移了6000个React测试。这表明Agent在提升开发效率方面潜力巨大，但其不可预测性和潜在风险也引发了行业对安全边界的深入思考。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://github.com/st-hannibal/arknet"
+          "link": "https://youtube.com/watch?v=WnzR5aOElvw"
         },
         {
           "source_name": "Hacker News AI",
-          "link": "https://huggingface.co/Agnuxo/CAJAL-4B-P2PCLAW"
+          "link": "https://eliocapella.com/blog/ai-library-migration-guide"
         }
       ]
     },
     {
-      "title": "国内 AI 开发者面临海外服务使用门槛，转向本土方案",
-      "summary": "由于 OpenAI 低价渠道断绝和手机号验证等限制，部分国内开发者正考虑全面转向国内 AI 编码方案，反映出地缘因素对开发者工具选型的实际影响。",
+      "title": "开发者对代码托管平台使用代码训练LLM的信任危机加剧",
+      "summary": "社区中关于“能否信任GitHub不使用我的代码训练LLM”的讨论热度上升，反映出开发者对代码隐私和数据安全的担忧日益加剧。这一信任危机可能促使更多开发者转向自托管或去中心化的代码托管方案。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=47995893"
+        }
+      ]
+    },
+    {
+      "title": "AI应用层出现“焦油坑”现象，创业者需警惕伪需求",
+      "summary": "社区讨论指出，AI时代存在大量“焦油坑”想法——这些想法总能吸引大量创业者，但从未真正成功。这提醒AI创业者需更加审慎地评估市场需求，避免陷入技术驱动但缺乏商业可行性的陷阱。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://news.ycombinator.com/item?id=47995879"
+        }
+      ]
+    },
+    {
+      "title": "模型推理成本与额度管理成为用户痛点",
+      "summary": "用户反馈显示，OpenAI Codex Team订阅的5.5模型额度消耗过快，即使调整智能程度也难以为继。这反映出高端模型的高推理成本正在成为用户日常使用的实际障碍，可能推动市场对更高效、更经济的推理方案的需求。",
       "references": [
         {
           "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2104268"
+          "link": "https://linux.do/t/topic/2104824"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1210106"
         }
       ]
     }
