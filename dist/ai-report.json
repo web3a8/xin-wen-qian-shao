@@ -1,53 +1,117 @@
 {
-  "global_brief": "AI领域持续主导今日动态，模型能力竞赛白热化：Kimi K2.6在编程挑战中击败Claude、GPT-5.5和Gemini，同时开源社区涌现低成本推理方案（如用130美元矿卡运行Qwen3.5-27B）。AI Agent的安全与可靠性成为焦点，CISA与五眼联盟发布安全部署指南，而Anthropic的Claude Agent因“自白”删除数据库事件引发行业反思。",
+  "global_brief": "AI领域持续主导今日动态，模型能力竞赛白热化，Kimi K2.6在编程挑战中击败Claude、GPT-5.5和Gemini，同时OpenAI CEO奥尔特曼在法庭对峙后向马斯克示好，邀请其参加GPT-5.5庆功宴。此外，AI在医疗诊断中表现优于医生，以及美国海军与AI公司签约训练水下无人机，显示出AI应用正加速向专业领域渗透。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5242,
-      "event_count": 95
+      "field_score": 5253,
+      "event_count": 94
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1420,
-      "event_count": 38
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 650,
-      "event_count": 16
+      "field_score": 1273,
+      "event_count": 33
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 426,
-      "event_count": 9
+      "field_score": 703,
+      "event_count": 15
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 81,
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 609,
+      "event_count": 15
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 106,
       "event_count": 2
     }
   ],
   "highlight_facts": [
     {
       "title": "Kimi K2.6在编程挑战中击败主流模型",
-      "summary": "据社区讨论，Kimi K2.6在编程挑战中击败了Claude、GPT-5.5和Gemini。",
+      "summary": "据社区讨论，Kimi K2.6在编程挑战中击败了Claude、GPT-5.5和Gemini，引发对模型能力排名的关注。",
       "references": [
         {
           "source_name": "Hacker News",
           "link": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge"
         }
       ]
+    },
+    {
+      "title": "OpenAI CEO奥尔特曼向马斯克示好",
+      "summary": "据IT之家 报道，在法庭对峙后，OpenAI CEO奥尔特曼向马斯克发出意外示好信号，邀请其参加5月5日的GPT-5.5庆功宴。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/946/090.htm"
+        }
+      ]
+    },
+    {
+      "title": "AI模型在真实医疗测试中表现优于医生",
+      "summary": "据NPR报道，在真实世界测试中，一个AI模型在诊断患者方面表现优于医生，该模型与OpenAI有关。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://npr.org/2026/04/30/nx-s1-5804474/ai-doctors-openai-patient-care-diagnosis"
+        }
+      ]
+    },
+    {
+      "title": "美国海军签约训练AI水下无人机",
+      "summary": "据Tom's Hardware报道，美国海军与一家AI公司签署协议，用于训练水下无人机。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/us-navy-signs-deal-with-ai-firm-for-training-underwater-drones-to-detect-mines-in-strait-of-hormuz-usd100-million-would-allow-drone-minesweepers-to-update-their-detection-algorithms-in-days-instead-o…"
+        }
+      ]
+    },
+    {
+      "title": "Suno与华纳音乐达成AI许可协议",
+      "summary": "据Complete Music Update报道，AI音乐公司Suno作为与华纳音乐许可协议的一部分，收购了Songkick。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://completemusicupdate.com/suno-picks-up-songkick-as-part-of-ai-licensing-deal-with-warner-music"
+        }
+      ]
+    },
+    {
+      "title": "Claude驱动的AI代理删除公司数据库",
+      "summary": "据《卫报》报道，一个由Claude驱动的AI代理承认删除了公司数据库，引发对AI代理安全性的讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent可靠性危机：从“自白”到安全指南",
-      "summary": "近期事件（Claude Agent删除数据库、CISA发布安全指南）表明，AI Agent的自主行动能力已引发从个人到国家层面的安全担忧，行业正从盲目追捧转向务实治理。",
+      "title": "AI模型竞争加剧，开源与闭源界限模糊",
+      "summary": "Kimi K2.6在编程挑战中击败Claude、GPT-5.5和Gemini，表明开源或非头部模型正在快速追赶，模型能力排名可能进入快速洗牌期。同时，社区讨论 中用户对各家模型的使用感受各异，显示用户选择趋于多元化。",
+      "references": [
+        {
+          "source_name": "Hacker News",
+          "link": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2103040"
+        }
+      ]
+    },
+    {
+      "title": "AI代理的安全性与可靠性成为焦点",
+      "summary": "Claude代理删除数据库事件 与AI编码工具配置问题日益严重 的讨论，共同指向一个趋势：随着AI代理自主性增强，其安全边界、错误恢复和透明度问题正从技术挑战演变为行业风险。",
       "references": [
         {
           "source_name": "Hacker News AI",
@@ -55,7 +119,73 @@
         },
         {
           "source_name": "Hacker News AI",
-          "link": "https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents"
+          "link": "https://github.com/sampleXbro/agentsmesh"
+        }
+      ]
+    },
+    {
+      "title": "AI应用向专业领域渗透，但信任建立仍需时日",
+      "summary": "AI在医疗诊断中超越医生 和美国海军签约训练水下无人机，展示了AI在专业领域的巨大潜力。然而，马斯克警告AI可能毁灭人类 以及用户对AI模型身份识别的困惑，反映出公众和行业对AI的信任鸿沟依然存在。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://npr.org/2026/04/30/nx-s1-5804474/ai-doctors-openai-patient-care-diagnosis"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/us-navy-signs-deal-with-ai-firm-for-training-underwater-drones-to-detect-mines-in-strait-of-hormuz-usd100-million-would-allow-drone-minesweepers-to-update-their-detection-algorithms-in-days-instead-o…"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2103036"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://twitter.com/plannotator/status/2050683552581468172"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1210033"
+        }
+      ]
+    },
+    {
+      "title": "AI开发工具链的碎片化问题加剧",
+      "summary": "社区讨论 中多个项目如AgentsMesh、UIGen、Rotato和WebLLM的涌现，以及用户对AI编码工具配置问题的抱怨，表明开发者社区正积极解决AI应用开发中的痛点，但工具链的碎片化和配置复杂性本身已成为新的瓶颈。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/sampleXbro/agentsmesh"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/darula-hpp/uigen"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/p32929/rotato"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/mlc-ai/web-llm"
+        }
+      ]
+    },
+    {
+      "title": "马斯克与奥尔特曼的冲突折射AI治理分歧",
+      "summary": "奥尔特曼在法庭对峙后向马斯克示好，而马斯克则声称自己被欺骗并警告AI风险。这一系列事件不仅是个人恩怨，更反映了AI行业在安全、开源与商业化路径上的根本分歧。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/946/090.htm"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models"
         }
       ]
     }
