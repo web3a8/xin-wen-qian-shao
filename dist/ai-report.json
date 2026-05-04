@@ -1,29 +1,29 @@
 {
-  "global_brief": "今日AI领域研究密集，多篇论文聚焦多模态融合的结构性局限、大模型推理效率与安全性评估。同时，前DeepMind科学家David Silver为其AI初创公司Ineffable筹集11亿美元种子轮融资，成为社区讨论焦点。开源生态方面，多个面向AI代理的工具和本地推理引擎项目活跃发布。",
+  "global_brief": "今日AI领域研究密集，多篇论文聚焦多模态融合、推理效率与安全对齐；同时，前DeepMind科学家David Silver为AI初创公司Ineffable筹集11亿美元种子轮，成为社区讨论焦点。此外，多个面向本地部署和Agent工具的开源项目也受到关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 27354,
-      "event_count": 448
+      "field_score": 27046,
+      "event_count": 441
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1756,
-      "event_count": 44
+      "field_score": 1796,
+      "event_count": 45
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1128,
+      "field_score": 1126,
       "event_count": 24
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 475,
-      "event_count": 10
+      "field_score": 563,
+      "event_count": 11
     },
     {
       "field_key": "science",
@@ -34,16 +34,42 @@
   ],
   "highlight_facts": [
     {
-      "title": "多模态融合架构存在结构性局限",
-      "summary": "一篇新研究（arXiv:2604.04465v2）指出，当前多模态架构在创造性认知任务上存在结构性局限。另一项研究则评估了GPT-4o等模型在标准计算机视觉任务上的表现。",
+      "title": "The Topology of Multimodal Fusion: Why Current Architectures Fail at Creative Cognition",
+      "summary": "arXiv:2604.04465v2 Announce Type: replace Abstract: This paper identifies a structural limitation in current multimodal…；The Topology of Multimodal Fusion: Why Current Architectur…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.04465"
-        },
+        }
+      ]
+    },
+    {
+      "title": "How Well Does GPT-4o Understand Vision? Evaluating Multimodal Foundation Models on Standard Computer Vision Tasks",
+      "summary": "arXiv:2507.01955v3 Announce Type: replace-cross Abstract: Multimodal foundation models (MFMs), such as GPT-4o, have rec…；How Well Does GPT-4o Understand Vision? Evaluating Multimo…",
+      "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2507.01955"
+        }
+      ]
+    },
+    {
+      "title": "Silicon Showdown: Performance, Efficiency, and Ecosystem Barriers in Consumer-Grade LLM Inference",
+      "summary": "arXiv:2605.00519v1 Announce Type: cross Abstract: The operational landscape of local Large Language Model (LLM) inferen…；Silicon Showdown: Performance, Efficiency, and Ecosystem B…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.00519"
+        }
+      ]
+    },
+    {
+      "title": "Probing Multimodal Large Language Models on Cognitive Biases in Chinese Short-Video Misinformation",
+      "summary": "arXiv:2601.06600v2 Announce Type: replace Abstract: Short-video platforms have become major channels for misinformation…；Probing Multimodal Large Language Models on Cognitive Bias…",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2601.06600"
         }
       ]
     }
