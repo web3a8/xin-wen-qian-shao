@@ -1,59 +1,78 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在多模态融合的结构性局限、大模型推理效率与安全评估。同时，Anthropic以约9000亿美元估值发起高达500亿美元融资，其企业级API年化收入首次超越OpenAI，标志着大模型商业化进入新阶段。",
+  "global_brief": "今日AI领域研究密集，多篇论文聚焦多模态融合的结构性局限、大模型推理效率与安全性评估。同时，Anthropic以约9000亿美元估值发起巨额融资，其企业级API年化收入首次超越OpenAI，标志着大模型商业化进入B端竞争新阶段。社区侧，关于AI编码代理行为模式的分析工具以及修改LLM行为的新方法引发广泛讨论。 [FACT] TITLE: 多模态融合拓扑结构存在根本性局限 SUMMARY: 一篇新研究 指出，当前多模态架构在创造性认知任务上存在结构性缺陷，无法有效融合不同模态信息。 SCORE: 76 ARTICLE_IDS: 73418fb2fa…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 27481,
-      "event_count": 460
+      "field_score": 27589,
+      "event_count": 462
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1523,
-      "event_count": 39
+      "field_score": 1397,
+      "event_count": 36
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1193,
-      "event_count": 25
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 370,
-      "event_count": 7
+      "field_score": 1197,
+      "event_count": 26
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 362,
-      "event_count": 7
+      "field_score": 588,
+      "event_count": 12
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 483,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "多模态融合架构存在结构性局限",
-      "summary": "一篇新研究 指出，当前多模态架构在创造性认知任务上存在结构性缺陷，限制了其融合能力。",
+      "title": "The Topology of Multimodal Fusion: Why Current Architectures Fail at Creative Cognition",
+      "summary": "arXiv:2604.04465v2 Announce Type: replace Abstract: This paper identifies a structural limitation in current multimodal…；The Topology of Multimodal Fusion: Why Current Architectur…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.04465"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "大模型商业竞争从“模型能力”转向“企业级服务”",
-      "summary": "Anthropic在企业API收入上超越OpenAI，结合其巨额融资，表明大模型下半场的竞争核心已从模型参数和基准分数，转向了企业客户获取、API稳定性和行业解决方案的深度绑定。",
+      "title": "How Well Does GPT-4o Understand Vision? Evaluating Multimodal Foundation Models on Standard Computer Vision Tasks",
+      "summary": "arXiv:2507.01955v3 Announce Type: replace-cross Abstract: Multimodal foundation models (MFMs), such as GPT-4o, have rec…；How Well Does GPT-4o Understand Vision? Evaluating Multimo…",
       "references": [
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/member/articles/3771535"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2507.01955"
+        }
+      ]
+    },
+    {
+      "title": "Silicon Showdown: Performance, Efficiency, and Ecosystem Barriers in Consumer-Grade LLM Inference",
+      "summary": "arXiv:2605.00519v1 Announce Type: cross Abstract: The operational landscape of local Large Language Model (LLM) inferen…；Silicon Showdown: Performance, Efficiency, and Ecosystem B…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.00519"
+        }
+      ]
+    },
+    {
+      "title": "Probing Multimodal Large Language Models on Cognitive Biases in Chinese Short-Video Misinformation",
+      "summary": "arXiv:2601.06600v2 Announce Type: replace Abstract: Short-video platforms have become major channels for misinformation…；Probing Multimodal Large Language Models on Cognitive Bias…",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2601.06600"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
