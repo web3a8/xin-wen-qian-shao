@@ -1,167 +1,57 @@
 {
-  "global_brief": "AI领域持续活跃，多篇研究聚焦于多模态融合的局限性、LLM推理与安全评估，同时社区讨论围绕AI Agent评估工具和本地化部署展开。Anthropic在企业级API收入上首次超越OpenAI，并以约9000亿美元估值发起巨额融资，标志着大模型竞争重心向B端转移。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在多模态融合的结构性局限、大模型推理效率与安全评估。同时，Anthropic以约9000亿美元估值发起高达500亿美元融资，其企业级API年化收入首次超越OpenAI，标志着大模型商业化进入新阶段。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 27290,
-      "event_count": 457
+      "field_score": 27481,
+      "event_count": 460
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1574,
+      "field_score": 1523,
       "event_count": 39
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1185,
+      "field_score": 1193,
       "event_count": 25
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 370,
+      "event_count": 7
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 403,
-      "event_count": 8
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 377,
-      "event_count": 8
+      "field_score": 362,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic企业级API年化收入首超OpenAI，并启动巨额融资",
-      "summary": "据TechCrunch报道，Anthropic正以约9000亿美元估值发起一轮高达500亿美元的融资，其企业级API年化收入（ARR）已首次超越OpenAI，标志着大模型竞争重心向B端转移。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/member/articles/3771535"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示当前多模态融合架构存在结构性缺陷",
-      "summary": "一篇arXiv论文指出，当前多模态架构在创造性认知任务上存在结构性限制，无法有效进行跨模态融合。",
+      "title": "多模态融合架构存在结构性局限",
+      "summary": "一篇新研究 指出，当前多模态架构在创造性认知任务上存在结构性缺陷，限制了其融合能力。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.04465"
-        }
-      ]
-    },
-    {
-      "title": "研究评估GPT-4o在标准计算机视觉任务上的表现",
-      "summary": "一项研究对GPT-4o等多模态基础模型在标准计算机视觉任务上的表现进行了系统评估，探讨了其视觉理解能力的真实水平。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2507.01955"
-        }
-      ]
-    },
-    {
-      "title": "研究探讨AI搜索结果的差异性与偏见操纵",
-      "summary": "一项实验发现，对同一品牌查询，ChatGPT、Gemini、Perplexity等不同AI搜索工具会返回截然不同的结果。另一项研究则探索了如何利用LLM的偏见来操纵AI搜索概览。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/cihangir_bozdogan_76b8c99/nine-search-backends-nine-different-webs-why-ai-citations-diverge-for-the-same-query-5deg"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.00012"
-        }
-      ]
-    },
-    {
-      "title": "多项研究聚焦LLM安全与偏见评估",
-      "summary": "多个新基准被提出，用于评估LLM在金融场景（FinSafetyBench）、军事场景（ARMOR 2025）以及多语言环境（ML-Bench&Guard）下的安全性，同时也有研究关注LLM生成代码中的社会偏见。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.00706"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.00245"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.00689"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.00382"
-        }
-      ]
-    },
-    {
-      "title": "社区推出多项AI Agent评估与编排工具",
-      "summary": "Hacker News上多个讨论聚焦于AI Agent的评估和编排，包括“Evals Skills for AI Agents”评估框架、“Daintree”多Agent编排环境，以及结合Claude和DeepSeek的“DeepClaude”代理循环工具。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/latitude-dev/eval-skills"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/daintreehq/daintree"
-        },
-        {
-          "source_name": "Hacker News 最佳",
-          "link": "https://github.com/aattaran/deepclaude"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "多模态模型在“理解”与“创造”之间存在鸿沟",
-      "summary": "多篇研究指出，当前多模态模型在标准视觉任务和创造性认知任务上均存在不足，这暗示了现有架构在实现真正的跨模态理解和生成方面仍有根本性障碍，而非简单的规模扩展可以解决。",
+      "title": "大模型商业竞争从“模型能力”转向“企业级服务”",
+      "summary": "Anthropic在企业API收入上超越OpenAI，结合其巨额融资，表明大模型下半场的竞争核心已从模型参数和基准分数，转向了企业客户获取、API稳定性和行业解决方案的深度绑定。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.04465"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2507.01955"
-        }
-      ]
-    },
-    {
-      "title": "LLM安全评估正从通用场景向垂直领域深化",
-      "summary": "针对金融、军事等特定领域的安全基准（FinSafetyBench、ARMOR 2025）的出现，表明业界对LLM安全性的关注已从通用对话转向高风险垂直应用，要求模型具备更精细、更符合领域规范的安全对齐能力。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.00706"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.00245"
-        }
-      ]
-    },
-    {
-      "title": "本地化与开源LLM工具链日趋成熟",
-      "summary": "社区涌现出大量针对本地LLM的配置工具（llmconfig）、轻量级推理引擎（VulkanForge）和基准测试工具，表明开发者对摆脱云依赖、实现可控和低成本的本地化AI部署需求日益增长，开源生态正在快速填补这一空白。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/kiliczsh/llmconfig"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/maeddesg/vulkanforge"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/yuvhaim-gif/LLM_InSight"
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/member/articles/3771535"
         }
       ]
     }
