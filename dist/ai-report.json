@@ -1,75 +1,49 @@
 {
-  "global_brief": "AI领域持续主导今日动态，多起重大融资与模型突破事件集中爆发，同时Agent工具链生态迎来密集更新。前DeepMind科学家David Silver为AI初创公司Ineffable筹集11亿美元，而开源模型Kimi K2.6在编程挑战中击败了Claude、GPT-5.5和Gemini，标志着竞争格局的深刻变化。 [FACT] TITLE: 前DeepMind科学家David Silver为AI初创公司Ineffable筹集11亿美元 SUMMARY: 前DeepMind研究员David Silver为其AI初创公司Ineffable筹集…",
+  "global_brief": "今日AI领域研究密集，多篇论文聚焦多模态融合的结构性局限、大模型推理效率与安全性评估。同时，前DeepMind科学家David Silver为其AI初创公司Ineffable筹集11亿美元种子轮融资，成为社区讨论焦点。开源生态方面，多个面向AI代理的工具和本地推理引擎项目活跃发布。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5396,
-      "event_count": 96
+      "field_score": 27354,
+      "event_count": 448
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1674,
-      "event_count": 43
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 559,
-      "event_count": 11
+      "field_score": 1756,
+      "event_count": 44
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 553,
-      "event_count": 14
+      "field_score": 1128,
+      "event_count": 24
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 170,
-      "event_count": 4
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 475,
+      "event_count": 10
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 351,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "Agent Workspace as Code: stop copy-pasting your CLAUDE.md across projects",
-      "summary": "Agent Workspace as Code: stop copy-pasting your CLAUDE.md across projects；The drift problem nobody told you about If you have used Claude Code, Cursor, Aider, or any other AI codi…",
+      "title": "多模态融合架构存在结构性局限",
+      "summary": "一篇新研究（arXiv:2604.04465v2）指出，当前多模态架构在创造性认知任务上存在结构性局限。另一项研究则评估了GPT-4o等模型在标准计算机视觉任务上的表现。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/fernando_pastor/agent-workspace-as-code-stop-copy-pasting-your-claudemd-across-projects-5845"
-        }
-      ]
-    },
-    {
-      "title": "四万亿IPO敲钟前 这批美股早已骑着SpaceX、OpenAI和Anthropic升天",
-      "summary": "四万亿IPO敲钟前 这批美股早已骑着SpaceX、OpenAI和Anthropic升天；引子 SpaceX、OpenAI、Anthropic 合计估值逼近4万亿美元，三家公司将依次走向IPO，且普遍视为2026年最重要的投资机会。 但翘首以待\"IPO 大餐\"的散户可能搞错了一件事：真正的利润早已通过股权链条、信托结构、ETF…",
-      "references": [
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.04465"
+        },
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/member/articles/3771514"
-        }
-      ]
-    },
-    {
-      "title": "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
-      "summary": "A new study examines how large language models perform in a variety of medical contexts, including real emergency room…；In Harvard study, AI offered more accurate emergency room d…",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors"
-        }
-      ]
-    },
-    {
-      "title": "Ex-DeepMind David Silver Raises $1.1B for AI Startup Ineffable",
-      "summary": "Article URL: https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html Com…；Ex-DeepMind David Silver Raises $1.1B for AI Startup Ineff…",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2507.01955"
         }
       ]
     }
