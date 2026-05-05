@@ -1,41 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导科技新闻，多模态模型成为应用增长和学术研究的焦点。Anthropic与OpenAI同时宣布进军企业AI服务市场，而OpenAI正面临来自Elon Musk的法律挑战。学术界则涌现大量关于LLM推理效率、安全性及多模态融合局限性的新研究。",
+  "global_brief": "今日AI领域持续主导技术动态，多模态模型在应用与学术层面均出现关键进展：视觉模型发布带来的下载增长显著超越聊天模型，但商业转化仍是难题；同时，Anthropic与OpenAI分别通过合资企业加速企业级服务落地，而Elon Musk诉OpenAI案的开庭审理为行业治理投下变数。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 28499,
-      "event_count": 488
+      "field_score": 28725,
+      "event_count": 491
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1457,
-      "event_count": 33
+      "field_score": 1408,
+      "event_count": 32
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1195,
+      "field_score": 1224,
       "event_count": 32
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 519,
-      "event_count": 11
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 517,
-      "event_count": 11
+      "field_score": 646,
+      "event_count": 14
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 459,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "视觉AI模型推动应用增长，但收入转化不佳",
-      "summary": "据Appfigures数据，视觉模型发布带来的应用下载量是聊天机器人升级的6.5倍，但大多数应用未能将下载高峰转化为收入。",
+      "title": "Image AI models now drive app growth, beating chatbot upgrades",
+      "summary": "Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.；Image AI models now drive app growth, beating chatbot upgrades",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -44,8 +44,8 @@
       ]
     },
     {
-      "title": "新研究指出当前多模态融合架构存在结构性局限",
-      "summary": "一篇arXiv论文（2604.04465v2）指出，当前多模态架构在创造性认知任务上存在结构性缺陷，并分析了Google和OpenAI相关模型。",
+      "title": "The Topology of Multimodal Fusion: Why Current Architectures Fail at Creative Cognition",
+      "summary": "arXiv:2604.04465v2 Announce Type: replace Abstract: This paper identifies a structural limitation in current multimodal…；The Topology of Multimodal Fusion: Why Current Architectur…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,86 +54,25 @@
       ]
     },
     {
-      "title": "Anthropic与OpenAI同时宣布成立企业AI服务合资公司",
-      "summary": "Anthropic与OpenAI均与资产管理公司合作，推出面向企业的AI服务。Anthropic宣布与黑石、高盛等合作，面向中型企业落地Claude。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/946/337.htm"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI总裁在Musk诉讼案中出庭作证",
-      "summary": "在Elon Musk诉OpenAI的案件中，OpenAI总裁Greg Brockman出庭作证，其证词被描述为“做了所有事，除了回答问题”，成为Musk方最有力的证人之一。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/05/musks-world-war-iii-threat-in-twitter-lawsuit-haunts-him-at-openai-trial"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/May/5/john-gruber"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出LLM DNA方法追踪模型演化",
-      "summary": "一篇arXiv论文（2509.24496v3）提出“LLM DNA”概念，通过功能表征追踪大型语言模型的演化过程。",
+      "title": "How Well Does GPT-4o Understand Vision? Evaluating Multimodal Foundation Models on Standard Computer Vision Tasks",
+      "summary": "arXiv:2507.01955v3 Announce Type: replace-cross Abstract: Multimodal foundation models (MFMs), such as GPT-4o, have rec…；How Well Does GPT-4o Understand Vision? Evaluating Multimo…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2509.24496"
+          "link": "https://arxiv.org/abs/2507.01955"
         }
       ]
     },
     {
-      "title": "研究揭示多模态大模型在中文短视频信息中存在认知偏见",
-      "summary": "一项新研究（arXiv:2601.06600v2）探讨了多模态大语言模型在处理中文短视频平台上的错误信息时表现出的认知偏见。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2601.06600"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "消费级硬件运行大模型仍面临生态壁垒",
-      "summary": "一项关于消费级LLM推理的研究（arXiv:2605.00519v1）指出，尽管硬件性能提升，但生态系统的障碍（如软件兼容性、内存带宽）仍是本地运行70B级别模型的主要瓶颈。",
+      "title": "Silicon Showdown: Performance, Efficiency, and Ecosystem Barriers in Consumer-Grade LLM Inference",
+      "summary": "arXiv:2605.00519v2 Announce Type: cross Abstract: The operational landscape of local Large Language Model (LLM) inferen…；Silicon Showdown: Performance, Efficiency, and Ecosystem B…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.00519"
         }
       ]
-    },
-    {
-      "title": "LLM安全研究从通用基准转向军事等高风险场景",
-      "summary": "新发布的ARMOR 2025基准 专门针对军事场景评估LLM安全，表明AI安全研究正从通用领域向更专业、更高风险的应用场景延伸，反映出AI在国防领域部署的紧迫性。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.00245"
-        }
-      ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
