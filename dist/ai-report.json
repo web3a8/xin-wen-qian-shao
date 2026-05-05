@@ -1,161 +1,57 @@
 {
-  "global_brief": "过去24小时，AI领域竞争白热化：Anthropic以约9000亿美元估值启动500亿美元融资，其企业API年化收入首次超越OpenAI，标志着大模型市场正被B端逻辑改写；同时，OpenAI与普华永道合作推动AI代理进入企业财务流程，并陷入与马斯克的法律纠纷。在技术层面，多模态模型成为焦点，研究指出其架构在创造性认知上存在结构性局限，而视觉模型发布带来的应用下载量增长是聊天机器人升级的6.5倍，但多数未能转化为收入。",
+  "global_brief": "AI 领域持续火热，多模态融合与模型推理效率成为研究焦点，同时企业级 AI 应用竞争加剧，Anthropic 与 OpenAI 在融资和 API 营收上展开激烈角逐。社区侧则涌现出大量面向 AI Agent 和本地部署的工具与讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 55059,
+      "field_score": 55132,
       "event_count": 943
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1841,
-      "event_count": 41
+      "field_score": 1775,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1530,
-      "event_count": 38
+      "field_score": 1554,
+      "event_count": 39
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1025,
+      "field_score": 1022,
       "event_count": 21
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 810,
-      "event_count": 18
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 691,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic以约9000亿美元估值启动500亿美元融资，企业API年化收入首超OpenAI",
-      "summary": "据华尔街见闻等消息，Anthropic正以约9000亿美元估值发起一轮高达500亿美元的融资，投资人被要求在48小时内提交额度申请，整轮交易预计两周内关闭。同时，其企业API年化收入（ARR）首次超越OpenAI，显示大模型市场正被“B端逻辑”改写。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/member/articles/3771535"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI与普华永道合作，推动AI代理进入企业财务流程",
-      "summary": "OpenAI宣布与普华永道（PwC）合作，帮助企业使用AI代理来自动化财务工作流程、改进预测和战略规划，旨在“重新构想CFO办公室”。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/openai-pwc-finance-collaboration"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示多模态融合架构存在结构性局限，影响创造性认知",
-      "summary": "一篇arXiv论文（arXiv:2604.04465v2）指出，当前多模态架构在创造性认知任务上存在结构性限制，这解释了为何现有模型在需要跨模态创意融合的场景中表现不佳。",
+      "title": "多模态融合架构存在结构性局限",
+      "summary": "一篇新论文指出，当前多模态架构在创造性认知任务上存在结构性局限。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.04465"
         }
       ]
-    },
-    {
-      "title": "视觉AI模型发布推动应用增长，但多数未能转化为收入",
-      "summary": "据Appfigures数据，视觉模型发布带来的应用下载量是聊天机器人升级的6.5倍，但大多数应用未能将这一下载高峰转化为可持续的收入。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI总裁在马斯克诉讼案中作证，成为关键证人",
-      "summary": "在马斯克诉OpenAI案中，OpenAI总裁Greg Brockman被描述为“迄今为止最强有力的证人”，但他回避了关键问题。马斯克在庭审中警告AI可能“杀死我们所有人”。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/05/musks-world-war-iii-threat-in-twitter-lawsuit-haunts-him-at-openai-trial"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/May/5/john-gruber"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models"
-        }
-      ]
-    },
-    {
-      "title": "美国国务院就DeepSeek涉嫌AI盗窃向全球发出警告",
-      "summary": "据路透社报道，美国国务院下令向全球发出警告，指控中国AI公司DeepSeek涉嫌盗窃AI技术。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://reuters.com/world/china/us-state-dept-orders-global-warning-about-alleged-china-ai-thefts-by-deepseek-2026-04-24"
-        }
-      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "开源与闭源之争加剧，地缘政治因素渗透AI产业",
-      "summary": "美国国务院对DeepSeek的指控、NHS因安全担忧关闭GitHub仓库等事件，表明AI领域的开源与闭源之争已超越技术层面，日益受到地缘政治和国家安全考量的影响。这可能导致全球AI技术生态进一步分裂。",
+      "title": "企业级 API 市场格局生变，Anthropic 营收首超 OpenAI",
+      "summary": "据华尔街见闻报道，Anthropic 正以约 9000 亿美元估值进行巨额融资，其年度经常性收入（ARR）首次超过 OpenAI，表明大模型竞争正从技术比拼转向 B 端商业化落地。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://reuters.com/world/china/us-state-dept-orders-global-warning-about-alleged-china-ai-thefts-by-deepseek-2026-04-24"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://theregister.com/2026/05/05/nhs_to_closesource_hundreds_of_repos"
-        }
-      ]
-    },
-    {
-      "title": "多模态模型幻觉问题研究升温，推理时干预成为新方向",
-      "summary": "多篇新研究（如arXiv:2605.01766）聚焦于在推理阶段通过相关性传播来缓解多模态大模型的幻觉问题，这标志着学界正从模型训练优化转向更高效的运行时干预策略，有望在不增加训练成本的前提下提升模型可靠性。",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2605.01766"
-        }
-      ]
-    },
-    {
-      "title": "AI代理安全风险受关注，多智能体系统防御机制亟待重构",
-      "summary": "新研究（arXiv:2605.01133）指出，基于嵌入的传统防御机制在多智能体系统中可能失效，这警示业界在推动AI代理落地企业场景时，必须重新思考安全架构，尤其是在金融、医疗等高风险领域。",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2605.01133"
-        }
-      ]
-    },
-    {
-      "title": "边缘端LLM推理成为研究热点，硬件与算法协同优化是关键",
-      "summary": "多篇论文（如arXiv:2605.00519、arXiv:2511.06838）聚焦于消费级硬件上的LLM推理性能、效率及生态壁垒，并探索NPU-PIM等新型加速器。这表明，将大模型部署到边缘设备已成为明确趋势，但需要硬件架构与模型压缩算法的深度协同。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.00519"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2511.06838"
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/member/articles/3771535"
         }
       ]
     }
