@@ -1,51 +1,41 @@
 {
-  "global_brief": "今日AI领域持续主导技术动态，多模态模型在应用与学术层面均出现关键进展：视觉模型发布带来的下载增长显著超越聊天模型，但商业转化仍是难题；同时，Anthropic与OpenAI分别通过合资企业加速企业级服务落地，而Elon Musk诉OpenAI案的开庭审理为行业治理投下变数。",
+  "global_brief": "过去24小时，AI领域研究密集发布，多模态融合与LLM推理效率成为核心议题。同时，OpenAI在法庭与商业合作上均有重大进展，其总裁在马斯克诉讼案中出庭，并与普华永道合作推动AI代理进入企业财务领域。此外，视觉模型正成为应用增长的新引擎，但商业化转化仍是挑战。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 28725,
-      "event_count": 491
+      "field_score": 56684,
+      "event_count": 941
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1408,
-      "event_count": 32
+      "field_score": 2046,
+      "event_count": 45
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1224,
-      "event_count": 32
+      "field_score": 1198,
+      "event_count": 31
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 646,
-      "event_count": 14
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 1009,
+      "event_count": 20
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 459,
-      "event_count": 9
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 800,
+      "event_count": 16
     }
   ],
   "highlight_facts": [
     {
-      "title": "Image AI models now drive app growth, beating chatbot upgrades",
-      "summary": "Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.；Image AI models now drive app growth, beating chatbot upgrades",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades"
-        }
-      ]
-    },
-    {
-      "title": "The Topology of Multimodal Fusion: Why Current Architectures Fail at Creative Cognition",
-      "summary": "arXiv:2604.04465v2 Announce Type: replace Abstract: This paper identifies a structural limitation in current multimodal…；The Topology of Multimodal Fusion: Why Current Architectur…",
+      "title": "多模态融合架构存在结构性局限",
+      "summary": "一篇新论文 指出，当前多模态架构在创造性认知任务上存在结构性缺陷，这为下一代多模态模型的设计提供了关键理论指导。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,8 +44,8 @@
       ]
     },
     {
-      "title": "How Well Does GPT-4o Understand Vision? Evaluating Multimodal Foundation Models on Standard Computer Vision Tasks",
-      "summary": "arXiv:2507.01955v3 Announce Type: replace-cross Abstract: Multimodal foundation models (MFMs), such as GPT-4o, have rec…；How Well Does GPT-4o Understand Vision? Evaluating Multimo…",
+      "title": "GPT-4o视觉理解能力被系统评估",
+      "summary": "一项研究 系统评估了GPT-4o在标准计算机视觉任务上的表现，为理解多模态基础模型的能力边界提供了量化依据。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,15 +54,140 @@
       ]
     },
     {
-      "title": "Silicon Showdown: Performance, Efficiency, and Ecosystem Barriers in Consumer-Grade LLM Inference",
-      "summary": "arXiv:2605.00519v2 Announce Type: cross Abstract: The operational landscape of local Large Language Model (LLM) inferen…；Silicon Showdown: Performance, Efficiency, and Ecosystem B…",
+      "title": "视觉AI模型成为应用增长新引擎",
+      "summary": "据Appfigures数据，视觉模型发布带来的应用下载量是聊天机器人升级的6.5倍，但多数应用未能将这一增长转化为收入。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.00519"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI与普华永道合作重塑CFO办公室",
+      "summary": "OpenAI宣布与普华永道合作，利用AI代理自动化财务工作流程、改进预测和战略规划，推动AI在企业财务领域的深度应用。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/openai-pwc-finance-collaboration"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI总裁在马斯克诉讼案中出庭",
+      "summary": "在马斯克对OpenAI的诉讼中，OpenAI总裁Greg Brockman出庭作证，其证词成为案件关键焦点，涉及马斯克此前在推特诉讼中的言论。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/05/musks-world-war-iii-threat-in-twitter-lawsuit-haunts-him-at-openai-trial"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/May/5/john-gruber"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims"
+        }
+      ]
+    },
+    {
+      "title": "开源多智能体系统安全面临挑战",
+      "summary": "一项新研究 揭示了基于嵌入的防御机制在多智能体系统中的失效风险，呼吁重新审视LLM驱动多智能体系统的安全性。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.01133"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "企业AI代理合作加速，竞争格局生变",
+      "summary": "OpenAI与普华永道 以及Anthropic与资产管理公司的合作，标志着头部AI公司正通过联合企业服务加速商业化，这预示着企业级AI代理市场将进入更激烈的竞争阶段。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/openai-pwc-finance-collaboration"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services"
+        }
+      ]
+    },
+    {
+      "title": "多模态模型评估从通用走向专业细分",
+      "summary": "近期涌现的多个专业基准，如针对表格理解 、牙科实践 和交通运输 的评估，表明行业正从通用能力测试转向更精细、更落地的垂直领域评估，这有助于推动多模态模型在特定行业的可靠应用。",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.01018"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.01333"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.00907"
+        }
+      ]
+    },
+    {
+      "title": "LLM推理效率研究聚焦边缘与量化",
+      "summary": "多篇论文 同时关注消费级硬件上的LLM推理性能、统计无损量化以及边缘端加速器，反映出业界正积极推动大模型从云端走向边缘，降低部署成本是当前的核心趋势。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.00519"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.02404"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2511.06838"
+        }
+      ]
+    },
+    {
+      "title": "AI偏见与安全研究深入高风险场景",
+      "summary": "针对AI在紧急警务调度中的跨语言人口统计偏见审计，以及对LLM偏见操纵AI搜索结果的探索，表明AI安全研究正从理论探讨深入到执法、信息检索等高风险实际应用场景。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.01451"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.00012"
+        }
+      ]
+    },
+    {
+      "title": "多智能体与记忆机制成为研究热点",
+      "summary": "多篇论文 聚焦于LLM代理的记忆构建、多轮强化学习以及上下文描述语言，表明构建更持久、更智能的代理系统是当前AI研究的核心方向之一。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.21714"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.00425"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.01920"
+        }
+      ]
+    }
+  ]
 }
