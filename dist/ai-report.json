@@ -1,48 +1,177 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT；Expose Your App to AI Agents in 30 Minutes: A MCP Integration Pattern；The Topology of Multimodal Fusion: Why Current Architectures Fail at Creative Cognition。",
+  "global_brief": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，声称在敏感领域减少幻觉。与此同时，Elon Musk 与 Sam Altman 关于 OpenAI 未来的法庭对决正在进行，而多篇学术论文聚焦于多模态融合、LLM 推理效率及 Agent 安全等前沿议题。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54085,
-      "event_count": 950
+      "field_score": 53922,
+      "event_count": 949
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1973,
-      "event_count": 44
+      "field_score": 2109,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1594,
+      "field_score": 1578,
       "event_count": 42
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1062,
-      "event_count": 23
+      "field_score": 980,
+      "event_count": 21
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 594,
-      "event_count": 11
+      "field_score": 653,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 发布 GPT-5.5 Instant, a new default model for ChatGPT",
-      "summary": "OpenAI 发布 GPT-5.5 Instant, a new default model for ChatGPT；关键数值：30B；时间：2026-05-05T17:00:00.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型",
+      "summary": "OpenAI 发布了 GPT-5.5 Instant，作为 ChatGPT 的新默认模型。该公司表示，该模型在法律等敏感领域减少了幻觉。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/gpt-5-5-instant"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/924225/openai-chatgpt-default-model-gpt-5-5-instant"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3771598"
+        }
+      ]
     },
     {
-      "title": "Live 更新 from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-      "summary": "Live 更新 from Elon Musk and Sam Altman’s court battle over the future of OpenAI；时间：2026-05-05T20:07:52.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Elon Musk 与 Sam Altman 就 OpenAI 未来走向对簿公堂",
+      "summary": "Sam Altman 和 Elon Musk 正在一场可能改变 OpenAI 未来的高风险审判中对峙。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示当前多模态架构在创造性认知上的结构性缺陷",
+      "summary": "一篇 arXiv 论文指出，当前多模态融合架构存在结构性限制，导致其在创造性认知任务上表现不佳。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.04465"
+        }
+      ]
+    },
+    {
+      "title": "研究评估 GPT-4o 在标准计算机视觉任务上的视觉理解能力",
+      "summary": "一篇 arXiv 论文评估了 GPT-4o 等多模态基础模型在标准计算机视觉任务上的表现。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2507.01955"
+        }
+      ]
+    },
+    {
+      "title": "研究提出用于 LLM 推理的统计无损量化方法",
+      "summary": "一篇 arXiv 论文提出了“统计无损量化”方法，旨在提升大型语言模型的推理效率。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.02404"
+        }
+      ]
+    },
+    {
+      "title": "研究审计了十一个大语言模型在紧急警务调度中的偏见",
+      "summary": "一篇 arXiv 论文对基于 AI 的紧急警务调度中的人口统计偏见进行了跨语言审计，评估了十一个大型语言模型。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.01451"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "多模态模型能力评估与安全审计成为研究焦点",
+      "summary": "近期多篇研究 集中评估了多模态大模型在视觉理解、表格分析和专业领域（如牙科、交通）的表现，同时有研究开始审计其在警务等高风险场景中的偏见，表明行业正从追求模型能力转向更全面的能力验证与安全评估。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2507.01955"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.01451"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.01018"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.00907"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.01333"
+        }
+      ]
+    },
+    {
+      "title": "LLM Agent 安全与多智能体系统风险引发关注",
+      "summary": "多篇研究 探讨了 LLM Agent 的安全问题，包括工具链被用于越狱、基于嵌入的防御失效以及多智能体系统中的尾事件风险，表明随着 Agent 应用普及，其安全性和鲁棒性正成为核心挑战。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.01133"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2511.19175"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2509.25624"
+        }
+      ]
+    },
+    {
+      "title": "本地化与边缘端 LLM 推理成为重要技术趋势",
+      "summary": "多项研究 和社区项目 聚焦于在消费级硬件或边缘设备上高效运行 LLM，涉及模型量化、剪枝、专用加速器及轻量级推理框架，反映出将 AI 能力从云端下沉到本地的强烈需求。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.00519"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2603.23985"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2511.06838"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1210290"
+        }
+      ]
+    }
+  ]
 }
