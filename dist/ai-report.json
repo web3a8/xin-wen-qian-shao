@@ -1,35 +1,35 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导科技动态：DeepSeek首轮融资估值或达450亿美元，同时其低成本高效模型策略引发行业效仿；Anthropic为Claude智能体引入“梦境”机制，并提升Pro/Max用户使用时长；OpenAI总裁在马斯克诉讼案中被迫当庭宣读个人日记，庭审细节持续曝光。此外，多项研究聚焦LLM在软件工程、交易决策及安全公平性方面的应用与挑战。",
+  "global_brief": "今日AI领域持续活跃，DeepSeek首轮融资估值或达450亿美元，同时多项研究聚焦LLM在软件工程、智能合约审计及交易决策中的实际表现与局限。Anthropic推出具备“梦境”能力的Claude托管Agent，而Google则通过Gemma 4的预测式解码实现3倍推理加速，开源社区也涌现出多个自托管AI栈与Agent框架。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 56003,
-      "event_count": 947
+      "field_score": 55914,
+      "event_count": 946
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1974,
-      "event_count": 44
+      "field_score": 1857,
+      "event_count": 41
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1246,
+      "field_score": 1216,
       "event_count": 32
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 632,
-      "event_count": 12
+      "field_score": 877,
+      "event_count": 17
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 631,
-      "event_count": 13
+      "field_score": 695,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
@@ -54,22 +54,22 @@
       ]
     },
     {
+      "title": "Can LLMs Audit Smart Contracts? Benchmarking Claude Opus 4.7, GPT-5.5, and Gemini 3.1 Pro",
+      "summary": "Can LLMs Audit Smart Contracts? Benchmarking Claude Opus 4.7, GPT-5.5, and Gemini 3.1 Pro；I gave 56 known-vulnerable Solidity smart contracts to three frontier LLMs — Claude Opus…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/hayitov/can-llms-audit-smart-contracts-benchmarking-claude-opus-47-gpt-55-and-gemini-31-pro-29jg"
+        }
+      ]
+    },
+    {
       "title": "From Laboratory to Real-World Applications: Benchmarking Agentic Code Reasoning at the Repository Level",
       "summary": "arXiv:2601.03731v3 Announce Type: replace-cross Abstract: As large language models (LLMs) evolve into autonomous agents…；From Laboratory to Real-World Applications: Benchmarking A…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2601.03731"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic's Claude Managed Agents can now \"dream,\" sort of",
-      "summary": "Also, 5-hour usage limits will double for Pro and Max users of Claude Code.；Anthropic's Claude Managed Agents can now \"dream,\" sort of",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of"
         }
       ]
     }
