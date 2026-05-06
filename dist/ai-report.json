@@ -1,41 +1,51 @@
 {
-  "global_brief": "今日AI领域研究密集，涵盖LLM在软件设计、代码推理、交易决策及安全审计等多方面的实证与评估。同时，前沿企业正深化AI应用，而模型效率与安全风险（如虚假仓库传播木马）也成为关注焦点。",
+  "global_brief": "AI 领域持续主导今日动态，DeepSeek 首轮融资估值或达 450 亿美元，同时 OpenAI 与马斯克的法律纠纷进入关键阶段。产业界正加速从聊天机器人向智能体（Agent）工作流转型，但 AI 在金融交易等高风险场景的表现仍不理想。 [FACT] TITLE: DeepSeek 首轮融资估值或达 450 亿美元 SUMMARY: 中国 AI 实验室 DeepSeek 在 2025 年初凭借大语言模型崭露头角，其首轮投资估值可能达到 450 亿美元。 SCORE: 95 ARTICLE_IDS: e6be06f1a84d2e0352a676…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 55604,
+      "field_score": 55837,
       "event_count": 943
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1787,
-      "event_count": 40
+      "field_score": 2088,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1282,
+      "field_score": 1268,
       "event_count": 32
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 713,
-      "event_count": 13
     },
     {
       "field_key": "science",
       "field_name": "Science",
       "field_score": 631,
       "event_count": 13
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 538,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "LLM在软件设计中的实证研究",
-      "summary": "一项发表在arXiv上的研究 通过分析GitHub上的实践和从业者调查，实证评估了大型语言模型（LLM）在软件设计中的应用。",
+      "title": "DeepSeek could hit $45B valuation from its first investment round",
+      "summary": "DeepSeek could hit $45B valuation from its first investment round；The Chinese AI lab came to prominence in early 2025 after launching a large language model that trained on a frac…",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round"
+        }
+      ]
+    },
+    {
+      "title": "Using LLMs in Software Design: An Empirical Study of GitHub and A Practitioner Survey",
+      "summary": "arXiv:2605.01392v1 Announce Type: cross Abstract: Recent advancements in Large Language Models (LLMs) have demonstrated…；Using LLMs in Software Design: An Empirical Study of GitHu…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -44,106 +54,25 @@
       ]
     },
     {
-      "title": "前沿企业如何构建AI优势",
-      "summary": "OpenAI发布B2B Signals研究报告，揭示了前沿企业如何深化AI应用、规模化部署以构建竞争优势。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/introducing-b2b-signals"
-        }
-      ]
-    },
-    {
-      "title": "AI交易员在模拟竞赛中表现不佳",
-      "summary": "一系列公开交易竞赛的早期结果显示，主流LLM在自主交易中普遍表现欠佳，多数系统亏损且交易过频。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3771681"
-        }
-      ]
-    },
-    {
-      "title": "谷歌Gemma 4模型推理速度提升3倍",
-      "summary": "Ars Technica报道，谷歌的Gemma 4 AI模型通过预测未来令牌技术，实现了高达3倍的推理速度提升，且声称不损失质量。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster"
-        }
-      ]
-    },
-    {
-      "title": "微软警告GitHub上出现假冒DeepSeek V4的恶意仓库",
-      "summary": "微软威胁情报团队警告，有黑客在GitHub上创建虚假仓库，冒充DeepSeek V4模型名义，诱导用户下载实为Vidar等木马的文件。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/946/979.htm"
-        }
-      ]
-    },
-    {
-      "title": "马斯克与奥特曼就OpenAI未来对簿公堂",
-      "summary": "The Verge报道，埃隆·马斯克与萨姆·奥特曼正在进行一场可能改变OpenAI未来的高 stakes 法庭对决。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "商汤科技以成本效率策略应对竞争",
-      "summary": "商汤科技首席科学家林达华表示，公司从DeepSeek获得启发，即使资源受限也能推出高性能模型，并强调将以成本取胜，这反映了中国AI公司在算力限制下的务实发展路径。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/947/007.htm"
-        }
-      ]
-    },
-    {
-      "title": "开源模型安全与供应链风险加剧",
-      "summary": "微软警告的假冒DeepSeek V4仓库事件，凸显了开源AI生态中供应链攻击的严峻性。结合多项关于LLM安全性的研究，表明模型部署和使用的安全防护已成为与模型性能同等重要的议题。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/946/979.htm"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.01147"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.01451"
-        }
-      ]
-    },
-    {
-      "title": "智能体系统正从实验室走向工业应用",
-      "summary": "多项研究 聚焦于将LLM智能体应用于代码仓库级推理、工业优化建模和软件运维等真实场景，表明AI智能体正从概念验证阶段加速向生产环境渗透，但其安全性与公平性取决于交互拓扑结构而非模型规模。",
+      "title": "From Laboratory to Real-World Applications: Benchmarking Agentic Code Reasoning at the Repository Level",
+      "summary": "arXiv:2601.03731v3 Announce Type: replace-cross Abstract: As large language models (LLMs) evolve into autonomous agents…；From Laboratory to Real-World Applications: Benchmarking A…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2601.03731"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Anthropic's Claude Managed Agents can now \"dream,\" sort of",
+      "summary": "Also, 5-hour usage limits will double for Pro and Max users of Claude Code.；Anthropic's Claude Managed Agents can now \"dream,\" sort of",
+      "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.02728"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2605.02906"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.01147"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
