@@ -1,35 +1,35 @@
 {
-  "global_brief": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，旨在减少幻觉。同时，多项研究聚焦于 LLM 在软件工程、推理优化及安全性方面的应用，包括对 GitHub 上 LLM 软件设计的实证研究 以及关于智能体 AI 安全性的新观点。",
+  "global_brief": "过去24小时，AI领域动态密集：OpenAI发布GPT-5.5 Instant作为ChatGPT新默认模型，同时Chrome的AI功能被发现可能占用高达4GB存储空间。多篇研究聚焦LLM在软件设计、代码推理及金融交易等场景的实际表现，其中AI交易员在公开竞赛中集体表现不佳，揭示了模型在复杂决策中的局限性。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 56457,
-      "event_count": 931
+      "field_score": 55151,
+      "event_count": 910
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1786,
-      "event_count": 40
+      "field_score": 2028,
+      "event_count": 45
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1248,
-      "event_count": 31
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 717,
-      "event_count": 13
+      "field_score": 1348,
+      "event_count": 33
     },
     {
       "field_key": "science",
       "field_name": "Science",
       "field_score": 657,
       "event_count": 13
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 616,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
@@ -54,6 +54,20 @@
       ]
     },
     {
+      "title": "Chrome’s AI features may be hogging 4GB of your computer storage",
+      "summary": "Chrome’s AI features may be hogging 4GB of your computer storage；Google Chrome may be taking up more of your storage than expected thanks to a large on-device AI model file that,…",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/gadgets/2026/05/google-home-gets-upgraded-gemini-voice-assistant-and-new-camera-controls"
+        }
+      ]
+    },
+    {
       "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
       "summary": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT；The company said the model reduces hallucination in sensitive areas such as law, medicine, and finance, while main…",
       "references": [
@@ -64,20 +78,6 @@
         {
           "source_name": "爱范儿",
           "link": "https://ifanr.com/1664764"
-        }
-      ]
-    },
-    {
-      "title": "Orthographic Constraint Satisfaction and Human Difficulty Alignment in Large Language Models",
-      "summary": "arXiv:2511.21086v2 Announce Type: replace Abstract: Large language models must satisfy hard orthographic constraints du…；Orthographic Constraint Satisfaction and Human Difficulty…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2511.21086"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2512.04032"
         }
       ]
     }
