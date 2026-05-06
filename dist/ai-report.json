@@ -1,46 +1,42 @@
 {
-  "global_brief": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，提升了准确性与个性化。与此同时，学术界围绕 LLM 推理效率、Agent 安全与代码生成等方向发布了多项研究成果，涵盖从消费级推理到故障容错服务等多个层面。",
+  "global_brief": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，声称在敏感领域大幅减少幻觉。同时，多项研究聚焦于 LLM 在软件工程、推理效率及安全公平性方面的应用与挑战，GitHub 上的实证研究探讨了 LLM 在软件设计中的使用。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 58027,
-      "event_count": 932
+      "field_score": 56411,
+      "event_count": 928
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1614,
-      "event_count": 40
+      "field_score": 1726,
+      "event_count": 43
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1520,
+      "field_score": 1516,
       "event_count": 33
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 683,
-      "event_count": 13
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 674,
+      "field_score": 848,
+      "event_count": 16
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 657,
       "event_count": 13
     }
   ],
   "highlight_facts": [
     {
       "title": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型",
-      "summary": "OpenAI 正式推出 GPT-5.5 Instant，该模型已更新为 ChatGPT 的默认模型，提供更智能、更准确、更个性化的回答，并减少了幻觉现象。",
+      "summary": "OpenAI 发布了 GPT-5.5 Instant，作为 ChatGPT 的新默认模型。该公司表示，该模型在法律等敏感领域减少了幻觉现象。",
       "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/gpt-5-5-instant"
-        },
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt"
@@ -56,28 +52,64 @@
       ]
     },
     {
-      "title": "研究提出 GhostServe 系统以支持容错 LLM 服务",
-      "summary": "一项新研究提出了 GhostServe，这是一个轻量级检查点系统，旨在为基于百万 Token 和 Agent 的应用提供容错 LLM 服务。",
+      "title": "研究：LLM 在软件设计中的应用实证研究",
+      "summary": "一项发表在 arXiv 上的研究，通过对 GitHub 的实证分析和从业者调查，探讨了大型语言模型在软件设计中的应用。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.00831"
+          "link": "https://arxiv.org/abs/2605.01392"
         }
       ]
     },
     {
-      "title": "研究发布 VEBench 基准，评估多模态模型视频编辑能力",
-      "summary": "一项新研究发布了 VEBench 基准，用于评估大型多模态模型在真实世界视频编辑任务中的表现。",
+      "title": "研究：从实验室到现实世界的智能体代码推理基准测试",
+      "summary": "一项研究提出了一个在仓库级别对智能体代码推理能力进行基准测试的框架，旨在评估 LLM 从实验室环境到实际应用的表现。",
       "references": [
         {
-          "source_name": "arXiv 计算机视觉",
-          "link": "https://arxiv.org/abs/2605.03276"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.03731"
         }
       ]
     },
     {
-      "title": "研究提出 Agentic AI 安全与公平性取决于交互拓扑结构",
-      "summary": "一篇立场论文指出，Agentic AI 的安全性和公平性主要取决于交互拓扑结构，而非模型规模或对齐技术。",
+      "title": "实践报告：从 Llama 2 13B 迁移至 Mistral 2 7B 的推理成本与效果",
+      "summary": "一份实践报告显示，通过领域特定微调，将 12 个生产级 LLM 工作负载从 Llama 2 13B 迁移至 Mistral 2 7B 后，推理成本显著降低。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/johalputt/the-truth-about-migration-with-fine-tuning-and-mistral-2-results-4jcf"
+        }
+      ]
+    },
+    {
+      "title": "研究：LLM 的正字法约束满足与人类难度对齐",
+      "summary": "一项研究探讨了大型语言模型在满足硬性正字法约束方面的能力，并提出了与人类难度感知对齐的方法。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2511.21086"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2512.04032"
+        }
+      ]
+    },
+    {
+      "title": "产品更新：Chrome AI 功能可能占用高达 4GB 存储空间",
+      "summary": "据报道，Chrome 浏览器内置的 AI 功能可能会占用用户电脑高达 4GB 的存储空间。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "智能体 AI 的安全与公平性取决于交互拓扑而非模型规模",
+      "summary": "一项新研究提出观点，认为在智能体 AI 系统中，安全与公平性更多地取决于智能体之间的交互拓扑结构，而非模型本身的规模或对齐技术。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -86,70 +118,12 @@
       ]
     },
     {
-      "title": "研究发布消费级 LLM 推理性能与效率对比",
-      "summary": "一项名为“Silicon Showdown”的研究评估了消费级硬件上运行 70B 参数 LLM 的性能、效率和生态系统障碍。",
+      "title": "消费级硬件运行 70B 模型仍面临性能和生态壁垒",
+      "summary": "一项关于消费级 GPU 运行 LLM 推理的研究指出，尽管硬件性能在提升，但运行 70B 级别模型时仍面临显著的性能瓶颈和生态系统障碍。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.00519"
-        }
-      ]
-    },
-    {
-      "title": "研究提出通过思维链重构精准剪枝推理模型",
-      "summary": "一项新研究提出，可以通过思维链重构来精准剪枝推理模型，例如 DeepSeek-R1，以提升效率。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2509.12464"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "谷歌新订阅层级或加剧 AI 服务定价竞争",
-      "summary": "谷歌计划推出代号“Neon”的 Gemini 新订阅层级，定价约 100 美元，旨在填补 Pro 与 Ultra 之间的空白。此举可能加剧与 OpenAI 和 Anthropic 在 AI 订阅服务市场的竞争。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/946/773.htm"
-        }
-      ]
-    },
-    {
-      "title": "学术界关注 LLM 在软件工程中的实际应用与安全风险",
-      "summary": "多项研究同时关注 LLM 在软件设计、代码推理和机器人系统中的应用，并指出从提示词到物理执行的全链路威胁建模至关重要，表明学术界正从能力探索转向实际部署的安全与可靠性评估。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.01392"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.03731"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27267"
-        }
-      ]
-    },
-    {
-      "title": "小模型与高效推理成为降低 AI 部署门槛的关键方向",
-      "summary": "多项研究聚焦于小模型微调（如 RadLite）、低精度训练（如 TetraJet-v2）和动态推理加速（如 TokenTiming），表明业界正积极寻求在消费级硬件上高效部署 LLM 的解决方案，以降低 AI 应用门槛。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.00421"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2510.27527"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2510.15545"
         }
       ]
     }
