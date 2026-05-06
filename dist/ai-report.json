@@ -1,49 +1,49 @@
 {
-  "global_brief": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，声称在敏感领域减少了幻觉。同时，多篇学术研究聚焦于 LLM 在软件工程、推理效率、安全性和 Agent 系统中的应用与挑战，显示出行业正从模型能力竞赛转向工程化落地与安全治理。",
+  "global_brief": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，提升准确性与个性化；同时，多篇 arXiv 研究聚焦于 LLM 在软件工程、Agent 系统及推理效率方面的进展，谷歌被曝正开发 Gemini 新订阅层级。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 58449,
-      "event_count": 940
+      "field_score": 58071,
+      "event_count": 932
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1812,
-      "event_count": 39
+      "field_score": 1672,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1216,
-      "event_count": 30
+      "field_score": 1141,
+      "event_count": 28
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 734,
+      "event_count": 14
     },
     {
       "field_key": "science",
       "field_name": "Science",
       "field_score": 728,
       "event_count": 14
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 693,
-      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
       "title": "OpenAI 发布 GPT-5.5 Instant 模型",
-      "summary": "OpenAI 发布了 GPT-5.5 Instant，作为 ChatGPT 的新默认模型。该公司表示，该模型在法律等敏感领域减少了幻觉，并提供了更智能、更准确的回答。",
+      "summary": "OpenAI 正式推出 GPT-5.5 Instant，作为 ChatGPT 的新默认模型，声称其更智能、更准确，并减少了幻觉现象。",
       "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt"
-        },
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/gpt-5-5-instant"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt"
         },
         {
           "source_name": "The Verge",
@@ -58,8 +58,8 @@
   ],
   "highlight_opinions": [
     {
-      "title": "Agent 系统安全取决于交互拓扑而非模型规模",
-      "summary": "一篇立场论文认为，Agentic AI 的安全性和公平性主要取决于 Agent 之间的交互拓扑结构，而非模型规模或对齐技术，这为 Agent 系统的设计提供了新的安全视角。",
+      "title": "Agent 系统安全性与公平性取决于交互拓扑结构",
+      "summary": "一项研究指出，Agent 化 AI 的安全与公平性主要依赖于交互拓扑结构，而非模型规模或对齐技术，这挑战了当前主流的安全研究范式。",
       "references": [
         {
           "source_name": "arXiv AI",
