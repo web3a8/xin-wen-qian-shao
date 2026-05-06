@@ -1,41 +1,41 @@
 {
-  "global_brief": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，声称在敏感领域减少幻觉。苹果计划在 iOS 27 中允许用户选择第三方 AI 模型，支持谷歌与 Anthropic 等。多篇研究关注多模态融合的结构性局限、消费级硬件推理效率及 LLM 安全性，社区侧则涌现大量本地推理与 Agent 工具。 [FACT] TITLE: OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型 SUMMARY: OpenAI 发布了 GPT-5.5 Instant，作为…",
+  "global_brief": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，声称在敏感领域减少幻觉。苹果计划在 iOS 27 中允许用户选择第三方 AI 模型。多项研究聚焦于 AI 智能体安全、多模态融合局限及本地推理效率。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54500,
-      "event_count": 960
+      "field_score": 57702,
+      "event_count": 992
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1878,
-      "event_count": 42
+      "field_score": 1984,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1329,
-      "event_count": 35
+      "field_score": 1081,
+      "event_count": 28
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 980,
-      "event_count": 21
+      "field_score": 1048,
+      "event_count": 22
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 643,
-      "event_count": 12
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 664,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
-      "summary": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT；The company said the model reduces hallucination in sensitive areas such as law, medicine, and finance, while main…",
+      "title": "OpenAI 发布 GPT-5.5 Instant 模型",
+      "summary": "OpenAI 发布 GPT-5.5 Instant，作为 ChatGPT 的新默认模型。该公司表示，该模型在法律等敏感领域减少了幻觉。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -56,35 +56,96 @@
       ]
     },
     {
-      "title": "The Topology of Multimodal Fusion: Why Current Architectures Fail at Creative Cognition",
-      "summary": "arXiv:2604.04465v2 Announce Type: replace Abstract: This paper identifies a structural limitation in current multimodal…；The Topology of Multimodal Fusion: Why Current Architectur…",
+      "title": "苹果 iOS 27 将支持用户选择第三方 AI 模型",
+      "summary": "苹果计划在 iOS 27、iPadOS 27 及 macOS 27 中，允许用户自行选择第三方 AI 模型，例如谷歌和 Anthropic 的模型，为设备上的 AI 功能提供支持。",
       "references": [
         {
-          "source_name": "arXiv AI",
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/946/606.htm"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示多模态融合架构在创造性认知上的结构性局限",
+      "summary": "一项研究指出，当前多模态 AI 架构在创造性认知方面存在结构性局限，并分析了谷歌、OpenAI 等模型的表现。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
           "link": "https://arxiv.org/abs/2604.04465"
         }
       ]
     },
     {
-      "title": "How Well Does GPT-4o Understand Vision? Evaluating Multimodal Foundation Models on Standard Computer Vision Tasks",
-      "summary": "arXiv:2507.01955v3 Announce Type: replace-cross Abstract: Multimodal foundation models (MFMs), such as GPT-4o, have rec…；How Well Does GPT-4o Understand Vision? Evaluating Multimo…",
+      "title": "研究提出 AI 智能体安全取决于交互拓扑而非模型规模",
+      "summary": "一项新研究提出观点，认为 AI 智能体的安全与公平性取决于交互拓扑结构，而非模型规模或对齐技术。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2507.01955"
+          "link": "https://arxiv.org/abs/2605.01147"
         }
       ]
     },
     {
-      "title": "Silicon Showdown: Performance, Efficiency, and Ecosystem Barriers in Consumer-Grade LLM Inference",
-      "summary": "arXiv:2605.00519v2 Announce Type: cross Abstract: The operational landscape of local Large Language Model (LLM) inferen…；Silicon Showdown: Performance, Efficiency, and Ecosystem B…",
+      "title": "研究发布消费者级硬件运行 70B 参数 LLM 推理的性能与效率评估",
+      "summary": "一项研究对在消费级硬件上运行 70B 参数大语言模型的性能、效率和生态壁垒进行了评估。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.00519"
         }
       ]
+    },
+    {
+      "title": "研究提出用于容错 LLM 服务的轻量级检查点系统 GhostServe",
+      "summary": "一项研究提出了 GhostServe，一个用于容错大语言模型服务的轻量级检查点系统，旨在应对百万 token 级智能体应用的需求。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.00831"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "多篇研究集中关注 AI 智能体安全，表明行业正从追求能力转向构建安全框架",
+      "summary": "近期多项研究（如交互拓扑决定安全、零信任访问控制、嵌入防御失效等）集中探讨 AI 智能体安全问题，反映出业界在推动智能体应用落地的同时，正加速构建系统性的安全与治理框架。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.01147"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.02682"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.01133"
+        }
+      ]
+    },
+    {
+      "title": "本地 LLM 推理工具链日趋成熟，推动 AI 应用向边缘和私有化部署发展",
+      "summary": "从消费者级硬件推理评估到轻量级检查点系统 GhostServe，再到边缘推理加速器 P3-LLM，一系列研究显示本地化、私有化部署 LLM 的技术栈正在快速成熟，这将降低企业使用 AI 的门槛和成本。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.00519"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.00831"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2511.06838"
+        }
+      ]
+    }
+  ]
 }
