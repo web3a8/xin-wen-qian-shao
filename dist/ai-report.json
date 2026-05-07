@@ -1,28 +1,28 @@
 {
-  "global_brief": "今日AI领域持续主导科技动态，多项研究聚焦于LLM的推理、幻觉与Agent能力，同时产业侧出现多起重要融资与产品更新，包括DeepSeek首轮融资估值曝光、Anthropic与SpaceX达成算力协议，以及Google推出无屏幕Fitbit Air与AI健康教练服务。此外，Elon Musk与Sam Altman关于OpenAI未来的法庭对峙成为行业焦点。",
+  "global_brief": "今日AI领域持续主导全站动态，OpenAI在语音模型、广告测试和安全功能上密集更新，同时与Elon Musk的法律诉讼进入关键阶段；Anthropic与SpaceX达成算力协议，DeepSeek首轮融资估值曝光，显示行业资本与算力竞争白热化；多篇前沿研究聚焦LLM推理、幻觉及Agent可靠性，学术与产业同步推进。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 34479,
-      "event_count": 592
+      "field_score": 34987,
+      "event_count": 600
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1693,
-      "event_count": 38
+      "field_score": 1690,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1681,
+      "field_score": 1639,
       "event_count": 41
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 563,
+      "field_score": 582,
       "event_count": 11
     },
     {
@@ -34,8 +34,78 @@
   ],
   "highlight_facts": [
     {
-      "title": "DeepSeek首轮融资曝光，估值450亿美元",
-      "summary": "据爱范儿报道，DeepSeek首轮融资细节曝光，公司估值达到450亿美元，成为AI领域又一重大融资事件。",
+      "title": "OpenAI推出API内新型实时语音模型，支持推理与翻译",
+      "summary": "OpenAI在API中发布了新的实时语音模型，具备推理、翻译等能力，旨在推进语音智能发展。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/947/451.htm"
+        },
+        {
+          "source_name": "joanwestenberg.com",
+          "link": "https://joanwestenberg.com/the-war-between-fast-and-legitimate-is-here"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI开始在ChatGPT中测试广告，以支持免费访问",
+      "summary": "OpenAI宣布开始测试在ChatGPT中投放广告，并承诺提供清晰的标签、答案独立性和强隐私保护，以维持免费服务。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/testing-ads-in-chatgpt"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI推出ChatGPT“可信联系人”安全功能",
+      "summary": "OpenAI为ChatGPT引入一项可选安全功能，允许成年用户指定可信联系人，在出现安全问题时自动通知对方。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification"
+        }
+      ]
+    },
+    {
+      "title": "Elon Musk与Sam Altman就OpenAI未来展开法庭对决",
+      "summary": "Elon Musk与Sam Altman之间的高 stakes 审判正在进行，该案可能改变OpenAI的未来走向。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic与SpaceX达成算力协议，获超22万块英伟达GPU",
+      "summary": "Anthropic与SpaceX签署算力协议，获得超过22万块英伟达GPU，同时提高了Claude Code的使用限制。",
+      "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1664941"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek首轮融资曝光，估值达450亿美元",
+      "summary": "据多家媒体报道，DeepSeek首轮融资细节曝光，公司估值达到450亿美元。",
       "references": [
         {
           "source_name": "爱范儿",
@@ -46,20 +116,48 @@
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent工具链加速成熟，但信任与验证仍是核心挑战",
-      "summary": "从TSCG确定性工具编译到GitHub Copilot的“信任层”构建，再到Spotify为AI生成音频内容开放平台，业界正加速构建Agent工具链。然而，GitHub博客强调验证Agent行为（当“正确”并非确定时）仍是关键难题，这反映出行业在追求效率的同时，对可靠性和安全性的关注度正在上升。",
+      "title": "前沿模型推理模式引发道德判断分歧，安全对齐面临新挑战",
+      "summary": "一项针对五款前沿模型的研究 发现，启用推理模式会显著改变LLM的道德判断，这暗示着随着模型推理能力的增强，其安全对齐策略可能需要根本性调整，而非简单优化。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.04107"
+          "link": "https://arxiv.org/abs/2605.04488"
+        }
+      ]
+    },
+    {
+      "title": "学术写作中LLM的流畅性与事实性脱节，幻觉问题仍是关键瓶颈",
+      "summary": "最新研究 指出，LLM在学术写作中表现出“流畅但不真实”的幻觉现象，这凸显了在专业领域应用中，仅依赖语言流畅度评估模型质量存在巨大风险，需要更严格的真实性验证机制。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.04171"
+        }
+      ]
+    },
+    {
+      "title": "多来源合并报道显示，AI行业正从模型竞赛转向应用与商业化落地",
+      "summary": "从OpenAI的语音API、广告测试到Spotify的AI音频内容，再到Anthropic的算力扩张，行业焦点正从单纯发布更强模型，转向构建可盈利的应用场景和基础设施，商业化进程加速。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api"
         },
         {
-          "source_name": "GitHub Blog",
-          "link": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says"
         },
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/entertainment/925916/save-to-spotify-ai-podcasts"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/947/451.htm"
+        },
+        {
+          "source_name": "joanwestenberg.com",
+          "link": "https://joanwestenberg.com/the-war-between-fast-and-legitimate-is-here"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/testing-ads-in-chatgpt"
         },
         {
           "source_name": "TechCrunch",
