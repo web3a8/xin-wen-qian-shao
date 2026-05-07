@@ -1,29 +1,29 @@
 {
-  "global_brief": "今日AI领域持续活跃，DeepSeek首轮融资估值或达450亿美元，同时多项研究聚焦LLM在软件工程、智能合约审计及交易决策中的实际表现与局限。Anthropic推出具备“梦境”能力的Claude托管Agent，而Google则通过Gemma 4的预测式解码实现3倍推理加速，开源社区也涌现出多个自托管AI栈与Agent框架。",
+  "global_brief": "DeepSeek首轮融资估值或达450亿美元，引发行业对低成本高性能AI路线的广泛讨论；Anthropic与SpaceX达成大规模算力协议，并提升Claude Code使用限制；OpenAI前CTO Mira Murati在法庭作证称无法信任CEO Sam Altman，公司治理争议持续发酵。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 55914,
-      "event_count": 946
+      "field_score": 55279,
+      "event_count": 937
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1857,
-      "event_count": 41
+      "field_score": 2029,
+      "event_count": 45
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1216,
-      "event_count": 32
+      "field_score": 1109,
+      "event_count": 28
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 877,
-      "event_count": 17
+      "field_score": 934,
+      "event_count": 18
     },
     {
       "field_key": "science",
@@ -34,45 +34,30 @@
   ],
   "highlight_facts": [
     {
-      "title": "DeepSeek could hit $45B valuation from its first investment round",
-      "summary": "DeepSeek could hit $45B valuation from its first investment round；The Chinese AI lab came to prominence in early 2025 after launching a large language model that trained on a frac…",
+      "title": "DeepSeek首轮融资估值或达450亿美元",
+      "summary": "据多家消息，中国AI实验室DeepSeek首轮融资估值可能达到450亿美元，该公司在2025年初因推出大型语言模型而声名鹊起。",
       "references": [
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round"
-        }
-      ]
-    },
-    {
-      "title": "Using LLMs in Software Design: An Empirical Study of GitHub and A Practitioner Survey",
-      "summary": "arXiv:2605.01392v1 Announce Type: cross Abstract: Recent advancements in Large Language Models (LLMs) have demonstrated…；Using LLMs in Software Design: An Empirical Study of GitHu…",
-      "references": [
+        },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.01392"
-        }
-      ]
-    },
-    {
-      "title": "Can LLMs Audit Smart Contracts? Benchmarking Claude Opus 4.7, GPT-5.5, and Gemini 3.1 Pro",
-      "summary": "Can LLMs Audit Smart Contracts? Benchmarking Claude Opus 4.7, GPT-5.5, and Gemini 3.1 Pro；I gave 56 known-vulnerable Solidity smart contracts to three frontier LLMs — Claude Opus…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/hayitov/can-llms-audit-smart-contracts-benchmarking-claude-opus-47-gpt-55-and-gemini-31-pro-29jg"
-        }
-      ]
-    },
-    {
-      "title": "From Laboratory to Real-World Applications: Benchmarking Agentic Code Reasoning at the Repository Level",
-      "summary": "arXiv:2601.03731v3 Announce Type: replace-cross Abstract: As large language models (LLMs) evolve into autonomous agents…；From Laboratory to Real-World Applications: Benchmarking A…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.03731"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1664941"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI加速工程产出引发项目管理挑战",
+      "summary": "随着Claude Code、Cursor、Codex等AI编码工具的普及，工程师的代码产出速度大幅提升，这给产品经理（PM）带来了如何跟上节奏、评估进度和管理团队的新挑战。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48037249"
+        }
+      ]
+    }
+  ]
 }
