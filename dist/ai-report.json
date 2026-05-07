@@ -1,58 +1,72 @@
 {
-  "global_brief": "DeepSeek首轮融资估值或达450亿美元，引发市场对AI投资热潮的持续关注；Anthropic与SpaceX达成算力协议，并为其Claude Managed Agents引入“梦境”功能，同时提升Claude Code使用限制；多篇学术研究聚焦LLM幻觉、推理模式及多智能体协作，推动行业对模型可靠性与效率的深入探讨。",
+  "global_brief": "DeepSeek 首轮融资估值或达 450 亿美元，引发市场对 AI 独角兽估值的广泛讨论。Anthropic 与 SpaceX 达成算力协议，并提升 Claude Code 使用限制，同时推出可“做梦”的托管 Agent。社区侧围绕 AI Agent 的安全性与工具链管理展开密集讨论，多款开源项目旨在解决 Agent 凭证、上下文追踪与版本控制问题。 [FACT] TITLE: DeepSeek 首轮融资估值或达 450 亿美元 SUMMARY: 中国 AI 实验室 DeepSeek 在其首轮融资中估值可能达到 450 亿美元，该公司在 2025 年…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 35559,
-      "event_count": 597
+      "field_score": 34921,
+      "event_count": 586
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1610,
-      "event_count": 37
+      "field_score": 1818,
+      "event_count": 40
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1591,
-      "event_count": 39
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 707,
-      "event_count": 15
+      "field_score": 1768,
+      "event_count": 43
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 600,
-      "event_count": 12
+      "field_score": 670,
+      "event_count": 14
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 523,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "DeepSeek首轮融资估值或达450亿美元",
-      "summary": "中国AI实验室DeepSeek在其首轮融资中估值可能达到450亿美元，该公司因在2025年初发布大型语言模型而声名鹊起。",
+      "title": "DeepSeek could hit $45B valuation from its first investment round",
+      "summary": "DeepSeek could hit $45B valuation from its first investment round；The Chinese AI lab came to prominence in early 2025 after launching a large language model that trained on a frac…",
       "references": [
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "AI投资趋于理性，但头部公司仍获巨额资本",
-      "summary": "DeepSeek高达450亿美元的估值与Anthropic与SpaceX的算力协议表明，尽管市场对AI支出趋于理性，但头部公司仍能吸引巨额资本，算力资源成为核心竞争壁垒。",
+      "title": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Mod…",
+      "summary": "arXiv:2605.04488v1 Announce Type: new Abstract: We evaluate whether enabling provider-exposed reasoning mode changes mo…；How Does Thinking Mode Change LLM Moral Judgments? A Contr…",
       "references": [
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round"
-        },
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.04488"
+        }
+      ]
+    },
+    {
+      "title": "TSCG: Deterministic Tool-Schema Compilation for Agentic LLM Deployments",
+      "summary": "arXiv:2605.04107v1 Announce Type: cross Abstract: Production agent frameworks (OpenAI Function Calling, Anthropic Tool…；TSCG: Deterministic Tool-Schema Compilation for Agentic LLM…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.04107"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic's Claude Managed Agents can now \"dream,\" sort of",
+      "summary": "Also, 5-hour usage limits will double for Pro and Max users of Claude Code.；Anthropic's Claude Managed Agents can now \"dream,\" sort of；IT之家 5 月 7 日消息，科技行业正进入人工智能支出趋于理性的新阶段，企业管理平台…",
+      "references": [
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of"
@@ -67,5 +81,6 @@
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
