@@ -1,41 +1,41 @@
 {
-  "global_brief": "DeepSeek 首轮融资估值或达450亿美元，引发市场对AI公司估值泡沫的讨论；Anthropic 与 SpaceX 达成算力协议，并提升 Claude Code 使用限制，同时其 Managed Agents 新增“梦境”功能；多篇学术研究聚焦 LLM 推理模式、幻觉问题及智能体可靠性，开源社区则涌现 Docker AI Stack、Proteus 等工具，推动 AI 基础设施的本地化与高效管理。",
+  "global_brief": "DeepSeek 首轮融资估值或达 450 亿美元，成为 AI 领域最受关注的资本事件；Anthropic 与 SpaceX 达成算力协议并提升 Claude Code 使用额度，AI 编程工具生态持续扩张；多篇学术论文聚焦 LLM 推理模式、幻觉问题及 Agent 安全，行业正从模型能力向工程化与安全治理深化。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 37276,
-      "event_count": 613
+      "field_score": 36963,
+      "event_count": 608
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1637,
-      "event_count": 37
+      "field_score": 1453,
+      "event_count": 33
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 955,
-      "event_count": 24
+      "field_score": 1345,
+      "event_count": 33
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 668,
-      "event_count": 13
+      "field_score": 624,
+      "event_count": 12
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 599,
-      "event_count": 13
+      "field_score": 538,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "DeepSeek could hit $45B valuation from its first investment round",
-      "summary": "DeepSeek could hit $45B valuation from its first investment round；The Chinese AI lab came to prominence in early 2025 after launching a large language model that trained on a frac…",
+      "title": "DeepSeek 首轮融资估值或达 450 亿美元",
+      "summary": "中国 AI 实验室 DeepSeek 在其首轮融资中估值可能达到 450 亿美元，这一消息由 TechCrunch 报道。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -44,8 +44,30 @@
       ]
     },
     {
-      "title": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Mod…",
-      "summary": "arXiv:2605.04488v1 Announce Type: new Abstract: We evaluate whether enabling provider-exposed reasoning mode changes mo…；How Does Thinking Mode Change LLM Moral Judgments? A Contr…",
+      "title": "Anthropic 与 SpaceX 达成算力协议，提升 Claude Code 使用额度",
+      "summary": "Anthropic 与 SpaceX 达成算力协议，获得超 22 万块英伟达 GPU，同时将 Claude Code 的 Pro 和 Max 用户 5 小时使用限额翻倍。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/947/221.htm"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1664830"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示 LLM 推理模式对道德判断的影响",
+      "summary": "一项新研究（arXiv:2605.04488）评估了启用推理模式如何改变五个前沿模型的道德判断，发现“思考模式”会显著影响 LLM 的伦理决策。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,25 +76,88 @@
       ]
     },
     {
-      "title": "TSCG: Deterministic Tool-Schema Compilation for Agentic LLM Deployments",
-      "summary": "arXiv:2605.04107v1 Announce Type: cross Abstract: Production agent frameworks (OpenAI Function Calling, Anthropic Tool…；TSCG: Deterministic Tool-Schema Compilation for Agentic LLM…",
+      "title": "出版商起诉 Meta 在 AI 训练中使用书籍侵犯版权",
+      "summary": "多家出版商起诉 Meta，指控其在训练 AI 模型时使用受版权保护的书籍，该事件在 Hacker News 引发广泛讨论。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.04107"
+          "source_name": "Hacker News AI",
+          "link": "https://washingtonpost.com/national-security/2026/05/05/publishers-sue-meta-ai-copyright"
         }
       ]
     },
     {
-      "title": "Not All That Is Fluent Is Factual: Investigating Hallucinations of Large Language Models in Academic Writing",
-      "summary": "arXiv:2605.04171v1 Announce Type: new Abstract: Large Language models (LLMs) show extraordinary abilities, but they are…；Not All That Is Fluent Is Factual: Investigating Hallucina…",
+      "title": "腾讯开源多模态搜索 AI 智能体训练方案 OpenSearch-VL",
+      "summary": "腾讯混元联合 UCLA、香港中文大学等发布 OpenSearch-VL，通过强化学习技术突破多模态搜索 AI 智能体的训练瓶颈。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/947/174.htm"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出 LLM 预训练数据版权问题的法律分析",
+      "summary": "一项研究（arXiv:2505.00020）使用合法获取的 34 本 O'Reilly 受版权保护的书籍数据集，探讨了 LLM 预训练数据中超越公开访问的版权问题。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2505.00020"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "AI Agent 安全风险从理论走向现实，需建立更强监管",
+      "summary": "有评论指出，Anthropic 的“Mythos”事件表明 AI 武器核查需要更强有力的工具，同时一起 AI Agent 被黑客利用推文盗取 20 万美元的事件，凸显了 Agent 安全防护的紧迫性。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://bloomberg.com/opinion/articles/2026-05-07/anthropic-s-mythos-shows-ai-weapons-inspectors-need-sharp-teeth"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://ccn.com/news/crypto/ai-agent-drained-for-200k-with-this-one-tweet-hack-heres-how"
+        }
+      ]
+    },
+    {
+      "title": "欧洲主权 AI 与开源工具生态并行发展",
+      "summary": "德国 Stackit 和 neuland.ai 计划在欧洲数据中心提供 LLM 服务，同时社区涌现出 Docker AI Stack、Proteus 等开源工具，表明在巨头主导之外，区域化部署和开发者工具生态正在加速成熟。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/hwdsl2/docker-ai-stack"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1210638"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://heise.de/en/news/Sovereign-AI-from-Germany-11284778.html"
+        }
+      ]
+    },
+    {
+      "title": "LLM 学术写作幻觉问题引发对 AI 可靠性的担忧",
+      "summary": "新研究指出，LLM 在学术写作中生成的流畅文本并不等同于事实准确，这加剧了学术界对 AI 生成内容可靠性的担忧，尤其是在需要严格事实核查的场景下。",
       "references": [
         {
           "source_name": "arXiv NLP",
           "link": "https://arxiv.org/abs/2605.04171"
         }
       ]
+    },
+    {
+      "title": "多智能体 LLM 推理模型在行为模拟中表现不佳",
+      "summary": "一项研究发现，推理模型在多智能体谈判的行为模拟中反而会损害效果，揭示了“求解器-采样器”不匹配问题，表明当前推理模型在模拟人类行为方面存在根本性局限。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.11840"
+        }
+      ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
