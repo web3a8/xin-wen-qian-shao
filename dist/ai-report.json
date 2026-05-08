@@ -1,41 +1,41 @@
 {
-  "global_brief": "OpenAI 发布 API 语音智能新模型，同时其与马斯克的法律纠纷进入庭审阶段；社区热议 Chrome 悄然下载 Gemini Nano 模型引发的隐私与资源占用问题，以及 AI 成本上升对行业的影响。",
+  "global_brief": "OpenAI 发布 API 语音智能新模型，并扩展网络安全可信访问计划；多项研究聚焦 LLM 推理、幻觉与智能体效率，同时社区关注 AI 应用中的数据泄露风险。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32744,
-      "event_count": 562
+      "field_score": 34669,
+      "event_count": 591
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1436,
-      "event_count": 34
+      "field_score": 1243,
+      "event_count": 30
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 999,
-      "event_count": 25
+      "field_score": 1196,
+      "event_count": 29
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 652,
-      "event_count": 14
+      "field_score": 598,
+      "event_count": 13
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 558,
+      "field_score": 549,
       "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "Advancing voice intelligence with new models in the API",
-      "summary": "Advancing voice intelligence with new models in the API；Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more na…；Mi…",
+      "title": "OpenAI 发布 API 语音智能新模型",
+      "summary": "OpenAI 在 API 中推出新的实时语音模型，具备推理、翻译等能力，可用于客服系统等场景。",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -52,33 +52,7 @@
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/tech-policy/2026/05/elon-musk-tried-to-hire-openai-founders-to-start-ai-unit-inside-tesla"
-        }
-      ]
-    },
-    {
-      "title": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Mod…",
-      "summary": "arXiv:2605.04488v1 Announce Type: new Abstract: We evaluate whether enabling provider-exposed reasoning mode changes mo…；How Does Thinking Mode Change LLM Moral Judgments? A Contr…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.04488"
-        }
-      ]
-    },
-    {
-      "title": "TSCG: Deterministic Tool-Schema Compilation for Agentic LLM Deployments",
-      "summary": "arXiv:2605.04107v1 Announce Type: cross Abstract: Production agent frameworks (OpenAI Function Calling, Anthropic Tool…；TSCG: Deterministic Tool-Schema Compilation for Agentic LLM…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.04107"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI launches new voice intelligence features in its API",
-      "summary": "OpenAI launches new voice intelligence features in its API；The new features could be handy for customer service systems, but OpenAI says they have applications that work across a……",
-      "references": [
+        },
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api"
@@ -86,17 +60,20 @@
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1665115"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/947/482.htm"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 应用数据泄露风险普遍存在",
+      "summary": "有开发者指出，其审计的每个 LLM 应用都存在用户输入真实数据（如姓名、邮箱）的问题，并构建了开源 AI 防火墙来应对。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/bgp/i-built-an-open-source-ai-firewall-because-every-llm-app-leaks-data-5468"
+        }
+      ]
+    }
+  ]
 }
