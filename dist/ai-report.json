@@ -1,28 +1,28 @@
 {
-  "global_brief": "OpenAI 推出 GPT-5.5 系列用于网络安全，并上线 ChatGPT 安全联系人功能；Google 发布无屏幕 Fitbit Air 及 AI 健康教练服务；多项研究聚焦 LLM 推理模式、道德判断及多智能体协作中的性能瓶颈。",
+  "global_brief": "今日AI领域研究密集，多篇论文聚焦LLM推理、安全与Agent效率，同时社区围绕Agent工具链与安全风险展开热烈讨论。甲骨文因AI加速漏洞修复而加快安全补丁节奏，Gemini 3.1 Flash-Lite模型正式退出预览。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54194,
-      "event_count": 925
+      "field_score": 54105,
+      "event_count": 927
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1471,
+      "field_score": 1504,
       "event_count": 34
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1421,
-      "event_count": 34
+      "field_score": 1169,
+      "event_count": 28
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 685,
+      "field_score": 675,
       "event_count": 14
     },
     {
@@ -34,50 +34,8 @@
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 推出 GPT-5.5 和 GPT-5.5-Cyber 用于网络安全",
-      "summary": "OpenAI 扩展了其“可信访问”计划，推出 GPT-5.5 和专门用于网络安全的 GPT-5.5-Cyber 模型，旨在帮助经过验证的防御者加速漏洞发现等工作。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber"
-        }
-      ]
-    },
-    {
-      "title": "ChatGPT 上线“可信联系人”安全功能",
-      "summary": "OpenAI 为 ChatGPT 推出可选安全功能，允许成年用户指定“可信联系人”，在检测到安全问题时通知亲友。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api"
-        }
-      ]
-    },
-    {
-      "title": "Google 发布无屏幕 Fitbit Air 及 AI 健康教练",
-      "summary": "Google 推出售价 100 美元的屏幕无屏 Fitbit Air，并计划于 5 月 19 日上线每月 9.99 美元的 AI 健康教练服务，以替代原有 Fitbit 应用。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/07/googles-9-99-per-month-ai-health-coach-launches-may-19"
-        },
-        {
-          "source_name": "少数派",
-          "link": "https://sspai.com/post/109489"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示 LLM 推理模式影响道德判断",
-      "summary": "一项针对五个前沿模型的研究评估了启用推理模式是否会改变 LLM 的道德判断，发现“即时”与“思考”模式下的判断存在差异。",
+      "title": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Mod…",
+      "summary": "arXiv:2605.04488v1 Announce Type: new Abstract: We evaluate whether enabling provider-exposed reasoning mode changes mo…；How Does Thinking Mode Change LLM Moral Judgments? A Contr…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -86,64 +44,35 @@
       ]
     },
     {
-      "title": "研究指出推理模型在多智能体谈判中表现不佳",
-      "summary": "一项研究发现，在行为模拟和战略问题解决存在差异的多智能体 LLM 谈判场景中，推理模型反而会损害模拟效果，存在“求解器-采样器”不匹配问题。",
+      "title": "TSCG: Deterministic Tool-Schema Compilation for Agentic LLM Deployments",
+      "summary": "arXiv:2605.04107v1 Announce Type: cross Abstract: Production agent frameworks (OpenAI Function Calling, Anthropic Tool…；TSCG: Deterministic Tool-Schema Compilation for Agentic LLM…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.11840"
+          "link": "https://arxiv.org/abs/2605.04107"
         }
       ]
     },
     {
-      "title": "研究提出用于 LLM 微调的安全退化风险评分方法",
-      "summary": "一项新研究提出从参数动态到风险评分的框架，用于量化 LLM 在微调过程中样本级别的安全对齐退化程度。",
+      "title": "Epistemic Observability in Language Models",
+      "summary": "arXiv:2603.20531v2 Announce Type: replace-cross Abstract: We find that models report highest confidence precisely when…；Epistemic Observability in Language Models",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2603.20531"
+        }
+      ]
+    },
+    {
+      "title": "Beyond Public Access in LLM Pre-Training Data",
+      "summary": "arXiv:2505.00020v2 Announce Type: replace-cross Abstract: Using a legally obtained dataset of 34 copyrighted O'Reilly M…；Beyond Public Access in LLM Pre-Training Data",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.04572"
+          "link": "https://arxiv.org/abs/2505.00020"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI 编码工具市场进入会员制竞争阶段",
-      "summary": "社区讨论显示，用户正面临在 Cursor、Codex、GitHub Copilot 等多个 AI 编码代理工具间选择单一高级会员还是多个基础会员的决策困境，反映出该领域产品同质化与用户订阅疲劳。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1210961"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1211200"
-        }
-      ]
-    },
-    {
-      "title": "AI 辅助可能削弱人类独立解决问题的能力",
-      "summary": "一项研究指出，AI 辅助会降低用户的持久性并损害其独立表现，这引发了关于过度依赖 AI 工具对长期技能发展潜在负面影响的讨论。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://ai-project-website.github.io/AI-assistance-reduces-persistence"
-        }
-      ]
-    },
-    {
-      "title": "设备端 AI 部署引发隐私承诺倒退的担忧",
-      "summary": "社区讨论指出，Google 在将 AI 模型植入设备后，悄然移除了此前关于设备端 AI 的隐私保证，这引发了关于科技公司在部署 AI 时如何平衡功能与用户隐私的质疑。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://thatprivacyguy.com/blog/google-quietly-removes-on-device-ai-privacy-claim"
-        },
-        {
-          "source_name": "Hacker News 最佳",
-          "link": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
