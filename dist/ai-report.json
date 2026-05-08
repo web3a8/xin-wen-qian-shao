@@ -1,41 +1,41 @@
 {
-  "global_brief": "OpenAI 发布 API 新语音模型并测试 ChatGPT 广告，同时与马斯克对簿公堂；DeepSeek 首轮融资估值曝光达 450 亿美元；Google 推出无屏幕 Fitbit Air 及 AI 健康教练服务。多篇研究关注 LLM 推理模式对道德判断的影响、幻觉问题及智能体部署效率。",
+  "global_brief": "OpenAI 发布 API 语音智能新模型，同时其与马斯克的法律纠纷进入庭审阶段；社区热议 Chrome 悄然下载 Gemini Nano 模型引发的隐私与资源占用问题，以及 AI 成本上升对行业的影响。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 34152,
-      "event_count": 585
+      "field_score": 32744,
+      "event_count": 562
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1631,
-      "event_count": 38
+      "field_score": 1436,
+      "event_count": 34
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1555,
-      "event_count": 40
+      "field_score": 999,
+      "event_count": 25
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 639,
+      "field_score": 652,
       "event_count": 14
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 564,
+      "field_score": 558,
       "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 发布 API 新语音模型并测试广告",
-      "summary": "OpenAI 在 API 中推出新的实时语音模型，支持推理和翻译功能，同时开始在 ChatGPT 中测试广告以支持免费访问，广告将带有明确标识。",
+      "title": "Advancing voice intelligence with new models in the API",
+      "summary": "Advancing voice intelligence with new models in the API；Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more na…；Mi…",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -52,7 +52,33 @@
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/tech-policy/2026/05/elon-musk-tried-to-hire-openai-founders-to-start-ai-unit-inside-tesla"
-        },
+        }
+      ]
+    },
+    {
+      "title": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Mod…",
+      "summary": "arXiv:2605.04488v1 Announce Type: new Abstract: We evaluate whether enabling provider-exposed reasoning mode changes mo…；How Does Thinking Mode Change LLM Moral Judgments? A Contr…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.04488"
+        }
+      ]
+    },
+    {
+      "title": "TSCG: Deterministic Tool-Schema Compilation for Agentic LLM Deployments",
+      "summary": "arXiv:2605.04107v1 Announce Type: cross Abstract: Production agent frameworks (OpenAI Function Calling, Anthropic Tool…；TSCG: Deterministic Tool-Schema Compilation for Agentic LLM…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.04107"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI launches new voice intelligence features in its API",
+      "summary": "OpenAI launches new voice intelligence features in its API；The new features could be handy for customer service systems, but OpenAI says they have applications that work across a……",
+      "references": [
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api"
@@ -60,6 +86,14 @@
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1665115"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/947/482.htm"
         }
       ]
     }
