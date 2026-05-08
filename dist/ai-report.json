@@ -1,83 +1,58 @@
 {
-  "global_brief": "今日AI领域持续活跃，OpenAI发布新版语音智能API并扩展网络安全访问权限，同时Anthropic传出计划融资数百亿美元以冲击万亿估值。中国移动发布MoMA模型服务平台，宣称可将Token成本压降30%。多篇前沿研究聚焦于LLM推理、多模态理解及Agent系统，行业竞争与技术创新同步加速。",
+  "global_brief": "过去24小时的重要动态主要集中在：\"How I Made Claude Code, Codex, and Gemini CLI Share One Local API\"；How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Models；TSCG: Deterministic Tool-Schema Compilation for Agentic LLM Deployments。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54986,
-      "event_count": 907
+      "field_score": 55188,
+      "event_count": 915
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1551,
+      "field_score": 1545,
       "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1165,
-      "event_count": 28
+      "field_score": 1395,
+      "event_count": 34
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 727,
+      "event_count": 15
     },
     {
       "field_key": "science",
       "field_name": "Science",
       "field_score": 655,
       "event_count": 13
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 631,
-      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI发布新版语音智能API",
-      "summary": "OpenAI宣布推出新版实时语音模型API，具备推理、翻译等能力，并强调可用于客服系统，同时推出“可信联系人”功能以应对安全关切。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/926383/mira-murati-sam-altman-musk-trial-ouster"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/05/elon-musk-tried-to-hire-openai-founders-to-start-ai-unit-inside-tesla"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification"
-        }
-      ]
+      "title": "OpenAI 发布 new voice intelligence features in its API",
+      "summary": "OpenAI 发布 new voice intelligence features in its API；时间：2026-05-07T22:24:50.000Z；证据级别：weak；置信度：0.45",
+      "references": []
+    },
+    {
+      "title": "Google 发布 screenless Fitbit Air and Google Health app to replace Fitbit",
+      "summary": "Google 发布 screenless Fitbit Air and Google Health app to replace Fitbit；时间：2026-05-07T14:00:50.000Z；证据级别：weak；置信度：0.45",
+      "references": []
+    },
+    {
+      "title": "Live 更新 from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "summary": "Live 更新 from Elon Musk and Sam Altman’s court battle over the future of OpenAI；时间：2026-05-07T19:54:20.000Z；证据级别：weak；置信度：0.35",
+      "references": []
+    },
+    {
+      "title": "Local Intrinsic Dimension 发布 Hallucinations in Diffusion Models",
+      "summary": "Local Intrinsic Dimension 发布 Hallucinations in Diffusion Models；时间：2026-05-08T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "模型推理能力与安全性的矛盾日益凸显",
-      "summary": "多项研究（如道德判断、越狱攻击）表明，随着LLM推理能力的增强，其行为可预测性和安全性面临新挑战。这提示行业在追求更强推理模型的同时，需同步加强安全对齐与鲁棒性评估。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.04488"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05058"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
