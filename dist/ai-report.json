@@ -1,34 +1,34 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕LLM推理模式对道德判断的影响、工具调用编译优化、以及预训练数据版权边界等议题。同时，甲骨文宣布因AI技术加速漏洞修复流程，将加快安全补丁发布节奏，Chrome本地AI模型占用4GB存储空间引发用户关注。",
+  "global_brief": "AI 领域持续活跃，研究重点集中在 LLM 的推理模式、Agent 框架安全性与成本效益，以及模型压缩与微调技术。同时，AI 编码 Agent 工具（如 Claude Code、Codex）的社区讨论热度极高，涌现出大量提升其安全性与效率的第三方工具。甲骨文宣布因 AI 技术加速漏洞修复流程，将加快安全补丁发布节奏，体现了 AI 在网络安全领域的实际应用价值。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 51745,
-      "event_count": 912
+      "field_score": 52193,
+      "event_count": 918
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1941,
-      "event_count": 45
+      "field_score": 2043,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 921,
+      "field_score": 911,
       "event_count": 23
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 655,
-      "event_count": 14
+      "field_score": 610,
+      "event_count": 13
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 582,
+      "field_score": 571,
       "event_count": 12
     }
   ],
@@ -54,22 +54,22 @@
       ]
     },
     {
+      "title": "The Hidden Math Behind AI Agents: Why GPT-4o Can Be More Expensive Than Hiring a Human",
+      "summary": "The Hidden Math Behind AI Agents: Why GPT-4o Can Be More Expensive Than Hiring a Human；TL;DR: I built a free calculator that models the true cost of AI autonomous agents vs. human…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/bytecalculators/the-hidden-math-behind-ai-agents-why-gpt-4o-can-be-more-expensive-than-hiring-a-human-2efc"
+        }
+      ]
+    },
+    {
       "title": "Epistemic Observability in Language Models",
       "summary": "arXiv:2603.20531v2 Announce Type: replace-cross Abstract: We find that models report highest confidence precisely when…；Epistemic Observability in Language Models",
       "references": [
         {
           "source_name": "arXiv NLP",
           "link": "https://arxiv.org/abs/2603.20531"
-        }
-      ]
-    },
-    {
-      "title": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
-      "summary": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
-      "references": [
-        {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b"
         }
       ]
     }
