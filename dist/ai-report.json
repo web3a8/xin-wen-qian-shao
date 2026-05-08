@@ -1,23 +1,23 @@
 {
-  "global_brief": "今日AI领域持续高热，多模态与智能体技术成为焦点。OpenAI发布全新语音智能API，中国移动推出MoMA平台大幅降低Token成本，同时关于AI智能体安全与本地化部署的讨论也显著升温。",
+  "global_brief": "今日AI领域持续活跃，OpenAI发布新版语音智能API并扩展网络安全访问权限，同时Anthropic传出计划融资数百亿美元以冲击万亿估值。中国移动发布MoMA模型服务平台，宣称可将Token成本压降30%。多篇前沿研究聚焦于LLM推理、多模态理解及Agent系统，行业竞争与技术创新同步加速。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54884,
-      "event_count": 898
+      "field_score": 54986,
+      "event_count": 907
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1530,
-      "event_count": 35
+      "field_score": 1551,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1164,
-      "event_count": 29
+      "field_score": 1165,
+      "event_count": 28
     },
     {
       "field_key": "science",
@@ -28,44 +28,14 @@
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 598,
-      "event_count": 12
+      "field_score": 631,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Mod…",
-      "summary": "arXiv:2605.04488v1 Announce Type: new Abstract: We evaluate whether enabling provider-exposed reasoning mode changes mo…；How Does Thinking Mode Change LLM Moral Judgments? A Contr…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.04488"
-        }
-      ]
-    },
-    {
-      "title": "TSCG: Deterministic Tool-Schema Compilation for Agentic LLM Deployments",
-      "summary": "arXiv:2605.04107v1 Announce Type: cross Abstract: Production agent frameworks (OpenAI Function Calling, Anthropic Tool…；TSCG: Deterministic Tool-Schema Compilation for Agentic LLM…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.04107"
-        }
-      ]
-    },
-    {
-      "title": "Closed Frontier Cyber AI vs Open Defensive Tools: Real-World Comparison 2026",
-      "summary": "Closed Frontier Cyber AI vs Open Defensive Tools: Real-World Comparison 2026；Originally published on NextFuture As of May 2026, Anthropic's Mythos and OpenAI's GPT-5.5-Cyber sit b…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/bean_bean/closed-frontier-cyber-ai-vs-open-defensive-tools-real-world-comparison-2026-gd"
-        }
-      ]
-    },
-    {
-      "title": "Advancing voice intelligence with new models in the API",
-      "summary": "Advancing voice intelligence with new models in the API；Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more na…；Mi…",
+      "title": "OpenAI发布新版语音智能API",
+      "summary": "OpenAI宣布推出新版实时语音模型API，具备推理、翻译等能力，并强调可用于客服系统，同时推出“可信联系人”功能以应对安全关切。",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -82,9 +52,32 @@
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/tech-policy/2026/05/elon-musk-tried-to-hire-openai-founders-to-start-ai-unit-inside-tesla"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "模型推理能力与安全性的矛盾日益凸显",
+      "summary": "多项研究（如道德判断、越狱攻击）表明，随着LLM推理能力的增强，其行为可预测性和安全性面临新挑战。这提示行业在追求更强推理模型的同时，需同步加强安全对齐与鲁棒性评估。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.04488"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.05058"
+        }
+      ]
+    }
+  ]
 }
