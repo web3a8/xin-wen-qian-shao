@@ -1,75 +1,78 @@
 {
-  "global_brief": "今日AI领域研究密集，聚焦于LLM智能体安全、推理效率与多模态对齐；同时，Cloudflare因AI业务调整宣布裁员超千人，引发市场对AI基础设施商业化的讨论。社区侧则涌现多款基于本地模型和开源工具的AI应用，如桌面助手与代码审计平台。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕大语言模型（LLM）的智能体安全、推理效率与多模态能力，同时开源社区持续推出针对网络安全的小型专用模型。OpenAI 则分享了其 Codex 智能体的安全运行实践。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32938,
-      "event_count": 517
+      "field_score": 31865,
+      "event_count": 510
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1837,
-      "event_count": 43
+      "field_score": 1781,
+      "event_count": 42
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1471,
-      "event_count": 36
+      "field_score": 1622,
+      "event_count": 40
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 498,
+      "event_count": 11
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 454,
-      "event_count": 8
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 435,
-      "event_count": 10
+      "field_score": 400,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "Cloudflare 因 AI 业务调整裁员超千人，股价大跌",
-      "summary": "Cloudflare 公布财报后股价下跌24%，并宣布裁员约1100人，公司称此举与AI技术变革有关。",
+      "title": "Epistemic Observability in Language Models",
+      "summary": "arXiv:2603.20531v2 Announce Type: replace-cross Abstract: We find that models report highest confidence precisely when…；Epistemic Observability in Language Models",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://reuters.com/business/cloudflares-slowing-growth-disappoints-investors-betting-ai-boost-2026-05-08"
-        },
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2603.20531"
+        }
+      ]
+    },
+    {
+      "title": "Supervising Ralph Wiggum: Exploring a Metacognitive Co-Regulation Agentic AI Loop for Engineering Design",
+      "summary": "arXiv:2603.24768v2 Announce Type: replace Abstract: The engineering design research community has studied agentic AI sy…；Supervising Ralph Wiggum: Exploring a Metacognitive Co-Reg…",
+      "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html"
-        },
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2603.24768"
+        }
+      ]
+    },
+    {
+      "title": "Conversation for Non-verifiable Learning: Self-Evolving LLMs through Meta-Evaluation",
+      "summary": "arXiv:2601.21464v2 Announce Type: replace-cross Abstract: Training large language models (LLMs) for non-verifiable task…；Conversation for Non-verifiable Learning: Self-Evolving LL…",
+      "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://latimes.com/business/story/2026-05-07/california-tech-company-cloudflare-to-lay-off-more-than-1-000-workers-cites-ai"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.21464"
+        }
+      ]
+    },
+    {
+      "title": "Mochi: Aligning Pre-training and Inference for Efficient Graph Foundation Models via Meta-Learning",
+      "summary": "arXiv:2604.22031v2 Announce Type: replace-cross Abstract: We propose Mochi, a Graph Foundation Model that addresses tas…；Mochi: Aligning Pre-training and Inference for Efficient G…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.22031"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI Coding 工具“跑偏”问题引发社区广泛担忧",
-      "summary": "多平台用户反映，以 Claude Code 和 Codex 为代表的AI编程工具在修改代码时容易偏离原始需求，生成冗余代码，导致仓库混乱。这表明当前AI编码智能体在需求理解和上下文保持方面仍存在系统性缺陷。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1211492"
-        },
-        {
-          "source_name": "Hacker News",
-          "link": "https://twitter.com/trq212/status/2052809885763747935"
-        },
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2141513"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
