@@ -1,65 +1,73 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM智能体安全、推理效率与多模态模型对齐，同时OpenAI分享了Codex的安全运行实践，社区则关注不同AI平台间的API生态壁垒。",
+  "global_brief": "今日AI领域研究密集，聚焦于LLM智能体安全、推理效率与多模态对齐；同时，Cloudflare因AI业务调整宣布裁员超千人，引发市场对AI基础设施商业化的讨论。社区侧则涌现多款基于本地模型和开源工具的AI应用，如桌面助手与代码审计平台。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33480,
-      "event_count": 525
+      "field_score": 32938,
+      "event_count": 517
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1528,
-      "event_count": 34
+      "field_score": 1837,
+      "event_count": 43
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1181,
-      "event_count": 29
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 483,
-      "event_count": 9
+      "field_score": 1471,
+      "event_count": 36
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 414,
-      "event_count": 7
+      "field_score": 454,
+      "event_count": 8
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 435,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "研究揭示多模态大语言模型存在新型越狱攻击",
-      "summary": "一项新研究 揭示了利用“重建-隐藏权衡”对多模态大语言模型（MLLMs）进行意图混淆式越狱攻击的方法，表明当前模型在安全对齐上仍存在漏洞。",
+      "title": "Cloudflare 因 AI 业务调整裁员超千人，股价大跌",
+      "summary": "Cloudflare 公布财报后股价下跌24%，并宣布裁员约1100人，公司称此举与AI技术变革有关。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05709"
+          "source_name": "Hacker News AI",
+          "link": "https://reuters.com/business/cloudflares-slowing-growth-disappoints-investors-betting-ai-boost-2026-05-08"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://latimes.com/business/story/2026-05-07/california-tech-company-cloudflare-to-lay-off-more-than-1-000-workers-cites-ai"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "智能体安全研究成为AI领域核心焦点",
-      "summary": "从OpenAI的Codex安全实践到多项关于智能体护栏、故障预警和越狱攻击的研究，表明业界正将智能体安全从辅助功能提升为系统设计的核心组成部分，以应对日益复杂的部署环境。",
+      "title": "AI Coding 工具“跑偏”问题引发社区广泛担忧",
+      "summary": "多平台用户反映，以 Claude Code 和 Codex 为代表的AI编程工具在修改代码时容易偏离原始需求，生成冗余代码，导致仓库混乱。这表明当前AI编码智能体在需求理解和上下文保持方面仍存在系统性缺陷。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05704"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1211492"
         },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.06455"
+          "source_name": "Hacker News",
+          "link": "https://twitter.com/trq212/status/2052809885763747935"
         },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05709"
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2141513"
         }
       ]
     }
