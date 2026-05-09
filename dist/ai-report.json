@@ -1,67 +1,78 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM推理效率、Agent安全与多模态模型评估上。社区讨论则围绕AI Agent的实用化工具（如OpenAI Codex插件与Claude Code的集成）以及长上下文模型SubQ的发布展开。同时，Anthropic在模型可解释性安全方面取得新进展，DeepSeek V4 Flash则宣称将LLM推理速度提升4.3倍。",
+  "global_brief": "今日AI研究密集发布，重点集中在LLM智能体安全与推理效率、多模态模型对抗攻击与遗忘基准、以及开源模型自我进化与数据策展方法论。多篇论文探讨了智能体在代码生成、记忆管理和推理预算控制中的脆弱性与优化方向，同时Claude Code在HTML生成方面的实用性引发社区讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30533,
+      "field_score": 30547,
       "event_count": 498
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1387,
+      "field_score": 1359,
       "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1288,
-      "event_count": 31
+      "field_score": 1215,
+      "event_count": 29
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 508,
+      "event_count": 12
     },
     {
       "field_key": "world",
       "field_name": "World",
       "field_score": 386,
       "event_count": 7
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 367,
-      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "新研究揭示LLM在非可验证任务中的自我进化机制",
-      "summary": "一项新研究 提出通过元评估对话框架，使LLM能在非可验证任务中自我进化，无需外部标签。",
+      "title": "Epistemic Observability in Language Models",
+      "summary": "arXiv:2603.20531v2 Announce Type: replace-cross Abstract: We find that models report highest confidence precisely when…；Epistemic Observability in Language Models",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2603.20531"
+        }
+      ]
+    },
+    {
+      "title": "Supervising Ralph Wiggum: Exploring a Metacognitive Co-Regulation Agentic AI Loop for Engineering Design",
+      "summary": "arXiv:2603.24768v2 Announce Type: replace Abstract: The engineering design research community has studied agentic AI sy…；Supervising Ralph Wiggum: Exploring a Metacognitive Co-Reg…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2603.24768"
+        }
+      ]
+    },
+    {
+      "title": "Conversation for Non-verifiable Learning: Self-Evolving LLMs through Meta-Evaluation",
+      "summary": "arXiv:2601.21464v2 Announce Type: replace-cross Abstract: Training large language models (LLMs) for non-verifiable task…；Conversation for Non-verifiable Learning: Self-Evolving LL…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2601.21464"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "AI Agent安全与可靠性成为研究焦点",
-      "summary": "近期多项研究 聚焦于Agent安全，包括SafeHarbor、PrefixGuard等框架，以及关于后端代码生成脆弱性的研究，表明随着Agent应用深入，其安全性和可靠性正成为社区最关注的核心挑战之一。",
+      "title": "Mochi: Aligning Pre-training and Inference for Efficient Graph Foundation Models via Meta-Learning",
+      "summary": "arXiv:2604.22031v2 Announce Type: replace-cross Abstract: We propose Mochi, a Graph Foundation Model that addresses tas…；Mochi: Aligning Pre-training and Inference for Efficient G…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05704"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.06455"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.06445"
+          "link": "https://arxiv.org/abs/2604.22031"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
