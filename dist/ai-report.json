@@ -1,78 +1,145 @@
 {
-  "global_brief": "今日AI研究密集发布，重点集中在LLM智能体安全与推理效率、多模态模型对抗攻击与遗忘基准、以及开源模型自我进化与数据策展方法论。多篇论文探讨了智能体在代码生成、记忆管理和推理预算控制中的脆弱性与优化方向，同时Claude Code在HTML生成方面的实用性引发社区讨论。",
+  "global_brief": "今日AI领域研究密集，重点围绕大语言模型（LLM）的安全性、推理效率与智能体（Agent）能力展开。多项研究揭示了模型在对抗攻击、多模态幻觉及后端代码生成中的脆弱性，同时涌现了如SubQ（1200万Token上下文）和DeepSeek V4 Flash（推理速度提升4.3倍）等新模型，推动长上下文与推理效率边界。此外，社区对AI Agent的应用探索活跃，从足球模拟器到本地化编码助手均有新项目发布。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30547,
-      "event_count": 498
+      "field_score": 30988,
+      "event_count": 508
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1359,
+      "field_score": 1337,
       "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1215,
-      "event_count": 29
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 508,
-      "event_count": 12
+      "field_score": 965,
+      "event_count": 22
     },
     {
       "field_key": "world",
       "field_name": "World",
       "field_score": 386,
       "event_count": 7
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 361,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "Epistemic Observability in Language Models",
-      "summary": "arXiv:2603.20531v2 Announce Type: replace-cross Abstract: We find that models report highest confidence precisely when…；Epistemic Observability in Language Models",
+      "title": "新研究揭示多模态大语言模型存在“隐藏-重建”越狱攻击漏洞",
+      "summary": "一项新研究 发现，通过利用多模态大语言模型（MLLMs）在图像重建与隐藏之间的权衡，攻击者可以实施意图混淆越狱攻击，绕过安全限制。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.05709"
+        }
+      ]
+    },
+    {
+      "title": "研究指出LLM智能体在后端代码生成中存在“约束衰减”脆弱性",
+      "summary": "一项研究 发现，大语言模型（LLM）智能体在生成后端代码时，随着任务复杂度增加，其遵循约束的能力会逐渐衰减，暴露出系统性的脆弱性。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.06445"
+        }
+      ]
+    },
+    {
+      "title": "新模型SubQ发布，声称以1200万Token上下文匹敌Claude和ChatGPT",
+      "summary": "社区讨论 关注一款名为SubQ的新LLM，其拥有1200万Token的上下文窗口，性能据称可与Anthropic的Claude和OpenAI的ChatGPT相抗衡。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://felloai.com/subq-llm-review"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek V4 Flash发布，声称将LLM推理速度提升4.3倍",
+      "summary": "社区讨论 提及DeepSeek V4 Flash的发布，该模型据称能将大语言模型的推理速度提升4.3倍，同时报道了Canvas数据泄露事件。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://presciente.com/edition/77"
+        }
+      ]
+    },
+    {
+      "title": "“ClaudeBleed”漏洞曝光，允许任意Chrome扩展控制Anthropic的AI助手",
+      "summary": "社区讨论 披露了一个名为“ClaudeBleed”的安全漏洞，该漏洞允许任何Chrome浏览器扩展程序控制Anthropic的AI助手Claude。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://cyberinsider.com/claudebleed-allows-any-chrome-extension-to-control-anthropics-ai-assistant"
+        }
+      ]
+    },
+    {
+      "title": "研究提出“认知可观察性”概念，发现LLM在最高置信度时反而可能出错",
+      "summary": "一项研究 探讨了语言模型中的“认知可观察性”，发现模型在报告最高置信度时，恰恰是其可能出错的时候，这对模型的可信度评估提出了挑战。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2603.20531"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "Supervising Ralph Wiggum: Exploring a Metacognitive Co-Regulation Agentic AI Loop for Engineering Design",
-      "summary": "arXiv:2603.24768v2 Announce Type: replace Abstract: The engineering design research community has studied agentic AI sy…；Supervising Ralph Wiggum: Exploring a Metacognitive Co-Reg…",
+      "title": "多模态与智能体安全成为当前AI研究焦点",
+      "summary": "从今日多项研究 来看，针对多模态大模型（MLLMs）的越狱攻击和LLM智能体在代码生成中的脆弱性是当前安全研究的核心议题，表明随着模型能力增强，其攻击面和系统风险也在同步扩大。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.24768"
+          "link": "https://arxiv.org/abs/2605.05709"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.06445"
         }
       ]
     },
     {
-      "title": "Conversation for Non-verifiable Learning: Self-Evolving LLMs through Meta-Evaluation",
-      "summary": "arXiv:2601.21464v2 Announce Type: replace-cross Abstract: Training large language models (LLMs) for non-verifiable task…；Conversation for Non-verifiable Learning: Self-Evolving LL…",
+      "title": "长上下文与推理效率的竞赛正在重塑LLM应用格局",
+      "summary": "SubQ的1200万Token上下文和DeepSeek V4 Flash的4.3倍推理速度提升，标志着行业正从单纯追求模型规模转向优化实际应用中的上下文长度和推理成本，这将直接影响RAG、Agent等下游应用的架构设计。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.21464"
+          "source_name": "Hacker News LLM",
+          "link": "https://felloai.com/subq-llm-review"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://presciente.com/edition/77"
         }
       ]
     },
     {
-      "title": "Mochi: Aligning Pre-training and Inference for Efficient Graph Foundation Models via Meta-Learning",
-      "summary": "arXiv:2604.22031v2 Announce Type: replace-cross Abstract: We propose Mochi, a Graph Foundation Model that addresses tas…；Mochi: Aligning Pre-training and Inference for Efficient G…",
+      "title": "社区驱动的AI Agent工具链正从实验走向实用化",
+      "summary": "从足球模拟器 到Mac本地编码助手，再到统一虚拟文件系统，社区项目 显示出AI Agent的应用场景正快速扩展，开发者更关注如何构建可靠、可交互的Agent环境，而非仅仅提升模型能力。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.22031"
+          "source_name": "Hacker News AI",
+          "link": "https://gangtao.github.io/AgentPitch"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/JosefAlbers/mlx-code"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://strukto.ai/mirage"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
