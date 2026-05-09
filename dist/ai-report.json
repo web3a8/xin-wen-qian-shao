@@ -1,41 +1,71 @@
 {
-  "global_brief": "今日AI领域研究密集，多篇论文聚焦LLM推理、安全与Agent部署，同时社区热议AI编码工具与模型压缩。DeepSeek寻求450亿美元估值融资，甲骨文因AI加速漏洞修复而加快安全补丁发布节奏，苹果CarPlay接入Grok模型。",
+  "global_brief": "AI领域持续活跃，多篇研究聚焦于LLM的推理模式、安全对齐与Agent部署效率；同时，产业界动态显示，甲骨文因AI加速漏洞修复而加快安全补丁节奏，苹果CarPlay接入Grok模型，而DeepSeek正以450亿美元估值寻求首轮外部融资。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 52112,
-      "event_count": 914
+      "field_score": 51255,
+      "event_count": 897
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2284,
-      "event_count": 53
+      "field_score": 2239,
+      "event_count": 52
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 995,
-      "event_count": 26
+      "field_score": 984,
+      "event_count": 25
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 655,
-      "event_count": 14
+      "field_score": 701,
+      "event_count": 15
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 623,
-      "event_count": 14
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 527,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Mod…",
-      "summary": "arXiv:2605.04488v1 Announce Type: new Abstract: We evaluate whether enabling provider-exposed reasoning mode changes mo…；How Does Thinking Mode Change LLM Moral Judgments? A Contr…",
+      "title": "甲骨文因AI加速漏洞修复，宣布加快安全补丁发布节奏",
+      "summary": "甲骨文（Oracle）表示，由于AI技术大幅改进了漏洞发现与修复流程，公司计划改变以往“按季度发布”的安全更新模式，加快安全补丁的发布节奏。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/947/967.htm"
+        }
+      ]
+    },
+    {
+      "title": "苹果CarPlay接入马斯克的Grok AI模型",
+      "summary": "继ChatGPT和Perplexity之后，苹果CarPlay已接入马斯克旗下的Grok AI模型，允许用户在车内与AI进行自然聊天。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/947/994.htm"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek以450亿美元估值寻求首轮外部融资",
+      "summary": "据报道，DeepSeek正寻求首轮外部融资，估值高达450亿美元，此举被视为在中国支持本土AI竞争对手的背景下进行。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://theaiinsider.tech/2026/05/08/deepseek-seeks-first-outside-funding-at-45b-valuation-as-china-backs-homegrown-ai-rival"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示LLM推理模式会改变其道德判断",
+      "summary": "一项新研究评估了启用推理模式如何改变五个前沿模型的道德判断，探讨了“即时”与“思考”模式下的差异。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -44,35 +74,88 @@
       ]
     },
     {
-      "title": "TSCG: Deterministic Tool-Schema Compilation for Agentic LLM Deployments",
-      "summary": "arXiv:2605.04107v1 Announce Type: cross Abstract: Production agent frameworks (OpenAI Function Calling, Anthropic Tool…；TSCG: Deterministic Tool-Schema Compilation for Agentic LLM…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.04107"
-        }
-      ]
-    },
-    {
-      "title": "Epistemic Observability in Language Models",
-      "summary": "arXiv:2603.20531v2 Announce Type: replace-cross Abstract: We find that models report highest confidence precisely when…；Epistemic Observability in Language Models",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2603.20531"
-        }
-      ]
-    },
-    {
-      "title": "Running Codex safely at OpenAI",
-      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe…；Running Codex safely at OpenAI",
+      "title": "OpenAI发布Codex安全运行实践",
+      "summary": "OpenAI详细介绍了如何通过沙箱、审批、网络策略和Agent原生遥测技术，安全地运行Codex。",
       "references": [
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/running-codex-safely"
         }
       ]
+    },
+    {
+      "title": "研究显示LLM预训练数据已超越公开访问范围",
+      "summary": "一项研究利用合法获取的34本O'Reilly Media版权书籍数据集，探讨了LLM预训练数据中超越公开访问权限的问题。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2505.00020"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "小型专业化模型在网络安全领域价值凸显",
+      "summary": "Hugging Face博客文章指出，防御性网络安全需要小型、专业化、可在本地运行的模型，这反映了行业对模型部署效率和隐私保护的关注趋势。",
+      "references": [
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b"
+        }
+      ]
+    },
+    {
+      "title": "Agent安全与合规性成为研究焦点",
+      "summary": "多篇研究（如MANTRA、Phishing Arena）聚焦于工具使用型LLM Agent的合规性基准和对抗性安全测试，表明随着Agent部署增加，其安全性和可靠性正成为核心挑战。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.06334"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/Krabby24/phishing-arena"
+        }
+      ]
+    },
+    {
+      "title": "社区对AI模型的使用体验和替代方案讨论热烈",
+      "summary": "有用户反馈对ChatGPT的输出感到不满足，并探讨了非SaaS聊天机器人应用；同时，有开发者因无法忍受Claude Code而寻找替代品，并推出了自己的Agent框架，反映出用户对现有AI工具存在痛点并积极寻求改进。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://news.ycombinator.com/item?id=48068661"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48064897"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1211200"
+        }
+      ]
+    },
+    {
+      "title": "前沿模型在特定领域存在“拒绝服务”现象，催生替代方案",
+      "summary": "有研究指出，前沿AI模型拒绝帮助活动组织者，这促使开发者构建了专门的“活动家AI”，揭示了通用模型在应对特定社会或政治议题时的局限性。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://outcryai.com/research/how-to-create-activist-ai"
+        }
+      ]
+    },
+    {
+      "title": "代码重构工具评测显示，Claude Opus领先，GPT-5.5表现不佳",
+      "summary": "在BridgeBench代码重构测试中，Claude Opus 4.7排名第一，Qwen 3.6 Plus位列第二，而目前市场上最智能的GPT 5.5在排行榜上踪迹难寻，引发了对模型实际编码能力的讨论。",
+      "references": [
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2137873"
+        }
+      ]
+    }
+  ]
 }
