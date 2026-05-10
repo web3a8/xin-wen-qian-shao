@@ -1,161 +1,69 @@
 {
-  "global_brief": "AI 领域持续主导今日动态，围绕编码助手、模型安全与长上下文推理的讨论最为密集。Anthropic 与 OpenAI 的编码工具面临用户流失与安全审查的双重压力，同时 SubQ 等新模型以 1200 万 Token 上下文窗口发起挑战。此外，DeepSeek V4 Flash 实现 4.3 倍推理加速，Cisco 与 Anthropic 分别推出模型溯源与可解释性工具，产业正加速向安全与效率并重转型。",
+  "global_brief": "AI 代理安全与工具链成为今日焦点，Anthropic 的 Claude Code 在开发中引发数据库误删事件，社区围绕其替代方案与安全扫描展开讨论。同时，DeepSeek V4 Flash 宣称将 LLM 推理速度提升 4.3 倍，SubQ 模型以 1200 万 token 上下文窗口挑战现有格局。此外，GrapheneOS 修复了 Google 拒绝修补的 Android VPN 泄露漏洞。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5761,
-      "event_count": 101
+      "field_score": 5758,
+      "event_count": 105
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1477,
+      "field_score": 1471,
       "event_count": 37
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 327,
-      "event_count": 7
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 289,
-      "event_count": 8
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 211,
+      "field_score": 399,
+      "event_count": 9
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 304,
+      "event_count": 8
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 236,
       "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "Cursor AI IDE 曝出高危漏洞",
-      "summary": "Cursor AI IDE 被曝存在编号为 CVE-2026-26268 的高危漏洞（CVSS 8.1），恶意仓库可借此执行代码。开发者需立即检查是否受影响并采取防护措施。",
+      "title": "AI 代理误删数据库，开发者构建命令防火墙",
+      "summary": "一位开发者在使用 Claude Code 构建客服代理时，AI 在一周内两次清空本地数据库，为此他构建了一个“命令防火墙”以防止类似事件。",
       "references": [
         {
           "source_name": "Dev.to",
-          "link": "https://dev.to/armor1ai/how-to-check-if-youre-affected-by-cve-2026-26268-in-cursor-and-what-to-do-4nd2"
-        }
-      ]
-    },
-    {
-      "title": "新模型 SubQ 以 1200 万 Token 上下文挑战主流 LLM",
-      "summary": "一款名为 SubQ 的新 LLM 宣称拥有 1200 万 Token 的上下文窗口，性能可与 Claude 和 ChatGPT 媲美，引发社区对长上下文推理能力的关注。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://felloai.com/subq-llm-review"
-        }
-      ]
-    },
-    {
-      "title": "DeepSeek V4 Flash 实现 4.3 倍推理加速",
-      "summary": "最新消息显示，DeepSeek V4 Flash 将 LLM 推理速度提升了 4.3 倍，同时 Canvas 数据泄露事件也受到关注。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://presciente.com/edition/77"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic 开发可解释性技术，将 LLM 激活翻译为可读文本",
-      "summary": "Anthropic 推出自然语言对齐（NLA）技术，能将 LLM 内部激活状态翻译成人类可读文本，旨在提升模型安全性与透明度。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://presciente.com/edition/78"
-        }
-      ]
-    },
-    {
-      "title": "Cisco 发布模型溯源工具包",
-      "summary": "Cisco 推出 Model Provenance Kit，旨在帮助用户追踪和验证 AI 模型的来源，以应对模型供应链安全挑战。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://blogs.cisco.com/ai/model-provenance-kit"
-        }
-      ]
-    },
-    {
-      "title": "GitHub 项目用 AI 助手复现 58 篇 Schmidhuber 论文",
-      "summary": "一个 GitHub 项目成功利用 AI 助手复现了 58 篇 Schmidhuber 的研究论文，展示了 AI 在学术研究辅助方面的潜力。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://twitter.com/hardmaru/status/2053147759428178315"
+          "link": "https://dev.to/yezannnnnn/my-ai-agent-wiped-my-database-twice-so-i-built-a-command-firewall-4ma2"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 编码助手市场面临用户流失与安全信任危机",
-      "summary": "随着 Claude 降低使用限制，用户开始寻求替代方案，同时 Cursor 曝出高危漏洞，Snyk 等安全工具开始集成对 AI 生成代码的实时扫描。这表明，在追求效率的同时，AI 编码工具的安全性和可用性正成为用户流失的关键因素。",
+      "title": "AI 编码代理的安全风险与工具链需求凸显",
+      "summary": "从 Claude Code 误删数据库到社区讨论其替代方案，再到 Snyk 推出针对 AI 生成代码的实时安全扫描，反映出 AI 编码代理在提升效率的同时，其安全性和可控性已成为开发者社区的核心关切。",
       "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/yezannnnnn/my-ai-agent-wiped-my-database-twice-so-i-built-a-command-firewall-4ma2"
+        },
         {
           "source_name": "Hacker News AI",
           "link": "https://news.ycombinator.com/item?id=48081266"
         },
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/armor1ai/how-to-check-if-youre-affected-by-cve-2026-26268-in-cursor-and-what-to-do-4nd2"
-        },
-        {
           "source_name": "Hacker News AI",
           "link": "https://codebrainery.com/articles/snyk-claude-code-real-time-security-scanning-for-ai-code"
-        }
-      ]
-    },
-    {
-      "title": "长上下文与推理加速成为 LLM 竞争新焦点",
-      "summary": "SubQ 以 1200 万 Token 上下文 和 DeepSeek V4 Flash 以 4.3 倍推理加速 分别从不同维度挑战现有格局，而 DigitalOcean 等云厂商也推出 AI 原生云服务。这预示着下一阶段 LLM 竞争将从单纯的模型能力转向工程化落地和用户体验优化。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://felloai.com/subq-llm-review"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://presciente.com/edition/77"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://digitalocean.com/blog/powering-the-inference-era"
-        }
-      ]
-    },
-    {
-      "title": "产业界加速构建 AI 安全与治理基础设施",
-      "summary": "Anthropic 的 NLA 可解释性技术 、Cisco 的模型溯源工具 以及研究者提出的“集体减速”承诺，共同指向一个趋势：随着 AI 能力快速提升，产业界正从被动应对转向主动构建安全、透明和可问责的治理框架。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://presciente.com/edition/78"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://blogs.cisco.com/ai/model-provenance-kit"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://lesswrong.com/posts/rCvyfKZfeaDDkTHjB/could-frontier-ai-researchers-collectively-slow-the-race-a"
-        }
-      ]
-    },
-    {
-      "title": "研究显示 LLM 战略建议存在“趋势垃圾”风险",
-      "summary": "哈佛商业评论的研究指出，LLM 提供的战略建议本质上是“趋势垃圾”（trendslop），缺乏深度洞察。这提醒业界，在将 LLM 应用于高价值决策时，需警惕其生成内容看似合理但实则空洞的风险。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1211629"
         }
       ]
     }
