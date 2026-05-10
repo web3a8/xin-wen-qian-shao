@@ -1,51 +1,41 @@
 {
-  "global_brief": "AI领域持续主导技术讨论，Anthropic与OpenAI同时推出企业级AI服务，同时社区对主流模型降智和上下文缩减的抱怨增多，反映出AI服务规模化后用户体验与成本控制的矛盾正在加剧。",
+  "global_brief": "Anthropic 与 OpenAI 正联手推出企业 AI 服务，同时社区围绕 AI Agent 的身份标准、支付托管及本地推理引擎展开密集讨论。微软发布全球 AI 扩散报告，Akamai 因一笔大型 LLM 交易股价大涨，而 WSJ 文章指出 AI 正迫使 CEO 在裁员与压榨员工之间做出选择。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5987,
-      "event_count": 107
+      "field_score": 6666,
+      "event_count": 119
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1398,
-      "event_count": 35
+      "field_score": 1271,
+      "event_count": 32
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 415,
+      "field_score": 403,
       "event_count": 9
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 338,
-      "event_count": 9
+      "field_score": 321,
+      "event_count": 8
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 193,
+      "field_score": 195,
       "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
-      "summary": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
-      "references": [
-        {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic and OpenAI are launching joint ventures for enterprise AI services",
-      "summary": "Anthropic and OpenAI are launching joint ventures for enterprise AI services；Article URL: https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-…",
+      "title": "Anthropic 与 OpenAI 联合推出企业 AI 服务",
+      "summary": "Anthropic 与 OpenAI 正在联合推出面向企业的 AI 服务，这一合作标志着两大竞争对手在商业层面的罕见联手。",
       "references": [
         {
           "source_name": "Hacker News AI",
@@ -54,25 +44,126 @@
       ]
     },
     {
-      "title": "Ranking 1k ShowHN posts by estimated merit using an LLM judge and TrueSkill",
-      "summary": "Article URL: https://github.com/kouhxp/showhn-rank Comments URL: https://news.ycombinator.com/item?id=48084170 Points:…；Ranking 1k ShowHN posts by estimated merit using an LLM jud…",
+      "title": "Redis 之父为 DeepSeek V4 开发本地推理引擎 ds4.c",
+      "summary": "Redis 创始人 antirez 专门为 DeepSeek V4 编写了一个 Apple Metal 专用本地推理引擎 ds4.c，项目发布 3 天即获超 5k 关注。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/kouhxp/showhn-rank"
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2150351"
         }
       ]
     },
     {
-      "title": "ModelDocker – OpenRouter LLM Desktop Client",
-      "summary": "Article URL: https://github.com/Skynet-Pro-Plus/modeldocker Comments URL: https://news.ycombinator.com/item?id=48083783…；ModelDocker – OpenRouter LLM Desktop Client",
+      "title": "AI Agent Passport 开源身份标准发布",
+      "summary": "GitHub 上出现名为“AI Agent Passport”的开源项目，旨在为 AI Agent 建立开放身份标准。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/StacyStarchum/Ai-agent-passport-"
+        }
+      ]
+    },
+    {
+      "title": "微软发布 2026 年 Q1 全球 AI 扩散报告",
+      "summary": "微软发布《Global AI Diffusion in Q1 2026》报告，分析了全球范围内 AI 技术的采用与扩散情况。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://microsoft.com/en-us/corporate-responsibility/dmc/topics/ai-economy-institute/reports/global-ai-adoption-2026-q1"
+        }
+      ]
+    },
+    {
+      "title": "Akamai 因大型 LLM 交易股价大涨，Cloudflare 表现暗淡",
+      "summary": "报道称 Akamai 因一笔大型 LLM 相关交易而股价飙升，而 Cloudflare 则表现不佳。",
       "references": [
         {
           "source_name": "Hacker News LLM",
-          "link": "https://github.com/Skynet-Pro-Plus/modeldocker"
+          "link": "https://theregister.com/networks/2026/05/09/akamai-surges-on-big-llm-deal-as-cloudflare-dims/5237552"
+        }
+      ]
+    },
+    {
+      "title": "研究显示 LLM 战略建议多为“趋势垃圾”",
+      "summary": "《哈佛商业评论》发表研究指出，当被要求提供战略建议时，LLM 给出的内容多为“trendslop”（趋势垃圾）。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI Agent 基础设施标准化需求迫切",
+      "summary": "从 AI Agent Passport 身份标准到支付托管设计，再到安全信号变化，社区正从多个维度探索 AI Agent 的标准化与信任机制，这反映出行业正从模型竞赛转向 Agent 生态的基础设施建设。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/StacyStarchum/Ai-agent-passport-"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://streetai.org/blog/escrow-for-ai-agents.html"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/the-changing-role-of-low-fidelity-lofi-signals-in-the-ai-era/4503569"
+        }
+      ]
+    },
+    {
+      "title": "企业 AI 部署面临“裁员或压榨”的艰难抉择",
+      "summary": "WSJ 文章指出，AI 正迫使 CEO 在裁员或让现有员工承担更多工作之间做出选择，这揭示了 AI 提升效率的另一面——对劳动力市场的直接冲击。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://wsj.com/tech/ai/ai-is-forcing-ceos-to-make-a-stark-choice-lay-off-workers-or-make-them-do-more-6b1ed771"
+        }
+      ]
+    },
+    {
+      "title": "本地推理与开源模型生态持续繁荣",
+      "summary": "Redis 之父为 DeepSeek V4 开发专用推理引擎，以及社区对 Claude 和 ChatGPT 替代方案的讨论，表明开发者对高性能、可本地部署的模型和工具需求旺盛，开源生态正从模型层向推理层延伸。",
+      "references": [
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2150351"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48081266"
+        }
+      ]
+    },
+    {
+      "title": "LLM 推理效率成为新竞争焦点",
+      "summary": "多项进展指向 LLM 推理效率的提升，包括并行验证使吞吐量提升 4.5 倍，以及专为 1200 万 token 推理设计的模型出现，这表明在模型能力趋同的背景下，推理速度和长上下文处理能力正成为新的差异化竞争点。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://presciente.com/edition/74"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://subq.ai/"
+        }
+      ]
+    },
+    {
+      "title": "AI 编码工具竞争加剧，用户寻求替代方案",
+      "summary": "随着 Claude 使用限制降低，用户开始寻找中国 AI 等替代方案，同时社区分享了大量 Claude Code 等工具的使用经验，反映出 AI 编码助手市场竞争激烈，用户对成本、可用性和性能高度敏感。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1211629"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48081266"
+        }
+      ]
+    }
+  ]
 }
