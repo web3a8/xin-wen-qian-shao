@@ -1,71 +1,78 @@
 {
-  "global_brief": "AI 代理安全与工具链成为今日焦点，Anthropic 的 Claude Code 在开发中引发数据库误删事件，社区围绕其替代方案与安全扫描展开讨论。同时，DeepSeek V4 Flash 宣称将 LLM 推理速度提升 4.3 倍，SubQ 模型以 1200 万 token 上下文窗口挑战现有格局。此外，GrapheneOS 修复了 Google 拒绝修补的 Android VPN 泄露漏洞。",
+  "global_brief": "AI 领域持续活跃，多款新模型与工具涌现，同时围绕 AI 安全、隐私及对传统工作流程的冲击引发广泛讨论。SubQ 模型以 1200 万 token 上下文长度挑战现有格局，而 DeepSeek V4 Flash 在推理效率上实现 4.3 倍提升。此外，AI 代理的安全隐患与员工监控软件的兴起成为社区关注焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5758,
-      "event_count": 105
+      "field_score": 5839,
+      "event_count": 106
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1471,
-      "event_count": 37
+      "field_score": 1401,
+      "event_count": 35
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 399,
-      "event_count": 9
+      "field_score": 459,
+      "event_count": 10
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 304,
-      "event_count": 8
+      "field_score": 340,
+      "event_count": 9
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 236,
-      "event_count": 5
+      "field_score": 197,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "AI 代理误删数据库，开发者构建命令防火墙",
-      "summary": "一位开发者在使用 Claude Code 构建客服代理时，AI 在一周内两次清空本地数据库，为此他构建了一个“命令防火墙”以防止类似事件。",
+      "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
+      "summary": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/yezannnnnn/my-ai-agent-wiped-my-database-twice-so-i-built-a-command-firewall-4ma2"
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "AI 编码代理的安全风险与工具链需求凸显",
-      "summary": "从 Claude Code 误删数据库到社区讨论其替代方案，再到 Snyk 推出针对 AI 生成代码的实时安全扫描，反映出 AI 编码代理在提升效率的同时，其安全性和可控性已成为开发者社区的核心关切。",
+      "title": "早报｜中汽协辟谣8家车企锁电被约谈/曝苹果正在研发全息iPhone/李想回应理想L9四年换代：汽车不是手机",
+      "summary": "早报｜中汽协辟谣8家车企锁电被约谈/曝苹果正在研发全息iPhone/李想回应理想L9四年换代：汽车不是手机；🔋 多家车企辟谣「锁电被约谈」传言 🚗 李想回应理想 L9 四年换代：汽车不是手机，安全验证无法提速 💰 SK 海力士回应员工人均奖金 610 万元 🔍 曝苹果正在研发全息屏幕 iPhone 🤖 MiniMax 回应大模型不认识马嘉祺 ⚠…",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/yezannnnnn/my-ai-agent-wiped-my-database-twice-so-i-built-a-command-firewall-4ma2"
-        },
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1665336"
+        }
+      ]
+    },
+    {
+      "title": "Show HN: Akmon, a Rust AI coding agent for regulated engineering",
+      "summary": "Article URL: https://github.com/radotsvetkov/akmon Comments URL: https://news.ycombinator.com/item?id=48082634 Points:…；Show HN: Akmon, a Rust AI coding agent for regulated engine…",
+      "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://news.ycombinator.com/item?id=48081266"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://codebrainery.com/articles/snyk-claude-code-real-time-security-scanning-for-ai-code"
-        },
+          "link": "https://github.com/radotsvetkov/akmon"
+        }
+      ]
+    },
+    {
+      "title": "继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家",
+      "summary": "原文在这里： logseq。 这篇文章是我同事在出差的时候问我能不能分享一些 AI 经验给客户，进而形成的一篇文章，内容可能有点乱，可以多看看 skill 部分，那里是我用过的所有 skill，是最核心最能给大家提效的部分。 大家也可…；继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家",
+      "references": [
         {
           "source_name": "V2EX 技术",
           "link": "https://v2ex.com/t/1211629"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
