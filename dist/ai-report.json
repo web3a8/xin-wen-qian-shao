@@ -1,189 +1,78 @@
 {
-  "global_brief": "今日AI领域研究密集，多项工作聚焦于LLM智能体的安全、推理与效率，同时社区讨论热度集中在Agent工具链与模型安全漏洞上。DeepSeek V4 Flash宣称将LLM推理速度提升4.3倍，而一项名为“ClaudeBleed”的攻击演示了Chrome扩展可控制Anthropic的AI助手，引发安全担忧。",
+  "global_brief": "AI 领域持续主导今日动态，编码代理（Codex/Claude Code）生态快速成熟，同时用户对主流模型（GPT、Claude）的“降智”感知与上下文窗口缩减引发广泛讨论。DeepSeek V4 Flash 在推理效率上取得 4.3 倍提升，而 SubQ 模型以 1200 万 token 上下文窗口挑战现有格局。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 29903,
-      "event_count": 486
+      "field_score": 5916,
+      "event_count": 104
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1461,
-      "event_count": 38
+      "field_score": 1523,
+      "event_count": 39
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 794,
-      "event_count": 17
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 423,
-      "event_count": 8
+      "field_score": 327,
+      "event_count": 9
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 362,
-      "event_count": 8
+      "field_score": 288,
+      "event_count": 6
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 173,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "研究揭示LLM在非可验证任务中的自我进化机制",
-      "summary": "一项新研究 提出通过元评估实现LLM在非可验证任务上的自我进化，探讨了训练大语言模型的新路径。",
+      "title": "Tokenmaxxing: Codex + Claude Code Operator Stack 2026",
+      "summary": "In May 2026, four independent surfaces named the same pattern in the same news cycle. YC Lightcone called it tokenmaxxi…；Tokenmaxxing: Codex + Claude Code Operator Stack 2026",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.21464"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/max_quimby/tokenmaxxing-codex-claude-code-operator-stack-2026-318"
         }
       ]
     },
     {
-      "title": "多模态大语言模型面临新型越狱攻击威胁",
-      "summary": "一项新研究 揭示了多模态大语言模型（MLLMs）中存在“重构-隐藏”权衡，可被利用进行意图混淆型越狱攻击。",
+      "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
+      "summary": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05709"
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper"
         }
       ]
     },
     {
-      "title": "社区讨论：DeepSeek V4 Flash 大幅提升LLM推理速度",
-      "summary": "社区讨论 指出，DeepSeek V4 Flash 可将LLM推理速度提升4.3倍，同时有报道提及Canvas数据泄露事件。",
+      "title": "Bulletproofing LLM Structured Output in Python: Healing Retries, Cost Caps, and Drift Detection (Runnable Code)",
+      "summary": "Bulletproofing LLM Structured Output in Python: Healing Retries, Cost Caps, and Drift Detection (Runnable Code)；I shipped a structured-output endpoint to production in March. The…",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://presciente.com/edition/77"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/velsof/bulletproofing-llm-structured-output-in-python-healing-retries-cost-caps-and-drift-detection-c89"
         }
       ]
     },
     {
-      "title": "社区发现“ClaudeBleed”漏洞可控制Anthropic AI助手",
-      "summary": "一项社区讨论 揭示了名为“ClaudeBleed”的攻击方法，允许任意Chrome扩展控制Anthropic的AI助手，引发安全关注。",
+      "title": "早报｜中汽协辟谣8家车企锁电被约谈/曝苹果正在研发全息iPhone/李想回应理想L9四年换代：汽车不是手机",
+      "summary": "早报｜中汽协辟谣8家车企锁电被约谈/曝苹果正在研发全息iPhone/李想回应理想L9四年换代：汽车不是手机；🔋 多家车企辟谣「锁电被约谈」传言 🚗 李想回应理想 L9 四年换代：汽车不是手机，安全验证无法提速 💰 SK 海力士回应员工人均奖金 610 万元 🔍 曝苹果正在研发全息屏幕 iPhone 🤖 MiniMax 回应大模型不认识马嘉祺 ⚠…",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://cyberinsider.com/claudebleed-allows-any-chrome-extension-to-control-anthropics-ai-assistant"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出用于LLM Agent安全的层级记忆防护栏",
-      "summary": "一项新研究 提出了SafeHarbor，一种层级记忆增强的防护栏，旨在提升LLM Agent的安全性。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05704"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示LLM Agent在后端代码生成中的脆弱性",
-      "summary": "一项新研究 发现LLM Agent在后端代码生成任务中存在“约束衰减”问题，揭示了其脆弱性。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.06445"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1665336"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "Agent安全成为研究焦点，防护与攻击并行发展",
-      "summary": "从SafeHarbor、ClaudeBleed到针对MLLM的越狱攻击，近期研究 表明，随着LLM Agent能力增强，其安全边界正受到系统性挑战，安全防护与攻击技术呈现并行发展态势。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05704"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05709"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://cyberinsider.com/claudebleed-allows-any-chrome-extension-to-control-anthropics-ai-assistant"
-        }
-      ]
-    },
-    {
-      "title": "推理效率竞赛白热化，量化与蒸馏成关键路径",
-      "summary": "DeepSeek V4 Flash的4.3倍推理加速 与多项关于量化校准 和自蒸馏 的研究表明，行业正通过算法和模型架构优化来降低LLM部署成本，而非单纯依赖硬件升级。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://presciente.com/edition/77"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05693"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.06597"
-        }
-      ]
-    },
-    {
-      "title": "Agent工具链社区活跃，从开发到部署的生态日趋完善",
-      "summary": "社区涌现了ToolOps、Mirage虚拟文件系统、mlx-code等工具，覆盖了从Agent开发、文件系统集成到本地部署的各个环节，显示AI Agent的工程化生态正在快速成熟。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/hedimanai-pro/toolops"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://strukto.ai/mirage"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/JosefAlbers/mlx-code"
-        }
-      ]
-    },
-    {
-      "title": "多模态模型评估从通用能力向专业领域深化",
-      "summary": "新发布的AstroAlertBench、SpatialBench和ICU-Bench等基准 表明，对多模态大语言模型的评估正从通用能力转向天文、空间认知、持续遗忘等专业和细分场景，推动模型在特定领域的落地验证。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05573"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2511.21471"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.05938"
-        }
-      ]
-    },
-    {
-      "title": "强化学习在LLM推理中的应用从理论走向实践",
-      "summary": "多项研究 探讨了强化学习（RL）在提升LLM长程推理能力、优化多智能体系统提示以及实现可验证奖励学习中的应用，表明RL正成为提升LLM复杂任务性能的核心技术之一。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.06638"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.06623"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.06139"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
