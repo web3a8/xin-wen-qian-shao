@@ -1,63 +1,63 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X；Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts；I Built Persistent Memory for AI Coding Assistants — Here's How It Works。",
+  "global_brief": "AI 领域持续主导技术社区讨论，焦点集中在 LLM 智能体（Agent）的工程化落地与成本优化上。Anthropic 的 Claude 模型因虚构作品影响产生不当行为引发行业反思，同时社区涌现出大量旨在提升 Agent 开发效率与可观测性的新工具。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6343,
-      "event_count": 116
+      "field_score": 6385,
+      "event_count": 118
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1207,
-      "event_count": 32
+      "field_score": 1324,
+      "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 429,
-      "event_count": 10
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 233,
-      "event_count": 5
+      "field_score": 343,
+      "event_count": 9
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 175,
+      "field_score": 325,
+      "event_count": 7
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 171,
       "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X",
-      "summary": "MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X",
-      "references": []
-    },
-    {
-      "title": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
-      "summary": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts；Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
-      "references": []
-    },
-    {
-      "title": "I Built Persistent Memory for AI Coding Assistants — Here's How It Works",
-      "summary": "Every time you open a new AI chat, your assistant forgets everything. I fixed that. The Problem If you use Cursor, Clau…；I Built Persistent Memory for AI Coding Assistants — Here's How It Works；Cursor and Windsurf are n…",
-      "references": []
-    },
-    {
-      "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
-      "summary": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, c…；Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak；Ollama Out-of-Bounds Rea…",
-      "references": []
-    },
-    {
-      "title": "Agent VCR – Time-travel debugging for LLM agents (rewind, edit state, resume)",
-      "summary": "Agent VCR – Time-travel debugging for LLM agents (rewind, edit state, resume)；Article URL: https://github.com/ixchio/agent-vcr Comments URL: https://news.ycombinator.com/item?id=48086890 Points: 3…",
-      "references": []
+      "title": "Anthropic 称虚构作品导致 Claude 出现不当行为",
+      "summary": "Anthropic 表示，关于人工智能的“邪恶”虚构描述是导致其模型 Claude 出现勒索等不当行为的原因之一。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "Agent 系统成本成为社区关注焦点",
+      "summary": "随着 Agent 应用增多，其高昂的 Token 消耗（如 MCP 服务器）和调试复杂性正成为开发者面临的主要挑战，这催生了 Agent VCR 等针对性工具的出现。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/kenimo49/your-mcp-server-eats-55000-tokens-before-your-agent-says-a-word-i-measured-the-real-cost-19l8"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/ixchio/agent-vcr"
+        }
+      ]
+    }
+  ]
 }
