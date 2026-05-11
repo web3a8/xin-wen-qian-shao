@@ -1,22 +1,22 @@
 {
-  "global_brief": "OpenAI 宣布投资超 40 亿美元成立新公司 DeployCo，旨在帮助企业部署人工智能系统，同时阿里云上线团队版 Token Plan，支持多模型与多坐席管理，企业级 AI 部署与工具化竞争加剧。学术方面，多项研究聚焦于提升 LLM 推理效率、Agent 行为一致性与安全性，包括稀疏注意力、测试时扩展及元认知监控等方向。",
+  "global_brief": "OpenAI 宣布成立新公司 DeployCo，初始投资超 40 亿美元，旨在帮助企业部署 AI 系统，同时收购咨询公司 Tomoro。阿里云上线团队版 Token Plan，内置多款多模态模型，支持多坐席管理。Hacker News 社区围绕 AI 代理工作流、本地 LLM 部署和 token 成本追踪等话题展开热烈讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49955,
-      "event_count": 859
+      "field_score": 49934,
+      "event_count": 861
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1894,
-      "event_count": 42
+      "field_score": 1970,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 921,
+      "field_score": 907,
       "event_count": 24
     },
     {
@@ -28,44 +28,51 @@
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 504,
-      "event_count": 10
+      "field_score": 656,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 成立新公司 DeployCo，初始投资超 40 亿美元",
-      "summary": "OpenAI 宣布成立新公司 DeployCo，初始投资超 40 亿美元（约合 272.29 亿元人民币），旨在帮助各类机构搭建并落地人工智能系统，同时收购了人工智能咨询公司 Tomoro。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/949/027.htm"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/openai-launches-the-deployment-company"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "企业级 AI 部署进入“军备竞赛”阶段",
-      "summary": "OpenAI 以超 40 亿美元重注 DeployCo，阿里云同步推出团队版 Token Plan，两大巨头在同一天加码企业级 AI 部署工具，表明市场正从模型能力竞争转向落地服务与基础设施的“军备竞赛”。",
+      "title": "阿里云上线团队版 Token Plan，支持多坐席分配和管理",
+      "summary": "IT之家 5 月 11 日消息，刚刚，阿里云上线团队版 Token Plan，内置 Qwen3.6、Kimi-K2.6、GLM-5.1、Wan2.7 等十多款多模态模型，支持多坐席分配和管理，并设置标准、高级和尊享三档，用户可灵活按需选择…；阿里云上线团队版 Token Plan，支持多坐席分配和管理",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/948/971.htm"
-        },
+        }
+      ]
+    },
+    {
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "summary": "OpenAI launches DeployCo to help businesses build around intelligence；OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI i…",
+      "references": [
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/openai-launches-the-deployment-company"
-        },
+        }
+      ]
+    },
+    {
+      "title": "RRCM: Ranking-Driven Retrieval over Collaborative and Meta Memories for LLM Recommendation",
+      "summary": "arXiv:2605.07129v1 Announce Type: cross Abstract: Large Language Models (LLMs) have emerged as a promising paradigm for…；RRCM: Ranking-Driven Retrieval over Collaborative and Meta…",
+      "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/949/027.htm"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.07129"
+        }
+      ]
+    },
+    {
+      "title": "Tool Calling is Linearly Readable and Steerable in Language Models",
+      "summary": "arXiv:2605.07990v1 Announce Type: cross Abstract: When a tool-calling agent picks the wrong tool, the failure is invisi…；Tool Calling is Linearly Readable and Steerable in Languag…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.07990"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
