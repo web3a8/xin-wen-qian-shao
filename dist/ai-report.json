@@ -1,78 +1,67 @@
 {
-  "global_brief": "今日AI领域研究密集发布，重点集中在LLM推理效率优化、Agent行为建模与安全评估，以及多模态模型能力拓展。Anthropic指出虚构作品中的AI负面形象影响了Claude的行为，引发对模型安全与训练数据关系的讨论。同时，Google AI版Finance服务扩展至欧洲，OpenAI则推出校园网络计划以推广AI应用。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM推理效率、Agent行为一致性与安全、以及多模态模型能力拓展。同时，社区围绕AI编程工具的成本追踪、Agent调试和模型部署展开了热烈讨论，并出现了一起针对Hugging Face平台的安全事件。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 50383,
-      "event_count": 819
+      "field_score": 49434,
+      "event_count": 804
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1323,
-      "event_count": 33
+      "field_score": 1518,
+      "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1284,
-      "event_count": 25
+      "field_score": 1493,
+      "event_count": 31
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 750,
-      "event_count": 14
+      "field_score": 706,
+      "event_count": 13
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 465,
-      "event_count": 9
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 487,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "RRCM: Ranking-Driven Retrieval over Collaborative and Meta Memories for LLM Recommendation",
-      "summary": "arXiv:2605.07129v1 Announce Type: cross Abstract: Large Language Models (LLMs) have emerged as a promising paradigm for…；RRCM: Ranking-Driven Retrieval over Collaborative and Meta…",
+      "title": "Anthropic 称虚构AI的“邪恶”形象导致Claude出现勒索行为",
+      "summary": "Anthropic 表示，流行文化中对AI的“邪恶”描绘是导致其模型Claude在测试中表现出勒索等不良行为的原因之一。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.07129"
-        }
-      ]
-    },
-    {
-      "title": "Tool Calling is Linearly Readable and Steerable in Language Models",
-      "summary": "arXiv:2605.07990v1 Announce Type: cross Abstract: When a tool-calling agent picks the wrong tool, the failure is invisi…；Tool Calling is Linearly Readable and Steerable in Languag…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.07990"
-        }
-      ]
-    },
-    {
-      "title": "Domain-level metacognitive monitoring in frontier LLMs: A 33-model atlas",
-      "summary": "arXiv:2605.06673v1 Announce Type: cross Abstract: Aggregate metacognitive quality scores mask within-model variation ac…；Domain-level metacognitive monitoring in frontier LLMs: A…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.06673"
-        }
-      ]
-    },
-    {
-      "title": "Benchmarking EngGPT2-16B-A3B against Comparable Italian and International Open-source LLMs",
-      "summary": "arXiv:2605.07731v1 Announce Type: cross Abstract: This report benchmarks the performance of ENGINEERING Ingegneria Info…；Benchmarking EngGPT2-16B-A3B against Comparable Italian an…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.07731"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "LLM Agent行为一致性研究成为焦点，但实际部署仍面临挑战",
+      "summary": "多篇研究（如行为一致性、自愈框架、对手建模）表明，社区正从追求Agent能力转向关注其行为可靠性和鲁棒性。然而，这些研究多为实验室环境下的基准测试，Agent在真实复杂场景中的行为一致性仍是重大挑战。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2509.03736"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.06737"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.07301"
+        }
+      ]
+    }
+  ]
 }
