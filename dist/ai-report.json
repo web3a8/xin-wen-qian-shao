@@ -1,135 +1,65 @@
 {
-  "global_brief": "过去24小时，AI与LLM领域持续活跃，开发者工具和模型推理优化成为焦点。社区围绕LLM Agent调试、推理效率提升以及AI编程工具的实际应用体验展开了广泛讨论，同时Akamai因一笔大型LLM交易股价大涨，凸显了AI基础设施市场的竞争格局变化。",
+  "global_brief": "过去24小时，AI研究领域持续活跃，大量新论文聚焦于LLM推理效率、Agent行为一致性与多模态能力扩展。同时，Anthropic指出虚构作品中的负面AI形象影响了Claude的行为，引发了对模型安全与训练数据偏见的讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5746,
-      "event_count": 109
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1348,
-      "event_count": 34
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 296,
-      "event_count": 6
+      "field_score": 49388,
+      "event_count": 805
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 279,
-      "event_count": 7
+      "field_score": 1474,
+      "event_count": 30
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 146,
-      "event_count": 3
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1325,
+      "event_count": 33
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 750,
+      "event_count": 14
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 467,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "MachinaCheck: 在AMD MI300X上构建多Agent CNC可制造性系统",
-      "summary": "Hugging Face博客发布文章，介绍了MachinaCheck项目，该项目在AMD MI300X加速器上构建了一个多Agent系统，用于评估CNC（计算机数控）零件的可制造性。",
+      "title": "研究揭示LLM推理轨迹中的短视规划问题",
+      "summary": "一项新研究通过从LLM推理轨迹中提取搜索树，揭示了模型在规划时存在短视行为。",
       "references": [
         {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck"
-        }
-      ]
-    },
-    {
-      "title": "Agent VCR：LLM Agent的时光倒流调试工具",
-      "summary": "一个名为Agent VCR的开源工具发布，它允许开发者对LLM Agent进行“时光倒流”式调试，包括回退、编辑状态和恢复执行，旨在解决Agent行为追踪的痛点。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/ixchio/agent-vcr"
-        }
-      ]
-    },
-    {
-      "title": "Frona v2026.5.0：自托管个人AI助手发布",
-      "summary": "开源项目Frona发布了v2026.5.0版本，这是一个可自托管的个人AI助手，为用户提供了本地化、私密的AI交互方案。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/fronalabs/frona/releases/tag/v2026.5.0"
-        }
-      ]
-    },
-    {
-      "title": "Akamai因大型LLM交易股价飙升，Cloudflare表现黯淡",
-      "summary": "据报道，Akamai因签署一项大型LLM相关交易而股价大涨，而竞争对手Cloudflare的表现则相对逊色，显示出AI工作负载对CDN和云服务市场的巨大影响。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://theregister.com/networks/2026/05/09/akamai-surges-on-big-llm-deal-as-cloudflare-dims/5237552"
-        }
-      ]
-    },
-    {
-      "title": "面向12M Token推理的LLM发布",
-      "summary": "一个名为subq.ai的项目发布了一款专为超长上下文（1200万Token）推理设计的LLM，旨在处理需要极长序列理解能力的任务。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://subq.ai/"
-        }
-      ]
-    },
-    {
-      "title": "并行验证使LLM推理吞吐量提升4.5倍",
-      "summary": "一项技术报告指出，通过采用并行验证方法，LLM的推理吞吐量实现了4.5倍的提升，这为降低推理成本和延迟提供了新的思路。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://presciente.com/edition/74"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.06840"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI编程工具体验分化，企业推广面临挑战",
-      "summary": "社区讨论显示，不同AI编程模型（如Claude Code、MiniMax）在实际使用中体验差异巨大。有用户反馈国产模型MiniMax近期表现不佳，出现“弱智、限流”等问题，导致企业内部推广受阻，而Claude Code等工具则更受青睐。这反映出AI编程工具市场正从“可用”向“好用”过渡，模型质量和稳定性成为企业级应用的关键瓶颈。",
+      "title": "Agent行为一致性与可靠性成为研究焦点",
+      "summary": "近期多项研究（如Agent行为一致性、自我修复框架、经验驱动生命周期）表明，社区正从单纯追求模型能力转向关注Agent在复杂环境中的行为可靠性与长期稳定性，这可能是Agent从实验室走向实际应用的关键瓶颈。",
       "references": [
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1211754"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2509.03736"
         },
         {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2151981"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.06737"
         },
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1211692"
-        }
-      ]
-    },
-    {
-      "title": "低质量AI客服可能成为新常态，引发用户担忧",
-      "summary": "有用户提出疑问，认为当前许多企业部署的AI客服质量低下，可能正在成为一种令人沮丧的新常态。这反映了AI在客户服务领域的应用虽然广泛，但在用户体验和问题解决能力上仍有巨大提升空间。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://news.ycombinator.com/item?id=48087925"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI员工股票销售成为AI热潮中的“最大彩票”",
-      "summary": "一篇报道将OpenAI的工作机会比作AI热潮中最大的彩票，指出员工通过股票销售获得了巨额财富。这引发了关于AI行业财富分配、人才流动以及公司治理的广泛讨论。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://wsj.com/tech/openai-employee-stock-sales-71ed10bd"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2510.16079"
         }
       ]
     }
