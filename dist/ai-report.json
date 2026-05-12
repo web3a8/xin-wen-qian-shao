@@ -1,29 +1,29 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：When Child Inherits: Modeling and Exploiting Subagent Spawn in Multi-Agent Networks；Exploitation Without Deception: Dark Triad Feature Steering Reveals Separable Antisocial Circuits in Language Models；OpenAI Launches Daybreak for AI-Powered Vulnerability Detecti…",
+  "global_brief": "过去24小时，AI领域持续主导全球科技动态，多篇研究聚焦于大语言模型（LLM）的安全性、推理效率与多智能体系统。OpenAI推出了网络安全新计划Daybreak，并展示了Codex在金融与工程领域的应用案例；Google则宣布了Android系统在2026年的大规模AI改造，并为其Gboard输入法集成了Gemini驱动的听写功能。同时，多项研究揭示了LLM在元认知、工具调用和对抗性攻击方面的最新进展。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 96141,
-      "event_count": 1637
+      "field_score": 96685,
+      "event_count": 1646
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2588,
-      "event_count": 52
+      "field_score": 2520,
+      "event_count": 50
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1191,
-      "event_count": 31
+      "field_score": 1166,
+      "event_count": 30
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1088,
-      "event_count": 22
+      "field_score": 1136,
+      "event_count": 23
     },
     {
       "field_key": "world",
@@ -34,15 +34,34 @@
   ],
   "highlight_facts": [
     {
-      "title": "CausalGaze 发布 Hallucinations via Counterfactual Graph Intervention in Large Language Models",
-      "summary": "CausalGaze 发布 Hallucinations via Counterfactual Graph Intervention in Large Language Models；时间：2026-05-12T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
-    },
-    {
-      "title": "OpenAI 发布 Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
-      "summary": "OpenAI 发布 Daybreak for AI-Powered Vulnerability Detection and Patch Validation；时间：2026-05-12T06:55:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "OpenAI 推出 Daybreak 网络安全计划",
+      "summary": "OpenAI 宣布启动 Daybreak，这是一项新的网络安全倡议，旨在利用前沿人工智能进行漏洞检测和补丁验证。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "多智能体系统安全风险凸显",
+      "summary": "随着LLM代理（Agent）在电商等领域的应用模拟 以及对子代理生成机制 的建模研究，多智能体网络中的安全漏洞和信任问题正成为新的研究焦点，其潜在风险可能比单一模型攻击更为复杂。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.08460"
+        },
+        {
+          "source_name": "seangoedecke.com",
+          "link": "https://seangoedecke.com/interaction-models"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.10059"
+        }
+      ]
+    }
+  ]
 }
