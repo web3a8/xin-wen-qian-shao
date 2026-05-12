@@ -1,65 +1,175 @@
 {
-  "global_brief": "今日AI领域持续活跃，多篇研究聚焦于大语言模型的推理效率、安全性与多智能体协作，同时AMD推出vLLM-ATOM插件以加速DeepSeek、Kimi等模型的推理性能，OpenAI也发布了名为Daybreak的AI安全新举措。社区方面，关于AI编程工具（如Cursor、Claude Code）的讨论热度不减，开发者正积极探索更高效、更低成本的Agent工作流。",
+  "global_brief": "OpenAI 连续发布多项重大更新，包括推出网络安全计划 Daybreak 和向欧盟开放 GPT-5.5-Cyber 模型，同时多篇来自 arXiv 的研究聚焦于 LLM 推理效率、多智能体安全及模型可解释性，AI 安全与推理优化成为今日最核心议题。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 82902,
-      "event_count": 1313
+      "field_score": 102255,
+      "event_count": 1643
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2180,
-      "event_count": 45
+      "field_score": 2606,
+      "event_count": 53
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1455,
-      "event_count": 36
+      "field_score": 1428,
+      "event_count": 35
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 867,
-      "event_count": 16
+      "field_score": 1136,
+      "event_count": 21
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 572,
-      "event_count": 10
+      "field_score": 1122,
+      "event_count": 21
     }
   ],
   "highlight_facts": [
     {
-      "title": "AMD推出vLLM-ATOM插件，加速DeepSeek、Kimi等AI推理性能",
-      "summary": "AMD发布了vLLM-ATOM插件，旨在不改变现有vLLM命令和API的前提下，加速DeepSeek、Kimi等大语言模型的推理性能。",
+      "title": "OpenAI 推出网络安全计划 Daybreak",
+      "summary": "OpenAI 正式启动 Daybreak，一项专注于利用 AI 进行漏洞检测和补丁验证的网络安全计划。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/949/168.htm"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html"
+        }
+      ]
+    },
+    {
+      "title": "多智能体网络子代理继承漏洞研究",
+      "summary": "一项来自 arXiv 的研究 建模并利用多智能体网络中的子代理生成漏洞，揭示了此类系统面临的新型安全风险。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.08460"
+        },
+        {
+          "source_name": "seangoedecke.com",
+          "link": "https://seangoedecke.com/interaction-models"
+        }
+      ]
+    },
+    {
+      "title": "提出长度高效自适应推理方法 LEAD",
+      "summary": "一项新研究 提出了 LEAD，一种用于大语言模型的长度高效自适应动态推理方法，旨在优化推理过程中的计算开销。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.09806"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.06672"
+        }
+      ]
+    },
+    {
+      "title": "研究发现上下文学习中的标签固定现象",
+      "summary": "一项研究 揭示了“上下文固定”现象，即在小样本分类中，演示标签会覆盖语义信息，影响模型表现。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.08295"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.07269"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示语言模型中的反社会神经回路",
+      "summary": "一项研究 通过稀疏自编码器特征引导，发现并放大了语言模型中的“黑暗三角”反社会特征，表明这些特征是可分离的。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.09773"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.09518"
+        }
+      ]
+    },
+    {
+      "title": "提出用于 LLM 智能体轨迹重标记的 AgentHER 方法",
+      "summary": "一项研究提出了 AgentHER，一种利用事后经验回放对 LLM 智能体轨迹进行重标记的训练方法。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2603.21357"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent工具生态正从单一IDE向跨平台、低成本、模块化方向演进",
-      "summary": "社区中涌现出多个旨在优化AI Agent工作流的工具，如Agent FM（本地开源电台）、Endy（编排多Agent CLI以降低成本）和Graft（无LLM的语义记忆），这表明开发者正在积极寻求更灵活、更经济的Agent构建方案，而非依赖单一厂商的IDE。",
+      "title": "AI 安全竞赛加剧，OpenAI 与 Anthropic 策略分化",
+      "summary": "OpenAI 通过 Daybreak 和 GPT-5.5-Cyber 积极抢占网络安全市场，而 Anthropic 的 Mythos 模型迟迟未交付，反映出两家公司在 AI 安全商业化路径上的显著差异。",
       "references": [
         {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/agentfm-ai/agent-fm"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/trentisiete/endy"
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/AEndrix03/Graft"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/949/322.htm"
+        }
+      ]
+    },
+    {
+      "title": "多智能体系统安全研究从攻击转向防御",
+      "summary": "近期研究同时关注多智能体网络的漏洞利用（子代理继承）和错误级联缓解，表明该领域正从单纯发现攻击向量转向构建系统性防御框架。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.08460"
+        },
+        {
+          "source_name": "seangoedecke.com",
+          "link": "https://seangoedecke.com/interaction-models"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2603.04474"
+        }
+      ]
+    },
+    {
+      "title": "模型推理效率与可解释性成为研究焦点",
+      "summary": "从 LEAD 到语义信息论再到推理感知剪枝，大量研究致力于在提升 LLM 推理能力的同时控制计算成本，表明行业正从“越大越好”转向“更聪明地推理”。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.09806"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.06672"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2511.01202"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.09008"
         }
       ]
     }
