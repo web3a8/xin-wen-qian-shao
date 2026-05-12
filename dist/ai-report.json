@@ -1,175 +1,65 @@
 {
-  "global_brief": "OpenAI 发布 Daybreak 漏洞检测项目与 DeployCo 企业部署公司，同时 AMD 推出 vLLM-ATOM 插件加速 AI 推理，多篇 arXiv 研究聚焦多智能体安全与推理效率，社区热议 AI 编程工具与模型供应链安全。",
+  "global_brief": "今日AI领域持续活跃，多篇研究聚焦于大语言模型的推理效率、安全性与多智能体协作，同时AMD推出vLLM-ATOM插件以加速DeepSeek、Kimi等模型的推理性能，OpenAI也发布了名为Daybreak的AI安全新举措。社区方面，关于AI编程工具（如Cursor、Claude Code）的讨论热度不减，开发者正积极探索更高效、更低成本的Agent工作流。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 102998,
-      "event_count": 1652
+      "field_score": 82902,
+      "event_count": 1313
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2825,
-      "event_count": 58
+      "field_score": 2180,
+      "event_count": 45
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1180,
-      "event_count": 29
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 1162,
-      "event_count": 22
+      "field_score": 1455,
+      "event_count": 36
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1136,
-      "event_count": 21
+      "field_score": 867,
+      "event_count": 16
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 572,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 发布 Daybreak 漏洞检测项目与 DeployCo 企业部署公司",
-      "summary": "OpenAI 推出 Daybreak 项目，专注于在攻击者发现之前检测和修补 AI 漏洞，同时成立 DeployCo 公司，旨在帮助企业围绕 AI 智能进行部署。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/openai-launches-the-deployment-company"
-        }
-      ]
-    },
-    {
-      "title": "AMD 推出 vLLM-ATOM 插件加速 DeepSeek、Kimi 等模型推理",
-      "summary": "AMD 发布 vLLM-ATOM 插件，可在不修改现有 vLLM 命令和 API 的情况下，加速 DeepSeek、Kimi 等 AI 模型的推理性能。",
+      "title": "AMD推出vLLM-ATOM插件，加速DeepSeek、Kimi等AI推理性能",
+      "summary": "AMD发布了vLLM-ATOM插件，旨在不改变现有vLLM命令和API的前提下，加速DeepSeek、Kimi等大语言模型的推理性能。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/949/168.htm"
-        }
-      ]
-    },
-    {
-      "title": "多智能体网络存在子智能体生成漏洞",
-      "summary": "一篇 arXiv 论文建模并利用多智能体网络中的子智能体生成漏洞，指出在 LLM 代理市场中存在战略利用风险，可能影响电子商务信任。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.08460"
-        },
-        {
-          "source_name": "seangoedecke.com",
-          "link": "https://seangoedecke.com/interaction-models"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10059"
-        }
-      ]
-    },
-    {
-      "title": "研究提出 LEAD 方法实现 LLM 长度高效自适应推理",
-      "summary": "一篇 arXiv 研究提出 LEAD 方法，旨在实现大语言模型的长度高效自适应和动态推理，以应对 OpenAI o1 和 DeepSeek-R1 等模型推理成本高的问题。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.09806"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.06672"
-        }
-      ]
-    },
-    {
-      "title": "研究发现 LLM 存在“上下文固定”现象影响少样本分类",
-      "summary": "一篇 arXiv 论文发现，在少样本分类中，演示标签会覆盖语义，导致 LLM 出现“上下文固定”现象，并研究了间接提示注入问题。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.08295"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.07269"
-        }
-      ]
-    },
-    {
-      "title": "Mistral AI 的 NPM 包遭供应链攻击",
-      "summary": "社区讨论指出，Mistral AI 的 NPM 软件包被攻破，引发了对 AI 工具供应链安全的担忧。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/mistralai/client-ts/issues/217"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 编程工具生态竞争加剧，用户对集成体验不满",
-      "summary": "社区讨论显示，用户对 Cursor、VSCode、Claude Code 等 AI 编程工具存在诸多不满，开发者正尝试构建跨提供商的工作站，反映出当前工具集成体验的不足。",
+      "title": "AI Agent工具生态正从单一IDE向跨平台、低成本、模块化方向演进",
+      "summary": "社区中涌现出多个旨在优化AI Agent工作流的工具，如Agent FM（本地开源电台）、Endy（编排多Agent CLI以降低成本）和Graft（无LLM的语义记忆），这表明开发者正在积极寻求更灵活、更经济的Agent构建方案，而非依赖单一厂商的IDE。",
       "references": [
         {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48102087"
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/agentfm-ai/agent-fm"
         },
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1211931"
-        }
-      ]
-    },
-    {
-      "title": "多智能体系统安全与推理效率成为研究焦点",
-      "summary": "近期多篇 arXiv 论文集中探讨了多智能体网络的安全漏洞、错误级联以及推理效率优化，表明学术界正加速解决 LLM 在复杂协作场景中的可靠性和成本问题。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.08460"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/trentisiete/endy"
         },
         {
-          "source_name": "seangoedecke.com",
-          "link": "https://seangoedecke.com/interaction-models"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.09806"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.06672"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.04474"
-        }
-      ]
-    },
-    {
-      "title": "本地 LLM 推理与边缘计算需求推动硬件与工具创新",
-      "summary": "从 AMD 推理插件到社区对本地 LLM 运行和边缘代理性能的讨论，表明市场对降低推理成本、提升本地化部署能力的工具和硬件有强烈需求。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/949/168.htm"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/simon_paxton/discontinued-optane-local-llm-powers-a-kimi-k25-desktop-run-3cg2"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10384"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/AEndrix03/Graft"
         }
       ]
     }
