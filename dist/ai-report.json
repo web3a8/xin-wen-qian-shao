@@ -1,23 +1,23 @@
 {
-  "global_brief": "今日AI领域持续主导全球科技动态，多篇研究聚焦于大语言模型（LLM）的推理效率、安全性与多智能体协作，同时OpenAI与Google分别推出安全工具与重大平台更新，产业应用与风险事件并行发展。",
+  "global_brief": "过去24小时，AI领域持续主导全球科技动态，多篇研究聚焦于大语言模型的安全性、推理效率与多智能体协作，同时Google宣布2026年Android将迎来重大AI改造，OpenAI则推出了网络安全新计划Daybreak，并面临一起与ChatGPT相关的法律诉讼。 [FACT] TITLE: OpenAI推出Daybreak网络安全计划 SUMMARY: OpenAI宣布启动Daybreak，一项结合前沿AI进行漏洞检测与补丁验证的网络安全新计划。 SCORE: 76 ARTICLE_IDS: 740cb08ea4554b5357834cac6f9…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 94567,
-      "event_count": 1613
+      "field_score": 96514,
+      "event_count": 1643
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2540,
-      "event_count": 51
+      "field_score": 2499,
+      "event_count": 50
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1519,
-      "event_count": 38
+      "field_score": 1211,
+      "event_count": 31
     },
     {
       "field_key": "world",
@@ -34,30 +34,65 @@
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 推出 Daybreak 网络安全计划",
-      "summary": "OpenAI 发布了名为 Daybreak 的网络安全新计划，旨在利用前沿AI进行漏洞检测与补丁验证。",
+      "title": "When Child Inherits: Modeling and Exploiting Subagent Spawn in Multi-Agent Networks",
+      "summary": "arXiv:2605.08460v1 Announce Type: cross Abstract: Since the official release of ChatGPT in 2022, large language models…；When Child Inherits: Modeling and Exploiting Subagent Spawn…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.08460"
+        },
+        {
+          "source_name": "seangoedecke.com",
+          "link": "https://seangoedecke.com/interaction-models"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
+      "summary": "OpenAI has launched Daybreak, a new cybersecurity initiative that brings together frontier artificial intelligence (AI)…；OpenAI Launches Daybreak for AI-Powered Vulnerability Dete…",
       "references": [
         {
           "source_name": "The Hacker News",
           "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "LLM安全研究从被动防御转向主动攻击模拟",
-      "summary": "多项研究（如Metis、GPO-V）展示了通过自我进化策略和概率优化来越狱LLM的新方法，表明安全研究正从修补漏洞转向模拟更复杂的攻击路径，以提前发现模型弱点。",
+      "title": "LEAD: Length-Efficient Adaptive and Dynamic Reasoning for Large Language Models",
+      "summary": "arXiv:2605.09806v1 Announce Type: cross Abstract: Large reasoning models, such as OpenAI o1 and DeepSeek-R1, tend to be…；LEAD: Length-Efficient Adaptive and Dynamic Reasoning for…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10067"
+          "link": "https://arxiv.org/abs/2605.09806"
         },
         {
-          "source_name": "arXiv 计算机视觉",
-          "link": "https://arxiv.org/abs/2605.07399"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.06672"
+        }
+      ]
+    },
+    {
+      "title": "Android is getting a big AI overhaul in 2026",
+      "summary": "Android is getting a big AI overhaul in 2026；Google has big plans for Android in 2026, and most of it is AI.；Google and SpaceX are in talks to build data centers in orbit, pitchin…",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/gadgets/2026/05/google-says-android-is-getting-a-big-ai-overhaul-in-2026"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit"
+        },
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://reuters.com/sustainability/boards-policy-regulation/eu-digital-rules-should-apply-big-techs-smart-tvs-broadcasters-tell-antitrust-2026-03-23"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/googlebook-laptop-platform"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
