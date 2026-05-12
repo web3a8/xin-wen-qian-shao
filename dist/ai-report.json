@@ -1,86 +1,63 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕大语言模型（LLM）的安全性、推理效率与多智能体协作展开。OpenAI推出了网络安全新计划Daybreak，同时多项研究揭示了LLM在工具调用、多跳推理及对抗性攻击中的新特性与风险。",
+  "global_brief": "今日AI领域持续主导全球科技动态，多篇研究聚焦于大语言模型（LLM）的推理效率、安全性与多智能体协作，同时OpenAI与Google分别推出安全工具与重大平台更新，产业应用与风险事件并行发展。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 99463,
-      "event_count": 1647
+      "field_score": 94567,
+      "event_count": 1613
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2594,
-      "event_count": 53
+      "field_score": 2540,
+      "event_count": 51
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1504,
-      "event_count": 37
+      "field_score": 1519,
+      "event_count": 38
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1133,
-      "event_count": 22
+      "field_score": 1052,
+      "event_count": 21
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1080,
+      "field_score": 1038,
       "event_count": 21
     }
   ],
   "highlight_facts": [
     {
-      "title": "When Child Inherits: Modeling and Exploiting Subagent Spawn in Multi-Agent Networks",
-      "summary": "arXiv:2605.08460v1 Announce Type: cross Abstract: Since the official release of ChatGPT in 2022, large language models…；When Child Inherits: Modeling and Exploiting Subagent Spawn…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.08460"
-        },
-        {
-          "source_name": "seangoedecke.com",
-          "link": "https://seangoedecke.com/interaction-models"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
-      "summary": "OpenAI has launched Daybreak, a new cybersecurity initiative that brings together frontier artificial intelligence (AI)…；OpenAI Launches Daybreak for AI-Powered Vulnerability Dete…",
+      "title": "OpenAI 推出 Daybreak 网络安全计划",
+      "summary": "OpenAI 发布了名为 Daybreak 的网络安全新计划，旨在利用前沿AI进行漏洞检测与补丁验证。",
       "references": [
         {
           "source_name": "The Hacker News",
           "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "LEAD: Length-Efficient Adaptive and Dynamic Reasoning for Large Language Models",
-      "summary": "arXiv:2605.09806v1 Announce Type: cross Abstract: Large reasoning models, such as OpenAI o1 and DeepSeek-R1, tend to be…；LEAD: Length-Efficient Adaptive and Dynamic Reasoning for…",
+      "title": "LLM安全研究从被动防御转向主动攻击模拟",
+      "summary": "多项研究（如Metis、GPO-V）展示了通过自我进化策略和概率优化来越狱LLM的新方法，表明安全研究正从修补漏洞转向模拟更复杂的攻击路径，以提前发现模型弱点。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.09806"
+          "link": "https://arxiv.org/abs/2605.10067"
         },
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.06672"
-        }
-      ]
-    },
-    {
-      "title": "Strategic Exploitation in LLM Agent Markets: A Simulation Framework for E-Commerce Trust",
-      "summary": "arXiv:2605.10059v1 Announce Type: new Abstract: Agent-based modeling (ABM) has long been used in economics to study hum…；Strategic Exploitation in LLM Agent Markets: A Simulation…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10059"
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.07399"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
