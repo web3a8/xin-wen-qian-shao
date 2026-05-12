@@ -1,29 +1,29 @@
 {
-  "global_brief": "OpenAI 发布 Daybreak 网络安全计划与 Claude Mythos 竞品，同时多篇 arXiv 论文聚焦多智能体网络、推理效率与安全对齐，AI 安全与 Agent 生态成为今日最热议题。",
+  "global_brief": "OpenAI 发布 Daybreak 网络安全计划与对标 Claude Mythos 的 AI 产品，同时多篇研究聚焦 LLM 推理效率与多智能体协作，AI 代理工具生态持续扩张，社区对现有编码代理工具的讨论热度上升。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 100188,
-      "event_count": 1661
+      "field_score": 99653,
+      "event_count": 1650
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2543,
+      "field_score": 2532,
       "event_count": 52
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1302,
-      "event_count": 32
+      "field_score": 1463,
+      "event_count": 36
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1137,
-      "event_count": 22
+      "field_score": 1094,
+      "event_count": 21
     },
     {
       "field_key": "science",
@@ -34,37 +34,9 @@
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 发布 Daybreak 网络安全计划",
-      "summary": "OpenAI 推出 Daybreak，一项结合前沿 AI 进行漏洞检测与补丁验证的网络安全计划。",
+      "title": "When Child Inherits: Modeling and Exploiting Subagent Spawn in Multi-Agent Networks",
+      "summary": "arXiv:2605.08460v1 Announce Type: cross Abstract: Since the official release of ChatGPT in 2022, large language models…；When Child Inherits: Modeling and Exploiting Subagent Spawn…",
       "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai"
-        },
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "AI 安全竞赛加剧，从被动防御转向主动探测",
-      "summary": "OpenAI 的 Daybreak 计划与多篇关于越狱（Metis）和子智能体风险的研究同时出现，表明行业正从被动修补漏洞转向利用 AI 进行主动安全探测与红队测试，安全已成为模型竞争的关键维度。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai"
-        },
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10067"
-        },
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.08460"
@@ -74,6 +46,41 @@
           "link": "https://seangoedecke.com/interaction-models"
         }
       ]
+    },
+    {
+      "title": "OpenAI just released its answer to Claude Mythos",
+      "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find…；OpenAI just released its answer to Claude Mythos",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai"
+        }
+      ]
+    },
+    {
+      "title": "AI 时代新怪象：越来越多人抱着“半开笔记本电脑”到处跑",
+      "summary": "AI 时代新怪象：越来越多人抱着“半开笔记本电脑”到处跑；IT之家 5 月 12 日消息，据 Business Insider 报道，杰夫・陈察觉到几位家长正盯着自己看，这位 39 岁的 Raven.AI 产品负责人是 Claude Code 和 OpenAI Codex 的重度使用者。他有两个…；Markdown 已死，HTML 当立？",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/949/439.htm"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1665516"
+        }
+      ]
+    },
+    {
+      "title": "I built an MCP server without the @modelcontextprotocol/sdk — here's what I learned",
+      "summary": "I built an MCP server without the @modelcontextprotocol/sdk — here's what I learned；I shipped a Model Context Protocol server last month. It's live on Anthropic's official registr…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/cammaccreator/i-built-an-mcp-server-without-the-modelcontextprotocolsdk-heres-what-i-learned-4eo0"
+        }
+      ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
