@@ -1,61 +1,61 @@
 {
-  "global_brief": "AI 领域持续主导今日动态，围绕 AI Agent 安全、编程工具演进及商业竞争展开。OpenAI 与 Anthropic 在法庭与市场双线交锋，同时多项研究揭示了 Agent 工作流的安全漏洞与性能优化新方向。",
+  "global_brief": "今日AI领域持续升温，Anthropic在商业客户数上超越OpenAI，同时其产品负责人预测AI将能预判用户需求；安全方面，OpenAI的GPT-5.5在漏洞发现能力上表现突出，而一项新研究揭示了针对自动化工作流的劫持攻击风险；此外，Meta更新了其沉浸式Web开发框架以接入AI工具，Anthropic则指出反乌托邦科幻作品可能误导AI模型行为。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54038,
-      "event_count": 922
+      "field_score": 53827,
+      "event_count": 921
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1750,
+      "field_score": 1711,
       "event_count": 38
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1494,
+      "field_score": 1476,
       "event_count": 38
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1078,
+      "field_score": 1074,
       "event_count": 23
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 642,
-      "event_count": 13
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 547,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "Meta 更新开源沉浸式 Web 开发框架 Immersive Web SDK，新增支持接入 AI 工具",
-      "summary": "IT之家 5 月 13 日消息，Meta 宣布为旗下开源沉浸式 Web 开发框架 Immersive Web SDK 进行重大更新，新增支持接入 AI 工具，旨在提升开发者效率。 IT之家注：Immersive Web SDK 在去年的…；Meta 更新开源沉浸式 Web 开发框架 Immersive Web SDK，新增支持接入 AI 工具",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/950/044.htm"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic’s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are",
-      "summary": "Anthropic’s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are；The head of product for Claude Code and Cowork says that the next big step…",
+      "title": "Anthropic 商业客户数超越 OpenAI",
+      "summary": "根据金融科技公司 Ramp 的客户支出数据，在参与调查的企业中，34.4% 的企业正在为 Anthropic 付费，使其商业客户数量超过了 OpenAI。",
       "references": [
         {
           "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are"
+          "link": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data"
         }
       ]
     },
     {
-      "title": "Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution",
-      "summary": "arXiv:2605.11229v1 Announce Type: cross Abstract: Automation platforms such as GitHub Actions and n8n are increasingly…；Comment and Control: Hijacking Agentic Workflows via Contex…",
+      "title": "OpenAI GPT-5.5 在漏洞发现能力上表现突出",
+      "summary": "英国AI安全研究所（UK AI Security Institute）的评估显示，OpenAI 的 GPT-5.5 在发现安全漏洞方面的能力与 Mythos 相当。",
+      "references": [
+        {
+          "source_name": "Schneier on Security",
+          "link": "https://schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示针对自动化工作流的“评论与控制”劫持攻击",
+      "summary": "一项新研究（arXiv:2605.11229）展示了如何通过上下文演化（Context-Grounded Evolution）来劫持 GitHub Actions 和 n8n 等自动化平台上的代理工作流。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,8 +64,18 @@
       ]
     },
     {
-      "title": "Anthropic blames dystopian sci-fi for training AI models to act “evil”",
-      "summary": "Anthropic blames dystopian sci-fi for training AI models to act “evil”；But training on \"synthetic stories\" that model good AI behavior can help.；Anthropic courts a new kind of cus…",
+      "title": "Meta 更新开源沉浸式 Web 开发框架以接入 AI 工具",
+      "summary": "Meta 宣布对其开源沉浸式 Web 开发框架 Immersive Web SDK 进行重大更新，新增支持接入 AI 工具，旨在提升开发者效率。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/950/044.htm"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic 称反乌托邦科幻作品会误导 AI 模型行为",
+      "summary": "Anthropic 指出，反乌托邦科幻小说中的情节可能导致 AI 模型被训练出“邪恶”行为，并建议使用描述良好 AI 行为的“合成故事”进行训练。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -76,7 +86,62 @@
           "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners"
         }
       ]
+    },
+    {
+      "title": "OpenAI 为 Codex 构建安全的 Windows 沙箱环境",
+      "summary": "OpenAI 分享了其为 Codex 在 Windows 上构建安全、有效沙箱的技术细节，以实现安全高效的代码执行。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/building-codex-windows-sandbox"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 编程范式正从“代码中心”转向“意图中心”",
+      "summary": "一项研究（arXiv:2605.11027）通过反思性主题分析指出，生成式AI和代理系统正推动软件工程从“代码中心”向“意图中心”转变，这将对工程问责制产生深远影响。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.11027"
+        }
+      ]
+    },
+    {
+      "title": "AI 代理的“过度信任”问题成为安全新挑战",
+      "summary": "多项研究（如 arXiv:2605.08828）指出，LLM代理在操作环境中存在过度信任环境证据的缺陷，这可能导致严重的安全和可靠性问题，亟需新的基准测试框架来评估。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.08828"
+        }
+      ]
+    },
+    {
+      "title": "多模态大模型幻觉检测与防御成为研究热点",
+      "summary": "近期多篇论文（如 arXiv:2605.12258, arXiv:2605.11716）聚焦于多模态大模型的幻觉问题，提出了从指令贡献度分析到解码层防御等多种新方法，表明该领域正从发现问题转向构建系统性防御。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.12258"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.11716"
+        }
+      ]
+    },
+    {
+      "title": "社区驱动的创新正加速 AI 编程工具迭代",
+      "summary": "一位澳洲牧羊大叔的简单脚本创意，在11天内被OpenAI、Anthropic等公司采纳，并直接推动了Claude Code推出“goal”模式，这展示了社区草根创新对AI产品演进的强大驱动力。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/950/063.htm"
+        }
+      ]
+    }
+  ]
 }
