@@ -1,35 +1,35 @@
 {
-  "global_brief": "AI领域持续主导今日动态，多起事件围绕AI Agent安全、编程工具革新及模型能力评估展开。Google计划在2026年对Android进行重大AI改造，同时Elon Musk与Sam Altman就OpenAI未来走向的法律战进入关键阶段。此外，一项新研究揭示LLM推理轨迹存在短视规划问题，引发对模型深层能力的讨论。",
+  "global_brief": "AI 领域持续主导今日动态，Anthropic 在商业客户数上超越 OpenAI，同时其关于训练数据导致模型“作恶”的言论引发讨论；OpenAI 的 GPT-5.5 在安全漏洞发现能力上获得认可；此外，一个由社区用户启发的“goal 模式”被多家 AI 公司迅速采纳，推动了 AI 编程工具的演进。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54419,
-      "event_count": 929
+      "field_score": 54151,
+      "event_count": 925
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1800,
-      "event_count": 37
+      "field_score": 1823,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1552,
+      "field_score": 1514,
       "event_count": 38
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1038,
+      "field_score": 1036,
       "event_count": 22
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 617,
-      "event_count": 13
+      "field_score": 565,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
@@ -44,16 +44,6 @@
       ]
     },
     {
-      "title": "OpenAI’s GPT-5.5 is as Good as Mythos at Finding Security Vulnerabilities",
-      "summary": "OpenAI’s GPT-5.5 is as Good as Mythos at Finding Security Vulnerabilities；The UK’s AI Security Institute evaluated GPT-5.5’s ability to find security vulnerabilities, and found th…",
-      "references": [
-        {
-          "source_name": "Schneier on Security",
-          "link": "https://schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html"
-        }
-      ]
-    },
-    {
       "title": "Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution",
       "summary": "arXiv:2605.11229v1 Announce Type: cross Abstract: Automation platforms such as GitHub Actions and n8n are increasingly…；Comment and Control: Hijacking Agentic Workflows via Contex…",
       "references": [
@@ -64,12 +54,26 @@
       ]
     },
     {
-      "title": "From Code-Centric to Intent-Centric Software Engineering: A Reflexive Thematic Analysis of Generative AI, Agentic Syste…",
-      "summary": "arXiv:2605.11027v1 Announce Type: cross Abstract: Generative artificial intelligence (GenAI) and agentic systems are mo…；From Code-Centric to Intent-Centric Software Engineering:…",
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "summary": "Building a safe, effective sandbox to enable Codex on Windows；Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled…",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.11027"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/building-codex-windows-sandbox"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic blames dystopian sci-fi for training AI models to act “evil”",
+      "summary": "Anthropic blames dystopian sci-fi for training AI models to act “evil”；But training on \"synthetic stories\" that model good AI behavior can help.；Anthropic courts a new kind of cus…",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners"
         }
       ]
     }
