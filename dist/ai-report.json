@@ -1,23 +1,17 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导全球科技动态，多篇研究聚焦于大语言模型（LLM）的安全性、推理效率与多智能体系统。OpenAI推出了网络安全新计划Daybreak，并展示了Codex在金融与工程领域的应用案例；Google则宣布了Android系统在2026年的大规模AI改造，并为其Gboard输入法集成了Gemini驱动的听写功能。同时，多项研究揭示了LLM在元认知、工具调用和对抗性攻击方面的最新进展。",
+  "global_brief": "今日AI领域持续活跃，多篇研究聚焦于大语言模型的安全性与推理效率。OpenAI推出网络安全新举措Daybreak，同时多项研究揭示了模型在工具调用、多智能体协作及元认知监控方面的脆弱性与新特性。Google宣布Android将在2026年迎来重大AI升级，并推出Gemini驱动的Gboard听写功能，对现有语音输入市场构成潜在冲击。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 96685,
-      "event_count": 1646
+      "field_score": 96805,
+      "event_count": 1650
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2520,
-      "event_count": 50
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1166,
-      "event_count": 30
+      "field_score": 2548,
+      "event_count": 51
     },
     {
       "field_key": "science",
@@ -28,14 +22,20 @@
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1052,
-      "event_count": 21
+      "field_score": 1092,
+      "event_count": 22
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 899,
+      "event_count": 22
     }
   ],
   "highlight_facts": [
     {
       "title": "OpenAI 推出 Daybreak 网络安全计划",
-      "summary": "OpenAI 宣布启动 Daybreak，这是一项新的网络安全倡议，旨在利用前沿人工智能进行漏洞检测和补丁验证。",
+      "summary": "OpenAI 发布了名为 Daybreak 的网络安全新举措，旨在利用前沿AI进行漏洞检测和补丁验证。",
       "references": [
         {
           "source_name": "The Hacker News",
@@ -46,20 +46,28 @@
   ],
   "highlight_opinions": [
     {
-      "title": "多智能体系统安全风险凸显",
-      "summary": "随着LLM代理（Agent）在电商等领域的应用模拟 以及对子代理生成机制 的建模研究，多智能体网络中的安全漏洞和信任问题正成为新的研究焦点，其潜在风险可能比单一模型攻击更为复杂。",
+      "title": "大模型安全研究进入“攻防对抗”新阶段",
+      "summary": "多项研究同时关注模型安全，既有通过“黑暗三人格”特征引导揭示内部反社会回路的研究，也有通过Metis方法主动学习越狱策略的探索。这表明AI安全研究已从被动防御转向主动发现和利用模型脆弱性的对抗性阶段，对模型部署前的安全评估提出了更高要求。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.08460"
+          "link": "https://arxiv.org/abs/2605.09773"
         },
         {
-          "source_name": "seangoedecke.com",
-          "link": "https://seangoedecke.com/interaction-models"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/929091/meta-ai-threads-account-block"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.09518"
         },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10059"
+          "link": "https://arxiv.org/abs/2605.10067"
         }
       ]
     }
