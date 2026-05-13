@@ -1,38 +1,58 @@
 {
-  "global_brief": "AI 领域持续主导技术新闻，多篇研究聚焦于 Agent 系统的安全性与可靠性，同时 Google 和 OpenAI 分别发布了重要的产品更新与安全倡议。社区讨论则集中在 AI Agent 的实际应用、模型安全以及基础设施压力上。",
+  "global_brief": "过去24小时，AI领域持续主导技术动态，重点集中在AI智能体工作流的安全性与效率提升、端侧多模态模型的轻量化突破，以及科技巨头对AI基础设施的全面布局。多篇研究揭示了智能体系统在信任与规划方面的深层缺陷，同时开源社区推出了多项旨在增强AI可靠性的新工具。 [FACT] TITLE: OpenAI 推出 Daybreak 网络安全计划 SUMMARY: OpenAI 宣布启动 Daybreak 计划，旨在利用前沿AI技术进行漏洞检测和补丁验证，以加强网络安全防御。 SCORE: 76 ARTICLE_IDS: 740cb08ea4554b5357…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 58226,
-      "event_count": 939
+      "field_score": 58747,
+      "event_count": 947
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1429,
-      "event_count": 29
+      "field_score": 1535,
+      "event_count": 32
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 992,
-      "event_count": 19
+      "field_score": 1032,
+      "event_count": 20
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 935,
-      "event_count": 23
+      "field_score": 891,
+      "event_count": 22
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 535,
+      "field_score": 544,
       "event_count": 10
     }
   ],
   "highlight_facts": [
+    {
+      "title": "git-lrc and the Rise of AI Code Review Anxiety",
+      "summary": "git-lrc and the Rise of AI Code Review Anxiety；git-lrc and the Rise of AI Code Review Anxiety AI coding tools have fundamentally changed software development. Develop…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/pjdeveloper896/git-lrc-and-the-rise-of-ai-code-review-anxiety-5cbg"
+        }
+      ]
+    },
+    {
+      "title": "How ChatGPT/Gemini/MS Copilot Understands Your Question: A Step-by-Step Journey from Input to Response",
+      "summary": "How ChatGPT Processes a Question: Step-by-Step (From Input to Response) Let’s take a simple example: “What is the capit…；How ChatGPT/Gemini/MS Copilot Understands Your Question: A…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/raghavenreddy/how-chatgptgeminims-copilot-understands-your-question-a-step-by-step-journey-from-input-to-15oo"
+        }
+      ]
+    },
     {
       "title": "Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution",
       "summary": "arXiv:2605.11229v1 Announce Type: cross Abstract: Automation platforms such as GitHub Actions and n8n are increasingly…；Comment and Control: Hijacking Agentic Workflows via Contex…",
@@ -50,30 +70,6 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.11027"
-        }
-      ]
-    },
-    {
-      "title": "We shipped a 73-article help center in a week with Claude Code — and ChatGPT started citing us 3 days later",
-      "summary": "TL;DR — We used Claude Code with Playwright browser automation to write 73 help articles + 95 annotated screenshots for…；We shipped a 73-article help center in a week with Claude…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/gunpal5/we-shipped-a-73-article-help-center-in-a-week-with-claude-code-and-chatgpt-started-citing-us-3-f58"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1665516"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
-      "summary": "OpenAI has launched Daybreak, a new cybersecurity initiative that brings together frontier artificial intelligence (AI)…；OpenAI Launches Daybreak for AI-Powered Vulnerability Dete…",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html"
         }
       ]
     }
