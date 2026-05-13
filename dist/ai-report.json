@@ -1,41 +1,75 @@
 {
-  "global_brief": "今日AI领域持续活跃，多篇研究聚焦于大语言模型的安全性与推理效率。OpenAI推出网络安全新举措Daybreak，同时多项研究揭示了模型在工具调用、多智能体协作及元认知监控方面的脆弱性与新特性。Google宣布Android将在2026年迎来重大AI升级，并推出Gemini驱动的Gboard听写功能，对现有语音输入市场构成潜在冲击。",
+  "global_brief": "AI 领域持续主导技术新闻，多篇研究聚焦于 Agent 系统的安全性与可靠性，同时 Google 和 OpenAI 分别发布了重要的产品更新与安全倡议。社区讨论则集中在 AI Agent 的实际应用、模型安全以及基础设施压力上。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 96805,
-      "event_count": 1650
+      "field_score": 58226,
+      "event_count": 939
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2548,
-      "event_count": 51
+      "field_score": 1429,
+      "event_count": 29
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1136,
+      "field_score": 992,
+      "event_count": 19
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 935,
       "event_count": 23
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1092,
-      "event_count": 22
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 899,
-      "event_count": 22
+      "field_score": 535,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 推出 Daybreak 网络安全计划",
-      "summary": "OpenAI 发布了名为 Daybreak 的网络安全新举措，旨在利用前沿AI进行漏洞检测和补丁验证。",
+      "title": "Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution",
+      "summary": "arXiv:2605.11229v1 Announce Type: cross Abstract: Automation platforms such as GitHub Actions and n8n are increasingly…；Comment and Control: Hijacking Agentic Workflows via Contex…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.11229"
+        }
+      ]
+    },
+    {
+      "title": "From Code-Centric to Intent-Centric Software Engineering: A Reflexive Thematic Analysis of Generative AI, Agentic Syste…",
+      "summary": "arXiv:2605.11027v1 Announce Type: cross Abstract: Generative artificial intelligence (GenAI) and agentic systems are mo…；From Code-Centric to Intent-Centric Software Engineering:…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.11027"
+        }
+      ]
+    },
+    {
+      "title": "We shipped a 73-article help center in a week with Claude Code — and ChatGPT started citing us 3 days later",
+      "summary": "TL;DR — We used Claude Code with Playwright browser automation to write 73 help articles + 95 annotated screenshots for…；We shipped a 73-article help center in a week with Claude…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/gunpal5/we-shipped-a-73-article-help-center-in-a-week-with-claude-code-and-chatgpt-started-citing-us-3-f58"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1665516"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
+      "summary": "OpenAI has launched Daybreak, a new cybersecurity initiative that brings together frontier artificial intelligence (AI)…；OpenAI Launches Daybreak for AI-Powered Vulnerability Dete…",
       "references": [
         {
           "source_name": "The Hacker News",
@@ -44,32 +78,5 @@
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "大模型安全研究进入“攻防对抗”新阶段",
-      "summary": "多项研究同时关注模型安全，既有通过“黑暗三人格”特征引导揭示内部反社会回路的研究，也有通过Metis方法主动学习越狱策略的探索。这表明AI安全研究已从被动防御转向主动发现和利用模型脆弱性的对抗性阶段，对模型部署前的安全评估提出了更高要求。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.09773"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/929091/meta-ai-threads-account-block"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2605.09518"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10067"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
