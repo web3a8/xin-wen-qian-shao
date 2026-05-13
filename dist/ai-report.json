@@ -1,61 +1,63 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导技术动态，重点集中在AI智能体工作流的安全性与效率提升、端侧多模态模型的轻量化突破，以及科技巨头对AI基础设施的全面布局。多篇研究揭示了智能体系统在信任与规划方面的深层缺陷，同时开源社区推出了多项旨在增强AI可靠性的新工具。 [FACT] TITLE: OpenAI 推出 Daybreak 网络安全计划 SUMMARY: OpenAI 宣布启动 Daybreak 计划，旨在利用前沿AI技术进行漏洞检测和补丁验证，以加强网络安全防御。 SCORE: 76 ARTICLE_IDS: 740cb08ea4554b5357…",
+  "global_brief": "今日AI领域持续高热，多篇研究聚焦于Agent系统的安全性与推理能力，同时Google宣布2026年Android将迎来重大AI重构，OpenAI则展示了Codex在金融领域的应用。社区侧，关于AI Agent工具链和模型安全性的讨论活跃，多个开源项目获得关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 58747,
-      "event_count": 947
+      "field_score": 57986,
+      "event_count": 939
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1535,
-      "event_count": 32
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 1032,
-      "event_count": 20
+      "field_score": 1433,
+      "event_count": 29
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 891,
-      "event_count": 22
+      "field_score": 1156,
+      "event_count": 29
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 1071,
+      "event_count": 21
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 544,
+      "field_score": 535,
       "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "git-lrc and the Rise of AI Code Review Anxiety",
-      "summary": "git-lrc and the Rise of AI Code Review Anxiety；git-lrc and the Rise of AI Code Review Anxiety AI coding tools have fundamentally changed software development. Develop…",
+      "title": "Android 2026年将迎来重大AI重构",
+      "summary": "多家科技媒体报道，Google计划在2026年对Android系统进行重大AI改造，大部分新功能将围绕AI展开。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/pjdeveloper896/git-lrc-and-the-rise-of-ai-code-review-anxiety-5cbg"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/gadgets/2026/05/google-says-android-is-getting-a-big-ai-overhaul-in-2026"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit"
+        },
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://reuters.com/sustainability/boards-policy-regulation/eu-digital-rules-should-apply-big-techs-smart-tvs-broadcasters-tell-antitrust-2026-03-23"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/googlebook-laptop-platform"
         }
       ]
     },
     {
-      "title": "How ChatGPT/Gemini/MS Copilot Understands Your Question: A Step-by-Step Journey from Input to Response",
-      "summary": "How ChatGPT Processes a Question: Step-by-Step (From Input to Response) Let’s take a simple example: “What is the capit…；How ChatGPT/Gemini/MS Copilot Understands Your Question: A…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/raghavenreddy/how-chatgptgeminims-copilot-understands-your-question-a-step-by-step-journey-from-input-to-15oo"
-        }
-      ]
-    },
-    {
-      "title": "Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution",
-      "summary": "arXiv:2605.11229v1 Announce Type: cross Abstract: Automation platforms such as GitHub Actions and n8n are increasingly…；Comment and Control: Hijacking Agentic Workflows via Contex…",
+      "title": "研究揭示Agent工作流存在被劫持风险",
+      "summary": "一篇arXiv论文 指出，自动化平台如GitHub Actions和n8n存在被“上下文接地演化”攻击劫持的风险，威胁Agent工作流安全。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,15 +66,140 @@
       ]
     },
     {
-      "title": "From Code-Centric to Intent-Centric Software Engineering: A Reflexive Thematic Analysis of Generative AI, Agentic Syste…",
-      "summary": "arXiv:2605.11027v1 Announce Type: cross Abstract: Generative artificial intelligence (GenAI) and agentic systems are mo…；From Code-Centric to Intent-Centric Software Engineering:…",
+      "title": "OpenAI展示Codex在金融领域的应用",
+      "summary": "OpenAI发布博文，介绍金融团队如何使用Codex构建月度业务报告、报告包、差异分析、模型检查和规划工具。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/academy/how-finance-teams-use-codex"
+        },
+        {
+          "source_name": "Product Hunt",
+          "link": "https://producthunt.com/products/zen-reports"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出LLM推理的碳感知路由方案",
+      "summary": "一篇arXiv论文 提出GAR框架，通过约束优化实现LLM推理请求的碳感知路由，以降低部署能耗。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.11027"
+          "link": "https://arxiv.org/abs/2605.11603"
+        }
+      ]
+    },
+    {
+      "title": "开源模型GLiGuard发布，用于LLM安全审核",
+      "summary": "GLiNER模型背后的公司发布了一个开源模型GLiGuard，用于运行LLM安全护栏，据称速度提升16倍。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://pioneer.ai/blog/gliguard-16x-faster-safety-moderation-with-a-small-language-model"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出多模态LLM幻觉检测方法",
+      "summary": "一篇arXiv论文 提出Instruction Lens Score，一种利用指令信息作为强大目标幻觉检测器的方法，用于多模态大语言模型。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.12258"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "Agent安全与可靠性成为研究焦点",
+      "summary": "多篇新研究 同时关注Agent系统的安全漏洞（如工作流劫持）和可靠性缺陷（如过度信任环境证据），表明社区正从追求能力转向构建更健壮的Agent系统。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.11229"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.08828"
+        }
+      ]
+    },
+    {
+      "title": "测试时计算（Test-Time Compute）成为提升模型能力的关键路径",
+      "summary": "多篇研究 探索通过Agent发现、密集检索程序生成等方式利用测试时计算，表明在推理阶段投入更多计算资源正成为提升LLM性能的主流策略。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.08083"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.11374"
+        }
+      ]
+    },
+    {
+      "title": "多模态LLM的幻觉与安全问题亟待解决",
+      "summary": "多篇论文 分别提出针对多模态LLM的幻觉检测、安全防御和CAPTCHA破解防御方法，反映出多模态模型在落地前仍需克服严重的可靠性与安全性挑战。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.12258"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.11716"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2512.02318"
+        }
+      ]
+    },
+    {
+      "title": "开源社区推动AI Agent工具链快速迭代",
+      "summary": "社区 涌现出多个Agent工具项目，如Reasoning-core、SWEny、Graphmind等，覆盖Agent行为护栏、工作流编排和持久记忆，显示开源生态正快速填补Agent应用的基础设施空白。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/jakubkrzysztofsikora/reasoning-core"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/swenyai/sweny"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/aouicher/graphmind"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1212377"
+        }
+      ]
+    },
+    {
+      "title": "LLM推理效率与部署成本优化成为产业刚需",
+      "summary": "多项研究 聚焦于LLM推理的优化，包括无线设备-边缘推理路由、碳感知路由、分布式权重数据并行及MegaKernel搜索，表明在模型能力提升后，降低推理成本和能耗是产业落地的关键瓶颈。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.12001"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.11603"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.01621"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.11581"
+        }
+      ]
+    }
+  ]
 }
