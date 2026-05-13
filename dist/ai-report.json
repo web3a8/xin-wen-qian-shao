@@ -1,47 +1,77 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Meta 更新开源沉浸式 Web 开发框架 Immersive Web SDK，新增支持接入 AI 工具；Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution；OpenAI’s GPT-5.5 is as Good as Mythos at Finding Security Vulnerabilities。",
+  "global_brief": "AI领域持续主导今日动态，多起事件围绕AI Agent安全、编程工具革新及模型能力评估展开。Google计划在2026年对Android进行重大AI改造，同时Elon Musk与Sam Altman就OpenAI未来走向的法律战进入关键阶段。此外，一项新研究揭示LLM推理轨迹存在短视规划问题，引发对模型深层能力的讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54155,
-      "event_count": 898
+      "field_score": 54419,
+      "event_count": 929
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1851,
-      "event_count": 38
+      "field_score": 1800,
+      "event_count": 37
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1724,
-      "event_count": 42
+      "field_score": 1552,
+      "event_count": 38
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1112,
-      "event_count": 23
+      "field_score": 1038,
+      "event_count": 22
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 517,
-      "event_count": 10
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 617,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "fix(ci) 更新 stale metadata ownership",
-      "summary": "fix(ci) 更新 stale metadata ownership；时间：2026-05-13T13:59:47.000Z；证据级别：strong；置信度：0.90",
-      "references": []
+      "title": "Meta 更新开源沉浸式 Web 开发框架 Immersive Web SDK，新增支持接入 AI 工具",
+      "summary": "IT之家 5 月 13 日消息，Meta 宣布为旗下开源沉浸式 Web 开发框架 Immersive Web SDK 进行重大更新，新增支持接入 AI 工具，旨在提升开发者效率。 IT之家注：Immersive Web SDK 在去年的…；Meta 更新开源沉浸式 Web 开发框架 Immersive Web SDK，新增支持接入 AI 工具",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/950/044.htm"
+        }
+      ]
     },
     {
-      "title": "Meta 更新 开源沉浸式 Web 开发框架 Immersive Web SDK，新增支持接入 AI 工具",
-      "summary": "Meta 更新 开源沉浸式 Web 开发框架 Immersive Web SDK，新增支持接入 AI 工具；时间：2026-05-13T12:35:43.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "OpenAI’s GPT-5.5 is as Good as Mythos at Finding Security Vulnerabilities",
+      "summary": "OpenAI’s GPT-5.5 is as Good as Mythos at Finding Security Vulnerabilities；The UK’s AI Security Institute evaluated GPT-5.5’s ability to find security vulnerabilities, and found th…",
+      "references": [
+        {
+          "source_name": "Schneier on Security",
+          "link": "https://schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html"
+        }
+      ]
+    },
+    {
+      "title": "Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution",
+      "summary": "arXiv:2605.11229v1 Announce Type: cross Abstract: Automation platforms such as GitHub Actions and n8n are increasingly…；Comment and Control: Hijacking Agentic Workflows via Contex…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.11229"
+        }
+      ]
+    },
+    {
+      "title": "From Code-Centric to Intent-Centric Software Engineering: A Reflexive Thematic Analysis of Generative AI, Agentic Syste…",
+      "summary": "arXiv:2605.11027v1 Announce Type: cross Abstract: Generative artificial intelligence (GenAI) and agentic systems are mo…；From Code-Centric to Intent-Centric Software Engineering:…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.11027"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
