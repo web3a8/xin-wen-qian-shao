@@ -1,41 +1,41 @@
 {
-  "global_brief": "AI 聊天机器人市场格局加速演变，ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶。与此同时，Anthropic 因其新模型 Mythos 的安全性引发广泛讨论，并指出反乌托邦科幻作品可能训练模型表现出“邪恶”行为。在工程实践方面，社区分享了将 LLM Agent 的 prompt cache 命中率提升至 90% 以上的经验，并涌现了多种针对 Agent 行为解释、安全性和生产部署的讨论与工具。",
+  "global_brief": "AI 聊天机器人市场格局加速变化，ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶。与此同时，Anthropic 发布 Claude Mythos Preview 引发安全讨论，其产品负责人预测 AI 将能预判用户需求。学术界围绕 LLM 智能体、推理效率与安全对齐涌现大量新研究，包括 Meta 提出的程序分析框架 与越狱攻击方法。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 47868,
-      "event_count": 814
+      "field_score": 47027,
+      "event_count": 821
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2145,
-      "event_count": 47
+      "field_score": 1985,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1380,
-      "event_count": 34
+      "field_score": 1549,
+      "event_count": 38
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 659,
+      "field_score": 635,
       "event_count": 14
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 617,
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 625,
       "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶",
-      "summary": "ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶；IT之家 5 月 14 日消息，Similarweb 发布了主流 AI 聊天机器人最新的网站流量数据，ChatGPT 的领先优势正在快速缩小。一年前，其流量占比高达 77.6%，如今已跌至 53.7%。 IT之家注意到，谷歌 Gemini…",
+      "title": "ChatGPT 网页端流量份额大幅下滑",
+      "summary": "根据 Similarweb 数据，ChatGPT 网页端流量份额在一年内从 77.6% 降至 53.7%，谷歌 Gemini 正在快速追赶。",
       "references": [
         {
           "source_name": "IT之家",
@@ -44,8 +44,18 @@
       ]
     },
     {
-      "title": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis",
-      "summary": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis；arXiv:2605.12694v1 Announce Type: cross Abstract: Large language models can consult information…",
+      "title": "Anthropic 发布 Claude Mythos Preview 并引发安全担忧",
+      "summary": "Anthropic 上个月宣布推出新模型 Claude Mythos Preview，该模型的能力引发了关于其潜在危险性的讨论。",
+      "references": [
+        {
+          "source_name": "Schneier on Security",
+          "link": "https://schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出基于格结构的 LLM 程序分析方法",
+      "summary": "一项新研究提出了 Agentic Interpretation 方法，利用格结构证据进行基于 LLM 的程序分析。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,8 +64,8 @@
       ]
     },
     {
-      "title": "Metis: Learning to Jailbreak LLMs via Self-Evolving Metacognitive Policy Optimization",
-      "summary": "arXiv:2605.10067v2 Announce Type: replace-cross Abstract: Red teaming is critical for uncovering vulnerabilities in Lar…；Metis: Learning to Jailbreak LLMs via Self-Evolving Metaco…",
+      "title": "新研究提出自进化元认知策略优化越狱方法",
+      "summary": "一项新研究提出了 Metis 方法，通过自进化元认知策略优化来学习越狱大型语言模型。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,15 +74,62 @@
       ]
     },
     {
-      "title": "How Dangerous Is Anthropic’s Mythos AI?",
-      "summary": "How Dangerous Is Anthropic’s Mythos AI?；Last month, Anthropic made a remarkable announcement about its new model, Claude Mythos Preview: it was so good at find…",
+      "title": "马斯克与奥特曼就 OpenAI 未来展开法庭对决",
+      "summary": "埃隆·马斯克和山姆·奥特曼正在进行一场高风险的审判，这场审判可能改变 OpenAI 的未来走向。",
       "references": [
         {
-          "source_name": "Schneier on Security",
-          "link": "https://schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出多智能体博弈论强化学习优化云数据中心 LLM 推理",
+      "summary": "一项新研究提出了 MARLIN 框架，利用多智能体博弈论强化学习来优化云数据中心中 LLM 推理的可持续性。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.13496"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "LLM 智能体研究正从单一任务向复杂系统与安全评估演进",
+      "summary": "近期多项研究聚焦于多智能体系统的集体推理失败 、智能体行为可解释性 以及更逼真的用户模拟评估，表明该领域正从追求能力转向关注系统可靠性、安全性和鲁棒性。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2505.11556"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.13625"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.12894"
+        }
+      ]
+    },
+    {
+      "title": "推理效率与模型架构的协同优化成为 LLM 部署关键",
+      "summary": "从 MARLIN 的云数据中心推理优化 到 GLASS 的推理时稀疏化，再到探讨缩放定律与模型架构关系的研究，表明在模型规模持续增长的背景下，提升推理效率已成为实现大规模部署的核心挑战。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.13496"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2508.14302"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2510.18245"
+        }
+      ]
+    }
+  ]
 }
