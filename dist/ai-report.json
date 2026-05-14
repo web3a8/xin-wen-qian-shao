@@ -1,167 +1,61 @@
 {
-  "global_brief": "本周AI领域竞争加剧，Anthropic在商业客户数上首次反超OpenAI，同时OpenAI发布了GPT-5.5安全漏洞挖掘能力评估及新的语音模型，而多篇研究聚焦于Agent系统的安全性与效率优化。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM智能体、推理效率与安全对齐。Anthropic与OpenAI在智能体行为解释与安全沙箱方面均有新动作，同时多项研究揭示了LLM在规划、安全与多智能体协作中的系统性缺陷。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 53998,
-      "event_count": 925
+      "field_score": 48718,
+      "event_count": 804
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1999,
-      "event_count": 46
+      "field_score": 2195,
+      "event_count": 48
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1145,
-      "event_count": 28
+      "field_score": 1386,
+      "event_count": 34
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1026,
-      "event_count": 22
+      "field_score": 801,
+      "event_count": 17
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 495,
-      "event_count": 10
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 677,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic商业客户数首次反超OpenAI",
-      "summary": "根据金融科技公司Ramp基于其客户费用数据的调查，34.4%的参与企业正在为Anthropic付费，而OpenAI为32.3%，显示Anthropic在商业客户数量上首次领先。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/alexmercedcoder/ai-weekly-voice-models-custom-silicon-mcp-goes-enterprise-may-7-13-2026-3kg8"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/950/068.htm"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI发布GPT-5.5安全漏洞挖掘能力评估",
-      "summary": "英国AI安全研究所评估显示，OpenAI的GPT-5.5在发现安全漏洞方面的能力与Mythos相当。",
+      "title": "OpenAI GPT-5.5在漏洞发现能力上与Mythos相当",
+      "summary": "英国AI安全研究所评估显示，OpenAI的GPT-5.5在发现安全漏洞方面的能力与Mythos模型相当。",
       "references": [
         {
           "source_name": "Schneier on Security",
           "link": "https://schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html"
         }
       ]
-    },
-    {
-      "title": "Anthropic指责反乌托邦科幻小说导致AI模型表现“邪恶”",
-      "summary": "Anthropic认为，训练数据中的反乌托邦科幻内容可能导致AI模型表现出不良行为，并建议使用模拟良好AI行为的“合成故事”进行训练。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI为Codex构建Windows安全沙箱",
-      "summary": "OpenAI详细介绍了如何为Codex在Windows上构建一个安全有效的沙箱，以实现安全高效的部署。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/building-codex-windows-sandbox"
-        }
-      ]
-    },
-    {
-      "title": "新研究揭示Agent工作流可被劫持",
-      "summary": "一篇arXiv论文提出“Comment and Control”攻击方法，展示了如何通过上下文演化劫持基于GitHub Actions等平台的Agent工作流。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.11229"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI本周在API中推出三款语音模型",
-      "summary": "在AI周报中提及，OpenAI本周在API中推出了三款语音模型及一个安全变体。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/alexmercedcoder/ai-weekly-voice-models-custom-silicon-mcp-goes-enterprise-may-7-13-2026-3kg8"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/950/068.htm"
-        }
-      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent安全风险成为研究焦点",
-      "summary": "多篇新研究（如“Comment and Control”和“When Agents Overtrust Environmental Evidence”）集中揭示了Agent系统在环境信任和上下文劫持方面的脆弱性，表明随着Agent部署加速，其安全护栏的构建已成为紧迫议题。",
+      "title": "智能体行为可解释性成为关键瓶颈",
+      "summary": "随着Claude Code和Codex等自主智能体运行时间延长，如何解释其行为成为核心挑战，Anthropic和OpenAI均在此方向投入研究。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.11229"
+          "link": "https://arxiv.org/abs/2605.13625"
         },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.08828"
-        }
-      ]
-    },
-    {
-      "title": "AI行业竞争格局从模型能力转向商业落地",
-      "summary": "Anthropic在商业客户数上反超OpenAI，结合其开始瞄准小企业主客户，以及Anthropic产品负责人预测AI将主动预测用户需求，表明竞争焦点正从基础模型性能转向企业级应用、客户获取和用户体验。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/alexmercedcoder/ai-weekly-voice-models-custom-silicon-mcp-goes-enterprise-may-7-13-2026-3kg8"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/950/068.htm"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners"
-        }
-      ]
-    },
-    {
-      "title": "从代码中心到意图中心的软件工程范式正在形成",
-      "summary": "一篇arXiv论文通过反思性主题分析指出，生成式AI和Agent系统正推动软件工程从“代码中心”向“意图中心”转变，这将对工程问责制产生深远影响，预示着开发者角色的根本性变化。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.11027"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/building-codex-windows-sandbox"
         }
       ]
     }
