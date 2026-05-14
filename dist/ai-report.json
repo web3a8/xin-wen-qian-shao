@@ -1,35 +1,35 @@
 {
-  "global_brief": "过去24小时，AI领域竞争格局出现显著变化，ChatGPT网页端流量份额一年内从77.6%跌至53.7%，谷歌Gemini快速追赶。同时，Anthropic发布关于其新模型Claude Mythos Preview安全性的深度分析，OpenAI则更新了ChatGPT在敏感对话中的上下文识别能力。此外，多篇关于LLM Agent行为解释、安全监控及推理效率的学术研究集中涌现，标志着行业正从模型能力竞赛转向安全、可控与高效部署的深水区。 [FACT] TITLE: ChatGPT网页端流量份额一年内从77.6%跌至53.7% SUM…",
+  "global_brief": "AI 聊天机器人市场格局加速变化，ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶。与此同时，AI 编码代理工具竞争白热化，OpenAI 将 Codex 集成至 ChatGPT 移动端，而微软开始取消 Claude Code 许可证。安全方面，首次有报告记录 LLM 辅助攻击墨西哥水利基础设施，引发对 AI 安全风险的广泛讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 46586,
-      "event_count": 811
+      "field_score": 47050,
+      "event_count": 819
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1948,
-      "event_count": 42
+      "field_score": 2011,
+      "event_count": 41
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1523,
+      "field_score": 1506,
       "event_count": 38
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 670,
-      "event_count": 14
+      "field_score": 836,
+      "event_count": 18
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 635,
-      "event_count": 14
+      "field_score": 555,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
@@ -44,32 +44,44 @@
       ]
     },
     {
-      "title": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis",
-      "summary": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis；arXiv:2605.12694v1 Announce Type: cross Abstract: Large language models can consult information…",
+      "title": "OpenAI’s Codex is now in the ChatGPT mobile app",
+      "summary": "OpenAI is going to let users access Codex, its desktop AI tool that can write code and use apps on your computer, from…；OpenAI’s Codex is now in the ChatGPT mobile app；Agent FM fo…",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.12694"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview"
+        },
+        {
+          "source_name": "Product Hunt",
+          "link": "https://producthunt.com/products/agent-fm-for-claude-code-codex"
         }
       ]
     },
     {
-      "title": "Metis: Learning to Jailbreak LLMs via Self-Evolving Metacognitive Policy Optimization",
-      "summary": "arXiv:2605.10067v2 Announce Type: replace-cross Abstract: Red teaming is critical for uncovering vulnerabilities in Lar…；Metis: Learning to Jailbreak LLMs via Self-Evolving Metaco…",
+      "title": "TextGen vs LM Studio: Picking a Local LLM Runner in 2026",
+      "summary": "I've been running local LLMs on my workstation for about two years now. Started with llama.cpp raw on the command line,…；TextGen vs LM Studio: Picking a Local LLM Runner in 2026；I…",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10067"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/alanwest/textgen-vs-lm-studio-picking-a-local-llm-runner-in-2026-1nc8"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/gadgets/930785/meta-smart-glasses-gen-1-2-deal-sale"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/meta-layoffs-bad-vibes-mark-zuckerberg-ai"
         }
       ]
     },
     {
-      "title": "How Dangerous Is Anthropic’s Mythos AI?",
-      "summary": "How Dangerous Is Anthropic’s Mythos AI?；Last month, Anthropic made a remarkable announcement about its new model, Claude Mythos Preview: it was so good at find…",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "summary": "Microsoft first started opening up access to Claude Code in December, inviting thousands of its own developers to use A…；Microsoft starts canceling Claude Code licenses",
       "references": [
         {
-          "source_name": "Schneier on Security",
-          "link": "https://schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad"
         }
       ]
     }
