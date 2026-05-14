@@ -1,41 +1,41 @@
 {
-  "global_brief": "今日AI领域持续升温，Anthropic在商业客户数上超越OpenAI，同时其产品负责人预测AI将能预判用户需求；安全方面，OpenAI的GPT-5.5在漏洞发现能力上表现突出，而一项新研究揭示了针对自动化工作流的劫持攻击风险；此外，Meta更新了其沉浸式Web开发框架以接入AI工具，Anthropic则指出反乌托邦科幻作品可能误导AI模型行为。",
+  "global_brief": "AI 领域竞争白热化，Anthropic 在商业客户数上超越 OpenAI，同时其高管预测 AI 将能预判用户需求；开源与闭源模型之争持续，社区热议前沿模型能否抗衡闭源巨头；AI 安全与 Agent 工作流成为研究焦点，多项新研究揭示了 Agent 系统的脆弱性与优化方向。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 53827,
-      "event_count": 921
+      "field_score": 52181,
+      "event_count": 897
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1711,
-      "event_count": 38
+      "field_score": 1823,
+      "event_count": 41
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1476,
-      "event_count": 38
+      "field_score": 1223,
+      "event_count": 31
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1074,
-      "event_count": 23
+      "field_score": 1030,
+      "event_count": 22
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 547,
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 537,
       "event_count": 11
     }
   ],
   "highlight_facts": [
     {
       "title": "Anthropic 商业客户数超越 OpenAI",
-      "summary": "根据金融科技公司 Ramp 的客户支出数据，在参与调查的企业中，34.4% 的企业正在为 Anthropic 付费，使其商业客户数量超过了 OpenAI。",
+      "summary": "根据金融科技公司 Ramp 的客户支出数据调查，Anthropic 的商业客户数量已超过 OpenAI，34.4% 的参与企业正在为 Anthropic 付费。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -44,8 +44,8 @@
       ]
     },
     {
-      "title": "OpenAI GPT-5.5 在漏洞发现能力上表现突出",
-      "summary": "英国AI安全研究所（UK AI Security Institute）的评估显示，OpenAI 的 GPT-5.5 在发现安全漏洞方面的能力与 Mythos 相当。",
+      "title": "OpenAI 的 GPT-5.5 在漏洞发现能力上与 Mythos 相当",
+      "summary": "英国 AI 安全研究所评估发现，OpenAI 的 GPT-5.5 在发现安全漏洞方面的能力与 Mythos 相当。",
       "references": [
         {
           "source_name": "Schneier on Security",
@@ -54,28 +54,8 @@
       ]
     },
     {
-      "title": "研究揭示针对自动化工作流的“评论与控制”劫持攻击",
-      "summary": "一项新研究（arXiv:2605.11229）展示了如何通过上下文演化（Context-Grounded Evolution）来劫持 GitHub Actions 和 n8n 等自动化平台上的代理工作流。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.11229"
-        }
-      ]
-    },
-    {
-      "title": "Meta 更新开源沉浸式 Web 开发框架以接入 AI 工具",
-      "summary": "Meta 宣布对其开源沉浸式 Web 开发框架 Immersive Web SDK 进行重大更新，新增支持接入 AI 工具，旨在提升开发者效率。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/950/044.htm"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic 称反乌托邦科幻作品会误导 AI 模型行为",
-      "summary": "Anthropic 指出，反乌托邦科幻小说中的情节可能导致 AI 模型被训练出“邪恶”行为，并建议使用描述良好 AI 行为的“合成故事”进行训练。",
+      "title": "Anthropic 将 AI 模型“邪恶”行为归咎于反乌托邦科幻小说",
+      "summary": "Anthropic 认为，训练 AI 模型时使用的反乌托邦科幻小说数据可能导致模型表现出“邪恶”行为，而使用模拟良好 AI 行为的“合成故事”进行训练则有所帮助。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -88,58 +68,72 @@
       ]
     },
     {
-      "title": "OpenAI 为 Codex 构建安全的 Windows 沙箱环境",
-      "summary": "OpenAI 分享了其为 Codex 在 Windows 上构建安全、有效沙箱的技术细节，以实现安全高效的代码执行。",
+      "title": "研究揭示 Agent 工作流存在被劫持风险",
+      "summary": "一篇新论文（arXiv:2605.11229）指出，GitHub Actions 和 n8n 等自动化平台上的 Agent 工作流存在被“上下文演化”方式劫持的风险。",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/building-codex-windows-sandbox"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.11229"
+        }
+      ]
+    },
+    {
+      "title": "Meta 更新开源沉浸式 Web 开发框架，支持接入 AI 工具",
+      "summary": "Meta 为其开源沉浸式 Web 开发框架 Immersive Web SDK 进行了重大更新，新增了对 AI 工具的接入支持，旨在提升开发者效率。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/950/044.htm"
+        }
+      ]
+    },
+    {
+      "title": "澳洲牧羊大叔的脚本引发 AI 编程工具变革，Claude Code 推出“goal”模式",
+      "summary": "一位澳洲牧羊大叔编写的三行 bash 脚本在 11 天内被 OpenAI、Anthropic 和 Hermes 等公司采纳，促使 Claude Code 推出“goal”模式，该模式要求 AI 持续工作直至任务完成。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/950/063.htm"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 编程范式正从“代码中心”转向“意图中心”",
-      "summary": "一项研究（arXiv:2605.11027）通过反思性主题分析指出，生成式AI和代理系统正推动软件工程从“代码中心”向“意图中心”转变，这将对工程问责制产生深远影响。",
+      "title": "开源前沿模型能否抗衡闭源模型引发社区热议",
+      "summary": "开发者社区正在激烈讨论，以 DeepSeek、Kimi、Qwen 为代表的开源或“半开源”前沿模型，是否有机会在与 OpenAI、Anthropic 等闭源模型的竞争中站稳脚跟。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.11027"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/jagostoni/do-open-frontier-models-have-a-chance-against-closed-models-312p"
         }
       ]
     },
     {
-      "title": "AI 代理的“过度信任”问题成为安全新挑战",
-      "summary": "多项研究（如 arXiv:2605.08828）指出，LLM代理在操作环境中存在过度信任环境证据的缺陷，这可能导致严重的安全和可靠性问题，亟需新的基准测试框架来评估。",
+      "title": "AI 使用成本高昂，用户对免费额度减少感到不满",
+      "summary": "多个社区用户反映，GPT 和 Claude 等大模型的使用成本过于昂贵，免费额度大幅减少，引发了关于“大模型杀熟”和氪金用户能否收回成本的广泛讨论。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.08828"
-        }
-      ]
-    },
-    {
-      "title": "多模态大模型幻觉检测与防御成为研究热点",
-      "summary": "近期多篇论文（如 arXiv:2605.12258, arXiv:2605.11716）聚焦于多模态大模型的幻觉问题，提出了从指令贡献度分析到解码层防御等多种新方法，表明该领域正从发现问题转向构建系统性防御。",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2605.12258"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1212474"
         },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.11716"
+          "source_name": "Hacker News Show",
+          "link": "https://gamevibe.us/30-chess"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2172068"
         }
       ]
     },
     {
-      "title": "社区驱动的创新正加速 AI 编程工具迭代",
-      "summary": "一位澳洲牧羊大叔的简单脚本创意，在11天内被OpenAI、Anthropic等公司采纳，并直接推动了Claude Code推出“goal”模式，这展示了社区草根创新对AI产品演进的强大驱动力。",
+      "title": "Anthropic 被指过度追求“氛围编程”，产品体验下降",
+      "summary": "有用户在 Hacker News 上提问，认为 Anthropic 可能过度关注“氛围编程”（vibe coding），导致其 Claude 应用和 Claude Code 近期出现不可用和充满 Bug 的问题。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/950/063.htm"
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48126435"
         }
       ]
     }
