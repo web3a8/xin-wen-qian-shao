@@ -1,41 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM智能体、推理效率与安全对齐。Anthropic与OpenAI在智能体行为解释与安全沙箱方面均有新动作，同时多项研究揭示了LLM在规划、安全与多智能体协作中的系统性缺陷。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM智能体（Agent）的推理、安全与效率优化，同时安全领域出现首个已知的AI编写零日漏洞报告，以及Anthropic关于AI将主动预测用户需求的观点引发广泛讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48718,
-      "event_count": 804
+      "field_score": 48392,
+      "event_count": 796
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2195,
-      "event_count": 48
+      "field_score": 2323,
+      "event_count": 51
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1386,
-      "event_count": 34
+      "field_score": 1295,
+      "event_count": 32
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 801,
-      "event_count": 17
+      "field_score": 763,
+      "event_count": 16
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 677,
-      "event_count": 15
+      "field_score": 658,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI GPT-5.5在漏洞发现能力上与Mythos相当",
-      "summary": "英国AI安全研究所评估显示，OpenAI的GPT-5.5在发现安全漏洞方面的能力与Mythos模型相当。",
+      "title": "英国AI安全研究院评估显示，OpenAI的GPT-5.5在发现安全漏洞方面与Mythos能力相当",
+      "summary": "英国AI安全研究院 对GPT-5.5进行了评估，认为其在发现安全漏洞方面的能力与Mythos相当。",
       "references": [
         {
           "source_name": "Schneier on Security",
@@ -46,16 +46,20 @@
   ],
   "highlight_opinions": [
     {
-      "title": "智能体行为可解释性成为关键瓶颈",
-      "summary": "随着Claude Code和Codex等自主智能体运行时间延长，如何解释其行为成为核心挑战，Anthropic和OpenAI均在此方向投入研究。",
+      "title": "AI智能体安全与监控成为核心焦点",
+      "summary": "多项研究 同时关注LLM的越狱攻击（Metis）和防御监控（CoT-Guard），结合首个AI编写零日漏洞 的出现，表明随着AI能力提升，其安全风险正从理论走向现实，安全与监控技术成为行业发展的关键瓶颈。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.13625"
+          "link": "https://arxiv.org/abs/2605.10067"
         },
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/building-codex-windows-sandbox"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.12746"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access"
         }
       ]
     }
