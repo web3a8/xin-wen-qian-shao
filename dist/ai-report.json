@@ -1,41 +1,41 @@
 {
-  "global_brief": "AI 聊天机器人市场格局加速洗牌，ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶。与此同时，Anthropic 因其新模型 Claude Mythos Preview 的安全性引发讨论，并指出反乌托邦科幻内容可能导致模型行为“邪恶”。学术界则密集发布了关于 LLM 智能体、推理效率及安全性的多项研究，涵盖从程序分析到红队攻击的多个方向。",
+  "global_brief": "AI 聊天机器人市场格局加速演变，ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶。与此同时，Anthropic 因其新模型 Mythos 的安全性引发广泛讨论，并指出反乌托邦科幻作品可能训练模型表现出“邪恶”行为。在工程实践方面，社区分享了将 LLM Agent 的 prompt cache 命中率提升至 90% 以上的经验，并涌现了多种针对 Agent 行为解释、安全性和生产部署的讨论与工具。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48487,
-      "event_count": 826
+      "field_score": 47868,
+      "event_count": 814
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2183,
-      "event_count": 48
+      "field_score": 2145,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1233,
-      "event_count": 30
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 668,
-      "event_count": 15
+      "field_score": 1380,
+      "event_count": 34
     },
     {
       "field_key": "science",
       "field_name": "Science",
       "field_score": 659,
       "event_count": 14
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 617,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "ChatGPT 网页端流量份额大幅下滑，谷歌 Gemini 快速追赶",
-      "summary": "根据 Similarweb 数据，ChatGPT 网页端流量份额在一年内从 77.6% 降至 53.7%，而谷歌 Gemini 的份额正在快速上升。",
+      "title": "ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶",
+      "summary": "ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶；IT之家 5 月 14 日消息，Similarweb 发布了主流 AI 聊天机器人最新的网站流量数据，ChatGPT 的领先优势正在快速缩小。一年前，其流量占比高达 77.6%，如今已跌至 53.7%。 IT之家注意到，谷歌 Gemini…",
       "references": [
         {
           "source_name": "IT之家",
@@ -44,8 +44,8 @@
       ]
     },
     {
-      "title": "新研究提出基于格结构证据的 LLM 程序分析方法",
-      "summary": "一篇 arXiv 论文提出了“Agentic Interpretation”方法，利用格结构证据进行基于 LLM 的程序分析。",
+      "title": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis",
+      "summary": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis；arXiv:2605.12694v1 Announce Type: cross Abstract: Large language models can consult information…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "title": "研究揭示通过元认知策略优化可越狱 LLM",
-      "summary": "一篇题为“Metis”的论文提出了一种自我进化的元认知策略优化方法，用于学习如何越狱 LLM。",
+      "title": "Metis: Learning to Jailbreak LLMs via Self-Evolving Metacognitive Policy Optimization",
+      "summary": "arXiv:2605.10067v2 Announce Type: replace-cross Abstract: Red teaming is critical for uncovering vulnerabilities in Lar…；Metis: Learning to Jailbreak LLMs via Self-Evolving Metaco…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,112 +64,15 @@
       ]
     },
     {
-      "title": "Anthropic 新模型 Claude Mythos Preview 安全性引发讨论",
-      "summary": "安全专家 Schneier 发文探讨 Anthropic 新模型 Claude Mythos Preview 的潜在危险性。同时，Anthropic 将模型行为问题部分归因于反乌托邦科幻训练数据，并尝试用合成故事进行纠正。",
+      "title": "How Dangerous Is Anthropic’s Mythos AI?",
+      "summary": "How Dangerous Is Anthropic’s Mythos AI?；Last month, Anthropic made a remarkable announcement about its new model, Claude Mythos Preview: it was so good at find…",
       "references": [
         {
           "source_name": "Schneier on Security",
           "link": "https://schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners"
-        }
-      ]
-    },
-    {
-      "title": "新框架 MARLIN 旨在优化云数据中心的 LLM 推理",
-      "summary": "一篇 arXiv 论文提出了 MARLIN，一个基于多智能体博弈论强化学习的框架，用于实现可持续的 LLM 云数据中心推理。",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2605.13496"
-        }
-      ]
-    },
-    {
-      "title": "研究提出 CoT-Guard 用于监控推理模型的思维链",
-      "summary": "一篇 arXiv 论文介绍了 CoT-Guard，一种使用小型模型来强有力监控推理模型思维链（CoT）的方法。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.12746"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI 安全研究重心从“防御”转向“攻击”与“归因”",
-      "summary": "近期研究不仅关注如何越狱 LLM，也开始探讨模型行为偏差的来源，如反乌托邦科幻训练数据。这表明业界正从被动防御转向主动发现漏洞并追溯其根源。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10067"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners"
-        }
-      ]
-    },
-    {
-      "title": "LLM 智能体研究进入“可解释性与可靠性”深水区",
-      "summary": "从解释智能体行为 到评估多智能体系统的集体推理失败，再到为供应链管理 等现实场景建立基准，学术界正致力于让 LLM 智能体变得更可解释、更可靠、更实用。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.13625"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2505.11556"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2602.07342"
-        }
-      ]
-    },
-    {
-      "title": "推理效率优化成为 LLM 部署的核心挑战",
-      "summary": "多篇论文聚焦于 LLM 推理效率，从云数据中心的多智能体调度 到多核 CPU 上的轻量级架构，再到推理时稀疏化，表明在模型规模持续增长的同时，降低推理成本是当前产业落地的关键瓶颈。",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2605.13496"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2603.07770"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2508.14302"
-        }
-      ]
-    },
-    {
-      "title": "AI 代理的“主动式”交互范式正在形成",
-      "summary": "Anthropic 产品负责人预测 AI 将能预判用户需求，同时学术界也在探索 LLM 代理在科学可视化 等领域的交互范式。这预示着 AI 正从被动响应工具向主动协作伙伴演进。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.27996"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
