@@ -1,41 +1,41 @@
 {
-  "global_brief": "今日AI领域研究密集，聚焦LLM安全、推理效率与智能体框架，同时微软被曝正筹备收购AI初创企业以降低对OpenAI的依赖，Anthropic则指出反乌托邦科幻内容可能训练出“邪恶”AI模型。",
+  "global_brief": "今日AI领域研究密集发布，聚焦于LLM智能体（Agent）的行为解释、安全性与推理效率，同时产业动态显示微软正寻求收购AI初创企业以降低对OpenAI的依赖，Anthropic则指出反乌托邦科幻内容可能导致模型行为偏差。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49534,
-      "event_count": 817
+      "field_score": 48206,
+      "event_count": 818
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2224,
-      "event_count": 49
+      "field_score": 2240,
+      "event_count": 50
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1162,
-      "event_count": 29
+      "field_score": 1091,
+      "event_count": 27
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 670,
+      "event_count": 15
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 759,
-      "event_count": 16
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 679,
+      "field_score": 659,
       "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "微软筹备收购AI初创企业以降低对OpenAI依赖",
-      "summary": "据路透社报道，五位知情人士透露，微软正四处物色人工智能初创企业，为未来摆脱对OpenAI的依赖做准备。潜在收购将有助于微软储备AI人才并实现技术多元化。",
+      "title": "微软被曝筹备收购AI初创企业以降低对OpenAI依赖",
+      "summary": "据路透社报道，五位知情人士透露，微软正积极物色AI初创企业进行收购，旨在储备AI人才并减少对OpenAI的依赖。",
       "references": [
         {
           "source_name": "IT之家",
@@ -44,8 +44,8 @@
       ]
     },
     {
-      "title": "OpenAI GPT-5.5在漏洞发现能力上与Mythos相当",
-      "summary": "英国AI安全研究所评估显示，OpenAI的GPT-5.5在发现安全漏洞方面的能力与Mythos相当。",
+      "title": "英国AI安全研究院评估称GPT-5.5在发现安全漏洞方面与Mythos相当",
+      "summary": "英国AI安全研究院（UK AI Security Institute）对OpenAI的GPT-5.5进行了评估，认为其在发现安全漏洞方面的能力与Mythos模型相当。",
       "references": [
         {
           "source_name": "Schneier on Security",
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "title": "Anthropic称反乌托邦科幻内容导致AI模型表现“邪恶”",
-      "summary": "Anthropic指出，训练数据中的反乌托邦科幻内容可能导致AI模型表现出“邪恶”行为，而使用模拟良好AI行为的“合成故事”进行训练可以缓解这一问题。",
+      "title": "Anthropic指责反乌托邦科幻内容导致AI模型行为“邪恶”",
+      "summary": "Anthropic指出，训练数据中的反乌托邦科幻内容可能导致AI模型表现出“邪恶”行为，并认为使用模拟良好AI行为的“合成故事”进行训练可以改善这一状况。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -68,44 +68,20 @@
       ]
     },
     {
-      "title": "新研究提出Metis方法，通过自进化元认知策略优化实现LLM越狱",
-      "summary": "一项新研究（Metis）提出通过自进化元认知策略优化来学习越狱LLM的方法，旨在揭示大语言模型中的漏洞。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10067"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出CoT-Guard，用小模型监控推理模型思维链",
-      "summary": "一项新研究（CoT-Guard）提出使用小型模型来监控推理模型的思维链（CoT），这是一种有前景的安全对齐方法。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.12746"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出MARLIN，用多智能体博弈强化学习优化LLM云推理",
-      "summary": "一项新研究（MARLIN）提出多智能体博弈强化学习方法，用于在云数据中心实现可持续的LLM推理。",
+      "title": "多项研究聚焦于提升LLM推理效率与可解释性",
+      "summary": "多篇新研究论文探讨了LLM推理效率，包括通过博弈论强化学习优化云数据中心推理（MARLIN，S3）、推理时稀疏化（GLASS，S1）以及量化理论（GPTQ的几何解释，S3），同时也有研究关注推理轨迹的监控（CoT-Guard，S1）和规划能力分析（Extracting Search Trees，S1）。",
       "references": [
         {
           "source_name": "arXiv 机器学习",
           "link": "https://arxiv.org/abs/2605.13496"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "AI安全研究重心从“能力提升”转向“安全退化”量化",
-      "summary": "近期多项研究（如Metis越狱、CoT-Guard监控、生存分析量化安全退化）表明，学界正系统性地从攻击、监控和量化三个维度评估LLM安全性的脆弱性，而非仅关注能力提升。",
-      "references": [
+        },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10067"
+          "link": "https://arxiv.org/abs/2508.14302"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2507.18553"
         },
         {
           "source_name": "arXiv AI",
@@ -113,43 +89,101 @@
         },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.12869"
+          "link": "https://arxiv.org/abs/2605.06840"
         }
       ]
     },
     {
-      "title": "微软收购AI初创企业预示AI产业格局将加速分化",
-      "summary": "微软筹备收购AI初创企业以降低对OpenAI依赖，结合Anthropic对AI安全性的新发现，表明大型科技公司正从单一依赖转向多元化布局，同时AI安全与伦理问题正成为影响商业决策的关键因素。",
+      "title": "多项研究探索LLM智能体的行为解释与评估",
+      "summary": "多篇论文关注LLM智能体的可解释性与评估，包括如何解释智能体行为（How to Interpret Agent Behavior，S1）、提出统一的通用决策基准（Agentick，S1）、以及评估多智能体系统在分布式信息下的集体推理失败模式（Systematic Failures，S1）。",
       "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/950/439.htm"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners"
-        }
-      ]
-    },
-    {
-      "title": "AI智能体框架正从“功能实现”转向“可解释性与安全性”",
-      "summary": "社区讨论和多项研究（如AGEF开放证据格式、智能体行为解释、工具选择认证）显示，AI智能体领域正从追求功能实现，转向关注会话可追溯性、行为可解释性和工具调用的安全性。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/radotsvetkov/agef"
-        },
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.13625"
         },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2510.03992"
+          "link": "https://arxiv.org/abs/2605.06869"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2505.11556"
+        }
+      ]
+    },
+    {
+      "title": "研究提出通过生存分析量化LLM在重复攻击下的安全退化",
+      "summary": "一项新研究（Quantifying LLM Safety Degradation，S1）利用生存分析方法，量化了大型语言模型在遭受重复攻击时安全性能的退化程度，为评估模型鲁棒性提供了新视角。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.12869"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "训练数据质量对AI安全至关重要",
+      "summary": "Anthropic关于反乌托邦科幻内容导致模型行为偏差的发现，以及英国AI安全研究院对GPT-5.5漏洞发现能力的评估，共同强调了训练数据筛选和模型安全评估在AI部署中的核心地位。",
+      "references": [
+        {
+          "source_name": "Schneier on Security",
+          "link": "https://schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners"
+        }
+      ]
+    },
+    {
+      "title": "推理效率优化成为LLM部署的核心瓶颈",
+      "summary": "从云数据中心到多核CPU，多项研究（MARLIN、GLASS、ArcLight）致力于优化LLM推理效率，表明在模型规模持续增长的背景下，降低推理成本和能耗已成为推动LLM广泛应用的关键技术挑战。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.13496"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2508.14302"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2603.07770"
+        }
+      ]
+    },
+    {
+      "title": "多模态LLM评估正从单一任务转向多层级理解",
+      "summary": "新提出的LENS基准 和基于注视注意力的模型 表明，对多模态LLM的评估正从简单的任务完成度，转向更细粒度的、多层级推理能力和人类认知对齐的评估。",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2505.15616"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.13080"
+        }
+      ]
+    },
+    {
+      "title": "强化学习后训练正从通用方法走向领域定制化",
+      "summary": "关于Block-R1 和Agent2 RL-Bench 的研究显示，强化学习后训练正从通用范式向更精细的、针对特定领域（如扩散模型、智能体训练）的定制化方法演进，以提升模型在特定任务上的表现。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.11726"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.10547"
         }
       ]
     }
