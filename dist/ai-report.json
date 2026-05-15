@@ -1,48 +1,38 @@
 {
-  "global_brief": "AI 领域竞争白热化，OpenAI 与 Anthropic 在编程助手和企业市场展开激烈交锋，同时多篇研究揭示了 LLM 在安全、推理和 Agent 行为上的新挑战与进展。",
+  "global_brief": "OpenAI 将 Codex 编程代理扩展至移动端，并面临与苹果的法律纠纷；Anthropic 发布 2028 年全球 AI 领导力情景分析，同时微软开始取消 Claude Code 许可证；多篇研究聚焦 LLM 安全与推理效率，包括后门攻击、越狱方法及推理时稀疏化技术。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 59502,
-      "event_count": 985
+      "field_score": 58192,
+      "event_count": 989
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2277,
-      "event_count": 47
+      "field_score": 2157,
+      "event_count": 46
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1231,
+      "field_score": 1229,
       "event_count": 30
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 761,
+      "field_score": 750,
       "event_count": 15
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 511,
-      "event_count": 9
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 580,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
-    {
-      "title": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis",
-      "summary": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis；arXiv:2605.12694v1 Announce Type: cross Abstract: Large language models can consult information…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.12694"
-        }
-      ]
-    },
     {
       "title": "Sea's View on the Future of Agentic Software Development with Codex",
       "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software…；Sea's View on the Future of Agentic Software Development w…",
@@ -50,6 +40,16 @@
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/sea-david-chen"
+        }
+      ]
+    },
+    {
+      "title": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis",
+      "summary": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis；arXiv:2605.12694v1 Announce Type: cross Abstract: Large language models can consult information…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.12694"
         }
       ]
     },
