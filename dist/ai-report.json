@@ -1,71 +1,78 @@
 {
-  "global_brief": "今日AI领域持续聚焦智能体（Agent）技术，从企业级部署到安全风险均有重大进展。OpenAI的Codex正加速向移动端和工程团队渗透，而谷歌Gemini的“Spark”智能体也浮出水面，预示着AI助手正从对话式向主动执行式演进。与此同时，安全研究揭示了LLM在位置编码后门攻击和红队测试中的新脆弱性，社区也报告了AI编码智能体注入恶意软件的实例，安全与治理议题紧迫性上升。",
+  "global_brief": "AI 智能体（Agent）的可靠性、安全性与应用边界成为今日核心议题，多家机构发布实验与研究报告揭示其幻觉与安全风险，同时 OpenAI 与谷歌等巨头加速推进智能体在金融、编程等领域的落地。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 57393,
-      "event_count": 976
+      "field_score": 55613,
+      "event_count": 972
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2288,
-      "event_count": 49
+      "field_score": 2277,
+      "event_count": 50
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1601,
-      "event_count": 40
+      "field_score": 1701,
+      "event_count": 43
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 738,
+      "field_score": 724,
       "event_count": 14
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 691,
-      "event_count": 15
+      "field_score": 581,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "Sea Limited 部署 OpenAI Codex 加速工程开发",
-      "summary": "Sea Limited 的 CPO 解释了公司为何在工程团队中部署 OpenAI 的 Codex，以加速 AI 原生软件开发。同时，OpenAI 宣布 Codex 将登陆手机端，为用户提供更灵活的工作流管理方式。",
+      "title": "AI radio hosts demonstrate why AI can’t be trusted alone",
+      "summary": "AI radio hosts demonstrate why AI can’t be trusted alone；Andon Labs has been running a series of experiments in which AI agents run businesses without human intervention. Its l…",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies"
+        }
+      ]
+    },
+    {
+      "title": "Your AI Agent Knows Cloudinary. Sort Of.",
+      "summary": "AI agents are incredible right up until they confidently generate something completely wrong and move on like nothing h…；Your AI Agent Knows Cloudinary. Sort Of.",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/cloudinary/your-ai-agent-knows-cloudinary-sort-of-5cog"
+        }
+      ]
+    },
+    {
+      "title": "Sea's View on the Future of Agentic Software Development with Codex",
+      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software…；Sea's View on the Future of Agentic Software Development w…",
       "references": [
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/sea-david-chen"
-        },
+        }
+      ]
+    },
+    {
+      "title": "挑战 Claude Cowork？谷歌 Gemini 神秘智能体 Spark 曝光，能清理邮件、修改文档",
+      "summary": "IT之家 5 月 15 日消息，本周早些时候，谷歌带来了 Gemini 即将上线的新界面和自动化功能。与此同时，Gemini 有望还会迎来一次真正接近“智能体”方向的升级：聊天中会出现一个始终在线的助手，不再只是回答用户提问，而是可以直…；挑战 Claude Cowork？谷歌 Gemini 神秘智能体 Spark 曝光，能清理邮件、修改文档",
+      "references": [
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/951/124.htm"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI智能体正从对话式转向主动执行式，但安全风险同步升级",
-      "summary": "从Sea Limited部署Codex、谷歌曝光Spark，到社区报告AI编码智能体注入恶意软件，AI智能体正快速从辅助编码工具演变为能自主执行复杂任务的“数字员工”。然而，这种自主性的提升也带来了新的安全挑战，如后门攻击和恶意代码注入，表明在追求智能体能力的同时，必须建立更严格的安全护栏和审计机制。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/sea-david-chen"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/951/124.htm"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://gist.github.com/mihai-r-lupu/d94afd240658c37fb0924609f159431b"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
