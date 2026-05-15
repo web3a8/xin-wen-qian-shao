@@ -1,28 +1,28 @@
 {
-  "global_brief": "AI 编程智能体赛道竞争白热化，OpenAI 将 Codex 扩展至移动端，xAI 推出 Grok Build 对标 Claude Code，同时微软开始取消 Claude Code 授权。ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶。安全方面，Anthropic 发布关于其 Mythos AI 模型危险性的分析，并出现首例 LLM 辅助攻击墨西哥水利设施的记录。 [FACT] TITLE: OpenAI 将 Codex 扩展至 ChatGPT 移动端 SUMMARY: OpenAI 宣布其桌面端…",
+  "global_brief": "OpenAI 将编程智能体 Codex 扩展至手机端，用户可远程控制桌面任务，同时 xAI 发布首款编程智能体 Grok Build 追赶行业。社区围绕 LLM Agent 的 prompt cache 优化、安全攻击及 Rust 编译器 LLM 政策展开热议，AI 编程工具竞争与工程实践成为焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 47208,
-      "event_count": 820
+      "field_score": 46592,
+      "event_count": 808
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2414,
-      "event_count": 50
+      "field_score": 2364,
+      "event_count": 48
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1459,
-      "event_count": 37
+      "field_score": 1379,
+      "event_count": 34
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 787,
+      "field_score": 794,
       "event_count": 17
     },
     {
@@ -33,16 +33,6 @@
     }
   ],
   "highlight_facts": [
-    {
-      "title": "ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶",
-      "summary": "ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶；IT之家 5 月 14 日消息，Similarweb 发布了主流 AI 聊天机器人最新的网站流量数据，ChatGPT 的领先优势正在快速缩小。一年前，其流量占比高达 77.6%，如今已跌至 53.7%。 IT之家注意到，谷歌 Gemini…",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/950/604.htm"
-        }
-      ]
-    },
     {
       "title": "Work with Codex from anywhere",
       "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices an…；Work with Codex from anywhere；OpenAI is reportedly prepari…",
@@ -76,6 +66,16 @@
         {
           "source_name": "Product Hunt",
           "link": "https://producthunt.com/products/agent-fm-for-claude-code-codex"
+        }
+      ]
+    },
+    {
+      "title": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis",
+      "summary": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis；arXiv:2605.12694v1 Announce Type: cross Abstract: Large language models can consult information…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.12694"
         }
       ]
     },
