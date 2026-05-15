@@ -1,43 +1,63 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：AI radio hosts demonstrate why AI can’t be trusted alone；Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis；MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs。",
+  "global_brief": "AI 智能体与安全研究成为今日最活跃领域，谷歌曝光全新智能体 Spark，Anthropic 则坦诚其代码工具 Claude Code 并无宏大路线图；同时，多篇 arXiv 论文揭示了 LLM 在推理、后门攻击与安全评估中的新脆弱性，OpenAI 也推出了 ChatGPT 个人理财功能。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 53773,
-      "event_count": 945
+      "field_score": 54731,
+      "event_count": 960
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2073,
-      "event_count": 45
+      "field_score": 1943,
+      "event_count": 43
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1610,
+      "field_score": 1597,
       "event_count": 42
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 725,
-      "event_count": 14
+      "field_score": 672,
+      "event_count": 13
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 552,
-      "event_count": 11
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 668,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 发布 ChatGPT for personal finance, will let you connect bank accounts",
-      "summary": "OpenAI 发布 ChatGPT for personal finance, will let you connect bank accounts；时间：2026-05-15T16:00:00.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "谷歌 Gemini 神秘智能体 Spark 曝光，能清理邮件、修改文档",
+      "summary": "谷歌正在测试一款名为 Spark 的智能体，它作为始终在线的助手，可直接执行清理邮件、修改文档等任务，被视为对 Anthropic Claude Cowork 的挑战。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/951/124.htm"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 智能体自主性提升引发信任与安全担忧",
+      "summary": "从 Andon Labs 的实验到谷歌 Spark 的曝光，AI 智能体正从被动问答转向主动执行任务。然而，实验表明 AI 在无监督情况下仍不可完全信任，这凸显了在部署前建立强健监控与安全机制的必要性。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/951/124.htm"
+        }
+      ]
+    }
+  ]
 }
