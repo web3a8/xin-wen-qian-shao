@@ -1,78 +1,79 @@
 {
-  "global_brief": "OpenAI 将 Codex 编程代理扩展至移动端，并面临与苹果的法律纠纷；Anthropic 发布 2028 年全球 AI 领导力情景分析，同时微软开始取消 Claude Code 许可证；多篇研究聚焦 LLM 安全与推理效率，包括后门攻击、越狱方法及推理时稀疏化技术。",
+  "global_brief": "AI 编程工具与智能体成为今日最热焦点：OpenAI 将 Codex 扩展至移动端，Anthropic 的 Claude Code 产品负责人则讨论了其设计理念与使用限制。与此同时，多项研究揭示了 LLM 在安全与推理方面的深层问题，包括后门攻击 、越狱攻击 以及推理过程中的短视规划。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 58192,
-      "event_count": 989
+      "field_score": 56897,
+      "event_count": 971
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2157,
-      "event_count": 46
+      "field_score": 2291,
+      "event_count": 49
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1229,
-      "event_count": 30
+      "field_score": 1489,
+      "event_count": 37
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 750,
-      "event_count": 15
+      "field_score": 741,
+      "event_count": 14
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 580,
-      "event_count": 12
+      "field_score": 654,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
     {
-      "title": "Sea's View on the Future of Agentic Software Development with Codex",
-      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software…；Sea's View on the Future of Agentic Software Development w…",
+      "title": "OpenAI 将 Codex 编程工具扩展至 ChatGPT 移动应用",
+      "summary": "OpenAI 宣布其桌面 AI 编程工具 Codex 现已集成至 ChatGPT 移动应用，允许用户在手机上访问和使用该工具。",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/sea-david-chen"
-        }
-      ]
-    },
-    {
-      "title": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis",
-      "summary": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis；arXiv:2605.12694v1 Announce Type: cross Abstract: Large language models can consult information…",
-      "references": [
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview"
+        },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.12694"
-        }
-      ]
-    },
-    {
-      "title": "MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs",
-      "summary": "arXiv:2605.15172v1 Announce Type: cross Abstract: Backdoor attacks pose a serious security threat to large language mod…；MetaBackdoor: Exploiting Positional Encoding as a Backdoor…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.15172"
-        }
-      ]
-    },
-    {
-      "title": "Metis: Learning to Jailbreak LLMs via Self-Evolving Metacognitive Policy Optimization",
-      "summary": "arXiv:2605.10067v2 Announce Type: replace-cross Abstract: Red teaming is critical for uncovering vulnerabilities in Lar…；Metis: Learning to Jailbreak LLMs via Self-Evolving Metaco…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10067"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 编程工具竞争白热化，生态整合成为关键",
+      "summary": "OpenAI 将 Codex 推向移动端，而 Anthropic 则强调 Claude Code 的“精益”设计，两者策略分化。同时，社区中出现统一配置 Claude、Codex、Cursor 和 Copilot 的工具，以及运行时无关的 AI Agent 工作流规范，表明开发者正寻求跨平台、标准化的 AI 编程体验，生态整合能力或将成为下一阶段竞争的核心。",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/kernalix7/ai-project-setup"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/3IVIS/itsharness"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/05/claude-codes-product-lead-talks-usage-limits-transparency-and-the-lean-harness"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone"
+        }
+      ]
+    }
+  ]
 }
