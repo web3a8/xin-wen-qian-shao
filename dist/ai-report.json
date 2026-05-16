@@ -1,78 +1,63 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导技术动态，智能体（Agent）的安全性与可靠性成为核心议题，同时模型发布与工具更新也备受关注。Anthropic与OpenAI在智能体应用和模型能力上展开竞争，而多篇研究论文则揭示了LLM在安全、推理和部署方面的最新挑战与进展。",
+  "global_brief": "AI 安全与隐私问题成为今日焦点，OpenAI 因 ChatGPT 隐私追踪遭集体诉讼，同时多项研究揭示了 LLM 在安全、推理和自主行为上的深层缺陷。此外，AI 应用正加速向个人金融和代码开发等垂直领域渗透，Anthropic 估值超越 OpenAI 也标志着行业竞争格局的微妙变化。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54989,
-      "event_count": 965
+      "field_score": 54898,
+      "event_count": 960
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1851,
+      "field_score": 1842,
       "event_count": 41
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1442,
-      "event_count": 38
+      "field_score": 1332,
+      "event_count": 34
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 631,
-      "event_count": 14
+      "field_score": 812,
+      "event_count": 17
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 622,
+      "field_score": 618,
       "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "AI radio hosts demonstrate why AI can’t be trusted alone",
-      "summary": "AI radio hosts demonstrate why AI can’t be trusted alone；Andon Labs has been running a series of experiments in which AI agents run businesses without human intervention. Its l…",
+      "title": "OpenAI 因 ChatGPT 隐私追踪工具遭集体诉讼",
+      "summary": "OpenAI 在美国加州遭遇集体诉讼，原告指控其在 ChatGPT 中嵌入追踪工具，将用户信息分享给 Meta 和谷歌等公司。",
       "references": [
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies"
-        }
-      ]
-    },
-    {
-      "title": "Claude Mythos vs Claude Opus 4.6: what the leaked benchmarks mean for developers",
-      "summary": "Claude Mythos vs Claude Opus 4.6: what the leaked benchmarks mean for developers；TL;DR Claude Mythos (internal codename “Capybara”) appeared in accidentally exposed Anthropic draf…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/preecha/claude-mythos-vs-claude-opus-46-what-the-leaked-benchmarks-mean-for-developers-1h84"
-        }
-      ]
-    },
-    {
-      "title": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis",
-      "summary": "Agentic Interpretation: Lattice-Structured Evidence for LLM-Based Program Analysis；arXiv:2605.12694v1 Announce Type: cross Abstract: Large language models can consult information…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.12694"
-        }
-      ]
-    },
-    {
-      "title": "MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs",
-      "summary": "arXiv:2605.15172v1 Announce Type: cross Abstract: Backdoor attacks pose a serious security threat to large language mod…；MetaBackdoor: Exploiting Positional Encoding as a Backdoor…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.15172"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/951/210.htm"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 安全与隐私问题正从学术研究走向法律诉讼",
+      "summary": "从 Meta 的后门攻击研究到 OpenAI 的集体诉讼，AI 行业正面临从技术漏洞到法律合规的双重压力。这预示着未来 AI 产品的开发将不得不将安全与隐私作为核心设计原则，而非事后补救措施。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.15172"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/951/210.htm"
+        }
+      ]
+    }
+  ]
 }
