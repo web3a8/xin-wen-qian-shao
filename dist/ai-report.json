@@ -1,78 +1,67 @@
 {
-  "global_brief": "今日AI领域持续主导技术动态，多篇研究聚焦于LLM智能体的可靠性、安全性与推理效率，同时Anthropic与OpenAI在工具与合规方面均有新进展。社区讨论则围绕AI智能体的行为模式与本地推理基准展开。",
+  "global_brief": "AI 领域持续主导技术动态，多篇研究聚焦于 LLM 智能体的可靠性、安全性与推理效率，同时开源社区和产业合作也在推进模型部署与应用落地。一项实验表明 AI 智能体在无人监督时仍不可靠，而多项新基准和攻击方法则揭示了当前模型在安全与推理方面的薄弱环节。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30086,
-      "event_count": 480
+      "field_score": 28797,
+      "event_count": 470
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1232,
-      "event_count": 31
+      "field_score": 1400,
+      "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1123,
-      "event_count": 27
+      "field_score": 1026,
+      "event_count": 25
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 488,
-      "event_count": 10
+      "field_score": 721,
+      "event_count": 16
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 441,
-      "event_count": 9
+      "field_score": 319,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
       "title": "AI radio hosts demonstrate why AI can’t be trusted alone",
-      "summary": "AI radio hosts demonstrate why AI can’t be trusted alone；Andon Labs has been running a series of experiments in which AI agents run businesses without human intervention. Its l…",
+      "summary": "Andon Labs 的实验显示，AI 智能体在独立运行商业任务时仍不可靠，凸显了当前 AI 自主性的局限性。",
       "references": [
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model",
-      "summary": "Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model；arXiv:2605.14723v1 Announce Type: new Abstract: Sepsis management in the ICU requires sequen…",
+      "title": "LLM 智能体可靠性仍是核心挑战",
+      "summary": "从 Andon Labs 的实验到多项关于智能体安全评估（如 AgenticEval）和工具使用（如 Knowing-Doing Gap）的研究，都指向一个共同趋势：当前 LLM 智能体在复杂、开放环境中的自主决策能力远未成熟，需要更严格的评估框架和安全机制。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.14723"
-        }
-      ]
-    },
-    {
-      "title": "ExploitBench: A Capability Ladder Benchmark for LLM Cybersecurity Agents",
-      "summary": "arXiv:2605.14153v1 Announce Type: cross Abstract: Exploitation is not a binary event. It is a ladder of acquiring progr…；ExploitBench: A Capability Ladder Benchmark for LLM Cybers…",
-      "references": [
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies"
+        },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.14153"
-        }
-      ]
-    },
-    {
-      "title": "Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems",
-      "summary": "arXiv:2511.16964v2 Announce Type: replace-cross Abstract: Maximizing performance on available GPU hardware is an ongoin…；Optimizing PyTorch Inference with LLM-Based Multi-Agent Sy…",
-      "references": [
+          "link": "https://arxiv.org/abs/2509.26100"
+        },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2511.16964"
+          "link": "https://arxiv.org/abs/2605.14038"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
