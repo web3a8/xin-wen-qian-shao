@@ -1,41 +1,41 @@
 {
-  "global_brief": "OpenAI 联合创始人 Greg Brockman 据报重新负责产品战略，同时公司正计划将 ChatGPT 与更广泛的 Agent 产品结合。AI 领域研究热度集中在 Agent 系统、推理优化与安全评估，多篇 arXiv 论文探讨了多智能体协作、量化攻击及推理效率。社区侧则涌现了多个追踪 AI 编程工具使用情况的开发者工具，如 TokenBBQ 和 AI 编程分析平台。",
+  "global_brief": "OpenAI 联合创始人 Greg Brockman 据报重新负责产品战略，公司正计划将 ChatGPT 与更广泛的 AI 产品线整合。与此同时，AI 社区围绕 LLM 推理效率、Agent 安全与量化攻击等前沿议题发布了大量新研究，并涌现出多个面向开发者的实用工具与基准测试。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 28934,
-      "event_count": 466
+      "field_score": 28058,
+      "event_count": 464
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1514,
-      "event_count": 38
+      "field_score": 1454,
+      "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1102,
+      "field_score": 1099,
       "event_count": 27
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 399,
-      "event_count": 8
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 244,
+      "field_score": 287,
+      "event_count": 5
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 209,
       "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI co-founder Greg Brockman reportedly takes charge of product strategy",
-      "summary": "OpenAI co-founder Greg Brockman reportedly takes charge of product strategy；OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming pr…",
+      "title": "OpenAI 联合创始人 Brockman 重新负责产品战略",
+      "summary": "据多家媒体报道，OpenAI 联合创始人 Greg Brockman 已重新接管产品战略，此次人事调整正值公司计划将 ChatGPT 与其他 AI 产品进行更深度整合之际。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -56,8 +56,8 @@
       ]
     },
     {
-      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
-      "summary": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens；OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI…",
+      "title": "OpenAI 与马耳他合作推广 ChatGPT Plus",
+      "summary": "OpenAI 宣布与马耳他政府合作，向该国所有公民提供 ChatGPT Plus 订阅及相关培训，以扩大 AI 技术的普及。",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -66,25 +66,102 @@
       ]
     },
     {
-      "title": "Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model",
-      "summary": "Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model；arXiv:2605.14723v1 Announce Type: new Abstract: Sepsis management in the ICU requires sequen…",
+      "title": "新研究提出 LLM 量化攻击方法",
+      "summary": "一项新研究（arXiv:2605.15152）揭示了通过注入异常值来利用 LLM 量化过程的攻击方法，对模型部署安全构成潜在威胁。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.14723"
+          "link": "https://arxiv.org/abs/2605.15152"
         }
       ]
     },
     {
-      "title": "ExploitBench: A Capability Ladder Benchmark for LLM Cybersecurity Agents",
-      "summary": "arXiv:2605.14153v1 Announce Type: cross Abstract: Exploitation is not a binary event. It is a ladder of acquiring progr…；ExploitBench: A Capability Ladder Benchmark for LLM Cybers…",
+      "title": "新基准 ExploitBench 评估 LLM 网络安全 Agent 能力",
+      "summary": "研究人员发布了 ExploitBench，一个用于评估 LLM 驱动的网络安全 Agent 在漏洞利用方面渐进能力的基准测试。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.14153"
         }
       ]
+    },
+    {
+      "title": "社区热议 AI 编码助手使用分析工具",
+      "summary": "Hacker News 上出现多个热门项目，包括用于分析 Copilot、Claude 和 Codex 使用情况的“Strava for AI coding”工具，以及一个用于本地 LLM 推理和 XGBoost 训练的 GPU/CPU 基准测试。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/microsoft/AI-Engineering-Coach"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/albedan/ai-ml-gpu-bench"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出多 Agent 协作优化框架",
+      "summary": "一篇新论文提出了 OMAC，一个用于优化基于 LLM 的多 Agent 协作系统的整体框架，旨在提升复杂任务中的协同效率。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2505.11765"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "LLM 量化安全成为研究焦点",
+      "summary": "近期多项研究（如 Widening the Gap、XFP）同时关注 LLM 量化的效率与安全，表明社区在追求推理加速的同时，也开始严肃审视量化带来的新攻击面。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15152"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.14844"
+        }
+      ]
+    },
+    {
+      "title": "Agent 安全评估正从静态转向动态",
+      "summary": "新提出的 AgenticEval 框架强调 Agent 应具备自我进化的安全评估能力，这反映了行业共识：传统静态安全测试已无法满足日益自主的 LLM Agent 的需求。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2509.26100"
+        }
+      ]
+    },
+    {
+      "title": "开发者工具生态正围绕 Agent 工作流快速成型",
+      "summary": "从 Layrr 的 UI 点选编辑到 APWA 的分布式 Agent 工作流架构，再到针对 Agent 性能的对比讨论，表明开发者社区正从单一模型使用转向构建和优化复杂的 Agent 系统。",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://npmjs.com/package/layrr"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15132"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48154390"
+        }
+      ]
+    },
+    {
+      "title": "弱推理模型的 Agent 化组合可能成为新范式",
+      "summary": "一项研究探讨了“弱推理模型委员会”能否通过 Agent 系统提升整体推理能力，这为在资源受限场景下提升模型性能提供了新思路，挑战了“唯大模型论”。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.14163"
+        }
+      ]
+    }
+  ]
 }
