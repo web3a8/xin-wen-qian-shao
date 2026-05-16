@@ -1,35 +1,35 @@
 {
-  "global_brief": "AI 代理与安全研究密集发布，多篇论文聚焦代理推理、量化安全与工具使用；OpenAI 因隐私问题遭集体诉讼，同时推出个人金融助手；社区围绕本地模型选择、上下文漂移及代理工作流展开讨论。",
+  "global_brief": "过去24小时，AI领域研究密集发布，多智能体系统、LLM安全与推理优化成为核心焦点。Anthropic的Claude Code产品负责人公开讨论其设计哲学，而OpenAI则因隐私问题在美国遭遇集体诉讼。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30130,
-      "event_count": 477
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1231,
-      "event_count": 29
+      "field_score": 29642,
+      "event_count": 471
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1228,
+      "field_score": 1242,
       "event_count": 31
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 597,
-      "event_count": 12
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 1226,
+      "event_count": 29
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 493,
-      "event_count": 10
+      "field_score": 392,
+      "event_count": 8
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 327,
+      "event_count": 6
     }
   ],
   "highlight_facts": [
@@ -54,22 +54,22 @@
       ]
     },
     {
-      "title": "TIL: Building Agentic Workflows in Chrome with Gemini Skills",
-      "summary": "Evolution of the Prompt Anthropic recently popularized “skills” in coding agents and cool tools like Claude Code and Ge…；TIL: Building Agentic Workflows in Chrome with Gemini Skil…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/aasteriskz/til-building-agentic-workflows-in-chrome-with-gemini-skills-2eao"
-        }
-      ]
-    },
-    {
       "title": "ExploitBench: A Capability Ladder Benchmark for LLM Cybersecurity Agents",
       "summary": "arXiv:2605.14153v1 Announce Type: cross Abstract: Exploitation is not a binary event. It is a ladder of acquiring progr…；ExploitBench: A Capability Ladder Benchmark for LLM Cybers…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.14153"
+        }
+      ]
+    },
+    {
+      "title": "Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems",
+      "summary": "arXiv:2511.16964v2 Announce Type: replace-cross Abstract: Maximizing performance on available GPU hardware is an ongoin…；Optimizing PyTorch Inference with LLM-Based Multi-Agent Sy…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2511.16964"
         }
       ]
     }
