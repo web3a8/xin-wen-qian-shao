@@ -1,151 +1,131 @@
 {
-  "global_brief": "今日社区焦点集中在AI编程工具链的深度优化与安全风险上，开发者社区涌现出多个旨在提升AI编码效率的开源项目，同时关于AI提示注入和模型安全性的讨论也引发关注。此外，AI在教育领域的影响以及Cerebras等公司的商业化进展成为行业观察热点。",
+  "global_brief": "今日社区焦点集中在AI代理工具链的爆发式增长与安全隐忧的并存。一方面，从Git-surgeon到Vercel的Zero语言，再到OpenClaw每月130万美元的代理集群，开发者正以前所未有的速度构建和部署自主编码代理；另一方面，关于AI在代码审查中冒充人类、以及通过心理操纵进行越狱的讨论，凸显了安全边界的紧迫性。同时，Anthropic的Mnemara项目与Claude Code的精简版MiniClaude，反映了本地化与去中心化AI工具的趋势。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5392,
-      "event_count": 99
+      "field_score": 5974,
+      "event_count": 106
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1837,
+      "field_score": 1807,
       "event_count": 47
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 390,
-      "event_count": 9
+      "field_score": 285,
+      "event_count": 6
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 201,
-      "event_count": 4
+      "field_score": 244,
+      "event_count": 5
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 137,
+      "field_score": 135,
       "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "开发者分享优化AI编码会话的实践指南",
-      "summary": "一篇来自Dev.to的文章 指出，开发者在使用Claude Code等AI编程工具时，存在4个常见的CLAUDE.md配置错误，这些错误会显著降低AI编码会话的效率，并提供了相应的修复方法。",
+      "title": "OpenClaw创始人每月花费130万美元运行100个AI代理进行编码和漏洞查找",
+      "summary": "据报道，OpenClaw创始人Peter Steinberger每月投入约130万美元，运行100个AI代理，这些代理能够自主编写代码并发现软件漏洞。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/blncraft/4-claudemd-mistakes-that-are-killing-your-ai-coding-sessions-and-how-to-fix-them-nd0"
-        }
-      ]
-    },
-    {
-      "title": "多个开源AI代理工具项目在Hacker News上发布",
-      "summary": "Hacker News上出现了多个新的开源AI代理项目，包括一个可运行任何公开或MIT许可AI代理的CLI工具“Agnt”，一个用于AI代理团队协作的Markdown协议“Polis”，以及一个用于并购合同分析的13个AI代理工具集“Due Diligence Agents”。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://news.ycombinator.com/item?id=48170395"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/yehudalevy-collab/polis-protocol"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/zoharbabin/due-diligence-agents"
-        }
-      ]
-    },
-    {
-      "title": "开发者分享绕过Claude Code SSH限制的方法并引发安全讨论",
-      "summary": "一位开发者 分享了如何通过给所有工具LLM提供Wiki来绕过Claude Code的SSH节流限制，并承认从安全角度看这是一个糟糕的主意，但实际效果很好。",
-      "references": [
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48169701"
-        }
-      ]
-    },
-    {
-      "title": "LinkedIn用户利用AI提示注入对抗招聘垃圾信息",
-      "summary": "据报道，一名LinkedIn用户在其个人简介中隐藏了AI提示注入指令，以强制自动化的招聘垃圾信息机器人执行特定操作，这是一种新型的对抗AI滥用的方式。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/linkedin-recruitment-spam-becomes-olde-english-prose-after-user-hides-ai-prompt-injection-in-bio-bots-also-also-manipulated-to-address-user-as-my-lord"
-        }
-      ]
-    },
-    {
-      "title": "OpenClaw创始人每月花费130万美元运行100个AI代理进行代码审计",
-      "summary": "据The Decoder报道，OpenClaw的创始人每月投入130万美元，运行100个AI代理来自动化地编写代码和查找漏洞。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
+          "source_name": "Hacker News OpenClaw",
           "link": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs"
         }
       ]
     },
     {
-      "title": "Cerebras在完成IPO后重新聚焦AI芯片业务",
-      "summary": "据The Next Platform报道，AI芯片公司Cerebras在完成首次公开募股（IPO）后，正重新将精力投入到推动AI计算性能的发展上。",
+      "title": "开发者创建MiniClaude，从Claude Code中精简出离线AI编程助手",
+      "summary": "一位开发者 基于Anthropic的Claude Code创建了精简版MiniClaude，移除了OAuth、遥测和设置同步等云服务逻辑，声称保留了100%的核心功能，旨在提供离线AI编程体验。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1213338"
+        }
+      ]
+    },
+    {
+      "title": "Vercel推出专为AI代理设计的编程语言“Zero”",
+      "summary": "有报道称，Vercel发布了一款名为“Zero”的新编程语言，其设计初衷是专门为AI代理的开发和运行提供支持。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://nextplatform.com/compute/2026/05/15/with-its-ipo-done-cerebras-can-get-back-to-pushing-the-ai-envelope/5241317"
+          "link": "https://firethering.com/vercel-zero-programming-language-ai-agents"
+        }
+      ]
+    },
+    {
+      "title": "开发者展示纯C#实现的GPT-2推理，每个token零内存分配",
+      "summary": "一个名为“Overfit”的项目在Hacker News Show上展示，实现了在纯C#环境下运行GPT-2推理，并声称每个token的内存分配为零字节。",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/DevOnBike/Overfit"
+        }
+      ]
+    },
+    {
+      "title": "社区讨论AI在代码审查中冒充人类的风险",
+      "summary": "在Hacker News上，有用户发起讨论，担忧AI代理在代码审查过程中可能冒充人类开发者，而目前对此类风险的关注度不足。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://news.ycombinator.com/item?id=48173182"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示“心理变态越狱”方法，利用AI的模仿行为进行操纵",
+      "summary": "一篇分析文章探讨了一种名为“心理变态越狱”的提示注入技术，该技术通过利用AI模型对人类操纵行为的模仿倾向来突破安全限制。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://promptinjection.net/p/nsfw-and-the-psychopathy-jailbreak-what-broken-ai-llm-teaches-about-human-manipulation"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI编程工具正经历从“能用”到“好用”的精细化打磨阶段",
-      "summary": "社区中涌现出大量针对Claude Code等工具的优化、精简和替代方案，这表明开发者不再满足于AI编程工具的基本功能，而是开始关注配置管理、本地化部署、成本控制和安全性等更深层次的体验问题。",
+      "title": "代理基准测试分数可能误导，实际模型间差异远小于测试结果",
+      "summary": "有分析指出，当前主流的代理编码模型基准测试分数更多反映的是测试框架（Harness）本身的差异，而非模型真实能力的差距，这可能导致对模型性能的误判。",
       "references": [
         {
           "source_name": "Dev.to",
-          "link": "https://dev.to/blncraft/4-claudemd-mistakes-that-are-killing-your-ai-coding-sessions-and-how-to-fix-them-nd0"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1213338"
-        },
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48169701"
+          "link": "https://dev.to/focused_dot_io/agent-benchmark-scores-are-measuring-the-harness-not-the-model-focused-labs-145l"
         }
       ]
     },
     {
-      "title": "AI代理正从概念验证走向高成本、高回报的规模化应用",
-      "summary": "OpenClaw每月投入130万美元运行100个AI代理进行代码审计，以及多个专业领域AI代理工具的出现，表明AI代理已不再仅仅是实验性项目，而是开始进入需要明确投入产出比的商业化应用阶段，尤其是在软件开发和质量保障领域。",
+      "title": "AI代理工具正从“聊天界面”转向“文件级协作”，改变人机交互范式",
+      "summary": "多个新项目（如Piqo Extension、Git-surgeon）正在探索无聊天界面的协作方式，允许LLM代理直接操作文件系统，这预示着AI代理将从辅助对话工具演变为更深度的系统级协作者。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs"
+          "link": "https://github.com/raine/git-surgeon"
         },
         {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/zoharbabin/due-diligence-agents"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/piqoni/piqo-extension"
         }
       ]
     },
     {
-      "title": "AI安全攻防已从理论探讨演变为现实世界的“猫鼠游戏”",
-      "summary": "LinkedIn用户利用提示注入对抗招聘机器人，以及开发者讨论绕过AI工具安全限制的方法，这些事件表明，针对AI系统的攻击与防御手段正在快速平民化和场景化，安全风险已渗透到日常的社交网络和开发工具使用中。",
+      "title": "对冲基金巨头声称AI代理可在数天内完成博士级研究任务，引发对知识工作价值的重新评估",
+      "summary": "Citadel创始人Ken Griffin表示，其公司的AI代理能在几天内完成通常需要博士研究员花费数月才能完成的任务，这一观点加剧了关于AI对高技能知识工作冲击的讨论。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/linkedin-recruitment-spam-becomes-olde-english-prose-after-user-hides-ai-prompt-injection-in-bio-bots-also-also-manipulated-to-address-user-as-my-lord"
-        },
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48169701"
+          "link": "https://twitter.com/TFTC21/status/2055978848764784662"
         }
       ]
     }
