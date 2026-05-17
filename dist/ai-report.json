@@ -1,41 +1,51 @@
 {
-  "global_brief": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略，同时社区围绕 AI Agent 的长期记忆、自主支付和编排能力展开密集讨论，本地推理与工具链创新成为当前最活跃的技术方向。",
+  "global_brief": "AI领域持续活跃，OpenAI联合创始人Greg Brockman回归产品战略岗位，同时社区围绕AI Agent工具链、本地推理和模型架构优化展开密集讨论，显示行业正从模型能力竞争转向工程化落地与成本控制。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5104,
-      "event_count": 91
+      "field_score": 5648,
+      "event_count": 100
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1846,
+      "field_score": 1845,
       "event_count": 45
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 403,
-      "event_count": 10
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 327,
-      "event_count": 7
+      "field_score": 577,
+      "event_count": 12
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 102,
-      "event_count": 2
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 313,
+      "event_count": 8
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 158,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略",
-      "summary": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略，此次人事调整正值公司计划将 ChatGPT 与更多产品整合之际。",
+      "title": "A tmux sidecar for repeatable Claude/Codex workflows",
+      "summary": "A tmux sidecar for repeatable Claude/Codex workflows；I realized that I keep repeating almost the same workflow in my daily programming with Codex/Claude and OpenSpec: creat…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/dkrupenya/a-tmux-sidecar-for-repeatable-claudecodex-workflows-4426"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+      "summary": "OpenAI co-founder Greg Brockman takes charge of product strategy；OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex…",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -43,13 +53,13 @@
         },
         {
           "source_name": "OpenClaw Commits",
-          "link": "https://github.com/openclaw/openclaw/commit/684a6303b34c45b075712248b4c68d9d16832a85"
+          "link": "https://github.com/openclaw/openclaw/commit/a4bea46a35f255f919d70f9a730f8eec7eb90ea6"
         }
       ]
     },
     {
-      "title": "开源项目 TypedMemory 为 AI Agent 提供长期记忆与反思能力",
-      "summary": "一个名为 TypedMemory 的开源项目发布，旨在为 AI Agent 提供长期记忆与反思功能，相关讨论在 Hacker News 上获得较高关注。",
+      "title": "TypedMemory – long-term memory and reflection for AI agents",
+      "summary": "Article URL: https://github.com/canis-minor/typedmem Comments URL: https://news.ycombinator.com/item?id=48166374 Points…；TypedMemory – long-term memory and reflection for AI agents",
       "references": [
         {
           "source_name": "Hacker News AI",
@@ -58,96 +68,15 @@
       ]
     },
     {
-      "title": "新工具 Bitloops 让 AI Agent 理解代码库",
-      "summary": "开发者展示了一个名为 Bitloops 的新工具，声称能让 AI Agent 理解整个代码库，旨在提升代码辅助的上下文感知能力。",
+      "title": "Show HN: Give your AI agent a brain that understands your codebase",
+      "summary": "Article URL: https://github.com/bitloops/bitloops Comments URL: https://news.ycombinator.com/item?id=48166239 Points: 2…；Show HN: Give your AI agent a brain that understands your…",
       "references": [
         {
           "source_name": "Hacker News AI",
           "link": "https://github.com/bitloops/bitloops"
-        }
-      ]
-    },
-    {
-      "title": "社区讨论指出当前 LLM 模型尚不适合编排多 Agent 系统",
-      "summary": "有开发者分享实验经验，认为当前的大语言模型在处理树状层级的多 Agent 编排时仍存在明显不足，尚未准备好用于大规模 Agent 协调。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://news.ycombinator.com/item?id=48163477"
-        }
-      ]
-    },
-    {
-      "title": "新基准测试工具发布，用于本地 LLM 推理与 XGBoost 训练",
-      "summary": "一个名为 ai-ml-gpu-bench 的新基准测试工具发布，用于评估本地 LLM 推理和 GPU/CPU 上的 XGBoost 训练性能。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/albedan/ai-ml-gpu-bench"
-        }
-      ]
-    },
-    {
-      "title": "新项目探索 AI Agent 按次自动付费的 HTTP API 模式",
-      "summary": "一个名为 x402 的项目展示了如何让 AI Agent 通过 USDC 按次自动付费调用 HTTP API，探索 Agent 经济中的支付基础设施。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://bshelby88.github.io/x402-portfolio"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI Agent 工具链快速成熟，但编排能力仍是瓶颈",
-      "summary": "从 TypedMemory、Bitloops 到 x402 支付协议，AI Agent 的工具链正在快速完善，但社区实验表明，当前 LLM 在多 Agent 编排和协调方面仍存在根本性局限，这可能是 Agent 落地的主要瓶颈。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/canis-minor/typedmem"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/bitloops/bitloops"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://bshelby88.github.io/x402-portfolio"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://news.ycombinator.com/item?id=48163477"
-        }
-      ]
-    },
-    {
-      "title": "本地化与离线推理成为 AI 应用新趋势",
-      "summary": "从 ClickBook 离线 eReader 到本地 LLM 推理基准测试，再到针对 Android 手机的 Agent 工具，社区对本地化、离线化 AI 应用的兴趣显著上升，这反映了对云端依赖的反思和对隐私、成本的考量。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://play.google.com/store/apps/details?hl=en_US&id=com.clickbook.reader"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/albedan/ai-ml-gpu-bench"
-        },
-        {
-          "source_name": "Hacker News OpenClaw",
-          "link": "https://github.com/ExTV/rikkahub-agent"
-        }
-      ]
-    },
-    {
-      "title": "AI 对劳动力市场的影响可能偏向年长劳动者",
-      "summary": "有分析指出，AI 可能改变就业市场的权力平衡，使经验丰富的年长劳动者获得更多议价权，这与通常认为 AI 会取代年轻劳动力的观点形成对比。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://bloomberg.com/news/articles/2026-05-16/ai-poised-to-tilt-job-market-leverage-toward-older-workers"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
