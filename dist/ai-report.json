@@ -1,72 +1,60 @@
 {
-  "global_brief": "今日开发者社区围绕AI编程代理（Coding Agent）的效率与安全展开密集讨论，多个开源项目试图优化Claude Code等工具的工作流，同时社区对LLM编排多代理的成熟度提出质疑。此外，AI在教育、公共交通等领域的应用与风险模型构建也成为关注焦点。",
+  "global_brief": "今日社区焦点集中在AI编程工具链的深度优化与安全风险上，开发者社区涌现出多个旨在提升AI编码效率的开源项目，同时关于AI提示注入和模型安全性的讨论也引发关注。此外，AI在教育领域的影响以及Cerebras等公司的商业化进展成为行业观察热点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5859,
-      "event_count": 105
+      "field_score": 5392,
+      "event_count": 99
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1887,
+      "field_score": 1837,
       "event_count": 47
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 287,
-      "event_count": 6
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 274,
-      "event_count": 6
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 251,
-      "event_count": 6
+      "field_score": 390,
+      "event_count": 9
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 201,
+      "event_count": 4
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 137,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "开发者分享为AI编程代理构建不可跳过工作流的经验",
-      "summary": "一位开发者 分享了使用Claude Code、Cursor和Codex等工具的经验，提出通过为编码代理设定一个不可跳过的工作流来提升其效率，这被称为“超级能力”。",
+      "title": "开发者分享优化AI编码会话的实践指南",
+      "summary": "一篇来自Dev.to的文章 指出，开发者在使用Claude Code等AI编程工具时，存在4个常见的CLAUDE.md配置错误，这些错误会显著降低AI编码会话的效率，并提供了相应的修复方法。",
       "references": [
         {
           "source_name": "Dev.to",
-          "link": "https://dev.to/arshtechpro/superpowers-giving-your-coding-agent-a-workflow-it-cant-skip-41m3"
+          "link": "https://dev.to/blncraft/4-claudemd-mistakes-that-are-killing-your-ai-coding-sessions-and-how-to-fix-them-nd0"
         }
       ]
     },
     {
-      "title": "新工具CodeGraph旨在减少AI代理重复搜索文件的问题",
-      "summary": "针对Claude Code在探索未知代码库时反复搜索相同文件的问题，开发者 推出了CodeGraph，旨在阻止AI代理重复搜索同一文件50次。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/arshtechpro/codegraph-stop-your-ai-agent-from-grepping-the-same-files-50-times-3bgm"
-        }
-      ]
-    },
-    {
-      "title": "开源CLI工具Agnt发布，可运行公开或MIT许可的AI代理",
-      "summary": "一个名为Agnt的开源命令行工具 发布，允许用户免费运行任何公开或MIT许可的AI代理。",
+      "title": "多个开源AI代理工具项目在Hacker News上发布",
+      "summary": "Hacker News上出现了多个新的开源AI代理项目，包括一个可运行任何公开或MIT许可AI代理的CLI工具“Agnt”，一个用于AI代理团队协作的Markdown协议“Polis”，以及一个用于并购合同分析的13个AI代理工具集“Due Diligence Agents”。",
       "references": [
         {
           "source_name": "Hacker News AI",
           "link": "https://news.ycombinator.com/item?id=48170395"
-        }
-      ]
-    },
-    {
-      "title": "13个AI代理组成的并购合同分析工具发布",
-      "summary": "一个名为Due Diligence Agents的开源项目 发布，它由13个AI代理组成，专门用于并购（M&A）合同分析。",
-      "references": [
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/yehudalevy-collab/polis-protocol"
+        },
         {
           "source_name": "Hacker News AI",
           "link": "https://github.com/zoharbabin/due-diligence-agents"
@@ -74,54 +62,90 @@
       ]
     },
     {
-      "title": "开发者制作Claude Code技能，用于判断何时不应使用Claude",
-      "summary": "一位开发者 创建了一个名为“llm-buster-skill”的Claude Code技能，其功能是告诉Claude何时不应该使用Claude本身。",
-      "references": [
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/metravod/llm-buster-skill"
-        }
-      ]
-    },
-    {
-      "title": "社区讨论绕过Claude Code SSH限制的安全风险",
-      "summary": "有开发者 分享了为所有工具提供LLM wiki并绕过Claude Code SSH节流的方法，并承认从安全角度看这是一个糟糕的主意。",
+      "title": "开发者分享绕过Claude Code SSH限制的方法并引发安全讨论",
+      "summary": "一位开发者 分享了如何通过给所有工具LLM提供Wiki来绕过Claude Code的SSH节流限制，并承认从安全角度看这是一个糟糕的主意，但实际效果很好。",
       "references": [
         {
           "source_name": "Hacker News Ask",
           "link": "https://news.ycombinator.com/item?id=48169701"
         }
       ]
+    },
+    {
+      "title": "LinkedIn用户利用AI提示注入对抗招聘垃圾信息",
+      "summary": "据报道，一名LinkedIn用户在其个人简介中隐藏了AI提示注入指令，以强制自动化的招聘垃圾信息机器人执行特定操作，这是一种新型的对抗AI滥用的方式。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/linkedin-recruitment-spam-becomes-olde-english-prose-after-user-hides-ai-prompt-injection-in-bio-bots-also-also-manipulated-to-address-user-as-my-lord"
+        }
+      ]
+    },
+    {
+      "title": "OpenClaw创始人每月花费130万美元运行100个AI代理进行代码审计",
+      "summary": "据The Decoder报道，OpenClaw的创始人每月投入130万美元，运行100个AI代理来自动化地编写代码和查找漏洞。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs"
+        }
+      ]
+    },
+    {
+      "title": "Cerebras在完成IPO后重新聚焦AI芯片业务",
+      "summary": "据The Next Platform报道，AI芯片公司Cerebras在完成首次公开募股（IPO）后，正重新将精力投入到推动AI计算性能的发展上。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://nextplatform.com/compute/2026/05/15/with-its-ipo-done-cerebras-can-get-back-to-pushing-the-ai-envelope/5241317"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "当前LLM模型尚不适合编排多代理系统",
-      "summary": "有开发者 在实验了树状层级的多编码代理后得出结论，认为当前的LLM模型尚未准备好编排多个代理，存在成本、上下文窗口和幻觉等问题。",
+      "title": "AI编程工具正经历从“能用”到“好用”的精细化打磨阶段",
+      "summary": "社区中涌现出大量针对Claude Code等工具的优化、精简和替代方案，这表明开发者不再满足于AI编程工具的基本功能，而是开始关注配置管理、本地化部署、成本控制和安全性等更深层次的体验问题。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://news.ycombinator.com/item?id=48163477"
-        }
-      ]
-    },
-    {
-      "title": "AI辅助写作引发对内容真实性和阅读体验的担忧",
-      "summary": "社区 正在讨论如何阅读AI辅助生成的文章，许多人发现大量AI生成的内容难以阅读，并对其真实性和价值产生质疑。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://news.ycombinator.com/item?id=48170026"
-        }
-      ]
-    },
-    {
-      "title": "精简版Claude Code项目反映开发者对云服务依赖的抵触",
-      "summary": "一个名为MiniClaude的项目 从Claude Code中剥离了OAuth、遥测等云服务逻辑，旨在提供离线编程助手，这反映了部分开发者对AI工具过度依赖云服务的担忧。",
-      "references": [
+          "source_name": "Dev.to",
+          "link": "https://dev.to/blncraft/4-claudemd-mistakes-that-are-killing-your-ai-coding-sessions-and-how-to-fix-them-nd0"
+        },
         {
           "source_name": "V2EX 技术",
           "link": "https://v2ex.com/t/1213338"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48169701"
+        }
+      ]
+    },
+    {
+      "title": "AI代理正从概念验证走向高成本、高回报的规模化应用",
+      "summary": "OpenClaw每月投入130万美元运行100个AI代理进行代码审计，以及多个专业领域AI代理工具的出现，表明AI代理已不再仅仅是实验性项目，而是开始进入需要明确投入产出比的商业化应用阶段，尤其是在软件开发和质量保障领域。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/zoharbabin/due-diligence-agents"
+        }
+      ]
+    },
+    {
+      "title": "AI安全攻防已从理论探讨演变为现实世界的“猫鼠游戏”",
+      "summary": "LinkedIn用户利用提示注入对抗招聘机器人，以及开发者讨论绕过AI工具安全限制的方法，这些事件表明，针对AI系统的攻击与防御手段正在快速平民化和场景化，安全风险已渗透到日常的社交网络和开发工具使用中。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/linkedin-recruitment-spam-becomes-olde-english-prose-after-user-hides-ai-prompt-injection-in-bio-bots-also-also-manipulated-to-address-user-as-my-lord"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48169701"
         }
       ]
     }
