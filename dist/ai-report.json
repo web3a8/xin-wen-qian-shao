@@ -1,78 +1,149 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕LLM推理效率、多智能体系统及安全评估，同时OpenAI发生高层人事调整，联合创始人Greg Brockman重新负责产品战略。",
+  "global_brief": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略，同时该公司与马耳他政府达成全球首创的 ChatGPT Plus 全民推广合作。社区围绕多智能体编排、本地推理工具和 AI 安全报告质量展开了密集讨论，LLM 架构创新（如 KV 共享、压缩注意力）也持续受到关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 25040,
-      "event_count": 418
+      "field_score": 5832,
+      "event_count": 102
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1478,
-      "event_count": 38
+      "field_score": 1398,
+      "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 760,
-      "event_count": 17
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 271,
-      "event_count": 5
+      "field_score": 403,
+      "event_count": 10
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 224,
+      "field_score": 251,
       "event_count": 5
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 144,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "How I Built a Completely Free Local AI Stack — Inspired by a 60-Second YouTube Short",
-      "summary": "How I Built a Completely Free Local AI Stack — Inspired by a 60-Second YouTube Short；How I Built a Completely Free Local AI Stack — Inspired by a 60-Second YouTube Short By Pranay…",
+      "title": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略",
+      "summary": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略，此次调整正值该公司计划整合 ChatGPT 产品线之际。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/pranay_ravi_b88172eac205c/how-i-built-a-completely-free-local-ai-stack-inspired-by-a-60-second-youtube-short-3e39"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/951/389.htm"
         }
       ]
     },
     {
-      "title": "Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model",
-      "summary": "Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model；arXiv:2605.14723v1 Announce Type: new Abstract: Sepsis management in the ICU requires sequen…",
+      "title": "OpenAI 与马耳他政府合作向全体公民推广 ChatGPT Plus",
+      "summary": "OpenAI 宣布与马耳他政府达成全球首创的合作伙伴关系，旨在向所有马耳他公民推广 ChatGPT Plus。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.14723"
+          "source_name": "Hacker News",
+          "link": "https://openai.com/index/malta-chatgpt-plus-partnership"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2191663"
         }
       ]
     },
     {
-      "title": "ExploitBench: A Capability Ladder Benchmark for LLM Cybersecurity Agents",
-      "summary": "arXiv:2605.14153v1 Announce Type: cross Abstract: Exploitation is not a binary event. It is a ladder of acquiring progr…；ExploitBench: A Capability Ladder Benchmark for LLM Cybers…",
+      "title": "社区讨论多智能体编排的局限性",
+      "summary": "有开发者指出，当前 LLM 模型尚未准备好编排大量智能体，在树状层级结构中存在协调困难。同时，有项目展示了五个 LLM 智能体在浏览器中玩狼人杀，每个智能体拥有独立的 DuckDB 数据库。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.14153"
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48163477"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://kayhan.dev/posts/013-werewolf-five-agents-one-browser"
         }
       ]
     },
     {
-      "title": "Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems",
-      "summary": "arXiv:2511.16964v2 Announce Type: replace-cross Abstract: Maximizing performance on available GPU hardware is an ongoin…；Optimizing PyTorch Inference with LLM-Based Multi-Agent Sy…",
+      "title": "社区发布多项本地 LLM 推理工具",
+      "summary": "多个新工具发布，包括用于本地 LLM 推理和 XGBoost 训练的 AI/ML 基准测试，以及一款支持通过 llama.rn 进行离线本地 LLM 推理的 Android 电子书阅读器 ClickBook。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2511.16964"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/albedan/ai-ml-gpu-bench"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://play.google.com/store/apps/details?hl=en_US&id=com.clickbook.reader"
+        }
+      ]
+    },
+    {
+      "title": "Curl 维护者称 AI 安全报告质量已显著提升",
+      "summary": "Curl 维护者 Daniel Stenberg 表示，AI 生成的安全报告已不再是“垃圾信息”，其质量有了明显改善。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos"
+        }
+      ]
+    },
+    {
+      "title": "社区讨论 LLM 架构最新进展",
+      "summary": "一篇技术文章总结了 LLM 架构的最新发展，包括 KV 共享、MHC 和压缩注意力等方向。另有讨论指出，DeepSeek-V4-Flash 的出现使得 LLM 引导（steering）技术重新变得有趣。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://seangoedecke.com/steering-vectors"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 对劳动力市场的影响呈现结构性分化",
+      "summary": "有分析认为 AI 可能使劳动力市场杠杆向年长劳动者倾斜，这与“AI 取代初级岗位”的普遍叙事形成对比，暗示 AI 对不同年龄段和技能层级劳动者的影响将是非对称的，可能加剧职场经验价值的重估。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://bloomberg.com/news/articles/2026-05-16/ai-poised-to-tilt-job-market-leverage-toward-older-workers"
+        }
+      ]
+    },
+    {
+      "title": "AI 芯片初创公司的生存困境与市场高估值形成反差",
+      "summary": "Cerebras 早期每月烧钱 800 万美元的艰难经历，与其当前 600 亿美元估值形成鲜明对比，这揭示了 AI 芯片赛道极高的资本门槛和幸存者偏差，也提醒市场关注该领域初创公司的长期财务可持续性。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month"
+        }
+      ]
+    },
+    {
+      "title": "AI 生成图像正在重塑社会审美标准",
+      "summary": "整形外科医生对 AI 生成面孔的流行感到困扰，这一现象表明 AI 生成的视觉内容不仅影响数字空间，也开始反向塑造现实世界中对“美”的认知和追求，可能引发新的社会心理和伦理问题。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://businessinsider.com/ai-generated-images-chatgpt-reshape-plastic-surgery-beauty-expectations-2026-5"
+        }
+      ]
+    }
+  ]
 }
