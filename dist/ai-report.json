@@ -1,141 +1,63 @@
 {
-  "global_brief": "AI 领域持续活跃，多智能体协作与本地化推理成为开发者关注焦点。OpenAI 联合创始人 Greg Brockman 重新负责产品战略，同时社区围绕 DeepSeek 等开源模型对商业化大模型的冲击展开激烈讨论。多款面向开发者的 AI 工具与框架（如 Claude Code 精简版、多浏览器 MCP 工具）密集发布，显示出 AI 编程助手正从云端向离线、可定制化方向演进。",
+  "global_brief": "过去24小时的重要动态主要集中在：Aggregate Benchmarks Lie. Here's What 700 AI Functions Look Like by Security Domain.；Graphify + code-review-graph: Build a Self-Updating Knowledge Graph for Claude Code and other AI Coding Agent；Show HN: A Claude Code skill that tells Claude when not to use Clau…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5274,
-      "event_count": 94
+      "field_score": 5231,
+      "event_count": 97
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1836,
-      "event_count": 46
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 390,
-      "event_count": 8
+      "field_score": 1901,
+      "event_count": 47
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 321,
+      "field_score": 312,
       "event_count": 8
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 271,
+      "event_count": 6
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 143,
-      "event_count": 3
+      "field_score": 180,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略",
-      "summary": "OpenAI 联合创始人 Greg Brockman 重新接管产品战略，公司正计划将 ChatGPT 与其他产品线进行整合。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy"
-        }
-      ]
+      "title": "Aggregate Benchmarks Lie. Here's What 700 AI Functions Look Like by Security Domain.",
+      "summary": "Aggregate Benchmarks Lie. Here's What 700 AI Functions Look Like by Security Domain.；Every AI benchmark I've seen makes the same mistake. They rank models by a single number — accuracy, pass rate, vulnera…",
+      "references": []
     },
     {
-      "title": "多智能体协作与本地化推理工具密集发布",
-      "summary": "开发者社区涌现多款 AI 工具，包括在 Android 设备上通过 llama.rn 进行本地 LLM 推理的 ClickBook 电子阅读器，以及支持从 Claude/Cursor 运行 36 个隔离 Chromium 浏览器的 MCP 工具 GDD。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://play.google.com/store/apps/details?hl=en_US&id=com.clickbook.reader"
-        },
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/Cap-of-tea/GDD"
-        }
-      ]
+      "title": "Graphify + code-review-graph: Build a Self-Updating Knowledge Graph for Claude Code and other AI Coding Agent",
+      "summary": "Every developer working with LLMs on a large codebase eventually hits the same wall: context windows are finite, but co…；Graphify + code-review-graph: Build a Self-Updating Knowledge Graph for Claude Code and other AI C…",
+      "references": []
     },
     {
-      "title": "开发者推出 Claude Code 离线精简版 MiniClaude",
-      "summary": "开发者基于 Claude Code 制作了精简版 MiniClaude，移除了 OAuth、遥测等云服务逻辑，保留了 100% 核心编程辅助功能，旨在提供离线 AI 编程体验。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1213338"
-        }
-      ]
+      "title": "Show HN: A Claude Code skill that tells Claude when not to use Claude",
+      "summary": "Article URL: https://github.com/metravod/llm-buster-skill Comments URL: https://news.ycombinator.com/item?id=48168772 P…；Show HN: A Claude Code skill that tells Claude when not to use Claude",
+      "references": []
     },
     {
-      "title": "社区讨论：DeepSeek 等开源模型可能挤压商业化大模型生存空间",
-      "summary": "社区观点认为，DeepSeek 持续开源和普惠 AI 的策略，可能会对 Kimi、Qwen 等商业化大模型公司造成巨大冲击，甚至导致部分公司难以存活。",
-      "references": [
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2193517"
-        }
-      ]
+      "title": "Give every tool LLM wiki and bypass Claude Code SSH Throttle",
+      "summary": "Give every tool LLM wiki and bypass Claude Code SSH Throttle；So I get from a security perspective this is a terrible idea, but it works great! I wanted to give every tool I had acc…",
+      "references": []
     },
     {
-      "title": "新研究提出 LLM 推理优化方法 Ada-MK",
-      "summary": "一篇新论文提出 Ada-MK，一种基于 DAG 搜索的自适应 MegaKernel 优化方法，旨在提升 LLM 推理性能。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://arxiv.org/abs/2605.11581"
-        }
-      ]
-    },
-    {
-      "title": "多智能体编排能力仍面临挑战",
-      "summary": "开发者实验发现，当前 LLM 模型在编排树状层级的多智能体系统时表现不佳，认为模型尚未准备好处理复杂的多智能体协调任务。",
-      "references": [
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48163477"
-        }
-      ]
+      "title": "Optimizing your website for generative AI features on Google Search",
+      "summary": "Article URL: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide Comments URL: https://news.yc…；Optimizing your website for generative AI features on Google Search",
+      "references": []
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI 编程助手正从云端向离线、可定制化演进",
-      "summary": "从 Claude Code 精简版 MiniClaude 的推出，到多款本地推理工具的出现，表明开发者对不依赖云服务、可完全离线运行的 AI 编程助手有强烈需求，这可能是未来工具发展的一个重要方向。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1213338"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://play.google.com/store/apps/details?hl=en_US&id=com.clickbook.reader"
-        }
-      ]
-    },
-    {
-      "title": "多智能体系统需要超越 RAG 的因果推理能力",
-      "summary": "有观点认为，AI 代理仅依赖 RAG 数据库是不够的，需要引入因果图等更复杂的推理机制来理解世界模型，才能有效处理复杂任务。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://openyf.dev/blogs/world-model"
-        }
-      ]
-    },
-    {
-      "title": "LLM 架构创新聚焦于推理效率与注意力机制优化",
-      "summary": "近期关于 KV 共享、MHC 和压缩注意力等 LLM 架构的讨论，以及 Ada-MK 等推理优化研究的出现，表明业界正将重心从单纯扩大模型规模转向提升推理效率和降低部署成本。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://arxiv.org/abs/2605.11581"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
