@@ -1,86 +1,56 @@
 {
-  "global_brief": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略，同时社区围绕 MCP 协议、多智能体编排和本地 LLM 推理工具展开密集讨论，反映出 AI 行业正从模型能力竞争转向工程化落地和开发者工具生态建设。",
+  "global_brief": "AI 领域持续活跃，多智能体协作与本地化推理成为开发者关注焦点。OpenAI 联合创始人 Greg Brockman 重新负责产品战略，同时社区围绕 DeepSeek 等开源模型对商业化大模型的冲击展开激烈讨论。多款面向开发者的 AI 工具与框架（如 Claude Code 精简版、多浏览器 MCP 工具）密集发布，显示出 AI 编程助手正从云端向离线、可定制化方向演进。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 3908,
-      "event_count": 73
+      "field_score": 5274,
+      "event_count": 94
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1833,
-      "event_count": 45
+      "field_score": 1836,
+      "event_count": 46
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 552,
-      "event_count": 11
+      "field_score": 390,
+      "event_count": 8
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 450,
-      "event_count": 11
+      "field_score": 321,
+      "event_count": 8
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 198,
-      "event_count": 4
+      "field_score": 143,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
       "title": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略",
-      "summary": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略，这是该公司最新一次高层调整，同时有报道称 OpenAI 计划将 ChatGPT 与其他产品进行整合。",
+      "summary": "OpenAI 联合创始人 Greg Brockman 重新接管产品战略，公司正计划将 ChatGPT 与其他产品线进行整合。",
       "references": [
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy"
-        },
-        {
-          "source_name": "OpenClaw Commits",
-          "link": "https://github.com/openclaw/openclaw/commit/69a0c925b8904cb9f452435ebce90391a3b4236e"
         }
       ]
     },
     {
-      "title": "社区展示多智能体并行探索框架 Agent Harness",
-      "summary": "一篇技术文章介绍了 Agent Harness，该框架可编排多个并行 AI 代理进行深度探索，由 Meta 相关团队发布。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/monuminu/agent-harness-running-multiple-parallel-agents-for-deep-exploration-12jg"
-        }
-      ]
-    },
-    {
-      "title": "生产级 MCP 服务器构建指南发布",
-      "summary": "一篇技术文章详细介绍了如何构建生产级的模型上下文协议（MCP）服务器，以重塑 AI 应用与外部工具的连接方式。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ismail_zamareh_d099419122bc4f/beyond-the-hype-building-production-grade-mcp-servers-for-ai-integration-1hjm"
-        }
-      ]
-    },
-    {
-      "title": "ClickBook 应用实现安卓端离线 LLM 推理",
-      "summary": "一款名为 ClickBook 的安卓电子书阅读器应用，通过集成 llama.rn 实现了本地 LLM 推理功能。",
+      "title": "多智能体协作与本地化推理工具密集发布",
+      "summary": "开发者社区涌现多款 AI 工具，包括在 Android 设备上通过 llama.rn 进行本地 LLM 推理的 ClickBook 电子阅读器，以及支持从 Claude/Cursor 运行 36 个隔离 Chromium 浏览器的 MCP 工具 GDD。",
       "references": [
         {
           "source_name": "Hacker News LLM",
           "link": "https://play.google.com/store/apps/details?hl=en_US&id=com.clickbook.reader"
-        }
-      ]
-    },
-    {
-      "title": "GDD 工具发布：为 Claude/Cursor 提供 36 个 MCP 浏览器工具",
-      "summary": "开发者发布 GDD 工具，提供了 36 个 MCP 工具，允许在 Claude 或 Cursor 中运行 N 个隔离的 Chromium 浏览器实例。",
-      "references": [
+        },
         {
           "source_name": "Hacker News Show",
           "link": "https://github.com/Cap-of-tea/GDD"
@@ -88,8 +58,38 @@
       ]
     },
     {
-      "title": "社区讨论 LLM 模型尚不适合编排多智能体",
-      "summary": "有开发者分享实验经验，认为当前 LLM 模型在处理树状层级的多智能体编排时仍存在不足。",
+      "title": "开发者推出 Claude Code 离线精简版 MiniClaude",
+      "summary": "开发者基于 Claude Code 制作了精简版 MiniClaude，移除了 OAuth、遥测等云服务逻辑，保留了 100% 核心编程辅助功能，旨在提供离线 AI 编程体验。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1213338"
+        }
+      ]
+    },
+    {
+      "title": "社区讨论：DeepSeek 等开源模型可能挤压商业化大模型生存空间",
+      "summary": "社区观点认为，DeepSeek 持续开源和普惠 AI 的策略，可能会对 Kimi、Qwen 等商业化大模型公司造成巨大冲击，甚至导致部分公司难以存活。",
+      "references": [
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2193517"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出 LLM 推理优化方法 Ada-MK",
+      "summary": "一篇新论文提出 Ada-MK，一种基于 DAG 搜索的自适应 MegaKernel 优化方法，旨在提升 LLM 推理性能。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2605.11581"
+        }
+      ]
+    },
+    {
+      "title": "多智能体编排能力仍面临挑战",
+      "summary": "开发者实验发现，当前 LLM 模型在编排树状层级的多智能体系统时表现不佳，认为模型尚未准备好处理复杂的多智能体协调任务。",
       "references": [
         {
           "source_name": "Hacker News Ask",
@@ -100,48 +100,40 @@
   ],
   "highlight_opinions": [
     {
-      "title": "AI 开发工具生态进入“插件混战”阶段",
-      "summary": "社区中关于 VSCode AI 插件（Copilot、Cline、Codex、Claude Code）的推荐讨论，以及 MiniClaude 等精简版工具的出现，表明开发者对 AI 编程助手的核心功能与臃肿的云服务逻辑之间的矛盾日益关注，市场正从单一工具竞争转向生态位细分。",
+      "title": "AI 编程助手正从云端向离线、可定制化演进",
+      "summary": "从 Claude Code 精简版 MiniClaude 的推出，到多款本地推理工具的出现，表明开发者对不依赖云服务、可完全离线运行的 AI 编程助手有强烈需求，这可能是未来工具发展的一个重要方向。",
       "references": [
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2192940"
-        },
         {
           "source_name": "V2EX 技术",
           "link": "https://v2ex.com/t/1213338"
-        }
-      ]
-    },
-    {
-      "title": "本地化与离线 AI 推理成为新趋势",
-      "summary": "ClickBook 在安卓端实现离线 LLM 推理，以及 MiniClaude 移除云服务逻辑的做法，共同指向一个趋势：开发者社区正在积极推动 AI 能力从云端向边缘设备迁移，以满足隐私、成本和离线可用性的需求。",
-      "references": [
+        },
         {
           "source_name": "Hacker News LLM",
           "link": "https://play.google.com/store/apps/details?hl=en_US&id=com.clickbook.reader"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1213338"
         }
       ]
     },
     {
-      "title": "多智能体系统面临“编排瓶颈”",
-      "summary": "尽管 GDD 和 MaragingLoop 等工具展示了多智能体系统的潜力，但社区反馈（如“LLM models are not ready for orchestrating many agents”）表明，当前 LLM 在复杂任务分解和代理间协调方面仍是主要瓶颈，工具层的创新快于模型能力的提升。",
+      "title": "多智能体系统需要超越 RAG 的因果推理能力",
+      "summary": "有观点认为，AI 代理仅依赖 RAG 数据库是不够的，需要引入因果图等更复杂的推理机制来理解世界模型，才能有效处理复杂任务。",
       "references": [
         {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/Cap-of-tea/GDD"
+          "source_name": "Hacker News AI",
+          "link": "https://openyf.dev/blogs/world-model"
+        }
+      ]
+    },
+    {
+      "title": "LLM 架构创新聚焦于推理效率与注意力机制优化",
+      "summary": "近期关于 KV 共享、MHC 和压缩注意力等 LLM 架构的讨论，以及 Ada-MK 等推理优化研究的出现，表明业界正将重心从单纯扩大模型规模转向提升推理效率和降低部署成本。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures"
         },
         {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/GistNoesis/MaragingLoop"
-        },
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48163477"
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2605.11581"
         }
       ]
     }
