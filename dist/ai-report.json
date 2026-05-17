@@ -1,23 +1,23 @@
 {
-  "global_brief": "AI 领域持续主导今日动态，多篇研究聚焦于 LLM 智能体的安全评估、推理优化与协作框架，同时 OpenAI 高层变动与马耳他政府合作也引发关注。开源社区则涌现出针对智能体仓库的风险审计工具。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕LLM推理效率、多智能体系统及安全评估，同时OpenAI发生高层人事调整，联合创始人Greg Brockman重新负责产品战略。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 27438,
-      "event_count": 452
+      "field_score": 25040,
+      "event_count": 418
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1160,
-      "event_count": 31
+      "field_score": 1478,
+      "event_count": 38
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 839,
-      "event_count": 19
+      "field_score": 760,
+      "event_count": 17
     },
     {
       "field_key": "world",
@@ -28,46 +28,18 @@
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 266,
+      "field_score": 224,
       "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "I Built an AI Agent Risk Auditor for Agentic Repositories",
-      "summary": "GitHub repo: https://github.com/jbridges82/hermes-guard Live demo: https://hermes-guard.vercel.app What I Built I built…；I Built an AI Agent Risk Auditor for Agentic Repositories",
+      "title": "How I Built a Completely Free Local AI Stack — Inspired by a 60-Second YouTube Short",
+      "summary": "How I Built a Completely Free Local AI Stack — Inspired by a 60-Second YouTube Short；How I Built a Completely Free Local AI Stack — Inspired by a 60-Second YouTube Short By Pranay…",
       "references": [
         {
           "source_name": "Dev.to",
-          "link": "https://dev.to/james_bridges_5511048e2cf/i-built-an-ai-agent-risk-auditor-for-agentic-repositories-4hli"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
-      "summary": "OpenAI co-founder Greg Brockman takes charge of product strategy；OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex…",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/951/389.htm"
-        },
-        {
-          "source_name": "OpenClaw Commits",
-          "link": "https://github.com/openclaw/openclaw/commit/562d460d759928f521793014a4d84e15fc0a2815"
-        }
-      ]
-    },
-    {
-      "title": "Deep Dive: Connecting AI to Snowflake with Model Context Protocol (MCP)",
-      "summary": "Deep Dive: Connecting AI to Snowflake with Model Context Protocol (MCP)；The Model Context Protocol (MCP) lets AI assistants like Claude talk directly to Snowflake in real time — n…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/anjijava16/deep-dive-connecting-ai-to-snowflake-with-model-context-protocol-mcp-2lmi"
+          "link": "https://dev.to/pranay_ravi_b88172eac205c/how-i-built-a-completely-free-local-ai-stack-inspired-by-a-60-second-youtube-short-3e39"
         }
       ]
     },
@@ -78,6 +50,26 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.14723"
+        }
+      ]
+    },
+    {
+      "title": "ExploitBench: A Capability Ladder Benchmark for LLM Cybersecurity Agents",
+      "summary": "arXiv:2605.14153v1 Announce Type: cross Abstract: Exploitation is not a binary event. It is a ladder of acquiring progr…；ExploitBench: A Capability Ladder Benchmark for LLM Cybers…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.14153"
+        }
+      ]
+    },
+    {
+      "title": "Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems",
+      "summary": "arXiv:2511.16964v2 Announce Type: replace-cross Abstract: Maximizing performance on available GPU hardware is an ongoin…；Optimizing PyTorch Inference with LLM-Based Multi-Agent Sy…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2511.16964"
         }
       ]
     }
