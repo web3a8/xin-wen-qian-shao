@@ -1,51 +1,41 @@
 {
-  "global_brief": "AI领域持续活跃，OpenAI联合创始人Greg Brockman回归产品战略岗位，同时社区围绕AI Agent工具链、本地推理和模型架构优化展开密集讨论，显示行业正从模型能力竞争转向工程化落地与成本控制。",
+  "global_brief": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略，同时社区围绕 MCP 协议、多智能体编排和本地 LLM 推理工具展开密集讨论，反映出 AI 行业正从模型能力竞争转向工程化落地和开发者工具生态建设。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5648,
-      "event_count": 100
+      "field_score": 3908,
+      "event_count": 73
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1845,
+      "field_score": 1833,
       "event_count": 45
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 577,
-      "event_count": 12
+      "field_score": 552,
+      "event_count": 11
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 313,
-      "event_count": 8
+      "field_score": 450,
+      "event_count": 11
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 158,
-      "event_count": 3
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 198,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "A tmux sidecar for repeatable Claude/Codex workflows",
-      "summary": "A tmux sidecar for repeatable Claude/Codex workflows；I realized that I keep repeating almost the same workflow in my daily programming with Codex/Claude and OpenSpec: creat…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/dkrupenya/a-tmux-sidecar-for-repeatable-claudecodex-workflows-4426"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
-      "summary": "OpenAI co-founder Greg Brockman takes charge of product strategy；OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex…",
+      "title": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略",
+      "summary": "OpenAI 联合创始人 Greg Brockman 重新负责产品战略，这是该公司最新一次高层调整，同时有报道称 OpenAI 计划将 ChatGPT 与其他产品进行整合。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -53,30 +43,107 @@
         },
         {
           "source_name": "OpenClaw Commits",
-          "link": "https://github.com/openclaw/openclaw/commit/a4bea46a35f255f919d70f9a730f8eec7eb90ea6"
+          "link": "https://github.com/openclaw/openclaw/commit/69a0c925b8904cb9f452435ebce90391a3b4236e"
         }
       ]
     },
     {
-      "title": "TypedMemory – long-term memory and reflection for AI agents",
-      "summary": "Article URL: https://github.com/canis-minor/typedmem Comments URL: https://news.ycombinator.com/item?id=48166374 Points…；TypedMemory – long-term memory and reflection for AI agents",
+      "title": "社区展示多智能体并行探索框架 Agent Harness",
+      "summary": "一篇技术文章介绍了 Agent Harness，该框架可编排多个并行 AI 代理进行深度探索，由 Meta 相关团队发布。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/canis-minor/typedmem"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/monuminu/agent-harness-running-multiple-parallel-agents-for-deep-exploration-12jg"
         }
       ]
     },
     {
-      "title": "Show HN: Give your AI agent a brain that understands your codebase",
-      "summary": "Article URL: https://github.com/bitloops/bitloops Comments URL: https://news.ycombinator.com/item?id=48166239 Points: 2…；Show HN: Give your AI agent a brain that understands your…",
+      "title": "生产级 MCP 服务器构建指南发布",
+      "summary": "一篇技术文章详细介绍了如何构建生产级的模型上下文协议（MCP）服务器，以重塑 AI 应用与外部工具的连接方式。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/bitloops/bitloops"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/ismail_zamareh_d099419122bc4f/beyond-the-hype-building-production-grade-mcp-servers-for-ai-integration-1hjm"
+        }
+      ]
+    },
+    {
+      "title": "ClickBook 应用实现安卓端离线 LLM 推理",
+      "summary": "一款名为 ClickBook 的安卓电子书阅读器应用，通过集成 llama.rn 实现了本地 LLM 推理功能。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://play.google.com/store/apps/details?hl=en_US&id=com.clickbook.reader"
+        }
+      ]
+    },
+    {
+      "title": "GDD 工具发布：为 Claude/Cursor 提供 36 个 MCP 浏览器工具",
+      "summary": "开发者发布 GDD 工具，提供了 36 个 MCP 工具，允许在 Claude 或 Cursor 中运行 N 个隔离的 Chromium 浏览器实例。",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/Cap-of-tea/GDD"
+        }
+      ]
+    },
+    {
+      "title": "社区讨论 LLM 模型尚不适合编排多智能体",
+      "summary": "有开发者分享实验经验，认为当前 LLM 模型在处理树状层级的多智能体编排时仍存在不足。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48163477"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 开发工具生态进入“插件混战”阶段",
+      "summary": "社区中关于 VSCode AI 插件（Copilot、Cline、Codex、Claude Code）的推荐讨论，以及 MiniClaude 等精简版工具的出现，表明开发者对 AI 编程助手的核心功能与臃肿的云服务逻辑之间的矛盾日益关注，市场正从单一工具竞争转向生态位细分。",
+      "references": [
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2192940"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1213338"
+        }
+      ]
+    },
+    {
+      "title": "本地化与离线 AI 推理成为新趋势",
+      "summary": "ClickBook 在安卓端实现离线 LLM 推理，以及 MiniClaude 移除云服务逻辑的做法，共同指向一个趋势：开发者社区正在积极推动 AI 能力从云端向边缘设备迁移，以满足隐私、成本和离线可用性的需求。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://play.google.com/store/apps/details?hl=en_US&id=com.clickbook.reader"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1213338"
+        }
+      ]
+    },
+    {
+      "title": "多智能体系统面临“编排瓶颈”",
+      "summary": "尽管 GDD 和 MaragingLoop 等工具展示了多智能体系统的潜力，但社区反馈（如“LLM models are not ready for orchestrating many agents”）表明，当前 LLM 在复杂任务分解和代理间协调方面仍是主要瓶颈，工具层的创新快于模型能力的提升。",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/Cap-of-tea/GDD"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/GistNoesis/MaragingLoop"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48163477"
+        }
+      ]
+    }
+  ]
 }
