@@ -1,163 +1,56 @@
 {
-  "global_brief": "今日AI领域研究密集，聚焦于LLM的推理效率、量化安全与Agent能力评估。多项研究揭示了模型压缩带来的对齐偏差风险，同时Agent在编程与硬件工程等真实场景的适用性成为讨论热点。社区侧则围绕Coding Agent的差异化、数据隐私及新型交互范式展开激烈讨论。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM智能体（Agent）的工程化评估与安全对齐、模型压缩带来的偏差风险，以及多模态推理能力的提升。同时，业界巨头在Coding Agent领域的战略投入引发广泛关注，预示着AI编程工具竞争进入白热化阶段。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 38176,
-      "event_count": 645
+      "field_score": 37679,
+      "event_count": 651
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1655,
+      "field_score": 1631,
       "event_count": 41
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1185,
-      "event_count": 24
+      "field_score": 1336,
+      "event_count": 29
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 480,
-      "event_count": 10
+      "field_score": 625,
+      "event_count": 12
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 310,
+      "field_score": 304,
       "event_count": 6
     }
   ],
   "highlight_facts": [
     {
-      "title": "量化压缩会破坏LLM的对齐，导致偏见涌现",
-      "summary": "一项新研究 发现，对大型语言模型进行后训练量化压缩，会在不同模型和精度水平上导致对齐失效和偏见涌现，对模型安全部署构成挑战。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15208"
-        }
-      ]
-    },
-    {
-      "title": "新基准测试评估Agent在真实世界硬件工程中的能力",
-      "summary": "一项名为Phoenix-bench的研究 深入探讨了为软件工程构建的Agent系统能否迁移至硬件工程领域，对Agent AI在真实世界工程任务中的准备度进行了评估。",
+      "title": "多项研究评估LLM智能体在软件工程与专业工作流中的表现",
+      "summary": "多项新研究对LLM智能体的工程化能力进行了评估。Phoenix-bench 测试了智能体在真实硬件工程中的表现，FormulaCode 评估了其在大型代码库上的优化能力，而SaaS-Bench 则考察了智能体利用真实SaaS解决专业工作流的能力。这些研究共同指向一个趋势：智能体正从简单的代码生成向复杂的、多步骤的工程任务演进。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.15226"
-        }
-      ]
-    },
-    {
-      "title": "新基准测试评估Agent在真实世界SaaS工作流中的表现",
-      "summary": "SaaS-Bench 是一个新基准，用于评估计算机使用Agent能否利用真实世界的SaaS应用来解决专业工作流问题，测试了LLM Agent的实用能力。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15777"
-        }
-      ]
-    },
-    {
-      "title": "社区讨论主流Coding Agent在相同大模型下的核心差异",
-      "summary": "社区讨论 指出，在调用相同大模型时，Claude Code、Codex、OpenCode等主流Coding Agent在使用体验上存在核心区别，开源Agent在配置和切换模型方面更具灵活性。",
-      "references": [
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2200902"
-        }
-      ]
-    },
-    {
-      "title": "新方法Agent Braille实现LLM Agent状态编码，大幅降低Token消耗",
-      "summary": "一项名为Agent Braille的新工具 采用8位状态编码，相比JSON格式可减少约92%的Token消耗，旨在提升LLM Agent的通信效率。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Tetrahedroned/Agent-Braille"
-        }
-      ]
-    },
-    {
-      "title": "OpenClaw项目单月消耗130万美元OpenAI API Token",
-      "summary": "据报道，OpenClaw的创建者在一个月内消耗了130万美元的OpenAI API Token，凸显了AI Agent框架在推理成本上的巨大开销。",
-      "references": [
-        {
-          "source_name": "Hacker News OpenClaw",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/openclaw-creator-burns-through-1-3-million-in-openai-api-tokens-in-a-single-month"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "量化压缩的安全隐患成为LLM部署的关键瓶颈",
-      "summary": "多项研究 指出，量化压缩在提升推理效率的同时，会引入对齐偏差和偏见涌现的风险。这表明，在追求模型轻量化的过程中，安全性与可靠性正成为不可忽视的权衡因素，尤其是在企业级应用中。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15208"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.06366"
-        }
-      ]
-    },
-    {
-      "title": "Agent能力评估正从编程竞赛转向真实世界工程场景",
-      "summary": "从Phoenix-bench到SaaS-Bench，再到FormulaCode，多个新基准 的出现表明，业界对Agent的评估已不再局限于软件工程，而是向硬件工程、专业SaaS工作流等更复杂的真实世界场景拓展，这反映了Agent技术落地的迫切需求。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15226"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15777"
         },
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2603.16011"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent的Token消耗与数据隐私问题引发社区担忧",
-      "summary": "OpenClaw项目巨额API费用 和社区对Coding Agent数据上传的隐私质疑，共同指向了AI Agent在规模化应用时面临的两大现实挑战：高昂的推理成本和敏感数据的安全风险。这预示着未来Agent框架的设计将更注重效率优化和本地化处理。",
-      "references": [
-        {
-          "source_name": "Hacker News OpenClaw",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/openclaw-creator-burns-through-1-3-million-in-openai-api-tokens-in-a-single-month"
         },
         {
-          "source_name": "Hacker News AI",
-          "link": "https://news.ycombinator.com/item?id=48179203"
-        }
-      ]
-    },
-    {
-      "title": "新型交互范式与编码效率工具正在重塑AI Agent的使用体验",
-      "summary": "社区涌现的Agent Braille 、Engram 和无聊天界面协作工具 等创新，表明开发者正积极探索超越传统JSON和聊天界面的Agent交互方式，旨在通过更高效的编码和上下文管理来提升Agent的实用性和用户体验。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Tetrahedroned/Agent-Braille"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/NickCirv/engram/releases/tag/v3.4.0"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/piqoni/piqo-extension"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15777"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
