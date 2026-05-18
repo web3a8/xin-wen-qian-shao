@@ -1,41 +1,83 @@
 {
-  "global_brief": "今日AI领域持续密集产出研究成果，重点围绕LLM安全、Agent能力评估与推理优化三大方向。OpenAI与Dell合作将Codex引入企业本地环境，同时马斯克与Altman的法律纠纷及Anthropic结盟事件也引发广泛关注。多项研究指出量化压缩可能破坏模型对齐，并提出了新的安全评估基准与Agent终止节能方案。",
+  "global_brief": "陪审团一致裁定马斯克起诉OpenAI过迟，法官当庭确认判决，马斯克计划上诉。与此同时，Anthropic收购了曾服务OpenAI、Google等客户的开发者工具初创公司Stainless，而OpenAI与戴尔合作将Codex引入混合云和本地环境。多项研究聚焦于LLM推理优化、量化对齐风险及智能体评估基准。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 37921,
-      "event_count": 655
+      "field_score": 38325,
+      "event_count": 661
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1595,
+      "field_score": 1573,
       "event_count": 41
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1354,
-      "event_count": 29
+      "field_score": 1523,
+      "event_count": 33
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 680,
-      "event_count": 14
+      "field_score": 767,
+      "event_count": 16
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 394,
+      "field_score": 390,
       "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI与Dell合作将Codex引入混合云与本地企业环境",
-      "summary": "OpenAI宣布与Dell合作，将Codex代理引入混合云和本地企业环境，旨在为企业提供更灵活的AI部署选项。",
+      "title": "Three Months of Speed-Up Experiments on a 3090 Ti: Autoregressive DFlash MTP for Qwen3.6-27B",
+      "summary": "The setup The starting line was 43 tokens per second decode on vanilla llama.cpp. The finishing line, three months late…；Three Months of Speed-Up Experiments on a 3090 Ti: Autoreg…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/ianlpaterson/three-months-of-speed-up-experiments-on-a-3090-ti-autoregressive-dflash-mtp-for-qwen36-27b-59ef"
+        }
+      ]
+    },
+    {
+      "title": "Measuring Maximum Activations in Open Large Language Models",
+      "summary": "arXiv:2605.15572v1 Announce Type: new Abstract: The dynamic range of activations is a first-order constraint for low-bi…；Measuring Maximum Activations in Open Large Language Models",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.15572"
+        }
+      ]
+    },
+    {
+      "title": "Elon Musk took too long to sue OpenAI, jury unanimously agrees",
+      "summary": "Elon Musk took too long to sue OpenAI, jury unanimously agrees；Musk plans to appeal after judge immediately affirmed the jury's decision.；Musk v. Altman proved that AI is led by t…",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/05/elon-musk-loses-trial-accusing-sam-altman-openai-of-stealing-a-charity"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people"
+        },
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://nytimes.com/live/2026/05/18/technology/openai-trial-verdict-altman-musk?unlocked_article_code=1.jVA.Cc2V.IwYuu2r4SJfQ"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/musk-v-altman-jury-verdict"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments；OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enter…",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -44,20 +86,5 @@
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "量化压缩与模型安全性的矛盾日益凸显",
-      "summary": "多项研究 表明，为了部署效率而进行的模型量化压缩，可能会意外引入偏见或破坏原有的安全对齐，这提示业界在追求模型轻量化时，必须将安全验证作为标准流程的一部分。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15208"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2512.21651"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
