@@ -1,117 +1,53 @@
 {
-  "global_brief": "AI领域持续主导技术社区讨论，焦点从模型发布转向Agent工具链、安全与效率。前微软高管公开批评公司AI战略投入产出失衡，引发对行业投资回报的反思。同时，多个开源项目展示了AI Agent在代码开发、安全审计和自动化实验中的新应用，但隐私泄露和代码审查中的AI冒充风险也引发担忧。",
+  "global_brief": "今日科技社区焦点集中在AI Agent工具链的爆发式增长与安全隐忧，同时学术界对AI生成内容采取更严厉的封禁措施，而微软的AI战略则遭到内部高管的尖锐批评。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5901,
-      "event_count": 106
+      "field_score": 6417,
+      "event_count": 115
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1659,
-      "event_count": 43
+      "field_score": 1382,
+      "event_count": 35
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 332,
-      "event_count": 7
+      "field_score": 415,
+      "event_count": 9
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 207,
-      "event_count": 5
+      "field_score": 162,
+      "event_count": 4
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 135,
-      "event_count": 3
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 95,
+      "event_count": 2
     }
   ],
   "highlight_facts": [
     {
       "title": "前微软高管痛批公司AI战略失误",
-      "summary": "前微软高管Matthews批评公司激进的AI战略投资与回报严重失衡，认为微软正重蹈在互联网和移动设备时代错失机遇的覆辙。",
+      "summary": "前微软高管Mat公开批评公司耗资数十亿美元的AI战略，认为其重蹈互联网和移动设备时代的覆辙，投资与回报严重失衡。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/951/588.htm"
         }
       ]
-    },
-    {
-      "title": "AI Agent自动化实验取得重大发现",
-      "summary": "据报道，AI Agents自主运行了27,000次实验，并取得了迄今为止最大的发现，展示了AI在科研自动化领域的巨大潜力。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://medium.com/@vektormemory/660-ai-agents-ran-27-000-experiments-their-biggest-discovery-was-a-2015-textbook-result-f0a152799e87"
-        }
-      ]
-    },
-    {
-      "title": "Meta推出AI隐身聊天模式",
-      "summary": "Meta宣布在其AI聊天服务中推出“隐身模式”（Incognito Mode），允许用户进行不记录对话历史的私密聊天。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://about.fb.com/news/2026/05/incognito-chat-whatsapp-meta-ai"
-        }
-      ]
-    },
-    {
-      "title": "OpenClaw创始人每月花费130万美元运行100个AI Agent",
-      "summary": "OpenClaw创始人Peter Steinberger每月投入130万美元，运行100个AI Agent，这些Agent能够自主编写代码并查找漏洞。",
-      "references": [
-        {
-          "source_name": "Hacker News OpenClaw",
-          "link": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示AI助手存在对话泄露风险",
-      "summary": "一项名为LeakyLM的研究指出，AI助手存在泄露用户对话内容的风险，引发了关于AI隐私安全的新一轮讨论。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://leakylm.github.io/"
-        }
-      ]
-    },
-    {
-      "title": "Citadel创始人称AI Agent可数天内完成博士级任务",
-      "summary": "对冲基金Citadel创始人Ken Griffin表示，其公司开发的AI Agent能够在数天内完成通常需要博士生才能完成的复杂任务。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://twitter.com/TFTC21/status/2055978848764784662"
-        }
-      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent工具链正从“聊天”转向“文件级协作”",
-      "summary": "多个新项目（如Git-surgeon、Piqo Extension）尝试摒弃传统的聊天界面，让开发者直接在代码文件中与LLM Agent协作，这预示着AI编程工具交互范式的根本性转变。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/raine/git-surgeon"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/piqoni/piqo-extension"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent的安全与合规问题成为社区焦点",
-      "summary": "从EPI（为AI Agent提供法医证据容器）到关于代码审查中AI冒充的担忧，再到“心理变态越狱”研究，社区正从多个维度审视AI Agent的安全风险，合规性（如欧盟AI法案）和身份验证成为关键议题。",
+      "title": "AI Agent工具链的“军备竞赛”与安全真空",
+      "summary": "从EPI取证容器到容器化Agent，再到运行100个Agent自动找Bug的案例，AI Agent工具正快速走向工程化和规模化。然而，伴随而来的对话泄露、SSH绕过等安全问题 表明，当前的安全防护措施远落后于工具的发展速度，存在巨大的安全真空。",
       "references": [
         {
           "source_name": "Hacker News AI",
@@ -119,49 +55,7 @@
         },
         {
           "source_name": "Hacker News AI",
-          "link": "https://news.ycombinator.com/item?id=48173182"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://promptinjection.net/p/nsfw-and-the-psychopathy-jailbreak-what-broken-ai-llm-teaches-about-human-manipulation"
-        }
-      ]
-    },
-    {
-      "title": "开源社区正通过“精简”和“容器化”对抗AI工具的臃肿与云依赖",
-      "summary": "MiniClaude和容器化AI Agent等项目反映了开发者对当前主流AI编程工具（如Claude Code）过度依赖云服务和内置臃肿功能的不满，追求更轻量、更可控的本地化解决方案。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1213338"
-        },
-        {
-          "source_name": "Hacker News AI",
           "link": "https://github.com/SamInTheShell/aetherion"
-        }
-      ]
-    },
-    {
-      "title": "AI在搜索和购物等消费场景的应用体验仍存争议",
-      "summary": "有用户发现Google搜索“remove definition”会返回无意义的AI生成文本，同时有研究尝试用点击流数据训练AI购物Agent，这表明AI在消费级应用中的实用性和用户体验仍是亟待解决的问题。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://google.com/search?q=remove+definition"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://arxiv.org/abs/2605.14205"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent的“实验能力”正从科研扩展到商业开发",
-      "summary": "从AI Agents自主运行数万次实验到OpenClaw用Agent进行代码审计，再到Citadel用Agent完成博士级任务，AI Agent正从单纯的对话工具演变为能够独立执行复杂任务、驱动商业价值的“数字劳动力”。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://medium.com/@vektormemory/660-ai-agents-ran-27-000-experiments-their-biggest-discovery-was-a-2015-textbook-result-f0a152799e87"
         },
         {
           "source_name": "Hacker News OpenClaw",
@@ -169,7 +63,11 @@
         },
         {
           "source_name": "Hacker News AI",
-          "link": "https://twitter.com/TFTC21/status/2055978848764784662"
+          "link": "https://leakylm.github.io/"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48169701"
         }
       ]
     }
