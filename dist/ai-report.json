@@ -1,56 +1,63 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM智能体（Agent）的工程化评估与安全对齐、模型压缩带来的偏差风险，以及多模态推理能力的提升。同时，业界巨头在Coding Agent领域的战略投入引发广泛关注，预示着AI编程工具竞争进入白热化阶段。",
+  "global_brief": "今日AI领域持续密集产出研究成果，重点围绕LLM安全、Agent能力评估与推理优化三大方向。OpenAI与Dell合作将Codex引入企业本地环境，同时马斯克与Altman的法律纠纷及Anthropic结盟事件也引发广泛关注。多项研究指出量化压缩可能破坏模型对齐，并提出了新的安全评估基准与Agent终止节能方案。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 37679,
-      "event_count": 651
+      "field_score": 37921,
+      "event_count": 655
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1631,
+      "field_score": 1595,
       "event_count": 41
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1336,
+      "field_score": 1354,
       "event_count": 29
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 625,
-      "event_count": 12
+      "field_score": 680,
+      "event_count": 14
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 304,
-      "event_count": 6
+      "field_score": 394,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "多项研究评估LLM智能体在软件工程与专业工作流中的表现",
-      "summary": "多项新研究对LLM智能体的工程化能力进行了评估。Phoenix-bench 测试了智能体在真实硬件工程中的表现，FormulaCode 评估了其在大型代码库上的优化能力，而SaaS-Bench 则考察了智能体利用真实SaaS解决专业工作流的能力。这些研究共同指向一个趋势：智能体正从简单的代码生成向复杂的、多步骤的工程任务演进。",
+      "title": "OpenAI与Dell合作将Codex引入混合云与本地企业环境",
+      "summary": "OpenAI宣布与Dell合作，将Codex代理引入混合云和本地企业环境，旨在为企业提供更灵活的AI部署选项。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15226"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.16011"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15777"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/dell-codex-enterprise-partnership"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "量化压缩与模型安全性的矛盾日益凸显",
+      "summary": "多项研究 表明，为了部署效率而进行的模型量化压缩，可能会意外引入偏见或破坏原有的安全对齐，这提示业界在追求模型轻量化时，必须将安全验证作为标准流程的一部分。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15208"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2512.21651"
+        }
+      ]
+    }
+  ]
 }
