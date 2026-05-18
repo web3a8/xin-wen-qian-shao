@@ -1,41 +1,41 @@
 {
-  "global_brief": "今日科技社区焦点集中在AI Agent工具链的爆发式增长与安全隐忧，同时学术界对AI生成内容采取更严厉的封禁措施，而微软的AI战略则遭到内部高管的尖锐批评。",
+  "global_brief": "AI 领域持续主导技术讨论，焦点从模型发布转向工具链的实用化与效率争议。微软前高管公开批评公司AI战略投资回报失衡，引发行业反思。同时，开发者社区涌现大量针对Claude Code、Copilot等工具的优化、替代方案及安全讨论，显示出AI编程助手正进入精细化竞争阶段。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6417,
-      "event_count": 115
+      "field_score": 4489,
+      "event_count": 85
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1382,
-      "event_count": 35
+      "field_score": 1569,
+      "event_count": 39
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 415,
-      "event_count": 9
+      "field_score": 516,
+      "event_count": 10
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 162,
-      "event_count": 4
+      "field_score": 213,
+      "event_count": 5
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 95,
-      "event_count": 2
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 132,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
       "title": "前微软高管痛批公司AI战略失误",
-      "summary": "前微软高管Mat公开批评公司耗资数十亿美元的AI战略，认为其重蹈互联网和移动设备时代的覆辙，投资与回报严重失衡。",
+      "summary": "前微软高管Mat痛批公司耗资数十亿美元的AI战略，认为其重蹈互联网和移动设备时代的覆辙，投资与回报严重失衡。",
       "references": [
         {
           "source_name": "IT之家",
@@ -46,28 +46,20 @@
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent工具链的“军备竞赛”与安全真空",
-      "summary": "从EPI取证容器到容器化Agent，再到运行100个Agent自动找Bug的案例，AI Agent工具正快速走向工程化和规模化。然而，伴随而来的对话泄露、SSH绕过等安全问题 表明，当前的安全防护措施远落后于工具的发展速度，存在巨大的安全真空。",
+      "title": "AI编程工具进入精细化竞争阶段",
+      "summary": "从开发者对Claude Code、Copilot、TRAE等工具的对比和优化讨论 可以看出，AI编程助手市场已从“能用”转向“好用”，用户开始关注离线能力、成本控制和特定场景下的性能差异。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/mohdibrahimaiml/epi-recorder"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/kunpeng-ai-lab/how-i-make-deepseek-work-closer-to-claude-code-in-practice-5dn5"
         },
         {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/SamInTheShell/aetherion"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1213338"
         },
         {
-          "source_name": "Hacker News OpenClaw",
-          "link": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://leakylm.github.io/"
-        },
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48169701"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1213384"
         }
       ]
     }
