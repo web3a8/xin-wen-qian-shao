@@ -1,67 +1,78 @@
 {
-  "global_brief": "AI 领域持续主导技术讨论，焦点从模型发布转向工具链的实用化与效率争议。微软前高管公开批评公司AI战略投资回报失衡，引发行业反思。同时，开发者社区涌现大量针对Claude Code、Copilot等工具的优化、替代方案及安全讨论，显示出AI编程助手正进入精细化竞争阶段。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在大型语言模型（LLM）的推理优化、智能体（Agent）能力评估、安全与偏见缓解以及多模态理解。多项研究揭示了模型压缩带来的对齐风险，并提出了新的评估基准与训练方法，显示出业界对模型实用性与可靠性的持续关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 4489,
-      "event_count": 85
+      "field_score": 37254,
+      "event_count": 608
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1569,
-      "event_count": 39
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 516,
-      "event_count": 10
+      "field_score": 1668,
+      "event_count": 42
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 213,
-      "event_count": 5
+      "field_score": 1018,
+      "event_count": 20
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 132,
-      "event_count": 3
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 436,
+      "event_count": 9
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 336,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "前微软高管痛批公司AI战略失误",
-      "summary": "前微软高管Mat痛批公司耗资数十亿美元的AI战略，认为其重蹈互联网和移动设备时代的覆辙，投资与回报严重失衡。",
+      "title": "Measuring Maximum Activations in Open Large Language Models",
+      "summary": "arXiv:2605.15572v1 Announce Type: new Abstract: The dynamic range of activations is a first-order constraint for low-bi…；Measuring Maximum Activations in Open Large Language Models",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/951/588.htm"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.15572"
+        }
+      ]
+    },
+    {
+      "title": "SafeGPT: Preventing Data Leakage and Unethical Outputs in Enterprise LLM Use",
+      "summary": "arXiv:2601.06366v2 Announce Type: replace-cross Abstract: Large Language Models (LLMs) are transforming enterprise work…；SafeGPT: Preventing Data Leakage and Unethical Outputs in…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.06366"
+        }
+      ]
+    },
+    {
+      "title": "Is Agentic AI Ready for Real-World Hardware Engineering? A Deep Dive with Phoenix-bench",
+      "summary": "arXiv:2605.15226v1 Announce Type: cross Abstract: We ask whether agentic AI systems built for software engineering tran…；Is Agentic AI Ready for Real-World Hardware Engineering? A…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15226"
+        }
+      ]
+    },
+    {
+      "title": "Runtime-Structured Task Decomposition for Agentic Coding Systems",
+      "summary": "arXiv:2605.15425v1 Announce Type: cross Abstract: Agentic coding systems increasingly use large language models (LLMs)…；Runtime-Structured Task Decomposition for Agentic Coding Sy…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15425"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI编程工具进入精细化竞争阶段",
-      "summary": "从开发者对Claude Code、Copilot、TRAE等工具的对比和优化讨论 可以看出，AI编程助手市场已从“能用”转向“好用”，用户开始关注离线能力、成本控制和特定场景下的性能差异。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/kunpeng-ai-lab/how-i-make-deepseek-work-closer-to-claude-code-in-practice-5dn5"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1213338"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1213384"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
