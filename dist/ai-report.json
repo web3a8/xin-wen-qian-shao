@@ -1,63 +1,78 @@
 {
-  "global_brief": "今日AI领域研究密集发布，重点围绕LLM推理优化、量化压缩与安全对齐、以及Agent系统的工程化评估。社区讨论则聚焦于AI Agent的沙箱治理、成本控制与工具链选择，反映出从模型能力向工程落地的关注转移。",
+  "global_brief": "AI领域持续高热，多项研究聚焦于LLM的推理优化、安全对齐与智能体能力评估，同时开发者社区对AI Agent的治理、成本控制及工具链选择展开了激烈讨论。开源模型与商业API的成本效益对比成为开发者关注焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 38516,
-      "event_count": 633
+      "field_score": 37549,
+      "event_count": 636
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1377,
-      "event_count": 34
+      "field_score": 1259,
+      "event_count": 31
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1031,
-      "event_count": 20
+      "field_score": 1094,
+      "event_count": 22
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 350,
-      "event_count": 7
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 423,
+      "event_count": 9
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 336,
-      "event_count": 7
+      "field_score": 293,
+      "event_count": 6
     }
   ],
   "highlight_facts": [
     {
-      "title": "Meta发布开源LLM激活值测量研究",
-      "summary": "Meta在arXiv发布新研究，提出测量开源大语言模型最大激活值的方法，旨在优化低比特推理的动态范围约束。",
+      "title": "I Switched to Chinese AI APIs and Cut My Costs by Over 90%",
+      "summary": "I Switched to Chinese AI APIs and Cut My Costs by Over 90%；I'm a developer and creative based in Europe. I use AI daily — for coding, writing, data analysis. My preferred tool is…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/minidouuuuuu/i-switched-to-chinese-ai-apis-and-cut-my-costs-by-over-90-56om"
+        }
+      ]
+    },
+    {
+      "title": "Measuring Maximum Activations in Open Large Language Models",
+      "summary": "arXiv:2605.15572v1 Announce Type: new Abstract: The dynamic range of activations is a first-order constraint for low-bi…；Measuring Maximum Activations in Open Large Language Models",
       "references": [
         {
           "source_name": "arXiv NLP",
           "link": "https://arxiv.org/abs/2605.15572"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "LLM量化压缩的安全风险被低估",
-      "summary": "多项研究 指出，量化压缩在提升推理效率的同时，会“撤销”模型的对齐效果并引入偏见，这意味着模型部署前的安全评估不能仅依赖原始模型，必须包含压缩后的版本。",
+      "title": "SafeGPT: Preventing Data Leakage and Unethical Outputs in Enterprise LLM Use",
+      "summary": "arXiv:2601.06366v2 Announce Type: replace-cross Abstract: Large Language Models (LLMs) are transforming enterprise work…；SafeGPT: Preventing Data Leakage and Unethical Outputs in…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15208"
-        },
+          "link": "https://arxiv.org/abs/2601.06366"
+        }
+      ]
+    },
+    {
+      "title": "Is Agentic AI Ready for Real-World Hardware Engineering? A Deep Dive with Phoenix-bench",
+      "summary": "arXiv:2605.15226v1 Announce Type: cross Abstract: We ask whether agentic AI systems built for software engineering tran…；Is Agentic AI Ready for Real-World Hardware Engineering? A…",
+      "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.08894"
+          "link": "https://arxiv.org/abs/2605.15226"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
