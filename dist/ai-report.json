@@ -1,90 +1,67 @@
 {
-  "global_brief": "陪审团一致裁定马斯克起诉OpenAI过迟，法官当庭确认判决，马斯克计划上诉。与此同时，Anthropic收购了曾服务OpenAI、Google等客户的开发者工具初创公司Stainless，而OpenAI与戴尔合作将Codex引入混合云和本地环境。多项研究聚焦于LLM推理优化、量化对齐风险及智能体评估基准。",
+  "global_brief": "过去24小时，AI领域竞争激烈：Kimi K2.6在编程基准测试中超越前沿模型，Elon Musk诉OpenAI案以陪审团一致裁定其起诉过迟告终，同时Anthropic收购了曾服务OpenAI和Google的开发者工具初创公司Stainless。此外，多项研究聚焦于Agentic AI在硬件工程、代码优化及企业安全中的应用与评估。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 38325,
-      "event_count": 661
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1573,
-      "event_count": 41
+      "field_score": 38649,
+      "event_count": 668
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1523,
-      "event_count": 33
+      "field_score": 1584,
+      "event_count": 34
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1543,
+      "event_count": 41
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 767,
-      "event_count": 16
+      "field_score": 918,
+      "event_count": 19
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 390,
+      "field_score": 386,
       "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "Three Months of Speed-Up Experiments on a 3090 Ti: Autoregressive DFlash MTP for Qwen3.6-27B",
-      "summary": "The setup The starting line was 43 tokens per second decode on vanilla llama.cpp. The finishing line, three months late…；Three Months of Speed-Up Experiments on a 3090 Ti: Autoreg…",
+      "title": "Kimi K2.6在编程基准测试中超越前沿模型",
+      "summary": "Moonshot AI的Kimi K2.6在编程基准测试中击败了Anthropic、Google和OpenAI等公司的前沿模型，标志着开源大模型在编码能力上的又一次重大突破。",
       "references": [
         {
           "source_name": "Dev.to",
-          "link": "https://dev.to/ianlpaterson/three-months-of-speed-up-experiments-on-a-3090-ti-autoregressive-dflash-mtp-for-qwen36-27b-59ef"
-        }
-      ]
-    },
-    {
-      "title": "Measuring Maximum Activations in Open Large Language Models",
-      "summary": "arXiv:2605.15572v1 Announce Type: new Abstract: The dynamic range of activations is a first-order constraint for low-bi…；Measuring Maximum Activations in Open Large Language Models",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.15572"
-        }
-      ]
-    },
-    {
-      "title": "Elon Musk took too long to sue OpenAI, jury unanimously agrees",
-      "summary": "Elon Musk took too long to sue OpenAI, jury unanimously agrees；Musk plans to appeal after judge immediately affirmed the jury's decision.；Musk v. Altman proved that AI is led by t…",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/05/elon-musk-loses-trial-accusing-sam-altman-openai-of-stealing-a-charity"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://nytimes.com/live/2026/05/18/technology/openai-trial-verdict-altman-musk?unlocked_article_code=1.jVA.Cc2V.IwYuu2r4SJfQ"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/musk-v-altman-jury-verdict"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
-      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments；OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enter…",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/dell-codex-enterprise-partnership"
+          "link": "https://dev.to/logiqode/kimi-k26-beats-frontier-models-in-coding-benchmarks-77k"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI代理的高昂成本正成为规模化部署的关键瓶颈",
+      "summary": "OpenClaw一个月消耗130万美元API令牌的案例 凸显了当前AI代理在推理成本上的巨大挑战。这与AgentStop等旨在节省能源的研究 形成呼应，表明在追求强大能力的同时，成本优化和能效已成为行业亟待解决的核心问题。",
+      "references": [
+        {
+          "source_name": "Hacker News OpenClaw",
+          "link": "https://pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk"
+        },
+        {
+          "source_name": "Hacker News 最佳",
+          "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15206"
+        }
+      ]
+    }
+  ]
 }
