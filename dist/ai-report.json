@@ -1,29 +1,29 @@
 {
-  "global_brief": "今日AI领域研究密集发布，涵盖LLM推理优化、智能体评估与安全对齐等方向；同时，马斯克诉OpenAI案以陪审团一致裁定其起诉过迟告终，成为行业焦点事件。",
+  "global_brief": "AI 领域持续主导今日动态，编程智能体（Agent）生态加速成型，同时多篇研究聚焦于 LLM 推理效率、安全性与多模态能力。此外，Elon Musk 诉 OpenAI 案以陪审团一致裁定其起诉过迟告终，Musk 计划上诉。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 83327,
-      "event_count": 1427
+      "field_score": 79759,
+      "event_count": 1368
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2330,
-      "event_count": 51
+      "field_score": 2121,
+      "event_count": 46
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1141,
-      "event_count": 28
+      "field_score": 1092,
+      "event_count": 27
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1027,
-      "event_count": 21
+      "field_score": 992,
+      "event_count": 20
     },
     {
       "field_key": "world",
@@ -34,8 +34,8 @@
   ],
   "highlight_facts": [
     {
-      "title": "马斯克诉OpenAI案败诉，陪审团一致裁定其起诉过迟",
-      "summary": "陪审团一致同意马斯克起诉OpenAI耗时过长，法官立即维持该裁决。马斯克计划上诉。该事件被多家媒体广泛报道。",
+      "title": "Elon Musk 诉 OpenAI 案被驳回",
+      "summary": "陪审团一致认为 Elon Musk 起诉 OpenAI 耗时过长，法官随即确认了陪审团的裁决。Musk 计划上诉。该事件由多家媒体联合报道。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -46,18 +46,28 @@
           "link": "https://theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people"
         },
         {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai"
         },
         {
-          "source_name": "daringfireball.net",
-          "link": "https://nytimes.com/live/2026/05/18/technology/openai-trial-verdict-altman-musk?unlocked_article_code=1.jVA.Cc2V.IwYuu2r4SJfQ"
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict"
         }
       ]
     },
     {
-      "title": "新研究提出面向个性化联邦智能的基础模型综述",
-      "summary": "一项关于基础模型在个性化联邦智能中应用的综述论文发布，探讨了大型语言模型在该领域的应用前景，并提及了Google和OpenAI的相关工作。",
+      "title": "编程智能体工厂化趋势显现",
+      "summary": "开发者社区普遍认为，以 Cursor、Codex、Claude Code、Devin 为代表的编程智能体正在形成“工厂化”生产模式，它们能够自主规划、编写、测试和部署代码。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/pathmode/input-factories-3e8j"
+        }
+      ]
+    },
+    {
+      "title": "个性化联邦智能基础模型综述发布",
+      "summary": "一篇综述论文系统梳理了用于个性化联邦智能的基础模型，探讨了大型语言模型在该领域的应用前景。",
       "references": [
         {
           "source_name": "arXiv 计算机视觉",
@@ -66,8 +76,8 @@
       ]
     },
     {
-      "title": "研究将SaaS产品建模为保险产品，分析LLM订阅模式",
-      "summary": "一篇新论文提出“你的SaaS就是保险产品”的建模框架，用于分析Claude Code等LLM订阅服务中的封顶使用模式，并提及了Anthropic和OpenAI。",
+      "title": "SaaS 产品被建模为保险产品",
+      "summary": "一项新研究提出，以 Claude Code 和 OpenAI 订阅为代表的按量计费 SaaS 产品，其本质是一种保险产品模型，并为此建立了分析框架。",
       "references": [
         {
           "source_name": "arXiv 机器学习",
@@ -76,8 +86,8 @@
       ]
     },
     {
-      "title": "新研究探讨大型语言模型在“不可能语言习得”中的能力",
-      "summary": "一篇论文回应了乔姆斯基对ChatGPT的批评，探讨LLM是否具备超越当前AI视角的语言习得能力，并提及了OpenAI。",
+      "title": "研究质疑 LLM 语言习得能力",
+      "summary": "一项研究探讨了大型语言模型在“不可能语言习得”方面的表现，回应了乔姆斯基对 ChatGPT 的批评，并讨论了其对当前 AI 视角的潜在颠覆。",
       "references": [
         {
           "source_name": "arXiv NLP",
@@ -86,38 +96,84 @@
       ]
     },
     {
-      "title": "研究提出SafeGPT框架，防止企业LLM使用中的数据泄露",
-      "summary": "一项新研究提出了SafeGPT框架，旨在防止大型语言模型在企业应用中发生数据泄露和不道德输出，并提及了OpenAI。",
+      "title": "OpenClaw 创建者单月消耗 130 万美元 OpenAI Token",
+      "summary": "据报道，OpenClaw 的创建者在 30 天内使用了价值约 130 万美元的 OpenAI Token。该事件在技术社区引发讨论，涉及开源 AI 工具的实际使用体验。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.06366"
-        }
-      ]
-    },
-    {
-      "title": "多项研究聚焦LLM推理优化与智能体评估",
-      "summary": "多篇新论文分别提出了面向LLM推理的吞吐量最优调度算法 、面向智能体系统的Phoenix-bench硬件工程基准 以及FormulaCode代码库优化评估，显示出对LLM实用化部署的持续关注。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15226"
+          "source_name": "Hacker News OpenClaw",
+          "link": "https://pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk"
         },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.16011"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2504.07347"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1213756"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "智能体系统评估正从软件工程向硬件工程等专业领域拓展",
-      "summary": "新发布的Phoenix-bench 和FormulaCode 等基准测试表明，对LLM智能体的评估正从通用编程任务向硬件工程、大型代码库优化等专业领域深化，智能体实用性验证进入新阶段。",
+      "title": "编程智能体生态正从工具竞争转向“工厂化”协作",
+      "summary": "随着 Cursor、Codex、Claude Code 等工具的涌现，开发者社区开始关注如何让这些智能体共享上下文和记忆，以解决跨工具、跨项目的重复解释问题。这预示着智能体生态的下一个竞争焦点将是协作与记忆共享。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/pathmode/input-factories-3e8j"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1213646"
+        }
+      ]
+    },
+    {
+      "title": "LLM 推理效率优化成为关键瓶颈",
+      "summary": "多篇研究同时指向 LLM 推理的优化，包括面向智能体工作负载的 KV-Cache 量化、面向智能手机的投机性推理、以及运行时自适应剪枝。这表明，随着模型部署规模扩大，推理成本与效率已成为制约应用落地的核心挑战。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.16786"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2505.17138"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.17170"
+        }
+      ]
+    },
+    {
+      "title": "量化压缩可能破坏 LLM 的安全对齐",
+      "summary": "一项研究发现，对 LLM 进行后训练量化压缩后，模型在不同精度下会重新出现偏见，暗示压缩过程可能“撤销”了原有的安全对齐效果。这对模型部署的安全性提出了新的警示。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15208"
+        }
+      ]
+    },
+    {
+      "title": "多模态 LLM 在专业领域的偏见与可靠性受关注",
+      "summary": "多项研究分别揭示了多模态 LLM 在中文短视频 misinformation 中的认知偏见、在临床评分中的集中趋势偏差，以及在视觉推理中的一致性挑战。这表明，尽管多模态能力提升，但在专业领域的可靠性和公平性仍需严格审计。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2601.06600"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.16386"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.18160"
+        }
+      ]
+    },
+    {
+      "title": "智能体在硬件工程与代码优化领域的实用性仍待验证",
+      "summary": "两项基准测试分别评估了智能体在真实硬件工程（Phoenix-bench）和大规模代码优化（FormulaCode）中的表现，表明当前智能体在复杂、专业的工程任务中尚未完全准备好，其能力边界需要更严格的评估。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -130,12 +186,20 @@
       ]
     },
     {
-      "title": "LLM安全对齐在压缩后可能退化，量化部署需谨慎",
-      "summary": "一项研究指出，量化压缩后的LLM可能出现对齐失效和偏见涌现，这提示在追求推理效率的同时，必须警惕模型安全性的潜在退化。",
+      "title": "企业级 LLM 应用的安全与数据泄露风险成为研究热点",
+      "summary": "多篇研究分别提出了面向企业的数据泄露防护方案（SafeGPT）、多语言安全基准（IndicSafe）以及基于 RAG 的公平生成方法（DebiasRAG）。这表明，随着 LLM 进入企业核心流程，安全、合规与公平性问题正从边缘议题上升为核心研究领域。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15208"
+          "link": "https://arxiv.org/abs/2601.06366"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2603.17915"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.16113"
         }
       ]
     }
