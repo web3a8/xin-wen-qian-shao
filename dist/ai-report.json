@@ -1,45 +1,55 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导技术新闻，核心动态包括：Elon Musk诉OpenAI案因起诉过迟被陪审团驳回，Musk计划上诉；Cloudflare宣布集成Anthropic的Claude托管智能体；多篇研究论文聚焦LLM推理效率、智能体评估与安全对齐，同时社区涌现一批面向AI智能体的新工具，如共享内存、成本上限和指令遵循基准。",
+  "global_brief": "OpenAI联合创始人Andrej Karpathy加入Anthropic预训练团队，引发行业关注；同时，Elon Musk起诉OpenAI案败诉，陪审团一致认定其起诉过迟。AI领域研究持续聚焦于LLM推理优化、Agent系统评估与安全对齐，多篇新论文发布。 [FACT] TITLE: OpenAI联合创始人Andrej Karpathy加入Anthropic预训练团队 SUMMARY: OpenAI联合创始人Andrej Karpathy已加入Anthropic的预训练团队，该团队负责Claude模型的大规模训练工作。 SCORE: 75 A…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 81036,
-      "event_count": 1386
+      "field_score": 79717,
+      "event_count": 1399
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2289,
-      "event_count": 50
+      "field_score": 2577,
+      "event_count": 58
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1059,
-      "event_count": 26
+      "field_score": 1162,
+      "event_count": 29
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1033,
-      "event_count": 21
+      "field_score": 952,
+      "event_count": 20
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 919,
+      "field_score": 883,
       "event_count": 19
     }
   ],
   "highlight_facts": [
     {
-      "title": "A Survey on Foundation Models for Personalized Federated Intelligence",
-      "summary": "A Survey on Foundation Models for Personalized Federated Intelligence；arXiv:2505.06907v2 Announce Type: replace-cross Abstract: The rise of large language models (LLMs), such as C…",
+      "title": "Benchmarking five live translation systems with an open-source eval harness (including OpenAI's GPT-Realtime-Translate)",
+      "summary": "Benchmarking five live translation systems with an open-source eval harness (including OpenAI's GPT-Realtime-Translate)；We built an open-source evaluation harness for live speech-…",
       "references": [
         {
-          "source_name": "arXiv 计算机视觉",
-          "link": "https://arxiv.org/abs/2505.06907"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/yahya_saleh_d157cf3d7fe2e/benchmarking-five-live-translation-systems-with-an-open-source-eval-harness-including-openais-11l7"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI co-founder Andrej Karpathy joins Anthropic’s pre-training team",
+      "summary": "OpenAI co-founder Andrej Karpathy joins Anthropic’s pre-training team；Pre-training is responsible for the large-scale training runs that give Claude its core knowledge and capabil…",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team"
         }
       ]
     },
@@ -54,22 +64,12 @@
       ]
     },
     {
-      "title": "Your SaaS Is an Insurance Product: A Modeling Framework",
-      "summary": "arXiv:2605.16699v1 Announce Type: new Abstract: Capped-usage SaaS products -- LLM subscriptions such as Claude Code and…；Your SaaS Is an Insurance Product: A Modeling Framework",
+      "title": "A Survey on Foundation Models for Personalized Federated Intelligence",
+      "summary": "A Survey on Foundation Models for Personalized Federated Intelligence；arXiv:2505.06907v2 Announce Type: replace-cross Abstract: The rise of large language models (LLMs), such as C…",
       "references": [
         {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2605.16699"
-        }
-      ]
-    },
-    {
-      "title": "Large Language Models and Impossible Language Acquisition: \"False Promise\" or an Overturn of our Current Perspective to…",
-      "summary": "arXiv:2602.08437v5 Announce Type: replace Abstract: In Chomsky's provocative critique \"The False Promise of CHATGPT,\" L…；Large Language Models and Impossible Language Acquisition:…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2602.08437"
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2505.06907"
         }
       ]
     }
