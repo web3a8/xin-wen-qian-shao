@@ -1,17 +1,17 @@
 {
-  "global_brief": "谷歌在 I/O 2026 大会上全面转向智能体时代，发布了 Gemini 3.5 Flash 模型、Gemini Spark 个人智能体及 AI Ultra 订阅计划。与此同时，OpenAI 联合创始人 Andrej Karpathy 加入 Anthropic 预训练团队，AI 人才竞争加剧。社区侧，Mistral AI 的 Python 包遭供应链攻击，引发安全担忧。",
+  "global_brief": "谷歌在 I/O 2026 大会上宣布了多项重大更新，包括推出 Gemini Spark 智能助手、Gemini 3.5 Flash 模型以及 AI Ultra 订阅计划，标志着其全面转向智能体（Agent）时代。同时，OpenAI 联合创始人 Andrej Karpathy 加入 Anthropic 预训练团队，以及谷歌 SynthID 水印技术被 OpenAI 和英伟达等公司采用，成为行业关注焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 79451,
-      "event_count": 1392
+      "field_score": 79968,
+      "event_count": 1404
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2096,
-      "event_count": 46
+      "field_score": 2172,
+      "event_count": 47
     },
     {
       "field_key": "science",
@@ -26,28 +26,28 @@
       "event_count": 19
     },
     {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 758,
-      "event_count": 19
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 813,
+      "event_count": 17
     }
   ],
   "highlight_facts": [
     {
-      "title": "谷歌 I/O 2026 发布 Gemini 3.5 Flash 模型，输出速度达 GPT-5.5 的四倍",
-      "summary": "在 I/O 2026 大会上，谷歌宣布推出 Gemini 3.5 Flash 模型，其输出速度是 GPT-5.5 的四倍，并在多项基准测试中优于前代 3.1 Pro 模型。",
+      "title": "谷歌 I/O 2026 发布 Gemini Spark 智能助手与 Gemini 3.5 Flash 模型",
+      "summary": "在 2026 年谷歌 I/O 开发者大会上，谷歌宣布推出名为 Gemini Spark 的 24/7 智能体助手，并发布 Gemini 3.5 Flash 模型，其输出速度据称是 GPT-5.5 的 4 倍。同时，谷歌还推出了月费 100 美元的 AI Ultra 订阅计划。",
       "references": [
         {
           "source_name": "Google AI Blog",
           "link": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions"
         },
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/vystartasv/google-declared-the-agentic-era-at-io-heres-what-they-got-wrong-3pda"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration"
         },
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/952/525.htm"
         },
         {
           "source_name": "The Verge",
@@ -58,40 +58,20 @@
           "link": "https://ithome.com/0/952/522.htm"
         },
         {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/952/523.htm"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "谷歌 I/O 2026 标志着 AI 竞争从模型能力转向智能体生态",
-      "summary": "谷歌在 I/O 上发布 Gemini Spark、AI Ultra 订阅及 Android CLI 等工具，表明其正全力构建以智能体为核心的生态，而非仅比拼模型基准。这标志着 AI 行业竞争进入新阶段，即谁能更好地将 AI 嵌入用户日常工作和生活。",
+      "title": "AI 行业人才流动加剧，预训练领域竞争白热化",
+      "summary": "OpenAI 联合创始人 Karpathy 加入 Anthropic 预训练团队，凸显了顶级 AI 实验室之间对预训练核心人才的激烈争夺。这预示着未来模型基础能力的竞争将更加依赖顶尖研究人员的流向。",
       "references": [
         {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/vystartasv/google-declared-the-agentic-era-at-io-heres-what-they-got-wrong-3pda"
-        },
-        {
           "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/952/525.htm"
+          "link": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team"
         }
       ]
     }
