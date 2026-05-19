@@ -1,29 +1,29 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕LLM智能体、安全与效率。OpenAI与Dell合作将Codex引入企业环境，同时马斯克诉OpenAI案以陪审团一致裁决告终。市场数据显示，AI收入正快速向OpenAI和Anthropic等头部公司集中。",
+  "global_brief": "过去24小时，AI领域研究密集发布，涵盖LLM推理优化、智能体评估与安全对齐；同时，OpenAI与戴尔合作将Codex引入企业本地环境，而OpenClaw创作者单月消耗130万美元OpenAI API额度，凸显AI应用成本高企。此外，马斯克诉OpenAI案以陪审团一致裁定其起诉过迟告终，AI市场收入报告显示OpenAI与Anthropic合计占据89%份额。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 85105,
-      "event_count": 1409
+      "field_score": 85358,
+      "event_count": 1417
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2255,
-      "event_count": 48
+      "field_score": 2282,
+      "event_count": 49
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1213,
-      "event_count": 30
+      "field_score": 1117,
+      "event_count": 28
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1067,
-      "event_count": 21
+      "field_score": 1032,
+      "event_count": 20
     },
     {
       "field_key": "world",
@@ -34,148 +34,45 @@
   ],
   "highlight_facts": [
     {
-      "title": "马斯克诉OpenAI案陪审团一致裁决",
-      "summary": "陪审团一致同意，埃隆·马斯克起诉OpenAI的时间过晚。法官立即维持了陪审团的裁决，马斯克计划上诉。",
+      "title": "A Survey on Foundation Models for Personalized Federated Intelligence",
+      "summary": "A Survey on Foundation Models for Personalized Federated Intelligence；arXiv:2505.06907v2 Announce Type: replace-cross Abstract: The rise of large language models (LLMs), such as C…",
       "references": [
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/05/elon-musk-loses-trial-accusing-sam-altman-openai-of-stealing-a-charity"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people"
-        },
-        {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://nytimes.com/live/2026/05/18/technology/openai-trial-verdict-altman-musk?unlocked_article_code=1.jVA.Cc2V.IwYuu2r4SJfQ"
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2505.06907"
         }
       ]
     },
     {
-      "title": "OpenAI与Dell合作将Codex引入企业环境",
-      "summary": "OpenAI宣布与Dell合作，将Codex智能体引入混合云和本地企业环境，旨在推动企业级AI应用。",
+      "title": "Your SaaS Is an Insurance Product: A Modeling Framework",
+      "summary": "arXiv:2605.16699v1 Announce Type: new Abstract: Capped-usage SaaS products -- LLM subscriptions such as Claude Code and…；Your SaaS Is an Insurance Product: A Modeling Framework",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/dell-codex-enterprise-partnership"
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.16699"
         }
       ]
     },
     {
-      "title": "AI市场收入高度集中，OpenAI和Anthropic占据89%份额",
-      "summary": "据The Information调查全球34家AI公司数据，AI市场收入正快速向头部聚拢，OpenAI与Anthropic合计拿走约89%的份额。",
+      "title": "Large Language Models and Impossible Language Acquisition: \"False Promise\" or an Overturn of our Current Perspective to…",
+      "summary": "arXiv:2602.08437v5 Announce Type: replace Abstract: In Chomsky's provocative critique \"The False Promise of CHATGPT,\" L…；Large Language Models and Impossible Language Acquisition:…",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/952/192.htm"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2602.08437"
         }
       ]
     },
     {
-      "title": "新研究提出SafeGPT框架，防止企业LLM数据泄露",
-      "summary": "一项名为SafeGPT的研究提出了防止企业LLM使用中数据泄露和不道德输出的框架。",
+      "title": "SafeGPT: Preventing Data Leakage and Unethical Outputs in Enterprise LLM Use",
+      "summary": "arXiv:2601.06366v2 Announce Type: replace-cross Abstract: Large Language Models (LLMs) are transforming enterprise work…；SafeGPT: Preventing Data Leakage and Unethical Outputs in…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2601.06366"
-        }
-      ]
-    },
-    {
-      "title": "研究评估智能体AI在真实硬件工程中的表现",
-      "summary": "一项名为Phoenix-bench的基准测试深入探讨了智能体AI系统在真实世界硬件工程中的准备情况。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15226"
-        }
-      ]
-    },
-    {
-      "title": "新基准测试SaaS-Bench评估计算机使用智能体",
-      "summary": "研究提出了SaaS-Bench，用于评估计算机使用智能体（CUA）利用真实世界SaaS解决专业工作流的能力。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15777"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "企业AI部署面临安全与效率的双重挑战",
-      "summary": "近期多项研究（如SafeGPT、量化对齐问题）表明，随着LLM在企业中广泛应用，数据安全、模型压缩后的对齐问题以及推理效率成为关键瓶颈。这预示着未来企业AI解决方案将更注重安全框架和高效部署策略。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.06366"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15208"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2504.07347"
-        }
-      ]
-    },
-    {
-      "title": "智能体AI正从代码开发向更广泛的工程领域扩展",
-      "summary": "从Phoenix-bench到SaaS-Bench，再到ContraFix和FormulaCode，一系列新基准和框架表明，智能体AI的研究焦点正从纯软件工程向硬件工程、专业工作流和大型代码库优化等更复杂的现实场景迁移。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15226"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15777"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.17450"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.16011"
-        }
-      ]
-    },
-    {
-      "title": "AI市场马太效应加剧，头部公司主导地位稳固",
-      "summary": "市场数据显示OpenAI和Anthropic占据89%的收入份额，结合OpenAI与Dell的企业合作，以及马斯克诉讼的失败，表明AI行业的资本和商业机会正加速向少数头部玩家集中，新进入者面临巨大挑战。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/952/192.htm"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/dell-codex-enterprise-partnership"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/05/elon-musk-loses-trial-accusing-sam-altman-openai-of-stealing-a-charity"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people"
-        },
-        {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://nytimes.com/live/2026/05/18/technology/openai-trial-verdict-altman-musk?unlocked_article_code=1.jVA.Cc2V.IwYuu2r4SJfQ"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
