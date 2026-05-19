@@ -1,65 +1,159 @@
 {
-  "global_brief": "过去24小时，AI领域竞争激烈：Kimi K2.6在编程基准测试中超越前沿模型，Elon Musk诉OpenAI案以陪审团一致裁定其起诉过迟告终，同时Anthropic收购了曾服务OpenAI和Google的开发者工具初创公司Stainless。此外，多项研究聚焦于Agentic AI在硬件工程、代码优化及企业安全中的应用与评估。",
+  "global_brief": "今日AI领域持续活跃，多项研究聚焦于LLM的推理、安全与Agent能力评估。OpenAI在法庭上赢得针对马斯克诉讼的关键胜利，同时宣布与戴尔合作将Codex引入企业环境。Anthropic收购了曾服务OpenAI和谷歌的开发者工具初创公司Stainless，引发行业关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 38649,
-      "event_count": 668
+      "field_score": 38788,
+      "event_count": 672
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1584,
-      "event_count": 34
+      "field_score": 1662,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1543,
-      "event_count": 41
+      "field_score": 1313,
+      "event_count": 34
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 918,
-      "event_count": 19
+      "field_score": 608,
+      "event_count": 13
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 386,
+      "field_score": 380,
       "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "Kimi K2.6在编程基准测试中超越前沿模型",
-      "summary": "Moonshot AI的Kimi K2.6在编程基准测试中击败了Anthropic、Google和OpenAI等公司的前沿模型，标志着开源大模型在编码能力上的又一次重大突破。",
+      "title": "马斯克诉OpenAI案被驳回，陪审团一致认为其起诉过晚",
+      "summary": "陪审团一致裁定埃隆·马斯克起诉OpenAI的时间过长，法官随即确认了陪审团的裁决。马斯克计划上诉。该事件被多家媒体广泛报道。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/logiqode/kimi-k26-beats-frontier-models-in-coding-benchmarks-77k"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/05/elon-musk-loses-trial-accusing-sam-altman-openai-of-stealing-a-charity"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people"
+        },
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://nytimes.com/live/2026/05/18/technology/openai-trial-verdict-altman-musk?unlocked_article_code=1.jVA.Cc2V.IwYuu2r4SJfQ"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/musk-v-altman-jury-verdict"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI与戴尔合作，将Codex引入混合云和企业本地环境",
+      "summary": "OpenAI宣布与戴尔达成合作，旨在将其AI编程助手Codex部署到混合云和企业本地环境中，以服务企业客户。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/dell-codex-enterprise-partnership"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic收购开发者工具初创公司Stainless",
+      "summary": "Anthropic收购了曾为OpenAI、谷歌和Cloudflare提供服务的开发者工具初创公司Stainless。行业消息称交易额超过2.8亿欧元，此举可能影响其他公司的SDK工具链。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/952/057.htm"
+        }
+      ]
+    },
+    {
+      "title": "新研究揭示量化压缩可能导致LLM出现偏见",
+      "summary": "一项新研究（arXiv:2605.15208）指出，对大型语言模型进行后训练量化压缩，可能会“撤销”其原有的对齐效果，导致偏见在不同模型和精度水平下重新出现。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15208"
+        }
+      ]
+    },
+    {
+      "title": "新基准测试评估Agent在真实SaaS工作流中的表现",
+      "summary": "一项名为SaaS-Bench的新基准测试被提出，旨在评估计算机使用Agent（CUA）在利用真实世界SaaS应用解决专业工作流方面的能力。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15777"
+        }
+      ]
+    },
+    {
+      "title": "研究提出SafeGPT框架，防止企业LLM数据泄露",
+      "summary": "一篇名为SafeGPT的论文提出了一种框架，旨在防止大型语言模型在企业使用中发生数据泄露和产生不道德输出。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.06366"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI代理的高昂成本正成为规模化部署的关键瓶颈",
-      "summary": "OpenClaw一个月消耗130万美元API令牌的案例 凸显了当前AI代理在推理成本上的巨大挑战。这与AgentStop等旨在节省能源的研究 形成呼应，表明在追求强大能力的同时，成本优化和能效已成为行业亟待解决的核心问题。",
+      "title": "AI公司间的收购战加剧，开发者工具生态面临重塑",
+      "summary": "Anthropic收购Stainless，而OpenAI与戴尔合作推广Codex，表明头部AI公司正通过收购和合作来巩固自己的开发者生态。Stainless此前服务多家竞争对手，其被收购可能迫使OpenAI和谷歌寻找替代方案，加剧了AI基础设施领域的竞争。",
       "references": [
         {
-          "source_name": "Hacker News OpenClaw",
-          "link": "https://pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare"
         },
         {
-          "source_name": "Hacker News 最佳",
-          "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/dell-codex-enterprise-partnership"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/952/057.htm"
+        }
+      ]
+    },
+    {
+      "title": "量化压缩与安全对齐的矛盾成为LLM部署的关键风险",
+      "summary": "多项研究（如量化撤销对齐、SafeGPT）同时指向一个核心矛盾：为了在消费级设备上部署LLM而进行的压缩和量化，可能会破坏模型的安全对齐。这提示业界在追求模型小型化和效率的同时，必须重新审视和验证其安全性，否则可能带来严重的部署风险。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15208"
         },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15206"
+          "link": "https://arxiv.org/abs/2601.06366"
+        }
+      ]
+    },
+    {
+      "title": "Agent能力评估正从编程竞赛转向真实世界复杂任务",
+      "summary": "从SaaS-Bench到Phoenix-bench，最新的基准测试不再局限于代码生成，而是开始评估Agent在真实SaaS工作流和硬件工程等复杂场景中的表现。这表明AI Agent的研究正从实验室环境向解决实际产业问题迈进，对Agent的鲁棒性和泛化能力提出了更高要求。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15777"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.15226"
         }
       ]
     }
