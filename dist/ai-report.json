@@ -1,29 +1,29 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导科技新闻，OpenAI模型在离散几何领域取得突破性进展，同时Google加速推进其搜索的AI代理化转型，并发布了Gemini 3.5 Flash模型。新加坡与Google、OpenAI签署AI合作协议，标志着AI地缘政治与产业合作进入新阶段。 [FACT] TITLE: OpenAI模型推翻离散几何核心猜想 SUMMARY: 一个OpenAI模型成功解决了困扰学界80年的单位距离问题，推翻了一个离散几何的核心猜想，展示了前沿AI在数学研究中的强大能力。 SCORE: 81 ARTICLE_IDS:…",
+  "global_brief": "今日AI领域持续主导科技动态，Google在I/O 2026上宣布将用Agentic AI重塑搜索，同时OpenAI声称其模型解决了困扰学界80年的离散几何猜想，标志着AI在基础科学发现上的重大突破。此外，多篇研究聚焦于LLM推理效率、安全性与多模态能力，开源生态与商业应用同步加速。 [FACT] TITLE: OpenAI模型解决80年未解数学难题 SUMMARY: OpenAI宣布其AI模型成功否定了离散几何中的一个核心猜想，即“单位距离问题”，解决了这一困扰数学界80年的难题。 SCORE: 73 ARTICLE_IDS: 2ef8…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 47160,
-      "event_count": 809
+      "field_score": 47163,
+      "event_count": 812
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2029,
-      "event_count": 46
+      "field_score": 1854,
+      "event_count": 42
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1489,
-      "event_count": 37
+      "field_score": 1414,
+      "event_count": 36
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 810,
-      "event_count": 16
+      "field_score": 772,
+      "event_count": 15
     },
     {
       "field_key": "science",
@@ -44,38 +44,20 @@
       ]
     },
     {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "summary": "An OpenAI model has disproved a central conjecture in discrete geometry；An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geo…",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/raheelshan/inspectordev-neuron-laravel-ai-sdk-and-prism-php-a-practical-comparison-for-laravel-1gn2"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september"
-        },
-        {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial"
-        }
-      ]
-    },
-    {
       "title": "A new experiment brings better group meetings to Google Beam",
-      "summary": "A new experiment brings better group meetings to Google Beam；Google is completely revamping its search experience, and that doesn't stop at YouTube.；‘Ask YouTube’ brings AI-powere…",
+      "summary": "A new experiment brings better group meetings to Google Beam；NYT: ‘Powered by A.I., Google Changes Its Search Box for the First Time in 25 Years’；Tripp Mickle, Kate Conger, and Br…",
       "references": [
         {
           "source_name": "Google AI Blog",
           "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings"
         },
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts"
+          "source_name": "daringfireball.net",
+          "link": "https://nytimes.com/2026/05/19/business/google-seach-bar-ai-gemini.html?smid=url-share&unlocked_article_code=1.jlA.95yh.ptfBUHf-rBtB"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1666447"
         }
       ]
     },
@@ -86,6 +68,16 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.18808"
+        }
+      ]
+    },
+    {
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and…；The next phase of OpenAI’s Education for Countries",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/the-next-phase-of-education-for-countries"
         }
       ]
     }
