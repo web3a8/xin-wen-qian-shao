@@ -1,16 +1,16 @@
 {
-  "global_brief": "谷歌在 I/O 2026 上全面转向智能体（Agent）时代，发布了 Gemini Spark 助手、Gemini 3.5 Flash 模型及 AI Ultra 订阅计划，同时 OpenAI 联合创始人 Andrej Karpathy 宣布加入 Anthropic，引发行业震动。此外，谷歌的 SynthID 水印技术正被 OpenAI、英伟达等多家公司采用，AI 内容溯源成为行业共识。",
+  "global_brief": "谷歌在 I/O 2026 大会上发布 Gemini 3.5 Flash 模型和 AI Ultra 订阅计划，并推出 Android CLI 工具，全面拥抱智能体时代。与此同时，OpenAI 联合创始人 Andrej Karpathy 宣布加入 Anthropic，引发行业对人才流向和竞争格局的广泛讨论。AI 内容溯源技术也取得进展，OpenAI 和谷歌等公司正推动 SynthID 等水印技术的广泛采用。 [FACT] TITLE: 谷歌发布 Gemini 3.5 Flash 模型，输出速度号称是 GPT-5.5 的 4 倍 SUMMARY: 在 202…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 80941,
-      "event_count": 1418
+      "field_score": 80004,
+      "event_count": 1401
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2498,
+      "field_score": 2554,
       "event_count": 55
     },
     {
@@ -22,21 +22,35 @@
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 881,
-      "event_count": 19
+      "field_score": 923,
+      "event_count": 20
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 755,
-      "event_count": 15
+      "field_score": 826,
+      "event_count": 17
     }
   ],
   "highlight_facts": [
     {
-      "title": "谷歌 I/O 2026 发布 Gemini Spark 智能体助手及 AI Ultra 订阅",
-      "summary": "谷歌在 I/O 2026 大会上推出 24/7 全天候智能体助手 Gemini Spark，并宣布月费 100 美元的 AI Ultra 新订阅计划，旨在与 ChatGPT 和 Claude 竞争。",
+      "title": "Agentic app coding gets an upgrade with Google’s release of Android CLI",
+      "summary": "Agentic app coding gets an upgrade with Google’s release of Android CLI；Google is embracing the rise of AI coding agents with new Android tools designed to work with platforms lik…",
       "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli"
+        }
+      ]
+    },
+    {
+      "title": "llm-gemini 0.32",
+      "summary": "llm-gemini 0.32；Release: llm-gemini 0.32 New model gemini-3.5-flash for Gemini 3.5 Flash. See also my notes on Gemini 3.5 Flash, and…；llm-gemini 0.32a0",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/May/19/llm-gemini-2"
+        },
         {
           "source_name": "Google AI Blog",
           "link": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions"
@@ -47,49 +61,30 @@
         },
         {
           "source_name": "IT之家",
-          "link": "https://ithome.com/0/952/525.htm"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/dan52242644dan/how-google-ai-studio-is-quietly-redefining-developer-workflows-o50"
-        },
+          "link": "https://ithome.com/0/952/577.htm"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 联合创始人卡帕西官宣加盟 Anthropic，重返大模型研发前线",
+      "summary": "5 月 20 日，人工智能领域顶级研究员 安德烈 · 卡帕西（Andrej Karpathy） 正式宣布加入 Anthropic。 作为 OpenAI 创始成员及前特斯拉 AI 总监，卡帕西此举被视为 Anthropic 在顶尖 AI…；OpenAI 联合创始人卡帕西官宣加盟 Anthropic，重返大模型研发前线",
+      "references": [
         {
           "source_name": "IT之家",
-          "link": "https://ithome.com/0/952/523.htm"
+          "link": "https://ithome.com/0/952/553.htm"
+        }
+      ]
+    },
+    {
+      "title": "Google updates its Gemini app to take on ChatGPT and Claude at IO 2026",
+      "summary": "Google updates its Gemini app to take on ChatGPT and Claude at IO 2026；The updates signal Google’s push to turn its Gemini app into an all-purpose AI hub rather than a stand-alone…",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "谷歌 I/O 2026 标志着 AI 竞争从模型性能转向智能体生态与订阅服务",
-      "summary": "谷歌在 I/O 2026 上的一系列发布（Gemini Spark、AI Ultra 订阅、Gemini 3.5 Flash）表明，AI 行业的竞争焦点正从单纯的模型基准测试，转向构建完整的智能体生态系统和商业化订阅服务，以直接对标 OpenAI 和 Anthropic 的产品。",
-      "references": [
-        {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/952/525.htm"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/dan52242644dan/how-google-ai-studio-is-quietly-redefining-developer-workflows-o50"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/952/523.htm"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/952/522.htm"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
