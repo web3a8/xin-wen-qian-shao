@@ -1,41 +1,41 @@
 {
-  "global_brief": "Google 在 I/O 2026 上发布了 Gemini 3.5 Flash 模型和 Gemini Omni 多模态模型，并更新了 Gemini 应用，全面转向智能体时代。同时，OpenAI 推进了内容溯源技术（SynthID）和教育合作计划，而 DeepSeek 则组建新团队主攻代码智能体，与 Anthropic 的 Claude Code 展开竞争。",
+  "global_brief": "Google I/O 2026 成为今日焦点，发布了 Gemini 3.5 Flash 模型、Gemini Spark 智能助手及多项代理工具，标志着 AI 竞争全面转向 Agent 时代。同时，DeepSeek 被曝组建 Harness 团队主攻代码智能体，直接对标 Anthropic 的 Claude Code，行业正围绕“代理化”展开新一轮军备竞赛。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49474,
-      "event_count": 800
+      "field_score": 48727,
+      "event_count": 807
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1650,
+      "field_score": 1608,
       "event_count": 37
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1482,
-      "event_count": 36
+      "field_score": 1355,
+      "event_count": 33
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 716,
+      "field_score": 690,
       "event_count": 13
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 684,
-      "event_count": 15
+      "field_score": 523,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "Google 发布 Gemini 3.5 Flash 模型",
-      "summary": "Google 发布了其最强大的编程和智能体模型 Gemini 3.5 Flash，该模型在性能上据称提升了 5 倍。",
+      "title": "Google 发布 Gemini 3.5 Flash 模型及多项 AI 更新",
+      "summary": "Google 在 I/O 2026 上发布了其最强编程与代理模型 Gemini 3.5 Flash，并推出了 24/7 全天候代理助手 Gemini Spark，以及用于 Android 开发的 CLI 工具。此外，还发布了全新的多模态模型 Gemini Omni，能够跨文本、图像等进行推理。",
       "references": [
         {
           "source_name": "Simon Willison's Blog",
@@ -46,20 +46,28 @@
           "link": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots"
         },
         {
-          "source_name": "Wired",
-          "link": "https://wired.com/live/google-io-2026-live-blog-gemini-android-xr-search"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/952/907.htm"
         },
         {
           "source_name": "The Verge",
-          "link": "https://theverge.com/tech/934323/google-wear-os-7-smartwatch-battery-life-wear-widgets-io-2026"
+          "link": "https://theverge.com/tech/934457/android-17-continue-on-handoff"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli"
+        },
+        {
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "科技巨头在智能体领域展开全面竞争",
-      "summary": "Google 在 I/O 2026 上全面转向智能体时代，发布 Android CLI 和 Gemini 应用更新，而 DeepSeek 组建 Harness 团队对标 Claude Code，Cloudflare 也集成 Claude 智能体，这表明代码智能体已成为各大 AI 厂商的核心竞争赛道。",
+      "title": "AI 竞争焦点从模型能力转向“代理化”生态",
+      "summary": "从 Google I/O 发布 Gemini Spark 和 Android CLI，到 DeepSeek 组建 Harness 团队对标 Claude Code，再到 Cloudflare 推出托管代理，行业共识正从“谁有更好的模型”转向“谁能构建更强大的代理工作流和开发者工具链”。这预示着 AI 应用的下一个主战场是 Agent 平台与生态。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -72,6 +80,10 @@
         {
           "source_name": "Cloudflare Blog",
           "link": "https://blog.cloudflare.com/claude-managed-agents"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://firethering.com/gemini-3-5-flash-ai-agents-google-io"
         }
       ]
     }
