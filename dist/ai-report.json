@@ -1,38 +1,48 @@
 {
-  "global_brief": "Google I/O 2026 成为本周焦点，发布了 Gemini 3.5 Flash 模型、Gemini Spark 智能助手及多项 AI 订阅更新，标志着其全面转向智能体（Agent）时代。与此同时，AI 人才争夺战升温，OpenAI 联合创始人 Andrej Karpathy 宣布加入 Anthropic，而微软内部警告 GitHub 面临来自 AI 编程工具的生存级风险。在内容溯源方面，Google 的 SynthID 水印技术被 OpenAI、Nvidia 等多家公司采用，行业正加速构建 AI 生成内容的可追溯标准。",
+  "global_brief": "Google I/O 2026 成为本周 AI 领域核心事件，发布了 Gemini 3.5 Flash 模型、Gemini Spark 智能助手及多项代理工具更新，同时 OpenAI 与 Google 在内容溯源技术上达成合作，阿里千问也发布了面向智能体时代的旗舰模型 Qwen3.7-Max，AI 代理与内容真实性成为行业焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 83174,
-      "event_count": 1407
+      "field_score": 50955,
+      "event_count": 818
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2589,
-      "event_count": 57
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 1147,
-      "event_count": 24
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 1122,
-      "event_count": 22
+      "field_score": 1707,
+      "event_count": 37
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1117,
+      "field_score": 1096,
       "event_count": 27
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 762,
+      "event_count": 16
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 716,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
+    {
+      "title": "Entry-level guide to the use of large language models for medical research",
+      "summary": "arXiv:2410.18856v4 Announce Type: replace Abstract: Frontier large language models (LLMs), such as GPT-5, Claude 4.5, G…；Entry-level guide to the use of large language models for…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2410.18856"
+        }
+      ]
+    },
     {
       "title": "Agentic app coding gets an upgrade with Google’s release of Android CLI",
       "summary": "Agentic app coding gets an upgrade with Google’s release of Android CLI；Google is embracing the rise of AI coding agents with new Android tools designed to work with platforms lik…",
@@ -60,40 +70,18 @@
           "link": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots"
         },
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1666368"
+          "source_name": "Chrome Developer Blog",
+          "link": "https://developer.chrome.com/blog/chrome-at-io26?hl=en"
         }
       ]
     },
     {
-      "title": "Everything new in our Google AI subscriptions, fresh from I/O 2026",
-      "summary": "Everything new in our Google AI subscriptions, fresh from I/O 2026；New ways to create and get things done in Google Workspace；Google's Gemini Omni is a new multimodal model that r…",
+      "title": "Compositional Literary Primitives in Instruction-Tuned LLMs: Cross-Architectural SAE Features for Self, Style, and Affe…",
+      "summary": "arXiv:2605.18808v1 Announce Type: cross Abstract: We characterize a compositional architecture of literary primitives i…；Compositional Literary Primitives in Instruction-Tuned LLM…",
       "references": [
         {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/podcast/934202/we-react-to-google-i-o-2026"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ashutoshranjan/google-antigravity-20-is-the-io-2026-announcement-devs-are-sleeping-on-2mke"
-        }
-      ]
-    },
-    {
-      "title": "消息称微软内部示警：GitHub 面临生存级风险，AI 编程工具削弱托管必要性",
-      "summary": "IT之家 5 月 20 日消息，科技媒体 The Information 昨日（5 月 19 日）发布博文，报道称微软内部已发出示警， GitHub 正面临“生存级风险”。 报道指出竞争压力主要来自 Cursor、Anthropic 的…；消息称微软内部示警：GitHub 面临生存级风险，AI 编程工具削弱托管必要性",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/952/645.htm"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.18808"
         }
       ]
     }
