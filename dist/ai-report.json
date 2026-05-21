@@ -1,35 +1,35 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导技术动态，OpenAI在数学推理与教育应用上取得突破，Google则加速推进搜索的AI代理化转型，同时多项研究聚焦于LLM的评估、推理效率与多模态能力。",
+  "global_brief": "AI 领域持续主导今日动态，Anthropic 宣布即将实现首个盈利季度，Google 则在 I/O 大会上全面转向智能体搜索，同时 MCP 协议在开发者社区中迅速升温，成为构建 AI 智能体的关键基础设施。 [FACT] TITLE: Anthropic 预计营收将翻倍并实现首个盈利季度 SUMMARY: Anthropic 向投资者透露，其第二季度营收预计将达到约 109 亿美元，较当前水平翻倍以上，并有望首次实现季度盈利。此外，该公司每月向 xAI 支付 12.5 亿美元用于算力。 SCORE: 79 ARTICLE_IDS:…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 45318,
-      "event_count": 785
+      "field_score": 46892,
+      "event_count": 808
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1900,
-      "event_count": 43
+      "field_score": 1924,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1137,
-      "event_count": 29
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 843,
-      "event_count": 18
+      "field_score": 1182,
+      "event_count": 30
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 743,
-      "event_count": 13
+      "field_score": 879,
+      "event_count": 16
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 699,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
@@ -62,22 +62,30 @@
       ]
     },
     {
-      "title": "Compositional Literary Primitives in Instruction-Tuned LLMs: Cross-Architectural SAE Features for Self, Style, and Affe…",
-      "summary": "arXiv:2605.18808v1 Announce Type: cross Abstract: We characterize a compositional architecture of literary primitives i…；Compositional Literary Primitives in Instruction-Tuned LLM…",
+      "title": "Anthropic says it’s about to have its first profitable quarter",
+      "summary": "Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter.；Anthropic says it’s about to have its first profitable quarte…",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.18808"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/953/123.htm"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/spacex-ipo-anthropic-compute-finances-risks"
         }
       ]
     },
     {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and…；The next phase of OpenAI’s Education for Countries",
+      "title": "What is MCP (Model Context Protocol) and Why Developers Suddenly Care",
+      "summary": "Everybody in AI suddenly started talking about MCP like it’s obvious. One week it was AI agents. Then workflow automati…；What is MCP (Model Context Protocol) and Why Developers Su…",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/the-next-phase-of-education-for-countries"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/futuredevtech/what-is-mcp-model-context-protocol-and-why-developers-suddenly-care-4l7d"
         }
       ]
     }
