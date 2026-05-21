@@ -1,35 +1,35 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点涵盖LLM在医疗、金融等领域的应用与风险，以及模型推理效率、安全性和Agent能力的最新进展。Google推出面向个人任务的Gemini AI Agent，同时多项研究关注AI生成文本检测与模型幻觉问题。 [FACT] TITLE: 谷歌发布面向个人任务的Gemini AI Agent SUMMARY: 据《华尔街日报》报道，谷歌在Google I/O大会上发布了新的Gemini AI Agent，旨在处理个人任务。 SCORE: 70 ARTICLE_IDS: 7a82a3d28a277aec108fd…",
+  "global_brief": "今日AI领域研究密集，涵盖LLM推理、Agent安全与医疗应用，同时Google发布个人任务Agent，特朗普推迟AI行政令引发关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 55917,
-      "event_count": 965
+      "field_score": 57971,
+      "event_count": 1004
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2143,
-      "event_count": 47
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 1275,
-      "event_count": 26
+      "field_score": 1984,
+      "event_count": 43
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1215,
+      "field_score": 1185,
       "event_count": 30
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 954,
-      "event_count": 20
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 1183,
+      "event_count": 24
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 762,
+      "event_count": 16
     }
   ],
   "highlight_facts": [
@@ -40,6 +40,16 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2410.18856"
+        }
+      ]
+    },
+    {
+      "title": "Antigravity CLI: A Hands-On Guide to Google's Terminal Coding Agent",
+      "summary": "Antigravity CLI: A Hands-On Guide to Google's Terminal Coding Agent；The AI coding agent space has been reshuffling fast. Anthropic has Claude Code, OpenAI has Codex CLI, xAI has G…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/arindam_1729/antigravity-cli-a-hands-on-guide-to-googles-terminal-coding-agent-5bc7"
         }
       ]
     },
@@ -64,16 +74,6 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.18824"
-        }
-      ]
-    },
-    {
-      "title": "Findings of the Counter Turing Test: AI-Generated Text Detection",
-      "summary": "arXiv:2605.20761v1 Announce Type: new Abstract: The rapid proliferation of AI-generated text has introduced significant…；Findings of the Counter Turing Test: AI-Generated Text Det…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.20761"
         }
       ]
     }
