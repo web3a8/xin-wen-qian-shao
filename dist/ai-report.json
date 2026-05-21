@@ -1,53 +1,131 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Entry-level guide to the use of large language models for medical research；Controlling Employee AI Usage on Managed Devices: Browser Controls, Cloudflare AI Gateway, and AWS Bedrock；Compositional Literary Primitives in Instruction-Tuned LLMs: Cross-Architectural…",
+  "global_brief": "今日AI领域持续主导技术动态，多项研究聚焦于大语言模型（LLM）的推理效率、安全性与多模态能力，同时Anthropic宣布即将实现首个盈利季度，标志着AI商业化的关键里程碑。此外，Google在I/O大会上展示了其向Agent化搜索的转型，并推出了新的Gemini个人任务代理。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 58732,
-      "event_count": 986
+      "field_score": 58520,
+      "event_count": 984
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1956,
+      "field_score": 1907,
       "event_count": 42
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1352,
+      "field_score": 1378,
       "event_count": 33
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1166,
+      "field_score": 1169,
       "event_count": 23
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 931,
+      "field_score": 944,
       "event_count": 18
     }
   ],
   "highlight_facts": [
     {
-      "title": "100 things we 发布 at I/O 2026",
-      "summary": "100 things we 发布 at I/O 2026；时间：2026-05-20T19:30:00.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "Anthropic预计将实现首个盈利季度，并计划大幅提升营收",
+      "summary": "Anthropic向投资者透露，其第二季度营收预计将翻倍至约109亿美元，并即将迎来首个盈利季度。同时，该公司每月向xAI支付12.5亿美元用于计算资源。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/spacex-ipo-anthropic-compute-finances-risks"
+        }
+      ]
     },
     {
-      "title": "PulseCol: Periodically 更新 Column-Sparse Attention for Accelerating Diffusion Language Models",
-      "summary": "PulseCol: Periodically 更新 Column-Sparse Attention for Accelerating Diffusion Language Models；时间：2026-05-21T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Google加速向Agent化AI搜索转型，并发布Gemini个人任务代理",
+      "summary": "据多家媒体报道，Google计划在2026年利用Agentic AI重塑搜索体验，并在I/O大会上发布了新的Gemini AI代理，用于处理个人任务。",
+      "references": [
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://wsj.com/tech/ai/google-unveils-new-gemini-ai-agent-for-personal-tasks-b8093197?st=BFmPev"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/google/2026/05/buckle-up-google-is-set-to-remake-search-with-agentic-ai-in-2026"
+        }
+      ]
     },
     {
-      "title": "WSJ: ‘Google 发布 New Gemini AI Agent for Personal Tasks’",
-      "summary": "WSJ: ‘Google 发布 New Gemini AI Agent for Personal Tasks’；时间：2026-05-21T01:05:14.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "新研究提出面向LLM推理的WebGPU高效推理方案",
+      "summary": "一项名为“Llamas on the Web”的研究提出了一种基于WebGPU的、内存高效、性能可移植且支持多精度的LLM推理方案，旨在将语言模型运行在浏览器中。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.20706"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示ChatGPT对AI会议同行评审内容的显著影响",
+      "summary": "一项大规模研究通过监控AI修改内容，评估了ChatGPT对AI会议同行评审的影响，发现大量评审内容可能已被AI修改。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2403.07183"
+        }
+      ]
+    },
+    {
+      "title": "新基准测试C-ReD用于检测中文AI生成文本",
+      "summary": "一项研究发布了C-ReD，这是一个基于真实世界提示语构建的、全面的中文AI生成文本检测基准，旨在应对LLM生成内容带来的挑战。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.11796"
+        }
+      ]
+    },
+    {
+      "title": "研究提出通过自对弈强化学习训练超级智能软件代理",
+      "summary": "一项名为“SWE-RL”的研究探索了通过自对弈强化学习来训练超级智能软件代理的方法，旨在提升LLM驱动的软件工程能力。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2512.18552"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI生成内容检测面临“军备竞赛”，中文领域尤为紧迫",
+      "summary": "随着ChatGPT对学术评审 的渗透以及C-ReD中文基准 的发布，AI生成文本的检测已成为全球性挑战。中文领域因缺乏高质量基准而面临更大风险，C-ReD的推出是重要一步，但检测技术需要持续迭代以应对更先进的生成模型。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2403.07183"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.11796"
+        }
+      ]
+    },
+    {
+      "title": "多模态LLM的感知与推理能力失衡问题亟待解决",
+      "summary": "研究指出多模态大语言模型在深度推理时会出现“感知障碍”，即思考越深入，对视觉信息的感知越弱。这揭示了当前模型在融合视觉与语言推理方面的根本性缺陷，是构建可靠多模态Agent必须克服的关键瓶颈。",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2603.14184"
+        }
+      ]
+    }
+  ]
 }
