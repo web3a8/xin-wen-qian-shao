@@ -1,23 +1,23 @@
 {
-  "global_brief": "Anthropic 预计将首次实现盈利季度，营收有望翻倍至约109亿美元，同时 Google 在 I/O 大会上推出新的 Gemini AI 个人助手，并加速用 AI 改造搜索，AI 领域的商业竞争与产品迭代持续升温。此外，月之暗面被曝拆除 VIE 架构，估值超200亿美元冲刺香港 IPO，国内 AI 公司资本动作频繁。多篇研究关注 LLM 在医疗、金融等领域的应用风险与效率优化，AI 安全与幻觉问题仍是焦点。 [FACT] TITLE: Anthropic 预计将首次实现盈利季度 SUMMARY: Anthropic 向投资者表示，其第二季度营收将翻…",
+  "global_brief": "过去24小时，AI领域研究密集发布，涵盖LLM推理、多模态、Agent安全与效率等方向。Anthropic预计将首次实现盈利季度，同时Google在搜索与个人Agent方面加速AI化。多篇研究关注LLM幻觉检测、文本生成识别及模型安全，反映出行业对AI可靠性的持续重视。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 59843,
-      "event_count": 976
+      "field_score": 60094,
+      "event_count": 984
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2238,
-      "event_count": 48
+      "field_score": 2056,
+      "event_count": 43
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1236,
-      "event_count": 31
+      "field_score": 1312,
+      "event_count": 32
     },
     {
       "field_key": "science",
@@ -28,46 +28,18 @@
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 983,
-      "event_count": 19
+      "field_score": 1066,
+      "event_count": 21
     }
   ],
   "highlight_facts": [
     {
-      "title": "Entry-level guide to the use of large language models for medical research",
-      "summary": "arXiv:2410.18856v4 Announce Type: replace Abstract: Frontier large language models (LLMs), such as GPT-5, Claude 4.5, G…；Entry-level guide to the use of large language models for…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2410.18856"
-        }
-      ]
-    },
-    {
-      "title": "Compositional Literary Primitives in Instruction-Tuned LLMs: Cross-Architectural SAE Features for Self, Style, and Affe…",
-      "summary": "arXiv:2605.18808v1 Announce Type: cross Abstract: We characterize a compositional architecture of literary primitives i…；Compositional Literary Primitives in Instruction-Tuned LLM…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.18808"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2502.03752"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic says it’s about to have its first profitable quarter",
-      "summary": "Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter.；Anthropic says it’s about to have its first profitable quarte…",
+      "title": "Anthropic预计将首次实现盈利季度",
+      "summary": "Anthropic向投资者表示，其第二季度营收将翻倍至约109亿美元，并即将迎来首个盈利季度。同时，该公司每月向xAI支付12.5亿美元用于算力。",
       "references": [
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/953/123.htm"
         },
         {
           "source_name": "Wired",
@@ -76,15 +48,136 @@
       ]
     },
     {
-      "title": "Fine-Grained Benchmark Generation for Comprehensive Evaluation of Foundation Models",
-      "summary": "arXiv:2605.18824v1 Announce Type: cross Abstract: Evaluation of foundation models often rely on aggregate scores from b…；Fine-Grained Benchmark Generation for Comprehensive Evalua…",
+      "title": "Google推出新Gemini AI个人Agent并改造搜索",
+      "summary": "据报道，Google在I/O大会上发布了用于处理个人任务的Gemini AI Agent，并计划在2026年用Agentic AI重塑搜索体验。此外，Google Beam也推出了改进群组会议的新实验。",
       "references": [
+        {
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings"
+        },
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://nytimes.com/2026/05/19/business/google-seach-bar-ai-gemini.html?smid=url-share&unlocked_article_code=1.jlA.95yh.ptfBUHf-rBtB"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1666447"
+        },
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://wsj.com/tech/ai/google-unveils-new-gemini-ai-agent-for-personal-tasks-b8093197?st=BFmPev"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/google/2026/05/buckle-up-google-is-set-to-remake-search-with-agentic-ai-in-2026"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI推理模型攻克80年数学难题",
+      "summary": "OpenAI宣称其全新推理模型推导出原创数学证明，推翻了一个由数学家保罗·埃尔德什于1946年提出的几何学猜想。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/953/381.htm"
+        }
+      ]
+    },
+    {
+      "title": "多项研究聚焦AI生成文本检测与LLM幻觉",
+      "summary": "多篇新研究关注AI文本检测，包括“反图灵测试”发现 、针对中文的C-ReD基准，以及评估医疗LLM幻觉与滥用的研究。同时，一项研究分析了ChatGPT对AI会议同行评审的影响。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.20761"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.11796"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.20591"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2403.07183"
+        }
+      ]
+    },
+    {
+      "title": "Meta发布多项LLM研究，涵盖文学特征与模型评估",
+      "summary": "Meta发布了多项研究，包括指令微调LLM中的文学原语组合特征，以及用于全面评估基础模型的细粒度基准生成方法。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.18808"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2502.03752"
+        },
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.18824"
         }
       ]
+    },
+    {
+      "title": "多项研究探索LLM Agent安全与效率",
+      "summary": "多篇论文关注LLM Agent的安全与效率，包括通过经验投毒攻击自进化Agent 、用于Agent的编程运行时技能，以及面向多模型LLM调度器的卸载与抢占研究。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.18930"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.19604"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.19593"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI Agent正从概念走向实际应用，但安全与可靠性挑战凸显",
+      "summary": "Google推出个人Agent 与多篇关于Agent安全投毒 、幻觉控制 的研究同时出现，说明行业在加速部署Agent的同时，正积极应对其带来的安全与可靠性风险。",
+      "references": [
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://wsj.com/tech/ai/google-unveils-new-gemini-ai-agent-for-personal-tasks-b8093197?st=BFmPev"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.18930"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.19341"
+        }
+      ]
+    },
+    {
+      "title": "AI生成内容检测成为紧迫需求，但技术挑战巨大",
+      "summary": "多项研究聚焦于AI文本检测，包括针对中文和医疗领域的特定基准，这表明随着AI生成内容的泛滥，开发可靠、跨领域的检测工具已成为行业共识，但“反图灵测试”的发现也暗示了检测的难度。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.20761"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.11796"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.20591"
+        }
+      ]
+    }
+  ]
 }
