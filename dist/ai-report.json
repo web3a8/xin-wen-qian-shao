@@ -1,49 +1,79 @@
 {
-  "global_brief": "Anthropic 预计第二季度营收将翻倍至约109亿美元并首次实现季度盈利，同时 Google 在 I/O 大会上推出用于个人任务的 Gemini AI 智能体，并计划在2026年用智能体 AI 重塑搜索。此外，多篇研究聚焦于 LLM 幻觉检测、AI 生成文本识别及端侧推理优化，开源社区也持续推出本地运行 LLM 的实用指南。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点涵盖LLM在医疗、金融等领域的应用与风险，以及模型推理效率、安全性和Agent能力的最新进展。Google推出面向个人任务的Gemini AI Agent，同时多项研究关注AI生成文本检测与模型幻觉问题。 [FACT] TITLE: 谷歌发布面向个人任务的Gemini AI Agent SUMMARY: 据《华尔街日报》报道，谷歌在Google I/O大会上发布了新的Gemini AI Agent，旨在处理个人任务。 SCORE: 70 ARTICLE_IDS: 7a82a3d28a277aec108fd…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 57566,
-      "event_count": 994
+      "field_score": 55917,
+      "event_count": 965
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1953,
-      "event_count": 43
+      "field_score": 2143,
+      "event_count": 47
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1246,
-      "event_count": 25
+      "field_score": 1275,
+      "event_count": 26
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1233,
+      "field_score": 1215,
       "event_count": 30
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 753,
-      "event_count": 14
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 954,
+      "event_count": 20
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 预计营收翻倍并首次实现季度盈利",
-      "summary": "Anthropic 向投资者表示，其第二季度营收将翻倍至约109亿美元，并称即将迎来首个盈利季度。此外，SpaceX 的 IPO 文件显示，Anthropic 每年支付150亿美元以获取其计算资源。",
+      "title": "Entry-level guide to the use of large language models for medical research",
+      "summary": "arXiv:2410.18856v4 Announce Type: replace Abstract: Frontier large language models (LLMs), such as GPT-5, Claude 4.5, G…；Entry-level guide to the use of large language models for…",
       "references": [
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2410.18856"
+        }
+      ]
+    },
+    {
+      "title": "Compositional Literary Primitives in Instruction-Tuned LLMs: Cross-Architectural SAE Features for Self, Style, and Affe…",
+      "summary": "arXiv:2605.18808v1 Announce Type: cross Abstract: We characterize a compositional architecture of literary primitives i…；Compositional Literary Primitives in Instruction-Tuned LLM…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.18808"
         },
         {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/spacex-ipo-anthropic-compute-finances-risks"
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2502.03752"
+        }
+      ]
+    },
+    {
+      "title": "Fine-Grained Benchmark Generation for Comprehensive Evaluation of Foundation Models",
+      "summary": "arXiv:2605.18824v1 Announce Type: cross Abstract: Evaluation of foundation models often rely on aggregate scores from b…；Fine-Grained Benchmark Generation for Comprehensive Evalua…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.18824"
+        }
+      ]
+    },
+    {
+      "title": "Findings of the Counter Turing Test: AI-Generated Text Detection",
+      "summary": "arXiv:2605.20761v1 Announce Type: new Abstract: The rapid proliferation of AI-generated text has introduced significant…；Findings of the Counter Turing Test: AI-Generated Text Det…",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.20761"
         }
       ]
     }
