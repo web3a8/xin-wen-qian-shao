@@ -1,65 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导全球科技动态，前沿大模型研究、Agent应用与安全、以及AI在医疗等垂直行业的落地成为核心焦点。Google DeepMind在亚太启动环境风险加速器计划，同时被曝发布面向个人任务的Gemini AI Agent，显示科技巨头正加速AI在现实世界中的部署。此外，多项研究深入探讨了LLM的推理能力、幻觉检测、以及多模态理解等关键议题。 [FACT] TITLE: Google DeepMind在亚太启动环境风险加速器计划 SUMMARY: Google DeepMind宣布在亚太地区启动加速器计划，旨在利用AI技术应对环境风…",
+  "global_brief": "过去24小时，AI领域研究密集发布，涵盖推理优化、多模态理解、智能体安全与医疗应用等多个方向，同时行业动态显示AI对芯片制造、政治游说和医疗实践的影响持续加深。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 57792,
-      "event_count": 1001
+      "field_score": 40852,
+      "event_count": 710
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2108,
-      "event_count": 45
+      "field_score": 1638,
+      "event_count": 37
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1238,
-      "event_count": 32
+      "field_score": 1179,
+      "event_count": 29
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1132,
-      "event_count": 23
+      "field_score": 971,
+      "event_count": 20
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 683,
-      "event_count": 14
+      "field_score": 541,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "Entry-level guide to the use of large language models for medical research",
-      "summary": "arXiv:2410.18856v4 Announce Type: replace Abstract: Frontier large language models (LLMs), such as GPT-5, Claude 4.5, G…；Entry-level guide to the use of large language models for…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2410.18856"
-        }
-      ]
-    },
-    {
-      "title": "Compositional Literary Primitives in Instruction-Tuned LLMs: Cross-Architectural SAE Features for Self, Style, and Affe…",
-      "summary": "arXiv:2605.18808v1 Announce Type: cross Abstract: We characterize a compositional architecture of literary primitives i…；Compositional Literary Primitives in Instruction-Tuned LLM…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.18808"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2502.03752"
-        }
-      ]
-    },
-    {
-      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
-      "summary": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "title": "Google DeepMind 在亚太启动加速器项目应对环境风险",
+      "summary": "Google DeepMind 宣布在亚太地区启动加速器项目，旨在利用AI技术应对环境风险。",
       "references": [
         {
           "source_name": "Google DeepMind",
@@ -68,19 +44,154 @@
       ]
     },
     {
-      "title": "Per-user cost attribution for your AI APP",
-      "summary": "Per-user cost attribution for your AI APP；You ship your AI feature. It works. A week later your OpenAI bill is $400 and you have no idea which of your users caus…；All of the updat…",
+      "title": "多项研究聚焦LLM推理效率与端侧部署",
+      "summary": "多项新研究关注大语言模型推理效率，包括在浏览器中通过WebGPU运行LLM 、针对MoE模型的功耗感知服务系统PALS 、以及面向移动NPU的静态量化方案Quant.npu，旨在降低部署门槛。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/seenfinity/per-user-cost-attribution-for-your-ai-app-16o"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20706"
         },
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.21427"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20295"
+        }
+      ]
+    },
+    {
+      "title": "新研究揭示医疗大模型存在幻觉与滥用风险",
+      "summary": "一项新研究指出，部署在网上的医疗大语言模型（包括定制医疗GPT）存在幻觉和角色层面的滥用问题。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.20591"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI与AdventHealth合作推进全人医疗",
+      "summary": "OpenAI宣布与AdventHealth合作，利用ChatGPT for Healthcare简化工作流程并减少行政负担。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/adventhealth"
+        }
+      ]
+    },
+    {
+      "title": "三星芯片工人因AI利润获平均34万美元奖金",
+      "summary": "随着AI业务利润飙升，三星芯片工人将获得平均34万美元的奖金。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126"
+        }
+      ]
+    },
+    {
+      "title": "中国将2000台服务器沉入海底以应对AI电力需求",
+      "summary": "为应对AI带来的巨大电力需求，中国启用了全球首个水下数据中心，将2000台服务器部署在海底。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://techradar.com/pro/china-unveils-worlds-first-underwater-data-center-2-000-server-facility-is-powered-by-offshore-wind-and-cooled-by-the-sea-making-it-one-of-the-most-efficient-around"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI基础设施竞赛加剧，能源与硬件创新成关键",
+      "summary": "从三星高额奖金到中国水下数据中心，再到Lam Research将AI集成到芯片制造工具，表明AI产业的竞争正从模型算法转向基础设施的能源效率和硬件创新，这将是下一阶段的核心瓶颈。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://techradar.com/pro/china-unveils-worlds-first-underwater-data-center-2-000-server-facility-is-powered-by-offshore-wind-and-cooled-by-the-sea-making-it-one-of-the-most-efficient-around"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://reuters.com/business/lam-research-focused-adding-ai-chipmaking-tools-it-eyes-us-expansion-ceo-says-2026-05-21"
+        }
+      ]
+    },
+    {
+      "title": "AI安全研究从理论走向应用，但挑战依然严峻",
+      "summary": "多项研究同时关注LLM安全，包括上下文不变的安全对齐 、道德对齐评估 以及医疗场景下的幻觉与滥用，表明社区正从单一的性能竞赛转向对安全、偏见和实际部署风险的系统性关注。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20994"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2510.05942"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.20591"
+        }
+      ]
+    },
+    {
+      "title": "AI智能体正从概念验证走向工程化与安全评估",
+      "summary": "多个新项目（如MASFactory、AutoRPA、CTFExplorer）和讨论（如AI Agent工程指南）显示，LLM智能体正快速进入工程化阶段，同时其安全性和可靠性（如隐信道监控）也成为研究热点。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2603.06007"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.21082"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2602.08023"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://memco.ai/field-guide"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20734"
+        }
+      ]
+    },
+    {
+      "title": "AI对政治与舆论的影响力引发担忧",
+      "summary": "社区讨论指出，由加密和AI资助的超级政治行动委员会正在扩张，同时白宫因行业担忧撤回AI行政令，显示AI产业对政策的影响力日益增强，并引发关于其政治参与度的讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://thenation.com/article/politics/crypto-ai-super-pacs-election-spending-big-tech-dark-money-2026"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://politico.com/news/2026/05/21/trump-ai-order-sacks-00933295"
+        }
+      ]
+    },
+    {
+      "title": "开发者社区对AI生成内容质量与来源产生疲劳",
+      "summary": "Hacker News上出现“我厌倦了AI生成的答案”的讨论，同时有用户怀疑OpenAI Codex的改进可能基于竞争对手Anthropic的模型，反映出开发者对AI内容泛滥和模型能力来源的质疑与疲劳感。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://news.ycombinator.com/item?id=48230104"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48230097"
+        }
+      ]
+    }
+  ]
 }
