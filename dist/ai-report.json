@@ -1,23 +1,23 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在浏览器端LLM推理、多模态基础模型以及Agent安全与评估。同时，三星因AI利润暴涨向芯片工人发放巨额奖金，引发行业关注。此外，关于LLM编码任务耗时估算的讨论以及免费LLM API服务的出现，也反映了开发者社区对效率与成本的持续关注。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM推理效率优化、多模态模型能力评估与安全对齐，以及Agent框架的构建与评测。同时，AI产业应用加速，Samsung因AI热潮发放巨额员工奖金，Google DeepMind在亚太启动环境风险加速器项目。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 52816,
-      "event_count": 870
+      "field_score": 52939,
+      "event_count": 874
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1898,
-      "event_count": 41
+      "field_score": 2071,
+      "event_count": 45
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1179,
-      "event_count": 29
+      "field_score": 1199,
+      "event_count": 30
     },
     {
       "field_key": "science",
@@ -26,38 +26,53 @@
       "event_count": 16
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 620,
-      "event_count": 13
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 556,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "Llamas on the Web: 内存高效、性能可移植的多精度LLM推理框架",
-      "summary": "一项新研究 提出了“Llamas on the Web”框架，旨在通过WebGPU在浏览器中实现内存高效、性能可移植且支持多精度的LLM推理，为浏览器端运行大模型提供了新方案。",
+      "title": "Llamas on the Web: Memory-Efficient, Performance-Portable, and Multi-Precision LLM Inference with WebGPU",
+      "summary": "arXiv:2605.20706v1 Announce Type: cross Abstract: Running language models in the browser presents a unique opportunity…；Llamas on the Web: Memory-Efficient, Performance-Portable,…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.20706"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "LLM编码任务耗时估算偏差引发社区讨论",
-      "summary": "社区讨论 指出，LLM在估算编码任务实现时间时似乎存在系统性高估，这可能源于训练数据中包含了人类完成类似任务所需的时间，而非AI Agent自身的执行速度。这反映了当前AI在时间规划与自我认知上的局限性。",
+      "title": "Chronicle: A Multimodal Foundation Model for Joint Language and Time Series Understanding",
+      "summary": "arXiv:2605.20268v1 Announce Type: cross Abstract: Real-world time series come with text: metadata, descriptions, news,…；Chronicle: A Multimodal Foundation Model for Joint Language…",
       "references": [
         {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48230861"
-        },
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20268"
+        }
+      ]
+    },
+    {
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "summary": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "references": [
         {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/kiloloop/agent-estimate"
+          "source_name": "Google DeepMind",
+          "link": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks"
+        }
+      ]
+    },
+    {
+      "title": "Benchmarking EngGPT2-16B-A3B against Comparable Italian and International Open-source LLMs",
+      "summary": "arXiv:2605.07731v2 Announce Type: replace-cross Abstract: This report benchmarks the performance of ENGINEERING Ingegne…；Benchmarking EngGPT2-16B-A3B against Comparable Italian an…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.07731"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
