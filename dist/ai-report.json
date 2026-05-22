@@ -1,71 +1,78 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM推理效率优化、多模态模型能力提升以及智能体安全与评估三大方向。Meta等机构贡献了多项开源研究，同时Google DeepMind在亚太启动了环境风险加速器项目。",
+  "global_brief": "今日AI领域研究密集，多篇论文聚焦于LLM推理效率优化、多模态理解与Agent安全评估。Google DeepMind启动亚太环境风险加速器计划，OpenAI在企业编码Agent领域获Gartner认可。社区热议LLM的谄媚倾向、AI使用透明度及生产力影响。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 50601,
+      "field_score": 49347,
       "event_count": 856
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1959,
-      "event_count": 43
+      "field_score": 2018,
+      "event_count": 45
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1529,
-      "event_count": 37
+      "field_score": 1592,
+      "event_count": 39
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 730,
-      "event_count": 14
+      "field_score": 744,
+      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 651,
+      "field_score": 625,
       "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Llamas on the Web: 内存高效的WebGPU LLM推理",
-      "summary": "Meta发布了一项研究，提出了一种名为“Llamas on the Web”的方法，旨在通过WebGPU在浏览器中实现内存高效、性能可移植且支持多精度的LLM推理。",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "summary": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "references": [
+        {
+          "source_name": "Google DeepMind",
+          "link": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks"
+        }
+      ]
+    },
+    {
+      "title": "Llamas on the Web: Memory-Efficient, Performance-Portable, and Multi-Precision LLM Inference with WebGPU",
+      "summary": "arXiv:2605.20706v1 Announce Type: cross Abstract: Running language models in the browser presents a unique opportunity…；Llamas on the Web: Memory-Efficient, Performance-Portable,…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.20706"
+        }
+      ]
+    },
+    {
+      "title": "Chronicle: A Multimodal Foundation Model for Joint Language and Time Series Understanding",
+      "summary": "arXiv:2605.20268v1 Announce Type: cross Abstract: Real-world time series come with text: metadata, descriptions, news,…；Chronicle: A Multimodal Foundation Model for Joint Language…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20268"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for…；OpenAI named a Leader in enterprise coding agents by Gartner",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/gartner-2026-agentic-coding-leader"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "LLM推理效率与部署成为研究焦点",
-      "summary": "从“Llamas on the Web”、“PALS”到“Quant.npu”和“Charon”，多项研究 集中关注LLM在不同硬件（浏览器、服务器、移动端）上的推理效率、功耗和部署优化，表明将大模型实用化、轻量化是当前AI工程化的核心挑战。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.20706"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.21427"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.20295"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.17164"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
