@@ -1,29 +1,29 @@
 {
-  "global_brief": "Anthropic 即将完成超 300 亿美元融资，估值或超 9000 亿美元，成为全球估值最高的 AI 初创公司。与此同时，Google 在 I/O 2026 上展示了搭载 Gemini 的 Android XR 眼镜原型，而 OpenAI 被 Gartner 评为企业编码 Agent 领域的领导者。学术界则密集发布了多项关于 LLM 推理优化、多模态理解和 Agent 安全的研究成果。",
+  "global_brief": "Anthropic 即将完成超 300 亿美元融资，估值或破 9000 亿美元，超越 OpenAI 成为全球估值最高的 AI 初创企业。同时，Google I/O 2026 展示了原型 Android XR 眼镜，支持 Gemini 驱动的实时翻译与导航。学术界则密集发布了多项关于 LLM 推理效率、多模态理解及 Agent 安全性的研究成果。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48752,
-      "event_count": 851
+      "field_score": 48992,
+      "event_count": 853
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2345,
-      "event_count": 53
+      "field_score": 2268,
+      "event_count": 52
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1630,
-      "event_count": 42
+      "field_score": 1341,
+      "event_count": 35
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 728,
-      "event_count": 14
+      "field_score": 716,
+      "event_count": 15
     },
     {
       "field_key": "science",
@@ -34,15 +34,138 @@
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 即将完成超 300 亿美元融资",
-      "summary": "知情人士称，Anthropic PBC 最快将于下周完成最新一轮融资，融资额可能超过 300 亿美元，公司估值超过 9000 亿美元，超越 OpenAI 成为全球估值最高的 AI 初创公司。",
+      "title": "Anthropic 估值或破 9000 亿美元，最快下周完成超 300 亿美元融资",
+      "summary": "据报道，Anthropic 即将完成一轮规模超过 300 亿美元的融资，估值有望突破 9000 亿美元，超越 OpenAI，成为全球估值最高的人工智能初创企业。红杉资本、Dragoneer Investment Group 等参投。",
       "references": [
         {
-          "source_name": "华尔街见闻实时快讯",
-          "link": "https://wallstreetcn.com/livenews/3108218"
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3772955"
+        }
+      ]
+    },
+    {
+      "title": "Google I/O 2026 展示原型 Android XR 眼镜，支持 Gemini 翻译与导航",
+      "summary": "Google 在 I/O 2026 的 Dialogues 舞台上演示了原型 Android XR 眼镜，该设备可叠加 Gemini 驱动的实时翻译和导航信息。多家媒体评价其体验已“接近成熟”。",
+      "references": [
+        {
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/936176/google-ai-overviews-search-disregard"
+        },
+        {
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出基于 WebGPU 的内存高效 LLM 推理方案",
+      "summary": "一篇新论文提出了“Llamas on the Web”方案，利用 WebGPU 在浏览器中实现内存高效、性能可移植且支持多精度的 LLM 推理。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20706"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出用于联合语言与时间序列理解的多模态基础模型",
+      "summary": "一篇名为“Chronicle”的论文提出了一种多模态基础模型，旨在联合理解语言和时间序列数据，以应对现实世界中时间序列常伴随文本元数据、描述和新闻的场景。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20268"
+        }
+      ]
+    },
+    {
+      "title": "新基准测试评估 MLLM 在真实世界收据文档理解中的表现",
+      "summary": "一项新研究提出了“From Recognition to Reasoning”基准，用于评估和增强多模态大语言模型（MLLM）在真实世界收据文档理解任务中的表现。",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.22413"
+        }
+      ]
+    },
+    {
+      "title": "新框架 AgentAtlas 提出超越结果排行榜的 LLM Agent 评估方法",
+      "summary": "一篇新论文提出了“AgentAtlas”框架，旨在超越传统的基于结果的排行榜，对 LLM Agent 进行更全面的评估。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20530"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "浏览器端 LLM 推理与移动端 NPU 推理研究密集，边缘 AI 部署加速",
+      "summary": "多篇新研究聚焦于在资源受限设备上运行 LLM，如“Llamas on the Web”和“Quant.npu”。这表明行业正从单纯追求云端模型规模，转向探索如何在浏览器和手机等边缘设备上高效、私密地部署 AI，这将推动更多端侧应用落地。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20706"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20295"
+        }
+      ]
+    },
+    {
+      "title": "LLM Agent 安全与评估成为研究热点，从能力提升转向风险控制",
+      "summary": "近期多项研究，如“MemEvoBench”和“AgentAtlas”，分别关注 Agent 记忆演化带来的安全风险和超越结果排行榜的评估方法。这表明随着 Agent 应用增多，学界和业界正将重心从单纯提升 Agent 能力，转向建立更完善的评估体系和安全护栏。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.20530"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2604.15774"
+        }
+      ]
+    },
+    {
+      "title": "多模态 LLM 研究深化，从通用识别走向专业领域与细粒度推理",
+      "summary": "本周多篇论文将 MLLM 应用于特定领域，如收据文档理解、癫痫症状分析和安全驾驶视频分析。这表明 MLLM 正从通用的“看图说话”阶段，向需要专业知识和细粒度推理的垂直行业应用深入发展。",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.22413"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.21852"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.22185"
+        }
+      ]
+    },
+    {
+      "title": "扩散语言模型与 MoE 模型推理优化并行，探索 LLM 新架构与高效服务",
+      "summary": "一方面，Nemotron-Labs 的扩散语言模型探索了“光速”文本生成的新范式；另一方面，“PALS”等研究则致力于优化混合专家（MoE）模型的功耗感知服务。这表明业界在探索下一代模型架构的同时，也在持续优化现有大模型的部署效率。",
+      "references": [
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.21427"
+        }
+      ]
+    }
+  ]
 }
