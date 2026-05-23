@@ -1,57 +1,151 @@
 {
-  "global_brief": "过去24小时，AI领域融资与前沿研究持续升温：Anthropic估值或突破9000亿美元，超越OpenAI成为全球估值最高AI初创企业；同时，Google在I/O 2026上展示了搭载Gemini的Android XR眼镜原型，Meta则发布了多项关于浏览器端LLM推理、多模态时间序列基础模型等开源研究。",
+  "global_brief": "AI 领域持续主导今日动态，Anthropic 以超 300 亿美元融资估值或破 9000 亿美元，成为全球估值最高的 AI 初创公司；微软发布 Fara1.5 系列浏览器 AI 智能体模型，在特定任务上超越 OpenAI Operator；同时，多项关于 LLM 推理、智能体编排及安全性的前沿研究密集发布。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 50337,
-      "event_count": 883
+      "field_score": 37726,
+      "event_count": 624
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2247,
-      "event_count": 52
+      "field_score": 2120,
+      "event_count": 48
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 956,
-      "event_count": 25
+      "field_score": 920,
+      "event_count": 24
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 833,
-      "event_count": 18
+      "field_score": 702,
+      "event_count": 14
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 655,
-      "event_count": 13
+      "field_score": 450,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic估值或破9000亿美元，超越OpenAI",
-      "summary": "据报道，Anthropic即将完成一轮规模超过300亿美元的融资，估值有望突破9000亿美元，超越竞争对手OpenAI，成为全球估值最高的人工智能初创企业。",
+      "title": "Anthropic 估值或破 9000 亿美元，超越 OpenAI 成全球最高 AI 初创",
+      "summary": "据报道，Anthropic 即将完成一轮规模超过 300 亿美元的融资，估值有望突破 9000 亿美元，超越 OpenAI，成为全球估值最高的人工智能初创企业。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3772955"
         }
       ]
+    },
+    {
+      "title": "微软发布 Fara1.5 系列浏览器 AI 智能体模型",
+      "summary": "微软研究院 AI Frontiers 实验室发布 Fara1.5 系列模型，涵盖 4B、9B 和 27B 参数规模，专为浏览器场景下的计算机使用智能体设计，在 72% 的任务上成功率超过 OpenAI Operator。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/954/266.htm"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出将智能体工作流编译为 LLM 权重的方法",
+      "summary": "一篇新论文（arXiv:2605.22502）提出将智能体编排工作流直接编译进 LLM 权重的方法，声称能以两个数量级更低的成本实现接近前沿模型的质量。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.22502"
+        }
+      ]
+    },
+    {
+      "title": "Google I/O 2026 展示 Android XR 眼镜原型",
+      "summary": "在 Google I/O 2026 上，Google 展示了搭载 Gemini 的 Android XR 眼镜原型，可实现实时翻译、导航等功能的叠加显示。",
+      "references": [
+        {
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/936176/google-ai-overviews-search-disregard"
+        },
+        {
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出 Metis 框架，通过自进化元认知策略优化实现 LLM 越狱",
+      "summary": "一篇新论文（arXiv:2605.10067）介绍了 Metis 框架，这是一种通过自进化元认知策略优化来学习越狱 LLM 的方法，对 AI 安全红队测试具有重要意义。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.10067"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出 Meta-Soft 方法，利用元令牌实现上下文保留的 KV 缓存压缩",
+      "summary": "一篇新论文（arXiv:2605.22337）提出了 Meta-Soft 方法，通过可组合的元令牌来压缩 KV 缓存，旨在解决 LLM 推理中内存和时间成本线性增长的问题。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.22337"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI代理安全与身份认证成为焦点",
-      "summary": "随着AI代理自主执行任务（如购票、控制设备）的能力增强，其身份认证、数据安全和后量子密码学防护正成为开发者社区和产业界关注的核心议题。",
+      "title": "从 Metis 到 DecepChain，LLM 安全研究正从被动防御转向主动攻击模拟",
+      "summary": "近期多项研究（如 Metis 越狱框架、DecepChain 诱导欺骗推理）表明，AI 安全领域正从简单的红队测试，转向更复杂的、利用模型自身能力进行自我进化的攻击与防御策略研究，这对构建鲁棒的 AI 系统至关重要。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/pasqualyd/i-built-a-post-quantum-cryptographic-identity-sdk-for-ai-agents-heres-why-it-needs-to-exist-26ml"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.10067"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2510.00319"
+        }
+      ]
+    },
+    {
+      "title": "KV 缓存压缩研究密集出现，LLM 推理成本瓶颈有望被突破",
+      "summary": "包括 Meta-Soft 在内的多项研究聚焦于 KV 缓存压缩，这表明学术界和工业界正集中力量解决 LLM 推理中的内存和速度瓶颈，这些技术突破将直接推动长上下文模型和实时应用的普及。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.22337"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.07985"
+        }
+      ]
+    },
+    {
+      "title": "从 IdleSpec 到 HarnessAPI，智能体效率与工具集成成为研究热点",
+      "summary": "多项研究（如 IdleSpec 利用空闲时间进行推测性规划、HarnessAPI 统一流式 API 与 MCP 工具）表明，提升 LLM 智能体的执行效率和工具集成能力，正成为推动其从实验走向生产的关键技术方向。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.22154"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.22733"
         }
       ]
     }
