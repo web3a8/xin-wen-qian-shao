@@ -1,75 +1,49 @@
 {
-  "global_brief": "AI领域持续主导全球科技动态，Anthropic以超300亿美元融资估值或破9000亿美元成为焦点，同时其Claude系统发现超1万个高危软件漏洞，凸显AI在安全领域的应用潜力。学术方面，多项研究聚焦于将智能体工作流编译为模型权重、KV缓存压缩及推理优化，推动LLM效率与实用性提升。 [FACT] TITLE: Anthropic估值或破9000亿美元，完成超300亿美元融资 SUMMARY: 据媒体报道，Anthropic即将完成一轮规模超过300亿美元的融资，估值有望突破9000亿美元，超越OpenAI成为全球估值最高的人工智能初创企业。…",
+  "global_brief": "Anthropic 估值或突破 9000 亿美元，超越 OpenAI 成为全球估值最高 AI 初创，同时其 Claude 模型在安全审计中发现超 1 万个高危漏洞。AI 领域研究密集，聚焦于将智能体工作流编译进模型权重、KV 缓存压缩及推理效率优化，同时社区对 AI 智能体的安全性与自主能力展开了广泛讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 34631,
-      "event_count": 576
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1833,
-      "event_count": 42
+      "field_score": 33406,
+      "event_count": 553
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1543,
-      "event_count": 39
+      "field_score": 1678,
+      "event_count": 42
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 1595,
+      "event_count": 36
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 618,
-      "event_count": 13
+      "field_score": 557,
+      "event_count": 12
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 434,
-      "event_count": 8
+      "field_score": 478,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "Compiling Agentic Workflows into LLM Weights: Near-Frontier Quality at Two Orders of Magnitude Less Cost",
-      "summary": "arXiv:2605.22502v1 Announce Type: new Abstract: Agent orchestration frameworks have proliferated, collectively exceedin…；Compiling Agentic Workflows into LLM Weights: Near-Frontie…",
+      "title": "Anthropic 估值或破 9000 亿美元，超越 OpenAI",
+      "summary": "据报道，Anthropic 即将完成一轮超 300 亿美元的融资，估值有望突破 9000 亿美元，超越 OpenAI 成为全球估值最高的人工智能初创企业。Anthropic 向投资者展示的预测显示，其一季度营收 48 亿美元，二季度预计升至 109 亿美元。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.22502"
-        }
-      ]
-    },
-    {
-      "title": "Metis: Learning to Jailbreak LLMs via Self-Evolving Metacognitive Policy Optimization",
-      "summary": "arXiv:2605.10067v3 Announce Type: replace-cross Abstract: Red teaming is critical for uncovering vulnerabilities in Lar…；Metis: Learning to Jailbreak LLMs via Self-Evolving Metaco…",
-      "references": [
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3772955"
+        },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10067"
-        }
-      ]
-    },
-    {
-      "title": "Meta-Soft: Leveraging Composable Meta-Tokens for Context-Preserving KV Cache Compression",
-      "summary": "arXiv:2605.22337v1 Announce Type: new Abstract: The KV cache used in large language models has linearly growing time co…；Meta-Soft: Leveraging Composable Meta-Tokens for Context-P…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.22337"
-        }
-      ]
-    },
-    {
-      "title": "Dooly: Configuration-Agnostic, Redundancy-Aware Profiling for LLM Inference Simulation",
-      "summary": "arXiv:2605.07985v2 Announce Type: replace-cross Abstract: Selecting the optimal LLM inference configuration requires ev…；Dooly: Configuration-Agnostic, Redundancy-Aware Profiling…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.07985"
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3772969"
         }
       ]
     }
