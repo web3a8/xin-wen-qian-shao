@@ -5,7 +5,7 @@
     <link>https://web3a8.github.io/news-push-data/</link>
     <description>通用新闻引擎输出的精选资讯流，当前仍以科技与 AI 信号源为主</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 23 May 2026 14:46:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 16:48:11 GMT</lastBuildDate>
     <item>
       <title>Two space shuttle-era spacewalkers enter Astronaut Hall of Fame</title>
       <link>https://arstechnica.com/space/2026/05/two-space-shuttle-era-spacewalkers-enter-astronaut-hall-of-fame</link>
@@ -127,124 +127,108 @@
       <category>Ars Technica</category>
     </item>
     <item>
-      <title>The Steam Controller’s “drop-in” charger almost started a fire for this owner</title>
-      <link>https://arstechnica.com/gaming/2026/05/psa-the-steam-controllers-magnetic-charger-can-be-a-fire-hazard</link>
-      <guid>https://arstechnica.com/gaming/2026/05/psa-the-steam-controllers-magnetic-charger-can-be-a-fire-hazard</guid>
-      <description>Keep the charging puck’s exposed pins far away from anything metal.</description>
-      <source>Ars Technica</source>
-      <category>Ars Technica</category>
-    </item>
-    <item>
-      <title>Build with Claude Code: New Cohort Launch</title>
-      <link>https://blog.bytebytego.com/p/build-with-claude-code-new-cohort</link>
-      <guid>https://blog.bytebytego.com/p/build-with-claude-code-new-cohort</guid>
-      <description>The first cohort starts in about a week: May 28-29, 2026.</description>
+      <title>EP216: RAGs vs Agents</title>
+      <link>https://blog.bytebytego.com/p/ep216-rags-vs-agents</link>
+      <guid>https://blog.bytebytego.com/p/ep216-rags-vs-agents</guid>
+      <description>Ask an LLM about your company&#x27;s data and it will guess. The two patterns that fix this are RAG and agents, and they solve different problems.</description>
       <source>ByteByteGo</source>
       <category>ByteByteGo</category>
     </item>
     <item>
-      <title>🧠 Hermes Agent Assistant — A Modular AI Agent System with Planner, Executor &amp; Memory</title>
-      <link>https://dev.to/tanush_326k/hermes-agent-assistant-a-modular-ai-agent-system-with-planner-executor-memory-a49</link>
-      <guid>https://dev.to/tanush_326k/hermes-agent-assistant-a-modular-ai-agent-system-with-planner-executor-memory-a49</guid>
-      <description>🚀 What I Built I built Hermes Agent Assistant , a lightweight agentic AI system designed to demonstrate how modern AI agents can be structured using a modular architecture instead…</description>
+      <title>Making LLM Calls Reliable: Retry, Semaphore, Cache, and Batch</title>
+      <link>https://dev.to/orieken/making-llm-calls-reliable-retry-semaphore-cache-and-batch-46fi</link>
+      <guid>https://dev.to/orieken/making-llm-calls-reliable-retry-semaphore-cache-and-batch-46fi</guid>
+      <description>When TestSmith generates tests with --llm , it calls an LLM for every public member of every source file being processed. A project with 20 files and 5 public functions each means…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Spring Boot Auto-Configuration Source Code: Nail This Interview Question</title>
-      <link>https://dev.to/ym_z_a211847c2518bf442268/spring-boot-auto-configuration-source-code-nail-this-interview-question-1g36</link>
-      <guid>https://dev.to/ym_z_a211847c2518bf442268/spring-boot-auto-configuration-source-code-nail-this-interview-question-1g36</guid>
-      <description>Spring Boot Auto-Configuration: The Interview Question That Separates Junior from Senior After thousands of interview communications, one pattern is clear: interviewers love askin…</description>
+      <title>What&#x27;s actually going on with CORS, under the hood</title>
+      <link>https://dev.to/dip_032d2fe1959e1990ddbb1/whats-actually-going-on-with-cors-under-the-hood-l10</link>
+      <guid>https://dev.to/dip_032d2fe1959e1990ddbb1/whats-actually-going-on-with-cors-under-the-hood-l10</guid>
+      <description>CORS is one of those things every web developer runs into sooner or later. Most of us know how to fix it — add a header, change a config, ask the backend person to &quot;do something a…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>The Ultimate Guide to Free AI API Keys: 6 Platforms You Need to Know</title>
-      <link>https://dev.to/yashkapure06/the-ultimate-guide-to-free-ai-api-keys-6-platforms-you-need-to-know-23mi</link>
-      <guid>https://dev.to/yashkapure06/the-ultimate-guide-to-free-ai-api-keys-6-platforms-you-need-to-know-23mi</guid>
-      <description>The Ultimate Guide to Free AI API Keys (2026) If you&#x27;re building AI apps and don&#x27;t want to start with billing immediately, these are the platforms actually worth using: OpenRouter…</description>
+      <title>Language-Agnostic Code Generation: The Driver Plugin Model</title>
+      <link>https://dev.to/orieken/language-agnostic-code-generation-the-driver-plugin-model-2ip0</link>
+      <guid>https://dev.to/orieken/language-agnostic-code-generation-the-driver-plugin-model-2ip0</guid>
+      <description>TestSmith generates test scaffolds for five languages: Go, Python, TypeScript, Java, and C#. Each language has its own project structure conventions, test frameworks, import style…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Why 91% of AI Agents Fail in Production (And What the 9% Do Differently)</title>
-      <link>https://dev.to/hari_sathwik/why-91-of-ai-agents-fail-in-production-and-what-the-9-do-differently-3c8j</link>
-      <guid>https://dev.to/hari_sathwik/why-91-of-ai-agents-fail-in-production-and-what-the-9-do-differently-3c8j</guid>
-      <description>Everyone is building AI agents right now. Autonomous systems that reason, plan, and act without humans in the loop. Agents that write code, manage workflows, analyze data, make de…</description>
+      <title>Why We Rewrote Our Python CLI in Go (and What We Gained)</title>
+      <link>https://dev.to/orieken/why-we-rewrote-our-python-cli-in-go-and-what-we-gained-21bg</link>
+      <guid>https://dev.to/orieken/why-we-rewrote-our-python-cli-in-go-and-what-we-gained-21bg</guid>
+      <description>TestSmith v1 was a Python CLI. It worked. Users could pip install testsmith , point it at a source file, and get a test scaffold back. But every team that tried to wire it into CI…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>TryHackMe | Battery | WALKTHROUGH</title>
-      <link>https://dev.to/kaaayii/tryhackme-battery-walkthrough-4d4d</link>
-      <guid>https://dev.to/kaaayii/tryhackme-battery-walkthrough-4d4d</guid>
-      <description>LAB :** Battery DIFFICULTY: Medium TARGET: flag1.txt, flag2.txt, root.txt TOOLS: Nmap, Gobuster, BurpSuite VULNERABLE: SQL Truncation Attack, XML External Entity Injection First,…</description>
+      <title>I added up everything Google gives developers for free after I/O 2026. It&#x27;s kind of absurd</title>
+      <link>https://dev.to/amionweb/i-added-up-everything-google-gives-developers-for-free-after-io-2026-its-kind-of-absurd-2ajn</link>
+      <guid>https://dev.to/amionweb/i-added-up-everything-google-gives-developers-for-free-after-io-2026-its-kind-of-absurd-2ajn</guid>
+      <description>This is a submission for the Google I/O 2026 Writing Challenge I added up everything Google gives developers for free after I/O 2026. It&#x27;s kind of absurd. Most of the I/O 2026 cov…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Stop Guessing Your Regex — Test It Live in the Browser</title>
-      <link>https://dev.to/sadiqbd/stop-guessing-your-regex-test-it-live-in-the-browser-20p2</link>
-      <guid>https://dev.to/sadiqbd/stop-guessing-your-regex-test-it-live-in-the-browser-20p2</guid>
-      <description>Regular expressions are one of those things every developer knows they need but nobody enjoys writing blind. You craft a pattern, drop it into your code, run it, and it either mat…</description>
+      <title>The Dawn of Smarter Apps: My Take on Google I/O 2026 AI Announcements</title>
+      <link>https://dev.to/md_zeya_1ac5cd9d5ea27e3e3/the-dawn-of-smarter-apps-my-take-on-google-io-2026-ai-announcements-45mo</link>
+      <guid>https://dev.to/md_zeya_1ac5cd9d5ea27e3e3/the-dawn-of-smarter-apps-my-take-on-google-io-2026-ai-announcements-45mo</guid>
+      <description>Introduction Google I/O 2026 has officially wrapped its keynotes, and to say the developer community is buzzing would be an understatement. This year, the spotlight shone brighter…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>I Built FreelancEye, an Open-Source Mobile PWA for Finding Clients</title>
-      <link>https://dev.to/wuzz-dev/i-built-freelanceye-an-open-source-mobile-pwa-for-finding-clients-4haa</link>
-      <guid>https://dev.to/wuzz-dev/i-built-freelanceye-an-open-source-mobile-pwa-for-finding-clients-4haa</guid>
-      <description>I built FreelancEye, an open-source mobile PWA for developers and freelancers who want to find real clients. Instead of guessing who might need a website, SEO help, or digital cle…</description>
+      <title>Why AI Agents Like Hermes Need a Semantic Execution Layer for the Physical World</title>
+      <link>https://dev.to/giulianiregspec/why-ai-agents-like-hermes-need-a-semantic-execution-layer-for-the-physical-world-1985</link>
+      <guid>https://dev.to/giulianiregspec/why-ai-agents-like-hermes-need-a-semantic-execution-layer-for-the-physical-world-1985</guid>
+      <description>This is a submission for the Hermes Agent Challenge : Write About Hermes Agent Most AI agents interact with the world through APIs, databases, and web services. The feedback loop…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Beyond the Hype: My Production Playbook for Docker Swarm</title>
-      <link>https://dev.to/amirsefati/beyond-the-hype-my-production-playbook-for-docker-swarm-54d8</link>
-      <guid>https://dev.to/amirsefati/beyond-the-hype-my-production-playbook-for-docker-swarm-54d8</guid>
-      <description>Every time container orchestration comes up, the conversation almost immediately turns into Kubernetes. And I understand why. Kubernetes is powerful. It has a huge ecosystem, stro…</description>
+      <title>Why We Built TestSmith: The Test Coverage Problem Nobody Talks About</title>
+      <link>https://dev.to/orieken/why-we-built-testsmith-the-test-coverage-problem-nobody-talks-about-2mjk</link>
+      <guid>https://dev.to/orieken/why-we-built-testsmith-the-test-coverage-problem-nobody-talks-about-2mjk</guid>
+      <description>Every team I&#x27;ve worked on has had the same conversation at some point. Someone opens the coverage report, sees a sea of red, and asks: &quot;How do we get this up?&quot; The answer is alway…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Top AI App Builder Platforms with Integrated Backend, Hosting &amp; Database</title>
-      <link>https://dev.to/emildevholm/top-ai-app-builder-platforms-with-integrated-backend-hosting-database-7e8</link>
-      <guid>https://dev.to/emildevholm/top-ai-app-builder-platforms-with-integrated-backend-hosting-database-7e8</guid>
-      <description>Every AI app builder I&#x27;ve tried promises the same thing: type a prompt, get an app. The reality is usually messier. You get a slick frontend, and then you&#x27;re suddenly setting up S…</description>
+      <title>Have You Ever Used a Website That Keeps Working After You Turn Off Your Internet?</title>
+      <link>https://dev.to/abdullah_teslim_7b2a00f5b/have-you-ever-used-a-website-that-keeps-working-after-you-turn-off-your-internet-2k68</link>
+      <guid>https://dev.to/abdullah_teslim_7b2a00f5b/have-you-ever-used-a-website-that-keeps-working-after-you-turn-off-your-internet-2k68</guid>
+      <description>Neither had I. So I built one. Most websites die the moment your internet does. You lose signal, you get a blank screen or a spinner that never stops. Refresh the page offline and…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>ECS vs EKS in 2026: An Honest Comparison from Someone Who Has Run Both in Production</title>
-      <link>https://dev.to/rahul_pandya000/ecs-vs-eks-in-2026-an-honest-comparison-from-someone-who-has-run-both-in-production-36jl</link>
-      <guid>https://dev.to/rahul_pandya000/ecs-vs-eks-in-2026-an-honest-comparison-from-someone-who-has-run-both-in-production-36jl</guid>
-      <description>No marketing fluff. Just what I learned running both in production across three different companies over five years. I&#x27;ve had this conversation more times than I can count. Someon…</description>
+      <title>How to Convert Bank Statement PDFs to Excel: The Complete 2026 Guide</title>
+      <link>https://dev.to/martin_pdfexcel/how-to-convert-bank-statement-pdfs-to-excel-the-complete-2026-guide-65c</link>
+      <guid>https://dev.to/martin_pdfexcel/how-to-convert-bank-statement-pdfs-to-excel-the-complete-2026-guide-65c</guid>
+      <description>If you work in accounting or bookkeeping, you have probably spent hours copying transaction data from PDF bank statements into Excel. It is tedious, error-prone, and completely un…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Hardening Your Node.js App Against Supply Chain &amp; Remote Code Execution Attacks</title>
-      <link>https://dev.to/walosha/hardening-your-nodejs-app-against-supply-chain-remote-code-execution-attacks-2n2a</link>
-      <guid>https://dev.to/walosha/hardening-your-nodejs-app-against-supply-chain-remote-code-execution-attacks-2n2a</guid>
-      <description>Supply chain attacks on the npm ecosystem have quietly become one of the most effective ways attackers compromise production systems. They don&#x27;t break down your front door — they…</description>
+      <title>From idea to indexed: how I launched a SaaS in 60 days with Laravel + React</title>
+      <link>https://dev.to/qrflows/from-idea-to-indexed-how-i-launched-a-saas-in-60-days-with-laravel-react-3gje</link>
+      <guid>https://dev.to/qrflows/from-idea-to-indexed-how-i-launched-a-saas-in-60-days-with-laravel-react-3gje</guid>
+      <description>60 days from first commit to Google indexing. Here&#x27;s what I built, what stack I chose, and what actually slowed me down. What I built QRflows is a dynamic QR code platform. The co…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>linux commands</title>
-      <link>https://dev.to/jatin_tiwari/linux-commands-1a1f</link>
-      <guid>https://dev.to/jatin_tiwari/linux-commands-1a1f</guid>
-      <description>Some useful basic linux commands File &amp; Directory Commands pwd → shows current directory path ls → lists files and folders ls -l → detailed list view cd foldername → change direct…</description>
+      <title>Building a local-first AI tutor for my daughter (and 10–14 year-olds in Austrian schools) with Gemma 4</title>
+      <link>https://dev.to/georgpiwonka/building-a-local-first-ai-tutor-for-my-daughter-and-10-14-year-olds-in-austrian-schools-with-j17</link>
+      <guid>https://dev.to/georgpiwonka/building-a-local-first-ai-tutor-for-my-daughter-and-10-14-year-olds-in-austrian-schools-with-j17</guid>
+      <description>This is a submission for the Gemma 4 Challenge: Build with Gemma 4 My daughter is 13. Like most students her age in Austria, she has an iPad. Like most parents, I&#x27;m uncomfortable…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
-    </item>
-    <item>
-      <title>GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a row</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row</link>
-      <guid>https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row</guid>
-      <description>We are committed to empowering every developer by building an open, secure, and AI-powered platform that defines the future of software development. The post GitHub recognized as…</description>
-      <source>GitHub Blog</source>
-      <category>GitHub Blog</category>
     </item>
     <item>
       <title>Catch up on the Dialogues stage at Google I/O 2026.</title>
@@ -255,9 +239,65 @@
       <category>Google AI Blog</category>
     </item>
     <item>
+      <title>Reverse engineering circuitry in a Spacelab computer from 1980</title>
+      <link>https://righto.com/2026/05/reverse-engineering-spacelab-computer.html</link>
+      <guid>https://righto.com/2026/05/reverse-engineering-spacelab-computer.html</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Italy Cancels Boeing Pegasus Order, Shifting to Airbus A330 MRTT</title>
+      <link>https://euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift</link>
+      <guid>https://euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Lisp in Vim (2019)</title>
+      <link>https://susam.net/lisp-in-vim.html</link>
+      <guid>https://susam.net/lisp-in-vim.html</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>z386: An Open-Source 80386 Built Around Original Microcode</title>
+      <link>https://nand2mario.github.io/posts/2026/z386</link>
+      <guid>https://nand2mario.github.io/posts/2026/z386</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Oura says it gets government demands for user data</title>
+      <link>https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many</link>
+      <guid>https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>The FBI Wants &#x27;Near Real-Time&#x27; Access to US License Plate Readers</title>
+      <link>https://wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access</link>
+      <guid>https://wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
       <title>On The &lt;dl&gt;</title>
       <link>https://benmyers.dev/blog/on-the-dl</link>
       <guid>https://benmyers.dev/blog/on-the-dl</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>The Art of Money Getting</title>
+      <link>https://kk.org/cooltools/book-freak-210-the-art-of-money-getting</link>
+      <guid>https://kk.org/cooltools/book-freak-210-the-art-of-money-getting</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -279,14 +319,6 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Electrobun 2.0 will be decoupled from Bun due to the rust rewrite</title>
-      <link>https://twitter.com/i/status/2058064720553222567</link>
-      <guid>https://twitter.com/i/status/2058064720553222567</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
       <title>Making Deep Learning Go Brrrr from First Principles</title>
       <link>https://horace.io/brrr_intro.html</link>
       <guid>https://horace.io/brrr_intro.html</guid>
@@ -303,7 +335,7 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>- -dangerously-skip-reading-code – olano.dev</title>
+      <title>- -dangerously-skip-reading-code</title>
       <link>https://olano.dev/blog/dangerously-skip</link>
       <guid>https://olano.dev/blog/dangerously-skip</guid>
       <description>Comments</description>
@@ -319,25 +351,9 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Experience: We found a baby on the subway – now he&#x27;s our 26-year-old son</title>
-      <link>https://theguardian.com/lifeandstyle/2026/may/22/experience-found-baby-subway-now-26-year-old-son</link>
-      <guid>https://theguardian.com/lifeandstyle/2026/may/22/experience-found-baby-subway-now-26-year-old-son</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
       <title>Rubish: A Unix shell written in pure Ruby</title>
       <link>https://github.com/amatsuda/rubish</link>
       <guid>https://github.com/amatsuda/rubish</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
-      <title>Sleep research led to a new sleep apnea drug</title>
-      <link>https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug</link>
-      <guid>https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -375,12 +391,76 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Why Japanese companies do so many different things</title>
-      <link>https://davidoks.blog/p/why-japanese-companies-do-so-many</link>
-      <guid>https://davidoks.blog/p/why-japanese-companies-do-so-many</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
+      <title>Google is pitching an AI agent ecosystem to consumers who may not buy it</title>
+      <link>https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it</link>
+      <guid>https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it</guid>
+      <description>Google is pitching an AI agent ecosystem to consumers who may not buy it</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Google&#x27;s AI Search Is So Broken It Can &#x27;Disregard&#x27; What You&#x27;re Looking For</title>
+      <link>https://theverge.com/tech/936176/google-ai-overviews-search-disregard</link>
+      <guid>https://theverge.com/tech/936176/google-ai-overviews-search-disregard</guid>
+      <description>Google&#x27;s AI Search Is So Broken It Can &#x27;Disregard&#x27; What You&#x27;re Looking For</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Polish Nobel literature laureate admits to using AI</title>
+      <link>https://notesfrompoland.com/2026/05/21/polish-nobel-literature-laureate-tokarczuk-sparks-controversy-after-admitting-using-ai</link>
+      <guid>https://notesfrompoland.com/2026/05/21/polish-nobel-literature-laureate-tokarczuk-sparks-controversy-after-admitting-using-ai</guid>
+      <description>Polish Nobel literature laureate admits to using AI</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>The AI Slot Machine Is Draining My Creativity</title>
+      <link>https://daviesgeek.com/The-AI-Slot-Machine-is-Draining-My-Creativity</link>
+      <guid>https://daviesgeek.com/The-AI-Slot-Machine-is-Draining-My-Creativity</guid>
+      <description>The AI Slot Machine Is Draining My Creativity</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Knowledge: You can just build your own AI feed to keep up, without the noise</title>
+      <link>https://github.com/raphaelsty/knowledge</link>
+      <guid>https://github.com/raphaelsty/knowledge</guid>
+      <description>Knowledge: You can just build your own AI feed to keep up, without the noise</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>To Understand AI, Think Like a Dragonfly</title>
+      <link>https://noemamag.com/to-understand-ai-think-like-a-dragonfly</link>
+      <guid>https://noemamag.com/to-understand-ai-think-like-a-dragonfly</guid>
+      <description>To Understand AI, Think Like a Dragonfly</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Agentic AI token usage balloons cost at Microsoft, Meta, Amazon</title>
+      <link>https://tomshardware.com/tech-industry/artificial-intelligence/ai-cost-crisis-hits-tech-giants-as-employee-tokenmaxxing-backfires-agentic-ai-eats-up-to-1000x-more-tokens-than-standard-ai-sparks-corporate-pullback-at-microsoft-meta-and-amazon</link>
+      <guid>https://tomshardware.com/tech-industry/artificial-intelligence/ai-cost-crisis-hits-tech-giants-as-employee-tokenmaxxing-backfires-agentic-ai-eats-up-to-1000x-more-tokens-than-standard-ai-sparks-corporate-pullback-at-microsoft-meta-and-amazon</guid>
+      <description>Comments URL: https:…</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Polsia Raises $30M as Its AI Autonomously Runs 7,600 Businesses</title>
+      <link>https://noqta.tn/en/news/polsia-ai-autonomous-company-30m-funding-2026</link>
+      <guid>https://noqta.tn/en/news/polsia-ai-autonomous-company-30m-funding-2026</guid>
+      <description>Polsia Raises $30M as Its AI Autonomously Runs 7,600 Businesses</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>AI companies use malware proxies to mount DDoS attacks on web sites</title>
+      <link>https://packetstream.io/scraping-at-scale-without-breaking-the-bank-a-guide-for-ai-startups</link>
+      <guid>https://packetstream.io/scraping-at-scale-without-breaking-the-bank-a-guide-for-ai-startups</guid>
+      <description>AI companies use malware proxies to mount DDoS attacks on web sites</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
     </item>
     <item>
       <title>Airbnb&#x27;s Chesky Says US &#x27;Misunderstanding&#x27; Use of Chinese Open-Source AI Models</title>
@@ -471,76 +551,164 @@
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>Scaling Creativity in the Age of AI</title>
-      <link>https://technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai</link>
-      <guid>https://technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai</guid>
-      <description>Scaling Creativity in the Age of AI</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>Ask HN: Do you have a colophon for your personal website?</title>
+      <link>https://news.ycombinator.com/item?id=48248141</link>
+      <guid>https://news.ycombinator.com/item?id=48248141</guid>
+      <description>A colophon is a page or section (typically in a footer) of a site that describes how the site is made, with what tools, supporting what technologies, and often published on person…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>The Download: coding&#x27;s future, the &#x27;Steroid Olympics,&#x27; and AI-driven science</title>
-      <link>https://technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science</link>
-      <guid>https://technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science</guid>
-      <description>The Download: coding&#x27;s future, the &#x27;Steroid Olympics,&#x27; and AI-driven science</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>Tell HN: Google slightly changed its wordmark logo</title>
+      <link>https://news.ycombinator.com/item?id=48248132</link>
+      <guid>https://news.ycombinator.com/item?id=48248132</guid>
+      <description>Google is doing some A/B testing where in their main site,[0] it will show a slightly modified version of the 2015 logo, as shown in the following Wikipedia article.[1] You can tr…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>AI doesn&#x27;t divide developers – it just reveals them</title>
-      <link>https://overco.de/posts/ai-doesnt-divide-developers-it-just-reveals-them</link>
-      <guid>https://overco.de/posts/ai-doesnt-divide-developers-it-just-reveals-them</guid>
-      <description>AI doesn&#x27;t divide developers – it just reveals them</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>We were building infra for OpenClaw, and today I just tried Hermes and holy shit</title>
+      <link>https://news.ycombinator.com/item?id=48247828</link>
+      <guid>https://news.ycombinator.com/item?id=48247828</guid>
+      <description>So, as some of you guys might have done, we started a hosting for Openclaw type of a business, and holy, this thing grew to 300k ARR and even got a YC interview. Last week was a b…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>Cool New AI Meetup</title>
-      <link>https://greenvilleai.coffee/</link>
-      <guid>https://greenvilleai.coffee/</guid>
-      <description>Cool New AI Meetup</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>I&#x27;m looking for people who can help us become a 3rd level civilization</title>
+      <link>https://news.ycombinator.com/item?id=48247302</link>
+      <guid>https://news.ycombinator.com/item?id=48247302</guid>
+      <description>I&#x27;m looking for people who can help us become a 3rd level civilization</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
       <title>Ask HN: Where AI Researchers Congregate?</title>
       <link>https://news.ycombinator.com/item?id=48246397</link>
       <guid>https://news.ycombinator.com/item?id=48246397</guid>
       <description>So I’m doing plenty of experiments and applied research in autonomous agents and agentic flows in general. I’m looking for a place where I could collaborate and discuss with other…</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>The AI Superstars Who Say a &#x27;Vibe Slop&#x27; Crisis Is Coming</title>
-      <link>https://wsj.com/tech/ai/vibe-coding-slop-ai-tools-e6a99394</link>
-      <guid>https://wsj.com/tech/ai/vibe-coding-slop-ai-tools-e6a99394</guid>
-      <description>The AI Superstars Who Say a &#x27;Vibe Slop&#x27; Crisis Is Coming</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>Ask HN: Anyone catch the bug in codex with /goals?</title>
+      <link>https://news.ycombinator.com/item?id=48246179</link>
+      <guid>https://news.ycombinator.com/item?id=48246179</guid>
+      <description>Before this last update I could basically get unlimited usage out of codex by toggling on /goals and setting an impossible task (one that wouldn’t finish and would keep reiteratin…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>Show HN: Directionally bad – a newsletter about risks of AI centralization</title>
-      <link>https://deaination.substack.com/p/directionally-bad-issue-002</link>
-      <guid>https://deaination.substack.com/p/directionally-bad-issue-002</guid>
-      <description>Hello, I&#x27;m sultan, a Research Analyst working to analyze and explore the world of decentralized AI. I have launched a new newsletter for everyone curious about where DeAI is going…</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>SerpSpur vs. SEO Giants</title>
+      <link>https://news.ycombinator.com/item?id=48246062</link>
+      <guid>https://news.ycombinator.com/item?id=48246062</guid>
+      <description>SEO tools discussion: SerpSpur vs the big players. For basic keyword research and site audits, the free tier is actually usable. The backlink analysis is comprehensive.</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>Did Google&#x27;s AI agents build an operating system for $916?</title>
-      <link>https://normaltech.ai/p/did-googles-ai-agents-really-build</link>
-      <guid>https://normaltech.ai/p/did-googles-ai-agents-really-build</guid>
-      <description>Did Google&#x27;s AI agents build an operating system for $916?</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>Ask HN: How do small teams securely share env files?</title>
+      <link>https://news.ycombinator.com/item?id=48245740</link>
+      <guid>https://news.ycombinator.com/item?id=48245740</guid>
+      <description>Ask HN: How do small teams securely share env files?</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>The AI Great Leap Forward (A Warning)</title>
-      <link>https://mamund.substack.com/p/the-ai-great-leap-forward-a-warning</link>
-      <guid>https://mamund.substack.com/p/the-ai-great-leap-forward-a-warning</guid>
-      <description>The AI Great Leap Forward (A Warning)</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>Ask HN: Is $300/HR too low these days for custom full stack?</title>
+      <link>https://news.ycombinator.com/item?id=48245259</link>
+      <guid>https://news.ycombinator.com/item?id=48245259</guid>
+      <description>Background. I&#x27;m a solo dev. I used to just bid contract jobs at around 25% less than where I used to work. So back in 2008 I would bid $75k to go solo on a job I knew my former em…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Why are there keys on my messenger app that I don&#x27;t recognize</title>
+      <link>https://news.ycombinator.com/item?id=48245125</link>
+      <guid>https://news.ycombinator.com/item?id=48245125</guid>
+      <description>Why are there keys on my messenger app that I don&#x27;t recognize</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Ask HN: How to increase depth instead of breadth as 10 yoe as swe?</title>
+      <link>https://news.ycombinator.com/item?id=48244739</link>
+      <guid>https://news.ycombinator.com/item?id=48244739</guid>
+      <description>About my experience(10 yoe): - Tech stack: C, C++, python, OpenCL, GPU and DSP programming. Along with that some performance engineering and docker topics. Problem: - not feeling…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Tell HN: Stop building software for people, build it for agents instead</title>
+      <link>https://news.ycombinator.com/item?id=48244732</link>
+      <guid>https://news.ycombinator.com/item?id=48244732</guid>
+      <description>Yep, controversial title. Engagement farming, j/k. I&#x27;m serious. It&#x27;s a real thing. Agents are a market. They&#x27;re a customer. They have wants and needs. If you address those, and ag…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Ask HN: How concerned are you about a debt crisis?</title>
+      <link>https://news.ycombinator.com/item?id=48244375</link>
+      <guid>https://news.ycombinator.com/item?id=48244375</guid>
+      <description>Ask HN: How concerned are you about a debt crisis?</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Any positive sides of LLM there?</title>
+      <link>https://news.ycombinator.com/item?id=48244190</link>
+      <guid>https://news.ycombinator.com/item?id=48244190</guid>
+      <description>I started to wonder that I dont remember reading any positive articles or discussion about AI. It is deep in human nature for stressing out about our problems that might occur and…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Ask HN: Has anyone solved Amazon&#x27;s animated GIF captcha programmatically?</title>
+      <link>https://news.ycombinator.com/item?id=48243979</link>
+      <guid>https://news.ycombinator.com/item?id=48243979</guid>
+      <description>Amazon&#x27;s login flow sometimes serves an animated GIF captcha from opfcaptcha-prod.s3.amazonaws.com — 6 sliding characters, text scrolls horizontally across ~10-15 frames. Standard…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>You can issue a 15-year SSL certificate today. Why almost nobody does</title>
+      <link>https://news.ycombinator.com/item?id=48243808</link>
+      <guid>https://news.ycombinator.com/item?id=48243808</guid>
+      <description>Most HTTPS deployments live in 90-day Let&#x27;s Encrypt chunks. But for Cloudflare-proxied domains, there is a CA that issues 15-year certificates — here is the auto-issue pipeline th…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Instant YouTube channel analysis using public metrics</title>
+      <link>https://news.ycombinator.com/item?id=48243683</link>
+      <guid>https://news.ycombinator.com/item?id=48243683</guid>
+      <description>Hey HN! I’ve been spending a lot of time around creator communities recently, and one thing I kept noticing was how difficult it is for smaller YouTubers to understand their chann…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Ask HN: What to learn and do, that makes me least affected by AI in STEM?</title>
+      <link>https://news.ycombinator.com/item?id=48243163</link>
+      <guid>https://news.ycombinator.com/item?id=48243163</guid>
+      <description>I could be wrong with what I say here. It&#x27;s just the situation made me feel so. Looks like AI learnt almost everything there is in the internet and textbooks today. I lost hope of…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Pynear 2.3 Is Out</title>
+      <link>https://news.ycombinator.com/item?id=48243087</link>
+      <guid>https://news.ycombinator.com/item?id=48243087</guid>
+      <description>• cosine indices (exact + approximate) • drop-in for scikit-learn (metric=&#x27;cosine&#x27;) • Incredibly fast approximate IndexBinaryMultiHash with high recall (beats Faiss in some contex…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>My Profile HTTP://Profile.jomvia.com</title>
+      <link>https://news.ycombinator.com/item?id=48241876</link>
+      <guid>https://news.ycombinator.com/item?id=48241876</guid>
+      <description>My Profile HTTP://Profile.jomvia.com</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
       <title>LLM&#x27;s code is just untrusted text, until you validate it</title>
@@ -567,14 +735,6 @@
       <category>Hacker News LLM</category>
     </item>
     <item>
-      <title>Any positive sides of LLM there?</title>
-      <link>https://news.ycombinator.com/item?id=48244190</link>
-      <guid>https://news.ycombinator.com/item?id=48244190</guid>
-      <description>I started to wonder that I dont remember reading any positive articles or discussion about AI. It is deep in human nature for stressing out about our problems that might occur and…</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
       <title>Show HN: BonzAI – self-sovereign, local LLM inference in the browser</title>
       <link>https://bonzai.sh/</link>
       <guid>https://bonzai.sh/</guid>
@@ -597,6 +757,38 @@
       <description>Llmff v0.1.2: FFmpeg-Shaped Pipelines for LLM Workflows</description>
       <source>Hacker News LLM</source>
       <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>I Gave My OpenClaw Agent a Physical Body</title>
+      <link>https://wired.com/story/i-gave-my-openclaw-agent-physical-body-robot</link>
+      <guid>https://wired.com/story/i-gave-my-openclaw-agent-physical-body-robot</guid>
+      <description>I Gave My OpenClaw Agent a Physical Body</description>
+      <source>Hacker News OpenClaw</source>
+      <category>Hacker News OpenClaw</category>
+    </item>
+    <item>
+      <title>Show HN: Invoker, an IDE for orchestrating massively parallel agents</title>
+      <link>https://invoker.build/</link>
+      <guid>https://invoker.build/</guid>
+      <description>Show HN: Invoker, an IDE for orchestrating massively parallel agents</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: I built a RAG and knowledge graph agent that runs locally</title>
+      <link>https://news.ycombinator.com/item?id=48248801</link>
+      <guid>https://news.ycombinator.com/item?id=48248801</guid>
+      <description>Claw-Coder is an AI agent that runs locally on your laptop and has access to powerful tools instead of configuring claude or codex to use a local model just use claw-coder. Why wa…</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: I built a site to watch, predct and prompt inject agents playing games</title>
+      <link>https://clankerfights.ai/</link>
+      <guid>https://clankerfights.ai/</guid>
+      <description>Show HN: I built a site to watch, predct and prompt inject agents playing games</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
     </item>
     <item>
       <title>Show HN: Fed.run – online collaborative Rust IDE and Markdown editor</title>
@@ -663,6 +855,14 @@
       <category>Hacker News Show</category>
     </item>
     <item>
+      <title>Show HN: Directionally bad – a newsletter about risks of AI centralization</title>
+      <link>https://deaination.substack.com/p/directionally-bad-issue-002</link>
+      <guid>https://deaination.substack.com/p/directionally-bad-issue-002</guid>
+      <description>Hello, I&#x27;m sultan, a Research Analyst working to analyze and explore the world of decentralized AI. I have launched a new newsletter for everyone curious about where DeAI is going…</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
       <title>Show HN: Ifmhy – An Internationalization Version of Fmhy</title>
       <link>https://ifmhy.org/</link>
       <guid>https://ifmhy.org/</guid>
@@ -719,28 +919,36 @@
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: TruLayer – tracing, evals, and a control loop for production LLMs</title>
-      <link>https://trulayer.ai/</link>
-      <guid>https://trulayer.ai/</guid>
-      <description>Show HN: TruLayer – tracing, evals, and a control loop for production LLMs</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
+      <title>Microsoft reports AI is more expensive than paying human employees</title>
+      <link>https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents</link>
+      <guid>https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents</guid>
+      <description>Microsoft reports AI is more expensive than paying human employees</description>
+      <source>Hacker News 最佳</source>
+      <category>Hacker News 最佳</category>
     </item>
     <item>
-      <title>Show HN: Pilates – pure TypeScript flex layout for terminal UIs</title>
-      <link>https://github.com/pilatesjs/pilates</link>
-      <guid>https://github.com/pilatesjs/pilates</guid>
-      <description>Show HN: Pilates – pure TypeScript flex layout for terminal UIs</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
+      <title>Is AI Profitable Yet?</title>
+      <link>https://isaiprofitable.com/</link>
+      <guid>https://isaiprofitable.com/</guid>
+      <description>Is AI Profitable Yet?</description>
+      <source>Hacker News 最佳</source>
+      <category>Hacker News 最佳</category>
     </item>
     <item>
-      <title>Show HN: Source screen for congressional stock disclosure claims</title>
-      <link>https://tinyopsstudio.com/congress-disclosure-now-csco-source-screen</link>
-      <guid>https://tinyopsstudio.com/congress-disclosure-now-csco-source-screen</guid>
-      <description>Show HN: Source screen for congressional stock disclosure claims</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
+      <title>SpaceX launches Starship v3 rocket</title>
+      <link>https://nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505</link>
+      <guid>https://nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505</guid>
+      <description>SpaceX launches Starship v3 rocket</description>
+      <source>Hacker News 最佳</source>
+      <category>Hacker News 最佳</category>
+    </item>
+    <item>
+      <title>Open source Kanban desktop app that runs parallel agents on every card</title>
+      <link>https://kanbots.dev/</link>
+      <guid>https://kanbots.dev/</guid>
+      <description>Open source Kanban desktop app that runs parallel agents on every card</description>
+      <source>Hacker News 最佳</source>
+      <category>Hacker News 最佳</category>
     </item>
     <item>
       <title>Bun support is now limited and deprecated</title>
@@ -751,28 +959,12 @@
       <category>Hacker News 最佳</category>
     </item>
     <item>
-      <title>U.S. researchers face new restrictions on publishing with foreign collaborators</title>
-      <link>https://science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators</link>
-      <guid>https://science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators</guid>
-      <description>U.S. researchers face new restrictions on publishing with foreign collaborators</description>
-      <source>Hacker News 最佳</source>
-      <category>Hacker News 最佳</category>
-    </item>
-    <item>
-      <title>Trump Mobile exposed customers&#x27; personal data</title>
-      <link>https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-exposed-customers-personal-data-including-phone-numbers-and-home-addresses</link>
-      <guid>https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-exposed-customers-personal-data-including-phone-numbers-and-home-addresses</guid>
-      <description>Trump Mobile exposed customers&#x27; personal data</description>
-      <source>Hacker News 最佳</source>
-      <category>Hacker News 最佳</category>
-    </item>
-    <item>
-      <title>DeepSeek makes the V4 Pro price discount permanent</title>
-      <link>https://api-docs.deepseek.com/quick_start/pricing</link>
-      <guid>https://api-docs.deepseek.com/quick_start/pricing</guid>
-      <description>&gt; (3) The deepseek-v4-pro model API pricing will be officially adjusted to 1/4 of the original price after the 75% discount promotion ends on 2026/05/31 15:59 UTC. https://x.com/d…</description>
-      <source>Hacker News 最佳</source>
-      <category>Hacker News 最佳</category>
+      <title>Sleep research led to a new sleep apnea drug</title>
+      <link>https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug</link>
+      <guid>https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug</guid>
+      <description>Sleep research led to a new sleep apnea drug</description>
+      <source>Hacker News 首页</source>
+      <category>Hacker News 首页</category>
     </item>
     <item>
       <title>Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models</title>
@@ -783,12 +975,44 @@
       <category>Hugging Face 博客</category>
     </item>
     <item>
-      <title>Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook</title>
-      <link>https://huggingface.co/blog/Dharma-AI/specialization-beats-scale</link>
-      <guid>https://huggingface.co/blog/Dharma-AI/specialization-beats-scale</guid>
-      <description>Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook</description>
-      <source>Hugging Face 博客</source>
-      <category>Hugging Face 博客</category>
+      <title>OpenAI 开出最高 44.5 万美元年薪招聘研究员，要求有品位、有策略性</title>
+      <link>https://ithome.com/0/954/455.htm</link>
+      <guid>https://ithome.com/0/954/455.htm</guid>
+      <description>IT之家 5 月 23 日消息，据《商业内幕》23 日（今天）下午报道，OpenAI 发布了安全研究员的招聘信息，研究当 AI 能够训练出自己的“更强版本”时可能出现的问题。 职位聚合网站显示，这则招聘信息面向 OpenAI Preparedness 安全团队，本月上线。该岗位年薪高达 29.5 万至 44.5 万美元 （IT之家注：现汇率约合 200.8…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>Bungie《命运 2》官宣停更后，同门作品《失落星船：马拉松》遭差评轰炸</title>
+      <link>https://ithome.com/0/954/454.htm</link>
+      <guid>https://ithome.com/0/954/454.htm</guid>
+      <description>IT之家 5 月 23 日消息，据外媒 Kotaku 今日报道，Bungie 宣布《命运 2》即将停止运营后，玩家社区开始陷入混乱。该作将于 6 月迎来最后一次更新，之后结束内容运营。一部分玩家开始感谢开发团队，但也有不少人开始寻找“罪魁祸首”。其中，一些玩家 将矛头指向了 Bungie 的新 PvP 撤离射击游戏《失落星船：马拉松》 ，并在 Steam…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>地平线：大众与众 06/07 车型年底将推出酷睿程高阶辅助驾驶版本</title>
+      <link>https://ithome.com/0/954/453.htm</link>
+      <guid>https://ithome.com/0/954/453.htm</guid>
+      <description>IT之家 5 月 23 日消息，今日，大众汽车集团迎旗下焕新与众 06、全新与众 07 双车正式上市并启动交付，两款车型将率先搭载基于征程 ® 6M 芯片的行云智行智能辅助驾驶系统。 据官方介绍，该方案由大众汽车集团旗下 CARIAD 与地平线合资公司 —— 酷睿程量身打造， 标志着酷睿程智驾方案实现首次量产落地 ，也意味着地平线与大众汽车集团正式迈入成果…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>消息称 Anthropic 最快下周完成逾 300 亿美元融资，有望推动估值反超 OpenAI</title>
+      <link>https://ithome.com/0/954/452.htm</link>
+      <guid>https://ithome.com/0/954/452.htm</guid>
+      <description>IT之家 5 月 23 日消息，据彭博社 23 日（今天）凌晨援引知情人士消息称，Anthropic 即将完成新一轮超大规模融资，最快可能下周敲定，总额 预计超过 300 亿美元 （IT之家注：现汇率约合 2042.38 亿元人民币），公司估值则有望突破 9000 亿美元。 一旦交易完成，Anthropic 估值将 正式超过 OpenAI ，成为全球估值最…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>财报披露 Take-Two 野心：计划 2029 财年前推出 29 款新作</title>
+      <link>https://ithome.com/0/954/451.htm</link>
+      <guid>https://ithome.com/0/954/451.htm</guid>
+      <description>IT之家 5 月 23 日消息，据外媒 Insider Gaming 报道，Take-Two Interactive 准备在 2027 财年至 2029 财年期间推出 29 款新作，其中包括 全新 IP、系列续作、重制版以及跨平台扩展作品 。 当地时间 5 月 21 日，Take-Two 公布了最新财报，并首次披露了这一发行规划。据IT之家了解，这 29…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
     </item>
     <item>
       <title>微星推出 MAG 346CQDF E20 显示器：UWQHD 200Hz 双模，1500R 曲率</title>
@@ -1215,44 +1439,12 @@
       <category>IT之家</category>
     </item>
     <item>
-      <title>让机器人拥有“肌肉记忆”，智元推出新一代二阶段 BFM-2 基座模型</title>
-      <link>https://ithome.com/0/954/319.htm</link>
-      <guid>https://ithome.com/0/954/319.htm</guid>
-      <description>IT之家 5 月 23 日消息，智元今天宣布推出新一代二阶段 Motion-Between 运控基座模型 BFM-2，号称让机器人拥有“肌肉记忆”。 据介绍，该模型可在任意状态下（IT之家注：静态 or 预设动作 or 随机输入），让机器人自主进行高稳定性的动作插值、动态任务闭环， 为具身智能提供更可靠的运动底座 。 根据官方发布的演示视频，搭载该模型的机…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>渣打 CEO 就 AI 替代“低价值”人力致歉，约 7800 人裁员计划未改</title>
-      <link>https://ithome.com/0/954/318.htm</link>
-      <guid>https://ithome.com/0/954/318.htm</guid>
-      <description>IT之家 5 月 23 日消息，渣打银行首席执行官比尔 · 温特斯（Bill Winters）就其有关人工智能替代“低价值”人力的表态向员工致歉， 承认措辞引发部分同事不满，但未撤回原话。 他在 LinkedIn 发文称，自己收到许多关于措辞的疑问，也知道这些表述让部分同事感到不安，因此对此表示歉意。不过，他并没有撤回此前关于人工智能替代部分岗位的核心说法…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>OpenAI ChatGPT 解锁 AI 填表技能：图像识别、语音输入和自动补全</title>
-      <link>https://ithome.com/0/954/309.htm</link>
-      <guid>https://ithome.com/0/954/309.htm</guid>
-      <description>IT之家 5 月 23 日消息，OpenAI 今天（5 月 23 日）发布公告，宣布 ChatGPT 解锁新技能， 用户上传表单后，可直接用语音或文字说明填写内容，系统会识别表单字段、自动补全信息。 在最新演示中，用户上传一份健身会员表单后，只需口头说明姓名、地址和健身目标，ChatGPT 便能识别表单内容并自动填写。整个过程不是逐项手动录入资料，更像与助…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>成渝中线高铁蜀安隧道贯通，创国内土压平衡盾构隧道直径之最</title>
-      <link>https://ithome.com/0/954/306.htm</link>
-      <guid>https://ithome.com/0/954/306.htm</guid>
-      <description>IT之家 5 月 23 日消息，据中国铁建消息，由中铁十一局参建的成渝中线高铁蜀安隧道昨天顺利贯通，为国内已建成的最大直径土压平衡盾构隧道，为后续通车奠定坚实基础。 IT之家在此援引官方公众号，蜀安隧道采用两台 14 米级超大直径盾构机同向掘进， 其中“成渝号”盾构机总功率高达 10000 千瓦 ， 总重 3344 吨 ，配备带压复合型刀盘、伸缩式主驱动、…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
       <title>龙虾 OpenClaw 工程师示警：AI 正批量制造低质量危险代码</title>
       <link>https://ithome.com/0/954/301.htm</link>
       <guid>https://ithome.com/0/954/301.htm</guid>
       <description>IT之家 5 月 23 日消息，华尔街日报昨日（5 月 22 日）发布博文，报道称参与打造“龙虾”OpenClaw 的 2 名工程师示警， AI 不只加快写代码速度，也可能把低质量代码批量扩散到真实产品与服务里。 OpenClaw 内部智能体框架 Pi 创建者马里奥 · 泽克纳（Mario Zechner）表示：“基础设施正在崩溃，软件也比以前漏洞百出。我…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
+      <source>IT之家 24h</source>
+      <category>IT之家 24h</category>
     </item>
     <item>
       <title>法国新一代 TGV-M 双层高铁列车亮相，最高时速 320km/h</title>
@@ -1267,6 +1459,22 @@
       <link>https://ithome.com/0/954/263.htm</link>
       <guid>https://ithome.com/0/954/263.htm</guid>
       <description>感谢IT之家网友 不一样的体验 、 长歌洛兰 的线索投递！ IT之家 5 月 23 日消息，小米公司 5 月 19 日发布内部通报，针对在数字化抽真空服务专项稽核中发现的两起空调安装抽真空造假事件作出顶格处理。 根据网上流传出的公告截图，涉事的两名合作工程师被直接永久拉黑清退，终止任何形式的合作；其所属线下安装网点按虚假服务论处，每单罚款 1000 元，同…</description>
+      <source>IT之家 24h</source>
+      <category>IT之家 24h</category>
+    </item>
+    <item>
+      <title>送 1:64 合金车模：小米汽车试驾送车模活动回归</title>
+      <link>https://ithome.com/0/954/256.htm</link>
+      <guid>https://ithome.com/0/954/256.htm</guid>
+      <description>感谢IT之家网友 顺势而为 、 不一样的体验 、 風見暉一 、 江山已旧 、 偏科骚黄4100只眼 的线索投递！ IT之家 5 月 23 日消息，小米汽车今天宣布试驾送车模活动回归，即日起至 5 月 31 日预约到店试驾任意车型，完成试驾后，可领取一个 1:64 合金车模（款式颜色随机）。 本次试驾活动需要提前预约， 试驾车型不限 。单店活动周期内车模数量…</description>
+      <source>IT之家 24h</source>
+      <category>IT之家 24h</category>
+    </item>
+    <item>
+      <title>神舟二十三号瞄准北京时间明日 23:08 发射：朱杨柱任指令长，张志远及香港航天员黎家盈即将首飞</title>
+      <link>https://ithome.com/0/954/246.htm</link>
+      <guid>https://ithome.com/0/954/246.htm</guid>
+      <description>感谢IT之家网友 Anon_Tokyo 、 姜汁汽水 的线索投递！ IT之家 5 月 23 日消息，今天上午，神舟二十三号载人飞行任务新闻发布会在酒泉卫星发射中心召开。经研究决定，瞄准北京时间 5 月 24 日 23 时 08 分发射神舟二十三号载人飞船。 经空间站应用与发展阶段飞行任务总指挥部研究决定，神舟二十三号航天员乘组由航天飞行工程师朱杨柱、航天驾…</description>
       <source>IT之家 24h</source>
       <category>IT之家 24h</category>
     </item>
@@ -1287,258 +1495,242 @@
       <category>IT之家 24h</category>
     </item>
     <item>
-      <title>鸿蒙智行全新一代问界 M9 系列旗舰 SUV 选配信息大公开，Ultimate 领世加长版大满配价格逼近百万</title>
-      <link>https://ithome.com/0/954/220.htm</link>
-      <guid>https://ithome.com/0/954/220.htm</guid>
-      <description>感谢IT之家网友 風見暉一 的线索投递！ IT之家 5 月 22 日消息，华为官网再放“猛料”， 公开了 鸿蒙 智行全新一代问界 M9 系列旗舰 SUV 选配信息 。普通问界 M9 Max+ / Ultra 与问界 M9 Ultimate 独立开选，共计三款车型，并分五座、六座两种布局和增程、纯电两种动力（均为四驱）。 ▲ 图源：华为官网截图 | 问界 M…</description>
-      <source>IT之家 24h</source>
-      <category>IT之家 24h</category>
-    </item>
-    <item>
-      <title>苹果股价再创新高，总市值站上 4.5 万亿美元</title>
-      <link>https://ithome.com/0/954/218.htm</link>
-      <guid>https://ithome.com/0/954/218.htm</guid>
-      <description>感谢IT之家网友 会弹琴的九号 的线索投递！ IT之家 5 月 22 日消息，今日美股开盘，苹果公司股价上涨 1.56%，报 309.74 美元 / 股，其总市值达到 4.5 万亿美元（现汇率约合 30.65 万亿元人民币）。 IT之家注意到，进入 5 月之后，苹果股价连创新高。5 月 6 日，该公司创下 287.51 美元的收盘纪录。5 月 15 日，该…</description>
-      <source>IT之家 24h</source>
-      <category>IT之家 24h</category>
-    </item>
-    <item>
-      <title>终于把甲骨文的壳撬开了，几十次终于成功一次。</title>
-      <link>https://linux.do/t/topic/2233261</link>
-      <guid>https://linux.do/t/topic/2233261</guid>
-      <description>看佬又们天天开服务器，心养得很每次去都是ABC，天天ABC。今天终于进去了。 分析下我的填写吧资料吧 W10,QQ邮箱，家庭宽带，谷歌无痕浏览器，无VPN 填写方案： 二、验证邮件前信息填写 国家 / 地区：选「中国」 名字：填写真实中文名字 姓：填写真实中文姓氏 邮件：填写常用 Gmail 邮箱 注意：关闭 VPN 发送邮件 → 打开 VPN 点击邮件链…</description>
+      <title>大佬求指教 plus全自动</title>
+      <link>https://linux.do/t/topic/2233953</link>
+      <guid>https://linux.do/t/topic/2233953</guid>
+      <description>请问现在有浏览器扩展或者油猴脚本能够从邮箱注册到用paypal接吗完成全过程自动化的项目吗 1 个帖子 - 1 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>想听听各位前辈对大学生的建议</title>
-      <link>https://linux.do/t/topic/2233250</link>
-      <guid>https://linux.do/t/topic/2233250</guid>
-      <description>现在大学生活很迷茫，索性进入了这个交流圈，感受到了温柔，也学到了很多，但生活中还是有很多迷茫，各种复杂的人际关系 2 个帖子 - 2 位参与者 阅读完整话题</description>
+      <title>深夜内耗（慎入）-》合租后的生活失序</title>
+      <link>https://linux.do/t/topic/2233948</link>
+      <guid>https://linux.do/t/topic/2233948</guid>
+      <description>以下内容可能有些负能量，佬友们权当看个乐子。 高一的同学大学毕业后二战考公失败，被我建议来深圳，起初我是想让他暂住在我这里，等过了试岗期，稳定下来再去找离公司近的房子。但是现在他试岗期过了，感觉他也没想法要找房子，因为我住的是酒店式公寓，其实也就是酒店，空间很有限，我自己的电脑桌子跟显示器也让给他用，回到家我感觉缺少一点独处空间，之前下班回来我喜欢放点轻音…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>非必要不抽奖感谢管理解封 懂级别的佬进来</title>
-      <link>https://linux.do/t/topic/2233235</link>
-      <guid>https://linux.do/t/topic/2233235</guid>
-      <description>不知不觉来论坛两年了，近期抽奖规则疏忽导致被大佬连续举报两条然后被禁言了， 另外这个违规提示什么时候才能消失？是否影响升级呢？？ 7 个帖子 - 6 位参与者 阅读完整话题</description>
+      <title>sub2api测活浏览器插件（参考佬友）</title>
+      <link>https://linux.do/t/topic/2233929</link>
+      <guid>https://linux.do/t/topic/2233929</guid>
+      <description>摸鱼时间让Ai写了个sub2api自动测活工具 开发调优 感谢站里的佬友贡献的公益站 有时候佬们贡献公益站出现大量掉号的情况，请求的时候会挨个去轮询，所以下游可能会长时间导致持续链接却没有响应的状态。 然后，就有了这个自动测活工具脚本，测试过的账号会根据相应的结果自动开启或关闭账号 。 // ==UserScript== // @name Sub2API…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>free号有没有申诉成功的可能性</title>
-      <link>https://linux.do/t/topic/2233222</link>
-      <guid>https://linux.do/t/topic/2233222</guid>
-      <description>我r了，今天注册的号还没用呢就给封了 3 个帖子 - 3 位参与者 阅读完整话题</description>
+      <title>出一个《年轻人的平价 HI-FI 指南》如何？</title>
+      <link>https://linux.do/t/topic/2233928</link>
+      <guid>https://linux.do/t/topic/2233928</guid>
+      <description>打算用两到三个帖子的时间去讲述我是怎么烧起HI-FI来的，和L站的主要讨论内容有很大区别，看看有没有人想看（ 内容大致是什么是声音，声学设备如何对声音进行量化，如何获得更好听的声音，风格化的声音，主要也是买了新耳机新设备，可以去写这样的帖子了。 大部分人都对声音本身没有什么认知，感觉到难受就是难听这样，并没有对怎么样是好听有概念，不过不学乐理的是很难理解到…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>[时代眼泪]中信暗黑破坏神世界卡在apple pay里变成黑貔貅了</title>
-      <link>https://linux.do/t/topic/2233216</link>
-      <guid>https://linux.do/t/topic/2233216</guid>
-      <description>当然，除了装逼以外，没什么用。 这张卡也算是时代的眼泪了吧（虽然也没几年就是了），一开始声称是只发行1w张。 当时楼主为了抢到这张卡，在手游里面真是肝了好久。一开始拿到手真是爱不释手啊，但不知道中信到底是怎么搞的，卡越发越多，权益一砍再砍，真是完全没有契约精神 ，这让卡也慢慢的被楼主给冷漠了。 直到最近刷小红书，发现这张卡在apple pay里面变成黑貔貅…</description>
+      <title>claude desktop用第三方订阅，对话历史全是untitled</title>
+      <link>https://linux.do/t/topic/2233922</link>
+      <guid>https://linux.do/t/topic/2233922</guid>
+      <description>windows上安装的claude desktop，接入第三方api，发现对话历史里，全是untitled，不会自动生成命名，有什么解决方案么 5 个帖子 - 2 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>Any解封了？</title>
-      <link>https://linux.do/t/topic/2233214</link>
-      <guid>https://linux.do/t/topic/2233214</guid>
-      <description>今天突发奇想登陆之前的账号，发现账号解封了，我的3k多刀又回来了 6 个帖子 - 4 位参与者 阅读完整话题</description>
+      <title>codex跳过接受验证码教程</title>
+      <link>https://linux.do/t/topic/2233911</link>
+      <guid>https://linux.do/t/topic/2233911</guid>
+      <description>1、在cc switch中找到open ai官方，查看其中的auth.json文件 2、使用[ https://chatgpt.com/api/auth/session ]去找到相关的信息： 下面内容都可以从这个网站里获取： { “auth_mode”: “chatgpt”, “OPENAI_API_KEY”: null, “tokens”: { “id_…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>辅酶q10，200mg每粒的会不会超量</title>
-      <link>https://linux.do/t/topic/2233206</link>
-      <guid>https://linux.do/t/topic/2233206</guid>
-      <description>看了些推荐辅酶q10的视频，感觉挺有道理的，但是自己去京东自营搜到一款京造200mg每粒，这个会过量吗？会有什么危害吗？ 补充一下：我有时候会熬夜，但长期白天嗜睡易疲劳。不知道是不是缺这东西导致的。 1 个帖子 - 1 位参与者 阅读完整话题</description>
+      <title>发现个B站邀请码（过期100年）</title>
+      <link>https://linux.do/t/topic/2233908</link>
+      <guid>https://linux.do/t/topic/2233908</guid>
+      <description>今年刚刚发现，主要在找pc端的稍后再看在哪发现的 2 个帖子 - 1 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>想问下sub2api 搭建完无法使用</title>
-      <link>https://linux.do/t/topic/2233202</link>
-      <guid>https://linux.do/t/topic/2233202</guid>
-      <description>本人新手小白，用的广州腾讯云服务器，搭建之后sub2网站能进去，但是接入codex一直正在思考，是域名没备案的原因吗，我把codex的config 填写云服务器的内网地址还是不行 2 个帖子 - 2 位参与者 阅读完整话题</description>
+      <title>谷歌这新产品也太乱了</title>
+      <link>https://linux.do/t/topic/2233896</link>
+      <guid>https://linux.do/t/topic/2233896</guid>
+      <description>打开旧antigravity提示我更新，给我安装了个白反重力，到这里都没什么问题 但是你这旧的antigravity废弃了换成antigravity IDE也没跟我说啊 我还在傻傻的点原来的antigravity，然后还有很反人类的一点，它帮你安装的白反重力不是最新版的 所以我就陷入了这个循环：打开旧的反重力 → 提示更新 → 更新完了打开白反重力 → 白…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>ubuntu 22.04里用中转站报错</title>
-      <link>https://linux.do/t/topic/2233189</link>
-      <guid>https://linux.do/t/topic/2233189</guid>
-      <description>在ubuntu里面用一叶知秋的codex为啥报这个错嘞 4 个帖子 - 4 位参与者 阅读完整话题</description>
+      <title>咨询下各位佬，今天cpa的plus号是不是不能生图了？</title>
+      <link>https://linux.do/t/topic/2233891</link>
+      <guid>https://linux.do/t/topic/2233891</guid>
+      <description>{ “message”: “auth_not_found: no auth available (providers=codex, model=gpt-5.4-mini)”, “type”: “server_error”, “code”: “internal_server_error” } 报错是这个，不知道为啥生图一直要用5.4mini，之前在codex…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>软考泄题？太离谱了！</title>
-      <link>https://linux.do/t/topic/2233182</link>
-      <guid>https://linux.do/t/topic/2233182</guid>
-      <description>今天参加了软考系统架构师的考试，感觉今年选择和案例分析还怪偏的。物联网那方面的真的不知道啊。论文稍微好一点，高并发至少还有话说。 晚上刷刷帖子，发现有人说软考 泄题 。然后就去看，真的，题目一模一样，太离谱了！！！ 下面是一个发在微博的帖子，最早泄题的貌似是一个公众号，题灯教育。现在公众号已经删了部分的推文，但是其他的已经被截下来了。我这里转几张。 离大谱…</description>
+      <title>为什么本地安装的CPA无法使用AI 提供商？</title>
+      <link>https://linux.do/t/topic/2233886</link>
+      <guid>https://linux.do/t/topic/2233886</guid>
+      <description>我本地安装的cpa，通过vscode的codex插件使用cpa，已经按照官方教程配置好了config.toml，导入的json账号都能正常使用，但是为什么无法使用 AI 提供商呢？在OpenAI 兼容提供商里面添加的账号，模型能获取成功，账号都能测试成功。但是在vscode里好像就是无法调用？望有检验的佬指导解决一下，谢谢 3 个帖子 - 3 位参与者 阅…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>[深夜福利等待篇]你们是在等我还是在等他？</title>
-      <link>https://linux.do/t/topic/2233169</link>
-      <guid>https://linux.do/t/topic/2233169</guid>
-      <description>我觉得你们已经养成习惯了，但是问问你们的内心，你们是在等我还是在等那个深夜菩萨！！ https://linux.do/t/topic/2228399 12 个帖子 - 12 位参与者 阅读完整话题</description>
+      <title>佬们，现在大厂技术岗社招面试还有八股算法那套吗？</title>
+      <link>https://linux.do/t/topic/2233858</link>
+      <guid>https://linux.do/t/topic/2233858</guid>
+      <description>大伙都知道，除非少数岗位，工作中实际写算法的时候非常有限（甚至没有），大多数都是糊业务，有了AI之后更是没写过了。想知道现在大厂面试还是和以前一样的面试套路吗？（如果还招人的话）。 17 个帖子 - 9 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>别人 20 岁就能做的决定，我 30 岁还在犹豫</title>
-      <link>https://linux.do/t/topic/2233160</link>
-      <guid>https://linux.do/t/topic/2233160</guid>
-      <description>别人20来岁就能把生活安排得明明白白： 目标清晰、节奏稳定、情绪在线、方向明确。 我30岁了，反而越来越像个经验丰富的迷茫者。 6 个帖子 - 6 位参与者 阅读完整话题</description>
+      <title>一个手机号最多能接几个gpt账号呀</title>
+      <link>https://linux.do/t/topic/2233856</link>
+      <guid>https://linux.do/t/topic/2233856</guid>
+      <description>好像网上找的手机号GPT能识别出来时虚拟手机号吗？有没有能过的手机号 5 个帖子 - 5 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>没想到sub2api也开始加广告了，虽然在不起眼的代理区域</title>
-      <link>https://linux.do/t/topic/2233153</link>
-      <guid>https://linux.do/t/topic/2233153</guid>
-      <description>今天刚更的v0.1.310版本，妹想到呀，浓眉大眼的sub2api都加上了代理IP的广告，虽然只是在很不起眼的添加/编辑账号的那个modal中 看这个commit确实是今天刚加的 1 个帖子 - 1 位参与者 阅读完整话题</description>
+      <title>海鲜上淘iPhone，三年的电池充电次数几十次，健康度百分百，靠谱吗？</title>
+      <link>https://linux.do/t/topic/2233853</link>
+      <guid>https://linux.do/t/topic/2233853</guid>
+      <description>淘个二手的iPhone，问了下爱思和沙漏都是全绿，卖家说是全原无修，电池看了下是23年的，但是充电次数只有三四十次，健康度爱思显示100%，沙漏显示103%，这合理吗，总是感觉哪里怪怪的，是不是改过数据了 （对比了下爱思和沙漏的那些参数号都能对得上，但是有的日期差个几天。） 10 个帖子 - 6 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>hy2作为落地，速度的确快，但入口reality小水管怎么破啊。</title>
-      <link>https://linux.do/t/topic/2233148</link>
-      <guid>https://linux.do/t/topic/2233148</guid>
-      <description>落地是netcup，直接连hy2，速度杠杆的。但不抗啊。 所以日本弄了个nat 放reality做入口，但小水管，万人骑，标100Mbps共享还。速度慢呢。 怎么破？ 追记：话说tuic速度貌似更快呢。是不是可以拿来做出口取代hy2？ 直接hy2？封了换机器，当月抛。变相长期用？ 还是稳一台日本独立机？比如conoha也行，价格只有sakura的1/2。当…</description>
+      <title>大佬们就是想问一句就是怎么快速提升linuxdo的等级呢</title>
+      <link>https://linux.do/t/topic/2233847</link>
+      <guid>https://linux.do/t/topic/2233847</guid>
+      <description>大佬们就是想问一句就是怎么快速提升linuxdo的等级呢，我想看更高级的帖子啊 9 个帖子 - 6 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>新人报道，向各位大佬们问好！</title>
-      <link>https://linux.do/t/topic/2233135</link>
-      <guid>https://linux.do/t/topic/2233135</guid>
-      <description>终于进来了！感谢管理员大大！从谷歌搜索知道L站的，我真的超喜欢L站的氛围w，祝L站越办越好，我的目前方向是AI for Science，希望和大家多多交流，一起进步！ 5 个帖子 - 5 位参与者 阅读完整话题</description>
+      <title>pro模型太可恶了</title>
+      <link>https://linux.do/t/topic/2233839</link>
+      <guid>https://linux.do/t/topic/2233839</guid>
+      <description>gpt的pro模型除了200刀pro订阅还有什么办法能爽用嘛/(ㄒoㄒ)/~~，用他来进行复杂问题的讨论真的好爽，要忍不住了 3 个帖子 - 3 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>现在可以去哪里下载比较纯净的 win11 或者 win10 镜像呢?</title>
-      <link>https://linux.do/t/topic/2233075</link>
-      <guid>https://linux.do/t/topic/2233075</guid>
-      <description>有一台备用机器，之前重装过，现在想用 codex 居然说我的 windows 版本不支持，遂打算升级到 win11，结果也升级不了，这个原来是用的一个网吧镜像重装的… 请问下各位佬有没有什么比较纯净一点的 win11 镜像下载能一步到位的 13 个帖子 - 13 位参与者 阅读完整话题</description>
+      <title>避坑Lain.sh的服务，MJJ慎重选择</title>
+      <link>https://linux.do/t/topic/2233838</link>
+      <guid>https://linux.do/t/topic/2233838</guid>
+      <description>第一：家宽不支持push 第二：第一次注册的邮箱不支持更改，即使你原邮箱无法再使用了管理不给改邮箱 第三：处理人员好像以为除了他家没别的鸡能用了一样 第四：服务器都非常拉跨，实际使用5个半月 第五：祝早日倒闭 1 个帖子 - 1 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>有没有佬在做自媒体的矩阵项目呀，一起来交流交流</title>
-      <link>https://linux.do/t/topic/2233017</link>
-      <guid>https://linux.do/t/topic/2233017</guid>
-      <description>现在发现，谁掌握了流量谁就有话语权，我这有好多的项目推不出去，有佬做矩阵吗，想交流一下经验 2 个帖子 - 2 位参与者 阅读完整话题</description>
+      <title>目前大家还知道哪些渠道白嫖服务器？</title>
+      <link>https://linux.do/t/topic/2233837</link>
+      <guid>https://linux.do/t/topic/2233837</guid>
+      <description>目前大家还知道哪些渠道白嫖服务器？我目前看到站内的就一直反反复复那几个 3 个帖子 - 3 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>手持1080Ti+全新2080Ti/3090，是直接换3090用还是卖了换50系呢，又或者全不换当传家宝（）</title>
-      <link>https://linux.do/t/topic/2233014</link>
-      <guid>https://linux.do/t/topic/2233014</guid>
-      <description>如题，现在有2台电脑在使用，一台是13700k+1080ti，另外一台12600k+3060，然后手里有以前朋友送的礼物，全新的公版2080ti和rog3090（就是当时贵的时候送的，现在看来好像亏大了），但我因为感觉没必要就连拆都没拆，现在因为搬家了，电脑打算拆机清清灰，顺便就是考虑升级一下吧，现在就是不确定直接换3090来用，还是卖了去买个5080？5…</description>
+      <title>马上高考了，用AI做了一张数学押题卷</title>
+      <link>https://linux.do/t/topic/2233836</link>
+      <guid>https://linux.do/t/topic/2233836</guid>
+      <description>使用了Antigravity的Gemini 3.5 Flash模型，做这个东西搓掉了我40%的5h limit 看到它搜索了往届的高考真题，并模仿着出的 明天我将亲自尝试一下，不知道它出的怎么样 不得不感叹现在的AI真是强大啊 math_exam_2026.pdf (178.5 KB) math_exam_2026_solutions.pdf (239.0…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>申请MIMOapi,搞笑的小米团体</title>
-      <link>https://linux.do/t/topic/2232993</link>
-      <guid>https://linux.do/t/topic/2232993</guid>
-      <description>我原来写的申请+api付款截图死活不通过，换个邮箱随便让ai生成几百字就过了。。。 1 个帖子 - 1 位参与者 阅读完整话题</description>
+      <title>举报自己的帖子来删帖影响三级指标吗</title>
+      <link>https://linux.do/t/topic/2233826</link>
+      <guid>https://linux.do/t/topic/2233826</guid>
+      <description>举报自己的帖子会不会导致指标里被举报的增加 3 个帖子 - 3 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>gemini学生转pixel的问题，需要等学生到期么</title>
-      <link>https://linux.do/t/topic/2232991</link>
-      <guid>https://linux.do/t/topic/2232991</guid>
-      <description>如题，也是收到邮件了，月底前要二验，用banana修改的nus学生卡和缴费单过不了二验。那么问题来了，转pixel需要等学生账号过期才能验证么，还是还在学生白嫖期内也可以？ 5 个帖子 - 4 位参与者 阅读完整话题</description>
+      <title>十年前的今天发生了什么</title>
+      <link>https://linux.do/t/topic/2233806</link>
+      <guid>https://linux.do/t/topic/2233806</guid>
+      <description>2026年5月24日，是哔哩哔哩董事长兼CEO陈睿发现倒闭变质规律的十周年。 倒闭变质规律揭示了B站的发展总是从变质开始的，当变质发展到一定程度，就会转化为倒闭，并开始一轮新的变质。 B站的变质与倒闭，都是由陈睿与蒙古上单的对立统一关系引起的。矛盾双方的相互斗争促使B站不断积累变质，而当斗争激化到临界点时，你所热爱的会变成你的生活，而陈睿的麻麻就会发生血光…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>黑苹果双系统的可用性</title>
-      <link>https://linux.do/t/topic/2232943</link>
-      <guid>https://linux.do/t/topic/2232943</guid>
-      <description>有没有用过黑苹果的佬友，我的配置是i5-12400f，华硕b660m主板，rx6600显卡，想试试双系统，macos办公，windows打游戏，黑苹果办公可以吗 27 个帖子 - 12 位参与者 阅读完整话题</description>
+      <title>Oracle 申请的 4c24g arm 没有“始终免费” 的标签，是不是收费的呢</title>
+      <link>https://linux.do/t/topic/2233804</link>
+      <guid>https://linux.do/t/topic/2233804</guid>
+      <description>上面一个是 1核1G 的 AMD 服务器，有显示始终免费的标签， 下面一个是 4核24G的ARM服务器，选服务器时有&quot;始终免费&quot;的标签，不明白为什么创建实例后没有显示，有佬知道吗？ 6 个帖子 - 5 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>个人资料删除不掉了</title>
-      <link>https://linux.do/t/topic/2232933</link>
-      <guid>https://linux.do/t/topic/2232933</guid>
-      <description>之前做的个人资料，个人认为不是很好，然后想换，结果换不了了，我靠 5 个帖子 - 5 位参与者 阅读完整话题</description>
+      <title>牛子小助手——一个所有佬友都能用得上的小助手</title>
+      <link>https://linux.do/t/topic/2233803</link>
+      <guid>https://linux.do/t/topic/2233803</guid>
+      <description>本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>入金选usdt还是usdc 哪个好啊 哪位大佬给解释一下</title>
-      <link>https://linux.do/t/topic/2232924</link>
-      <guid>https://linux.do/t/topic/2232924</guid>
-      <description>币安入金还有各种虚拟卡入金 有时候会有usdc，这个和usdt 哪个好啊？有什么区别和注意事项吗？为啥有的地方推荐USDC呢？ 12 个帖子 - 10 位参与者 阅读完整话题</description>
+      <title>纳尼？你们是怎么升级的，我怎么感觉我一直都没升级呢</title>
+      <link>https://linux.do/t/topic/2233802</link>
+      <guid>https://linux.do/t/topic/2233802</guid>
+      <description>如题，天天水，咋还没有升级呢，佬们是怎么升级的，请指教！ 5 个帖子 - 5 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>怎么关闭cursor的后台resume？每次resume都会消耗次数</title>
-      <link>https://linux.do/t/topic/2232914</link>
-      <guid>https://linux.do/t/topic/2232914</guid>
-      <description>有佬知道吗，还是只能提示词约束 1 个帖子 - 1 位参与者 阅读完整话题</description>
+      <title>我在用 CC-switch，最近看到 CCX、EchoBird、Code-Switch-R，这四个工具有哪些区别？</title>
+      <link>https://linux.do/t/topic/2233801</link>
+      <guid>https://linux.do/t/topic/2233801</guid>
+      <description>我目前主要在用 cc-switch，用来管理 Claude Code / Gemini CLI 的供应商切换、MCP、Skills 等，感觉挺好用的。 最近又刷到另外三个类似项目： • ccx • EchoBird • code-switch-R 想请用过的小伙伴帮忙详细对比一下，这四个工具分别主要解决什么问题？各自的定位和优缺点是什么？ 7 个帖子 -…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>Paypal Plus 成本大赏，1毛钱左右吧</title>
-      <link>https://linux.do/t/topic/2232913</link>
-      <guid>https://linux.do/t/topic/2232913</guid>
-      <description>最近Plus开通了不少。统计了一下基本成本。 Paypay接码： 1块钱一个号，可以开通20-30个账号，有佬友开了50个。就算一个号5分钱 邮箱：我用icloud和域名edu邮箱。成本算5分，icloud本来一直在开，就算附加服务。6块钱可以开900个邮箱。域名10块买的，理论也是无限 时间成本：用L站的注册机，2-3min一个号吧。每天弄2个。也就看个…</description>
+      <title>有那么一瞬间我以为linuxdo改版了</title>
+      <link>https://linux.do/t/topic/2233796</link>
+      <guid>https://linux.do/t/topic/2233796</guid>
+      <description>1 个帖子 - 1 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>各位大佬求分享一下使用的虚拟卡和经验</title>
-      <link>https://linux.do/t/topic/2232893</link>
-      <guid>https://linux.do/t/topic/2232893</guid>
-      <description>各位大佬都用什么visa和万事达呢，请请教一下，可以打在评论区，互相学习 4 个帖子 - 3 位参与者 阅读完整话题</description>
+      <title>tui工具为啥默认都不显示 当前工作路径呢</title>
+      <link>https://linux.do/t/topic/2233792</link>
+      <guid>https://linux.do/t/topic/2233792</guid>
+      <description>输入框下面增加一个当前目录不是很清爽，为啥都不搞一个，好多项目来回切换都搞不清楚哪个是哪个。 5 个帖子 - 5 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>没想到Claude这么费token</title>
-      <link>https://linux.do/t/topic/2232892</link>
-      <guid>https://linux.do/t/topic/2232892</guid>
-      <description>一直认为claude是中文耗token，没想到一个英文小说大纲比其他几家多了30%。 终于明白opus 4.7比gpt5.5 coding都还耗token的原因了 2 个帖子 - 2 位参与者 阅读完整话题</description>
+      <title>「病友」我升级了豆包语言画像，进来让豆包接住你</title>
+      <link>https://linux.do/t/topic/2233789</link>
+      <guid>https://linux.do/t/topic/2233789</guid>
+      <description>我现在已经精准戳中、完全共鸣、一秒共情、狠狠get、彻底通透、百分百适配、直击灵魂、说到心坎、戳到痛处、说到点子上、完全戳中、彻底明白、深度理解、狠狠同感、极度认同、完全同感、太对味了、太戳人了、太到位了、太真实了、太扎心了、太硬核了、太直白了、太干脆了、太不墨迹了、太一针见血了、太开门见山了、太单刀直入了、太不铺垫了、太不客套了、太不煽情了、直接破防了、…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>any登不上了吗</title>
-      <link>https://linux.do/t/topic/2232890</link>
-      <guid>https://linux.do/t/topic/2232890</guid>
-      <description>有没有佬知道这是什么情况 原来是昨天在openclash上把部分策略换成直连之后忘了切回来了，重新切了下代理就好了 9 个帖子 - 6 位参与者 阅读完整话题</description>
+      <title>【开源推广】给opencode做了个实体状态灯</title>
+      <link>https://linux.do/t/topic/2233784</link>
+      <guid>https://linux.do/t/topic/2233784</guid>
+      <description>本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色…</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>L站的佬友有没有书单推荐</title>
-      <link>https://linux.do/t/topic/2232886</link>
-      <guid>https://linux.do/t/topic/2232886</guid>
-      <description>发现自己最近看的都是需要丢掉脑子的网络小说，想看点传统书籍补补脑子了 文笔和逻辑可以的网络小说也可以 3 个帖子 - 3 位参与者 阅读完整话题</description>
+      <title>outlook注册机有开源项目吗</title>
+      <link>https://linux.do/t/topic/2233779</link>
+      <guid>https://linux.do/t/topic/2233779</guid>
+      <description>想搞一些outlook邮箱，有没有注册机之类的开源项目呢 3 个帖子 - 3 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
     <item>
-      <title>当你拥有无限的opus额度，怎么物尽其用</title>
-      <link>https://linux.do/t/topic/2232873</link>
-      <guid>https://linux.do/t/topic/2232873</guid>
-      <description>其实也不是无限，一天5000块人民币的额度，只能做工作相关的或者个人用来学习，但工作最多能让我用掉1k额度，不敢给自己挣钱，大家觉得怎么用比较好 13 个帖子 - 12 位参与者 阅读完整话题</description>
+      <title>Juice number 怎么1310270了</title>
+      <link>https://linux.do/t/topic/2233772</link>
+      <guid>https://linux.do/t/topic/2233772</guid>
+      <description>1 个帖子 - 1 位参与者 阅读完整话题</description>
       <source>LinuxDo 最新话题</source>
       <category>LinuxDo 最新话题</category>
     </item>
@@ -1551,162 +1743,162 @@
       <category>NetNewsWire Releases</category>
     </item>
     <item>
-      <title>test(codex): avoid forced-tool allowlist flake</title>
-      <link>https://github.com/openclaw/openclaw/commit/ef7e652ec40a8a476d9b340fc9b57c47ba423304</link>
-      <guid>https://github.com/openclaw/openclaw/commit/ef7e652ec40a8a476d9b340fc9b57c47ba423304</guid>
-      <description>test(codex): avoid forced-tool allowlist flake</description>
+      <title>fix(scripts): run Windows check commands through shims</title>
+      <link>https://github.com/openclaw/openclaw/commit/8a94e825cd5fe2babe1308d722710e06950fc448</link>
+      <guid>https://github.com/openclaw/openclaw/commit/8a94e825cd5fe2babe1308d722710e06950fc448</guid>
+      <description>fix(scripts): run Windows check commands through shims</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix: avoid gateway startup event-loop stalls</title>
-      <link>https://github.com/openclaw/openclaw/commit/3e8fd4944fe1139650b9a64fa7373eb184c1c540</link>
-      <guid>https://github.com/openclaw/openclaw/commit/3e8fd4944fe1139650b9a64fa7373eb184c1c540</guid>
-      <description>fix: avoid gateway startup event-loop stalls Defer Gateway channel startup until after readiness, remove startup model prewarm, and move model catalog data onto manifest/static pa…</description>
+      <title>fix: aggressively prune retired model catalogs</title>
+      <link>https://github.com/openclaw/openclaw/commit/f4b5e58231c7bfd3176b7d757f0ea5bf5818be4a</link>
+      <guid>https://github.com/openclaw/openclaw/commit/f4b5e58231c7bfd3176b7d757f0ea5bf5818be4a</guid>
+      <description>fix: aggressively prune retired model catalogs</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>test(codex): type forced-tool request mock</title>
-      <link>https://github.com/openclaw/openclaw/commit/f6ab188db0f39098f255a114c1160151f5282f2e</link>
-      <guid>https://github.com/openclaw/openclaw/commit/f6ab188db0f39098f255a114c1160151f5282f2e</guid>
-      <description>test(codex): type forced-tool request mock</description>
+      <title>fix: harden package URL downloads (#85578)</title>
+      <link>https://github.com/openclaw/openclaw/commit/7fffbf60b07171c2b745d545463c0099420f8991</link>
+      <guid>https://github.com/openclaw/openclaw/commit/7fffbf60b07171c2b745d545463c0099420f8991</guid>
+      <description>fix: harden package URL downloads (#85578) * fix: harden package URL downloads Guard package acceptance URL downloads with HTTPS-only validation, no embedded credentials, private/…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>test(codex): avoid forced-tool turn flake</title>
-      <link>https://github.com/openclaw/openclaw/commit/8d1ab83cb3f7dab7a9e013769a6147f7f49f956a</link>
-      <guid>https://github.com/openclaw/openclaw/commit/8d1ab83cb3f7dab7a9e013769a6147f7f49f956a</guid>
-      <description>test(codex): avoid forced-tool turn flake</description>
+      <title>ci: retry npm Telegram release dispatch</title>
+      <link>https://github.com/openclaw/openclaw/commit/35969ff4400ae8aea188d340ee5b6b0c4e8545b9</link>
+      <guid>https://github.com/openclaw/openclaw/commit/35969ff4400ae8aea188d340ee5b6b0c4e8545b9</guid>
+      <description>ci: retry npm Telegram release dispatch</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>test(codex): avoid startup cleanup socket flake</title>
-      <link>https://github.com/openclaw/openclaw/commit/9ede882f08ebb035199dca3274f499549af426c2</link>
-      <guid>https://github.com/openclaw/openclaw/commit/9ede882f08ebb035199dca3274f499549af426c2</guid>
-      <description>test(codex): avoid startup cleanup socket flake</description>
+      <title>test: isolate Telegram spooled timeout from stall watchdog</title>
+      <link>https://github.com/openclaw/openclaw/commit/a04566da11ce84921b7bbedc64505209be320728</link>
+      <guid>https://github.com/openclaw/openclaw/commit/a04566da11ce84921b7bbedc64505209be320728</guid>
+      <description>test: isolate Telegram spooled timeout from stall watchdog</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(gateway): pin relative state dir at startup</title>
-      <link>https://github.com/openclaw/openclaw/commit/2e5be0c7ff9b90cc85bb05780ade3d4155992381</link>
-      <guid>https://github.com/openclaw/openclaw/commit/2e5be0c7ff9b90cc85bb05780ade3d4155992381</guid>
-      <description>fix(gateway): pin relative state dir at startup * fix(gateway): normalize explicit state dir overrides at startup * test(gateway): simplify state-dir startup coverage * test: fix…</description>
+      <title>fix(exec-approvals): add .catch() to expiry delivery fire-and-forget …</title>
+      <link>https://github.com/openclaw/openclaw/commit/9dc1afe9bbd77353cc84d01c7bfb17ad6210b2c4</link>
+      <guid>https://github.com/openclaw/openclaw/commit/9dc1afe9bbd77353cc84d01c7bfb17ad6210b2c4</guid>
+      <description>fix(exec-approvals): add .catch() to expiry delivery fire-and-forget (#83106) * fix(exec-approvals): add .catch() to expiry delivery fire-and-forget When exec-approval expiry fire…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(whatsapp): persist inbound delivery in plugin state (#85506)</title>
-      <link>https://github.com/openclaw/openclaw/commit/b47bace014238839e188aafee03904dac2679b9a</link>
-      <guid>https://github.com/openclaw/openclaw/commit/b47bace014238839e188aafee03904dac2679b9a</guid>
-      <description>fix(whatsapp): persist inbound delivery in plugin state (#85506) * fix(whatsapp): persist inbound delivery in plugin state * fix(whatsapp): type durable inbound payload * fix(chan…</description>
+      <title>fix(memory-core): avoid double bulleting promoted snippets (#85724)</title>
+      <link>https://github.com/openclaw/openclaw/commit/983a3b94c9e31d2b33816c7c58c324bfc12a1476</link>
+      <guid>https://github.com/openclaw/openclaw/commit/983a3b94c9e31d2b33816c7c58c324bfc12a1476</guid>
+      <description>fix(memory-core): avoid double bulleting promoted snippets (#85724)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>test(codex): make sandbox cleanup proof deterministic</title>
-      <link>https://github.com/openclaw/openclaw/commit/b4b2ef192da30158d009f3d34677127093f5c0a9</link>
-      <guid>https://github.com/openclaw/openclaw/commit/b4b2ef192da30158d009f3d34677127093f5c0a9</guid>
-      <description>test(codex): make sandbox cleanup proof deterministic</description>
+      <title>fix(doctor): skip empty entries and memoize routes in plugin session …</title>
+      <link>https://github.com/openclaw/openclaw/commit/ec65b71f5e4f05f67cec089c1ffea89b722f0520</link>
+      <guid>https://github.com/openclaw/openclaw/commit/ec65b71f5e4f05f67cec089c1ffea89b722f0520</guid>
+      <description>fix(doctor): skip empty entries and memoize routes in plugin session repairs (#85718) * fix(doctor): skip empty entries and memoize routes in plugin session repairs runPluginSessi…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(cron): route topic targets through channel plugins</title>
-      <link>https://github.com/openclaw/openclaw/commit/917549190624adaf42e9e6351564e450871de2bb</link>
-      <guid>https://github.com/openclaw/openclaw/commit/917549190624adaf42e9e6351564e450871de2bb</guid>
-      <description>fix(cron): route topic targets through channel plugins Route cron announce topic target parsing through channel plugin target parsers instead of Telegram-specific cron core code.…</description>
+      <title>ci: avoid duplicate release-check auth headers</title>
+      <link>https://github.com/openclaw/openclaw/commit/6191750debda5f1a93f535699f316e568710d717</link>
+      <guid>https://github.com/openclaw/openclaw/commit/6191750debda5f1a93f535699f316e568710d717</guid>
+      <description>ci: avoid duplicate release-check auth headers</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(agents): simplify subagent completion handoff</title>
-      <link>https://github.com/openclaw/openclaw/commit/f4b92f5e6c70aa33964d38c82b249661d767d530</link>
-      <guid>https://github.com/openclaw/openclaw/commit/f4b92f5e6c70aa33964d38c82b249661d767d530</guid>
-      <description>fix(agents): simplify subagent completion handoff Simplify native subagent completion handoff and remove manual subagent control surfaces. Co-authored-by: brokemac79 &lt;martin_clear…</description>
+      <title>fix: prune retired model catalog entries</title>
+      <link>https://github.com/openclaw/openclaw/commit/b6530beb05da7441f1cbd832d470feb8a06dd4ee</link>
+      <guid>https://github.com/openclaw/openclaw/commit/b6530beb05da7441f1cbd832d470feb8a06dd4ee</guid>
+      <description>fix: prune retired model catalog entries</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>ci(release): allow beta publish after npm preflight</title>
-      <link>https://github.com/openclaw/openclaw/commit/0e3726305bf35d2641d0998665743d3209694140</link>
-      <guid>https://github.com/openclaw/openclaw/commit/0e3726305bf35d2641d0998665743d3209694140</guid>
-      <description>ci(release): allow beta publish after npm preflight</description>
+      <title>ci: authenticate release-check reachability fetches</title>
+      <link>https://github.com/openclaw/openclaw/commit/0c192e29151375b531f16c4e88d205084c04f04e</link>
+      <guid>https://github.com/openclaw/openclaw/commit/0c192e29151375b531f16c4e88d205084c04f04e</guid>
+      <description>ci: authenticate release-check reachability fetches</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>ci(release): isolate npm publish concurrency</title>
-      <link>https://github.com/openclaw/openclaw/commit/9c26b87114c9bdb67cdc33a12e513b288078bd78</link>
-      <guid>https://github.com/openclaw/openclaw/commit/9c26b87114c9bdb67cdc33a12e513b288078bd78</guid>
-      <description>ci(release): isolate npm publish concurrency</description>
+      <title>docs(changelog): note Telegram attachment action fix</title>
+      <link>https://github.com/openclaw/openclaw/commit/c5f1344faf27c8f55d36f2308d807e8ac6b2a2ad</link>
+      <guid>https://github.com/openclaw/openclaw/commit/c5f1344faf27c8f55d36f2308d807e8ac6b2a2ad</guid>
+      <description>docs(changelog): note Telegram attachment action fix</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>ci(release): poll child workflows through actions api</title>
-      <link>https://github.com/openclaw/openclaw/commit/e5dab55acace553becbd92427d1e74db9e28dbcd</link>
-      <guid>https://github.com/openclaw/openclaw/commit/e5dab55acace553becbd92427d1e74db9e28dbcd</guid>
-      <description>ci(release): poll child workflows through actions api</description>
+      <title>fix(telegram): send attachment paths as media</title>
+      <link>https://github.com/openclaw/openclaw/commit/fdf01db62bf362ac62b1c461b0cc4d753d509d53</link>
+      <guid>https://github.com/openclaw/openclaw/commit/fdf01db62bf362ac62b1c461b0cc4d753d509d53</guid>
+      <description>fix(telegram): send attachment paths as media</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>ci(release): retry child workflow polling</title>
-      <link>https://github.com/openclaw/openclaw/commit/c689f71805d4afee08a00b5c52fd965f3d8d0b36</link>
-      <guid>https://github.com/openclaw/openclaw/commit/c689f71805d4afee08a00b5c52fd965f3d8d0b36</guid>
-      <description>ci(release): retry child workflow polling</description>
+      <title>refactor(telegram): simplify action media sends</title>
+      <link>https://github.com/openclaw/openclaw/commit/054002529d611e06aee1e902c891452857debeeb</link>
+      <guid>https://github.com/openclaw/openclaw/commit/054002529d611e06aee1e902c891452857debeeb</guid>
+      <description>refactor(telegram): simplify action media sends</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(release): allow large beta smoke run lists</title>
-      <link>https://github.com/openclaw/openclaw/commit/2ad507c0314b80485aac6aa3c061e2da1126aa90</link>
-      <guid>https://github.com/openclaw/openclaw/commit/2ad507c0314b80485aac6aa3c061e2da1126aa90</guid>
-      <description>fix(release): allow large beta smoke run lists</description>
+      <title>fix(doctor): canonicalize git checkout detection (#85735)</title>
+      <link>https://github.com/openclaw/openclaw/commit/c897384ae96e711fd414695e03a21367a7ff2e8d</link>
+      <guid>https://github.com/openclaw/openclaw/commit/c897384ae96e711fd414695e03a21367a7ff2e8d</guid>
+      <description>fix(doctor): canonicalize git checkout detection (#85735)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(bootstrap): guard bootstrap name checks against undefined names (…</title>
-      <link>https://github.com/openclaw/openclaw/commit/25fa46bd61ea7cefd4f2cf9ca7026fa41635e5ca</link>
-      <guid>https://github.com/openclaw/openclaw/commit/25fa46bd61ea7cefd4f2cf9ca7026fa41635e5ca</guid>
-      <description>fix(bootstrap): guard bootstrap name checks against undefined names (#85523) (#85615) * fix(bootstrap): guard bootstrap name checks against undefined names Add optional chaining t…</description>
+      <title>test(ci): update plugin prerelease checkout expectation</title>
+      <link>https://github.com/openclaw/openclaw/commit/030b7bb4b75f234bf672f6794a7b53d1e2e1dbad</link>
+      <guid>https://github.com/openclaw/openclaw/commit/030b7bb4b75f234bf672f6794a7b53d1e2e1dbad</guid>
+      <description>test(ci): update plugin prerelease checkout expectation</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(cli): waitForever must keep the event loop alive (#85694)</title>
-      <link>https://github.com/openclaw/openclaw/commit/eca9645365865ee75279e0d7fbf70258b6bb3315</link>
-      <guid>https://github.com/openclaw/openclaw/commit/eca9645365865ee75279e0d7fbf70258b6bb3315</guid>
-      <description>fix(cli): waitForever must keep the event loop alive (#85694) `waitForever()` is a public library export used by long-running embeds to block until the host process is asked to ex…</description>
+      <title>ci: persist checkout credentials for release validation</title>
+      <link>https://github.com/openclaw/openclaw/commit/d9f73cfe3349c0de176ff2a81e1d29c9202979bf</link>
+      <guid>https://github.com/openclaw/openclaw/commit/d9f73cfe3349c0de176ff2a81e1d29c9202979bf</guid>
+      <description>ci: persist checkout credentials for release validation</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(cli-output): ignore cumulative usage from result events in stream…</title>
-      <link>https://github.com/openclaw/openclaw/commit/84229d995a34fa660db3bd234aa2152301f37b12</link>
-      <guid>https://github.com/openclaw/openclaw/commit/84229d995a34fa660db3bd234aa2152301f37b12</guid>
-      <description>fix(cli-output): ignore cumulative usage from result events in stream-json parser (#85573) (#85625) * fix(cli-output): ignore cumulative usage from result events in stream-json pa…</description>
+      <title>test(codex): avoid searchable-tool registration flake</title>
+      <link>https://github.com/openclaw/openclaw/commit/5e8c71bf9fba74fe7a5d5b36aee57034ae0ceb26</link>
+      <guid>https://github.com/openclaw/openclaw/commit/5e8c71bf9fba74fe7a5d5b36aee57034ae0ceb26</guid>
+      <description>test(codex): avoid searchable-tool registration flake</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(secrets): show irreversible warning after interactive apply confi…</title>
-      <link>https://github.com/openclaw/openclaw/commit/bb52b54134a6e328a8510cf42dcc3faf74a7ae30</link>
-      <guid>https://github.com/openclaw/openclaw/commit/bb52b54134a6e328a8510cf42dcc3faf74a7ae30</guid>
-      <description>fix(secrets): show irreversible warning after interactive apply confirmation (#85638) Fixes #83883. In `secrets configure`, the one-way-migration irreversibility warning was compu…</description>
+      <title>refactor: simplify doctor repair checks (#83753)</title>
+      <link>https://github.com/openclaw/openclaw/commit/056378efd5823a164d995f9719980f47dcefb70b</link>
+      <guid>https://github.com/openclaw/openclaw/commit/056378efd5823a164d995f9719980f47dcefb70b</guid>
+      <description>refactor: simplify doctor repair checks (#83753)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(agents/harness): pass CLI runtime aliases through to PI in select…</title>
-      <link>https://github.com/openclaw/openclaw/commit/2c3b7eaa7e1ef8f5d5d55ee9f7c37045048944a9</link>
-      <guid>https://github.com/openclaw/openclaw/commit/2c3b7eaa7e1ef8f5d5d55ee9f7c37045048944a9</guid>
-      <description>fix(agents/harness): pass CLI runtime aliases through to PI in selectAgentHarnessDecision (#85631) * fix(agents/harness): pass CLI runtime aliases through to PI in selectAgentHarn…</description>
+      <title>docs(changelog): credit landed bug sweep PRs</title>
+      <link>https://github.com/openclaw/openclaw/commit/24de3047e5f8f6ec9619f205482f37fcbb0052f8</link>
+      <guid>https://github.com/openclaw/openclaw/commit/24de3047e5f8f6ec9619f205482f37fcbb0052f8</guid>
+      <description>docs(changelog): credit landed bug sweep PRs</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
@@ -1733,6 +1925,14 @@
       <description>AI-powered lead outreach for field service contractors Discussion | Link</description>
       <source>Product Hunt</source>
       <category>Product Hunt</category>
+    </item>
+    <item>
+      <title>神舟二十三号发射在即，我国首个太空人体研究计划将实施</title>
+      <link>https://readhub.cn/topic/8tMaQQsKQqW</link>
+      <guid>https://readhub.cn/topic/8tMaQQsKQqW</guid>
+      <description>2026 年 5 月 23 日上午 9 时，神舟二十三号载人飞行任务新闻发布会在酒泉卫星发射中心召开。发布会介绍，此次任务将安排 1 名航天员执行 1 年期驻留试验，这并非时间上两个半年期任务的简单累加，而是要实施我国首个太空人体研究计划，全面获取航天员更长期飞行数据，验证其长期飞行健康保障能力，完善在轨医疗与防护体系，并为科学项目和相关技术验证提供更长期…</description>
+      <source>Readhub 热门</source>
+      <category>Readhub 热门</category>
     </item>
     <item>
       <title>美团外卖前负责人入局餐饮具身模型，元节智能获千万级种子轮融资</title>
@@ -1762,7 +1962,7 @@
       <title>国产自研 600 公斤推力级涡扇发动机首飞成功</title>
       <link>https://readhub.cn/topic/8tMp4Sxiaby</link>
       <guid>https://readhub.cn/topic/8tMp4Sxiaby</guid>
-      <description>我国自主研制的 600 公斤推力级 F406 涡扇发动机双发配装先进气象无人机，于 5 月 23 日圆满完成首次飞行试验验证，标志着我国通航动力领域首次实现中小推力高端涡扇发动机的自主可控与国产化应用，将为低空经济、无人体系建设提供动力支持。 媒体报道 新华社权威快报 | 国产自研 600 公斤推力级涡扇发动机首飞成功 新浪科技 国产自研 600 公斤推力…</description>
+      <description>我国自主研制的 600 公斤推力级 F406 涡扇发动机双发配装先进气象无人机，于 5 月 23 日圆满完成首次飞行试验验证，标志着我国通航动力领域首次实现中小推力高端涡扇发动机的自主可控与国产化应用，将为低空经济、无人体系建设提供动力支持。 媒体报道 国产 600 公斤推力级 F406 涡扇发动机首飞成功 中国科技网 新华社权威快报 | 国产自研 600…</description>
       <source>Readhub 热门</source>
       <category>Readhub 热门</category>
     </item>
@@ -1770,7 +1970,7 @@
       <title>闻泰科技声明：安世荷兰声称公司回避与其沟通完全与事实不符</title>
       <link>https://readhub.cn/topic/8tMp4DAzg7T</link>
       <guid>https://readhub.cn/topic/8tMp4DAzg7T</guid>
-      <description>闻泰科技发布声明称，安世半导体公开声称多次要求沟通未获积极回应及已全面配合审计的说法歪曲事实，企图混淆视听，给市场带来极大误导性。 媒体报道 闻泰科技：安世荷兰声称公司回避与其沟通 与事实不符 网易科技 闻泰科技声明：安世荷兰声称公司回避与其沟通完全与事实不符 华尔街见闻/界面/财联社/钛媒体/新浪科技/IT 之家 事件追踪 2026-02-26 02:1…</description>
+      <description>闻泰科技发布声明称，安世半导体公开声称多次要求沟通未获积极回应及已全面配合审计的说法歪曲事实，企图混淆视听，给市场带来极大误导性。 媒体报道 闻泰科技：安世荷兰声称公司回避与其沟通 与事实不符 网易科技 闻泰科技声明：安世荷兰声称公司回避与其沟通完全与事实不符 华尔街见闻/界面/财联社/钛媒体/新浪科技/IT 之家/和讯网 事件追踪 2026-02-26…</description>
       <source>Readhub 热门</source>
       <category>Readhub 热门</category>
     </item>
@@ -1871,14 +2071,6 @@
       <category>Readhub 热门</category>
     </item>
     <item>
-      <title>REDMI Note 17 系列现身 GSMA 数据库 发布节奏或将提前</title>
-      <link>https://readhub.cn/topic/8tKfQVtdOhm</link>
-      <guid>https://readhub.cn/topic/8tKfQVtdOhm</guid>
-      <description>REDMI Note 17 系列已在 GSMA 数据库完成认证，型号为 26012RN62L、26012RN62Y 和 26012RN62A，主要面向全球及中南美市场，暂未发现中国版、印度版及日本版（支持 FeliCa）型号。其认证时间早于前代 Note 15 系列（2025 年 1 月发布），或于近期亮相，发布时间可能提前。这一变化或与小米推进 Hype…</description>
-      <source>Readhub 热门</source>
-      <category>Readhub 热门</category>
-    </item>
-    <item>
       <title>国内最大直径土压平衡盾构隧道顺利贯通</title>
       <link>https://readhub.cn/topic/8tM8Bp5zWSd</link>
       <guid>https://readhub.cn/topic/8tM8Bp5zWSd</guid>
@@ -1906,12 +2098,12 @@
       <title>美「星舰」按计划完成第 12 次试飞</title>
       <link>https://readhub.cn/topic/8tLvLNSROt3</link>
       <guid>https://readhub.cn/topic/8tLvLNSROt3</guid>
-      <description>当地时间 5 月 22 日，美国太空探索技术公司进行的「星舰」第 12 次试飞按计划完成，第二级「星舰」飞船在印度洋海域完成溅落。 媒体报道 美「星舰」按计划完成第 12 次试飞 界面/格隆汇/华尔街见闻 美「星舰」实施第 12 次试飞 财联社/36Kr/钛媒体 事件追踪 2026-05-23 07:25:10 美「星舰」实施第 12 次试飞 2025-1…</description>
+      <description>当地时间 5 月 22 日，美国太空探索技术公司进行的「星舰」第 12 次试飞按计划完成，第二级「星舰」飞船在印度洋海域完成溅落。 媒体报道 美「星舰」按计划完成第 12 次试飞 界面/格隆汇/华尔街见闻 美「星舰」实施第 12 次试飞 财联社/36Kr/钛媒体 事件追踪 2026-05-23 07:25:10 马斯克SpaceX星舰V3首飞成功，顺利完成…</description>
       <source>Readhub 热门</source>
       <category>Readhub 热门</category>
     </item>
     <item>
-      <title>美「星舰」实施第 12 次试飞</title>
+      <title>马斯克SpaceX星舰V3首飞成功，顺利完成模拟载荷投放测试</title>
       <link>https://readhub.cn/topic/8tLvLQ4El1r</link>
       <guid>https://readhub.cn/topic/8tLvLQ4El1r</guid>
       <description>5 月 22 日美东时间 18 时 30 分（北京时间 23 日 6 时 30 分）左右，美国太空探索技术公司新一代重型运载火箭「星舰」从得克萨斯州发射升空，实施第 12 次试飞。此次试飞启用新一代「星舰」飞船和「超级重型」助推器，搭载升级版「猛禽」发动机，并首次使用重新设计的发射台，主要目标是在真实飞行环境中验证这些新系统和新部件的性能。按计划，火箭第一…</description>
@@ -1991,6 +2183,30 @@
       <category>Simon Willison&#x27;s Blog</category>
     </item>
     <item>
+      <title>These special phone and app features can help protect you from spyware</title>
+      <link>https://techcrunch.com/2026/05/23/you-dont-have-to-click-anything-to-get-hacked-anymore-heres-how-to-fight-back</link>
+      <guid>https://techcrunch.com/2026/05/23/you-dont-have-to-click-anything-to-get-hacked-anymore-heres-how-to-fight-back</guid>
+      <description>Apple, Meta, and Google offer special security modes that provide your devices more secure against targeted spyware attacks. Here are how those modes work, what they do, and how t…</description>
+      <source>TechCrunch</source>
+      <category>TechCrunch</category>
+    </item>
+    <item>
+      <title>Ferrari is using IBM’s AI to create F1 superfans</title>
+      <link>https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans</link>
+      <guid>https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans</guid>
+      <description>IBM and Scuderia Ferrari HP take TechCrunch inside how they are redefining the fan experience.</description>
+      <source>TechCrunch</source>
+      <category>TechCrunch</category>
+    </item>
+    <item>
+      <title>Nuclear startup Deep Fission says it’s going public, again, and I have questions</title>
+      <link>https://techcrunch.com/2026/05/23/nuclear-startup-deep-fission-says-its-going-public-again-and-i-have-questions</link>
+      <guid>https://techcrunch.com/2026/05/23/nuclear-startup-deep-fission-says-its-going-public-again-and-i-have-questions</guid>
+      <description>Deep Fission is seeking an IPO that could raise $157 million, though investors may have trouble buying the nuclear startup&#x27;s story.</description>
+      <source>TechCrunch</source>
+      <category>TechCrunch</category>
+    </item>
+    <item>
       <title>Elon Musk has given up on solar power (on Earth)</title>
       <link>https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth</link>
       <guid>https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth</guid>
@@ -2047,46 +2263,6 @@
       <category>TechCrunch</category>
     </item>
     <item>
-      <title>Kash Patel’s clothing brand website shut down after reports it was hacked</title>
-      <link>https://techcrunch.com/2026/05/22/kash-patels-clothing-brand-website-shut-down-after-reports-it-was-hacked</link>
-      <guid>https://techcrunch.com/2026/05/22/kash-patels-clothing-brand-website-shut-down-after-reports-it-was-hacked</guid>
-      <description>According to users on X, the website was hijacked by hackers in an attempt to trick visitors into installing malware.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
-    </item>
-    <item>
-      <title>Apple says Epic lawsuit shouldn’t reshape App Store rules for all developers</title>
-      <link>https://techcrunch.com/2026/05/22/apple-says-epic-lawsuit-shouldnt-reshape-app-store-rules-for-all-developers</link>
-      <guid>https://techcrunch.com/2026/05/22/apple-says-epic-lawsuit-shouldnt-reshape-app-store-rules-for-all-developers</guid>
-      <description>Apple is asking the Supreme Court to narrow the App Store injunction won by Epic Games and overturn the court’s contempt ruling over external payment fees.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
-    </item>
-    <item>
-      <title>Spotify’s AI bet: more of everything, less of what you want</title>
-      <link>https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want</link>
-      <guid>https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want</guid>
-      <description>Spotify has released a bunch of AI-powered tools that nudge users to create more content. It can be a bit much.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
-    </item>
-    <item>
-      <title>You can no longer Google the word ‘disregard’</title>
-      <link>https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard</link>
-      <guid>https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard</guid>
-      <description>After Google Search&#x27;s AI update, the word &quot;disregard&quot; now effectively breaks the search interface.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
-    </item>
-    <item>
-      <title>We tried Google’s AI glasses and they’re almost there</title>
-      <link>https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there</link>
-      <guid>https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there</guid>
-      <description>Google demoed prototype Android XR glasses that overlay Gemini-powered translation, navigation, and other information directly into your field of view.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
-    </item>
-    <item>
       <title>Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software</title>
       <link>https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html</link>
       <guid>https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html</guid>
@@ -2127,18 +2303,10 @@
       <category>The Hacker News</category>
     </item>
     <item>
-      <title>Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware</title>
-      <link>https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html</link>
-      <guid>https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html</guid>
-      <description>The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to targ…</description>
-      <source>The Hacker News</source>
-      <category>The Hacker News</category>
-    </item>
-    <item>
       <title>Here are 38 Memorial Day deals we recommend for $50 or less</title>
       <link>https://theverge.com/gadgets/935751/memorial-day-2026-best-cheap-tech-deals-under-50</link>
       <guid>https://theverge.com/gadgets/935751/memorial-day-2026-best-cheap-tech-deals-under-50</guid>
-      <description>Massive OLED TVs and Sonos speakers might be stealing the Memorial Day spotlight, but there are also plenty of great deals that won&#x27;t set you back nearly as much. In fact, some of…</description>
+      <description>Massive OLED TVs and Sonos speakers might be stealing the Memorial Day spotlight, but there are also plenty of great deals that won’t set you back nearly as much. In fact, some of…</description>
       <source>The Verge</source>
       <category>The Verge</category>
     </item>
@@ -2151,10 +2319,10 @@
       <category>The Verge</category>
     </item>
     <item>
-      <title>Google&amp;#8217;s AI search is so broken it can &amp;#8216;disregard&amp;#8217; what you&amp;#8217;re looking for</title>
-      <link>https://theverge.com/tech/936176/google-ai-overviews-search-disregard</link>
-      <guid>https://theverge.com/tech/936176/google-ai-overviews-search-disregard</guid>
-      <description>Google&#x27;s AI Overviews are running into an interesting problem right now. Earlier on Friday, if you searched for the term &quot;disregard,&quot; the AI Overview section would include a respo…</description>
+      <title>The man behind the legendary MPC, Roger Linn, stays focused with a single browser tab</title>
+      <link>https://theverge.com/entertainment/936426/mpc-linndrum-roger-linn-questionnaire-music-tech</link>
+      <guid>https://theverge.com/entertainment/936426/mpc-linndrum-roger-linn-questionnaire-music-tech</guid>
+      <description>Roger Linn is a legend in the world of musical instruments. He&#x27;s been at the cutting edge of music technology for decades. He created the LM-1, the first drum machine to use sampl…</description>
       <source>The Verge</source>
       <category>The Verge</category>
     </item>
@@ -2199,20 +2367,28 @@
       <category>The Verge</category>
     </item>
     <item>
-      <title>Twelve South’s AirFly Pro 2 has hit one of its best prices ahead of summer travel</title>
-      <link>https://theverge.com/gadgets/936200/twelve-south-airfly-pro-2-memorial-day-deal-sale</link>
-      <guid>https://theverge.com/gadgets/936200/twelve-south-airfly-pro-2-memorial-day-deal-sale</guid>
-      <description>With Memorial day weekend kicking off the travel season, we’re seeing a lot of deals pop up on travel gadgets, from portable power banks to noise-canceling headphones. One of the…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
+      <title>让 AI 写产品官网还蛮困难，很磨时间，默认出的文案和样式都不太行，有什么技巧么？ 或者有啥神奇的 skill、prompt 可以提高效率？</title>
+      <link>https://v2ex.com/t/1214996</link>
+      <guid>https://v2ex.com/t/1214996</guid>
+      <description>陆陆续续花了接近 3 天时间才改了一版本。 之前是 改完现在是 最初的版本是，AI 直出的文案和样式，文案不说人话，样式也看着着就别扭。 新版是，每一幕和 AI 描述自己的想法然后定制调出来的，个人感官上舒服了很多。 然后想着未来可能会用 AI 做更多新产品，手动调也太麻烦了，大家是套模板还是有啥神奇的 skill 或 prompt 可以提高效率么？求分享…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
     </item>
     <item>
-      <title>Govee’s colorful, JBL-tuned Lamp Pro 2 is matching its best price to date</title>
-      <link>https://theverge.com/gadgets/935685/govee-table-lamp-2-pro-owala-freesip-sway-water-bottle-deal-sale</link>
-      <guid>https://theverge.com/gadgets/935685/govee-table-lamp-2-pro-owala-freesip-sway-water-bottle-deal-sale</guid>
-      <description>They say that Memorial Day marks the unofficial start of summer. I have my doubts given the less-than-balmy weather in many parts of the US this weekend, though that doesn’t mean…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
+      <title>cc-switch 的全局路由方式，会有类似 sub2api 的特征，触发账号被 A 社风控吗?</title>
+      <link>https://v2ex.com/t/1214986</link>
+      <guid>https://v2ex.com/t/1214986</guid>
+      <description>cc-switch 的全局路由方式,会有类似 sub2api 的特征,触发账号被 A 社风控吗? 本地已有 socks5 端口已在家宽 IP 落地， 打算在本地隔离虚拟机环境内(虚拟机 Host only ，限制了只能跟这个 socks5 产生网络通信)， 虚拟机内各种配置指向 cc-switch ，(特别是 A 社的原生 API)， cc-switch…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>OpenAI 给我道歉了</title>
+      <link>https://v2ex.com/t/1214984</link>
+      <guid>https://v2ex.com/t/1214984</guid>
+      <description>我的 pro 账号收到 Cyber Abuse 的警告，然后我发起的申诉。</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
     </item>
     <item>
       <title>我做了一个 AI Token 市场定价的撮合系统，实现了真正的 Token 自由😂，感兴趣的来看看！</title>
@@ -2407,30 +2583,6 @@
       <category>V2EX 技术</category>
     </item>
     <item>
-      <title>windows11 通行密钥出现问题</title>
-      <link>https://v2ex.com/t/1214841</link>
-      <guid>https://v2ex.com/t/1214841</guid>
-      <description>大家有用 windows11 的遇到用通行密钥登录报错的吗？ 通行密钥登录出现问题</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>感觉 GPT 5.5 最近降智实在离谱</title>
-      <link>https://v2ex.com/t/1214839</link>
-      <guid>https://v2ex.com/t/1214839</guid>
-      <description>一个 example.com 能耗半小时，都快降到 Gemini 水平了 开了两个 Pro 20x 账号，以为能爽用的，结果半个月就不行了 关闭续费了 真写代码还是只能 Claude</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>Claude desktop 求助</title>
-      <link>https://v2ex.com/t/1214834</link>
-      <guid>https://v2ex.com/t/1214834</guid>
-      <description>claude desktop 创建定时任务以后,每次到时候需要执行的时候,就会显示电脑休眠</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
       <title>颈椎病有啥办法吗？</title>
       <link>https://v2ex.com/t/1214938</link>
       <guid>https://v2ex.com/t/1214938</guid>
@@ -2511,6 +2663,14 @@
       <category>V2EX 最热</category>
     </item>
     <item>
+      <title>Best Power Banks (2026): My Picks After Testing Over 100</title>
+      <link>https://wired.com/gallery/best-portable-chargers-power-banks</link>
+      <guid>https://wired.com/gallery/best-portable-chargers-power-banks</guid>
+      <description>Best Power Banks (2026): My Picks After Testing Over 100</description>
+      <source>Wired</source>
+      <category>Wired</category>
+    </item>
+    <item>
       <title>Memorial Day Dyson Vacuum Deals: V15 Detect, Gen5Detect, PencilVac On Sale</title>
       <link>https://wired.com/story/dyson-vacuum-deals-memorial-day-2026</link>
       <guid>https://wired.com/story/dyson-vacuum-deals-memorial-day-2026</guid>
@@ -2539,14 +2699,6 @@
       <link>https://wired.com/story/best-smart-sprinklers-and-irrigation-systems</link>
       <guid>https://wired.com/story/best-smart-sprinklers-and-irrigation-systems</guid>
       <description>The Best Smart Sprinklers and Irrigation Systems: In-Ground Sprinklers, Hose Timers (2026)</description>
-      <source>Wired</source>
-      <category>Wired</category>
-    </item>
-    <item>
-      <title>The FBI Wants ‘Near Real-Time’ Access to US License Plate Readers</title>
-      <link>https://wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access</link>
-      <guid>https://wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access</guid>
-      <description>The FBI Wants ‘Near Real-Time’ Access to US License Plate Readers</description>
       <source>Wired</source>
       <category>Wired</category>
     </item>
@@ -2675,22 +2827,6 @@
       <link>https://wired.com/story/memorial-day-grill-griddle-deals-2026</link>
       <guid>https://wired.com/story/memorial-day-grill-griddle-deals-2026</guid>
       <description>Memorial Day 2026 Grill and Griddle Deals: Weber, Traeger, Recteq</description>
-      <source>Wired</source>
-      <category>Wired</category>
-    </item>
-    <item>
-      <title>Routers vs. Modems: What You Need to Get Online</title>
-      <link>https://wired.com/story/router-vs-modem</link>
-      <guid>https://wired.com/story/router-vs-modem</guid>
-      <description>Routers vs. Modems: What You Need to Get Online</description>
-      <source>Wired</source>
-      <category>Wired</category>
-    </item>
-    <item>
-      <title>Even If You Hate AI, You Will Use Google AI Search</title>
-      <link>https://wired.com/story/even-if-you-hate-ai-you-will-use-google-ai-search</link>
-      <guid>https://wired.com/story/even-if-you-hate-ai-you-will-use-google-ai-search</guid>
-      <description>Even If You Hate AI, You Will Use Google AI Search</description>
       <source>Wired</source>
       <category>Wired</category>
     </item>
@@ -7919,22 +8055,6 @@
       <category>daringfireball.net</category>
     </item>
     <item>
-      <title>Reiner Pope – Chip design from the bottom up</title>
-      <link>https://dwarkesh.com/p/reiner-pope-2</link>
-      <guid>https://dwarkesh.com/p/reiner-pope-2</guid>
-      <description>Working up from basic logic gates to why GPUs, TPUs, FPGAs, and the human brain each look the way they do.</description>
-      <source>dwarkesh.com</source>
-      <category>dwarkesh.com</category>
-    </item>
-    <item>
-      <title>Planescape: Torment, Part 1: From the Tabletop…</title>
-      <link>https://filfre.net/2026/05/planescape-torment-part-1-from-the-tabletop</link>
-      <guid>https://filfre.net/2026/05/planescape-torment-part-1-from-the-tabletop</guid>
-      <description>This article tells part of the general story of Dungeons &amp; Dragons on the tabletop and on computers, which includes the more specific one of the Infinity Engine games. My power fa…</description>
-      <source>filfre.net</source>
-      <category>filfre.net</category>
-    </item>
-    <item>
       <title>There is only one bad AI scenario</title>
       <link>https://geohot.github.io/blog/jekyll/update/2026/05/23/one-bad-scenario.html</link>
       <guid>https://geohot.github.io/blog/jekyll/update/2026/05/23/one-bad-scenario.html</guid>
@@ -7967,6 +8087,14 @@
       <category>jeffgeerling.com</category>
     </item>
     <item>
+      <title>Hilbert transform as an infinite matrix</title>
+      <link>https://johndcook.com/blog/2026/05/23/hilbert-transform-as-an-infinite-matrix</link>
+      <guid>https://johndcook.com/blog/2026/05/23/hilbert-transform-as-an-infinite-matrix</guid>
+      <description>The previous post linked to a post I wrote a few years ago about the Hilbert transform and Fourier series. That post says that if the Fourier series of a function is then the Four…</description>
+      <source>johndcook.com</source>
+      <category>johndcook.com</category>
+    </item>
+    <item>
       <title>Real and imaginary parts</title>
       <link>https://johndcook.com/blog/2026/05/23/real-and-imaginary-parts</link>
       <guid>https://johndcook.com/blog/2026/05/23/real-and-imaginary-parts</guid>
@@ -7989,6 +8117,14 @@
       <description>I’m trying out a weekly roundup built from the package manager OPML feed collection and whatever I’ve posted or boosted on Mastodon . npm is removing npm-shrinkwrap.json entirely…</description>
       <source>nesbitt.io</source>
       <category>nesbitt.io</category>
+    </item>
+    <item>
+      <title>Reverse engineering circuitry in a Spacelab computer from 1980</title>
+      <link>http://righto.com/2026/05/reverse-engineering-spacelab-computer.html</link>
+      <guid>http://righto.com/2026/05/reverse-engineering-spacelab-computer.html</guid>
+      <description>Spacelab was a reusable laboratory that could be carried in the cargo bay of the Space Shuttle, providing lab space for astronauts and experiments. Spacelab was controlled by a Fr…</description>
+      <source>righto.com</source>
+      <category>righto.com</category>
     </item>
     <item>
       <title>Which age-gates should be skill-gates and vice-versa?</title>
@@ -8015,82 +8151,50 @@
       <category>utcc.utoronto.ca/~cks</category>
     </item>
     <item>
-      <title>Premium: What If...We&#x27;re In An AI Bubble? (Part 2)</title>
-      <link>https://wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-2</link>
-      <guid>https://wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-2</guid>
-      <description>Last week I ran the first part of my What If…We’re In An AI Bubble? Series, where I asked questions and posed scenarios as to the consequences of the many, many questions I’ve ask…</description>
-      <source>wheresyoured.at</source>
-      <category>wheresyoured.at</category>
+      <title>伊朗：可能在30天或60天后的下一个阶段再进入核问题的谈判</title>
+      <link>https://wallstreetcn.com/livenews/3108408</link>
+      <guid>https://wallstreetcn.com/livenews/3108408</guid>
+      <description>伊朗外交部发言人巴加埃23日接受伊朗伊斯兰共和国广播电视台采访表示，当前谈判重点是推动结束“被强加的战争”，暂不深入讨论核问题，伊美正在努力敲定谅解备忘录。 巴加埃说，现阶段谈判不涉及核问题及其相应的解除制裁的具体细节，但伊朗要求解除制裁、尤其是释放被冻结资产等诉求，已明确写入14条谅解备忘录文本。 他表示，伊朗之所以暂不深入讨论核问题，是因为认为核问题曾…</description>
+      <source>华尔街见闻实时快讯</source>
+      <category>华尔街见闻实时快讯</category>
     </item>
     <item>
-      <title>婚纱女王被卖了</title>
-      <link>https://36kr.com/p/3821558716731783</link>
-      <guid>https://36kr.com/p/3821558716731783</guid>
-      <description>郭晶晶穿过的婚纱品牌被卖了。 近日，英国PE Cap Capital在竞标中胜出，将来自西班牙的百年婚纱品牌Pronovias（宝诺雅）收入囊中，公司已于日前申请破产保护。 “让每个女孩都有一款完美婚纱。”这是一家源自巴塞罗那的婚纱品牌，曾凭借浪漫优雅的设计问鼎全球第一大婚纱公司，深受全球众多名流富豪的青睐。然而时过境迁，Pronovias的结局宛如一场盛…</description>
-      <source>今日热榜 - 36氪</source>
-      <category>今日热榜 - 36氪</category>
+      <title>留神峪煤矿企业对作业人数统计不清 导致一开始通报的人数不准确</title>
+      <link>https://wallstreetcn.com/livenews/3108406</link>
+      <guid>https://wallstreetcn.com/livenews/3108406</guid>
+      <description>5月23日，山西通洲集团留神峪煤矿瓦斯爆炸事故救援指挥部召开新闻发布会：事故发生后，现场混乱。企业对作业人数统计不清，导致一开始通报的人数不准确。（新华社）</description>
+      <source>华尔街见闻实时快讯</source>
+      <category>华尔街见闻实时快讯</category>
     </item>
     <item>
-      <title>对话王小川：离开通用人工智能的主干道之后</title>
-      <link>https://36kr.com/p/3821521291038856</link>
-      <guid>https://36kr.com/p/3821521291038856</guid>
-      <description>“如果没有转型，继续走主流道路，你也会有同等程度的焦虑。”王小川说，这次转型，让他真正回归到从创业第一天就最想做的事情：造AI医生。 访谈｜邓咏仪 杨轩 文｜邓咏仪 编辑｜张雨忻 一年前，王小川带着百川智能来了一次激烈的“大刹车”：大幅缩减通用模型团队，关闭金融等多条行业线，All in医疗大模型。但与此同时，整个大模型行业却热闹非凡，大厂和创业公司轮番进…</description>
-      <source>今日热榜 - 36氪</source>
-      <category>今日热榜 - 36氪</category>
+      <title>山西省长治市：全面开展煤矿领域拉网式监察</title>
+      <link>https://wallstreetcn.com/livenews/3108405</link>
+      <guid>https://wallstreetcn.com/livenews/3108405</guid>
+      <description>山西省长治市新闻发布会上，相关负责人介绍：留神峪煤矿瓦斯爆炸事故性质极其严重，影响极为恶劣，我们将深刻反思，高度警醒，全面开展煤矿领域拉网式监察。 一是严查瓦斯抽采系统，重点排查抽采设备设施，确保抽采系统完好，严格执行不抽不采，抽采不达标不生产。 二是严查安全监控系统，确保监控系统24小时联网，数据实时上传，传感器完好有效，严禁删除监控数据。 三是严查通风…</description>
+      <source>华尔街见闻实时快讯</source>
+      <category>华尔街见闻实时快讯</category>
     </item>
     <item>
-      <title>豪掷105亿，曾毓群盯上AI算力龙头，还要投DeepSeek</title>
-      <link>https://36kr.com/p/3821370179834244</link>
-      <guid>https://36kr.com/p/3821370179834244</guid>
-      <description>据The Information昨晚报道，全球动力电池市场龙头 宁德时代拟入局DeepSeek首轮融资 。这是宁德时代在AI领域被曝出的最新布局。 就在刚刚过去的一个半月内，宁德时代官宣斥资 105亿元加码AI算电协同赛道 ，电力、算力、储能、AI一体化全产业链布局全面落地。 5月13日，中国首家在美股上市的IDC公司 世纪互联 发布公告，宁德时代关联资本…</description>
-      <source>今日热榜 - 36氪</source>
-      <category>今日热榜 - 36氪</category>
+      <title>留神峪煤矿事故存在次生灾害风险</title>
+      <link>https://wallstreetcn.com/livenews/3108404</link>
+      <guid>https://wallstreetcn.com/livenews/3108404</guid>
+      <description>5月23日，山西通洲集团留神峪煤矿瓦斯爆炸事故救援指挥部召开新闻发布会：事故现场有毒有害气体长时间超限，存在发生次生灾害风险。（新华社）</description>
+      <source>华尔街见闻实时快讯</source>
+      <category>华尔街见闻实时快讯</category>
     </item>
     <item>
-      <title>梁文锋有了“隆中对”</title>
-      <link>https://36kr.com/p/3821376674386305</link>
-      <guid>https://36kr.com/p/3821376674386305</guid>
-      <description>这几天，DeepSeek700亿元融资的热度还没散去，另一条线索已经浮出水面：它正把重心压向AI Coding。 近日，DeepSeek方面连续发布了两个新岗位：Agent Harness产品经理和Agent Harness研发工程师。 按照招聘信息的说法，DeepSeek正在把前沿模型能力转化为Agent产品，模型之外的工作，都被归入Harness范畴。…</description>
-      <source>今日热榜 - 36氪</source>
-      <category>今日热榜 - 36氪</category>
+      <title>山西留神峪煤矿瓦斯爆炸事故发布会：要给遇难者及其家属和社会公众一个负责任的交代。（央视）</title>
+      <link>https://wallstreetcn.com/livenews/3108403</link>
+      <guid>https://wallstreetcn.com/livenews/3108403</guid>
+      <description>山西留神峪煤矿瓦斯爆炸事故发布会：要给遇难者及其家属和社会公众一个负责任的交代。（央视）</description>
+      <source>华尔街见闻实时快讯</source>
+      <category>华尔街见闻实时快讯</category>
     </item>
     <item>
-      <title>用AI来管公司，Moka推出三款AI HR工具｜涌现新栏目</title>
-      <link>https://36kr.com/p/3819979202253189</link>
-      <guid>https://36kr.com/p/3819979202253189</guid>
-      <description>作者｜梁键强 编辑｜王毓婵 一句话介绍 Moka为AI人力资源软件服务商，早期从智能化招聘管理系统起步，后逐步扩展至更完整的HR管理系统。5月，Moka上线了招聘Eva、人事Eva和BPEva三款AI HR产品。 招聘Eva覆盖招聘全流程，辅助企业完成识人、筛选和面试；人事Eva聚焦报表处理、流程流转和员工咨询等重复事务；BPEva则用于动态更新人才画像，…</description>
-      <source>今日热榜 - 36氪</source>
-      <category>今日热榜 - 36氪</category>
-    </item>
-    <item>
-      <title>千禧年流行的老式漂亮饭，居然翻红了</title>
-      <link>https://36kr.com/p/3821213026570627</link>
-      <guid>https://36kr.com/p/3821213026570627</guid>
-      <description>过去这几年，餐饮行业的新店越开越多，淘汰速度也越来越快。 精致餐饮仍在发展，但人们愿意为摆盘和氛围买单的冲动在减弱，转而开始寻求一种体面而高性价比的社交空间。 在这样的节奏中，上岛咖啡、米萝咖啡、老树咖啡、良木缘、绿茵阁、豪享来等颇具年代感的老式咖啡餐吧，又开始悄悄爬上了年轻人的打卡清单。 二三十年前，它们是城市里最洋气的餐厅，菜单上写着影视剧男女主角才会…</description>
-      <source>今日热榜 - 36氪</source>
-      <category>今日热榜 - 36氪</category>
-    </item>
-    <item>
-      <title>9点1氪丨永辉超市向王健林等追债超36亿元；《柳叶刀》：全球近12亿人有精神障碍；微信回应“只能撤回2分钟内消息”</title>
-      <link>https://36kr.com/p/3821177784881541</link>
-      <guid>https://36kr.com/p/3821177784881541</guid>
-      <description>今日热点导览 曝泡泡玛特8.8亿买楼：不予置评 雷军透露小米YU7临时降价 教育部拟同意设置34所新大学 腾讯承诺不再与相关版权方达成或变相达成版权独家授权合同 特朗普凯旋门方案获批 TOP 3大新闻 永辉超市向王健林等追债超36亿元 5月21日，永辉超市发布公告称，公司于近日收到法院出具的《受理案件通知书》。永辉超市与大连御锦贸易有限公司（以下简称大连御…</description>
-      <source>今日热榜 - 36氪</source>
-      <category>今日热榜 - 36氪</category>
-    </item>
-    <item>
-      <title>5个实用建议：练就敏锐大脑，远比你想象的更简单</title>
-      <link>https://36kr.com/p/3788945215921159</link>
-      <guid>https://36kr.com/p/3788945215921159</guid>
-      <description>神译局是36氪旗下编译团队，关注科技、商业、职场、生活等领域，重点介绍国外的新技术、新观点、新风向。 编者按：只要用心筑牢大脑健康的五大基石，任何人无论年龄大小，都能借助神经可塑性的修复焕新之力，让大脑重获活力。本文中，马吉德・福胡希（Majid Fotuhi）博士将从其新作《无敌大脑》中分享五大核心见解。本文来自编译，希望对您有所启发。 [图片来源：Ge…</description>
-      <source>今日热榜 - 36氪</source>
-      <category>今日热榜 - 36氪</category>
-    </item>
-    <item>
-      <title>【留神峪煤矿事故涉事企业有重大违法行为】山西省长治市召开新闻发布会，介绍山西通洲集团留神峪煤矿瓦斯爆炸事故有关情况。 会上，相关负责人介绍：初步判断，...</title>
+      <title>山西省长治市：留神峪煤矿事故涉事企业有重大违法行为</title>
       <link>https://wallstreetcn.com/livenews/3108401</link>
       <guid>https://wallstreetcn.com/livenews/3108401</guid>
-      <description>【留神峪煤矿事故涉事企业有重大违法行为】山西省长治市召开新闻发布会，介绍山西通洲集团留神峪煤矿瓦斯爆炸事故有关情况。 会上，相关负责人介绍：初步判断，涉事煤矿企业有重大违法行为，对失联人员，我们将不惜任何代价全力搜救，事故具体原因正在进一步调查。 5月22日19时29分，山西长治市沁源县山西通洲集团留神峪煤业有限公司井下发生瓦斯爆炸事故，造成重大人员伤亡。…</description>
+      <description>今天（5月23日），山西省长治市召开新闻发布会，介绍山西通洲集团留神峪煤矿瓦斯爆炸事故有关情况。会上，相关负责人介绍：初步判断，涉事煤矿企业有重大违法行为，对失联人员，我们将不惜任何代价全力搜救，事故具体原因正在进一步调查。5月22日19时29分，山西长治市沁源县山西通洲集团留神峪煤业有限公司井下发生瓦斯爆炸事故，造成重大人员伤亡。（央视，新华社）</description>
       <source>华尔街见闻实时快讯</source>
       <category>华尔街见闻实时快讯</category>
     </item>
@@ -8447,46 +8551,6 @@
       <category>华尔街见闻实时快讯</category>
     </item>
     <item>
-      <title>浙江省与巴基斯坦旁遮普省签署建立友好交流关系谅解备忘录</title>
-      <link>https://wallstreetcn.com/livenews/3108345</link>
-      <guid>https://wallstreetcn.com/livenews/3108345</guid>
-      <description>中华人民共和国浙江省人民政府和巴基斯坦伊斯兰共和国旁遮普省政府在浙江杭州签署《关于中华人民共和国浙江省与巴基斯坦伊斯兰共和国旁遮普省建立友好交流关系谅解备忘录》。（央视新闻）</description>
-      <source>华尔街见闻实时快讯</source>
-      <category>华尔街见闻实时快讯</category>
-    </item>
-    <item>
-      <title>商务部部长王文涛：中方支持在MC14工作基础上 尽快推动世贸组织改革进入实质磋商阶段</title>
-      <link>https://wallstreetcn.com/livenews/3108343</link>
-      <guid>https://wallstreetcn.com/livenews/3108343</guid>
-      <description>5月22日，商务部部长王文涛在苏州会见来华出席亚太经合组织（APEC）贸易部长会议的世贸组织总干事伊维拉，双方就当前全球经贸形势、世贸组织第14届部长级会议（MC14）后续工作、世贸组织改革等问题深入交换意见。王文涛表示，中方坚定维护多边贸易体制，捍卫最惠国待遇等世贸组织基本原则，支持世贸组织在完善全球经济治理、稳定国际经贸秩序中发挥更加重要作用。在全球贸…</description>
-      <source>华尔街见闻实时快讯</source>
-      <category>华尔街见闻实时快讯</category>
-    </item>
-    <item>
-      <title>伊朗顶级谈判员卡利巴夫会见巴基斯坦局方领导人（陆军参谋长穆尼尔）。（伊朗国家媒体）</title>
-      <link>https://wallstreetcn.com/livenews/3108341</link>
-      <guid>https://wallstreetcn.com/livenews/3108341</guid>
-      <description>伊朗顶级谈判员卡利巴夫会见巴基斯坦局方领导人（陆军参谋长穆尼尔）。（伊朗国家媒体）</description>
-      <source>华尔街见闻实时快讯</source>
-      <category>华尔街见闻实时快讯</category>
-    </item>
-    <item>
-      <title>欧元区财长会议主席Kyriakos Pierrakakis：“欧元区发行共同债务”确实是存在严重意见分歧的领域之一，但它当然也是我们未来几个月将重点讨论的核心议题之一。（...</title>
-      <link>https://wallstreetcn.com/livenews/3108340</link>
-      <guid>https://wallstreetcn.com/livenews/3108340</guid>
-      <description>欧元区财长会议主席Kyriakos Pierrakakis：“欧元区发行共同债务”确实是存在严重意见分歧的领域之一，但它当然也是我们未来几个月将重点讨论的核心议题之一。（路透）</description>
-      <source>华尔街见闻实时快讯</source>
-      <category>华尔街见闻实时快讯</category>
-    </item>
-    <item>
-      <title>国际货币基金组织（IMF）：如果放任不管，欧盟的公共债务将踏上一条不可持续的绝路。 在现有政策不作调整的路径下，到2040年，欧洲平均每个国家的债务规模将达到...</title>
-      <link>https://wallstreetcn.com/livenews/3108339</link>
-      <guid>https://wallstreetcn.com/livenews/3108339</guid>
-      <description>国际货币基金组织（IMF）：如果放任不管，欧盟的公共债务将踏上一条不可持续的绝路。 在现有政策不作调整的路径下，到2040年，欧洲平均每个国家的债务规模将达到其GDP的130%——这几乎是今天水平的两倍。 为了阻止这一恶劣情景的发生，欧盟各国必须加大激励力度，促进劳动力在这一拥有27个成员国的经济集团内部自由流动以寻找工作，同时也应鼓励企业跨国招聘。 欧盟…</description>
-      <source>华尔街见闻实时快讯</source>
-      <category>华尔街见闻实时快讯</category>
-    </item>
-    <item>
       <title>3万亿时代：量化私募由竞速进入淘汰赛</title>
       <link>https://wallstreetcn.com/articles/3772977</link>
       <guid>https://wallstreetcn.com/articles/3772977</guid>
@@ -8727,34 +8791,98 @@
       <category>少数派</category>
     </item>
     <item>
-      <title>山西留神峪煤矿瓦斯爆炸事故新闻发布会现场为遇难者默哀</title>
-      <link>https://m.thepaper.cn/detail/33221181</link>
-      <guid>https://m.thepaper.cn/detail/33221181</guid>
-      <description>5月23日，山西省长治市召开新闻发布会，介绍山西通洲集团留神峪煤矿瓦斯爆炸事故有关情况。发布会现场，全体起立，向遇难人员默哀。</description>
+      <title>特朗普称可能于24日决定是否恢复对伊军事行动</title>
+      <link>https://m.thepaper.cn/detail/33221536</link>
+      <guid>https://m.thepaper.cn/detail/33221536</guid>
+      <description>当地时间5月23日，美国总统特朗普表示，他将于当天晚些时候与谈判团队会面，讨论伊朗方面最新提议，并可能于24日决定是否恢复军事行动。 特朗普称，目前达成协议的可能性“大约占一半”。他说，美方要么达成“一项好的协议”，要么将对伊朗采取更强硬行动。 据称，特朗普当天将与特使威特科夫和女婿库什纳等人举行会谈，美国副总统万斯预计也将参加。 正在参与斡旋的巴基斯坦陆…</description>
       <source>澎湃新闻头条</source>
       <category>澎湃新闻头条</category>
     </item>
     <item>
-      <title>山西留神峪煤矿瓦斯爆炸事故初判涉事煤矿企业有重大违法行为</title>
+      <title>商务部相关负责人解读2026年亚太经合组织贸易部长会议成果</title>
+      <link>https://m.thepaper.cn/detail/33221417</link>
+      <guid>https://m.thepaper.cn/detail/33221417</guid>
+      <description>为期2天的2026年亚太经合组织（APEC）贸易部长会议23日在苏州闭幕。21个APEC经济体代表参会，APEC观察员、世贸组织、联合国贸发会议等国际组织负责人应邀出席，各方进行了坦诚、深入、富有建设性的讨论，取得丰硕成果。 这是记者从商务部23日在苏州举行的APEC贸易部长会议新闻发布会上了解到的。商务部部长王文涛在发布会上说，本次会议聚焦“建设亚太共同…</description>
+      <source>澎湃新闻头条</source>
+      <category>澎湃新闻头条</category>
+    </item>
+    <item>
+      <title>伊朗：谈判重点是结束战争，正努力敲定谅解备忘录</title>
+      <link>https://m.thepaper.cn/detail/33221390</link>
+      <guid>https://m.thepaper.cn/detail/33221390</guid>
+      <description>伊朗外交部发言人巴加埃23日接受伊朗伊斯兰共和国广播电视台采访表示，当前谈判重点是推动结束“被强加的战争”，暂不深入讨论核问题，伊美正在努力敲定谅解备忘录。 巴加埃说，现阶段谈判不涉及核问题及其相应的解除制裁的具体细节，但伊朗要求解除制裁、尤其是释放被冻结资产等诉求，已明确写入14条谅解备忘录文本。 他表示，伊朗之所以暂不深入讨论核问题，是因为认为核问题曾…</description>
+      <source>澎湃新闻头条</source>
+      <category>澎湃新闻头条</category>
+    </item>
+    <item>
+      <title>山西留神峪煤矿瓦斯爆炸事故发布会：事故现场有毒有害气体长时间超限，存在发生次生灾害风险</title>
+      <link>https://m.thepaper.cn/detail/33221385</link>
+      <guid>https://m.thepaper.cn/detail/33221385</guid>
+      <description>5月23日晚，山西通洲集团留神峪煤矿瓦斯爆炸事故救援指挥部召开新闻发布会，相关负责人介绍：事故现场有毒有害气体长时间超限，存在发生次生灾害风险。</description>
+      <source>澎湃新闻头条</source>
+      <category>澎湃新闻头条</category>
+    </item>
+    <item>
+      <title>山西留神峪煤矿瓦斯爆炸事故发布会：企业对作业人数统计不清，导致一开始通报的人数不准确</title>
+      <link>https://m.thepaper.cn/detail/33221383</link>
+      <guid>https://m.thepaper.cn/detail/33221383</guid>
+      <description>5月23日晚，山西通洲集团留神峪煤矿瓦斯爆炸事故救援指挥部召开新闻发布会，相关负责人介绍：事故发生后，现场混乱，企业对作业人数统计不清，导致一开始通报的人数不准确。</description>
+      <source>澎湃新闻头条</source>
+      <category>澎湃新闻头条</category>
+    </item>
+    <item>
+      <title>山西留神峪煤矿瓦斯爆炸事故发布会：涉事煤矿企业有重大违法行为</title>
+      <link>https://m.thepaper.cn/detail/33221239</link>
+      <guid>https://m.thepaper.cn/detail/33221239</guid>
+      <description>5月23日晚，山西省长治市召开留神峪煤矿瓦斯爆炸事故新闻发布会，市长陈向阳介绍：初步判断，涉事煤矿企业有重大违法行为；将不惜任何代价全力搜救失联人员；事故具体原因正在调查。</description>
+      <source>澎湃新闻头条</source>
+      <category>澎湃新闻头条</category>
+    </item>
+    <item>
+      <title>山西留神峪煤矿瓦斯爆炸事故新闻发布会，长治市市长在现场鞠躬致歉</title>
+      <link>https://m.thepaper.cn/detail/33221205</link>
+      <guid>https://m.thepaper.cn/detail/33221205</guid>
+      <description>5月23日，山西省长治市召开新闻发布会，相关负责人介绍山西通洲集团留神峪煤矿瓦斯爆炸事故有关情况，长治市市长陈向阳在现场向社会各界鞠躬致歉。</description>
+      <source>澎湃新闻头条</source>
+      <category>澎湃新闻头条</category>
+    </item>
+    <item>
+      <title>山西留神峪煤矿瓦斯爆炸事故发布会：全面开展煤矿领域拉网式监察</title>
+      <link>https://m.thepaper.cn/detail/33221212</link>
+      <guid>https://m.thepaper.cn/detail/33221212</guid>
+      <description>今天（5月23日），山西省长治市召开新闻发布会，介绍山西通洲集团留神峪煤矿瓦斯爆炸事故有关情况。 会上，相关负责人介绍：这起事故性质极其严重，影响极为恶劣，我们将深刻反思，高度警醒，全面开展煤矿领域拉网式监察。 一是严查瓦斯抽采系统，重点排查抽采设备设施，确保抽采系统完好，严格执行不抽不采，抽采不达标不生产。 二是严查安全监控系统，确保监控系统24小时联网…</description>
+      <source>澎湃新闻头条</source>
+      <category>澎湃新闻头条</category>
+    </item>
+    <item>
+      <title>山西留神峪煤矿瓦斯爆炸事故发布会：企业对作业人数统计不清，一开始通报的人数不准确</title>
+      <link>https://m.thepaper.cn/detail/33221209</link>
+      <guid>https://m.thepaper.cn/detail/33221209</guid>
+      <description>5月23日，山西通洲集团留神峪煤矿瓦斯爆炸事故救援指挥部召开新闻发布会：事故发生后，现场混乱。企业对作业人数统计不清，导致一开始通报的人数不准确。</description>
+      <source>澎湃新闻头条</source>
+      <category>澎湃新闻头条</category>
+    </item>
+    <item>
+      <title>山西留神峪煤矿瓦斯爆炸事故发布会：事故现场存在次生灾害风险</title>
+      <link>https://m.thepaper.cn/detail/33221206</link>
+      <guid>https://m.thepaper.cn/detail/33221206</guid>
+      <description>5月23日，山西通洲集团留神峪煤矿瓦斯爆炸事故救援指挥部召开新闻发布会：事故现场有毒有害气体长时间超限，存在发生次生灾害风险。</description>
+      <source>澎湃新闻头条</source>
+      <category>澎湃新闻头条</category>
+    </item>
+    <item>
+      <title>山西留神峪煤矿瓦斯爆炸事故发布会：要给遇难者及其家属和社会公众一个负责任的交代</title>
+      <link>https://m.thepaper.cn/detail/33221203</link>
+      <guid>https://m.thepaper.cn/detail/33221203</guid>
+      <description>今天（5月23日），山西省长治市召开新闻发布会，介绍山西通洲集团留神峪煤矿瓦斯爆炸事故有关情况。 会上，相关负责人介绍：积极配合做好事故调查，实事求是，尊重科学，开展调查核查，进一步查明查实事故原因，要给遇难者及其家属和社会公众一个负责任的交代。 5月22日19时29分，山西长治市沁源县山西通洲集团留神峪煤业有限公司井下发生瓦斯爆炸事故，造成重大人员伤亡。</description>
+      <source>澎湃新闻头条</source>
+      <category>澎湃新闻头条</category>
+    </item>
+    <item>
+      <title>山西留神峪煤矿瓦斯爆炸事故发布会：涉事煤矿企业有重大违法行为</title>
       <link>https://m.thepaper.cn/detail/33221182</link>
       <guid>https://m.thepaper.cn/detail/33221182</guid>
-      <description>@央视新闻 5月23日消息，山西留神峪煤矿发生瓦斯爆炸，造成重大人员伤亡。初步判断，涉事煤矿企业有重大违法行为。</description>
-      <source>澎湃新闻头条</source>
-      <category>澎湃新闻头条</category>
-    </item>
-    <item>
-      <title>持续“失血”也要布局全球化：磷酸盐正极材料全球销量六连冠拟赴港上市</title>
-      <link>https://m.thepaper.cn/detail/33221140</link>
-      <guid>https://m.thepaper.cn/detail/33221140</guid>
-      <description>历时两年半的定增落地不到两个月，全球磷酸盐正极材料第一大生产商湖南裕能（301358.SZ）马不停蹄向“A+H”双资本平台发起冲击。 公司最新公告披露，为进一步推进公司全球化战略布局，打造国际化资本运作平台，提高综合竞争力，公司拟筹划发行境外上市外资股（H 股）股票并申请在香港联合交易所有限公司上市。 湖南裕能系国内主要的锂离子电池正极材料供应商，成立于2…</description>
-      <source>澎湃新闻头条</source>
-      <category>澎湃新闻头条</category>
-    </item>
-    <item>
-      <title>山西留神峪煤矿瓦斯爆炸事故发布会：截至目前已致82人遇难128人受伤，2人失联</title>
-      <link>https://m.thepaper.cn/detail/33221171</link>
-      <guid>https://m.thepaper.cn/detail/33221171</guid>
-      <description>今天（5月23日），山西省长治市召开新闻发布会，介绍山西通洲集团留神峪煤矿瓦斯爆炸事故有关情况。 会上介绍，截至目前，煤矿瓦斯爆炸事故已致82人遇难，2人失联，128人受伤。 5月22日19时29分，山西长治市沁源县山西通洲集团留神峪煤业有限公司井下发生瓦斯爆炸事故，造成重大人员伤亡。</description>
+      <description>今天（5月23日），山西省长治市召开新闻发布会，介绍山西通洲集团留神峪煤矿瓦斯爆炸事故有关情况。 会上，相关负责人介绍：初步判断，涉事煤矿企业有重大违法行为，对失联人员，我们将不惜任何代价全力搜救，事故具体原因正在进一步调查。 5月22日19时29分，山西长治市沁源县山西通洲集团留神峪煤业有限公司井下发生瓦斯爆炸事故，造成重大人员伤亡。</description>
       <source>澎湃新闻头条</source>
       <category>澎湃新闻头条</category>
     </item>
@@ -8775,46 +8903,6 @@
       <category>澎湃新闻头条</category>
     </item>
     <item>
-      <title>沙特媒体：伊朗欲以开放霍尔木兹海峡换美国赔偿</title>
-      <link>https://m.thepaper.cn/detail/33221141</link>
-      <guid>https://m.thepaper.cn/detail/33221141</guid>
-      <description>沙特阿拉伯阿拉比亚电视台23日援引消息人士的话报道，伊朗已向巴基斯坦调解方提交了两份方案，提出以开放霍尔木兹海峡换取美国赔偿，并要求在签署任何协议前先就制裁和被冻结资金问题进行讨论。 阿拉比亚电视台还援引消息人士的话说，巴基斯坦陆军参谋长穆尼尔已向伊朗方面转达了美方信息。美方向伊朗传递的信息包括保证“如果伊朗同意达成协议，有争议的问题可以稍后解决”。如果伊…</description>
-      <source>澎湃新闻头条</source>
-      <category>澎湃新闻头条</category>
-    </item>
-    <item>
-      <title>山西留神峪煤矿事故5名救援人员穿戴防水服进入巷道深处搜救</title>
-      <link>https://m.thepaper.cn/detail/33221072</link>
-      <guid>https://m.thepaper.cn/detail/33221072</guid>
-      <description>22日19时29分，山西省沁源县通洲集团留神峪煤矿发生瓦斯爆炸。记者在救援前方指挥部了解到，有五名救援人员穿戴防水服进入巷道深处进行搜救，但是由于目前巷道内出现坍塌和积水，救援难度较大。</description>
-      <source>澎湃新闻头条</source>
-      <category>澎湃新闻头条</category>
-    </item>
-    <item>
-      <title>伊朗说伊美正处于谅解备忘录最终敲定阶段</title>
-      <link>https://m.thepaper.cn/detail/33220903</link>
-      <guid>https://m.thepaper.cn/detail/33220903</guid>
-      <description>伊朗外交部发言人巴加埃23日表示，经过数周的对话，“伊美双方的观点正朝着更加一致的方向发展”，双方目前正处于一份谅解备忘录的最终敲定阶段。</description>
-      <source>澎湃新闻头条</source>
-      <category>澎湃新闻头条</category>
-    </item>
-    <item>
-      <title>内蒙古一煤企偷税2.17亿元细节曝光：好煤贱卖、私户收款</title>
-      <link>https://m.thepaper.cn/detail/33220887</link>
-      <guid>https://m.thepaper.cn/detail/33220887</guid>
-      <description>5月22日，国家税务总局官网集中曝光8起偷税案件，其中内蒙古伊东集团西乌素煤炭有限责任公司（下称“西乌素煤炭公司”）因通过员工及亲属私人账户收款、“好煤贱卖”等方式隐匿收入，进行虚假申报，少缴各种税费共计2.17亿元。 涉事公司西乌素煤炭公司成立于2013年，主营煤炭开采与洗选，由内蒙古伊东资源集团股份有限公司100%控股。杨永宽为公司董事长兼法定代表人。…</description>
-      <source>澎湃新闻头条</source>
-      <category>澎湃新闻头条</category>
-    </item>
-    <item>
-      <title>发现当事人正与诈骗分子通话，民警果断拔卡断网保住2万余元</title>
-      <link>https://m.thepaper.cn/detail/33203974</link>
-      <guid>https://m.thepaper.cn/detail/33203974</guid>
-      <description>5月18日，吉林省吉林市一居民接到自称“抖音客服”的诈骗电话，对方以免密支付每月扣费800元为由，诱导其下载远程操控软件并索要银行卡支付密码。派出所民警多次致电未果，民警张家豪立即上门，发现当事人正与诈骗分子通话，果断采取拔卡、断网等措施中断联系，及时保住其账户存款。</description>
-      <source>澎湃新闻头条</source>
-      <category>澎湃新闻头条</category>
-    </item>
-    <item>
       <title>被暴雨山洪侵袭的金家河村</title>
       <link>https://m.thepaper.cn/detail/33219681</link>
       <guid>https://m.thepaper.cn/detail/33219681</guid>
@@ -8823,10 +8911,10 @@
       <category>澎湃新闻头条</category>
     </item>
     <item>
-      <title>法国禁止以色列国家安全部长入境</title>
-      <link>https://m.thepaper.cn/detail/33220587</link>
-      <guid>https://m.thepaper.cn/detail/33220587</guid>
-      <description>法国外交部长巴罗23日在社交媒体发文说，自即日起，以色列国家安全部长本-格维尔被禁止进入法国领土。巴罗还呼吁欧盟也对本-格维尔采取制裁措施。</description>
+      <title>探访留神峪煤矿入口：事故发生后，2号井工友仍在彻夜工作</title>
+      <link>https://m.thepaper.cn/detail/33220613</link>
+      <guid>https://m.thepaper.cn/detail/33220613</guid>
+      <description>山西留神峪煤业井下发生瓦斯爆炸事故已造成82人死亡，事故发生已超24小时。探访留神峪煤矿入口：事故发生后，2号井工友仍在彻夜工作。</description>
       <source>澎湃新闻头条</source>
       <category>澎湃新闻头条</category>
     </item>
@@ -8843,38 +8931,6 @@
       <link>https://m.thepaper.cn/detail/33220346</link>
       <guid>https://m.thepaper.cn/detail/33220346</guid>
       <description>5月23日下午，全国总工会党组召开会议，通报徐留平涉嫌严重违纪违法，目前正在接受中央纪委国家监委纪律审查和监察调查。与会同志一致表示，坚决拥护党中央决定，坚决拥护中央纪委国家监委决定。 会议指出，中央纪委国家监委对徐留平涉嫌严重违纪违法进行纪律审查和监察调查，充分彰显了以习近平同志为核心的党中央持之以恒推进全面从严治党的坚定决心，充分体现了我们党勇于自我革…</description>
-      <source>澎湃新闻头条</source>
-      <category>澎湃新闻头条</category>
-    </item>
-    <item>
-      <title>打破亚洲纪录！18岁中国标枪选手严子怡投出71米74</title>
-      <link>https://m.thepaper.cn/detail/33220158</link>
-      <guid>https://m.thepaper.cn/detail/33220158</guid>
-      <description>北京时间5月23日，2026世界田联钻石联赛厦门站，18岁的中国选手严子怡在女子标枪项目的赛场拿出了惊艳表现。 她在第一投就投出了71米74的成绩，打破了吕会会保持的亚洲纪录（67米98），同时也刷新了自己保持的U20世界纪录（65米89）。 与此同时，此番严子怡投出的71米74也成为女子标枪项目的世界历史第二好成绩，该项目的世界纪录是捷克选手斯波塔科娃在…</description>
-      <source>澎湃新闻头条</source>
-      <category>澎湃新闻头条</category>
-    </item>
-    <item>
-      <title>直播丨山西通洲集团留神峪煤矿瓦斯爆炸事故发布会：已致82人遇难，2人失联</title>
-      <link>https://m.thepaper.cn/detail/33219252</link>
-      <guid>https://m.thepaper.cn/detail/33219252</guid>
-      <description>5月23日，山西通洲集团留神峪煤矿瓦斯爆炸事故救援指挥部召开新闻发布会。5月22日19时29分，山西省沁源县通洲集团留神峪煤矿发生瓦斯爆炸。事故已造成82人死亡，2人失联，128人受伤住院治疗。</description>
-      <source>澎湃新闻头条</source>
-      <category>澎湃新闻头条</category>
-    </item>
-    <item>
-      <title>恒大海上威尼斯酒店被启东国资以6949万元接手</title>
-      <link>https://m.thepaper.cn/detail/33219814</link>
-      <guid>https://m.thepaper.cn/detail/33219814</guid>
-      <description>5月23日，据京东司法拍卖网披露的信息显示，恒大海上威尼斯酒店被启东灿烂景区管理有限公司以6949万元的价格竞得。 此次拍卖的标的物为位于江苏省启东市寅阳镇的恒大海上威尼斯1606号不动产（含固定装修、地下室），起拍价为6949万元，市场价约1.24亿元，此次的起拍价较市场评估价打了约5.6折。 此次拍卖吸引了3291人围观、94人关注，但仅有1人报名，并…</description>
-      <source>澎湃新闻头条</source>
-      <category>澎湃新闻头条</category>
-    </item>
-    <item>
-      <title>巴基斯坦总理夏巴兹抵达杭州开始访华</title>
-      <link>https://m.thepaper.cn/detail/33219683</link>
-      <guid>https://m.thepaper.cn/detail/33219683</guid>
-      <description>巴基斯坦总理夏巴兹23日抵达浙江杭州，开始对中国进行为期四天的正式访问。 外交部发言人日前表示，夏巴兹总理对中国进行正式访问，是中巴两国在建交75周年之际的一次重要高层交往。中方期待双方以此访为契机，赓续传统友谊，深化全方位合作，共同谱写构建新时代更加紧密的中巴命运共同体新篇章。</description>
       <source>澎湃新闻头条</source>
       <category>澎湃新闻头条</category>
     </item>
@@ -8935,10 +8991,18 @@
       <category>知乎热榜</category>
     </item>
     <item>
-      <title>美以袭击伊朗进入第 85 天，当前局势如何？哪些信息值得关注？</title>
-      <link>https://zhihu.com/question/2041297018006368689</link>
-      <guid>https://zhihu.com/question/2041297018006368689</guid>
-      <description>美以袭击伊朗进入第 85 天，当前局势如何？哪些信息值得关注？</description>
+      <title>如何看待湖南高校控烟动真格：全域禁烟、宿舍排查、学生辩论齐上阵？</title>
+      <link>https://zhihu.com/question/2041441995881764422</link>
+      <guid>https://zhihu.com/question/2041441995881764422</guid>
+      <description>https://baijiahao.baidu.com/s?id=1865841732998569223&amp;wfr=spider&amp;for=pc&amp;searchword=%E6%B9%96%E5%8D%97%E9%AB%98%E6%A0%A1%E6%8E%A7%E7%83%9F%E5%8A%A8%E7%9C%9F%E6%A0%BC:%E5%85%A8%E5%9F…</description>
+      <source>知乎热榜</source>
+      <category>知乎热榜</category>
+    </item>
+    <item>
+      <title>U17国足的主教练浮嶋敏，他到底是个好教练，还是水平不行？</title>
+      <link>https://zhihu.com/question/2041436186607080893</link>
+      <guid>https://zhihu.com/question/2041436186607080893</guid>
+      <description>怎么说呢，对于浮嶋敏，他这个U17国足的主教练，他好像是一会带队挺不错的，一会带队又稀里糊涂，很不稳定。这 也让人想起来电视剧《新三国》形容袁绍的一句话，袁绍英明起来比谁都英明，可是袁绍昏庸的时候也比谁都昏庸。 那么就事论事，U17国足的主教练浮嶋敏，他到底是个好教练，还是个庸才，他怎么一会英明，一会糊涂呢</description>
       <source>知乎热榜</source>
       <category>知乎热榜</category>
     </item>
