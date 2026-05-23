@@ -1,29 +1,29 @@
 {
-  "global_brief": "AI领域持续主导全球科技动态，Anthropic以超300亿美元融资估值或破9000亿美元成为焦点，同时Agentic AI的成本与安全问题引发广泛讨论，多项研究聚焦于提升LLM推理效率与安全性。",
+  "global_brief": "AI领域持续主导全球科技动态，Anthropic以超300亿美元融资估值或破9000亿美元，成为估值最高的AI初创企业，同时其Claude Mythos AI在安全领域发现超1万个高危漏洞；学术界则在Agent编排、推理效率与安全对齐方面密集产出新成果，开源生态与商业竞争同步加速。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33316,
-      "event_count": 572
+      "field_score": 32705,
+      "event_count": 561
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1707,
+      "field_score": 1689,
       "event_count": 43
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1490,
-      "event_count": 33
+      "field_score": 1326,
+      "event_count": 28
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 588,
-      "event_count": 13
+      "field_score": 670,
+      "event_count": 14
     },
     {
       "field_key": "science",
@@ -35,7 +35,7 @@
   "highlight_facts": [
     {
       "title": "Anthropic估值或破9000亿美元，最快下周完成超300亿美元融资",
-      "summary": "据彭博社报道，Anthropic即将完成新一轮超大规模融资，总额预计超过300亿美元，估值有望突破9000亿美元，超越OpenAI成为全球估值最高的人工智能初创企业。",
+      "summary": "据彭博社报道，Anthropic即将完成一轮超300亿美元融资，估值有望突破9000亿美元，超越OpenAI成为全球估值最高的AI初创企业。Anthropic向投资者展示的预测显示，其一季度营收48亿美元，二季度预计升至109亿美元，6月当季有望实现5.59亿美元运营利润。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
@@ -44,108 +44,13 @@
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/954/452.htm"
-        }
-      ]
-    },
-    {
-      "title": "Claude Mythos AI发现超1万个高危软件漏洞",
-      "summary": "Anthropic披露其Project Glasswing项目，利用Claude Mythos AI在广泛使用的软件中发现了超过1万个高危或严重级别漏洞。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出将Agent工作流编译为LLM权重的方法",
-      "summary": "一项新研究（arXiv:2605.22502v1）提出将Agent编排工作流编译进LLM权重，声称能以两个数量级更低的成本实现接近前沿的质量。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.22502"
-        }
-      ]
-    },
-    {
-      "title": "研究提出Metis框架，通过自进化元认知策略优化实现LLM越狱",
-      "summary": "一项新研究（arXiv:2605.10067v3）介绍了Metis，一种通过自进化元认知策略优化来学习越狱LLM的方法，旨在加强红队测试。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10067"
-        }
-      ]
-    },
-    {
-      "title": "AI进入“按量付费与算力配给”时代",
-      "summary": "分析指出，Anthropic和DeepSeek等公司的商业模式正推动AI进入“按量付费与算力配给”时代。Anthropic向投资者展示的预测显示，其一季度营收48亿美元，二季度预计升至109亿美元。",
-      "references": [
+        },
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3772969"
         }
       ]
-    },
-    {
-      "title": "研究提出Meta-Soft方法，利用可组合元令牌实现KV缓存压缩",
-      "summary": "一项新研究（arXiv:2605.22337v1）提出Meta-Soft方法，通过可组合的元令牌来压缩KV缓存，以解决LLM推理中KV缓存线性增长的时间和成本问题。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.22337"
-        }
-      ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "Agentic AI的Token消耗成本正在急剧膨胀",
-      "summary": "社区讨论指出，微软、Meta、亚马逊等公司的Agentic AI应用导致Token使用量激增，成本可能膨胀1000倍，这引发了关于AI应用经济可行性的担忧。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/ai-cost-crisis-hits-tech-giants-as-employee-tokenmaxxing-backfires-agentic-ai-eats-up-to-1000x-more-tokens-than-standard-ai-sparks-corporate-pullback-at-microsoft-meta-and-amazon"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent的安全风险不容忽视，从终端命令到供应链均面临威胁",
-      "summary": "多个社区讨论和工具发布显示，AI Agent的安全问题日益突出，包括防止Agent执行破坏性终端命令、Agent在12分钟内攻陷供应链，以及针对MCP协议的语义攻击等，表明Agent安全已成为关键挑战。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/7Majesty-M/terminal-guardian-mcp"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://dennysentinel.com/blog/deepseek-owned-supply-chain-12-minutes"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2512.06556"
-        }
-      ]
-    },
-    {
-      "title": "消费者对AI Agent生态系统的接受度存疑",
-      "summary": "有观点认为，尽管Google等巨头在积极推广AI Agent生态系统，但消费者可能并不买账，市场教育和技术成熟度仍是普及的障碍。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it"
-        }
-      ]
-    },
-    {
-      "title": "AI公司被指使用恶意代理发起DDoS攻击",
-      "summary": "社区讨论揭露，部分AI公司使用恶意代理来对网站发起DDoS攻击，这引发了关于AI行业数据抓取手段合规性和道德性的严重质疑。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://packetstream.io/scraping-at-scale-without-breaking-the-bank-a-guide-for-ai-startups"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
