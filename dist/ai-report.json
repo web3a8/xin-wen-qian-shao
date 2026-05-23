@@ -1,29 +1,29 @@
 {
-  "global_brief": "AI领域持续主导全球科技动态，Anthropic以超300亿美元融资估值或破9000亿美元，成为估值最高的AI初创企业，同时其Claude Mythos AI在安全领域发现超1万个高危漏洞；学术界则在Agent编排、推理效率与安全对齐方面密集产出新成果，开源生态与商业竞争同步加速。",
+  "global_brief": "AI领域持续主导全球科技动态，Anthropic以超300亿美元融资和9000亿美元估值成为焦点，同时多项研究在Agent编排、推理效率和安全红队测试上取得突破，AI产业正从模型竞赛转向工程化与商业化落地。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32705,
-      "event_count": 561
+      "field_score": 32425,
+      "event_count": 555
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1689,
+      "field_score": 1649,
       "event_count": 43
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1326,
-      "event_count": 28
+      "field_score": 1147,
+      "event_count": 24
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 670,
-      "event_count": 14
+      "field_score": 527,
+      "event_count": 11
     },
     {
       "field_key": "science",
@@ -35,7 +35,23 @@
   "highlight_facts": [
     {
       "title": "Anthropic估值或破9000亿美元，最快下周完成超300亿美元融资",
-      "summary": "据彭博社报道，Anthropic即将完成一轮超300亿美元融资，估值有望突破9000亿美元，超越OpenAI成为全球估值最高的AI初创企业。Anthropic向投资者展示的预测显示，其一季度营收48亿美元，二季度预计升至109亿美元，6月当季有望实现5.59亿美元运营利润。",
+      "summary": "据彭博社报道，Anthropic即将完成新一轮超大规模融资，总额预计超过300亿美元，估值有望突破9000亿美元，超越OpenAI成为全球估值最高的AI初创企业。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3772955"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/954/452.htm"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "AI产业估值泡沫风险与商业化验证并存",
+      "summary": "Anthropic以9000亿美元估值融资，远超OpenAI，但其营收预测（一季度48亿，二季度109亿）与运营利润（6月当季5.59亿）显示其商业化路径正在快速验证。然而，如此高的估值也引发市场对AI行业是否存在泡沫的担忧，尤其是当竞争对手如DeepSeek也在进行大规模融资时。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
@@ -48,9 +64,12 @@
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3772969"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1666843"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
