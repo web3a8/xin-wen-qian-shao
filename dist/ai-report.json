@@ -1,29 +1,29 @@
 {
-  "global_brief": "Anthropic 估值或突破 9000 亿美元，超越 OpenAI 成为全球估值最高的 AI 初创企业，同时其营收预测显示业务高速增长。微软发布 Fara1.5 系列浏览器 AI 智能体模型，在任务成功率上超越 OpenAI 的 Operator。学术界则聚焦于通过编译工作流权重、KV 缓存压缩等技术，大幅降低 LLM 推理与部署成本。",
+  "global_brief": "AI领域持续主导全球科技动态，Anthropic以超300亿美元融资估值或破9000亿美元成为焦点，同时其Claude系统发现超1万个高危软件漏洞，凸显AI在安全领域的应用潜力。学术方面，多项研究聚焦于将智能体工作流编译为模型权重、KV缓存压缩及推理优化，推动LLM效率与实用性提升。 [FACT] TITLE: Anthropic估值或破9000亿美元，完成超300亿美元融资 SUMMARY: 据媒体报道，Anthropic即将完成一轮规模超过300亿美元的融资，估值有望突破9000亿美元，超越OpenAI成为全球估值最高的人工智能初创企业。…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 34146,
-      "event_count": 571
+      "field_score": 34631,
+      "event_count": 576
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1991,
-      "event_count": 46
+      "field_score": 1833,
+      "event_count": 42
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1433,
-      "event_count": 37
+      "field_score": 1543,
+      "event_count": 39
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 591,
-      "event_count": 12
+      "field_score": 618,
+      "event_count": 13
     },
     {
       "field_key": "science",
@@ -44,16 +44,6 @@
       ]
     },
     {
-      "title": "微软推出 Fara1.5 系列浏览器 AI 智能体模型，72% 任务成功率超 OpenAI Operator",
-      "summary": "IT之家 5 月 23 日消息，微软研究院 AI Frontiers 实验室最新发布 Fara1.5 系列模型，主要适用于浏览器场景下的计算机使用智能体， 涵盖 4B、9B 和 27B 三个参数规模版本。 该系列模型配套 Magentic…；微软推出 Fara1.5 系列浏览器 AI 智能体模型，72% 任务成功率超 OpenAI Operator",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/954/266.htm"
-        }
-      ]
-    },
-    {
       "title": "Metis: Learning to Jailbreak LLMs via Self-Evolving Metacognitive Policy Optimization",
       "summary": "arXiv:2605.10067v3 Announce Type: replace-cross Abstract: Red teaming is critical for uncovering vulnerabilities in Lar…；Metis: Learning to Jailbreak LLMs via Self-Evolving Metaco…",
       "references": [
@@ -70,6 +60,16 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.22337"
+        }
+      ]
+    },
+    {
+      "title": "Dooly: Configuration-Agnostic, Redundancy-Aware Profiling for LLM Inference Simulation",
+      "summary": "arXiv:2605.07985v2 Announce Type: replace-cross Abstract: Selecting the optimal LLM inference configuration requires ev…；Dooly: Configuration-Agnostic, Redundancy-Aware Profiling…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.07985"
         }
       ]
     }
