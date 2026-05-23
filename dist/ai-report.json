@@ -1,73 +1,153 @@
 {
-  "global_brief": "AI领域持续主导全球科技动态，Anthropic以超300亿美元融资和9000亿美元估值成为焦点，同时多项研究在Agent编排、推理效率和安全红队测试上取得突破，AI产业正从模型竞赛转向工程化与商业化落地。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在将智能体工作流编译进模型权重以大幅降低成本、利用AI发现大量高危软件漏洞，以及Anthropic与DeepSeek等公司推动的AI“按量付费”商业模式。同时，关于LLM推理、安全、记忆系统和多模态应用的多项研究也取得进展。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32425,
-      "event_count": 555
+      "field_score": 32481,
+      "event_count": 557
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1649,
+      "field_score": 1631,
       "event_count": 43
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1147,
-      "event_count": 24
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 527,
-      "event_count": 11
+      "field_score": 1115,
+      "event_count": 22
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 460,
+      "field_score": 458,
+      "event_count": 9
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 441,
       "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic估值或破9000亿美元，最快下周完成超300亿美元融资",
-      "summary": "据彭博社报道，Anthropic即将完成新一轮超大规模融资，总额预计超过300亿美元，估值有望突破9000亿美元，超越OpenAI成为全球估值最高的AI初创企业。",
+      "title": "新研究将智能体工作流编译进LLM权重，成本降低两个数量级",
+      "summary": "一项新研究 提出将智能体编排工作流直接编译进大语言模型权重的方法，声称在接近前沿质量的同时，将成本降低两个数量级。",
       "references": [
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3772955"
-        },
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.22502"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic的Claude Mythos AI发现超1万个高危软件漏洞",
+      "summary": "Anthropic披露其“Project Glasswing”项目，利用Claude Mythos AI在广泛使用的软件中发现了超过1万个高危或严重级别的漏洞。",
+      "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/954/452.htm"
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出Metis框架，通过自我进化元认知策略优化实现LLM越狱",
+      "summary": "一项新研究 介绍了Metis，一种通过自我进化元认知策略优化来学习越狱大语言模型的方法，旨在发现模型漏洞。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.10067"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出Meta-Soft方法，利用可组合元令牌实现KV缓存压缩",
+      "summary": "一项新研究 提出了Meta-Soft，通过可组合的元令牌来压缩大语言模型中的KV缓存，以解决其线性增长的时间和内存成本问题。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.22337"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出IdleSpec，利用空闲时间进行推测性规划以加速LLM智能体",
+      "summary": "一项新研究 提出了IdleSpec，一种通过利用空闲时间进行推测性规划来加速基于大语言模型的智能体执行复杂任务的方法。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.22154"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出NeuSymMS，一种混合神经符号记忆系统用于持久化LLM智能体",
+      "summary": "一项新研究 提出了NeuSymMS，一种自适应记忆系统，使大语言模型智能体能够实现持久化、自我管理的记忆。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.17596"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI产业估值泡沫风险与商业化验证并存",
-      "summary": "Anthropic以9000亿美元估值融资，远超OpenAI，但其营收预测（一季度48亿，二季度109亿）与运营利润（6月当季5.59亿）显示其商业化路径正在快速验证。然而，如此高的估值也引发市场对AI行业是否存在泡沫的担忧，尤其是当竞争对手如DeepSeek也在进行大规模融资时。",
+      "title": "AI商业模式转向“按量付费与算力配给”",
+      "summary": "分析指出，Anthropic和DeepSeek等公司的动向表明，AI行业正进入一个“按量付费与算力配给”的新时代，这将对AI服务的定价和部署模式产生深远影响。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3772955"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/954/452.htm"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3772969"
+        }
+      ]
+    },
+    {
+      "title": "针对LLM的越狱和语义攻击研究增多，模型安全面临新挑战",
+      "summary": "近期多项研究 关注如何越狱LLM或对工具增强型LLM发起语义攻击，这表明随着模型能力增强，其安全边界也面临更复杂、更隐蔽的威胁。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.10067"
         },
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1666843"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2512.06556"
+        }
+      ]
+    },
+    {
+      "title": "推理效率优化成为LLM部署的关键瓶颈，多项研究聚焦KV缓存与推理模拟",
+      "summary": "从KV缓存压缩到推理模拟器，多项研究 集中解决LLM推理效率问题，表明在模型能力提升的同时，降低推理成本和延迟已成为产业落地的核心挑战。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.22337"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.07985"
+        }
+      ]
+    },
+    {
+      "title": "LLM智能体正从单一任务执行向持久化、自演化方向发展",
+      "summary": "多项研究 探索LLM智能体的持久记忆、推测性规划和自演化能力，表明智能体正从简单的任务执行器向更复杂、更自主的系统演进。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.22154"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.17596"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.16299"
         }
       ]
     }
