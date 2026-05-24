@@ -1,77 +1,62 @@
 {
-  "global_brief": "AI 领域持续主导今日动态，焦点集中在 AI 编程工具的成本与安全争议、Anthropic 与 OpenAI 等巨头的资本市场动向，以及开源社区对 AI Agent 效率与控制的探索。企业强推 AI 提效遭遇反效果，同时欧洲央行对 AI 模型风险发出警告，显示出行业正从狂热期进入反思与规范阶段。",
+  "global_brief": "过去24小时的重要动态主要集中在：企业强推 AI 提效遇反效果：AI 成本已超人力；长安第四代逸动蓝鲸超擎车型上市：AI 大模型语音接入 DeepSeek，7.99 万起；三大超级IPO来袭：如何冲击美股流动性？。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7450,
-      "event_count": 135
+      "field_score": 7297,
+      "event_count": 134
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1341,
-      "event_count": 35
+      "field_score": 1437,
+      "event_count": 38
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 637,
-      "event_count": 15
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 525,
-      "event_count": 12
+      "field_score": 592,
+      "event_count": 14
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 361,
+      "field_score": 341,
+      "event_count": 8
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 340,
       "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "Audit AI-Generated PRs Before You Merge Them (Swarm Orchestrator 10.3.0)",
-      "summary": "Audit AI-Generated PRs Before You Merge Them (Swarm Orchestrator 10.3.0)；If you let Claude Code, Cursor, Devin, Aider, Copilot, or any other coding agent open PRs against your rep…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/moonrunnerkc/audit-ai-generated-prs-before-you-merge-them-swarm-orchestrator-1030-3a6e"
-        }
-      ]
-    },
-    {
       "title": "企业强推 AI 提效遇反效果：AI 成本已超人力",
       "summary": "IT之家 5 月 24 日消息，众多科技企业督促员工使用人工智能工具提升工作效率，但这项举措已然开始产生反效果。据 The Verge 报道，微软要求员工改用自家的 Copilot CLI，而非 Claude Code 工具，原因是企业倾…；企业强推 AI 提效遇反效果：AI 成本已超人力",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/954/581.htm"
-        }
-      ]
-    },
-    {
-      "title": "Stop Flying Blind: We Built an LLM Evaluation Framework That Works Across 17+ Agent Frameworks",
-      "summary": "Let me be brutally honest with you. I've seen teams demo AI agents that look incredible — smooth responses, beautiful U…；Stop Flying Blind: We Built an LLM Evaluation Framework Th…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/anjaiahspr/stop-flying-blind-we-built-an-llm-evaluation-framework-that-works-across-17-agent-frameworks-1698"
-        }
-      ]
+      "references": []
     },
     {
       "title": "长安第四代逸动蓝鲸超擎车型上市：AI 大模型语音接入 DeepSeek，7.99 万起",
       "summary": "IT之家 5 月 24 日消息，长安第四代逸动蓝鲸超擎车型上市，共推出三款车，上市抢购价区间 7.99-8.99 万元。 IT之家注意到，新车延续了家族式的设计语言，长宽高分别为 4785/1840/1460mm， 轴距为 2765mm…；长安第四代逸动蓝鲸超擎车型上市：AI 大模型语音接入 DeepSeek，7.99 万起",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/954/592.htm"
-        }
-      ]
+      "references": []
+    },
+    {
+      "title": "三大超级IPO来袭：如何冲击美股流动性？",
+      "summary": "三大超级IPO来袭：如何冲击美股流动性？；在接下来的几个月中，美股市场将迎来一场前所未有的超级IPO浪潮。SpaceX、OpenAI以及Anthropic三家科技巨头计划在未来数月集中登陆资本市场，IPO时间预计为6月上旬、9月和10月份。 其中，SpaceX目标估值最高逼近2万…",
+      "references": []
+    },
+    {
+      "title": "Show HN: Strudel – Generate commit messages via Apple's on-device LLM",
+      "summary": "Show HN: Strudel – Generate commit messages via Apple's on-device LLM；Strudel is a small cli tool which uses Apple's on-device LLM to write commit messages for you. To give it a try install…；Article URL: https://www.hol…",
+      "references": []
+    },
+    {
+      "title": "开源 OpenSeek: 给 DeepSeek V4 写了一层 Claude Code 同款的 TUI agent harness",
+      "summary": "开源 OpenSeek: 给 DeepSeek V4 写了一层 Claude Code 同款的 TUI agent harness；截至 2026/05，coding agent 这个赛道在 GitHub 上已经分成几条不同的线： 闭源旗舰: Claude Code （ Anthropic 官方），Cursor。体验最好，但贵 + 锁定。 开源通用: Open…",
+      "references": []
     }
   ],
   "highlight_opinions": []
