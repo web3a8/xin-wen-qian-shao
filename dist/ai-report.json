@@ -1,62 +1,77 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：How Thinking Machines built interactivity into the model；Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software；Tried using the Claude Platform on AWS。",
+  "global_brief": "AI 领域持续主导全球科技动态，Anthropic 的 Claude 系列在安全审计与开发工具上取得突破，同时 SpaceX、OpenAI 与 Anthropic 的超级 IPO 计划引发市场对流动性的担忧。地缘政治方面，美伊即将签署协议以延长停火并重开霍尔木兹海峡，为全球能源市场带来变数。 [FACT] TITLE: Anthropic 的 Claude AI 发现超 1 万个高危软件漏洞 SUMMARY: Anthropic 披露其“Project Glasswing”项目利用 Claude AI 在广泛使用的软件中发现了超过 1 万个高危或严重级…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7510,
-      "event_count": 142
+      "field_score": 7047,
+      "event_count": 130
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1469,
+      "field_score": 1492,
       "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 530,
+      "field_score": 493,
       "event_count": 12
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 363,
-      "event_count": 8
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 314,
-      "event_count": 7
+      "field_score": 437,
+      "event_count": 9
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 275,
+      "event_count": 6
     }
   ],
   "highlight_facts": [
     {
-      "title": "How Thinking Machines built interactivity into the model",
-      "summary": "A new release from Thinking Machines, dated May 11, 2026, lands at 0.40 seconds end-to-end on the FD-bench V1 turn-taki…；How Thinking Machines built interactivity into the model",
-      "references": []
+      "title": "企业强推 AI 提效遇反效果：AI 成本已超人力",
+      "summary": "IT之家 5 月 24 日消息，众多科技企业督促员工使用人工智能工具提升工作效率，但这项举措已然开始产生反效果。据 The Verge 报道，微软要求员工改用自家的 Copilot CLI，而非 Claude Code 工具，原因是企业倾…；企业强推 AI 提效遇反效果：AI 成本已超人力",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/954/581.htm"
+        }
+      ]
     },
     {
       "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
-      "summary": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vul…；Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
-      "references": []
+      "summary": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vul…；Claude Mythos AI Finds 10,000 High-Severity Flaws in Widel…",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html"
+        }
+      ]
     },
     {
-      "title": "Tried using the Claude Platform on AWS",
-      "summary": "The Claude platform on AWS is now generally available. This will allow you to access Claude, Anthropic's native platfor…；Tried using the Claude Platform on AWS",
-      "references": []
+      "title": "三大超级IPO来袭：如何冲击美股流动性？",
+      "summary": "三大超级IPO来袭：如何冲击美股流动性？；在接下来的几个月中，美股市场将迎来一场前所未有的超级IPO浪潮。SpaceX、OpenAI以及Anthropic三家科技巨头计划在未来数月集中登陆资本市场，IPO时间预计为6月上旬、9月和10月份。 其中，SpaceX目标估值最高逼近2万…",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/member/articles/3772993"
+        }
+      ]
     },
     {
-      "title": "美媒披露美伊即将签署协议的更多细节",
-      "summary": "据美国阿克西奥斯新闻网站23日报道，美国和伊朗即将达成一份协议，其中包括将停火再延长60天，其间霍尔木兹海峡将重新开放，伊朗可自由售卖石油，双方将就伊朗核计划展开谈判。 报道援引一名美国官员的话说，美伊双方将签署一份有效期为60天的谅解备…；美媒披露美伊即将签署协议的更多细节",
-      "references": []
-    },
-    {
-      "title": "ccglass：看清 Claude Code / Codex / DeepSeek 到底给大模型发了什么",
-      "summary": "openai 周限又重置了，已经放弃 claude 了；ccglass：看清 Claude Code / Codex / DeepSeek 到底给大模型发了什么；做了个小工具 ccglass，一条命令就能看到这些 coding agent 到底往大模型发了什么。 GitHub： https://github.com/jianshuo/ccglass 为什么做 我一直想看清 Claude Code…",
-      "references": []
+      "title": "Generate Claude Code skills from your git history",
+      "summary": "Generate Claude Code skills from your git history；I could have created a generic \"bug fix\" skill. A template that asks for the symptom, expected behavior, what's already…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/ohugonnot/generate-claude-code-skills-from-your-git-history-2lna"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
