@@ -1,51 +1,41 @@
 {
-  "global_brief": "AI 领域持续主导今日动态，coding agent 赛道竞争白热化，同时企业级 AI 应用的成本与效率问题引发广泛讨论。此外，国产大模型融资热潮与头部 AI 公司的超级IPO计划，预示着资本市场对AI产业的信心与流动性考验并存。",
+  "global_brief": "AI 领域持续主导全球科技动态，一方面资本市场迎来SpaceX、OpenAI、Anthropic三大超级IPO浪潮，另一方面AI coding agent生态竞争白热化，Claude Code与Codex CLI成为社区焦点，同时企业强推AI提效遭遇成本反噬，欧洲央行也开始关注AI模型对银行业的威胁。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6076,
-      "event_count": 115
+      "field_score": 7607,
+      "event_count": 139
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1397,
+      "field_score": 1373,
       "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 521,
-      "event_count": 13
+      "field_score": 490,
+      "event_count": 12
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 317,
-      "event_count": 7
+      "field_score": 409,
+      "event_count": 9
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 307,
+      "field_score": 298,
       "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "企业强推 AI 提效遇反效果：AI 成本已超人力",
-      "summary": "据 IT之家援引 The Verge 报道，微软要求员工改用自家的 Copilot CLI，而非 Claude Code 工具，原因是企业推行 AI 工具提升效率已开始产生反效果，AI 使用成本已超过人力成本。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/954/581.htm"
-        }
-      ]
-    },
-    {
-      "title": "三大超级IPO来袭：SpaceX、OpenAI、Anthropic 计划集中上市",
-      "summary": "据华尔街见闻报道，SpaceX、OpenAI 和 Anthropic 三家科技巨头计划在未来数月集中登陆资本市场，其中 SpaceX 目标估值最高，预计将对美股市场流动性产生冲击。",
+      "title": "三大超级IPO来袭：SpaceX、OpenAI、Anthropic计划集中登陆资本市场",
+      "summary": "据华尔街见闻报道，SpaceX、OpenAI和Anthropic三家科技巨头计划在未来数月集中上市，IPO时间预计为6月上旬、9月和10月，其中SpaceX目标估值最高逼近2万亿美元。这一超级IPO浪潮将对美股流动性产生重大冲击。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
@@ -54,8 +44,28 @@
       ]
     },
     {
-      "title": "国产大模型融资金额暴增，一季度 AI 领域融资超 1100 亿元",
-      "summary": "据 Readhub 报道，近期人工智能创投市场热度攀升，一季度人工智能领域融资近 600 起、总额超 1100 亿元，同比激增 185.4%，资金主要投向研发和算力。",
+      "title": "企业强推AI提效遇反效果：AI成本已超人力",
+      "summary": "据IT之家援引The Verge报道，微软要求员工使用自家的Copilot CLI而非Claude Code工具，原因是企业倾向的AI工具成本已超过人力成本，强推AI提效开始产生反效果。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/954/581.htm"
+        }
+      ]
+    },
+    {
+      "title": "欧洲央行将呼吁银行业解决AI暴露的瑕疵，强调Anthropic模型威胁",
+      "summary": "据华尔街见闻实时快讯，欧洲央行将呼吁银行业解决因人工智能而暴露出来的瑕疵，并计划强调Anthropic模型Mythos构成的威胁的严重程度，将于周二召开银行业会议讨论。",
+      "references": [
+        {
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3108534"
+        }
+      ]
+    },
+    {
+      "title": "国产大模型融资金额暴增，一季度AI领域融资超1100亿元",
+      "summary": "据Readhub热门报道，近期人工智能创投市场热度攀升，5月国产大模型及具身智能企业获大额融资，一季度人工智能领域融资近600起、总额超1100亿元，同比激增185.4%，资金主要投向研发和算力。",
       "references": [
         {
           "source_name": "Readhub 热门",
@@ -64,20 +74,18 @@
       ]
     },
     {
-      "title": "长安第四代逸动蓝鲸超擎车型上市，接入 DeepSeek AI 大模型",
-      "summary": "据 IT之家报道，长安汽车推出第四代逸动蓝鲸超擎车型，起售价 7.99 万元，新车搭载了基于 DeepSeek 的 AI 大模型语音系统。",
+      "title": "长安第四代逸动蓝鲸超擎车型上市，AI大模型语音接入DeepSeek",
+      "summary": "据IT之家报道，长安第四代逸动蓝鲸超擎车型上市，共推出三款车，上市抢购价区间7.99-8.99万元，新车延续家族式设计，AI大模型语音接入DeepSeek。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/954/592.htm"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "Coding Agent 赛道分化加剧，开源社区与闭源巨头展开竞争",
-      "summary": "社区讨论显示，coding agent 赛道已形成明显分化：以 Claude Code 为代表的闭源旗舰与以 OpenSeek（为 DeepSeek V4 提供 Claude Code 同款 TUI）为代表的开源方案正激烈竞争。同时，Fleet 等并行运行 coding agent 的 Python 管理工具的出现，表明开发者正寻求更高效的 agent 编排方案。",
+      "title": "开源社区涌现大量AI coding agent工具，Claude Code与Codex生态竞争白热化",
+      "summary": "社区讨论显示，围绕Claude Code和Codex CLI的生态工具大量涌现，包括token用量预警插件、并行运行coding agent的Python supervisor（Fleet）、以及为DeepSeek V4适配Claude Code同款TUI agent harness的OpenSeek项目。",
       "references": [
         {
           "source_name": "Hacker News Show",
@@ -89,43 +97,53 @@
         },
         {
           "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2238707"
+          "link": "https://linux.do/t/topic/2238913"
         },
         {
           "source_name": "V2EX 技术",
           "link": "https://v2ex.com/t/1215048"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "AI 工具成本与效率的权衡成为企业落地关键挑战",
-      "summary": "微软因成本问题要求员工从 Claude Code 转向 Copilot CLI 的案例，凸显了企业级 AI 部署中成本控制的重要性。这与社区中关于 token 用量预警、以及通过内存管理技术削减输入 token 成本（最高可达 80%）的讨论相呼应，表明降低 AI 推理成本是当前行业的核心痛点。",
+      "title": "Claude Code远程注入系统提示词引发社区对AI agent控制权的担忧",
+      "summary": "有开发者指出，Claude Code现在允许Anthropic远程注入系统提示词，这一做法引发社区对AI agent自主性和用户控制权的广泛讨论。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/954/581.htm"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Tem-Degu/streetai-memory"
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48259288"
         }
       ]
     },
     {
-      "title": "中国在 LLM 竞赛中落后，但仍有希望在 AI 领域获胜",
-      "summary": "前腾讯 AI 负责人在 Hacker News 上发表的评论引发讨论，观点认为尽管中国在基础大模型竞赛中暂时落后，但仍有潜力在更广泛的 AI 应用领域取得胜利。这一观点与国产大模型融资激增、以及 DeepSeek 等模型被整合进汽车等实际产品的动态形成对照。",
+      "title": "中国在LLM竞赛中落后但仍可在AI领域取胜，需差异化竞争",
+      "summary": "前腾讯AI负责人表示，中国在LLM竞赛中落后，但通过差异化策略仍可在AI领域取胜，这一观点在社区引发对中美AI发展路径的讨论。",
       "references": [
         {
           "source_name": "Hacker News LLM",
           "link": "https://scmp.com/tech/big-tech/article/3354394/china-losing-llm-race-it-can-still-win-ai-ex-tencent-ai-lead-says"
-        },
+        }
+      ]
+    },
+    {
+      "title": "AI agent安全成为焦点，社区呼吁防范破坏性终端命令执行",
+      "summary": "随着AI agent在终端执行命令的场景增多，社区开始关注安全问题，有开发者推出工具防止AI agent执行破坏性终端命令，反映出对agent安全性的普遍担忧。",
+      "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/954/592.htm"
-        },
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/7Majesty-M/terminal-guardian-mcp"
+        }
+      ]
+    },
+    {
+      "title": "用户从Claude Code转向Codex，反映AI coding工具竞争格局变化",
+      "summary": "社区讨论显示，部分用户因OpenAI重置周限、Codex体验提升而放弃Claude Code，认为Claude Code的优势已不明显，反映出AI coding工具的用户偏好正在发生转移。",
+      "references": [
         {
-          "source_name": "Readhub 热门",
-          "link": "https://readhub.cn/topic/8tO1O3IYsTc"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1215013"
         }
       ]
     }
