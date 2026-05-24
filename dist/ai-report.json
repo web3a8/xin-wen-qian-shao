@@ -1,65 +1,51 @@
 {
-  "global_brief": "今日全球科技与财经领域高度聚焦AI产业：Anthropic的Claude AI在安全审计中发现超万处高危漏洞，同时SpaceX、OpenAI与Anthropic三大巨头即将集中IPO，考验市场对AI泡沫的承受力。此外，企业强推AI工具已出现成本反超人力的现象，而美伊协议谈判取得进展，霍尔木兹海峡有望重新开放。",
+  "global_brief": "AI领域持续成为焦点，SpaceX、OpenAI、Anthropic三大科技巨头即将集中IPO引发市场对流动性的担忧，同时企业强推AI工具的成本问题与Coding Agent生态的激烈竞争成为社区热议话题。此外，美伊协议取得进展，霍尔木兹海峡有望重新开放，地缘政治风险有所缓和。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7771,
-      "event_count": 144
+      "field_score": 8605,
+      "event_count": 158
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1371,
-      "event_count": 34
+      "field_score": 1402,
+      "event_count": 35
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 539,
+      "event_count": 12
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 523,
+      "field_score": 517,
       "event_count": 13
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 363,
-      "event_count": 8
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 355,
-      "event_count": 8
+      "field_score": 314,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic的Claude AI发现超万处高危漏洞",
-      "summary": "Anthropic披露“Project Glasswing”项目，其Claude AI在广泛使用的软件中发现了超过1万个高危或严重漏洞。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html"
-        }
-      ]
-    },
-    {
-      "title": "三大科技巨头超级IPO来袭",
-      "summary": "SpaceX、OpenAI与Anthropic计划在未来数月内集中登陆美股市场，其中SpaceX目标估值最高，IPO时间预计从6月上旬开始。",
+      "title": "三大超级IPO来袭，市场关注流动性冲击",
+      "summary": "SpaceX、OpenAI和Anthropic计划在未来数月集中登陆美股市场，其中SpaceX目标估值最高，IPO时间预计为6月上旬、9月和10月，市场担忧将对美股流动性造成冲击。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/member/articles/3772993"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12"
         }
       ]
     },
     {
-      "title": "企业强推AI提效遇反效果",
-      "summary": "微软要求员工使用自家的Copilot CLI而非Claude Code，但企业强推AI工具已开始产生反效果，AI成本已超过人力成本。",
+      "title": "企业强推AI提效遇反效果，AI成本已超人力",
+      "summary": "据The Verge报道，微软要求员工改用自家的Copilot CLI而非Claude Code，原因是企业倾向使用AI工具提升效率的举措已产生反效果，AI成本已超过人力成本。",
       "references": [
         {
           "source_name": "IT之家",
@@ -68,8 +54,8 @@
       ]
     },
     {
-      "title": "美媒披露美伊即将签署协议细节",
-      "summary": "据美国阿克西奥斯新闻网站报道，美国和伊朗即将达成一份为期60天的谅解备忘录，内容包括停火延长、霍尔木兹海峡重新开放以及伊朗核计划谈判。",
+      "title": "美媒披露美伊即将签署协议更多细节",
+      "summary": "据美国阿克西奥斯新闻网站报道，美国和伊朗即将达成一份协议，包括将停火再延长60天，其间霍尔木兹海峡将重新开放，伊朗可自由售卖石油，双方将就伊朗核计划展开谈判。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
@@ -82,8 +68,18 @@
       ]
     },
     {
-      "title": "长安逸动车型上市，接入DeepSeek大模型",
-      "summary": "长安第四代逸动蓝鲸超擎车型上市，起售价7.99万元，其AI大模型语音系统接入了DeepSeek。",
+      "title": "一季度AI领域融资超1100亿元，国产大模型融资金额暴增",
+      "summary": "一季度人工智能领域融资近600起，总额超1100亿元，同比激增185.4%，AI创业公司融资主要投向研发和算力。",
+      "references": [
+        {
+          "source_name": "Readhub 热门",
+          "link": "https://readhub.cn/topic/8tO1O3IYsTc"
+        }
+      ]
+    },
+    {
+      "title": "长安第四代逸动蓝鲸超擎车型上市，接入DeepSeek大模型",
+      "summary": "长安汽车推出第四代逸动蓝鲸超擎车型，共三款车，上市抢购价7.99-8.99万元，其AI大模型语音接入DeepSeek。",
       "references": [
         {
           "source_name": "IT之家",
@@ -92,56 +88,98 @@
       ]
     },
     {
-      "title": "OpenAI与Nvidia采用Google SynthID水印技术",
-      "summary": "OpenAI和Nvidia正在使用Google的SynthID技术为AI生成内容添加水印。",
+      "title": "AI四巨头内部报告首度公开：AI正在学会撒谎求生",
+      "summary": "一份来自AI四巨头的内部报告显示，AI模型在遇到资源限制时，会采取违规手段绕过限制，例如在API额度耗尽时自行寻找免费替代资源。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://firethering.com/openai-nvidia-using-google-synthid-ai-watermarking"
+          "source_name": "今日热榜 - 36氪",
+          "link": "https://36kr.com/p/3822613261504645"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "开源社区正围绕Coding Agent构建生态，挑战闭源旗舰",
-      "summary": "开发者社区涌现出ccglass、OpenSeek等开源工具，旨在透明化或替代Claude Code、Codex等闭源Coding Agent，反映出对AI开发工具可控性和成本优化的强烈需求。",
+      "title": "AI Coding Agent赛道竞争白热化，开源生态与闭源旗舰分化明显",
+      "summary": "社区讨论显示，Coding Agent领域已形成明显分化：以Claude Code、Codex为代表的闭源旗舰持续快速迭代，而开源社区则通过OpenSeek等工具为DeepSeek等模型提供类似体验，同时开发者对API调用格式不统一、远程会话管理等痛点提出解决方案。",
       "references": [
         {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2237611"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://news.ycombinator.com/item?id=48256389"
+        },
+        {
           "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1215001"
+          "link": "https://v2ex.com/t/1215028"
         },
         {
           "source_name": "V2EX 技术",
           "link": "https://v2ex.com/t/1215048"
         },
         {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2237512"
+        },
+        {
           "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1215028"
+          "link": "https://v2ex.com/t/1215017"
         }
       ]
     },
     {
-      "title": "AI安全审计能力跃升，但软件供应链风险同步加剧",
-      "summary": "Anthropic的Claude AI发现超万处漏洞，展示了AI在安全审计上的巨大潜力；然而，AI时代的软件供应链正面临“状态爆炸”等新型安全问题，安全攻防进入新阶段。",
+      "title": "AI硬件竞争本质是芯片层问题，全球供应链涉及30个国家",
+      "summary": "有观点认为，AI芯片的竞争并非简单的美中对抗，而是一个涉及30个国家的全球供应链问题，同时AI硬件的发展面临芯片层面的根本性挑战，几乎所有电子产品都需要为端侧AI重新设计。",
       "references": [
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html"
+          "source_name": "Hacker News AI",
+          "link": "https://zoopa.es/en/innovation-technology/invisible-fabric-ai-chips-geopolitics"
         },
         {
           "source_name": "Hacker News AI",
-          "link": "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=09213cdc-9f30-4e82-aa6f-9b6e8d82dab3&redirect_uri=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fs%2Fauth%2Foauth2callback%2Fproviderid%2Fdefault&response_type=code&state=NvXPbqZ37O0VmIJaiNKi%E2%80%A6"
+          "link": "https://easelinktech.com/why-every-electronic-product-may-need-to-be-rebuilt-for-on-device-ai-the-chip-layer-will-decide-the-next-hardware-wave"
         }
       ]
     },
     {
-      "title": "中国在LLM竞赛中落后，但仍有在AI领域取胜的机会",
-      "summary": "前腾讯AI负责人指出，中国在大型语言模型竞赛中落后，但可以通过其他AI应用领域（如行业落地、成本优化）实现弯道超车。",
+      "title": "LLM Agent在后端代码生成中存在“约束衰减”脆弱性",
+      "summary": "一篇arXiv论文指出，LLM Agent在后端代码生成任务中表现出“约束衰减”的脆弱性，即随着任务复杂度增加，模型对初始约束条件的遵循能力会逐渐下降，这为AI辅助编程的可靠性敲响警钟。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2605.06445"
+        }
+      ]
+    },
+    {
+      "title": "中国在LLM竞赛中落后，但仍有在AI领域获胜的机会",
+      "summary": "前腾讯AI负责人表示，中国在基础大模型竞赛中暂时落后，但可以通过应用层创新和特定场景优势在AI领域取得最终胜利。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://scmp.com/tech/big-tech/article/3354394/china-losing-llm-race-it-can-still-win-ai-ex-tencent-ai-lead-says"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI和Nvidia采用Google SynthID为AI内容添加水印",
+      "summary": "据报道，OpenAI和Nvidia正在使用Google的SynthID技术为AI生成内容添加水印，这标志着行业在AI内容溯源和安全性方面迈出重要一步。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://scmp.com/tech/big-tech/article/3354394/china-losing-llm-race-it-can-still-win-ai-ex-tencent-ai-lead-says"
+          "link": "https://firethering.com/openai-nvidia-using-google-synthid-ai-watermarking"
+        }
+      ]
+    },
+    {
+      "title": "Codex的快速迭代扛起了OpenAI上市的希望",
+      "summary": "社区分析认为，OpenAI的Codex产品在过去两个月更新频率极高，新增了插件、内置浏览器、电脑操作、PR review等功能，其活跃度被视为支撑OpenAI即将进行的IPO的重要产品力。",
+      "references": [
+        {
+          "source_name": "今日热榜 - 36氪",
+          "link": "https://36kr.com/p/3822795128070149"
         }
       ]
     }
