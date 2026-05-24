@@ -1,41 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在将智能体工作流编译进模型权重以大幅降低成本、利用AI发现大量高危软件漏洞，以及Anthropic与DeepSeek等公司推动的AI“按量付费”商业模式。同时，关于LLM推理、安全、记忆系统和多模态应用的多项研究也取得进展。",
+  "global_brief": "AI领域持续高热，研究重点集中在提升LLM推理效率与Agent能力，同时安全与伦理议题引发广泛讨论。Anthropic在商业与安全领域均有重大动态，其营收预测与安全工具成果备受关注。开源社区涌现大量针对Agent开发与安全性的工具与讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32481,
-      "event_count": 557
+      "field_score": 32350,
+      "event_count": 556
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1631,
-      "event_count": 43
+      "field_score": 1574,
+      "event_count": 41
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1115,
-      "event_count": 22
+      "field_score": 1328,
+      "event_count": 26
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 458,
-      "event_count": 9
+      "field_score": 497,
+      "event_count": 10
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 441,
-      "event_count": 9
+      "field_score": 427,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "新研究将智能体工作流编译进LLM权重，成本降低两个数量级",
-      "summary": "一项新研究 提出将智能体编排工作流直接编译进大语言模型权重的方法，声称在接近前沿质量的同时，将成本降低两个数量级。",
+      "title": "Compiling Agentic Workflows into LLM Weights: Near-Frontier Quality at Two Orders of Magnitude Less Cost",
+      "summary": "arXiv:2605.22502v1 Announce Type: new Abstract: Agent orchestration frameworks have proliferated, collectively exceedin…；Compiling Agentic Workflows into LLM Weights: Near-Frontie…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -44,18 +44,18 @@
       ]
     },
     {
-      "title": "Anthropic的Claude Mythos AI发现超1万个高危软件漏洞",
-      "summary": "Anthropic披露其“Project Glasswing”项目，利用Claude Mythos AI在广泛使用的软件中发现了超过1万个高危或严重级别的漏洞。",
+      "title": "Qwen 3.6 27B and 35B MTP vs Standard on 16GB GPU",
+      "summary": "I tested Speculative decoding (Multi-Token Prediction, MTP) performance in Qwen 3.6 27B and 35B on an RTX 4080 with 16…；Qwen 3.6 27B and 35B MTP vs Standard on 16GB GPU",
       "references": [
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/rosgluk/qwen-36-27b-and-35b-mtp-vs-standard-on-16gb-gpu-42jd"
         }
       ]
     },
     {
-      "title": "新研究提出Metis框架，通过自我进化元认知策略优化实现LLM越狱",
-      "summary": "一项新研究 介绍了Metis，一种通过自我进化元认知策略优化来学习越狱大语言模型的方法，旨在发现模型漏洞。",
+      "title": "Metis: Learning to Jailbreak LLMs via Self-Evolving Metacognitive Policy Optimization",
+      "summary": "arXiv:2605.10067v3 Announce Type: replace-cross Abstract: Red teaming is critical for uncovering vulnerabilities in Lar…；Metis: Learning to Jailbreak LLMs via Self-Evolving Metaco…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,92 +64,15 @@
       ]
     },
     {
-      "title": "新研究提出Meta-Soft方法，利用可组合元令牌实现KV缓存压缩",
-      "summary": "一项新研究 提出了Meta-Soft，通过可组合的元令牌来压缩大语言模型中的KV缓存，以解决其线性增长的时间和内存成本问题。",
+      "title": "Meta-Soft: Leveraging Composable Meta-Tokens for Context-Preserving KV Cache Compression",
+      "summary": "arXiv:2605.22337v1 Announce Type: new Abstract: The KV cache used in large language models has linearly growing time co…；Meta-Soft: Leveraging Composable Meta-Tokens for Context-P…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.22337"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出IdleSpec，利用空闲时间进行推测性规划以加速LLM智能体",
-      "summary": "一项新研究 提出了IdleSpec，一种通过利用空闲时间进行推测性规划来加速基于大语言模型的智能体执行复杂任务的方法。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.22154"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出NeuSymMS，一种混合神经符号记忆系统用于持久化LLM智能体",
-      "summary": "一项新研究 提出了NeuSymMS，一种自适应记忆系统，使大语言模型智能体能够实现持久化、自我管理的记忆。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.17596"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI商业模式转向“按量付费与算力配给”",
-      "summary": "分析指出，Anthropic和DeepSeek等公司的动向表明，AI行业正进入一个“按量付费与算力配给”的新时代，这将对AI服务的定价和部署模式产生深远影响。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3772969"
-        }
-      ]
-    },
-    {
-      "title": "针对LLM的越狱和语义攻击研究增多，模型安全面临新挑战",
-      "summary": "近期多项研究 关注如何越狱LLM或对工具增强型LLM发起语义攻击，这表明随着模型能力增强，其安全边界也面临更复杂、更隐蔽的威胁。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.10067"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2512.06556"
-        }
-      ]
-    },
-    {
-      "title": "推理效率优化成为LLM部署的关键瓶颈，多项研究聚焦KV缓存与推理模拟",
-      "summary": "从KV缓存压缩到推理模拟器，多项研究 集中解决LLM推理效率问题，表明在模型能力提升的同时，降低推理成本和延迟已成为产业落地的核心挑战。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.22337"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.07985"
-        }
-      ]
-    },
-    {
-      "title": "LLM智能体正从单一任务执行向持久化、自演化方向发展",
-      "summary": "多项研究 探索LLM智能体的持久记忆、推测性规划和自演化能力，表明智能体正从简单的任务执行器向更复杂、更自主的系统演进。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.22154"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.17596"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.16299"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
