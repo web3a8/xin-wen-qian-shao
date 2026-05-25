@@ -1,63 +1,43 @@
 {
-  "global_brief": "今日AI领域研究密集发布，重点集中在LLM对齐优化、安全与隐私、以及Agent推理能力提升上。同时，社区对Anthropic Claude Code远程注入系统提示词的功能表达了隐私担忧，并涌现了多个旨在降低LLM使用成本的实用工具。",
+  "global_brief": "过去24小时的重要动态主要集中在：Convex Optimization for Alignment and Preference Learning on a Single GPU；LLM-driven design of physics-constrained constitutive models: two agents are better than one；MadEvolve: Evolutionary Optimization of Trading Systems with Large Language Models。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33279,
-      "event_count": 551
+      "field_score": 32924,
+      "event_count": 561
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1624,
-      "event_count": 41
+      "field_score": 1591,
+      "event_count": 40
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 764,
-      "event_count": 17
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 720,
-      "event_count": 15
+      "field_score": 805,
+      "event_count": 18
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 606,
+      "field_score": 613,
+      "event_count": 12
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 539,
       "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "单GPU凸优化对齐方法发布",
-      "summary": "一项新研究 提出使用凸优化方法在单GPU上微调LLM以对齐人类偏好，旨在降低对齐成本。",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2605.23244"
-        }
-      ]
+      "title": "马斯克 发布 Grok V9-Medium 1.5T 模型完成训练：加入大量 Cursor 数据，两到三周内发布",
+      "summary": "马斯克 发布 Grok V9-Medium 1.5T 模型完成训练：加入大量 Cursor 数据，两到三周内发布；时间：2026-05-25T06:49:06.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "LLM安全研究重心从数据转向训练后阶段",
-      "summary": "多项研究 表明，LLM的安全与偏见问题（如地缘政治偏见、欺骗性）更多源于后训练和对齐过程，而非预训练数据本身，这提示行业需重新审视安全策略的着力点。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.23825"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.22826"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
