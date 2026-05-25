@@ -1,67 +1,78 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕LLM对齐、安全、推理与Agent应用，同时社区对Claude Code的远程注入能力与开源Agent系统表现出高度关注。多篇研究揭示了LLM在隐私泄露、偏见来源与安全漏洞方面的新发现，而微软的全球AI扩散报告则提供了宏观趋势视角。",
+  "global_brief": "过去24小时，AI领域研究密集发布，涵盖LLM对齐、推理、安全与多模态等方向，同时社区围绕Claude Code的远程提示注入能力与开源AI工具生态展开激烈讨论。一项研究指出LLM的地缘政治偏见主要源于后训练阶段而非数据，引发对模型安全性的新关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33153,
-      "event_count": 548
+      "field_score": 33646,
+      "event_count": 558
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1674,
-      "event_count": 42
+      "field_score": 1595,
+      "event_count": 40
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 775,
-      "event_count": 18
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 767,
-      "event_count": 17
+      "field_score": 926,
+      "event_count": 21
     },
     {
       "field_key": "science",
       "field_name": "Science",
       "field_score": 679,
       "event_count": 13
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 676,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
     {
-      "title": "凸优化方法实现单GPU上的LLM对齐与偏好学习",
-      "summary": "一项新研究 提出使用凸优化方法在单GPU上微调大语言模型以对齐人类偏好，为资源受限环境下的模型对齐提供了新思路。",
+      "title": "Convex Optimization for Alignment and Preference Learning on a Single GPU",
+      "summary": "arXiv:2605.23244v1 Announce Type: new Abstract: Fine-tuning large language models (LLMs) to align with human preference…；Convex Optimization for Alignment and Preference Learning…",
       "references": [
         {
           "source_name": "arXiv 机器学习",
           "link": "https://arxiv.org/abs/2605.23244"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "LLM安全研究从单一攻击转向系统性评估与防御",
-      "summary": "近期多项研究 同时关注LLM的隐私泄露、代码安全、对抗攻击和偏见来源，表明学界正从发现单一漏洞转向构建更全面的安全评估框架，这对企业部署LLM应用具有重要参考价值。",
+      "title": "LLM-driven design of physics-constrained constitutive models: two agents are better than one",
+      "summary": "arXiv:2605.23754v1 Announce Type: new Abstract: Developing constitutive models that capture how materials deform under…；LLM-driven design of physics-constrained constitutive model…",
       "references": [
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.23158"
-        },
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.23754"
+        }
+      ]
+    },
+    {
+      "title": "MadEvolve: Evolutionary Optimization of Trading Systems with Large Language Models",
+      "summary": "arXiv:2605.23007v1 Announce Type: cross Abstract: We explore the application of LLM-driven algorithm optimization to se…；MadEvolve: Evolutionary Optimization of Trading Systems wi…",
+      "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.23825"
-        },
+          "link": "https://arxiv.org/abs/2605.23007"
+        }
+      ]
+    },
+    {
+      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+      "summary": "arXiv:2605.23883v1 Announce Type: cross Abstract: Despite remarkable progress in Multimodal Large Language Models (MLLM…；PGT: Procedurally Generated Tasks for improving visual gro…",
+      "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2602.00979"
+          "link": "https://arxiv.org/abs/2605.23883"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
