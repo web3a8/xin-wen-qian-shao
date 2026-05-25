@@ -1,35 +1,35 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM对齐优化、Agent系统安全与评估、以及多模态模型能力提升。同时，Anthropic联合创始人呼吁AI发展需多方监管，引发行业讨论。社区侧则涌现出多个开源Agent工具与LLM优化实践。 [FACT] TITLE: 凸优化方法实现单GPU上的LLM对齐与偏好学习 SUMMARY: 一项新研究 提出使用凸优化方法，在单张GPU上即可完成大型语言模型的对齐与偏好学习微调，降低了相关技术门槛。 SCORE: 73 ARTICLE_IDS: a1272a4e84800fe126c42f349b6703b…",
+  "global_brief": "过去24小时，AI领域研究密集发布，涵盖LLM对齐、推理、安全及Agent工具链，同时社区热议AI安全防护的脆弱性与模型优化中的奖励破解问题。OpenAI与巴西媒体达成内容合作，Anthropic联合创始人呼吁多方参与AI治理。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32487,
-      "event_count": 569
+      "field_score": 33098,
+      "event_count": 582
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1565,
+      "field_score": 1539,
       "event_count": 40
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 824,
+      "field_score": 844,
       "event_count": 18
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 601,
-      "event_count": 12
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 633,
+      "event_count": 13
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 581,
-      "event_count": 12
+      "field_score": 622,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
@@ -40,6 +40,16 @@
         {
           "source_name": "arXiv 机器学习",
           "link": "https://arxiv.org/abs/2605.23244"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to ne…；OpenAI, Grupo Folha and Grupo UOL announce strategic conte…",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership"
         }
       ]
     },
@@ -60,16 +70,6 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.23007"
-        }
-      ]
-    },
-    {
-      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
-      "summary": "arXiv:2605.23883v1 Announce Type: cross Abstract: Despite remarkable progress in Multimodal Large Language Models (MLLM…；PGT: Procedurally Generated Tasks for improving visual gro…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.23883"
         }
       ]
     }
