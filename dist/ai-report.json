@@ -1,43 +1,67 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Convex Optimization for Alignment and Preference Learning on a Single GPU；LLM-driven design of physics-constrained constitutive models: two agents are better than one；MadEvolve: Evolutionary Optimization of Trading Systems with Large Language Models。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM对齐优化、Agent系统安全与推理、以及多模态模型评估。同时，DeepSeek宣布模型API永久降价并推出类Claude Code工具，引发行业关注。此外，多项研究揭示了LLM在隐私泄露、地缘政治偏见及代码安全方面的潜在风险。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32924,
-      "event_count": 561
+      "field_score": 33289,
+      "event_count": 569
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1591,
-      "event_count": 40
+      "field_score": 1508,
+      "event_count": 38
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 816,
+      "event_count": 17
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 805,
+      "field_score": 806,
       "event_count": 18
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 613,
+      "field_score": 611,
       "event_count": 12
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 539,
-      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "马斯克 发布 Grok V9-Medium 1.5T 模型完成训练：加入大量 Cursor 数据，两到三周内发布",
-      "summary": "马斯克 发布 Grok V9-Medium 1.5T 模型完成训练：加入大量 Cursor 数据，两到三周内发布；时间：2026-05-25T06:49:06.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "单GPU凸优化对齐方法发布",
+      "summary": "一项新研究 提出了一种基于凸优化的方法，用于在单张GPU上高效进行LLM的人类偏好对齐与微调，旨在降低对齐成本。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.23244"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "Agent系统安全与隐私风险成为焦点",
+      "summary": "近期多项研究 分别揭示了LLM在分割推理中的隐私泄露、教育评分Agent的安全漏洞以及代码生成的安全问题，表明随着Agent应用落地，安全与隐私已成为制约其发展的核心挑战。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.23158"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2602.00979"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.23091"
+        }
+      ]
+    }
+  ]
 }
