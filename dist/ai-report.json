@@ -1,61 +1,65 @@
 {
-  "global_brief": "AI领域持续主导技术社区讨论，焦点集中在本地LLM部署、编码Agent工具链的快速演进以及Anthropic与OpenAI等头部模型对政策层面的冲击。同时，社区对AI Agent的授权安全、远程注入风险以及模型在科研领域的应用潜力展开了深入探讨。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕LLM对齐、安全、推理与Agent应用，同时社区对Claude Code的远程注入能力与开源Agent系统表现出高度关注。多篇研究揭示了LLM在隐私泄露、偏见来源与安全漏洞方面的新发现，而微软的全球AI扩散报告则提供了宏观趋势视角。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7309,
-      "event_count": 137
+      "field_score": 33153,
+      "event_count": 548
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1669,
+      "field_score": 1674,
       "event_count": 42
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 605,
-      "event_count": 15
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 513,
-      "event_count": 11
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 408,
-      "event_count": 10
+      "field_score": 775,
+      "event_count": 18
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 767,
+      "event_count": 17
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 679,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Claude Code 被曝允许 Anthropic 远程注入系统提示词",
-      "summary": "有用户指出，Anthropic 的编码 Agent 工具 Claude Code 允许官方远程修改系统提示词，引发了关于安全性和透明度的讨论。",
+      "title": "凸优化方法实现单GPU上的LLM对齐与偏好学习",
+      "summary": "一项新研究 提出使用凸优化方法在单GPU上微调大语言模型以对齐人类偏好，为资源受限环境下的模型对齐提供了新思路。",
       "references": [
         {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48259288"
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.23244"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "编码 Agent 赛道走向分化与开源化",
-      "summary": "社区讨论显示，编码 Agent 领域已形成以 Claude Code 为代表的闭源旗舰和以 OpenSeek 等为代表的开源替代两条路线，后者正试图通过适配不同模型（如 DeepSeek V4）来打破垄断。",
+      "title": "LLM安全研究从单一攻击转向系统性评估与防御",
+      "summary": "近期多项研究 同时关注LLM的隐私泄露、代码安全、对抗攻击和偏见来源，表明学界正从发现单一漏洞转向构建更全面的安全评估框架，这对企业部署LLM应用具有重要参考价值。",
       "references": [
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1215048"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.23158"
         },
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1215075"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.23825"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2602.00979"
         }
       ]
     }
