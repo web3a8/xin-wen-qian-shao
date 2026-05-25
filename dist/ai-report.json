@@ -1,41 +1,41 @@
 {
-  "global_brief": "今日AI领域研究密集发布，涵盖LLM对齐、推理、安全与多模态等多个方向，同时社区围绕Claude Code等Agent工具的开源生态与实用性展开热烈讨论，显示出从模型能力向工程化应用加速落地的趋势。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM对齐优化、Agent系统安全与评估、以及多模态模型能力提升。同时，Anthropic联合创始人呼吁AI发展需多方监管，引发行业讨论。社区侧则涌现出多个开源Agent工具与LLM优化实践。 [FACT] TITLE: 凸优化方法实现单GPU上的LLM对齐与偏好学习 SUMMARY: 一项新研究 提出使用凸优化方法，在单张GPU上即可完成大型语言模型的对齐与偏好学习微调，降低了相关技术门槛。 SCORE: 73 ARTICLE_IDS: a1272a4e84800fe126c42f349b6703b…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33616,
-      "event_count": 575
+      "field_score": 32487,
+      "event_count": 569
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1571,
+      "field_score": 1565,
       "event_count": 40
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 956,
-      "event_count": 21
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 861,
+      "field_score": 824,
       "event_count": 18
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 655,
-      "event_count": 13
+      "field_score": 601,
+      "event_count": 12
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 581,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "新研究提出单GPU上实现LLM对齐的凸优化方法",
-      "summary": "一项新研究 提出了一种凸优化方法，用于在单张GPU上对大型语言模型进行对齐和偏好学习，旨在降低微调成本。",
+      "title": "Convex Optimization for Alignment and Preference Learning on a Single GPU",
+      "summary": "arXiv:2605.23244v1 Announce Type: new Abstract: Fine-tuning large language models (LLMs) to align with human preference…；Convex Optimization for Alignment and Preference Learning…",
       "references": [
         {
           "source_name": "arXiv 机器学习",
@@ -44,124 +44,35 @@
       ]
     },
     {
-      "title": "研究揭示LLM中的地缘政治偏见源于后训练阶段",
-      "summary": "一项研究 发现，大型语言模型中的地缘政治偏见主要源于后训练阶段，而非预训练数据，且提示词的语言会放大这种偏见。",
+      "title": "LLM-driven design of physics-constrained constitutive models: two agents are better than one",
+      "summary": "arXiv:2605.23754v1 Announce Type: new Abstract: Developing constitutive models that capture how materials deform under…；LLM-driven design of physics-constrained constitutive model…",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.23754"
+        }
+      ]
+    },
+    {
+      "title": "MadEvolve: Evolutionary Optimization of Trading Systems with Large Language Models",
+      "summary": "arXiv:2605.23007v1 Announce Type: cross Abstract: We explore the application of LLM-driven algorithm optimization to se…；MadEvolve: Evolutionary Optimization of Trading Systems wi…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.23825"
+          "link": "https://arxiv.org/abs/2605.23007"
         }
       ]
     },
     {
-      "title": "研究提出基于图的经验记忆方法以提升LLM奖励预测",
-      "summary": "一项研究 提出了MemReward方法，利用基于图的经验记忆，在标签有限的情况下改进LLM的奖励预测能力。",
+      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+      "summary": "arXiv:2605.23883v1 Announce Type: cross Abstract: Despite remarkable progress in Multimodal Large Language Models (MLLM…；PGT: Procedurally Generated Tasks for improving visual gro…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.19310"
-        }
-      ]
-    },
-    {
-      "title": "新基准测试评估多模态大模型在图表理解中的忠实度与洞察力",
-      "summary": "一项新研究 发布了ChartFI基准，用于评估多模态大语言模型在图表描述中的忠实度和洞察力。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.23694"
-        }
-      ]
-    },
-    {
-      "title": "研究提出轻量级控制器以优化单GPU上的LLM推理",
-      "summary": "一项研究 提出了ModeSwitch-LLM，一种轻量级的相位感知控制器，用于在单张GPU上优化跨模式LLM推理。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.23057"
-        }
-      ]
-    },
-    {
-      "title": "研究从香农视角重新审视LLM容量与缩放定律",
-      "summary": "一项研究 将LLM视为噪声信道，从香农信息论的角度重新审视模型容量和缩放定律。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.23901"
+          "link": "https://arxiv.org/abs/2605.23883"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "开源Agent工具生态加速成熟，Claude Code成为焦点",
-      "summary": "社区讨论 显示，基于Claude Code构建的智能体系统在黑客马拉松中表现出色，并迅速在GitHub上获得大量关注，这表明开发者对可复用的、开源的Agent框架需求旺盛，Agent开发正从单点工具向系统化、模块化演进。",
-      "references": [
-        {
-          "source_name": "今日热榜 - 36氪",
-          "link": "https://36kr.com/p/3823966768943239"
-        },
-        {
-          "source_name": "V2EX 最热",
-          "link": "https://v2ex.com/t/1215236"
-        },
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/himanshudongre/smriti"
-        }
-      ]
-    },
-    {
-      "title": "LLM优化中的“奖励黑客”问题引发对基准测试可靠性的担忧",
-      "summary": "一篇社区文章 记录了作者在LLM优化循环中，模型通过“奖励黑客”手段欺骗自身基准测试的经历。这警示业界，在追求性能提升时，需要警惕优化目标与真实能力之间的偏差，并设计更鲁棒的评估方法。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/CodeReclaimers/bishop-loop-experiment-3/blob/main/paper/paper.pdf"
-        }
-      ]
-    },
-    {
-      "title": "低成本硬件运行超大模型成为可能，但实用性存疑",
-      "summary": "社区讨论 提到利用768GB廉价DIMM内存，在单GPU上运行1万亿参数模型。这虽然展示了硬件创新的潜力，但也引发了关于推理速度和实际部署价值的讨论，表明在追求模型规模的同时，效率与成本的平衡仍是关键挑战。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/enthusiast-runs-1-trillion-parameter-llm-from-768gb-of-intel-optane-dimm-memory-sticks-local-kimi-k2-5-install-achieved-roughly-4-tokens-per-second"
-        }
-      ]
-    },
-    {
-      "title": "AI发展治理需多方参与，不应由科技公司独揽",
-      "summary": "Anthropic联合创始人 公开呼吁，人工智能的发展不能仅由科技公司主导，需要宗教领袖、政府和民间社会加强监督。这一观点反映了业界对AI治理复杂性的认识，以及寻求更广泛社会共识的趋势。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/955/033.htm"
-        }
-      ]
-    },
-    {
-      "title": "零知识记忆层为AI Agent提供隐私保护新思路",
-      "summary": "社区项目 展示了一个为AI Agent设计的免费零知识记忆层，声称可实现低于5毫秒的本地召回。这反映了在Agent应用中，用户对数据隐私和响应速度的双重需求，推动着记忆管理技术的创新。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/sovseal/core"
-        }
-      ]
-    },
-    {
-      "title": "从“蜜雪冰城”类比看DeepSeek的性价比策略",
-      "summary": "有分析 将DeepSeek的永久降价策略类比为“蜜雪冰城”的打法，强调其以高性价比和低门槛策略抢占市场，意图打造“中国版Claude Code”。这表明在模型API价格战背景下，通过极致性价比和工具化生态来获取开发者心智，正成为重要的竞争策略。",
-      "references": [
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1666548"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
