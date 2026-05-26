@@ -1,23 +1,23 @@
 {
-  "global_brief": "今日AI领域研究密集，聚焦于LLM安全、智能体框架与推理可靠性，同时阿里千问3.7编程能力跻身全球前二，显示国产模型在关键基准上的突破。 [FACT] TITLE: 阿里千问3.7编程能力跻身全球前二 SUMMARY: 阿里最新旗舰模型Qwen3.7-Max在Code Arena榜单得分1541，超越GPT-5.5、Gemini-3.5-Flash等模型，仅次于Claude系列。 SCORE: 72 ARTICLE_IDS: 4e350d4389f998e760a5798a38325069dce12399 [FACT] TITLE: 微软发布开…",
+  "global_brief": "过去24小时，AI安全与智能体风险成为最受关注的议题，多项研究揭示了主流大模型在越狱攻击、提示词注入和微调生命周期中的脆弱性，同时开发者社区围绕AI编程工具的成本、安全与效率展开了密集讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 69358,
-      "event_count": 1112
+      "field_score": 69911,
+      "event_count": 1119
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1673,
-      "event_count": 31
+      "field_score": 1825,
+      "event_count": 34
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1394,
-      "event_count": 35
+      "field_score": 1224,
+      "event_count": 31
     },
     {
       "field_key": "world",
@@ -34,18 +34,28 @@
   ],
   "highlight_facts": [
     {
-      "title": "AI Content Moderation in Therapy Conversations",
-      "summary": "AI Content Moderation in Therapy Conversations；arXiv:2605.25454v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly being used for emotiona…",
+      "title": "微软Copilot Cowork智能体存在间接提示词注入安全风险",
+      "summary": "安全公司PromptArmor报告称，微软Microsoft 365中的AI智能体Copilot Cowork存在安全风险，可能因“间接提示词注入”导致SharePoint等平台上的机密文件外泄。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.25454"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/955/276.htm"
         }
       ]
     },
     {
-      "title": "Reflect-Guard: Enhancing LLM Safeguards against Adversarial Prompts via Logical Self-Reflection",
-      "summary": "arXiv:2605.24834v1 Announce Type: cross Abstract: Large language model (LLM) safety classifiers such as Llama Guard are…；Reflect-Guard: Enhancing LLM Safeguards against Adversaria…",
+      "title": "新研究对GPT和DeepSeek系列模型进行越狱韧性全面分析",
+      "summary": "一项系统化安全分析（SoK）对GPT和DeepSeek系列模型的越狱韧性进行了全面评估，揭示了快速扩散的大语言模型在安全防护上的普遍弱点。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2506.18543"
+        }
+      ]
+    },
+    {
+      "title": "研究提出Reflect-Guard方法增强LLM对抗性提示防护",
+      "summary": "一项新研究提出了Reflect-Guard，通过逻辑自我反思机制增强大语言模型安全分类器（如Llama Guard）对对抗性提示的防护能力。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,25 +64,74 @@
       ]
     },
     {
-      "title": "The Impact of Large Language Models on Open-source Innovation: Evidence from GitHub Copilot",
-      "summary": "arXiv:2409.08379v4 Announce Type: replace-cross Abstract: Large Language Models (LLMs) are reshaping knowledge work, ye…；The Impact of Large Language Models on Open-source Innovat…",
+      "title": "阿里Qwen3.7-Max模型在Code Arena编程榜单超越Claude Opus",
+      "summary": "5月25日，全球编程榜单Code Arena更新，阿里旗舰模型Qwen3.7-Max以1541分位列全球第四、大模型厂商第二，编程能力超过Claude-opus-4-6。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2409.08379"
+          "source_name": "Readhub 热门",
+          "link": "https://readhub.cn/topic/8tRI2UomS8S"
         }
       ]
     },
     {
-      "title": "SoK: A Comprehensive Security Analysis of Jailbreak Resilience in GPT and DeepSeek Models",
-      "summary": "arXiv:2506.18543v2 Announce Type: replace-cross Abstract: The rapid proliferation of Large Language Models (LLMs) has h…；SoK: A Comprehensive Security Analysis of Jailbreak Resili…",
+      "title": "研究揭示大模型微调生命周期中的安全威胁与防御",
+      "summary": "一项新研究系统梳理了大语言模型微调生命周期中的安全威胁、防御措施及评估方法，指出微调是适配模型的关键环节，但也引入了新的攻击面。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2506.18543"
+          "link": "https://arxiv.org/abs/2605.25073"
+        }
+      ]
+    },
+    {
+      "title": "开发者社区发布AI编程智能体安全基准测试AgentToolBench-Code",
+      "summary": "开发者社区发布了AgentToolBench-Code，这是一个专门用于评估AI编程智能体安全性的基准测试工具。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://gist.github.com/allenwu-blip/fa2bd0218b93a1d7aef765817e3c6608"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI智能体安全风险正从模型层扩展到应用层",
+      "summary": "从微软Copilot Cowork的提示词注入漏洞到针对GPT和DeepSeek的越狱分析，再到专门的智能体安全基准测试，表明业界对AI安全的关注已从模型自身的对齐问题，扩展到智能体在实际应用中的操作安全风险。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/955/276.htm"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2506.18543"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://gist.github.com/allenwu-blip/fa2bd0218b93a1d7aef765817e3c6608"
+        }
+      ]
+    },
+    {
+      "title": "AI编程工具普及加剧了技术鸿沟与资源错配",
+      "summary": "社区讨论指出，一方面有开发者熟练使用Claude Code、Codex等高级AI工具，另一方面传统制造业仍需高价聘请人员培训如何使用Copilot，反映出AI技术在不同行业和群体间的应用存在巨大信息壁垒和资源错配。",
+      "references": [
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2248354"
+        }
+      ]
+    },
+    {
+      "title": "开发者正从加密货币领域大规模转向AI项目",
+      "summary": "数据显示加密货币代码提交量下降了75%，与此同时AI项目吸引了大量开发者，这反映了技术人才和资本正从Web3领域向AI领域进行结构性迁移。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://coindesk.com/tech/2026/03/12/crypto-developer-activity-sinks-to-multi-year-low-as-ai-absorbs-github-s-talent-boom"
+        }
+      ]
+    }
+  ]
 }
