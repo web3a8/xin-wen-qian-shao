@@ -1,71 +1,41 @@
 {
-  "global_brief": "过去24小时，AI安全与对齐研究密集涌现，多篇论文聚焦于大语言模型的越狱防御、安全过滤瓶颈及宪法遵循能力，同时Agent系统与推理优化成为社区讨论热点，阿里Qwen3.7-Max在编程榜单上超越Claude Opus 4.6，显示出国产模型的快速进步。",
+  "global_brief": "过去24小时，AI安全与对齐研究成为最密集的产出方向，多篇论文从越狱攻击、微调生命周期、推理时控制等维度系统性地审视大模型风险。同时，世界模型与智能体工作流的设计优化也涌现出大量新方法，显示出从单一语言模型向更复杂、更可靠的自主系统演进的明确趋势。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 69999,
-      "event_count": 1126
+      "field_score": 65955,
+      "event_count": 1095
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1843,
-      "event_count": 34
+      "field_score": 1739,
+      "event_count": 33
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1472,
-      "event_count": 37
+      "field_score": 1579,
+      "event_count": 40
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 989,
-      "event_count": 17
+      "field_score": 1027,
+      "event_count": 19
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 903,
+      "field_score": 869,
       "event_count": 17
     }
   ],
   "highlight_facts": [
     {
-      "title": "研究揭示GPT-4o mini安全过滤器存在多模态到单模态的瓶颈",
-      "summary": "一项研究 发现，GPT-4o mini在处理仇恨言论检测时，其安全过滤器存在“多模态到单模态”瓶颈，可能影响检测效果。",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2509.13608"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出Reflect-Guard方法增强LLM对抗性提示防御",
-      "summary": "一篇论文 提出了Reflect-Guard，通过逻辑自我反思来增强Llama Guard等LLM安全分类器对对抗性提示的防御能力。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.24834"
-        }
-      ]
-    },
-    {
-      "title": "阿里Qwen3.7-Max模型编程能力超越Claude Opus 4.6",
-      "summary": "据Code Arena榜单更新，阿里Qwen3.7-Max以1541分位列全球第四、大模型厂商第二，编程能力超过Claude Opus 4.6和GLM-5.1等模型。",
-      "references": [
-        {
-          "source_name": "Readhub 热门",
-          "link": "https://readhub.cn/topic/8tRI2UomS8S"
-        }
-      ]
-    },
-    {
-      "title": "研究评估GPT和DeepSeek模型的越狱韧性",
-      "summary": "一项系统安全分析 对GPT和DeepSeek系列模型进行了全面的越狱韧性评估，揭示了快速扩散的大语言模型面临的安全挑战。",
+      "title": "对GPT和DeepSeek模型的越狱韧性进行系统安全分析",
+      "summary": "一项系统化知识梳理（SoK）研究对GPT和DeepSeek系列模型进行了全面的越狱韧性安全分析，揭示了当前主流模型在对抗性提示下的脆弱性。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -74,74 +44,116 @@
       ]
     },
     {
-      "title": "新基准测试评估LLM在儿童安全方面的表现",
-      "summary": "一项研究 发布了“好奇心时代与AI时代”基准测试，专门评估大语言模型在面向儿童场景中的安全性。",
+      "title": "提出Reflect-Guard方法增强LLM对对抗性提示的防护",
+      "summary": "一项新研究提出了Reflect-Guard，通过逻辑自我反思机制增强Llama Guard等LLM安全分类器，以抵御对抗性提示攻击。",
       "references": [
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.25510"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.24834"
         }
       ]
     },
     {
-      "title": "研究显示Meta和Google的AI护栏可被快速移除",
-      "summary": "据社区讨论 引用金融时报报道，Meta和Google的AI模型安全护栏可在数分钟内被剥离。",
+      "title": "研究揭示GitHub Copilot对开源创新的影响",
+      "summary": "一项基于GitHub数据的实证研究分析了以GitHub Copilot为代表的大语言模型如何重塑开源创新模式。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://ft.com/content/5630ed79-a263-41ed-9a1a-321617ae310e"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2409.08379"
+        }
+      ]
+    },
+    {
+      "title": "新基准测试评估LLM在牙科临床推理中的表现",
+      "summary": "一项跨国研究发布了GlobalDentBench基准，用于评估大语言模型在牙科领域的临床推理能力，并引入了专家校准机制。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.24636"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示GPT-4o mini的安全过滤器存在多模态瓶颈",
+      "summary": "一项研究发现，GPT-4o mini在仇恨言论检测中，其安全过滤器存在“多模态到单模态”的瓶颈，导致性能受限。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2509.13608"
+        }
+      ]
+    },
+    {
+      "title": "提出Hera框架实现设备-云协同的LLM智能体长期协调",
+      "summary": "一项新研究提出了Hera框架，用于学习设备与云端协同的LLM智能体在长期任务中的协调策略。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.24598"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI安全研究重心从单一模型防御转向全生命周期与多模态",
-      "summary": "近期多项研究 同时覆盖了微调生命周期安全、多模态安全瓶颈以及儿童安全等细分领域，表明AI安全研究正从单一的对抗性提示防御，扩展到模型训练、部署和应用场景的全生命周期，且多模态交互带来的新风险正成为焦点。",
+      "title": "AI安全研究正从单一模型防护转向全生命周期治理",
+      "summary": "多篇论文同时关注微调生命周期安全、推理时行为控制以及多模态安全瓶颈，表明业界共识正在形成：AI安全需要覆盖从训练、微调到部署的完整链路，而非仅依赖模型本身的对齐。",
       "references": [
         {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2509.13608"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2506.18543"
         },
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.25073"
         },
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.25510"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.25984"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2509.13608"
         }
       ]
     },
     {
-      "title": "Agent系统成本与可靠性成为社区关注的核心工程挑战",
-      "summary": "社区讨论 中出现了多个针对AI Agent的Token成本计算器、工作流可靠性优化以及沙箱工具，反映出随着Agent应用深入，开发者正面临成本控制、延迟-可靠性权衡和测试环境搭建等实际工程难题。",
+      "title": "世界模型成为突破LLM能力天花板的关键方向",
+      "summary": "多篇独立研究从自动驾驶、游戏生成、AGI路径等不同角度探索世界模型，暗示业界正试图通过构建内部世界模型来弥补LLM在长程规划、物理常识和闭环决策上的根本缺陷。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://tinyopsstudio.com/ai-agent-token-cost-calculator"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.24004"
         },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2602.10090"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.23972"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.24375"
+        }
+      ]
+    },
+    {
+      "title": "智能体工作流设计正从“能工作”转向“可靠且经济”",
+      "summary": "多项研究关注智能体工作流的延迟-可靠性-成本权衡、多智能体蒸馏以及SaaS场景落地，说明该领域已进入工程优化阶段，重点从功能验证转向在真实商业环境中的高效、可靠部署。",
+      "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.23929"
         },
         {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/rednakta/nilbox"
-        }
-      ]
-    },
-    {
-      "title": "国产大模型在编程能力上已具备国际竞争力",
-      "summary": "阿里Qwen3.7-Max在Code Arena榜单上超越Claude Opus 4.6，结合近期多篇关于LLM推理可靠性与世界模型的研究，表明国产模型不仅在追赶，更在特定能力维度上实现了对国际顶尖模型的超越，可能加速AI编程工具的国产替代进程。",
-      "references": [
-        {
-          "source_name": "Readhub 热门",
-          "link": "https://readhub.cn/topic/8tRI2UomS8S"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2602.03955"
         },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.23965"
+          "link": "https://arxiv.org/abs/2605.15777"
         }
       ]
     }
