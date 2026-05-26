@@ -1,48 +1,38 @@
 {
-  "global_brief": "AI领域持续高热，模型发布、Agent工具链与安全研究密集涌现。OpenAI Codex CLI的跨模型兼容性引发社区关注，同时多项研究聚焦于LLM的安全对齐、推理可靠性及Agent协作效率，中国对AI人才出境的限制也引发讨论。",
+  "global_brief": "过去24小时，AI安全与对齐研究成为最密集的学术产出方向，多篇论文聚焦于大语言模型的越狱防御、微调安全生命周期及多模态安全瓶颈。同时，LLM智能体在成本优化、推理可靠性及端云协同方面取得多项技术进展，GitHub Copilot对开源创新的影响也受到量化评估。 [FACT] TITLE: AI Content Moderation in Therapy Conversations SUMMARY: 一项新研究 探讨了使用大语言模型对治疗对话进行内容审核，相关论文已在arXiv发布。 SCORE: 79 ARTICLE_IDS: 4960613a4…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 68434,
+      "field_score": 66233,
       "event_count": 1129
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1910,
-      "event_count": 38
+      "field_score": 2278,
+      "event_count": 48
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1585,
-      "event_count": 40
+      "field_score": 1338,
+      "event_count": 34
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 996,
+      "field_score": 973,
       "event_count": 18
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 898,
-      "event_count": 18
+      "field_score": 920,
+      "event_count": 19
     }
   ],
   "highlight_facts": [
-    {
-      "title": "Run OpenAI Codex CLI on Claude, Gemini, or Llama — in 50 lines of C#",
-      "summary": "OpenAI's Codex CLI ships with a great editor-agent UX: shell tool, apply_patch, plan tracking, the lot. The catch — as…；Run OpenAI Codex CLI on Claude, Gemini, or Llama — in 50 l…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/rkttu/run-openai-codex-cli-on-claude-gemini-or-llama-in-50-lines-of-c-2418"
-        }
-      ]
-    },
     {
       "title": "AI Content Moderation in Therapy Conversations",
       "summary": "AI Content Moderation in Therapy Conversations；arXiv:2605.25454v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly being used for emotiona…",
@@ -70,6 +60,16 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2409.08379"
+        }
+      ]
+    },
+    {
+      "title": "SoK: A Comprehensive Security Analysis of Jailbreak Resilience in GPT and DeepSeek Models",
+      "summary": "arXiv:2506.18543v2 Announce Type: replace-cross Abstract: The rapid proliferation of Large Language Models (LLMs) has h…；SoK: A Comprehensive Security Analysis of Jailbreak Resili…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2506.18543"
         }
       ]
     }
