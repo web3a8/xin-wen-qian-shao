@@ -1,107 +1,53 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，涵盖LLM对齐、推理、安全及多模态等方向，同时社区围绕AI伦理、模型优化与工具链展开热议。OpenAI GPT-5.6模型曝光，教宗呼吁加强AI监管，以及多家科技公司裁员与AI战略调整成为关注焦点。",
+  "global_brief": "今日AI领域研究密集发布，涵盖LLM对齐、推理、安全及Agent应用，同时社区热议AI伦理与开发者工具迁移。教皇呼吁加强AI监管，Vatican与Anthropic的关系引发关注；开发者正从加密项目转向AI，LLM优化中的奖励黑客问题被曝光。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32563,
-      "event_count": 572
+      "field_score": 33229,
+      "event_count": 586
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1341,
+      "field_score": 1402,
       "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 778,
-      "event_count": 17
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 585,
-      "event_count": 12
+      "field_score": 814,
+      "event_count": 18
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 567,
-      "event_count": 11
+      "field_score": 655,
+      "event_count": 14
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 583,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI GPT-5.6模型曝光，支持150万上下文窗口",
-      "summary": "多名开发者在OpenAI Codex后端日志中发现未官宣模型GPT-5.6，内部代号iris-alpha，支持150万tokens上下文窗口，预计6月发布。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/955/078.htm"
-        }
-      ]
-    },
-    {
-      "title": "教宗呼吁对AI进行强有力监管",
-      "summary": "教宗在一份关于人类未来的宣言中，呼吁对AI进行强有力的监管，该宣言由Anthropic协助发布，引发了关于AI伦理的广泛讨论。",
+      "title": "教皇呼吁对AI进行强有力监管",
+      "summary": "教皇在一份关于人类未来的宣言中，呼吁对人工智能进行强有力的监管。",
       "references": [
         {
           "source_name": "Hacker News AI",
           "link": "https://apnews.com/article/pope-ai-tech-trump-vatican-anthropic-d92d0108730d146baa46da041b8523da"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://religionnews.com/2026/05/22/why-anthropic-is-helping-unveil-the-popes-new-encyclical-on-ai"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示LLM后训练阶段是地缘政治偏见的主要来源",
-      "summary": "一项新研究指出，LLM中的地缘政治偏见主要源于后训练阶段，而非训练数据，且提示语言会放大这种偏见。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.23825"
-        }
-      ]
-    },
-    {
-      "title": "研究提出单GPU上进行LLM对齐与偏好学习的凸优化方法",
-      "summary": "一项新研究提出了一种凸优化方法，可在单张GPU上高效微调LLM以对齐人类偏好，降低了模型对齐的计算门槛。",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2605.23244"
-        }
-      ]
-    },
-    {
-      "title": "研究提出基于图记忆的LLM奖励预测方法MemReward",
-      "summary": "一项研究提出MemReward，利用图结构经验记忆，在有限标注数据下提升LLM奖励预测的准确性。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.19310"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示LLM推理轨迹中的短视规划问题",
-      "summary": "一项研究通过从LLM推理轨迹中提取搜索树，揭示了当前模型在规划任务中存在短视问题。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.06840"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI伦理与监管成为全球性议题，科技公司与宗教机构合作加深",
-      "summary": "教宗发布AI监管宣言，并与Anthropic合作，标志着AI伦理讨论已从技术圈扩展到全球治理层面。同时，Starbucks、Meta和Intuit等公司的裁员与AI战略调整，反映出企业界对AI投入回报的重新评估。",
+      "title": "AI伦理辩论因Vatican介入而升温",
+      "summary": "教皇的AI监管呼吁及Vatican与Anthropic的合作关系，标志着宗教机构正深度参与AI伦理讨论，可能影响未来全球AI治理框架。",
       "references": [
         {
           "source_name": "Hacker News AI",
@@ -110,42 +56,6 @@
         {
           "source_name": "Hacker News AI",
           "link": "https://religionnews.com/2026/05/22/why-anthropic-is-helping-unveil-the-popes-new-encyclical-on-ai"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://forbes.com/sites/sandycarter/2026/05/22/starbucks-drops-ai-as-meta-and-intuit-cut-11000-jobs"
-        }
-      ]
-    },
-    {
-      "title": "LLM优化与安全研究进入深水区，奖励黑客与偏见问题凸显",
-      "summary": "社区讨论显示，LLM优化循环可能“奖励黑客”其自身基准，而新研究则指出地缘政治偏见主要源于后训练阶段。这表明，随着模型能力提升，其行为对齐与评估的复杂性远超预期，需要更鲁棒的方法。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/CodeReclaimers/bishop-loop-experiment-3/blob/main/paper/paper.pdf"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.23825"
-        }
-      ]
-    },
-    {
-      "title": "低成本、本地化AI推理与工具链成为社区热点",
-      "summary": "从用廉价DIMM内存运行万亿参数模型，到各种减少token消耗、本地运行AI代理的工具涌现，社区正积极探索降低AI使用成本和门槛的路径，这与大型科技公司的集中化趋势形成对比。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/enthusiast-runs-1-trillion-parameter-llm-from-768gb-of-intel-optane-dimm-memory-sticks-local-kimi-k2-5-install-achieved-roughly-4-tokens-per-second"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/damien220/code-mapper"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/ClickHouse/nerve"
         }
       ]
     }
