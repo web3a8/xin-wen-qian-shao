@@ -1,51 +1,51 @@
 {
-  "global_brief": "过去24小时，AI安全与对齐研究成为最密集的产出方向，多篇论文从越狱攻击、微调生命周期、推理时控制等维度系统性地审视大模型风险。同时，世界模型与智能体工作流的设计优化也涌现出大量新方法，显示出从单一语言模型向更复杂、更可靠的自主系统演进的明确趋势。",
+  "global_brief": "过去24小时，AI安全与对齐研究成为最密集的产出领域，多篇论文聚焦于大语言模型的越狱防御、安全微调审计及推理时行为控制。同时，关于LLM智能体在长周期协作、设备-云协同及专业工作流中的应用研究也涌现出大量新成果，显示出从模型能力向可靠部署的明确转向。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 65955,
-      "event_count": 1095
+      "field_score": 67831,
+      "event_count": 1121
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1739,
-      "event_count": 33
+      "field_score": 1682,
+      "event_count": 32
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1579,
-      "event_count": 40
+      "field_score": 1608,
+      "event_count": 41
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1027,
-      "event_count": 19
+      "field_score": 957,
+      "event_count": 17
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 869,
-      "event_count": 17
+      "field_score": 913,
+      "event_count": 18
     }
   ],
   "highlight_facts": [
     {
-      "title": "对GPT和DeepSeek模型的越狱韧性进行系统安全分析",
-      "summary": "一项系统化知识梳理（SoK）研究对GPT和DeepSeek系列模型进行了全面的越狱韧性安全分析，揭示了当前主流模型在对抗性提示下的脆弱性。",
+      "title": "AI Content Moderation in Therapy Conversations",
+      "summary": "一项新研究 探讨了大型语言模型在治疗对话中的内容审核应用，分析了其潜在风险与可行性。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2506.18543"
+          "link": "https://arxiv.org/abs/2605.25454"
         }
       ]
     },
     {
-      "title": "提出Reflect-Guard方法增强LLM对对抗性提示的防护",
-      "summary": "一项新研究提出了Reflect-Guard，通过逻辑自我反思机制增强Llama Guard等LLM安全分类器，以抵御对抗性提示攻击。",
+      "title": "Reflect-Guard: Enhancing LLM Safeguards against Adversarial Prompts via Logical Self-Reflection",
+      "summary": "研究者提出Reflect-Guard方法，通过逻辑自我反思机制增强大语言模型对对抗性提示的防御能力，旨在提升Llama Guard等安全分类器的鲁棒性。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "title": "研究揭示GitHub Copilot对开源创新的影响",
-      "summary": "一项基于GitHub数据的实证研究分析了以GitHub Copilot为代表的大语言模型如何重塑开源创新模式。",
+      "title": "The Impact of Large Language Models on Open-source Innovation: Evidence from GitHub Copilot",
+      "summary": "一项基于GitHub Copilot使用数据的实证研究 揭示了大型语言模型对开源创新模式的影响，分析了其如何重塑知识工作流程。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,44 +64,44 @@
       ]
     },
     {
-      "title": "新基准测试评估LLM在牙科临床推理中的表现",
-      "summary": "一项跨国研究发布了GlobalDentBench基准，用于评估大语言模型在牙科领域的临床推理能力，并引入了专家校准机制。",
+      "title": "SoK: A Comprehensive Security Analysis of Jailbreak Resilience in GPT and DeepSeek Models",
+      "summary": "一篇系统化知识梳理论文 对GPT和DeepSeek系列模型在越狱攻击下的鲁棒性进行了全面安全分析，揭示了当前主流模型在安全防护上的共性与差异。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.24636"
+          "link": "https://arxiv.org/abs/2506.18543"
         }
       ]
     },
     {
-      "title": "研究揭示GPT-4o mini的安全过滤器存在多模态瓶颈",
-      "summary": "一项研究发现，GPT-4o mini在仇恨言论检测中，其安全过滤器存在“多模态到单模态”的瓶颈，导致性能受限。",
+      "title": "LGMT: Logic-Grounded Metamorphic Testing for Evaluating the Reasoning Reliability of LLMs",
+      "summary": "研究人员提出LGMT方法，一种基于逻辑的蜕变测试框架，用于系统评估大语言模型在逻辑推理任务中的可靠性。",
       "references": [
         {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2509.13608"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.23965"
         }
       ]
     },
     {
-      "title": "提出Hera框架实现设备-云协同的LLM智能体长期协调",
-      "summary": "一项新研究提出了Hera框架，用于学习设备与云端协同的LLM智能体在长期任务中的协调策略。",
+      "title": "Fine-Tuning Language Models to Know What They Know",
+      "summary": "一项研究 探索了通过微调使语言模型具备更好的元认知能力，即让模型更准确地判断自己“知道什么”和“不知道什么”。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.24598"
+          "link": "https://arxiv.org/abs/2602.02605"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI安全研究正从单一模型防护转向全生命周期治理",
-      "summary": "多篇论文同时关注微调生命周期安全、推理时行为控制以及多模态安全瓶颈，表明业界共识正在形成：AI安全需要覆盖从训练、微调到部署的完整链路，而非仅依赖模型本身的对齐。",
+      "title": "安全对齐研究进入精细化审计阶段",
+      "summary": "多篇论文 同时关注对齐诱导的激活偏移审计、微调生命周期安全以及推理时行为控制，表明业界对LLM安全性的关注已从粗放式防护转向对模型内部机制和全生命周期的精细化审计与校准。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2506.18543"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.24583"
         },
         {
           "source_name": "arXiv AI",
@@ -110,39 +110,17 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.25984"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2509.13608"
         }
       ]
     },
     {
-      "title": "世界模型成为突破LLM能力天花板的关键方向",
-      "summary": "多篇独立研究从自动驾驶、游戏生成、AGI路径等不同角度探索世界模型，暗示业界正试图通过构建内部世界模型来弥补LLM在长程规划、物理常识和闭环决策上的根本缺陷。",
+      "title": "智能体研究从单点能力转向系统级可靠性与协作",
+      "summary": "近期涌现的智能体研究 不再仅关注单一任务完成，而是系统性地探讨设备-云协同、长周期协调、延迟-可靠性-成本权衡以及多智能体知识蒸馏，标志着LLM智能体正从实验性演示向可部署的工程系统演进。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.24004"
+          "link": "https://arxiv.org/abs/2605.24598"
         },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2602.10090"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.23972"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.24375"
-        }
-      ]
-    },
-    {
-      "title": "智能体工作流设计正从“能工作”转向“可靠且经济”",
-      "summary": "多项研究关注智能体工作流的延迟-可靠性-成本权衡、多智能体蒸馏以及SaaS场景落地，说明该领域已进入工程优化阶段，重点从功能验证转向在真实商业环境中的高效、可靠部署。",
-      "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.23929"
@@ -150,10 +128,56 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2602.03955"
+        }
+      ]
+    },
+    {
+      "title": "世界模型成为突破LLM局限的关键路径",
+      "summary": "多篇论文 从不同角度（如智能体强化学习、自动驾驶决策、AGI理论）探讨了世界模型对LLM的补充作用，暗示学界普遍认为仅靠语言建模不足以实现可靠推理与规划，构建内部世界模型是通往更高智能的关键。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2602.10090"
         },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15777"
+          "link": "https://arxiv.org/abs/2605.24004"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.23972"
+        }
+      ]
+    },
+    {
+      "title": "多模态安全面临“模态瓶颈”新挑战",
+      "summary": "一项研究 指出GPT-4o mini在仇恨言论检测中因安全过滤器导致的多模态到单模态瓶颈问题，结合其他关于多模态智能体效率的研究，表明多模态系统的安全与效率之间存在新的、尚未被充分解决的权衡。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2509.13608"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.24785"
+        }
+      ]
+    },
+    {
+      "title": "开源模型生态的评估与部署工具链日趋成熟",
+      "summary": "从Gemma 4在TPU上的微调对比，到专利嵌入模型的全面基准测试，再到苹果私有云计算的隐私分析，显示出围绕开源和半开源模型的评估、部署与合规工具链正在快速完善，为实际应用提供了更扎实的基础。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.25645"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.24297"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.24239"
         }
       ]
     }
