@@ -1,11 +1,11 @@
 {
-  "global_brief": "今日AI领域研究密集，多篇论文聚焦LLM推理效率、量化压缩与Agent安全。社区侧围绕多智能体协同编程工具（Codeg）与AI Agent安全控制（FlowLink）展开热烈讨论，同时DeepSWE排行榜将GPT-5.5推至编码能力榜首。开源生态持续活跃，从嵌入模型到推理框架均有新进展。",
+  "global_brief": "今日AI领域研究密集发布，涵盖开源模型生态评估、多模态嵌入、Agent记忆与安全等方向，同时社区热议Agent跨会话持久化、代码Agent协同效率及本地推理体验提升等话题。 [FACT] TITLE: ATOM报告评估开源语言模型生态 SUMMARY: 一项名为ATOM Report的综合研究 对DeepSeek、Meta、Qwen等主流开源语言模型的采用情况进行了全面快照，为开源LLM生态提供了量化评估。 SCORE: 86 ARTICLE_IDS: 3a0ad12fed9343474ab2d0da7a6e5e6f7c17b5a2 [FACT]…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 51452,
-      "event_count": 842
+      "field_score": 49256,
+      "event_count": 826
     },
     {
       "field_key": "tech",
@@ -16,44 +16,63 @@
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1386,
-      "event_count": 35
+      "field_score": 1479,
+      "event_count": 37
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 708,
+      "field_score": 684,
       "event_count": 13
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 611,
-      "event_count": 12
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 508,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "ATOM报告发布，衡量开源语言模型生态系统",
-      "summary": "一项名为ATOM Report的综合研究发布了开源语言模型生态系统的采用快照，重点分析了DeepSeek、Meta和Qwen等模型，涉及约1500个数据点。",
+      "title": "The ATOM Report: Measuring the Open Language Model Ecosystem",
+      "summary": "arXiv:2604.07190v2 Announce Type: replace-cross Abstract: We present a comprehensive adoption snapshot of the leading o…；The ATOM Report: Measuring the Open Language Model Ecosyst…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.07190"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "AI Agent安全控制需求凸显，MCP代理方案兴起",
-      "summary": "随着Claude Code、Cursor等AI Agent工具执行破坏性命令的事件增多，社区开发了FlowLink等MCP代理来拦截危险操作，反映出Agent安全已成为工具链中的关键痛点。",
+      "title": "MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context Learning",
+      "summary": "arXiv:2601.18904v2 Announce Type: replace-cross Abstract: Auditory Large Language Models (LLMs) have demonstrated stron…；MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context…",
       "references": [
         {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48283348"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.18904"
+        }
+      ]
+    },
+    {
+      "title": "Retrying vs Resampling in AI Control",
+      "summary": "arXiv:2605.26047v2 Announce Type: replace Abstract: AI coding scaffolds like Claude Code and Codex use retrying: blocki…；Retrying vs Resampling in AI Control",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.26047"
+        }
+      ]
+    },
+    {
+      "title": "Gemini Embedding 2: A Native Multimodal Embedding Model from Gemini",
+      "summary": "arXiv:2605.27295v1 Announce Type: new Abstract: We introduce Gemini Embedding 2, a native multimodal embedding model th…；Gemini Embedding 2: A Native Multimodal Embedding Model fr…",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.27295"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
