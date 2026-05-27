@@ -1,179 +1,78 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM安全对齐、Agent系统可靠性及推理效率优化。同时，社区热议AI成本飙升与Agent工具链安全管控问题，反映出产业落地阶段对安全与成本的迫切关注。",
+  "global_brief": "今日AI领域研究密集发布，涵盖开源生态评估、多模态嵌入、Agent框架与推理效率优化，其中对开源大模型生态的量化分析及多模态嵌入模型的突破成为核心关注点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 73051,
-      "event_count": 1255
+      "field_score": 51603,
+      "event_count": 844
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2960,
-      "event_count": 64
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 1167,
-      "event_count": 24
+      "field_score": 2128,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1130,
-      "event_count": 28
+      "field_score": 1383,
+      "event_count": 35
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 737,
+      "event_count": 15
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1041,
-      "event_count": 19
+      "field_score": 708,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Reflect-Guard: Enhancing LLM Safeguards against Adversarial Prompts via Logical Self-Reflection",
-      "summary": "一项新研究提出Reflect-Guard方法，通过逻辑自反思增强LLM安全分类器（如Llama Guard）对对抗性提示的防御能力。",
+      "title": "The ATOM Report: Measuring the Open Language Model Ecosystem",
+      "summary": "arXiv:2604.07190v2 Announce Type: replace-cross Abstract: We present a comprehensive adoption snapshot of the leading o…；The ATOM Report: Measuring the Open Language Model Ecosyst…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.24834"
+          "link": "https://arxiv.org/abs/2604.07190"
         }
       ]
     },
     {
-      "title": "SoK: A Comprehensive Security Analysis of Jailbreak Resilience in GPT and DeepSeek Models",
-      "summary": "一项系统化知识梳理研究，对GPT和DeepSeek系列模型的越狱攻击韧性进行了全面安全分析，揭示了当前主流模型的安全脆弱性。",
+      "title": "MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context Learning",
+      "summary": "arXiv:2601.18904v2 Announce Type: replace-cross Abstract: Auditory Large Language Models (LLMs) have demonstrated stron…；MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2506.18543"
+          "link": "https://arxiv.org/abs/2601.18904"
         }
       ]
     },
     {
-      "title": "The Impact of Large Language Models on Open-source Innovation: Evidence from GitHub Copilot",
-      "summary": "一项基于GitHub Copilot使用数据的研究，分析了LLM对开源创新的实际影响，为评估AI辅助编程工具的价值提供了实证证据。",
+      "title": "Retrying vs Resampling in AI Control",
+      "summary": "arXiv:2605.26047v2 Announce Type: replace Abstract: AI coding scaffolds like Claude Code and Codex use retrying: blocki…；Retrying vs Resampling in AI Control",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2409.08379"
+          "link": "https://arxiv.org/abs/2605.26047"
         }
       ]
     },
     {
-      "title": "Uber blows through its AI budget in 1 quarter",
-      "summary": "据报道，Uber在一个季度内就耗尽了其AI预算，凸显了企业级AI应用（如Claude Code）带来的高昂成本压力。",
+      "title": "Gemini Embedding 2: A Native Multimodal Embedding Model from Gemini",
+      "summary": "arXiv:2605.27295v1 Announce Type: new Abstract: We introduce Gemini Embedding 2, a native multimodal embedding model th…；Gemini Embedding 2: A Native Multimodal Embedding Model fr…",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1215674"
-        }
-      ]
-    },
-    {
-      "title": "FlowLink: MCP proxy blocking destructive AI agent commands",
-      "summary": "社区开发者推出FlowLink，一个MCP代理工具，旨在拦截并阻止AI Agent（如Claude Code、Cursor、Copilot）执行破坏性命令，反映了对Agent安全性的担忧。",
-      "references": [
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48283348"
-        }
-      ]
-    },
-    {
-      "title": "Fine-Tuning and Serving Gemma 4 31B on Google Cloud TPU: A Technical Comparison with GPU Baselines",
-      "summary": "一项研究首次端到端展示了在Google Cloud TPU上微调和部署Gemma 4 31B模型，并与GPU基线进行了技术对比。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.25645"
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.27295"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI成本压力正从模型训练传导至应用层",
-      "summary": "从Uber AI预算超支到社区热议“AI money squeeze”，再到Lago等计费SDK的出现，表明AI应用的高昂推理成本已成为企业落地的核心瓶颈，推动着成本优化和计费工具的创新。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/getlago/lago-agent-sdk-python"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1215674"
-        }
-      ]
-    },
-    {
-      "title": "Agent安全与管控成为社区焦点，催生工具链创新",
-      "summary": "针对AI Agent可能执行破坏性命令的担忧，社区涌现出FlowLink、Keyblind等安全工具，同时PrismCat等调试代理也受到关注，反映出在Agent大规模应用前，安全管控和可观测性已成为开发者社区的优先事项。",
-      "references": [
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48283348"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/aarifmms/keyblind"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/paopaoandlingyia/PrismCat"
-        }
-      ]
-    },
-    {
-      "title": "LLM安全研究从单一防御转向系统性评估与对齐",
-      "summary": "多项研究（Reflect-Guard、SoK、安全微调生命周期）从对抗性提示防御、越狱韧性分析到微调安全威胁，表明学界正从单一防御方法转向对LLM全生命周期安全性的系统性评估与对齐研究。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.24834"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2506.18543"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.25073"
-        }
-      ]
-    },
-    {
-      "title": "本地LLM体验提升，但Agent可靠性仍是核心挑战",
-      "summary": "有用户反馈转向llama.cpp后本地LLM体验不降级，同时多项研究（LGMT、Agent World Model）致力于提升Agent推理可靠性和环境模拟能力，表明在追求模型能力的同时，确保其稳定、可验证地执行任务仍是关键挑战。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.23965"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2602.10090"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://xda-developers.com/ditched-lm-studio-for-llama-cpp-and-local-llm-doesnt-feel-like-downgrade-anymore"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
