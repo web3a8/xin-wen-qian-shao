@@ -1,78 +1,71 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，涵盖开源生态评估、Agent基准测试、多模态嵌入模型及安全威胁。Anthropic与OpenAI被指已找到产品市场契合点，同时前沿模型在企业IT Agent任务中得分低于50%，表明Agent能力仍有显著提升空间。",
+  "global_brief": "今日AI领域持续高热，开源模型生态评估报告发布，同时多家公司展示了AI Agent在税务、编码等场景的落地进展，社区则围绕多智能体协同、版权诉讼和API价格战展开热议。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49344,
+      "field_score": 49400,
       "event_count": 851
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2514,
-      "event_count": 55
+      "field_score": 2582,
+      "event_count": 56
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1546,
-      "event_count": 40
+      "field_score": 1439,
+      "event_count": 38
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 717,
+      "field_score": 715,
       "event_count": 14
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 523,
-      "event_count": 11
+      "field_score": 693,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
       "title": "The ATOM Report: Measuring the Open Language Model Ecosystem",
-      "summary": "arXiv:2604.07190v2 Announce Type: replace-cross Abstract: We present a comprehensive adoption snapshot of the leading o…；The ATOM Report: Measuring the Open Language Model Ecosyst…",
+      "summary": "一份全面的开源语言模型生态系统采用快照报告发布，评估了包括DeepSeek、Meta、Qwen在内的领先模型。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.07190"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context Learning",
-      "summary": "arXiv:2601.18904v2 Announce Type: replace-cross Abstract: Auditory Large Language Models (LLMs) have demonstrated stron…；MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.18904"
-        }
-      ]
-    },
-    {
-      "title": "Building self-improving tax agents with Codex",
-      "summary": "Building self-improving tax agents with Codex；See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy,…",
+      "title": "AI Agent落地加速，但基准测试揭示能力瓶颈",
+      "summary": "从OpenAI的税务代理到Warp的编码代理，AI Agent正快速进入实际应用。然而，ITBench-AA基准测试显示前沿模型在企业IT任务上得分不足50%，表明当前Agent能力与实际生产需求间仍存在显著差距。",
       "references": [
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex"
-        }
-      ]
-    },
-    {
-      "title": "Retrying vs Resampling in AI Control",
-      "summary": "arXiv:2605.26047v2 Announce Type: replace Abstract: AI coding scaffolds like Claude Code and Codex use retrying: blocki…；Retrying vs Resampling in AI Control",
-      "references": [
+        },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.26047"
+          "source_name": "OpenClaw Commits",
+          "link": "https://github.com/openclaw/openclaw/commit/f4329fe0d636fdfbaddd299157c34416de683141"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/warp"
+        },
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/ibm-research/itbench-aa"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
