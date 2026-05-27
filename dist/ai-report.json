@@ -1,23 +1,23 @@
 {
-  "global_brief": "今日AI领域研究密集发布，涵盖开源模型生态评估、多模态嵌入、Agent记忆与安全等方向，同时社区热议Agent跨会话持久化、代码Agent协同效率及本地推理体验提升等话题。 [FACT] TITLE: ATOM报告评估开源语言模型生态 SUMMARY: 一项名为ATOM Report的综合研究 对DeepSeek、Meta、Qwen等主流开源语言模型的采用情况进行了全面快照，为开源LLM生态提供了量化评估。 SCORE: 86 ARTICLE_IDS: 3a0ad12fed9343474ab2d0da7a6e5e6f7c17b5a2 [FACT]…",
+  "global_brief": "过去24小时，AI研究领域持续活跃，多篇关于开源语言模型生态、多模态嵌入模型、以及LLM推理与安全性的重要论文发布。其中，对开源语言模型生态的全面评估报告 和谷歌推出的原生多模态嵌入模型 成为关注焦点。此外，多项研究探讨了LLM在临床推理、代码生成、以及面对对抗性攻击时的表现与局限。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49256,
-      "event_count": 826
+      "field_score": 48749,
+      "event_count": 812
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2237,
-      "event_count": 50
+      "field_score": 2339,
+      "event_count": 51
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1479,
-      "event_count": 37
+      "field_score": 1670,
+      "event_count": 42
     },
     {
       "field_key": "world",
@@ -26,16 +26,16 @@
       "event_count": 13
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 508,
-      "event_count": 10
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 583,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "The ATOM Report: Measuring the Open Language Model Ecosystem",
-      "summary": "arXiv:2604.07190v2 Announce Type: replace-cross Abstract: We present a comprehensive adoption snapshot of the leading o…；The ATOM Report: Measuring the Open Language Model Ecosyst…",
+      "title": "ATOM报告全面评估开源语言模型生态",
+      "summary": "一项名为“ATOM报告”的研究 对包括DeepSeek、Meta、Qwen在内的领先开源语言模型进行了全面的采用现状评估，涉及约1500个模型。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -44,8 +44,18 @@
       ]
     },
     {
-      "title": "MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context Learning",
-      "summary": "arXiv:2601.18904v2 Announce Type: replace-cross Abstract: Auditory Large Language Models (LLMs) have demonstrated stron…；MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context…",
+      "title": "谷歌发布原生多模态嵌入模型Gemini Embedding 2",
+      "summary": "谷歌 推出了Gemini Embedding 2，这是一个原生多模态嵌入模型，旨在直接处理和理解多种模态的数据。",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.27295"
+        }
+      ]
+    },
+    {
+      "title": "研究提出MetaSICL方法增强听觉大语言模型",
+      "summary": "一项研究 提出了MetaSICL方法，通过元语音上下文学习来适应和增强听觉大语言模型（LLMs）的能力。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,8 +64,8 @@
       ]
     },
     {
-      "title": "Retrying vs Resampling in AI Control",
-      "summary": "arXiv:2605.26047v2 Announce Type: replace Abstract: AI coding scaffolds like Claude Code and Codex use retrying: blocki…；Retrying vs Resampling in AI Control",
+      "title": "新研究对比AI编程中的重试与重采样控制策略",
+      "summary": "一项研究 探讨了在AI编程框架（如Claude Code和Codex）中，重试（retrying）与重采样（resampling）两种控制策略的差异与效果。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,15 +74,120 @@
       ]
     },
     {
-      "title": "Gemini Embedding 2: A Native Multimodal Embedding Model from Gemini",
-      "summary": "arXiv:2605.27295v1 Announce Type: new Abstract: We introduce Gemini Embedding 2, a native multimodal embedding model th…；Gemini Embedding 2: A Native Multimodal Embedding Model fr…",
+      "title": "研究揭示LLM在临床牙科推理中的表现并发布GlobalDentBench基准",
+      "summary": "一项研究 发布了GlobalDentBench，这是一个跨国基准，用于评估大语言模型在牙科领域的临床推理能力，并包含专家校准。",
       "references": [
         {
-          "source_name": "arXiv 计算机视觉",
-          "link": "https://arxiv.org/abs/2605.27295"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.24636"
+        }
+      ]
+    },
+    {
+      "title": "研究提出SWE-Adept框架用于深度代码库分析与问题解决",
+      "summary": "一项研究 提出了SWE-Adept，这是一个基于LLM的智能体框架，专门用于深度代码库分析和结构化问题解决。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2603.01327"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "LLM安全与鲁棒性研究呈现多维度趋势",
+      "summary": "近期研究从多个维度关注LLM安全，包括针对已遗忘概念的对抗性攻击 、在可信执行环境中的红队测试 、以及评估模型在儿童安全场景下的表现，表明安全研究正从单一对抗性测试向更广泛的应用场景和攻击面扩展。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.26332"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2602.19450"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.25510"
+        }
+      ]
+    },
+    {
+      "title": "LLM推理效率优化成为研究热点，量化与投机解码并行推进",
+      "summary": "多项研究 聚焦于提升LLM推理效率，方向涵盖混合精度量化（WINDQuant）、低比特激活量化（InfoQuant）、专家路由微调（ReMoE）以及自适应投机解码（AdaSD），显示出业界对降低部署成本和加速推理的迫切需求。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.26660"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.26175"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.27081"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2512.11280"
+        }
+      ]
+    },
+    {
+      "title": "LLM智能体研究从通用框架走向特定领域应用",
+      "summary": "近期LLM智能体研究呈现出从通用评估框架 向特定领域（如工业资产运维、CUDA内核生成、多轮价格谈判）深入的趋势，同时知识图谱 被提出作为弥补LLM在工业应用中数据层缺失的关键组件。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.26874"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.26720"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2509.04310"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2602.03238"
+        }
+      ]
+    },
+    {
+      "title": "多模态LLM研究向个性化与高效推理演进",
+      "summary": "多模态LLM研究正探索更复杂的应用，如基于长期用户交互的具身智能体个性化，以及通过在线技能蒸馏提升多模态网页智能体效率，同时动态帧增强技术 被用于提升复杂视频理解能力。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.26256"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.24785"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.26680"
+        }
+      ]
+    },
+    {
+      "title": "LLM自我认知与数据暴露风险引发学界关注",
+      "summary": "一项研究 对LLM的“内省”能力进行了现实检验，质疑模型能否真正检测和报告自身内部状态。同时，另一项综述 系统性地调查了LLM预训练数据暴露问题，包括成员推断、数据污染及其安全影响，凸显了模型透明度和数据隐私的持续挑战。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.26242"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.26133"
+        }
+      ]
+    }
+  ]
 }
