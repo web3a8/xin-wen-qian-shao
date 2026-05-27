@@ -1,41 +1,41 @@
 {
-  "global_brief": "今日AI领域研究密集发布，涵盖开源生态评估、多模态嵌入、Agent协作与安全审计等方向，同时社区围绕AI编程工具（Codex vs Claude）和本地LLM部署展开激烈讨论。",
+  "global_brief": "过去24小时，AI领域研究密集发布，涵盖开源生态评估、Agent基准测试、多模态嵌入模型及安全威胁。Anthropic与OpenAI被指已找到产品市场契合点，同时前沿模型在企业IT Agent任务中得分低于50%，表明Agent能力仍有显著提升空间。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48678,
-      "event_count": 835
+      "field_score": 49344,
+      "event_count": 851
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2120,
-      "event_count": 46
+      "field_score": 2514,
+      "event_count": 55
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1572,
+      "field_score": 1546,
       "event_count": 40
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 659,
-      "event_count": 13
+      "field_score": 717,
+      "event_count": 14
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 593,
-      "event_count": 12
+      "field_score": 523,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "ATOM报告评估开源语言模型生态系统",
-      "summary": "一项名为ATOM Report的综合研究 对DeepSeek、Meta、Qwen等领先开源语言模型的采用情况进行了全面快照，涉及约1500个模型。",
+      "title": "The ATOM Report: Measuring the Open Language Model Ecosystem",
+      "summary": "arXiv:2604.07190v2 Announce Type: replace-cross Abstract: We present a comprehensive adoption snapshot of the leading o…；The ATOM Report: Measuring the Open Language Model Ecosyst…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -44,8 +44,18 @@
       ]
     },
     {
-      "title": "OpenAI发布基于Codex的自我改进税务代理",
-      "summary": "OpenAI 展示了如何利用Codex构建能够自我改进的税务代理，与Thrive和Crete合作，实现了税务申报流程的自动化。",
+      "title": "MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context Learning",
+      "summary": "arXiv:2601.18904v2 Announce Type: replace-cross Abstract: Auditory Large Language Models (LLMs) have demonstrated stron…；MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.18904"
+        }
+      ]
+    },
+    {
+      "title": "Building self-improving tax agents with Codex",
+      "summary": "Building self-improving tax agents with Codex；See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy,…",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -54,108 +64,15 @@
       ]
     },
     {
-      "title": "开发者实现跨机器AI编程会话协同",
-      "summary": "一位开发者 构建了一个基于文件的协调层，使Claude Code和Codex能够在不同机器上的独立AI编程会话之间进行通信和协作。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/david_5ec94a134489e16f55f/i-made-claude-code-and-codex-talk-to-each-other-across-machines-heres-what-broke-57od"
-        }
-      ]
-    },
-    {
-      "title": "谷歌发布原生多模态嵌入模型Gemini Embedding 2",
-      "summary": "谷歌 推出Gemini Embedding 2，这是一个原生多模态嵌入模型，能够直接处理和理解多种类型的数据。",
-      "references": [
-        {
-          "source_name": "arXiv 计算机视觉",
-          "link": "https://arxiv.org/abs/2605.27295"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示AI控制中的重试与重采样策略差异",
-      "summary": "一项研究 对比了AI编程框架（如Claude Code和Codex）中使用的“重试”与“重采样”两种控制策略，分析了它们在安全性和效率上的不同表现。",
+      "title": "Retrying vs Resampling in AI Control",
+      "summary": "arXiv:2605.26047v2 Announce Type: replace Abstract: AI coding scaffolds like Claude Code and Codex use retrying: blocki…；Retrying vs Resampling in AI Control",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.26047"
         }
       ]
-    },
-    {
-      "title": "社区热议Codex取代Claude成为AI编程之王",
-      "summary": "社区讨论 指出，OpenAI的Codex已取代Anthropic的Claude，成为AI编程领域的主导工具，并引发了对AI编程工具未来格局的讨论。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://msn.com/en-us/news/technology/codex-has-dethroned-claude-as-the-king-of-ai-programming-and-it-s-not-even-close/ar-AA23YyBw"
-        }
-      ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI编程工具竞争加剧，Codex与Claude的“王座”之争反映技术路线分化",
-      "summary": "社区普遍认为，Codex凭借其与GitHub生态的深度整合和强大的代码生成能力，在编程任务上暂时领先；而Claude在复杂推理和安全性方面仍有优势，两者并非简单的替代关系，而是代表了不同的技术路线。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://msn.com/en-us/news/technology/codex-has-dethroned-claude-as-the-king-of-ai-programming-and-it-s-not-even-close/ar-AA23YyBw"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/david_5ec94a134489e16f55f/i-made-claude-code-and-codex-talk-to-each-other-across-machines-heres-what-broke-57od"
-        }
-      ]
-    },
-    {
-      "title": "本地LLM部署体验提升，开源工具链日趋成熟",
-      "summary": "有用户反馈 从LM Studio转向llama.cpp后，本地LLM的使用体验并未降级，这表明开源推理框架的优化和社区支持正在快速缩小本地模型与云端服务的差距。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://xda-developers.com/ditched-lm-studio-for-llama-cpp-and-local-llm-doesnt-feel-like-downgrade-anymore"
-        },
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48290708"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent安全审计与可追溯性成为新焦点",
-      "summary": "多个开源项目 聚焦于AI Agent的防篡改审计日志和安全性分析，反映出随着Agent应用增多，社区对Agent行为的可解释性和安全性的担忧正在上升，这将成为Agent落地的关键挑战。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/provedex/provedex"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/josemiguel3125-sketch/anticode-audit-action"
-        }
-      ]
-    },
-    {
-      "title": "多Agent协同开发模式从概念走向实践",
-      "summary": "开发者分享的Codeg多智能体协同案例 显示，通过skill机制实现跨Agent协作和自动代码审查，能显著提升开发效率（提升约90%），标志着多Agent协同开发正从理论探索进入实用阶段。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1215905"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI与Anthropic在AI就业影响上立场对立，行业分歧加剧",
-      "summary": "社区讨论 指出，OpenAI和Anthropic在AI对就业市场的影响上持截然相反的观点，这种公开对立反映了AI行业内部对未来社会影响缺乏共识，可能影响政策制定和公众认知。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://axios.com/2026/05/27/ai-hype-doom-openai-anthropic"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
