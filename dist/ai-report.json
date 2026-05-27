@@ -1,69 +1,163 @@
 {
-  "global_brief": "今日AI领域持续高热，开源模型生态评估报告发布，同时多家公司展示了AI Agent在税务、编码等场景的落地进展，社区则围绕多智能体协同、版权诉讼和API价格战展开热议。",
+  "global_brief": "AI 领域持续活跃，多智能体协同与编码代理成为焦点，同时开源模型生态与安全风险也备受关注。Anthropic 和 OpenAI 被指已找到产品市场契合点，而 DeepSeek 则大幅降价以抢占市场。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49400,
-      "event_count": 851
+      "field_score": 49644,
+      "event_count": 857
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2582,
-      "event_count": 56
+      "field_score": 2197,
+      "event_count": 48
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1439,
+      "field_score": 1419,
       "event_count": 38
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 715,
-      "event_count": 14
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 693,
+      "field_score": 683,
       "event_count": 14
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 678,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "The ATOM Report: Measuring the Open Language Model Ecosystem",
-      "summary": "一份全面的开源语言模型生态系统采用快照报告发布，评估了包括DeepSeek、Meta、Qwen在内的领先模型。",
+      "title": "The ATOM Report 衡量开源语言模型生态系统",
+      "summary": "一份名为“ATOM Report”的综合报告 对以 DeepSeek、Meta 和 Qwen 为代表的领先开源语言模型的采用情况进行了快照，报告提及了 1.5K 相关数据。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2604.07190"
         }
       ]
+    },
+    {
+      "title": "前沿模型在 IT 代理基准测试中得分低于 50%",
+      "summary": "由 Artificial Analysis 和 IBM 推出的 ITBench-AA 基准测试显示，前沿模型在代理式企业 IT 任务上的得分均低于 50%，凸显了当前 AI 代理在复杂企业场景中的局限性。",
+      "references": [
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/ibm-research/itbench-aa"
+        }
+      ]
+    },
+    {
+      "title": "谷歌发布原生多模态嵌入模型 Gemini Embedding 2",
+      "summary": "谷歌 发布了 Gemini Embedding 2，这是一个原生多模态嵌入模型，能够处理多种类型的数据。",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2605.27295"
+        }
+      ]
+    },
+    {
+      "title": "恶意 npm 包窃取 Claude AI 用户目录文件",
+      "summary": "网络安全研究人员 发现了一个恶意 npm 包，该包通过 GitHub 从 Claude AI 的用户目录中窃取文件，对使用该 AI 编码助手的开发者构成安全威胁。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html"
+        }
+      ]
+    },
+    {
+      "title": "开发者分享多智能体协同编码案例",
+      "summary": "社区讨论 分享了一个使用 Codeg 在 Claude Code 中实现多智能体协同的案例，展示了在单个会话中跨 Agent 协作可显著提升开发效率，并提及了自动 review 等特性。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1215905"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2258231"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/Coral-Bricks-AI/coral-ai/tree/main/claude-code-token-xray"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48299146"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek 将 API 价格降低 75%",
+      "summary": "据社区讨论 指出，DeepSeek 将其 API 价格降低了 75%，而其他 AI 实验室则在同期将价格提高了 2 到 3 倍，形成了鲜明的市场策略对比。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://youtube.com/watch?v=HDMqDV7mmGo"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent落地加速，但基准测试揭示能力瓶颈",
-      "summary": "从OpenAI的税务代理到Warp的编码代理，AI Agent正快速进入实际应用。然而，ITBench-AA基准测试显示前沿模型在企业IT任务上得分不足50%，表明当前Agent能力与实际生产需求间仍存在显著差距。",
+      "title": "AI 编码代理进入实用化与成本优化阶段",
+      "summary": "多个来源 的实践表明，以 Claude Code 和 OpenAI Codex 为代表的 AI 编码代理正从概念验证走向生产环境。开发者开始关注代理追踪中的 Token 瓶颈，企业如 Cisco 正与 OpenAI 合作重新定义工程流程，而 Anthropic 和 OpenAI 被认为已找到产品市场契合点。这标志着行业焦点正从模型能力转向代理的工程化落地与成本控制。",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex"
-        },
-        {
-          "source_name": "OpenClaw Commits",
-          "link": "https://github.com/openclaw/openclaw/commit/f4329fe0d636fdfbaddd299157c34416de683141"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/patrick_sardinha/i-built-a-cli-that-scaffolds-agentic-workflows-for-claude-code-328c"
         },
         {
           "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/warp"
+          "link": "https://openai.com/index/cisco"
         },
         {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/ibm-research/itbench-aa"
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/May/27/product-market-fit"
+        }
+      ]
+    },
+    {
+      "title": "开源模型生态与安全风险并存",
+      "summary": "一方面，ATOM Report 等研究持续追踪开源模型生态的繁荣；另一方面，针对 AI 工具的供应链攻击 和模型“遗忘”技术的可被利用性 等安全问题浮出水面。这表明，在拥抱开源带来的灵活性的同时，社区和企业必须建立更严格的安全审查机制。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.07190"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.26332"
+        }
+      ]
+    },
+    {
+      "title": "模型推理效率成为研究热点，量化与架构创新并行",
+      "summary": "多篇研究 聚焦于 LLM 推理效率，涉及混合精度量化（WINDQuant）、低比特量化（InfoQuant）以及专家混合模型的路由微调（ReMoE）。这表明，在模型规模持续增长的背景下，如何在不显著牺牲性能的前提下降低部署成本，已成为学术界和工业界的核心攻关方向。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.26660"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.27081"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.26175"
         }
       ]
     }
