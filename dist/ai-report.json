@@ -1,38 +1,70 @@
 {
-  "global_brief": "阿里Qwen3.7 Max在编程竞技榜上超越GPT-5.5等模型，仅次于Claude Opus 4.7，国产AI编程能力冲上全球第二；微软据称将在Build大会上发布全新自研AI编程模型；OpenAI发布前沿治理框架，系统阐述其AI安全与风险管理实践。",
+  "global_brief": "Anthropic 完成 650 亿美元 H 轮融资，估值达 9650 亿美元超越 OpenAI，并发布强调“诚实性”的 Claude Opus 4.8 模型。与此同时，伊利诺伊州通过里程碑式 AI 安全测试法案，Anthropic 和 OpenAI 均表示支持，进一步削弱了联邦层面的监管控制。阿里 Qwen3.7 Max 在编程竞技榜上超越 GPT-5.5 等模型，升至全球第二。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 56736,
-      "event_count": 977
+      "field_score": 56700,
+      "event_count": 972
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2200,
-      "event_count": 49
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 785,
-      "event_count": 20
+      "field_score": 1899,
+      "event_count": 41
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 717,
-      "event_count": 15
+      "field_score": 875,
+      "event_count": 18
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 775,
+      "event_count": 20
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 637,
-      "event_count": 13
+      "field_score": 669,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
+    {
+      "title": "Trump loses more control over AI regulation as Illinois passes landmark law",
+      "summary": "Here’s why Anthropic and OpenAI are on board with Illinois safety testing.；Trump loses more control over AI regulation as Illinois passes landmark law",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/05/trump-loses-more-control-over-ai-regulation-as-illinois-passes-landmark-law"
+        }
+      ]
+    },
+    {
+      "title": "Claude’s new model is more ‘honest’ when it messes up",
+      "summary": "Anthropic is releasing Claude Opus 4.8 on Thursday, and the company is touting the model's \"honesty.\" According to Anth…；Claude’s new model is more ‘honest’ when it messes up；Elon…",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3773386"
+        },
+        {
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3110870"
+        }
+      ]
+    },
     {
       "title": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器",
       "summary": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器；超越 GPT-5.5、Gemini 3.5 Flash、DeepSeek V4 Pro，阿里的最新旗舰模型 Qwen3.7 Max 在编程竞技榜拿下第二名，仅次于 Claude Opus 4.7。 ▲5.26 榜单截图 除了真实场景的用户…",
@@ -44,32 +76,12 @@
       ]
     },
     {
-      "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
-      "summary": "arXiv:2605.28805v1 Announce Type: cross Abstract: Visual outcomes are increasingly central to multimodal large language…；OmniVerifier-M1: Multimodal Meta-Verifier with Explicit St…",
+      "title": "美光、SK海力士等入局！Anthropic新一轮融资后估值达9650亿美元，超越OpenAI",
+      "summary": "人工智能公司Anthropic PBCAnthropic在H轮融资按9650亿美元估值募集650亿美元——超过竞争对手OpenAI，含之前承诺的投资。Altimeter Capital、Dragoneer、Greenoaks和红杉资本领投…；美光、SK海力士等入局！Anthropic新一轮融资后估值达9650亿美元，超越OpenAI",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.28805"
-        }
-      ]
-    },
-    {
-      "title": "CiteCheck: Retrieval-Grounded Detection of LLM Citation Hallucinations in Scientific Text",
-      "summary": "arXiv:2605.27700v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly used to generate scient…；CiteCheck: Retrieval-Grounded Detection of LLM Citation Ha…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.27700"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI’s Frontier Governance Framework",
-      "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging…；OpenAI’s Frontier Governance Framework",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/openai-frontier-governance-framework"
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3110889"
         }
       ]
     }
