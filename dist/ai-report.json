@@ -1,78 +1,63 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导全球科技动态，模型能力竞赛与安全研究并行推进。阿里Qwen3.7 Max在编程竞技榜上超越GPT-5.5等模型，跃居全球第二，仅次于Claude Opus 4.7。同时，多项研究聚焦于LLM Agent的安全性、推理可控性与多模态理解，包括针对Agent的“休眠攻击”新方法 以及多模态元验证器OmniVerifier-M1 的发布。",
+  "global_brief": "阿里Qwen3.7 Max在编程竞技榜上超越GPT-5.5等模型，仅次于Claude Opus 4.7，引发社区对国产模型能力的讨论；同时，Cisco与OpenAI合作将Codex引入企业工程，AI编程工具与智能体框架成为今日最活跃的技术方向；多篇学术论文聚焦于LLM智能体的安全性与评估基准，包括针对智能体的“休眠攻击”研究 和Python包Starlette的严重漏洞。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 60202,
-      "event_count": 987
+      "field_score": 59363,
+      "event_count": 1000
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1979,
-      "event_count": 43
+      "field_score": 1973,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1201,
-      "event_count": 31
+      "field_score": 1192,
+      "event_count": 30
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 764,
+      "field_score": 743,
       "event_count": 15
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 554,
-      "event_count": 10
+      "field_score": 610,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "Benchmarking the Claude Agent SDK on a local LLM: Haiku and Sonnet tier performance",
-      "summary": "Benchmarking the Claude Agent SDK on a local LLM: Haiku and Sonnet tier performance；The Claude Agent SDK exposes three budget tiers ( haiku, sonnet, opus ) and reads its routing…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/r-via/benchmarking-the-claude-agent-sdk-on-a-local-llm-haiku-and-sonnet-tier-performance-504b"
-        }
-      ]
-    },
-    {
-      "title": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器",
-      "summary": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器；超越 GPT-5.5、Gemini 3.5 Flash、DeepSeek V4 Pro，阿里的最新旗舰模型 Qwen3.7 Max 在编程竞技榜拿下第二名，仅次于 Claude Opus 4.7。 ▲5.26 榜单截图 除了真实场景的用户…",
+      "title": "阿里Qwen3.7 Max编程能力跃居全球第二",
+      "summary": "阿里最新旗舰模型Qwen3.7 Max在编程竞技榜上超越GPT-5.5、Gemini 3.5 Flash和DeepSeek V4 Pro，拿下第二名，仅次于Claude Opus 4.7。",
       "references": [
         {
           "source_name": "爱范儿",
           "link": "https://ifanr.com/1667180"
-        }
-      ]
-    },
-    {
-      "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
-      "summary": "arXiv:2605.28805v1 Announce Type: cross Abstract: Visual outcomes are increasingly central to multimodal large language…；OmniVerifier-M1: Multimodal Meta-Verifier with Explicit St…",
-      "references": [
+        },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.28805"
-        }
-      ]
-    },
-    {
-      "title": "CiteCheck: Retrieval-Grounded Detection of LLM Citation Hallucinations in Scientific Text",
-      "summary": "arXiv:2605.27700v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly used to generate scient…；CiteCheck: Retrieval-Grounded Detection of LLM Citation Ha…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.27700"
+          "source_name": "今日热榜 - 36氪",
+          "link": "https://36kr.com/p/3828430341542789"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "国产大模型能力跃升引发“掺Claude”质疑",
+      "summary": "随着Qwen3.7 Max等国产模型在编程等任务上表现突飞猛进，社区出现“国产大模型厂商掺了Claude”的猜测，反映出用户对模型能力来源的信任度仍存疑虑。",
+      "references": [
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2262810"
+        }
+      ]
+    }
+  ]
 }
