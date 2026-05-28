@@ -1,67 +1,78 @@
 {
-  "global_brief": "AI领域持续活跃，阿里Qwen3.7 Max编程能力跃居全球第二，微软计划在下周Build大会推出全新编程模型，同时Mistral宣布将探索自研AI芯片，显示出AI基础设施与编程工具竞争的白热化。学术界则密集发布多项关于LLM推理、安全与多模态评估的研究成果。",
+  "global_brief": "阿里Qwen3.7 Max在编程竞技榜上超越GPT-5.5等模型，仅次于Claude Opus 4.7，国产AI编程能力冲上全球第二；微软据称将在Build大会上发布全新自研AI编程模型；OpenAI发布前沿治理框架，系统阐述其AI安全与风险管理实践。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 58532,
-      "event_count": 983
+      "field_score": 56736,
+      "event_count": 977
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2151,
-      "event_count": 47
+      "field_score": 2200,
+      "event_count": 49
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 875,
-      "event_count": 22
+      "field_score": 785,
+      "event_count": 20
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 824,
-      "event_count": 17
+      "field_score": 717,
+      "event_count": 15
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 652,
+      "field_score": 637,
       "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "阿里Qwen3.7 Max编程能力跃居全球第二",
-      "summary": "阿里最新旗舰模型Qwen3.7 Max在编程竞技榜上超越GPT-5.5、Gemini 3.5 Flash和DeepSeek V4 Pro，排名仅次于Claude Opus 4.7。",
+      "title": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器",
+      "summary": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器；超越 GPT-5.5、Gemini 3.5 Flash、DeepSeek V4 Pro，阿里的最新旗舰模型 Qwen3.7 Max 在编程竞技榜拿下第二名，仅次于 Claude Opus 4.7。 ▲5.26 榜单截图 除了真实场景的用户…",
       "references": [
         {
           "source_name": "爱范儿",
           "link": "https://ifanr.com/1667180"
+        }
+      ]
+    },
+    {
+      "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
+      "summary": "arXiv:2605.28805v1 Announce Type: cross Abstract: Visual outcomes are increasingly central to multimodal large language…；OmniVerifier-M1: Multimodal Meta-Verifier with Explicit St…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.28805"
+        }
+      ]
+    },
+    {
+      "title": "CiteCheck: Retrieval-Grounded Detection of LLM Citation Hallucinations in Scientific Text",
+      "summary": "arXiv:2605.27700v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly used to generate scient…；CiteCheck: Retrieval-Grounded Detection of LLM Citation Ha…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.27700"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI’s Frontier Governance Framework",
+      "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging…；OpenAI’s Frontier Governance Framework",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/openai-frontier-governance-framework"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "编程模型竞争加剧，AI基础设施成为新战场",
-      "summary": "阿里、微软和Mistral的最新动向表明，AI领域的竞争正从模型能力本身，向编程工具链和底层硬件基础设施延伸。Mistral探索自研芯片，微软推出编程模型，阿里模型在编程榜上登顶，都指向了“AI原生开发”这一核心赛道的白热化竞争。",
-      "references": [
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667180"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/956/804.htm"
-        },
-        {
-          "source_name": "华尔街见闻实时快讯",
-          "link": "https://wallstreetcn.com/livenews/3110801"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
