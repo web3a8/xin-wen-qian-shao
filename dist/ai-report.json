@@ -1,65 +1,141 @@
 {
-  "global_brief": "今日AI领域密集发布多项研究与工具更新，英伟达开源框架Polar使Codex等智能体跑分暴涨594%，同时多份报告揭示前沿模型在企业IT任务中得分不足50%、开源生态采纳率仅1.5K，AI安全与量化推理成为焦点。",
+  "global_brief": "过去24小时，AI领域持续主导全球科技动态，阿里Qwen3.7 Max在编程竞技榜上超越多个国际顶尖模型，英伟达发布开源框架Polar大幅提升现有AI编程智能体性能，同时DeepSeek首轮融资由国家大基金领投、投前估值达450亿美元，成为一级市场最受关注的事件。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48953,
-      "event_count": 841
+      "field_score": 59698,
+      "event_count": 976
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2094,
-      "event_count": 46
+      "field_score": 1988,
+      "event_count": 43
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1217,
-      "event_count": 31
+      "field_score": 1319,
+      "event_count": 33
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 620,
-      "event_count": 12
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 802,
+      "event_count": 15
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 590,
-      "event_count": 12
+      "field_score": 593,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "英伟达发布开源框架Polar，大幅提升AI编码智能体性能",
-      "summary": "英伟达研究团队发布开源框架Polar，在不破坏原有工具调用和上下文组织的前提下，让Codex、Claude Code、Qwen Code等现有智能体框架接入GRPO，使Codex跑分暴涨594.74%。",
+      "title": "阿里Qwen3.7 Max编程能力跃居全球第二",
+      "summary": "阿里的最新旗舰模型Qwen3.7 Max在编程竞技榜上拿下第二名，超越了GPT-5.5、Gemini 3.5 Flash和DeepSeek V4 Pro，仅次于Claude Opus 4.7。",
+      "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1667180"
+        }
+      ]
+    },
+    {
+      "title": "英伟达发布开源框架Polar，大幅提升AI编程智能体性能",
+      "summary": "英伟达研究团队发布开源框架Polar，能让Codex、Claude Code、Qwen Code等现有智能体框架接入GRPO，使Codex跑分暴涨594.74%。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/956/293.htm"
         }
       ]
+    },
+    {
+      "title": "国家大基金领投DeepSeek，投前估值450亿美元",
+      "summary": "AI大模型公司DeepSeek首轮融资洽谈接近尾声，由国家集成电路产业投资基金（国家大基金）领投，投前估值达450亿美元。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3773316"
+        },
+        {
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3110453"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/956/371.htm"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1666975"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI展示基于Codex的自我改进税务智能体",
+      "summary": "OpenAI发布案例，展示了其与Thrive和Crete合作，利用Codex构建能够自动化申报流程的自我改进税务智能体。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出CiteCheck，用于检测LLM科学引文幻觉",
+      "summary": "一项新研究提出CiteCheck，这是一种基于检索的方法，用于检测大型语言模型在科学文本中生成的引文幻觉。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.27700"
+        }
+      ]
+    },
+    {
+      "title": "新基准测试SONIC-O1评估多模态大模型音视频理解能力",
+      "summary": "研究团队发布SONIC-O1基准，用于评估多模态大语言模型在真实世界场景中的音频-视频理解能力。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.21666"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI编码智能体竞争白热化，Polar框架或重塑行业格局",
-      "summary": "英伟达Polar框架通过GRPO实现跑分暴涨，结合Cisco与OpenAI用Codex重新定义企业工程，以及社区对Codex Desktop子智能体管理的讨论，表明AI编码工具正从单点突破转向框架级竞争，但企业级落地仍面临子智能体失控等实际挑战。",
+      "title": "国产AI模型在编程领域实现关键突破",
+      "summary": "阿里Qwen3.7 Max在编程竞技榜上超越多个国际顶尖模型，结合英伟达Polar框架对现有智能体的性能提升，表明中国AI在代码生成这一高价值应用场景中已具备全球竞争力，并可能重塑开发者工具链的格局。",
       "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1667180"
+        },
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/956/293.htm"
+        }
+      ]
+    },
+    {
+      "title": "学术界聚焦AI智能体安全性与可靠性",
+      "summary": "多篇新研究（如LCO、CiteCheck、Agentic XAI基准）集中关注LLM智能体在真实世界任务中的安全性、可解释性和事实准确性，反映出随着AI智能体从实验走向应用，学术界正加速构建其安全护栏和评估体系。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.27375"
         },
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/cisco"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.27700"
         },
         {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2259292"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.27879"
         }
       ]
     }
