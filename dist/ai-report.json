@@ -1,70 +1,38 @@
 {
-  "global_brief": "Anthropic 完成 650 亿美元 H 轮融资，估值达 9650 亿美元，超越 OpenAI 成为全球估值最高的 AI 公司；同时发布 Claude Opus 4.8 模型，主打“诚实性”与动态工作流工具。伊利诺伊州通过 AI 安全测试法案，进一步削弱联邦政府对 AI 监管的控制权，Anthropic 和 OpenAI 均表示支持。",
+  "global_brief": "Anthropic 发布 Claude Opus 4.8，强调模型“诚实性”并推出动态工作流工具，同时完成 650 亿美元 H 轮融资，估值逼近万亿美元；阿里 Qwen3.7 Max 在编程竞技榜上跃居全球第二，仅次于 Claude Opus 4.7；伊利诺伊州通过里程碑式 AI 安全法，Anthropic 和 OpenAI 表示支持，标志着联邦层面 AI 监管话语权进一步向州级转移。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 57043,
-      "event_count": 978
+      "field_score": 56021,
+      "event_count": 963
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2095,
-      "event_count": 45
+      "field_score": 2219,
+      "event_count": 47
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 912,
-      "event_count": 19
+      "field_score": 872,
+      "event_count": 17
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 763,
+      "field_score": 771,
       "event_count": 20
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 634,
-      "event_count": 12
+      "field_score": 595,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
-    {
-      "title": "Trump loses more control over AI regulation as Illinois passes landmark law",
-      "summary": "Here’s why Anthropic and OpenAI are on board with Illinois safety testing.；Trump loses more control over AI regulation as Illinois passes landmark law",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/05/trump-loses-more-control-over-ai-regulation-as-illinois-passes-landmark-law"
-        }
-      ]
-    },
-    {
-      "title": "Claude’s new model is more ‘honest’ when it messes up",
-      "summary": "Anthropic is releasing Claude Opus 4.8 on Thursday, and the company is touting the model's \"honesty.\" According to Anth…；Claude’s new model is more ‘honest’ when it messes up；Elon…",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/sabahattink/how-i-automated-my-obsidian-vault-with-claude-it-now-works-the-night-shift-3gjl"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3773386"
-        }
-      ]
-    },
     {
       "title": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器",
       "summary": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器；超越 GPT-5.5、Gemini 3.5 Flash、DeepSeek V4 Pro，阿里的最新旗舰模型 Qwen3.7 Max 在编程竞技榜拿下第二名，仅次于 Claude Opus 4.7。 ▲5.26 榜单截图 除了真实场景的用户…",
@@ -76,12 +44,44 @@
       ]
     },
     {
-      "title": "美光、SK海力士等入局！Anthropic新一轮融资后估值达9650亿美元，超越OpenAI",
-      "summary": "人工智能公司Anthropic PBCAnthropic在H轮融资按9650亿美元估值募集650亿美元——超过竞争对手OpenAI，含之前承诺的投资。Altimeter Capital、Dragoneer、Greenoaks和红杉资本领投…；美光、SK海力士等入局！Anthropic新一轮融资后估值达9650亿美元，超越OpenAI",
+      "title": "Claude’s new model is more ‘honest’ when it messes up",
+      "summary": "Anthropic is releasing Claude Opus 4.8 on Thursday, and the company is touting the model's \"honesty.\" According to Anth…；Claude’s new model is more ‘honest’ when it messes up；Clau…",
       "references": [
         {
-          "source_name": "华尔街见闻实时快讯",
-          "link": "https://wallstreetcn.com/livenews/3110889"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/956/827.htm"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3773386"
+        }
+      ]
+    },
+    {
+      "title": "Trump loses more control over AI regulation as Illinois passes landmark law",
+      "summary": "Here’s why Anthropic and OpenAI are on board with Illinois safety testing.；Trump loses more control over AI regulation as Illinois passes landmark law",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/05/trump-loses-more-control-over-ai-regulation-as-illinois-passes-landmark-law"
+        }
+      ]
+    },
+    {
+      "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
+      "summary": "arXiv:2605.28805v1 Announce Type: cross Abstract: Visual outcomes are increasingly central to multimodal large language…；OmniVerifier-M1: Multimodal Meta-Verifier with Explicit St…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.28805"
         }
       ]
     }
