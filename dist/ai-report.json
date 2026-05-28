@@ -1,78 +1,67 @@
 {
-  "global_brief": "今日AI领域持续高热，多项研究聚焦于LLM Agent的评估、安全与推理效率，同时OpenAI的Codex在企业工程与税务自动化中加速落地，社区则围绕多智能体协同与本地化部署工具展开热烈讨论。",
+  "global_brief": "今日AI领域密集发布多项研究与工具更新，英伟达开源框架Polar使Codex等智能体跑分暴涨594%，同时多份报告揭示前沿模型在企业IT任务中得分不足50%、开源生态采纳率仅1.5K，AI安全与量化推理成为焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 38968,
-      "event_count": 661
+      "field_score": 48953,
+      "event_count": 841
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1720,
-      "event_count": 38
+      "field_score": 2094,
+      "event_count": 46
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1058,
-      "event_count": 28
+      "field_score": 1217,
+      "event_count": 31
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 444,
-      "event_count": 10
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 620,
+      "event_count": 12
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 422,
-      "event_count": 10
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 590,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "The ATOM Report: Measuring the Open Language Model Ecosystem",
-      "summary": "arXiv:2604.07190v2 Announce Type: replace-cross Abstract: We present a comprehensive adoption snapshot of the leading o…；The ATOM Report: Measuring the Open Language Model Ecosyst…",
+      "title": "英伟达发布开源框架Polar，大幅提升AI编码智能体性能",
+      "summary": "英伟达研究团队发布开源框架Polar，在不破坏原有工具调用和上下文组织的前提下，让Codex、Claude Code、Qwen Code等现有智能体框架接入GRPO，使Codex跑分暴涨594.74%。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2604.07190"
-        }
-      ]
-    },
-    {
-      "title": "MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context Learning",
-      "summary": "arXiv:2601.18904v2 Announce Type: replace-cross Abstract: Auditory Large Language Models (LLMs) have demonstrated stron…；MetaSICL: Adapting Audiroty LLM via Meta Speech In-Context…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.18904"
-        }
-      ]
-    },
-    {
-      "title": "Retrying vs Resampling in AI Control",
-      "summary": "arXiv:2605.26047v2 Announce Type: replace Abstract: AI coding scaffolds like Claude Code and Codex use retrying: blocki…；Retrying vs Resampling in AI Control",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.26047"
-        }
-      ]
-    },
-    {
-      "title": "Building self-improving tax agents with Codex",
-      "summary": "Building self-improving tax agents with Codex；See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy,…",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/956/293.htm"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI编码智能体竞争白热化，Polar框架或重塑行业格局",
+      "summary": "英伟达Polar框架通过GRPO实现跑分暴涨，结合Cisco与OpenAI用Codex重新定义企业工程，以及社区对Codex Desktop子智能体管理的讨论，表明AI编码工具正从单点突破转向框架级竞争，但企业级落地仍面临子智能体失控等实际挑战。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/956/293.htm"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/cisco"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2259292"
+        }
+      ]
+    }
+  ]
 }
