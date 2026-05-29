@@ -1,54 +1,44 @@
 {
-  "global_brief": "Anthropic 发布旗舰模型 Claude Opus 4.8 并完成 650 亿美元 H 轮融资，估值逼近万亿美元，但模型上线即被曝出“蒸馏”中国模型的争议。同时，MCP 协议 SDK 月下载量飙升至 9700 万次，标志着 AI 代理工具生态的爆发式增长。伊利诺伊州通过里程碑式 AI 安全法案，削弱了联邦政府对 AI 监管的控制权。",
+  "global_brief": "Anthropic 发布旗舰模型 Claude Opus 4.8 并完成 650 亿美元融资，估值逼近万亿美元，但模型随即被曝出“蒸馏”中国模型争议，引发行业对“双标”行为的讨论。与此同时，伊利诺伊州通过里程碑式AI安全法案，削弱了联邦政府对AI监管的控制权，OpenAI 和 Anthropic 均表示支持。此外，阿里云开源百炼 CLI，旨在简化 Agent 开发流程。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 72170,
-      "event_count": 1156
+      "field_score": 73105,
+      "event_count": 1176
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2496,
-      "event_count": 53
+      "field_score": 2402,
+      "event_count": 51
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1564,
-      "event_count": 39
+      "field_score": 1337,
+      "event_count": 33
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1052,
-      "event_count": 18
+      "field_score": 1081,
+      "event_count": 19
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 657,
-      "event_count": 14
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 804,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
-    {
-      "title": "Top MCP Servers Every Developer Should Install in 2026",
-      "summary": "MCP (Model Context Protocol) hit 97 million SDK downloads per month in early 2026 - up from just 2 million when it laun…；Top MCP Servers Every Developer Should Install in 2026",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/moksh/top-mcp-servers-every-developer-should-install-in-2026-22bh"
-        }
-      ]
-    },
     {
       "title": "美国最强大模型 Claude Opus 4.8 刚上线就被曝“蒸馏”中国模型：自称是千问和 DeepSeek，Anthropic 再陷“双标”争议",
       "summary": "IT之家 5 月 29 日消息，今日凌晨，Anthropic 正式发布了其最新的旗舰大模型 Claude Opus 4.8。同日，该公司还宣布完成 650 亿美元 H 轮融资，投后估值达到 9650 亿美元，已逼近万亿美元关口。 然而，就…；美国最强大模型 Claude Opus 4.8 刚上线就被曝“蒸馏”中国模型：自称是千问和 DeepSeek，Ant…",
       "references": [
         {
-          "source_name": "IT之家",
+          "source_name": "IT之家 24h",
           "link": "https://ithome.com/0/957/006.htm"
         }
       ]
@@ -70,6 +60,16 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.29744"
+        }
+      ]
+    },
+    {
+      "title": "First head-to-head comparison of agentic AI applied to the analysis of simulated data of the Einstein Telescope",
+      "summary": "arXiv:2605.28916v1 Announce Type: cross Abstract: We report a comparison of two state-of-the-art agentic AI systems, Cl…；First head-to-head comparison of agentic AI applied to the…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.28916"
         }
       ]
     }
