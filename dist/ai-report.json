@@ -1,23 +1,23 @@
 {
-  "global_brief": "今日AI领域持续活跃，模型发布与安全研究并行。Anthropic推出Claude Opus 4.8并引入快速模式，OpenAI则发布了生物防御专用模型Rosalind。同时，安全研究人员披露了ChatGPT的“ChatGPhish”漏洞，并观察到攻击者首次利用LLM Agent进行后渗透攻击。 [FACT] TITLE: Anthropic 发布 Claude Opus 4.8 并引入快速模式 SUMMARY: Anthropic 发布了新模型 Claude Opus 4.8，并新增了快速模式（-o fast 1），该模式可将成本降至原来的三分之一（S…",
+  "global_brief": "今日科技领域聚焦AI安全与模型进展：OpenAI发布Rosalind生物防御计划，同时其ChatGPT摘要功能被曝存在钓鱼攻击面；Claude Opus 4.8被指蒸馏中国AI模型引发争议；Gartner预测40%企业将降级或停用自主AI智能体，行业对Agent可靠性产生反思。 [FACT] TITLE: OpenAI发布Rosalind生物防御计划 SUMMARY: OpenAI宣布启动Rosalind Biodefense项目，向经过审查的开发者及美国政府机构扩展GPT-Rosalind的受信任访问权限，旨在加强社会韧性。 SCORE: 7…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 65331,
-      "event_count": 1100
+      "field_score": 66594,
+      "event_count": 1120
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2264,
-      "event_count": 49
+      "field_score": 2029,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1512,
-      "event_count": 39
+      "field_score": 1417,
+      "event_count": 37
     },
     {
       "field_key": "world",
@@ -28,11 +28,33 @@
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 553,
+      "field_score": 557,
       "event_count": 12
     }
   ],
   "highlight_facts": [
+    {
+      "title": "IT早报 0530：10 名车主诉特斯拉 FSD 欺诈案国内开庭；Claude Opus 4.8 被指蒸馏中国 AI；黄仁勋评价华为韬定律；央视曝光某国用 41 种网络武器攻击我高校...",
+      "summary": "IT早报 0530：10 名车主诉特斯拉 FSD 欺诈案国内开庭；Claude Opus 4.8 被指蒸馏中国 AI；黄仁勋评价华为韬定律；央视曝光某国用 41 种网络武器攻击我高校...；“IT早报”时间，大家好，现在是 2026 年 5 月 30 日星期六，今天的重要科技资讯有： 1、10 名车主诉特斯拉 FSD 欺诈案国内开庭，索赔 395 万余元…",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/957/400.htm"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/May/28/llm-anthropic"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1667419"
+        },
+        {
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/110425"
+        }
+      ]
+    },
     {
       "title": "FormInv: A Measurement Protocol for Semantic Invariance in Mathematical Reasoning Benchmarks",
       "summary": "arXiv:2605.29001v1 Announce Type: cross Abstract: A paraphrase-quality audit of MathCheck (ICLR 2025) detected 4 semant…；FormInv: A Measurement Protocol for Semantic Invariance in…",
@@ -60,16 +82,6 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2605.29744"
-        }
-      ]
-    },
-    {
-      "title": "First head-to-head comparison of agentic AI applied to the analysis of simulated data of the Einstein Telescope",
-      "summary": "arXiv:2605.28916v1 Announce Type: cross Abstract: We report a comparison of two state-of-the-art agentic AI systems, Cl…；First head-to-head comparison of agentic AI applied to the…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.28916"
         }
       ]
     }
