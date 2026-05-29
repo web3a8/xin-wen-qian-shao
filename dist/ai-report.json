@@ -1,23 +1,23 @@
 {
-  "global_brief": "Anthropic 发布 Claude Opus 4.8 并完成 650 亿美元 H 轮融资，估值逼近万亿美元，同时伊利诺伊州通过里程碑式 AI 安全法案，Anthropic 与 OpenAI 均表示支持。多项研究聚焦于 LLM 推理、Agent 系统及多模态评估，开源社区持续活跃。",
+  "global_brief": "Anthropic 发布 Claude Opus 4.8 并完成 650 亿美元融资，估值逼近万亿美元，同时伊利诺伊州通过 AI 安全测试法案，OpenAI 推出生物防御工具 Rosalind，AI 行业在模型能力、资本和监管层面均出现重大进展。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 68643,
-      "event_count": 1118
+      "field_score": 68918,
+      "event_count": 1128
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2294,
+      "field_score": 2310,
       "event_count": 49
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1658,
-      "event_count": 41
+      "field_score": 1624,
+      "event_count": 40
     },
     {
       "field_key": "world",
@@ -26,20 +26,24 @@
       "event_count": 17
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 626,
-      "event_count": 12
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 689,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 发布 Claude Opus 4.8",
-      "summary": "Anthropic 发布了 Claude Opus 4.8，定位为更强大的复杂任务模型，尤其在编程、智能体任务和长时间推理方面表现突出，并推出了成本更低的快速模式。",
+      "title": "Anthropic 发布 Claude Opus 4.8 并推出快速模式",
+      "summary": "Anthropic 发布了新模型 Claude Opus 4.8，定位为更强大的复杂任务模型，尤其在编程和智能体任务方面表现突出。同时推出了快速模式，可将成本降至原来的三分之一。",
       "references": [
         {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/May/28/llm-anthropic"
+        },
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/constanza_diaz_dev/from-idea-to-specs-planning-handyfems-architecture-with-claudeai-specs-driven-development-1lfd"
         },
         {
           "source_name": "少数派",
@@ -48,30 +52,18 @@
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3773446"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667419"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "模型竞争与资本投入进入新阶段",
-      "summary": "Anthropic 在同一天内发布旗舰模型并完成巨额融资，表明头部 AI 公司正通过“技术发布+资本运作”的双轮驱动模式，加速巩固市场地位并冲击万亿美元估值，这预示着行业竞争门槛将急剧提高。",
+      "title": "资本与监管双轮驱动，AI 行业进入新阶段",
+      "summary": "Anthropic 的巨额融资和逼近万亿美元的估值，与伊利诺伊州通过 AI 安全法案形成鲜明对比，表明 AI 行业正同时经历资本狂欢和监管收紧。这预示着未来头部 AI 公司将在合规与商业化之间寻求更复杂的平衡。",
       "references": [
         {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/May/28/llm-anthropic"
-        },
-        {
-          "source_name": "少数派",
-          "link": "https://sspai.com/post/110425"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3773446"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/05/trump-loses-more-control-over-ai-regulation-as-illinois-passes-landmark-law"
         },
         {
           "source_name": "TechCrunch",
@@ -80,10 +72,6 @@
         {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/May/29/anthropic"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667419"
         }
       ]
     }
