@@ -1,79 +1,78 @@
 {
-  "global_brief": "Anthropic 发布 Claude Opus 4.8 并完成 650 亿美元融资，估值逼近万亿美元，同时伊利诺伊州通过 AI 安全测试法案，OpenAI 推出生物防御工具 Rosalind，AI 行业在模型能力、资本和监管层面均出现重大进展。",
+  "global_brief": "Anthropic 完成 650 亿美元 H 轮融资，估值逼近 1 万亿美元，并发布 Claude Opus 4.8 模型；OpenAI 推出 Rosalind Biodefense 生物防御计划，并发布第三方评估指南；攻击者利用 LLM 智能体在 Marimo CVE-2026-39987 漏洞利用后进行后渗透活动，安全风险升级。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 68918,
-      "event_count": 1128
+      "field_score": 66470,
+      "event_count": 1120
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2310,
-      "event_count": 49
+      "field_score": 2506,
+      "event_count": 54
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1624,
-      "event_count": 40
+      "field_score": 1562,
+      "event_count": 39
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 958,
+      "field_score": 926,
       "event_count": 17
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 689,
-      "event_count": 14
+      "field_score": 587,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 发布 Claude Opus 4.8 并推出快速模式",
-      "summary": "Anthropic 发布了新模型 Claude Opus 4.8，定位为更强大的复杂任务模型，尤其在编程和智能体任务方面表现突出。同时推出了快速模式，可将成本降至原来的三分之一。",
+      "title": "FormInv: A Measurement Protocol for Semantic Invariance in Mathematical Reasoning Benchmarks",
+      "summary": "arXiv:2605.29001v1 Announce Type: cross Abstract: A paraphrase-quality audit of MathCheck (ICLR 2025) detected 4 semant…；FormInv: A Measurement Protocol for Semantic Invariance in…",
       "references": [
         {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/May/28/llm-anthropic"
-        },
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.29001"
+        }
+      ]
+    },
+    {
+      "title": "Why Specialist Models Still Matter: A Heterogeneous Multi-Agent Paradigm for Medical Artificial Intelligence",
+      "summary": "arXiv:2605.29744v1 Announce Type: new Abstract: The impressive performance of generalist large language models (LLMs) s…；Why Specialist Models Still Matter: A Heterogeneous Multi-…",
+      "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/constanza_diaz_dev/from-idea-to-specs-planning-handyfems-architecture-with-claudeai-specs-driven-development-1lfd"
-        },
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.29744"
+        }
+      ]
+    },
+    {
+      "title": "First head-to-head comparison of agentic AI applied to the analysis of simulated data of the Einstein Telescope",
+      "summary": "arXiv:2605.28916v1 Announce Type: cross Abstract: We report a comparison of two state-of-the-art agentic AI systems, Cl…；First head-to-head comparison of agentic AI applied to the…",
+      "references": [
         {
-          "source_name": "少数派",
-          "link": "https://sspai.com/post/110425"
-        },
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.28916"
+        }
+      ]
+    },
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government…；Strengthening societal resilience with Rosalind Biodefense",
+      "references": [
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3773446"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "资本与监管双轮驱动，AI 行业进入新阶段",
-      "summary": "Anthropic 的巨额融资和逼近万亿美元的估值，与伊利诺伊州通过 AI 安全法案形成鲜明对比，表明 AI 行业正同时经历资本狂欢和监管收紧。这预示着未来头部 AI 公司将在合规与商业化之间寻求更复杂的平衡。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/05/trump-loses-more-control-over-ai-regulation-as-illinois-passes-landmark-law"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/May/29/anthropic"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
