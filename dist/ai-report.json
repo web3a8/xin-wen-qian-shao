@@ -1,28 +1,28 @@
 {
-  "global_brief": "Anthropic 发布 Claude Opus 4.8 并完成 650 亿美元融资，估值逼近万亿美元，同时欧盟正就获取其安全模型 Mythos 展开谈判。AI 编程领域竞争白热化，阿里 Qwen3.7 Max 在编程竞技榜升至第二，Grok Build 0.1 也展示了低成本编程能力。此外，伊利诺伊州通过里程碑式 AI 安全法案，削弱了联邦政府对 AI 监管的控制权。",
+  "global_brief": "Anthropic 发布 Claude Opus 4.8 并完成 650 亿美元融资，估值逼近万亿美元，同时欧盟正就获取其 Mythos 模型展开谈判。阿里 Qwen3.7 Max 在编程竞技榜上超越 GPT-5.5 等模型，位居全球第二。伊利诺伊州通过 AI 安全测试法案，削弱了联邦政府对 AI 监管的控制权。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 56388,
-      "event_count": 963
+      "field_score": 57236,
+      "event_count": 979
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1965,
-      "event_count": 42
+      "field_score": 1979,
+      "event_count": 43
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 948,
-      "event_count": 24
+      "field_score": 1296,
+      "event_count": 32
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 922,
+      "field_score": 844,
       "event_count": 17
     },
     {
@@ -34,57 +34,42 @@
   ],
   "highlight_facts": [
     {
-      "title": "llm-anthropic 0.25.1",
-      "summary": "llm-anthropic 0.25.1；Release: llm-anthropic 0.25.1 New model: Claude Opus 4.8 ( claude-opus-4.8 ). New -o fast 1 option for fast mode, for…；Anthropic shipped Claude Opus 4.8 toda…",
+      "title": "Anthropic 完成 650 亿美元 H 轮融资，估值达 9650 亿美元",
+      "summary": "Anthropic 宣布完成 650 亿美元的 H 轮融资，投后估值达 9650 亿美元，接近万亿美元大关，年化收入已达 470 亿美元。",
       "references": [
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/May/28/llm-anthropic"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/956/827.htm"
-        },
         {
           "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary"
-        }
-      ]
-    },
-    {
-      "title": "Put your Coding Agents in Drive w/ Superpowers (aka How Superpowers is the Automatic Transmission of Agentic Coding)",
-      "summary": "Put your Coding Agents in Drive w/ Superpowers (aka How Superpowers is the Automatic Transmission of Agentic Coding)；The most downloaded and widely used methodology in the Claude…",
-      "references": [
+          "link": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo"
+        },
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/lizziepika/put-your-coding-agents-in-drive-w-superpowers-aka-how-superpowers-is-the-automatic-transmission-558d"
-        }
-      ]
-    },
-    {
-      "title": "性价比拉满：Grok Build 0.1 打响 AI 编程实战，马斯克称物超所值",
-      "summary": "IT之家 5 月 29 日消息，AI 编程智能体 IDE 工具 Kilo Code 今天在 X 平台发布系列图文，分享了 Grok Build 0.1 实战开发报告， 称构建交付服务过程零工具调用失败，且成本低于 GPT-5.5 和 Cl…；性价比拉满：Grok Build 0.1 打响 AI 编程实战，马斯克称物超所值",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/956/843.htm"
-        }
-      ]
-    },
-    {
-      "title": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器",
-      "summary": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器；超越 GPT-5.5、Gemini 3.5 Flash、DeepSeek V4 Pro，阿里的最新旗舰模型 Qwen3.7 Max 在编程竞技榜拿下第二名，仅次于 Claude Opus 4.7。 ▲5.26 榜单截图 除了真实场景的用户…",
-      "references": [
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667180"
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/May/29/anthropic"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "Anthropic 估值逼近万亿美元，AI 资本竞赛进入新阶段",
+      "summary": "Anthropic 以 9650 亿美元估值完成 650 亿美元融资，使其超越 OpenAI 成为估值最高的 AI 初创公司。这标志着 AI 领域的资本竞赛已进入以万亿美元为门槛的新阶段，同时也凸显了头部模型厂商在商业化与安全监管之间的巨大张力。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/May/29/anthropic"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://businessinsider.com/anthropic-surpasses-openai-with-965b-valuation-debuts-opus-4-8-2026-5"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2266380"
+        }
+      ]
+    }
+  ]
 }
