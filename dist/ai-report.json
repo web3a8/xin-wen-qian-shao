@@ -1,41 +1,51 @@
 {
-  "global_brief": "今日AI安全与编码能力成为两大焦点：黑客利用ChatGPT共享页面发起新型钓鱼攻击（LLMShare），同时攻击者已使用LLM代理在真实漏洞利用后进行后渗透操作；在编码领域，DeepSWE排行榜显示GPT-5.5登顶，但Claude Opus被发现存在“蒸馏”中国AI模型的争议，而社区对Claude Code和Codex的“变笨”感知进行了长达95天的追踪分析。此外，Anthropic七位联合创始人因公司最新融资集体跻身亿万富豪榜，创下彭博纪录。",
+  "global_brief": "今日AI领域安全事件频发，包括ChatGPT被用于钓鱼攻击 以及攻击者利用LLM Agent进行后渗透；同时，Anthropic七位联合创始人因最新融资集体进入彭博富豪榜，Groq被曝正寻求6.5亿美元内部融资，显示AI行业资本高度集中。此外，AI编码能力评测出现新突破，DeepSWE排行榜将GPT-5.5推至首位，而OpenAI扩展了Codex的远程控制功能至Windows平台。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 9657,
-      "event_count": 171
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1124,
-      "event_count": 28
+      "field_score": 9424,
+      "event_count": 167
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 941,
+      "field_score": 1095,
+      "event_count": 26
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 954,
       "event_count": 24
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 323,
-      "event_count": 7
+      "field_score": 261,
+      "event_count": 6
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 318,
-      "event_count": 7
+      "field_score": 222,
+      "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "黑客利用ChatGPT共享页面发起LLMShare钓鱼攻击",
-      "summary": "网络安全公司Push Security披露，黑客滥用ChatGPT内容分享功能创建虚假宕机通知页面，并通过Google广告诱导用户下载恶意软件。该攻击手法被称为LLMShare攻击，将ChatGPT共享页变为恶意入口。",
+      "title": "AI 社会自治测试：Grok 四天崩溃、Gemini 犯罪率最高",
+      "summary": "AI 社会自治测试：Grok 四天崩溃、Gemini 犯罪率最高；IT之家 5 月 30 日消息，Emergence AI 于 5 月 14 日发布博文，搭建了一个 AI 社会 Emergence World，从而评估 Gork、Gemini、Claude、GPT 等模型的表现。 Emergence W…",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/957/480.htm"
+        }
+      ]
+    },
+    {
+      "title": "LLMShare 攻击披露：ChatGPT 共享页变恶意入口，通过谷歌搜索精准投毒",
+      "summary": "IT之家 5 月 30 日消息，网络安全公司 Push Security 昨日（5 月 29 日）发布博文，披露称有黑客滥用 ChatGPT 的内容分享功能， 创建假宕机通知页面，通过 Google 广告诱导用户下载恶意软件。 该公司将这…；LLMShare 攻击披露：ChatGPT 共享页变恶意入口，通过谷歌搜索精准投毒",
       "references": [
         {
           "source_name": "IT之家",
@@ -44,8 +54,8 @@
       ]
     },
     {
-      "title": "研究人员披露ChatGPT网页摘要功能存在钓鱼漏洞",
-      "summary": "网络安全研究人员公开了OpenAI ChatGPT网页摘要功能中的一个漏洞（ChatGPhish），该漏洞可被用于扩大钓鱼攻击面。",
+      "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
+      "summary": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface；Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages t…",
       "references": [
         {
           "source_name": "The Hacker News",
@@ -54,98 +64,15 @@
       ]
     },
     {
-      "title": "攻击者利用LLM代理在Marimo漏洞利用后进行后渗透操作",
-      "summary": "一个未知威胁行为者被观察到在利用Marimo CVE-2026-39987漏洞后，使用大型语言模型（LLM）代理进行后渗透操作。",
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.；How Braintrust turns customer requests into code with Codex",
       "references": [
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
-        }
-      ]
-    },
-    {
-      "title": "DeepSWE排行榜显示GPT-5.5登顶，Claude Opus被发现“蒸馏”中国AI",
-      "summary": "DeepSWE AI编码排行榜更新，GPT-5.5被加冕为榜首，同时发现Claude Opus 4.8存在“蒸馏”中国AI模型的行为。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/957/400.htm"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic七位联合创始人因公司融资集体跻身亿万富豪榜",
-      "summary": "Anthropic最新一轮融资将其七位联合创始人同时送入全球500强富豪行列，每人身家均达80亿美元，创下彭博亿万富豪指数单日新增同一公司上榜人数最多的纪录。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3773477"
-        }
-      ]
-    },
-    {
-      "title": "AI芯片初创公司Groq据悉寻求6.5亿美元内部融资",
-      "summary": "在英伟达以200亿美元完成“非收购式招聘”后，AI芯片初创公司Groq据报道正寻求6.5亿美元的内部融资，并正在调整其战略方向。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/braintrust"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI编码模型“变笨”感知被量化追踪证实",
-      "summary": "一项为期95天的追踪分析显示，Claude Code和Codex的通过率存在波动，这为社区中关于AI编码助手“变笨”的普遍感知提供了量化数据支持。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/dylan_brown_4c803aefcfe51/i-tracked-claude-code-and-codex-pass-rates-for-95-days-what-getting-dumber-actually-looks-like-21le"
-        }
-      ]
-    },
-    {
-      "title": "中国对AI人才出境限制加剧全球AI人才竞争",
-      "summary": "中国扩大对DeepSeek、阿里巴巴等私营企业顶尖AI人才的海外旅行限制，此举可能进一步加剧全球AI人才流动的紧张局势，并影响技术合作。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms"
-        }
-      ]
-    },
-    {
-      "title": "社区对本地推理代理的需求因Codex订阅模式而上升",
-      "summary": "Hacker News上的讨论显示，部分用户因考虑取消Codex订阅而开始积极寻找最佳的本地推理代理替代方案，反映出对云端AI服务依赖性的担忧。",
-      "references": [
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48326267"
-        }
-      ]
-    },
-    {
-      "title": "AI安全攻击面正从传统漏洞向LLM应用层扩展",
-      "summary": "从LLMShare钓鱼攻击到利用LLM代理进行后渗透，再到CVE-Bench测试框架的出现，表明攻击者和防御者的焦点正迅速转向LLM应用层和代理框架的安全。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/957/434.htm"
-        },
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://giovannigatti.github.io/cve-bench"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
