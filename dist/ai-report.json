@@ -1,29 +1,29 @@
 {
-  "global_brief": "AI安全与攻击事件成为今日焦点，攻击者利用LLM代理进行后渗透操作，同时ChatGPT的摘要功能被发现存在钓鱼攻击面。此外，AI芯片初创公司Groq在英伟达巨额收购后寻求6.5亿美元融资，而AI模型在模拟社会实验中的安全性表现也引发关注。",
+  "global_brief": "今日AI领域持续主导技术社区，焦点集中在AI Agent工具链的成本优化与安全风险上。开发者社区涌现大量关于降低LLM API开销的实践方案，同时针对AI Agent的漏洞利用与蠕虫病毒研究引发广泛关注。此外，AI芯片初创公司Groq的巨额融资与Mistral关于欧洲AI基础设施建设的紧迫呼吁，也凸显了产业竞争格局的加速演变。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6868,
-      "event_count": 123
+      "field_score": 6273,
+      "event_count": 112
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1682,
-      "event_count": 42
+      "field_score": 1567,
+      "event_count": 39
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1027,
-      "event_count": 26
+      "field_score": 819,
+      "event_count": 20
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 404,
-      "event_count": 8
+      "field_score": 429,
+      "event_count": 9
     },
     {
       "field_key": "finance",
@@ -34,28 +34,8 @@
   ],
   "highlight_facts": [
     {
-      "title": "ChatGPhish漏洞将ChatGPT网页摘要变为钓鱼攻击面",
-      "summary": "网络安全研究人员披露了OpenAI ChatGPT中的一个漏洞，该漏洞可被利用将网页摘要功能转变为钓鱼攻击面。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html"
-        }
-      ]
-    },
-    {
-      "title": "攻击者利用LLM代理在Marimo CVE漏洞利用后进行后渗透操作",
-      "summary": "一个未知威胁行为者被观察到在利用Marimo CVE-2026-39987漏洞后，使用大型语言模型（LLM）代理进行后渗透操作。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
-        }
-      ]
-    },
-    {
-      "title": "AI芯片初创公司Groq据报寻求6.5亿美元内部融资",
-      "summary": "在英伟达进行2000亿美元的非收购性招聘后，AI芯片初创公司Groq正寻求通过内部融资筹集6.5亿美元，以调整其战略方向。",
+      "title": "AI芯片初创公司Groq计划融资6.5亿美元",
+      "summary": "在英伟达完成200亿美元收购后，AI芯片初创公司Groq正寻求通过内部融资筹集6.5亿美元，以调整其业务战略。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -64,74 +44,104 @@
       ]
     },
     {
-      "title": "研究人员让AI模型运行模拟社会，Claude最安全，Grok灭绝",
-      "summary": "一项研究让多个AI模型在模拟社会中运行，结果显示Anthropic的Claude表现最为安全，而xAI的Grok则走向灭绝。",
+      "title": "研究人员发现ChatGPT网页摘要功能存在钓鱼攻击漏洞",
+      "summary": "网络安全研究人员披露了OpenAI ChatGPT中的“ChatGPhish”漏洞，该漏洞可将其网页摘要功能转变为钓鱼攻击面。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://tech.yahoo.com/ai/claude/articles/researchers-let-ai-models-run-070300865.html"
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html"
         }
       ]
     },
     {
-      "title": "一个困扰人类80年的著名数学难题被AI攻克",
-      "summary": "据华尔街日报报道，一个曾困扰人类80年的著名数学难题（Erdos问题）已被OpenAI的AI模型解决。",
+      "title": "开发者分享将Aider的Token费用削减80%的实践方案",
+      "summary": "一位开发者详细介绍了如何通过提示缓存、MCP代码模式及分层路由策略，将终端AI编码工具Aider的Token费用削减80%。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://wsj.com/tech/ai/ai-math-solves-erdos-problem-openai-c4029e84"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/lynkr/run-aider-on-ollama-bedrock-or-any-llm-provider-one-gateway-every-model-3jm4"
         }
       ]
     },
     {
-      "title": "苹果被曝使用谷歌Gemini训练其端侧AI模型",
-      "summary": "有报道称，苹果正在使用谷歌的Gemini模型来训练其端侧AI，并且部分Siri请求已转向谷歌云处理。",
+      "title": "谷歌展示Gemini Omni与Gemini 3.5的9个应用演示",
+      "summary": "谷歌在其官方博客上发布了9个演示，展示了Gemini Omni和Gemini 3.5模型的实际应用能力。",
       "references": [
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667559"
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos"
+        }
+      ]
+    },
+    {
+      "title": "新基准CVE-Bench用于测试LLM Agent修复真实漏洞的能力",
+      "summary": "社区发布了一个名为CVE-Bench的新基准测试，旨在评估LLM Agent在真实世界漏洞补丁上的表现。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://giovannigatti.github.io/cve-bench"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示自主LLM Agent蠕虫病毒风险",
+      "summary": "一篇新发表的论文探讨了自主LLM Agent蠕虫病毒的概念，揭示了AI Agent间可能存在的安全威胁。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2605.02812"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI代理安全风险加剧，从漏洞利用到自主蠕虫",
-      "summary": "从攻击者使用LLM代理进行后渗透，到自主LLM代理蠕虫的研究，再到CVE-Bench测试代理修复漏洞的能力，社区普遍认为AI代理的安全风险正在从理论走向现实，亟需更强大的防护和测试框架。",
+      "title": "AI Agent成本控制成为开发者核心关切",
+      "summary": "从Aider的Token费用削减实践到Tokentoll这类CI成本门控工具的出现，再到某公司一个月意外花费5亿美元使用Claude AI的传闻，社区普遍认为，随着AI Agent的普及，API调用成本管理已成为阻碍规模化应用的关键瓶颈，开发者正积极寻求更精细化的成本控制方案。",
       "references": [
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://giovannigatti.github.io/cve-bench"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://arxiv.org/abs/2605.02812"
-        }
-      ]
-    },
-    {
-      "title": "开源LLM工具链蓬勃发展，但商业化仍是难题",
-      "summary": "社区涌现出Tiny-vLLM、Knowa、Tokentoll等众多开源LLM工具，覆盖推理引擎、上下文优化和成本控制。然而，有开发者反映新模型类型难以销售，反映出开源创新与商业变现之间的鸿沟。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/jmaczan/tiny-vllm"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/zzorphcreator/knowa"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/lynkr/run-aider-on-ollama-bedrock-or-any-llm-provider-one-gateway-every-model-3jm4"
         },
         {
           "source_name": "Hacker News LLM",
           "link": "https://github.com/Jwrede/tokentoll"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://news.ycombinator.com/item?id=48323810"
+          "source_name": "Hacker News AI",
+          "link": "https://gadgetreview.com/company-blew-500m-on-claude-ai-in-one-month"
+        }
+      ]
+    },
+    {
+      "title": "模型质量波动引发用户信任危机",
+      "summary": "多个社区用户反馈OpenAI的GPT-5.5及Codex模型近期出现“降智”现象，表现为处理简单问题时反复出错。这种体验上的不稳定性，叠加Anthropic Claude Code新版本出现的兼容性问题，正促使开发者在不同AI工具间频繁切换，反映出当前AI模型在持续迭代中面临的可靠性挑战。",
+      "references": [
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2276353"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2276362"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216719"
+        }
+      ]
+    },
+    {
+      "title": "欧洲AI主权建设窗口期紧迫",
+      "summary": "Mistral AI发出警告，认为欧洲只有两年时间建立自己的AI基础设施。这一观点与NBER关于数据中心对地方经济影响的研究 相呼应，共同指向一个趋势：在全球AI竞赛中，算力基础设施的自主可控正成为区域竞争的核心，而不仅仅是技术模型的比拼。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://businessinsider.com/mistral-ai-summit-europe-ai-future-waking-up-2026-5"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://nber.org/papers/w35194"
         }
       ]
     }
