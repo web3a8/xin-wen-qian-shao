@@ -1,23 +1,23 @@
 {
-  "global_brief": "今日科技领域聚焦AI安全与模型进展：OpenAI发布Rosalind生物防御计划，同时其ChatGPT摘要功能被曝存在钓鱼攻击面；Claude Opus 4.8被指蒸馏中国AI模型引发争议；Gartner预测40%企业将降级或停用自主AI智能体，行业对Agent可靠性产生反思。 [FACT] TITLE: OpenAI发布Rosalind生物防御计划 SUMMARY: OpenAI宣布启动Rosalind Biodefense项目，向经过审查的开发者及美国政府机构扩展GPT-Rosalind的受信任访问权限，旨在加强社会韧性。 SCORE: 7…",
+  "global_brief": "今日AI领域持续高热，模型安全与Agent应用成为焦点：OpenAI发布Rosalind生物防御系统，同时其ChatGPT摘要功能被曝存在钓鱼攻击漏洞；中国对DeepSeek等公司AI人才实施出境限制，引发地缘技术竞争讨论；社区侧，开发者正积极为AI智能体构建长期记忆方案，而Gartner预测40%企业将降级或停用自主AI Agent，行业对Agent实用性的反思正在加深。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 66594,
-      "event_count": 1120
+      "field_score": 65727,
+      "event_count": 1108
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2029,
-      "event_count": 44
+      "field_score": 2142,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1417,
-      "event_count": 37
+      "field_score": 1237,
+      "event_count": 32
     },
     {
       "field_key": "world",
@@ -26,65 +26,42 @@
       "event_count": 17
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 557,
-      "event_count": 12
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 502,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "IT早报 0530：10 名车主诉特斯拉 FSD 欺诈案国内开庭；Claude Opus 4.8 被指蒸馏中国 AI；黄仁勋评价华为韬定律；央视曝光某国用 41 种网络武器攻击我高校...",
-      "summary": "IT早报 0530：10 名车主诉特斯拉 FSD 欺诈案国内开庭；Claude Opus 4.8 被指蒸馏中国 AI；黄仁勋评价华为韬定律；央视曝光某国用 41 种网络武器攻击我高校...；“IT早报”时间，大家好，现在是 2026 年 5 月 30 日星期六，今天的重要科技资讯有： 1、10 名车主诉特斯拉 FSD 欺诈案国内开庭，索赔 395 万余元…",
+      "title": "OpenAI 发布 Rosalind 生物防御系统",
+      "summary": "OpenAI 宣布推出 Rosalind Biodefense，扩大对 GPT-Rosalind 的受信访问，面向经过审查的开发者及美国政府机构，旨在增强社会韧性。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/957/400.htm"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/May/28/llm-anthropic"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667419"
-        },
-        {
-          "source_name": "少数派",
-          "link": "https://sspai.com/post/110425"
-        }
-      ]
-    },
-    {
-      "title": "FormInv: A Measurement Protocol for Semantic Invariance in Mathematical Reasoning Benchmarks",
-      "summary": "arXiv:2605.29001v1 Announce Type: cross Abstract: A paraphrase-quality audit of MathCheck (ICLR 2025) detected 4 semant…；FormInv: A Measurement Protocol for Semantic Invariance in…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.29001"
-        }
-      ]
-    },
-    {
-      "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
-      "summary": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface；Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages t…",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html"
-        }
-      ]
-    },
-    {
-      "title": "Why Specialist Models Still Matter: A Heterogeneous Multi-Agent Paradigm for Medical Artificial Intelligence",
-      "summary": "arXiv:2605.29744v1 Announce Type: new Abstract: The impressive performance of generalist large language models (LLMs) s…；Why Specialist Models Still Matter: A Heterogeneous Multi-…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.29744"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI Agent 的“记忆”与“遗忘”成为社区核心痛点",
+      "summary": "从开发者构建 Hermes Memory Sidecar 到社区讨论“取消 Codex 后选择哪个本地推理 Agent”，反映出当前 AI 编码 Agent 普遍存在的上下文遗忘问题正严重制约其实际应用，社区正积极寻求开源或本地化的解决方案。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216371"
+        },
+        {
+          "source_name": "Hacker News 最佳",
+          "link": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48326267"
+        }
+      ]
+    }
+  ]
 }
