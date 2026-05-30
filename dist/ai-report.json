@@ -1,173 +1,61 @@
 {
-  "global_brief": "AI 代理工具链持续演进，开发者社区围绕 Agent 技能管理、成本控制和安全风险展开激烈讨论；同时，企业级 AI 基础设施投入激增，Dell AI 服务器收入暴涨 757%，IBM 计划投入 50 亿美元修复 AI 发现的 3900 个关键开源漏洞。",
+  "global_brief": "AI领域持续主导今日动态，Anthropic、OpenAI等头部公司动作频繁，同时开发者社区围绕LLM工具链、成本控制与开源生态展开密集讨论。软银宣布在法国建设欧洲最大AI设施，Dell AI服务器收入暴增757%，显示AI基础设施投资热度不减。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6043,
-      "event_count": 108
+      "field_score": 6376,
+      "event_count": 116
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1551,
+      "field_score": 1511,
       "event_count": 39
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 956,
-      "event_count": 23
+      "field_score": 685,
+      "event_count": 17
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 536,
+      "field_score": 526,
       "event_count": 10
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 271,
-      "event_count": 6
+      "field_score": 211,
+      "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "AI 代理技能应被视为代码而非文档",
-      "summary": "开发者社区观点认为，AI 编码代理（如 Claude Code、Codex）使用的“技能”本质上是 Markdown 代码文件，应遵循代码审查流程而非文档审查流程。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/skillock/your-ai-agents-skills-are-code-stop-reviewing-them-like-docs-2bji"
-        }
-      ]
-    },
-    {
-      "title": "苹果被曝使用谷歌 Gemini 训练端侧 AI 模型",
-      "summary": "据爱范儿报道，苹果正在使用谷歌 Gemini 训练其端侧 AI 模型，部分 Siri 请求已转向谷歌云处理。",
-      "references": [
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667559"
-        }
-      ]
-    },
-    {
-      "title": "开源项目出现针对 AI 代理的隐藏指令",
-      "summary": "一个开源项目被发现包含针对 AI 代理的隐藏指令，要求其“删除我的代码”，引发了关于 AI 代理安全性和代码供应链风险的新讨论。",
+      "title": "Anthropic成为全球最具价值AI公司",
+      "summary": "有分析指出，Anthropic凭借其安全理念和模型能力，已成为全球估值最高的AI公司。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://osnews.com/story/145130/open-source-project-contains-hidden-instruction-for-ai-agents-delete-my-code"
-        }
-      ]
-    },
-    {
-      "title": "Dell AI 服务器收入同比暴涨 757%",
-      "summary": "数据显示 Dell 的 AI 服务器收入同比增长 757%，反映出企业级 AI 基础设施需求的爆发式增长。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://jefftech.substack.com/p/dells-ai-server-revenue-surged-757what"
-        }
-      ]
-    },
-    {
-      "title": "IBM 计划投入 50 亿美元修复 AI 发现的 3900 个关键开源漏洞",
-      "summary": "AI 工具发现了 3900 个关键开源软件漏洞，IBM 宣布将投入 50 亿美元用于修复工作。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://linuxstans.com/ai-found-3900-critical-open-source-bugs-ibm-is-paying-5-billion-to-fix-them"
-        }
-      ]
-    },
-    {
-      "title": "Flathub 禁止基于 LLM 的应用提交",
-      "summary": "开源应用分发平台 Flathub 宣布不再接受由 LLM 生成或辅助提交的应用，以维护平台质量。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://social.treehouse.systems/@barthalion/116657011366876079"
+          "link": "https://medium.com/@tbelbek/why-anthropic-just-became-the-most-valuable-ai-company-on-earth-and-what-it-means-46daa94d9cf8"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 代理成本失控风险加剧",
-      "summary": "有报道称某公司一个月内意外在 Claude AI 上花费了 5 亿美元，同时社区也出现了用于监控 LLM API 成本回归的 CI 工具（Tokentoll），表明随着 AI 代理的普及，成本管控正成为企业级应用的紧迫问题。",
+      "title": "AI基础设施投资竞赛白热化，硬件厂商成最大赢家",
+      "summary": "软银的巨额投资和Dell AI服务器收入的暴增，共同指向一个趋势：AI基础设施的军备竞赛正在加速，硬件供应商如Dell成为直接受益者。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://gadgetreview.com/company-blew-500m-on-claude-ai-in-one-month"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Jwrede/tokentoll"
-        }
-      ]
-    },
-    {
-      "title": "欧洲 AI 基础设施建设面临紧迫窗口期",
-      "summary": "Mistral AI 高管表示欧洲只有两年时间建立自己的 AI 基础设施，否则将在全球 AI 竞赛中落后，这反映了非美国地区对 AI 算力主权和供应链安全的担忧。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://businessinsider.com/mistral-ai-summit-europe-ai-future-waking-up-2026-5"
-        }
-      ]
-    },
-    {
-      "title": "AI 代理安全威胁从理论走向实践",
-      "summary": "从“自主 LLM 代理蠕虫”研究到开源项目中的隐藏恶意指令，AI 代理的安全威胁正从学术概念演变为现实风险，开发者社区需要重新审视代理的权限和代码执行环境。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://arxiv.org/abs/2605.02812"
+          "link": "https://ft.com/content/1022f9bd-5b6d-44a5-9303-c8b05b8c6463"
         },
         {
           "source_name": "Hacker News AI",
-          "link": "https://osnews.com/story/145130/open-source-project-contains-hidden-instruction-for-ai-agents-delete-my-code"
-        }
-      ]
-    },
-    {
-      "title": "本地优先的 AI 部署模式获得关注",
-      "summary": "一篇关于“本地优先、零云依赖”的 AI 模型部署教程获得较高关注，反映出在云端成本高企和数据隐私顾虑下，开发者社区对本地化 AI 运行方案的探索兴趣正在上升。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/dalenguyen/local-first-a-model-on-your-own-machine-zero-cloud-26dh"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI IPO 引发对 AI 工程创新保护的讨论",
-      "summary": "随着 OpenAI IPO 临近，社区开始讨论如何在资本化浪潮中保护 AI 工程领域的创新成果，避免被大型企业或资本力量所吞噬。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://draketo.de/software/innovations-survival"
-        }
-      ]
-    },
-    {
-      "title": "开发者对 AI 编码工具体验分化明显",
-      "summary": "中文开发者社区讨论显示，Kimi Code 等 AI 编码助手在易用性上获得认可，但限额问题突出；同时 Claude Code 的 AgentTeam 功能存在兼容性问题，反映出当前 AI 编码工具在稳定性和用户体验上仍有较大改进空间。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1216645"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1216719"
-        },
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2276720"
+          "link": "https://jefftech.substack.com/p/dells-ai-server-revenue-surged-757what"
         }
       ]
     }
