@@ -1,61 +1,65 @@
 {
-  "global_brief": "AI领域持续主导今日动态，Anthropic、OpenAI等头部公司动作频繁，同时开发者社区围绕LLM工具链、成本控制与开源生态展开密集讨论。软银宣布在法国建设欧洲最大AI设施，Dell AI服务器收入暴增757%，显示AI基础设施投资热度不减。",
+  "global_brief": "AI领域持续高热，模型训练与推理成本成为焦点，同时社区涌现大量旨在提升LLM工程效率与可控性的新工具。苹果被曝使用谷歌Gemini训练端侧模型，而一家神秘公司单月意外消耗5亿美元Claude API费用，凸显了AI应用成本失控的风险。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6376,
-      "event_count": 116
+      "field_score": 5977,
+      "event_count": 109
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1511,
+      "field_score": 1485,
       "event_count": 39
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 685,
-      "event_count": 17
+      "field_score": 644,
+      "event_count": 16
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 526,
+      "field_score": 509,
       "event_count": 10
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 211,
-      "event_count": 5
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 136,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic成为全球最具价值AI公司",
-      "summary": "有分析指出，Anthropic凭借其安全理念和模型能力，已成为全球估值最高的AI公司。",
+      "title": "苹果被曝使用谷歌Gemini训练端侧AI模型",
+      "summary": "据报道，苹果正在使用谷歌的Gemini模型来训练其端侧AI，部分Siri请求已转向谷歌云处理。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://medium.com/@tbelbek/why-anthropic-just-became-the-most-valuable-ai-company-on-earth-and-what-it-means-46daa94d9cf8"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1667559"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI基础设施投资竞赛白热化，硬件厂商成最大赢家",
-      "summary": "软银的巨额投资和Dell AI服务器收入的暴增，共同指向一个趋势：AI基础设施的军备竞赛正在加速，硬件供应商如Dell成为直接受益者。",
+      "title": "AI应用成本失控风险加剧，工程化管控成关键",
+      "summary": "从神秘公司5亿美元Claude账单到社区涌现的Tokentoll等成本监控工具，业界正从单纯追求模型能力转向关注AI应用的工程化成本管控。这反映出“AI Slop”不仅是模型问题，更是工程问题。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://ft.com/content/1022f9bd-5b6d-44a5-9303-c8b05b8c6463"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/turacthethinker/stop-shipping-ai-slop-build-an-anti-slop-harness-around-your-llm-273b"
         },
         {
           "source_name": "Hacker News AI",
-          "link": "https://jefftech.substack.com/p/dells-ai-server-revenue-surged-757what"
+          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/mystery-company-accidentally-blew-usd500-million-on-claude-in-a-single-month-failed-to-put-usage-limit-on-licenses-for-employees"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/Jwrede/tokentoll"
         }
       ]
     }
