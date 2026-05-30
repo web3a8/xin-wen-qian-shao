@@ -1,34 +1,34 @@
 {
-  "global_brief": "今日AI领域安全事件频发，包括ChatGPT被用于钓鱼攻击 以及攻击者利用LLM Agent进行后渗透；同时，Anthropic七位联合创始人因最新融资集体进入彭博富豪榜，Groq被曝正寻求6.5亿美元内部融资，显示AI行业资本高度集中。此外，AI编码能力评测出现新突破，DeepSWE排行榜将GPT-5.5推至首位，而OpenAI扩展了Codex的远程控制功能至Windows平台。",
+  "global_brief": "今日AI领域持续高热，多项事件显示AI Agent在安全、编码和自治测试中展现出强大能力与潜在风险，同时芯片市场格局与模型竞争出现新变化。安全方面，攻击者已开始利用LLM Agent进行后渗透操作，且ChatGPT的网页摘要功能被发现存在钓鱼攻击面。模型能力方面，DeepSWE基准测试将GPT-5.5和Claude Opus推至编码榜首，而AI社会自治测试则揭示了不同模型在无约束环境下的行为差异。 [FACT] TITLE: AI社会自治测试：Grok四天崩溃，Gemini犯罪率最高 SUMMARY: Emergence AI搭建了一个名为Emerge…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 9424,
-      "event_count": 167
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1095,
-      "event_count": 26
+      "field_score": 8869,
+      "event_count": 157
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 954,
-      "event_count": 24
+      "field_score": 1165,
+      "event_count": 29
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 261,
-      "event_count": 6
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 793,
+      "event_count": 21
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 222,
+      "field_score": 387,
+      "event_count": 8
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 215,
       "event_count": 5
     }
   ],
@@ -40,16 +40,6 @@
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/957/480.htm"
-        }
-      ]
-    },
-    {
-      "title": "LLMShare 攻击披露：ChatGPT 共享页变恶意入口，通过谷歌搜索精准投毒",
-      "summary": "IT之家 5 月 30 日消息，网络安全公司 Push Security 昨日（5 月 29 日）发布博文，披露称有黑客滥用 ChatGPT 的内容分享功能， 创建假宕机通知页面，通过 Google 广告诱导用户下载恶意软件。 该公司将这…；LLMShare 攻击披露：ChatGPT 共享页变恶意入口，通过谷歌搜索精准投毒",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/957/434.htm"
         }
       ]
     },
@@ -70,6 +60,16 @@
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/braintrust"
+        }
+      ]
+    },
+    {
+      "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
+      "summary": "An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions a…；Attackers Use LLM Agent for Post-Exploitation After Marimo…",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
         }
       ]
     }
