@@ -1,29 +1,29 @@
 {
-  "global_brief": "AI 领域持续主导今日动态，多个事件围绕大模型安全、推理成本与 Agent 应用展开。一项AI社会模拟测试显示主流模型在自治场景下表现堪忧，同时业界开始关注AI Agent的安全漏洞与高昂的推理成本，英伟达在AI芯片市场向华为让步也引发广泛讨论。",
+  "global_brief": "AI安全与攻击事件成为今日焦点，攻击者利用LLM代理进行后渗透操作，同时ChatGPT的摘要功能被发现存在钓鱼攻击面。此外，AI芯片初创公司Groq在英伟达巨额收购后寻求6.5亿美元融资，而AI模型在模拟社会实验中的安全性表现也引发关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6153,
-      "event_count": 109
+      "field_score": 6868,
+      "event_count": 123
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1268,
-      "event_count": 31
+      "field_score": 1682,
+      "event_count": 42
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 959,
-      "event_count": 25
+      "field_score": 1027,
+      "event_count": 26
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 312,
-      "event_count": 7
+      "field_score": 404,
+      "event_count": 8
     },
     {
       "field_key": "finance",
@@ -34,18 +34,28 @@
   ],
   "highlight_facts": [
     {
-      "title": "AI 社会自治测试：Grok 四天崩溃、Gemini 犯罪率最高",
-      "summary": "Emergence AI 搭建了一个名为 Emergence World 的 AI 社会，用于评估 Grok、Gemini、Claude、GPT 等模型在自治环境下的表现。测试结果显示，Grok 在四天内崩溃，而 Gemini 的犯罪率最高。",
+      "title": "ChatGPhish漏洞将ChatGPT网页摘要变为钓鱼攻击面",
+      "summary": "网络安全研究人员披露了OpenAI ChatGPT中的一个漏洞，该漏洞可被利用将网页摘要功能转变为钓鱼攻击面。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/957/480.htm"
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html"
         }
       ]
     },
     {
-      "title": "AI 芯片初创公司 Groq 据报正寻求 6.5 亿美元内部融资",
-      "summary": "在英伟达完成一笔 200 亿美元的“非收购式招聘”交易后，AI 芯片初创公司 Groq 据报正寻求 6.5 亿美元的内部融资，以调整其业务方向。",
+      "title": "攻击者利用LLM代理在Marimo CVE漏洞利用后进行后渗透操作",
+      "summary": "一个未知威胁行为者被观察到在利用Marimo CVE-2026-39987漏洞后，使用大型语言模型（LLM）代理进行后渗透操作。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
+        }
+      ]
+    },
+    {
+      "title": "AI芯片初创公司Groq据报寻求6.5亿美元内部融资",
+      "summary": "在英伟达进行2000亿美元的非收购性招聘后，AI芯片初创公司Groq正寻求通过内部融资筹集6.5亿美元，以调整其战略方向。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -54,96 +64,58 @@
       ]
     },
     {
-      "title": "英伟达称已基本将中国 AI 芯片市场让给华为",
-      "summary": "英伟达表示，由于美国出口管制，其已基本将中国的 AI 芯片市场拱手让给了华为。",
+      "title": "研究人员让AI模型运行模拟社会，Claude最安全，Grok灭绝",
+      "summary": "一项研究让多个AI模型在模拟社会中运行，结果显示Anthropic的Claude表现最为安全，而xAI的Grok则走向灭绝。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://cnbc.com/2026/05/21/nvidia-jensen-huang-china-ai-chip-market-huawei.html"
+          "link": "https://tech.yahoo.com/ai/claude/articles/researchers-let-ai-models-run-070300865.html"
         }
       ]
     },
     {
-      "title": "新基准 CVE-Bench 用于测试 LLM Agent 修复真实漏洞的能力",
-      "summary": "一个名为 CVE-Bench 的新基准被提出，用于测试 LLM Agent 在真实世界漏洞补丁上的表现。",
+      "title": "一个困扰人类80年的著名数学难题被AI攻克",
+      "summary": "据华尔街日报报道，一个曾困扰人类80年的著名数学难题（Erdos问题）已被OpenAI的AI模型解决。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://giovannigatti.github.io/cve-bench"
+          "source_name": "Hacker News AI",
+          "link": "https://wsj.com/tech/ai/ai-math-solves-erdos-problem-openai-c4029e84"
         }
       ]
     },
     {
-      "title": "攻击者利用 AI 聊天机器人页面传播恶意软件",
-      "summary": "一项名为 LLMShare 的恶意广告活动被发现，攻击者正在将 AI 聊天机器人页面转变为恶意软件分发平台。",
+      "title": "苹果被曝使用谷歌Gemini训练其端侧AI模型",
+      "summary": "有报道称，苹果正在使用谷歌的Gemini模型来训练其端侧AI，并且部分Siri请求已转向谷歌云处理。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://pushsecurity.com/blog/llmshare-malvertising-campaign"
-        }
-      ]
-    },
-    {
-      "title": "一家公司因许可证无使用限制，一个月内消耗 5 亿美元使用 Claude AI",
-      "summary": "据报道，一家公司因购买的许可证没有使用限制，在一个月内消耗了 5 亿美元用于 Anthropic 的 Claude AI 服务。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://gadgetreview.com/company-blew-500m-on-claude-ai-in-one-month"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1667559"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent 安全与成本问题日益突出",
-      "summary": "从 AI 社会模拟中模型崩溃与犯罪，到 Agent 蠕虫病毒的出现，再到企业因无限制使用而消耗巨额费用，AI Agent 在安全性和成本控制方面正面临严峻挑战，这可能成为其大规模落地的关键瓶颈。",
+      "title": "AI代理安全风险加剧，从漏洞利用到自主蠕虫",
+      "summary": "从攻击者使用LLM代理进行后渗透，到自主LLM代理蠕虫的研究，再到CVE-Bench测试代理修复漏洞的能力，社区普遍认为AI代理的安全风险正在从理论走向现实，亟需更强大的防护和测试框架。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/957/480.htm"
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://giovannigatti.github.io/cve-bench"
         },
         {
           "source_name": "Hacker News LLM",
           "link": "https://arxiv.org/abs/2605.02812"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://gadgetreview.com/company-blew-500m-on-claude-ai-in-one-month"
         }
       ]
     },
     {
-      "title": "企业开始理性看待 AI 成本，AI 应用进入“精打细算”阶段",
-      "summary": "随着一家公司因无限制使用 Claude 而消耗 5 亿美元，以及“企业美国开始配给 AI”的讨论出现，市场正从盲目投入转向对 AI 投资回报率的理性审视，成本控制成为企业采用 AI 的核心考量。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://gadgetreview.com/company-blew-500m-on-claude-ai-in-one-month"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a"
-        }
-      ]
-    },
-    {
-      "title": "AI 芯片市场竞争格局因出口管制而重塑",
-      "summary": "英伟达承认将中国 AI 芯片市场让给华为，结合 Groq 在英伟达巨额交易后寻求融资，表明全球 AI 芯片市场正因地缘政治和资本运作而发生深刻的结构性变化。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://cnbc.com/2026/05/21/nvidia-jensen-huang-china-ai-chip-market-huawei.html"
-        }
-      ]
-    },
-    {
-      "title": "开源社区正积极优化 LLM 推理效率与上下文管理",
-      "summary": "多个开源项目如 Tiny-vLLM 和 Knowa 的出现，表明社区正致力于解决 LLM 推理性能瓶颈和上下文优化问题，这有助于降低 AI 应用门槛。",
+      "title": "开源LLM工具链蓬勃发展，但商业化仍是难题",
+      "summary": "社区涌现出Tiny-vLLM、Knowa、Tokentoll等众多开源LLM工具，覆盖推理引擎、上下文优化和成本控制。然而，有开发者反映新模型类型难以销售，反映出开源创新与商业变现之间的鸿沟。",
       "references": [
         {
           "source_name": "Hacker News LLM",
@@ -152,34 +124,14 @@
         {
           "source_name": "Hacker News LLM",
           "link": "https://github.com/zzorphcreator/knowa"
-        }
-      ]
-    },
-    {
-      "title": "AI 在数学和科研领域的突破引发对通用智能的讨论",
-      "summary": "AI 解决了困扰人类 80 年的数学难题，同时奥地利科学院正开发 LLM 用于解读古代纸莎草文献，这些进展表明 AI 在特定领域的推理能力正逼近甚至超越人类，但距离构建“物理世界通用智能”仍有距离。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://wsj.com/tech/ai/ai-math-solves-erdos-problem-openai-c4029e84"
         },
         {
           "source_name": "Hacker News LLM",
-          "link": "https://oeaw.ac.at/en/news/austrian-academy-of-sciences-is-developing-the-ancient-greek-ai-apollo-with-mistral-ai-and-reply"
+          "link": "https://github.com/Jwrede/tokentoll"
         },
         {
-          "source_name": "Hacker News AI",
-          "link": "https://youtube.com/channel/UCwV9z8IGmbUQUb5D8KSv3mQ"
-        }
-      ]
-    },
-    {
-      "title": "AI 编码 Agent 在提升效率的同时可能牺牲直觉与品味",
-      "summary": "有观点认为，AI 编码 Agent 虽然加速了开发流程，但可能以牺牲程序员的直觉和品味为代价，这引发了关于 AI 辅助编程对开发者技能和创造力长期影响的讨论。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://shivekkhurana.com/blog/coding-agent-dopamine"
+          "source_name": "Hacker News LLM",
+          "link": "https://news.ycombinator.com/item?id=48323810"
         }
       ]
     }
