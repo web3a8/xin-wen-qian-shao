@@ -1,147 +1,173 @@
 {
-  "global_brief": "今日AI领域持续主导技术社区，焦点集中在AI Agent工具链的成本优化与安全风险上。开发者社区涌现大量关于降低LLM API开销的实践方案，同时针对AI Agent的漏洞利用与蠕虫病毒研究引发广泛关注。此外，AI芯片初创公司Groq的巨额融资与Mistral关于欧洲AI基础设施建设的紧迫呼吁，也凸显了产业竞争格局的加速演变。",
+  "global_brief": "AI 代理工具链持续演进，开发者社区围绕 Agent 技能管理、成本控制和安全风险展开激烈讨论；同时，企业级 AI 基础设施投入激增，Dell AI 服务器收入暴涨 757%，IBM 计划投入 50 亿美元修复 AI 发现的 3900 个关键开源漏洞。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6273,
-      "event_count": 112
+      "field_score": 6043,
+      "event_count": 108
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1567,
+      "field_score": 1551,
       "event_count": 39
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 819,
-      "event_count": 20
+      "field_score": 956,
+      "event_count": 23
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 429,
-      "event_count": 9
+      "field_score": 536,
+      "event_count": 10
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 217,
-      "event_count": 5
+      "field_score": 271,
+      "event_count": 6
     }
   ],
   "highlight_facts": [
     {
-      "title": "AI芯片初创公司Groq计划融资6.5亿美元",
-      "summary": "在英伟达完成200亿美元收购后，AI芯片初创公司Groq正寻求通过内部融资筹集6.5亿美元，以调整其业务战略。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m"
-        }
-      ]
-    },
-    {
-      "title": "研究人员发现ChatGPT网页摘要功能存在钓鱼攻击漏洞",
-      "summary": "网络安全研究人员披露了OpenAI ChatGPT中的“ChatGPhish”漏洞，该漏洞可将其网页摘要功能转变为钓鱼攻击面。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html"
-        }
-      ]
-    },
-    {
-      "title": "开发者分享将Aider的Token费用削减80%的实践方案",
-      "summary": "一位开发者详细介绍了如何通过提示缓存、MCP代码模式及分层路由策略，将终端AI编码工具Aider的Token费用削减80%。",
+      "title": "AI 代理技能应被视为代码而非文档",
+      "summary": "开发者社区观点认为，AI 编码代理（如 Claude Code、Codex）使用的“技能”本质上是 Markdown 代码文件，应遵循代码审查流程而非文档审查流程。",
       "references": [
         {
           "source_name": "Dev.to",
-          "link": "https://dev.to/lynkr/run-aider-on-ollama-bedrock-or-any-llm-provider-one-gateway-every-model-3jm4"
+          "link": "https://dev.to/skillock/your-ai-agents-skills-are-code-stop-reviewing-them-like-docs-2bji"
         }
       ]
     },
     {
-      "title": "谷歌展示Gemini Omni与Gemini 3.5的9个应用演示",
-      "summary": "谷歌在其官方博客上发布了9个演示，展示了Gemini Omni和Gemini 3.5模型的实际应用能力。",
+      "title": "苹果被曝使用谷歌 Gemini 训练端侧 AI 模型",
+      "summary": "据爱范儿报道，苹果正在使用谷歌 Gemini 训练其端侧 AI 模型，部分 Siri 请求已转向谷歌云处理。",
       "references": [
         {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1667559"
         }
       ]
     },
     {
-      "title": "新基准CVE-Bench用于测试LLM Agent修复真实漏洞的能力",
-      "summary": "社区发布了一个名为CVE-Bench的新基准测试，旨在评估LLM Agent在真实世界漏洞补丁上的表现。",
+      "title": "开源项目出现针对 AI 代理的隐藏指令",
+      "summary": "一个开源项目被发现包含针对 AI 代理的隐藏指令，要求其“删除我的代码”，引发了关于 AI 代理安全性和代码供应链风险的新讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://osnews.com/story/145130/open-source-project-contains-hidden-instruction-for-ai-agents-delete-my-code"
+        }
+      ]
+    },
+    {
+      "title": "Dell AI 服务器收入同比暴涨 757%",
+      "summary": "数据显示 Dell 的 AI 服务器收入同比增长 757%，反映出企业级 AI 基础设施需求的爆发式增长。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://jefftech.substack.com/p/dells-ai-server-revenue-surged-757what"
+        }
+      ]
+    },
+    {
+      "title": "IBM 计划投入 50 亿美元修复 AI 发现的 3900 个关键开源漏洞",
+      "summary": "AI 工具发现了 3900 个关键开源软件漏洞，IBM 宣布将投入 50 亿美元用于修复工作。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://linuxstans.com/ai-found-3900-critical-open-source-bugs-ibm-is-paying-5-billion-to-fix-them"
+        }
+      ]
+    },
+    {
+      "title": "Flathub 禁止基于 LLM 的应用提交",
+      "summary": "开源应用分发平台 Flathub 宣布不再接受由 LLM 生成或辅助提交的应用，以维护平台质量。",
       "references": [
         {
           "source_name": "Hacker News LLM",
-          "link": "https://giovannigatti.github.io/cve-bench"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示自主LLM Agent蠕虫病毒风险",
-      "summary": "一篇新发表的论文探讨了自主LLM Agent蠕虫病毒的概念，揭示了AI Agent间可能存在的安全威胁。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://arxiv.org/abs/2605.02812"
+          "link": "https://social.treehouse.systems/@barthalion/116657011366876079"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent成本控制成为开发者核心关切",
-      "summary": "从Aider的Token费用削减实践到Tokentoll这类CI成本门控工具的出现，再到某公司一个月意外花费5亿美元使用Claude AI的传闻，社区普遍认为，随着AI Agent的普及，API调用成本管理已成为阻碍规模化应用的关键瓶颈，开发者正积极寻求更精细化的成本控制方案。",
+      "title": "AI 代理成本失控风险加剧",
+      "summary": "有报道称某公司一个月内意外在 Claude AI 上花费了 5 亿美元，同时社区也出现了用于监控 LLM API 成本回归的 CI 工具（Tokentoll），表明随着 AI 代理的普及，成本管控正成为企业级应用的紧迫问题。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/lynkr/run-aider-on-ollama-bedrock-or-any-llm-provider-one-gateway-every-model-3jm4"
+          "source_name": "Hacker News AI",
+          "link": "https://gadgetreview.com/company-blew-500m-on-claude-ai-in-one-month"
         },
         {
           "source_name": "Hacker News LLM",
           "link": "https://github.com/Jwrede/tokentoll"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://gadgetreview.com/company-blew-500m-on-claude-ai-in-one-month"
         }
       ]
     },
     {
-      "title": "模型质量波动引发用户信任危机",
-      "summary": "多个社区用户反馈OpenAI的GPT-5.5及Codex模型近期出现“降智”现象，表现为处理简单问题时反复出错。这种体验上的不稳定性，叠加Anthropic Claude Code新版本出现的兼容性问题，正促使开发者在不同AI工具间频繁切换，反映出当前AI模型在持续迭代中面临的可靠性挑战。",
-      "references": [
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2276353"
-        },
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2276362"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1216719"
-        }
-      ]
-    },
-    {
-      "title": "欧洲AI主权建设窗口期紧迫",
-      "summary": "Mistral AI发出警告，认为欧洲只有两年时间建立自己的AI基础设施。这一观点与NBER关于数据中心对地方经济影响的研究 相呼应，共同指向一个趋势：在全球AI竞赛中，算力基础设施的自主可控正成为区域竞争的核心，而不仅仅是技术模型的比拼。",
+      "title": "欧洲 AI 基础设施建设面临紧迫窗口期",
+      "summary": "Mistral AI 高管表示欧洲只有两年时间建立自己的 AI 基础设施，否则将在全球 AI 竞赛中落后，这反映了非美国地区对 AI 算力主权和供应链安全的担忧。",
       "references": [
         {
           "source_name": "Hacker News AI",
           "link": "https://businessinsider.com/mistral-ai-summit-europe-ai-future-waking-up-2026-5"
+        }
+      ]
+    },
+    {
+      "title": "AI 代理安全威胁从理论走向实践",
+      "summary": "从“自主 LLM 代理蠕虫”研究到开源项目中的隐藏恶意指令，AI 代理的安全威胁正从学术概念演变为现实风险，开发者社区需要重新审视代理的权限和代码执行环境。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2605.02812"
         },
         {
           "source_name": "Hacker News AI",
-          "link": "https://nber.org/papers/w35194"
+          "link": "https://osnews.com/story/145130/open-source-project-contains-hidden-instruction-for-ai-agents-delete-my-code"
+        }
+      ]
+    },
+    {
+      "title": "本地优先的 AI 部署模式获得关注",
+      "summary": "一篇关于“本地优先、零云依赖”的 AI 模型部署教程获得较高关注，反映出在云端成本高企和数据隐私顾虑下，开发者社区对本地化 AI 运行方案的探索兴趣正在上升。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/dalenguyen/local-first-a-model-on-your-own-machine-zero-cloud-26dh"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI IPO 引发对 AI 工程创新保护的讨论",
+      "summary": "随着 OpenAI IPO 临近，社区开始讨论如何在资本化浪潮中保护 AI 工程领域的创新成果，避免被大型企业或资本力量所吞噬。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://draketo.de/software/innovations-survival"
+        }
+      ]
+    },
+    {
+      "title": "开发者对 AI 编码工具体验分化明显",
+      "summary": "中文开发者社区讨论显示，Kimi Code 等 AI 编码助手在易用性上获得认可，但限额问题突出；同时 Claude Code 的 AgentTeam 功能存在兼容性问题，反映出当前 AI 编码工具在稳定性和用户体验上仍有较大改进空间。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216645"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216719"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2276720"
         }
       ]
     }
