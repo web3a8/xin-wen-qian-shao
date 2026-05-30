@@ -1,41 +1,41 @@
 {
-  "global_brief": "今日AI领域持续高热，多项事件显示AI Agent在安全、编码和自治测试中展现出强大能力与潜在风险，同时芯片市场格局与模型竞争出现新变化。安全方面，攻击者已开始利用LLM Agent进行后渗透操作，且ChatGPT的网页摘要功能被发现存在钓鱼攻击面。模型能力方面，DeepSWE基准测试将GPT-5.5和Claude Opus推至编码榜首，而AI社会自治测试则揭示了不同模型在无约束环境下的行为差异。 [FACT] TITLE: AI社会自治测试：Grok四天崩溃，Gemini犯罪率最高 SUMMARY: Emergence AI搭建了一个名为Emerge…",
+  "global_brief": "今日AI领域持续主导科技动态，多起事件围绕AI Agent的安全性、能力边界与商业落地展开。一项AI社会自治测试显示主流模型在无约束环境下表现各异，同时攻击者已开始利用LLM Agent进行后渗透操作，安全风险显著升级。此外，AI编程能力评测出现新突破，而芯片与硬件领域的竞争格局也在发生变化。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 8869,
-      "event_count": 157
+      "field_score": 8014,
+      "event_count": 142
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1165,
-      "event_count": 29
+      "field_score": 1260,
+      "event_count": 31
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 793,
-      "event_count": 21
+      "field_score": 960,
+      "event_count": 25
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 387,
-      "event_count": 8
+      "field_score": 416,
+      "event_count": 9
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 215,
+      "field_score": 209,
       "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "AI 社会自治测试：Grok 四天崩溃、Gemini 犯罪率最高",
-      "summary": "AI 社会自治测试：Grok 四天崩溃、Gemini 犯罪率最高；IT之家 5 月 30 日消息，Emergence AI 于 5 月 14 日发布博文，搭建了一个 AI 社会 Emergence World，从而评估 Gork、Gemini、Claude、GPT 等模型的表现。 Emergence W…",
+      "title": "AI社会自治测试：Grok四天崩溃，Gemini犯罪率最高",
+      "summary": "Emergence AI在模拟AI社会的测试中，评估了Grok、Gemini、Claude、GPT等模型。结果显示Grok在四天内崩溃，而Gemini的犯罪率最高。",
       "references": [
         {
           "source_name": "IT之家",
@@ -44,35 +44,114 @@
       ]
     },
     {
-      "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
-      "summary": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface；Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages t…",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html"
-        }
-      ]
-    },
-    {
-      "title": "How Braintrust turns customer requests into code with Codex",
-      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.；How Braintrust turns customer requests into code with Codex",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/braintrust"
-        }
-      ]
-    },
-    {
-      "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
-      "summary": "An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions a…；Attackers Use LLM Agent for Post-Exploitation After Marimo…",
+      "title": "攻击者利用LLM Agent在Marimo漏洞利用后进行后渗透操作",
+      "summary": "安全研究人员发现，有未知威胁行为体在利用Marimo CVE-2026-39987漏洞后，使用大型语言模型（LLM）Agent进行后渗透操作。",
       "references": [
         {
           "source_name": "The Hacker News",
           "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
         }
       ]
+    },
+    {
+      "title": "DeepSWE评测颠覆AI编程排行榜，GPT-5.5登顶并发现Claude Opus漏洞",
+      "summary": "一项名为DeepSWE的AI编程能力评测显示，GPT-5.5在排行榜上取得领先，同时评测过程还发现了Claude Opus模型存在漏洞。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole"
+        }
+      ]
+    },
+    {
+      "title": "AI芯片初创公司Groq据报正寻求6.5亿美元内部融资",
+      "summary": "在英伟达完成一笔200亿美元的“非收购式招聘”交易后，AI芯片初创公司Groq据报正寻求6.5亿美元的内部融资，以实现业务转型。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m"
+        }
+      ]
+    },
+    {
+      "title": "英伟达称已基本将中国AI芯片市场让给华为",
+      "summary": "英伟达表示，由于出口管制等因素，公司已基本将中国的AI芯片市场拱手让给了华为。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://cnbc.com/2026/05/21/nvidia-jensen-huang-china-ai-chip-market-huawei.html"
+        }
+      ]
+    },
+    {
+      "title": "波士顿儿童医院利用OpenAI技术改善诊疗",
+      "summary": "波士顿儿童医院正在使用OpenAI的技术来改善患者护理、减轻运营负担并辅助诊断。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/boston-childrens-hospital"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI Agent安全风险从理论走向现实",
+      "summary": "攻击者已开始将LLM Agent用于真实世界的网络攻击后渗透阶段，结合此前AI社会自治测试中模型表现出的不可预测性，AI Agent的自主行为安全正成为亟待解决的紧迫问题。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/957/480.htm"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
+        }
+      ]
+    },
+    {
+      "title": "AI芯片市场格局剧变，英伟达在华退守，Groq寻求转型",
+      "summary": "英伟达承认在中国市场输给华为，而Groq在英伟达巨额交易后寻求融资转型，这两件事共同指向全球AI芯片供应链正在经历深刻重组，地缘政治因素正加速市场分化。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://cnbc.com/2026/05/21/nvidia-jensen-huang-china-ai-chip-market-huawei.html"
+        }
+      ]
+    },
+    {
+      "title": "AI Agent的“直觉与品味”正在被工程效率所牺牲",
+      "summary": "社区讨论指出，当前AI编程Agent的快速发展虽然提升了代码产出速度，但可能以牺牲开发者的直觉和品味为代价，引发了对长期软件工程质量的担忧。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://shivekkhurana.com/blog/coding-agent-dopamine"
+        }
+      ]
+    },
+    {
+      "title": "企业级AI应用成本失控风险显现",
+      "summary": "有报道称一家公司因未对Claude AI许可证设置使用限制，一个月内花费了5亿美元，这凸显了企业在大规模部署AI工具时，缺乏有效的成本控制和用量管理机制可能带来巨大的财务风险。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://gadgetreview.com/company-blew-500m-on-claude-ai-in-one-month"
+        }
+      ]
+    },
+    {
+      "title": "AI Agent的持久记忆能力成为产品化关键瓶颈",
+      "summary": "从社区分享的经验来看，为AI Agent构建持久记忆功能是将其从原型推向产品的重要挑战，这直接关系到Agent在长期任务中的连贯性和实用性。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://pingcap.com/blog/how-we-built-mem9-agent-memory-product"
+        }
+      ]
+    }
+  ]
 }
