@@ -1,29 +1,29 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：The AI Agent Ecosystem in PHP - From Simple OpenAI Calls to Multi-Agent Platforms；How to configure Claude Code (and Cursor) so it stops ignoring your conventions；Best use of Gemini in everyday life.。",
+  "global_brief": "GitHub Copilot 新增对 Anthropic Claude Opus 4.8 的支持，同时 OpenAI 与 Anthropic 的上市预期正推动亚洲投资者调整资本布局。社区侧则涌现大量针对 AI 编码代理的优化工具，并围绕 LLM 生成代码的安全性与 AI 对齐问题展开讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5911,
-      "event_count": 107
+      "field_score": 5897,
+      "event_count": 106
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1682,
-      "event_count": 42
+      "field_score": 1595,
+      "event_count": 40
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 639,
-      "event_count": 15
+      "field_score": 739,
+      "event_count": 18
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 522,
-      "event_count": 11
+      "field_score": 711,
+      "event_count": 16
     },
     {
       "field_key": "finance",
@@ -34,30 +34,120 @@
   ],
   "highlight_facts": [
     {
-      "title": "The AI Agent Ecosystem in PHP - From Simple OpenAI Calls to Multi-Agent Platforms",
-      "summary": "Over the last two years, an entire industry has emerged around AI development within the PHP ecosystem. Where integrati…；The AI Agent Ecosystem in PHP - From Simple OpenAI Calls to Multi-Agent Platforms",
-      "references": []
+      "title": "GitHub Copilot 新增 Claude Opus 4.8 模型支持",
+      "summary": "GitHub Copilot 的默认模型目录中新增了 Anthropic 的 Claude Opus 4.8 模型。",
+      "references": [
+        {
+          "source_name": "OpenClaw Commits",
+          "link": "https://github.com/openclaw/openclaw/commit/fbb776d92c296f8f93cda4c346bc51c783fb4969"
+        }
+      ]
     },
     {
-      "title": "How to configure Claude Code (and Cursor) so it stops ignoring your conventions",
-      "summary": "How to configure Claude Code (and Cursor) so it stops ignoring your conventions；Most developers install Claude Code or Cursor, try a few prompts, and walk away unimpressed. The agent edits the wrong…",
-      "references": []
+      "title": "OpenAI 与 Anthropic 上市预期重塑亚洲投资逻辑",
+      "summary": "市场预期 SpaceX、OpenAI 和 Anthropic 即将上市，亚洲投资者正从“卖芯片”转向“买瓶颈”，押注新一轮资本开支带来的硬件供应链机会。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3773518"
+        }
+      ]
     },
     {
-      "title": "Best use of Gemini in everyday life.",
-      "summary": "Best use of Gemini in everyday life.；Google's Agentic Leap: How Gemini Turned Workspace Into Your Autonomous Executive Assistant Ashwin Mehta Ashwin Mehta A…",
-      "references": []
+      "title": "开源项目维护者可免费领取 ChatGPT Pro",
+      "summary": "OpenAI 推出面向开源项目维护者的免费 6 个月 ChatGPT Pro 计划，价值 1200 美元，无硬性 Star 数要求。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216792"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2281126"
+        }
+      ]
     },
     {
-      "title": "SpaceX、OpenAI上市在即，亚洲投资者“卖芯片，买瓶颈”，押注“新一轮资本开支”",
-      "summary": "SpaceX、OpenAI上市在即，亚洲投资者“卖芯片，买瓶颈”，押注“新一轮资本开支”；SpaceX、OpenAI和Anthropic上市计划，正在重塑投资者对亚洲科技股的布局逻辑。 市场人士普遍预期，这三家公司融资所带来的新一轮资本开支浪潮，将为亚洲硬件供应链提供强劲催化剂，推动 AI主题交易从头部芯片股向更广泛的电子元件…",
-      "references": []
+      "title": "社区呼吁移除 LLM 生成的 Git 提交",
+      "summary": "有开发者针对 Rsync 项目提出 issue，要求移除所有 LLM 生成的提交，认为此类代码可能带来风险。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/RsyncProject/rsync/issues/934"
+        }
+      ]
     },
     {
-      "title": "Show HN: seed. – self-modifying webpage, on-device LLM, site in the URL",
-      "summary": "Article URL: https://oxedom.github.io/seed/ Comments URL: https://news.ycombinator.com/item?id=48344326 Points: 2 # Com…；Show HN: seed. – self-modifying webpage, on-device LLM, site in the URL",
-      "references": []
+      "title": "QEMU 放宽对 AI 生成贡献的政策",
+      "summary": "QEMU 项目宣布放宽对 AI 生成代码贡献的政策，标志着大型开源项目对 AI 辅助开发态度的转变。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://lists.nongnu.org/archive/html/qemu-devel/2026-05/msg07614.html"
+        }
+      ]
+    },
+    {
+      "title": "大赦国际报告揭露生成式 AI 的人权成本",
+      "summary": "大赦国际发布报告，指出生成式 AI 在设计上存在侵犯人权的风险。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://amnesty.org/en/documents/pol40/0996/2026/en"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 编码代理工具生态快速成熟，但碎片化问题凸显",
+      "summary": "社区涌现出 Agentpack 、Thaw 等旨在解决 AI 代理配置隔离、分支管理等痛点的工具，反映出当前 AI 编码代理工具虽多，但缺乏统一标准，开发者正积极构建中间层来提升效率。",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://nexo.sh/posts/agentpack"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216782"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/thaw-ai/thaw"
+        }
+      ]
+    },
+    {
+      "title": "消费级显卡运行推理框架仍存挑战，社区探索替代方案",
+      "summary": "有用户反馈在 16G AMD 显卡上，vLLM 和 SGLang 等推理框架表现不如直接使用 Transformers 库，且易爆显存。同时，有项目尝试使用 768GB Intel Optane 内存配合单 GPU 运行万亿参数模型，表明社区正从硬件和软件两个方向探索低成本推理方案。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216752"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/enthusiast-runs-1-trillion-parameter-llm-from-768gb-of-intel-optane-dimm-memory-sticks-local-kimi-k2-5-install-achieved-roughly-4-tokens-per-second"
+        }
+      ]
+    },
+    {
+      "title": "AI 安全与对齐讨论升温，从技术实现转向社会与哲学层面",
+      "summary": "除了对 LLM 生成代码安全性的担忧，社区还出现了关于“AI 对齐遗忘的合规性” 以及“AI 导致人类能动性危机” 的深度讨论，表明业界对 AI 风险的关注已从技术漏洞扩展到更广泛的社会影响。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/RsyncProject/rsync/issues/934"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://innerkore.com/blog/civilization-knows-compliance-ai-alignment-forgotten"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://theatlantic.com/technology/2026/05/ai-agents-agency-crisis-humanity/687379"
+        }
+      ]
+    }
+  ]
 }
