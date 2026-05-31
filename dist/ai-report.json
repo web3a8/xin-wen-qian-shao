@@ -1,51 +1,41 @@
 {
-  "global_brief": "AI领域竞争白热化，微软计划在下周Build大会发布自研编程模型以反击Cursor和Claude对Copilot的蚕食，同时社区涌现大量AI Agent安全与效率工具，包括OWASP Agent Memory Guard 和Thaw 等。此外，有神秘公司一个月内意外在Claude AI上花费5亿美元，引发对AI成本管控的广泛讨论。",
+  "global_brief": "AI Agent 工具链与安全防护成为社区焦点，多个开源项目试图降低开发门槛并防范记忆投毒风险；同时，大模型推理成本与消费级硬件适配问题引发广泛讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6393,
-      "event_count": 117
+      "field_score": 6154,
+      "event_count": 116
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1395,
-      "event_count": 35
+      "field_score": 1268,
+      "event_count": 32
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 636,
+      "field_score": 630,
       "event_count": 16
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 470,
-      "event_count": 9
+      "field_score": 493,
+      "event_count": 10
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 205,
-      "event_count": 5
+      "field_score": 170,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "微软下周将发自研编程模型，反击Cursor与Claude对Copilot的蚕食",
-      "summary": "微软计划在旧金山举办的年度Build开发者大会上发布多款自研AI模型，重点推出自研编程模型以提升GitHub Copilot的竞争力，应对来自Cursor和Claude的挑战。",
-      "references": [
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2277841"
-        }
-      ]
-    },
-    {
-      "title": "神秘公司一个月内意外在Claude AI上花费5亿美元",
-      "summary": "据Tom's Hardware报道，一家神秘公司在一个月内意外在Anthropic的Claude AI上花费了5亿美元，引发业界对AI成本失控的关注。",
+      "title": "神秘公司单月意外消耗 5 亿美元 Claude AI 费用",
+      "summary": "据 Tom's Hardware 报道，一家未具名公司因配置失误，在一个月内意外产生了约 5 亿美元的 Anthropic Claude AI 使用费用。",
       "references": [
         {
           "source_name": "Hacker News AI",
@@ -54,8 +44,8 @@
       ]
     },
     {
-      "title": "OWASP发布Agent Memory Guard工具，防止AI Agent记忆投毒",
-      "summary": "OWASP项目发布了Agent Memory Guard，旨在阻止AI Agent的记忆被恶意投毒，提升AI Agent的安全性。",
+      "title": "OWASP 发布 Agent Memory Guard 项目防范 AI Agent 记忆投毒",
+      "summary": "OWASP 社区在 Hacker News 上展示了 Agent Memory Guard 项目，旨在防止 AI Agent 的记忆被恶意数据污染。",
       "references": [
         {
           "source_name": "Hacker News AI",
@@ -64,90 +54,86 @@
       ]
     },
     {
-      "title": "Thaw工具发布：可为运行中的LLM创建分支，跳过预填充阶段",
-      "summary": "开发者发布了Thaw工具，允许用户为正在运行的LLM创建分支（类似Git分支），并跳过预填充阶段，旨在减少AI Agent探索时的资源浪费。",
+      "title": "社区发布生产级 AI Agent 标准及可安装的 Claude Code 技能",
+      "summary": "开发者 AlexDuchDev 在 GitHub 上发布了一套用于构建生产级 AI Agent 的标准，并附带可安装的 Claude Code 技能，旨在提升 Agent 的工程化水平。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/thaw-ai/thaw"
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/AlexDuchDev/agentic-product-standard"
         }
       ]
     },
     {
-      "title": "Claude与Gemini在四个安全领域表现持平，63%的AI代码跳过安全加固",
-      "summary": "一项分析显示，Claude和Gemini在四个安全领域的表现不相上下，但63%的AI生成代码跳过了安全加固步骤。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ofri-peretz/claude-vs-gemini-across-4-security-domains-a-dead-heat-and-the-hardening-63-of-ai-code-skips-mpp"
-        }
-      ]
-    },
-    {
-      "title": "消费级显卡运行vllm和sglang推理框架面临挑战",
-      "summary": "有用户反馈，在16G显存的AMD消费级显卡上，vllm和sglang推理框架运行不稳定，容易爆显存，性能甚至不如直接使用transformer库。",
+      "title": "消费级 AMD 显卡运行 vLLM 和 SGLang 推理框架遭遇性能瓶颈",
+      "summary": "有用户在 V2EX 反馈，在 16G AMD 显卡上使用 vLLM 和 SGLang 框架进行推理时，显存占用高且首字生成速度慢，体验不如直接使用 Transformers 库。",
       "references": [
         {
           "source_name": "V2EX 技术",
           "link": "https://v2ex.com/t/1216752"
         }
       ]
+    },
+    {
+      "title": "Dify 平台集成 MongoDB Atlas 与 Voyage AI 以简化 RAG 工作流",
+      "summary": "Dev.to 上的一篇文章介绍了如何将 MongoDB Atlas 和 Voyage AI 集成到 Dify 平台，旨在帮助开发者无需编写大量胶水代码即可构建 RAG 工作流和数据 Agent。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/mongodb/bringing-mongodb-atlas-and-voyage-ai-to-dify-build-rag-workflows-and-data-agents-without-heavy-1l22"
+        }
+      ]
+    },
+    {
+      "title": "开源项目 Thaw 实现运行中 LLM 的“分支”与预填充跳过",
+      "summary": "开发者展示了名为 Thaw 的工具，它允许用户像 Git 分支一样对正在运行的 LLM 进行分叉操作，并跳过预填充阶段，以减少 Agent 探索时的资源浪费。",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/thaw-ai/thaw"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent安全与效率成为社区焦点",
-      "summary": "从OWASP Agent Memory Guard到Thaw，再到关于LLM Agent蠕虫的研究，社区正密集关注AI Agent的安全防护和运行效率问题，表明AI Agent正从概念验证走向实际部署，相关基础设施和风险管控需求激增。",
+      "title": "AI Agent 工程化进入“标准与安全”阶段",
+      "summary": "从生产标准（Agentic Product Standard）到安全防护（OWASP Agent Memory Guard），再到工作流评估（HermesBench），社区正从单纯追求 Agent 能力转向构建可维护、可信赖的工程体系。",
       "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/AlexDuchDev/agentic-product-standard"
+        },
         {
           "source_name": "Hacker News AI",
           "link": "https://github.com/OWASP/www-project-agent-memory-guard"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/thaw-ai/thaw"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://arxiv.org/abs/2605.02812"
+          "source_name": "Hacker News AI",
+          "link": "https://verkyyi.github.io/hermesbench"
         }
       ]
     },
     {
-      "title": "AI成本失控风险凸显，企业需加强管控",
-      "summary": "神秘公司意外在Claude上花费5亿美元的事件，以及Tokentoll等成本监控工具的出现，共同指向一个趋势：随着AI应用深入，企业面临严重的成本失控风险。这要求企业不仅关注模型能力，更需建立完善的API成本监控和预算管理机制。",
+      "title": "大模型推理成本失控风险凸显",
+      "summary": "神秘公司单月消耗 5 亿美元 Claude 费用的案例，以及社区对消费级显卡运行推理框架的抱怨，共同指向一个现实：AI 应用的规模化部署正面临严峻的成本与硬件适配挑战。",
       "references": [
         {
           "source_name": "Hacker News AI",
           "link": "https://tomshardware.com/tech-industry/artificial-intelligence/mystery-company-accidentally-blew-usd500-million-on-claude-in-a-single-month-failed-to-put-usage-limit-on-licenses-for-employees"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Jwrede/tokentoll"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216752"
         }
       ]
     },
     {
-      "title": "AI生成代码的安全问题不容忽视",
-      "summary": "分析显示63%的AI代码跳过了安全加固，结合Flathub禁止基于LLM的提交，反映出业界对AI生成代码质量和安全性的普遍担忧。这提示开发者在使用AI辅助编码时，必须加强代码审查和安全测试，不能盲目信任AI输出。",
+      "title": "本地化与轻量化 AI 工具成为新趋势",
+      "summary": "从捆绑 Gemma 4 模型的 macOS 截图命名工具，到自托管的 Cursor Agent 服务（Lite-Harness），开发者正积极寻求将 AI 能力下沉到本地环境，以降低对云端 API 的依赖和成本。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ofri-peretz/claude-vs-gemini-across-4-security-domains-a-dead-heat-and-the-hardening-63-of-ai-code-skips-mpp"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://social.treehouse.systems/@barthalion/116657011366876079"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent互操作性和生态整合需求日益增长",
-      "summary": "社区出现了如Claude Code Proxy 和Lite-Harness 等工具，旨在让不同AI Agent和模型之间实现互通和自托管，这表明用户不再满足于单一封闭的AI工具生态，对跨平台、可自控的AI Agent工作流有强烈需求。",
-      "references": [
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/raine/claude-code-proxy"
+          "source_name": "Hacker News AI",
+          "link": "https://snapname.app/"
         },
         {
           "source_name": "Hacker News Show",
