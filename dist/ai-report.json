@@ -1,51 +1,41 @@
 {
-  "global_brief": "AI代理工具和基础设施成为今日最热领域，开源代理框架竞争加剧，同时多家顶级AI公司（OpenAI、Anthropic）的上市计划正重塑亚洲投资逻辑。社区侧涌现大量针对AI代理安全、成本控制和本地化部署的讨论与工具。 [FACT] TITLE: SpaceX、OpenAI上市在即，亚洲投资者“卖芯片，买瓶颈”，押注“新一轮资本开支” SUMMARY: SpaceX、OpenAI和Anthropic的上市计划正在改变亚洲投资者的布局逻辑，市场预期这三家公司融资带来的资本开支浪潮将为亚洲硬件供应链提供强劲催化剂。 SCORE: 62 ARTICLE_…",
+  "global_brief": "AI 领域持续主导技术社区讨论，Anthropic 的 Claude Agent SDK 引发广泛关注，同时 SpaceX 与 OpenAI 的上市预期正重塑亚洲投资者对科技股的布局逻辑。社区侧涌现大量围绕 AI Agent 管理、推理优化及安全性的新工具与讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6379,
-      "event_count": 116
+      "field_score": 5911,
+      "event_count": 106
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1497,
-      "event_count": 38
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 752,
-      "event_count": 15
+      "field_score": 1671,
+      "event_count": 42
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 637,
-      "event_count": 16
+      "field_score": 752,
+      "event_count": 18
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 585,
+      "event_count": 12
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 120,
+      "field_score": 132,
       "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "The Open-Source Agent War of 2026: Hermes Agent vs AutoGPT vs OpenAI Agents vs CrewAI",
-      "summary": "The Open-Source Agent War of 2026: Hermes Agent vs AutoGPT vs OpenAI Agents vs CrewAI；This is a submission for the Hermes Agent Challenge: Write About Hermes Agent The Open-Sourc…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/toyaab/the-open-source-agent-war-of-2026-hermes-agent-vs-autogpt-vs-openai-agents-vs-crewai-2kj6"
-        }
-      ]
-    },
-    {
-      "title": "SpaceX、OpenAI上市在即，亚洲投资者“卖芯片，买瓶颈”，押注“新一轮资本开支”",
-      "summary": "SpaceX、OpenAI上市在即，亚洲投资者“卖芯片，买瓶颈”，押注“新一轮资本开支”；SpaceX、OpenAI和Anthropic上市计划，正在重塑投资者对亚洲科技股的布局逻辑。 市场人士普遍预期，这三家公司融资所带来的新一轮资本开支浪潮，将为亚洲硬件供应链提供强劲催化剂，推动 AI主题交易从头部芯片股向更广泛的电子元件…",
+      "title": "SpaceX、OpenAI 上市在即，亚洲投资者调整布局",
+      "summary": "市场消息显示，SpaceX、OpenAI 和 Anthropic 的上市计划正在重塑亚洲投资者的科技股布局逻辑，市场普遍预期新一轮资本开支将为亚洲硬件供应链提供强劲催化剂。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
@@ -54,18 +44,60 @@
       ]
     },
     {
-      "title": "A standard for building production AI agents (+ installable Claude Code skills)",
-      "summary": "A standard for building production AI agents (+ installable Claude Code skills)；Article URL: https://github.com/AlexDuchDev/agentic-product-standard Comments URL: https://news.yco…",
+      "title": "Claude Agent SDK 引发社区热议",
+      "summary": "一篇关于使用 Claude Agent SDK 在 10 分钟内构建 AI 终端的教程在 Hacker News、LinuxDo 和 V2EX 等多个技术社区引发广泛讨论。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://github.com/AlexDuchDev/agentic-product-standard"
+          "link": "https://mager.co/blog/2026-03-14-claude-agent-sdk-tui"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2280047"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216782"
         }
       ]
     },
     {
-      "title": "Show HN: Egress WAF to limit AI agents and NPM malware based on mitmproxy",
-      "summary": "Article URL: https://github.com/esamattis/mitmwall Comments URL: https://news.ycombinator.com/item?id=48344357 Points:…；Show HN: Egress WAF to limit AI agents and NPM malware base…",
+      "title": "新型 AI Agent 可在推理时更新自身权重",
+      "summary": "一个名为 SIA 的开源 AI Agent 项目在 Hacker News 上展示，其特点是在推理时能够更新自身的框架和模型权重。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/hexo-ai/sia"
+        }
+      ]
+    },
+    {
+      "title": "开源项目维护者可免费领取 ChatGPT Pro",
+      "summary": "OpenAI 推出 Codex 计划，为开源项目维护者提供价值 1200 美元的 6 个月 ChatGPT Pro 订阅，该消息在 V2EX 和 LinuxDo 上引发讨论。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216792"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2279971"
+        }
+      ]
+    },
+    {
+      "title": "消费级显卡运行推理框架遭遇瓶颈",
+      "summary": "有用户在 V2EX 反馈，在 16G AMD 显卡上运行 vLLM 和 SGLang 等推理框架时遇到显存溢出和速度慢的问题，认为使用原生 Transformer 库反而更快。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216752"
+        }
+      ]
+    },
+    {
+      "title": "新工具旨在限制 AI Agent 与 NPM 恶意软件",
+      "summary": "一个基于 mitmproxy 的出口 WAF 工具在 Hacker News 上发布，旨在限制 AI Agent 和 NPM 恶意软件的对外通信。",
       "references": [
         {
           "source_name": "Hacker News AI",
@@ -74,5 +106,52 @@
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI Agent 生态正从“构建”转向“治理”",
+      "summary": "社区中涌现出多个针对 AI Agent 的管理、认证和出口控制工具（如 Agent Deck、Overslash、Egress WAF），这表明随着 Agent 数量激增，如何安全、高效地管理它们已成为核心痛点，而非仅仅是构建 Agent 本身。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/esamattis/mitmwall"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://overslash.com/"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://agentdeck.site/"
+        }
+      ]
+    },
+    {
+      "title": "硬件瓶颈与软件优化之争在本地推理领域加剧",
+      "summary": "用户反馈消费级显卡运行 vLLM 等框架效果不佳，而另一则消息显示通过 768GB Intel Optane 内存可实现单 GPU 运行 1T 参数模型，这反映出在硬件受限环境下，社区正积极探索内存、软件框架与推理效率之间的不同优化路径。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216752"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/enthusiast-runs-1-trillion-parameter-llm-from-768gb-of-intel-optane-dimm-memory-sticks-local-kimi-k2-5-install-achieved-roughly-4-tokens-per-second"
+        }
+      ]
+    },
+    {
+      "title": "AI 辅助开发对软件安全的影响引发关注",
+      "summary": "一篇关于 AI 辅助开发对软件安全影响的学术论文在 Hacker News 上被讨论，结合社区对 AI Agent 可能引发混乱的担忧，表明业界开始严肃审视 AI 生成代码带来的潜在安全风险。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://wired.com/story/how-ai-agents-plunged-tech-world-into-chaos"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://arxiv.org/abs/2603.15298"
+        }
+      ]
+    }
+  ]
 }
