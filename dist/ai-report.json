@@ -1,61 +1,61 @@
 {
-  "global_brief": "AI Agent 工具链与安全防护成为社区焦点，多个开源项目试图降低开发门槛并防范记忆投毒风险；同时，大模型推理成本与消费级硬件适配问题引发广泛讨论。",
+  "global_brief": "AI Agent 安全与基础设施工具密集发布，同时 SpaceX、OpenAI 等头部公司上市预期正重塑亚洲投资逻辑，社区对消费级显卡运行推理框架的体验争议持续。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6154,
-      "event_count": 116
+      "field_score": 5986,
+      "event_count": 111
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1268,
-      "event_count": 32
+      "field_score": 1310,
+      "event_count": 33
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 630,
-      "event_count": 16
+      "field_score": 759,
+      "event_count": 19
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 493,
-      "event_count": 10
+      "field_score": 691,
+      "event_count": 14
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 170,
+      "field_score": 168,
       "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "神秘公司单月意外消耗 5 亿美元 Claude AI 费用",
-      "summary": "据 Tom's Hardware 报道，一家未具名公司因配置失误，在一个月内意外产生了约 5 亿美元的 Anthropic Claude AI 使用费用。",
+      "title": "BoxAgnts Introduction (7) — OpenAI API and Anthropic API",
+      "summary": "BoxAgnts Introduction (7) — OpenAI API and Anthropic API；The 2025 AI model market is in full bloom. But each provider has its own API format, authentication method, and streami…",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/mystery-company-accidentally-blew-usd500-million-on-claude-in-a-single-month-failed-to-put-usage-limit-on-licenses-for-employees"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/guyoung/boxagnts-introduction-7-openai-api-and-anthropic-api-11o7"
         }
       ]
     },
     {
-      "title": "OWASP 发布 Agent Memory Guard 项目防范 AI Agent 记忆投毒",
-      "summary": "OWASP 社区在 Hacker News 上展示了 Agent Memory Guard 项目，旨在防止 AI Agent 的记忆被恶意数据污染。",
+      "title": "SpaceX、OpenAI上市在即，亚洲投资者“卖芯片，买瓶颈”，押注“新一轮资本开支”",
+      "summary": "SpaceX、OpenAI上市在即，亚洲投资者“卖芯片，买瓶颈”，押注“新一轮资本开支”；SpaceX、OpenAI和Anthropic上市计划，正在重塑投资者对亚洲科技股的布局逻辑。 市场人士普遍预期，这三家公司融资所带来的新一轮资本开支浪潮，将为亚洲硬件供应链提供强劲催化剂，推动 AI主题交易从头部芯片股向更广泛的电子元件…",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/OWASP/www-project-agent-memory-guard"
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3773518"
         }
       ]
     },
     {
-      "title": "社区发布生产级 AI Agent 标准及可安装的 Claude Code 技能",
-      "summary": "开发者 AlexDuchDev 在 GitHub 上发布了一套用于构建生产级 AI Agent 的标准，并附带可安装的 Claude Code 技能，旨在提升 Agent 的工程化水平。",
+      "title": "A standard for building production AI agents (+ installable Claude Code skills)",
+      "summary": "A standard for building production AI agents (+ installable Claude Code skills)；Article URL: https://github.com/AlexDuchDev/agentic-product-standard Comments URL: https://news.yco…",
       "references": [
         {
           "source_name": "Hacker News AI",
@@ -64,82 +64,15 @@
       ]
     },
     {
-      "title": "消费级 AMD 显卡运行 vLLM 和 SGLang 推理框架遭遇性能瓶颈",
-      "summary": "有用户在 V2EX 反馈，在 16G AMD 显卡上使用 vLLM 和 SGLang 框架进行推理时，显存占用高且首字生成速度慢，体验不如直接使用 Transformers 库。",
+      "title": "消费级显卡(16G A 卡)是不是不适合运行 vllm 和 sglang，好像使用 transformer 推理都比这两个框架快，并且占用显存低",
+      "summary": "如题，wsl 配 rocm 下，sglang 没跑起来，vllm 跑起来了，但是动不动爆显存，只有跑个 2b 的模型才比较稳定，而且推理首字速度体感感觉比纯用 transformer 还慢。 transformer 我试了可以成功跑个 9…；消费级显卡(16G A 卡)是不是不适合运行 vllm 和 sglang，好像使用 transformer 推理都比…",
       "references": [
         {
           "source_name": "V2EX 技术",
           "link": "https://v2ex.com/t/1216752"
-        }
-      ]
-    },
-    {
-      "title": "Dify 平台集成 MongoDB Atlas 与 Voyage AI 以简化 RAG 工作流",
-      "summary": "Dev.to 上的一篇文章介绍了如何将 MongoDB Atlas 和 Voyage AI 集成到 Dify 平台，旨在帮助开发者无需编写大量胶水代码即可构建 RAG 工作流和数据 Agent。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/mongodb/bringing-mongodb-atlas-and-voyage-ai-to-dify-build-rag-workflows-and-data-agents-without-heavy-1l22"
-        }
-      ]
-    },
-    {
-      "title": "开源项目 Thaw 实现运行中 LLM 的“分支”与预填充跳过",
-      "summary": "开发者展示了名为 Thaw 的工具，它允许用户像 Git 分支一样对正在运行的 LLM 进行分叉操作，并跳过预填充阶段，以减少 Agent 探索时的资源浪费。",
-      "references": [
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/thaw-ai/thaw"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI Agent 工程化进入“标准与安全”阶段",
-      "summary": "从生产标准（Agentic Product Standard）到安全防护（OWASP Agent Memory Guard），再到工作流评估（HermesBench），社区正从单纯追求 Agent 能力转向构建可维护、可信赖的工程体系。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/AlexDuchDev/agentic-product-standard"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/OWASP/www-project-agent-memory-guard"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://verkyyi.github.io/hermesbench"
-        }
-      ]
-    },
-    {
-      "title": "大模型推理成本失控风险凸显",
-      "summary": "神秘公司单月消耗 5 亿美元 Claude 费用的案例，以及社区对消费级显卡运行推理框架的抱怨，共同指向一个现实：AI 应用的规模化部署正面临严峻的成本与硬件适配挑战。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/mystery-company-accidentally-blew-usd500-million-on-claude-in-a-single-month-failed-to-put-usage-limit-on-licenses-for-employees"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1216752"
-        }
-      ]
-    },
-    {
-      "title": "本地化与轻量化 AI 工具成为新趋势",
-      "summary": "从捆绑 Gemma 4 模型的 macOS 截图命名工具，到自托管的 Cursor Agent 服务（Lite-Harness），开发者正积极寻求将 AI 能力下沉到本地环境，以降低对云端 API 的依赖和成本。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://snapname.app/"
-        },
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/LiteLLM-Labs/lite-harness"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
