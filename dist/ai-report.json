@@ -1,65 +1,203 @@
 {
-  "global_brief": "今日AI领域持续活跃，多篇研究聚焦于大语言模型（LLM）的推理效率、安全性与多语言能力，同时MiniMax发布旗舰模型M3，社区则高度关注AI Agent的安全与架构创新。",
+  "global_brief": "字节跳动发布扣子 Coze 3.0 平台，支持接入 Claude Code 等外部 Agent 工具，同时 MiniMax 发布旗舰模型 M3，聚焦编码、超长上下文与原生多模态能力。学术界围绕 LLM 推理效率、Agent 安全边界及多语言偏见等议题密集产出新成果。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48088,
-      "event_count": 786
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 971,
-      "event_count": 23
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 967,
-      "event_count": 24
+      "field_score": 47293,
+      "event_count": 794
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 967,
+      "field_score": 931,
       "event_count": 18
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 675,
-      "event_count": 14
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 894,
+      "event_count": 21
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 852,
+      "event_count": 21
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 471,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "MiniMax发布旗舰模型M3，具备前沿编码、超长上下文与原生多模态能力",
-      "summary": "MiniMax在启动科创板IPO辅导后，正式发布新一代旗舰模型M3。该模型据称是目前唯一能同时实现前沿Coding能力、1M超长上下文和原生多模态的开源模型。",
+      "title": "字节跳动发布扣子 Coze 3.0 平台，支持接入 Claude Code 等外部 Agent",
+      "summary": "字节跳动发布 AI 智能体平台扣子 Coze 3.0 版本，支持多人多 Agent 协作，并接入 Claude Code、Codex CLI 等外部平台。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/958/372.htm"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.28916"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1667606"
+        }
+      ]
+    },
+    {
+      "title": "MiniMax 发布新一代旗舰模型 M3，具备编码、超长上下文与原生多模态能力",
+      "summary": "MiniMax 在启动科创板 IPO 辅导后，发布新一代旗舰模型 M3，该模型同时具备前沿编码能力、1M 超长上下文和原生多模态能力。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3773560"
-        },
+        }
+      ]
+    },
+    {
+      "title": "新研究揭示 LLM 在批量推理中存在“内存受限”而非“带宽受限”的物理 AI 推理瓶颈",
+      "summary": "一项新研究指出，在批量-1 LLM 解码场景下，物理 AI 系统（如机器人、自动驾驶）的推理瓶颈主要来自内存限制，而非带宽限制。",
+      "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://news.ycombinator.com/item?id=48353426"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.30571"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic 的 Claude Mythos 模型被发现可发现 90 倍于 Opus 4.8 的 Firefox 漏洞",
+      "summary": "一项分析显示，Anthropic 的 Claude Mythos 模型在发现 Firefox 漏洞方面的效率是 Opus 4.8 的 90 倍，但分析仍建议用户继续使用 Opus 4.8。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/tokenmixai/claude-mythos-vs-opus-48-90x-more-firefox-exploits-but-stay-on-opus-anyway-3h1b"
+        }
+      ]
+    },
+    {
+      "title": "新研究对六种主流 LLM 进行跨语言性别偏见审计",
+      "summary": "一项跨语言审计研究对包括 Anthropic、DeepSeek、Google 和 OpenAI 在内的六种主流 LLM 的性别偏见进行了基准测试。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.30804"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA 发布 Cosmos 3，首个面向物理 AI 推理与行动的开放全模态模型",
+      "summary": "NVIDIA 宣布推出 Cosmos 3，称其为首个用于物理 AI 推理和行动的开放全模态模型。",
+      "references": [
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent安全成为社区焦点，从基准测试到实际攻击案例均引发关注",
-      "summary": "社区同时出现了针对AI Agent内存安全的基准测试（AgentThreatBench）和利用提示注入劫持Instagram账户的实际攻击案例，表明Agent安全已从理论探讨转向了工具化和现实威胁。",
+      "title": "Agent 安全与身份验证成为社区关注焦点",
+      "summary": "社区讨论显示，随着 AI Agent 的普及，其安全边界和身份验证问题日益突出，相关讨论涉及为 Agent 提供加密身份（如 Ed25519 和 DPoP）以及将后台 Agent 视为新的安全边界问题。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://github.com/OWASP/www-project-agent-memory-guard"
+          "link": "https://github.com/lujainkhalil/proveyouragent"
         },
         {
           "source_name": "Hacker News AI",
-          "link": "https://neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts"
+          "link": "https://originhq.com/research/background-c2-agent"
+        }
+      ]
+    },
+    {
+      "title": "LLM 推理效率优化呈现多路径探索趋势",
+      "summary": "近期多项研究从不同角度探索 LLM 推理效率，包括通过元认知调节提升医学推理密度、在线联合优化模型路由与测试时缩放、以及利用时空并行解码加速扩散 LLM，表明该领域正从单一维度向系统化、多策略协同方向发展。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2602.07905"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.30898"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.30753"
+        }
+      ]
+    },
+    {
+      "title": "LLM 在跨语言与多文化场景下的偏见与公平性问题引发持续关注",
+      "summary": "多项研究指出，LLM 在跨语言环境中存在性别偏见、英语主导本地知识叙事以及道德推理受语言影响等问题，表明模型在全球化部署中面临的文化与公平性挑战日益凸显。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.30804"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.30481"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.30934"
+        }
+      ]
+    },
+    {
+      "title": "Agent 工具链生态快速扩展，覆盖从代码到金融的多个领域",
+      "summary": "社区涌现出大量面向 Agent 的新工具，包括为 LLM Agent 设计的 JSON 优先 Git 层、用于金融电子表格的 Agent 基准测试、以及将 LLM Wiki 模式集成到笔记工作流中，显示 Agent 应用正从通用编程向垂直领域快速渗透。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/Alejandro-M-P/git-courer"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.30907"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/pssah4/vault-operator"
+        }
+      ]
+    },
+    {
+      "title": "LLM 在科学研究和专业领域应用加速，但验证与校准仍是难题",
+      "summary": "从材料科学、牙科影像到核反应堆控制，LLM 正被应用于高度专业化的科学领域，但同时涌现出关于 LLM 推理可验证性、不确定性校准以及事实核查能力的研究，表明在推动应用的同时，对模型可靠性的评估需求也在同步增长。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.29833"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.29299"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2512.23292"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.02380"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2508.08204"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2509.12440"
         }
       ]
     }
