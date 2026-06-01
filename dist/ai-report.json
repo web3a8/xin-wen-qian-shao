@@ -1,23 +1,23 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：字节跳动 AI 智能体平台扣子 Coze 3.0 版本上线，支持接入 Claude Code、Codex CLI 等平台；Anchoring LLM Gender Bias to Human Baselines: A Cross-Lingual Audit；Memory-Bound but Not Bandwidth-Limited: The Physical AI Inference Gap in Batch-1 LLM Decode。",
+  "global_brief": "Anthropic 已正式提交 IPO 申请，估值近万亿美元，成为 AI 领域迄今规模最大的公开募股事件之一。与此同时，英伟达在 Computex 2026 上发布 PC 端 CPU 芯片 RTX Spark，直接挑战英特尔和 AMD。AI 研究方面，多项新工作聚焦于 Agent 架构优化、推理效率提升以及模型偏见与安全性评估。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 47605,
-      "event_count": 827
+      "field_score": 46432,
+      "event_count": 809
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1165,
+      "field_score": 1149,
       "event_count": 28
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 919,
-      "event_count": 20
+      "field_score": 1015,
+      "event_count": 22
     },
     {
       "field_key": "world",
@@ -28,36 +28,72 @@
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 580,
+      "field_score": 588,
       "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "字节跳动 AI 智能体平台扣子 Coze 3.0 版本上线，支持接入 Claude Code、Codex CLI 等平台",
-      "summary": "IT之家 6 月 1 日消息，字节跳动前天发布 AI 智能体平台扣子 Coze 3.0 版本，支持多人多 Agent 协作、开箱即用，拥有多种专家技能。 IT之家从官方更新公告了解到，扣子 3.0 拥有全新 Agent 写作方式，可灵活组…；字节跳动 AI 智能体平台扣子 Coze 3.0 版本上线，支持接入 Claude Code、Codex CLI 等平台；arXiv:2605.28916v2 Announce Type: rep…",
-      "references": []
-    },
-    {
-      "title": "Anchoring LLM Gender Bias to Human Baselines: A Cross-Lingual Audit",
-      "summary": "Anchoring LLM Gender Bias to Human Baselines: A Cross-Lingual Audit；arXiv:2605.30804v1 Announce Type: new Abstract: We audit six large language models (LLMs) for gender stereotyping acros…",
-      "references": []
-    },
-    {
-      "title": "Memory-Bound but Not Bandwidth-Limited: The Physical AI Inference Gap in Batch-1 LLM Decode",
-      "summary": "arXiv:2605.30571v1 Announce Type: cross Abstract: Physical AI systems, including robots, autonomous vehicles, embodied…；Memory-Bound but Not Bandwidth-Limited: The Physical AI Inference Gap in Batch-1 LLM Decode",
-      "references": []
-    },
-    {
-      "title": "MedCoG: Maximizing LLM Inference Density in Medical Reasoning via Meta-Cognitive Regulation",
-      "summary": "arXiv:2602.07905v2 Announce Type: replace Abstract: Large Language Models (LLMs) have shown strong potential in complex…；MedCoG: Maximizing LLM Inference Density in Medical Reasoning via Meta-Cognitive Regulation",
-      "references": []
-    },
-    {
-      "title": "Pocket-Dentist: On-Device Dental Image Understanding via Efficient Multimodal Large Language Models",
-      "summary": "arXiv:2605.29299v2 Announce Type: replace-cross Abstract: Evaluations of dental vision-language models remain fragmente…；Pocket-Dentist: On-Device Dental Image Understanding via Efficient Multimodal Large Language Models",
-      "references": []
+      "title": "Anthropic 提交 IPO 申请，估值近万亿美元",
+      "summary": "Anthropic 已向美国证券交易委员会秘密提交 IPO 注册文件草案，力争最快于今年秋季登陆美股市场，估值接近万亿美元，有望成为 AI 领域迄今规模最大的公开募股。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/anthropic-files-s1-ipo-sec"
+        },
+        {
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3112564"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3773599"
+        },
+        {
+          "source_name": "Readhub 热门",
+          "link": "https://readhub.cn/topic/8tc6KFKmOK9"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI Agent 成本与效率成为社区核心关注点",
+      "summary": "多个社区讨论 显示，开发者正面临 AI Agent（如 Claude Code）高昂的 token 消耗和成本问题，同时也在探索新的 Agent 架构（如 botcircuits-agent）和上下文压缩工具（如 Headroom）来优化 token 使用和降低偏差。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1217117"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/botcircuits-ai/botcircuits-agent"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1216987"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2287983"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/rivoli-ai/andy-tui2"
+        },
+        {
+          "source_name": "V2EX 最热",
+          "link": "https://v2ex.com/t/1216881"
+        }
+      ]
+    }
+  ]
 }
