@@ -1,11 +1,23 @@
 {
-  "global_brief": "字节跳动发布扣子Coze 3.0平台，支持接入Claude Code等外部工具，同时MiniMax发布旗舰模型M3，聚焦编码、长上下文与多模态能力，AI Agent与开源模型竞争持续升温。此外，OpenAI Codex认证令牌在npm供应链攻击中被窃，凸显AI开发生态安全风险。",
+  "global_brief": "字节跳动发布扣子 Coze 3.0 智能体平台，支持接入 Claude Code 等外部工具，同时多篇研究聚焦 LLM 推理效率与 Agent 架构优化，社区讨论热度集中在 Agent 工具链与 token 成本控制上。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 47132,
-      "event_count": 789
+      "field_score": 49290,
+      "event_count": 835
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1215,
+      "event_count": 29
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 993,
+      "event_count": 22
     },
     {
       "field_key": "world",
@@ -14,28 +26,16 @@
       "event_count": 19
     },
     {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 947,
-      "event_count": 23
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 894,
-      "event_count": 20
-    },
-    {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 483,
-      "event_count": 11
+      "field_score": 715,
+      "event_count": 16
     }
   ],
   "highlight_facts": [
     {
-      "title": "字节跳动发布扣子Coze 3.0，支持接入Claude Code与Codex CLI",
-      "summary": "字节跳动发布AI智能体平台扣子Coze 3.0版本，支持多人多Agent协作，并接入Anthropic的Claude Code和OpenAI的Codex CLI等外部平台。",
+      "title": "字节跳动发布扣子 Coze 3.0 智能体平台",
+      "summary": "字节跳动发布 AI 智能体平台扣子 Coze 3.0，支持多人多 Agent 协作，并可接入 Claude Code、Codex CLI 等外部平台。",
       "references": [
         {
           "source_name": "IT之家",
@@ -52,18 +52,8 @@
       ]
     },
     {
-      "title": "MiniMax发布新旗舰模型M3，聚焦编码、长上下文与多模态",
-      "summary": "MiniMax在启动科创板IPO辅导后，发布新一代旗舰模型M3，该模型同时具备前沿编码能力、1M超长上下文和原生多模态能力，并称其为目前唯一能同时做到这三点的开源模型。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3773560"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI Codex认证令牌在npm供应链攻击中被窃取",
-      "summary": "网络安全研究人员披露，一场针对开发者的恶意供应链攻击窃取了OpenAI Codex的认证令牌，攻击涉及名为codexui-android的npm包。",
+      "title": "OpenAI Codex 认证令牌在 npm 供应链攻击中被窃取",
+      "summary": "安全研究人员披露了一起针对开发者的恶意供应链攻击，攻击者通过 npm 包 codexui-android 窃取了 OpenAI Codex 的认证令牌。",
       "references": [
         {
           "source_name": "The Hacker News",
@@ -72,44 +62,100 @@
       ]
     },
     {
-      "title": "NVIDIA发布首个开源物理AI全模态模型Cosmos 3",
-      "summary": "NVIDIA发布Cosmos 3，声称这是首个用于物理AI推理与行动的开源全模态模型。",
-      "references": [
-        {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai"
-        }
-      ]
-    },
-    {
-      "title": "新研究揭示LLM在批量推理中的内存瓶颈问题",
-      "summary": "一项新研究指出，物理AI系统（如机器人、自动驾驶）在批量大小为1的LLM解码中，性能受限于内存而非带宽，揭示了物理AI推理的瓶颈。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.30571"
-        }
-      ]
-    },
-    {
-      "title": "新研究审计六大LLM的跨语言性别偏见",
-      "summary": "一项跨语言审计研究对包括Anthropic、DeepSeek、Google和OpenAI在内的六大LLM进行了性别偏见评估，旨在将LLM的性别偏见锚定到人类基线。",
+      "title": "研究揭示 LLM 存在跨语言性别偏见",
+      "summary": "一项研究对六种大型语言模型进行了跨语言审计，揭示了其在性别偏见方面与人类基线存在锚定效应。",
       "references": [
         {
           "source_name": "arXiv NLP",
           "link": "https://arxiv.org/abs/2605.30804"
+        }
+      ]
+    },
+    {
+      "title": "研究提出 LLM 推理公平性解码方法",
+      "summary": "一项新研究提出了 COFT（反事实-共形解码）方法，旨在减少大型语言模型在思维链推理中的社会偏见。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.30641"
+        }
+      ]
+    },
+    {
+      "title": "研究提出面向 LLM 的差分隐私偏好数据合成方法",
+      "summary": "一项新研究提出了差分隐私偏好数据合成方法，用于在保护隐私的前提下进行大型语言模型的对齐训练。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.30808"
+        }
+      ]
+    },
+    {
+      "title": "研究提出用于 LLM 推理的结构化搜索历史方法",
+      "summary": "一项新研究提出了 LinTree 方法，通过显式结构化搜索历史来提升大型语言模型的推理能力。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.31492"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "开源模型在编码和多模态能力上加速追赶，但安全风险同步上升",
-      "summary": "MiniMax M3在编码、长上下文和多模态上对标闭源模型，而OpenAI Codex令牌被窃事件则警示，随着AI开发工具开源化和生态化，供应链攻击面正在扩大，安全防护需同步跟进。",
+      "title": "Agent 架构正从提示词工程转向结构化数据与工具集成",
+      "summary": "社区讨论显示，开发者正积极为 AI Agent 构建结构化数据检索层（如基于 PostgreSQL 的 Lithium）和 JSON 优先的 Git 层（如 Git-courer），以解决传统相似性搜索和上下文丢失问题，这标志着 Agent 开发范式正在从依赖模糊的向量搜索转向精确的结构化数据交互。",
       "references": [
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3773560"
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/0xJaksun/lithium-core"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/Alejandro-M-P/git-courer"
+        }
+      ]
+    },
+    {
+      "title": "企业级 AI 采用的关键瓶颈在于 Agent 逻辑而非基础模型",
+      "summary": "Hugging Face 博客文章指出，可扩展的企业级 AI 采用取决于 Agent 逻辑，而非单纯依赖更大的 LLM，这与社区中关于通过新架构（如 Botcircuits）来修复 LLM 偏差和 token 成本的讨论相呼应。",
+      "references": [
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/botcircuits-ai/botcircuits-agent"
+        }
+      ]
+    },
+    {
+      "title": "LLM 推理成本与 token 消耗成为开发者核心痛点",
+      "summary": "社区讨论显示，开发者普遍反映 token 消耗量巨大，并积极寻求解决方案，如通过 LLM 输入压缩工具（Headroom）和新的 Agent 架构来降低成本，这反映出在 Agent 应用爆发期，推理效率已成为制约发展的关键因素。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1217117"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/chopratejas/headroom"
+        }
+      ]
+    },
+    {
+      "title": "AI 领域投资热度不减，但监管与安全风险同步上升",
+      "summary": "软银孙正义将 AI 革命与互联网泡沫对比，认为其规模大 50 倍，但与此同时，佛罗里达州总检察长起诉 OpenAI 以及针对 OpenAI Codex 的供应链攻击事件，凸显了伴随巨额投资而来的法律与安全风险正在加剧。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://cnbc.com/2026/06/01/softbank-masayoshi-son-ai-revolution-investment.html"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://wsj.com/tech/ai/openai-sued-by-floridas-attorney-general-over-ai-harms-8a5113a8"
         },
         {
           "source_name": "The Hacker News",
@@ -118,20 +164,20 @@
       ]
     },
     {
-      "title": "LLM的公平性与文化偏见问题持续引发关注，多语言评估框架成研究热点",
-      "summary": "多项研究分别从性别偏见、全球叙事主导权和价值表达机制等角度审视LLM的公平性问题，表明学界正致力于构建更全面的评估框架，以应对模型在不同语言和文化背景下的潜在偏见。",
+      "title": "LLM 在专业领域应用需解决可验证性与偏见问题",
+      "summary": "多项研究指出，LLM 在医疗事实核查（MedFact）、道德推理（跨语言道德推理）以及几何推理（可反驳性差距）中存在系统性挑战，表明将 LLM 应用于高风险专业领域前，必须解决其输出的可验证性和固有偏见问题。",
       "references": [
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.30804"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.30481"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2509.12440"
         },
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2509.24319"
+          "link": "https://arxiv.org/abs/2605.30934"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2601.02380"
         }
       ]
     }
