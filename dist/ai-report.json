@@ -1,17 +1,23 @@
 {
-  "global_brief": "今日AI领域密集发布多项重要进展：英伟达推出专为AI智能体打造的Vera处理器，同时发布首个开放物理AI全模态模型Cosmos 3；多篇研究聚焦LLM推理效率、公平性与多语言能力，Agentic AI在科学研究和工程分析中的应用取得新突破。 [FACT] TITLE: 英伟达发布Vera处理器与Cosmos 3模型 SUMMARY: 英伟达CEO黄仁勋在2026台北国际电脑展上宣布推出专为AI智能体打造的Vera处理器，速度比x86处理器快1.8倍，OpenAI、SpaceXAI、字节跳动等将采用。同时，英伟达发布Cosmos 3，号称首个开放物理AI…",
+  "global_brief": "英伟达在台北电脑展发布专为AI智能体打造的Vera处理器，同时美国采取新措施限制英伟达AI芯片向中国境外中企发货。AI领域研究密集，聚焦于推理效率、智能体安全及多语言偏见等议题，社区对AI安全与工具链的讨论热度较高。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 47213,
-      "event_count": 768
+      "field_score": 47937,
+      "event_count": 778
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1439,
-      "event_count": 35
+      "field_score": 1237,
+      "event_count": 31
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 987,
+      "event_count": 22
     },
     {
       "field_key": "world",
@@ -20,63 +26,42 @@
       "event_count": 18
     },
     {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 864,
-      "event_count": 20
-    },
-    {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 711,
-      "event_count": 15
+      "field_score": 632,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anchoring LLM Gender Bias to Human Baselines: A Cross-Lingual Audit",
-      "summary": "Anchoring LLM Gender Bias to Human Baselines: A Cross-Lingual Audit；arXiv:2605.30804v1 Announce Type: new Abstract: We audit six large language models (LLMs) for gender stereotypi…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.30804"
-        }
-      ]
-    },
-    {
-      "title": "First head-to-head comparison of agentic AI applied to the analysis of simulated data of the Einstein Telescope",
-      "summary": "arXiv:2605.28916v2 Announce Type: replace-cross Abstract: We report a comparison of two state-of-the-art agentic AI sys…；First head-to-head comparison of agentic AI applied to the…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.28916"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667606"
-        }
-      ]
-    },
-    {
-      "title": "英伟达 Vera 处理器发布：专为 AI 智能体打造，OpenAI、SpaceXAI、字节跳动都要用",
-      "summary": "IT之家 6 月 1 日消息，在今日的 2026 台北国际电脑展主题演讲中，英伟达 CEO 黄仁勋宣布正式推出 Vera 处理器。 英伟达 Vera 是一款专为 AI 智能体打造的 CPU，速度比 x86 处理器快 1.8 倍，可驱动…；英伟达 Vera 处理器发布：专为 AI 智能体打造，OpenAI、SpaceXAI、字节跳动都要用",
+      "title": "英伟达发布Vera处理器，专为AI智能体设计",
+      "summary": "英伟达CEO黄仁勋在2026台北国际电脑展上宣布推出Vera处理器，这是一款专为AI智能体打造的CPU，速度比x86处理器快1.8倍，OpenAI、SpaceXAI和字节跳动等公司已计划采用。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/958/082.htm"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "Memory-Bound but Not Bandwidth-Limited: The Physical AI Inference Gap in Batch-1 LLM Decode",
-      "summary": "arXiv:2605.30571v1 Announce Type: cross Abstract: Physical AI systems, including robots, autonomous vehicles, embodied…；Memory-Bound but Not Bandwidth-Limited: The Physical AI Inf…",
+      "title": "AI智能体安全风险从理论走向现实",
+      "summary": "近期出现的利用提示注入劫持Instagram账户的案例，以及社区发布的AI智能体内存安全基准测试，共同表明AI智能体的安全威胁已不再是理论问题，而是需要立即应对的现实风险。这要求开发者和平台在部署智能体时，必须将安全机制作为核心组件。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.30571"
+          "source_name": "Hacker News AI",
+          "link": "https://neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/OWASP/www-project-agent-memory-guard"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://xcancel.com/DarkWebInformer/status/2061253599758315527"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
