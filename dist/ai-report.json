@@ -1,41 +1,41 @@
 {
-  "global_brief": "微软在Build大会上发布七款新AI模型，首款旗舰推理模型直接叫板Anthropic，同时OpenAI推出面向白领工作的Codex插件，并呼吁全球合作保障青少年AI安全。Anthropic已向SEC保密递交IPO申请，在上市竞速中领先OpenAI一步。此外，Uber因员工AI支出在四个月内超预算而设定了使用上限。",
+  "global_brief": "微软在Build大会连发七款AI模型，首款旗舰推理模型直接对标Anthropic，同时OpenAI推出面向白领工作的Codex插件套件，AI产业竞争从模型层加速向应用层渗透。Anthropic在IPO竞速中领先OpenAI一步，已向SEC保密递交上市申请，AI头部企业的资本化进程显著提速。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 93535,
-      "event_count": 1610
+      "field_score": 91621,
+      "event_count": 1583
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2384,
-      "event_count": 53
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1284,
-      "event_count": 32
+      "field_score": 2257,
+      "event_count": 50
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1249,
-      "event_count": 26
+      "field_score": 1292,
+      "event_count": 27
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1252,
+      "event_count": 32
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1000,
+      "field_score": 998,
       "event_count": 20
     }
   ],
   "highlight_facts": [
     {
-      "title": "微软Build大会连发七款AI模型，首款旗舰推理模型对标Anthropic",
-      "summary": "微软在年度开发者大会Build上发布七款新AI模型，覆盖推理、编码、视觉、多模态等方向，其中首款旗舰推理模型旨在与Anthropic竞争，打造“思考+编程”的智能体闭环。",
+      "title": "微软Build大会发布七款AI模型，首款旗舰推理模型对标Anthropic",
+      "summary": "微软在年度开发者大会Build上发布七款新AI模型，覆盖推理、编码、视觉、多模态等方向，其中首款旗舰推理模型旨在与Anthropic竞争，打造“思考+编程”智能体闭环。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
@@ -45,7 +45,7 @@
     },
     {
       "title": "Anthropic向SEC保密递交IPO申请，领先OpenAI",
-      "summary": "AI初创公司Anthropic已向美国证券交易委员会（SEC）保密递交S-1注册声明草案，正式启动IPO筹备流程，在上市竞速中领先于OpenAI。",
+      "summary": "AI初创企业Anthropic已向美国证券交易委员会（SEC）保密递交S-1注册声明草案，正式启动IPO筹备流程，在上市竞速中领先竞争对手OpenAI。",
       "references": [
         {
           "source_name": "澎湃新闻头条",
@@ -54,16 +54,74 @@
       ]
     },
     {
-      "title": "OpenAI推出面向白领工作的Codex工具，并呼吁全球保障青少年AI安全",
-      "summary": "OpenAI发布了一套面向数据分析、创意、设计等岗位的Codex插件，旨在将其打造成生产力工具。同时，OpenAI呼吁全球采取行动保障青少年AI安全，并提议建立国际倡议。",
+      "title": "OpenAI推出面向白领工作的Codex工具套件",
+      "summary": "OpenAI发布了一套包含六个插件的Codex工具，针对数据分析、创意、设计、投资等具体白领工作岗位，旨在将Codex转变为面向所有人的生产力工具。",
       "references": [
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/codex-for-every-role-tool-workflow"
         },
         {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work"
+        },
+        {
           "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership"
+          "link": "https://openai.com/index/codex-for-knowledge-work"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic将Mythos网络安全模型扩展至15个国家关键基础设施",
+      "summary": "Anthropic正在扩大其安全漏洞计划Project Glasswing，并向150家合作机构开放Mythos网络安全模型访问权限，将其应用扩展至超过15个国家的关键基础设施。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/958/985.htm"
+        }
+      ]
+    },
+    {
+      "title": "谷歌发布6月Android安全更新，修复124个漏洞",
+      "summary": "谷歌发布了2026年6月Android安全更新，修复了124个安全漏洞，其中包含一个已被积极利用的零日漏洞。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/941517/google-phone-scammer-ai-impersonation"
+        }
+      ]
+    },
+    {
+      "title": "Uber因员工AI支出超预算而设置使用上限",
+      "summary": "Uber在员工AI相关支出于四个月内超出年度预算后，对员工使用AI工具设置了费用上限。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "AI应用层竞争白热化，微软与OpenAI正面交锋",
+      "summary": "微软在Build大会发布推理模型和OpenAI推出Codex插件，标志着AI竞争已从基础模型层全面转向应用层。微软试图通过“模型+工具”闭环抢占企业市场，而OpenAI则通过Codex插件直接渗透白领工作流，两者在生产力工具领域的正面冲突将加剧。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3773709"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/codex-for-every-role-tool-workflow"
         },
         {
           "source_name": "TechCrunch",
@@ -72,122 +130,28 @@
       ]
     },
     {
-      "title": "OpenAI前沿模型GPT-5.5和Codex上线亚马逊Bedrock",
-      "summary": "OpenAI的GPT-5.5、GPT-5.4模型以及编码智能体Codex现已可通过亚马逊云服务Amazon Bedrock获取。",
-      "references": [
-        {
-          "source_name": "AWS Blog",
-          "link": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock"
-        },
-        {
-          "source_name": "Hacker News 最佳",
-          "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws"
-        },
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2294563"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1217374"
-        },
-        {
-          "source_name": "V2EX 最热",
-          "link": "https://v2ex.com/t/1217218"
-        }
-      ]
-    },
-    {
-      "title": "Uber因员工AI支出超预算而设定使用上限",
-      "summary": "Uber在鼓励员工使用AI工具后，相关支出在四个月内超出预算，公司因此设定了员工AI使用上限。",
+      "title": "AI安全从理论走向实践，但企业成本控制成新挑战",
+      "summary": "Anthropic将Mythos模型部署至关键基础设施，以及谷歌修复大量Android漏洞，表明AI安全正从学术研究转向实际应用。然而，Uber因AI支出超预算而设限，揭示了企业在拥抱AI时面临的成本控制难题，AI的规模化应用需平衡效率与财务可持续性。",
       "references": [
         {
           "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/958/985.htm"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/941517/google-phone-scammer-ai-impersonation"
+        },
+        {
+          "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months"
-        }
-      ]
-    },
-    {
-      "title": "微软推出AI设备平台Project Solara",
-      "summary": "微软推出了名为Project Solara的新平台，旨在为运行AI智能体的设备提供支持。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://geekwire.com/2026/inside-microsofts-project-solara-a-new-platform-for-devices-that-run-ai-agents-instead-of-apps"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "微软与OpenAI的竞争格局正在重塑",
-      "summary": "微软在Build大会上发布推理模型直接叫板Anthropic，同时OpenAI的模型和Codex却上线了亚马逊AWS，这表明微软与OpenAI的联盟关系正变得更加复杂，双方在模型和平台层面都开始寻求更独立的生态布局。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3773709"
-        },
-        {
-          "source_name": "AWS Blog",
-          "link": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock"
-        },
-        {
-          "source_name": "Hacker News 最佳",
-          "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws"
-        },
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2294563"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1217374"
-        },
-        {
-          "source_name": "V2EX 最热",
-          "link": "https://v2ex.com/t/1217218"
-        }
-      ]
-    },
-    {
-      "title": "AI智能体“记忆”问题成为社区关注焦点，催生新工具",
-      "summary": "社区讨论显示，AI智能体缺乏长期记忆是普遍痛点，新工具如Memory Sidecar旨在解决此问题，同时MCP（模型上下文协议）正成为连接LLM与外部交互界面的关键标准。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1217342"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/MobileReality/mdma"
-        }
-      ]
-    },
-    {
-      "title": "AI安全与治理从模型层向应用层和基础设施层延伸",
-      "summary": "从OpenAI对Codex的安全治理（将其视为受管基础设施）到针对LLM智能体的“宪法式”黑盒监控研究，行业正从单纯关注模型安全转向构建覆盖应用、代理和基础设施的多层安全体系。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/yujia_zhang_0328/openai-is-treating-coding-agents-like-governed-infrastructure-9pm"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.00829"
-        }
-      ]
-    },
-    {
-      "title": "纯Python LLM推理引擎和GPU浪费扫描工具兴起，反映社区对轻量化和效率的追求",
-      "summary": "社区中出现了纯Python构建的LLM推理引擎和用于扫描GPU浪费的工具，这表明开发者社区正积极寻求更轻量、更高效的替代方案，以降低AI部署门槛和成本。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Zyora-Dev/zse/releases/tag/v2.0.0"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/paralleliq/piqc"
         }
       ]
     }
