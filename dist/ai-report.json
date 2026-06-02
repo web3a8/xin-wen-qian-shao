@@ -1,75 +1,41 @@
 {
-  "global_brief": "Anthropic 正式提交 IPO 申请，成为 AI 领域又一重大资本事件；OpenAI 加速基础设施与云生态布局，在密歇根启动 1GW 数据中心项目，并将前沿模型及 Codex 引入 AWS；同时，学术界密集发布关于 LLM 推理效率、智能体安全与多模态偏好的新基准与优化方法，AI 产业正从模型竞赛转向工程化与安全部署阶段。",
+  "global_brief": "Anthropic 已秘密提交 IPO 文件，成为首家启动上市流程的头部 AI 公司，OpenAI 则淡化上市竞争并加速基础设施与产品布局。同时，AI 领域研究密集，多项新基准与推理优化方法发布，阿里发布 Qwen3.7-Plus 多模态模型推动股价上涨。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 96813,
-      "event_count": 1573
+      "field_score": 95268,
+      "event_count": 1595
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2505,
-      "event_count": 54
+      "field_score": 2342,
+      "event_count": 51
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1504,
-      "event_count": 36
+      "field_score": 1652,
+      "event_count": 40
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1403,
+      "field_score": 1351,
       "event_count": 27
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1076,
+      "field_score": 1038,
       "event_count": 20
     }
   ],
   "highlight_facts": [
     {
-      "title": "The Shape of Wisdom: Decision Trajectories in Language Models",
-      "summary": "arXiv:2606.01202v1 Announce Type: new Abstract: Language models do not simply choose an answer at the output layer. In…；The Shape of Wisdom: Decision Trajectories in Language Mode…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.01202"
-        }
-      ]
-    },
-    {
-      "title": "Model-Native Computing Architecture: Envisioning Future System Architecture Through the Lens of Computer Architecture",
-      "summary": "arXiv:2606.00288v1 Announce Type: new Abstract: Large language models are undergoing a transition from model technology…；Model-Native Computing Architecture: Envisioning Future Sy…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.00288"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667680"
-        }
-      ]
-    },
-    {
-      "title": "SmartThinker: Progressive Chain-of-Thought Length Calibration for Efficient Large Language Model Reasoning",
-      "summary": "arXiv:2603.08000v2 Announce Type: replace Abstract: Large reasoning models (LRMs) like OpenAI o1 and DeepSeek-R1 achiev…；SmartThinker: Progressive Chain-of-Thought Length Calibrat…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2603.08000"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic files to go public",
-      "summary": "Anthropic files to go public；Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the e…；After months of speculation a…",
+      "title": "Anthropic 秘密提交 IPO 文件",
+      "summary": "Anthropic 已秘密提交 IPO 文件，成为首家启动上市流程的头部 AI 公司，此前其已获得顶级企业客户。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -90,5 +56,36 @@
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 公司上市竞赛加剧，商业模式面临市场检验",
+      "summary": "Anthropic 率先启动 IPO，而 OpenAI 则强调技术优先，这反映出头部 AI 公司在商业化路径上的分化。Anthropic 的上市将使其财务状况和盈利能力首次公开接受市场审视，可能为整个行业设定估值基准。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1667792"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/anthropic-files-s1-ipo-sec"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/958/780.htm"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1667829"
+        }
+      ]
+    }
+  ]
 }
