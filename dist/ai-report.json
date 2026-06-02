@@ -1,41 +1,75 @@
 {
-  "global_brief": "Anthropic 提交 IPO 申请，标志 AI 行业进入新阶段；阿里发布多模态 Agent 模型 Qwen3.7-Plus，在屏幕理解等任务上超越 GPT-5.4；同时，大量研究聚焦于 LLM Agent 的安全、推理效率与多模态能力，开源社区与产业界同步加速。",
+  "global_brief": "Anthropic 正式提交 IPO 申请，成为 AI 领域又一重大资本事件；OpenAI 加速基础设施与云生态布局，在密歇根启动 1GW 数据中心项目，并将前沿模型及 Codex 引入 AWS；同时，学术界密集发布关于 LLM 推理效率、智能体安全与多模态偏好的新基准与优化方法，AI 产业正从模型竞赛转向工程化与安全部署阶段。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 97408,
-      "event_count": 1578
+      "field_score": 96813,
+      "event_count": 1573
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2495,
-      "event_count": 53
+      "field_score": 2505,
+      "event_count": 54
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1711,
-      "event_count": 42
+      "field_score": 1504,
+      "event_count": 36
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1353,
-      "event_count": 26
+      "field_score": 1403,
+      "event_count": 27
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1078,
+      "field_score": 1076,
       "event_count": 20
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 提交 IPO 申请",
-      "summary": "Anthropic 已正式提交首次公开募股（IPO）申请，这家曾被视为挑战者的 AI 公司如今已成为企业级客户的首选合作伙伴。",
+      "title": "The Shape of Wisdom: Decision Trajectories in Language Models",
+      "summary": "arXiv:2606.01202v1 Announce Type: new Abstract: Language models do not simply choose an answer at the output layer. In…；The Shape of Wisdom: Decision Trajectories in Language Mode…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.01202"
+        }
+      ]
+    },
+    {
+      "title": "Model-Native Computing Architecture: Envisioning Future System Architecture Through the Lens of Computer Architecture",
+      "summary": "arXiv:2606.00288v1 Announce Type: new Abstract: Large language models are undergoing a transition from model technology…；Model-Native Computing Architecture: Envisioning Future Sy…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.00288"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1667680"
+        }
+      ]
+    },
+    {
+      "title": "SmartThinker: Progressive Chain-of-Thought Length Calibration for Efficient Large Language Model Reasoning",
+      "summary": "arXiv:2603.08000v2 Announce Type: replace Abstract: Large reasoning models (LRMs) like OpenAI o1 and DeepSeek-R1 achiev…；SmartThinker: Progressive Chain-of-Thought Length Calibrat…",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2603.08000"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic files to go public",
+      "summary": "Anthropic files to go public；Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the e…；After months of speculation a…",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -56,24 +90,5 @@
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI Agent 安全与治理成为核心议题",
-      "summary": "随着 Anthropic 上市和 OpenAI 模型大规模商用，AI Agent 的安全问题愈发突出。本周涌现了多项针对 Agent 的安全研究，包括基于环境推理的防御机制（SafeMCP）和宪法性黑盒监控（Constitutional Black-Box Monitoring），同时法律界也开始探讨“代理型 AI”在普通法下的责任归属。这表明行业正从单纯追求能力转向构建可信任的 Agent 治理框架。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.01991"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.00829"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://download.ssrn.com/2026/5/27/6838660.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLWVhc3QtMSJGMEQCIGCqRt3E43JqumYgrLNdiLIHcwl4vS%2F0umJm5fj1DgvqAiAvib35M%2BdXgdaFDsjX4yKd3aeebKQLtbtu3Tt1hk8w0iq9BQgcEAQaDDMwODQ3NTMwMTI1N%E2%80%A6&response-content-disposition=inline"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
