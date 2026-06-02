@@ -1,53 +1,49 @@
 {
-  "global_brief": "Anthropic 已秘密提交 IPO 文件，成为首家启动上市流程的头部 AI 公司，OpenAI 则淡化上市竞争并加速基础设施与产品布局。同时，AI 领域研究密集，多项新基准与推理优化方法发布，阿里发布 Qwen3.7-Plus 多模态模型推动股价上涨。",
+  "global_brief": "Anthropic 已向 SEC 保密递交 IPO 申请，在 AI 公司上市竞赛中领先 OpenAI，同时 OpenAI 的 Codex 正转型为通用生产力工具，并已登陆 Amazon Bedrock。学术界围绕 LLM 推理效率、Agent 安全与多模态基准测试发布了大量新研究，包括决策轨迹分析、思维链长度校准及模型原生计算架构等前沿方向。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 95268,
-      "event_count": 1595
+      "field_score": 95345,
+      "event_count": 1598
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2342,
+      "field_score": 2347,
       "event_count": 51
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1652,
+      "field_score": 1615,
       "event_count": 40
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1351,
-      "event_count": 27
+      "field_score": 1390,
+      "event_count": 28
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 1038,
-      "event_count": 20
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 1052,
+      "event_count": 21
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 秘密提交 IPO 文件",
-      "summary": "Anthropic 已秘密提交 IPO 文件，成为首家启动上市流程的头部 AI 公司，此前其已获得顶级企业客户。",
+      "title": "Anthropic 启动 IPO 流程",
+      "summary": "AI 初创企业 Anthropic 已向美国证券交易委员会（SEC）保密递交 S-1 注册声明草案，正式启动 IPO 筹备流程，此举被认为在 IPO 竞速中领先于 OpenAI。",
       "references": [
+        {
+          "source_name": "澎湃新闻头条",
+          "link": "https://m.thepaper.cn/detail/33292456"
+        },
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667792"
         },
         {
           "source_name": "Wired",
@@ -58,32 +54,28 @@
   ],
   "highlight_opinions": [
     {
-      "title": "AI 公司上市竞赛加剧，商业模式面临市场检验",
-      "summary": "Anthropic 率先启动 IPO，而 OpenAI 则强调技术优先，这反映出头部 AI 公司在商业化路径上的分化。Anthropic 的上市将使其财务状况和盈利能力首次公开接受市场审视，可能为整个行业设定估值基准。",
+      "title": "AI 公司 IPO 竞赛加剧行业分化",
+      "summary": "Anthropic 率先启动 IPO 流程，而 OpenAI 则加速产品化（Codex 通用化、模型上云），表明头部 AI 公司正通过资本市场和商业化两条路径争夺主导权，这可能导致 AI 行业进一步分化。",
       "references": [
+        {
+          "source_name": "澎湃新闻头条",
+          "link": "https://m.thepaper.cn/detail/33292456"
+        },
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667792"
         },
         {
           "source_name": "Wired",
           "link": "https://wired.com/story/anthropic-files-s1-ipo-sec"
         },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/958/780.htm"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/codex-for-knowledge-work"
         },
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1667829"
+          "source_name": "AWS Blog",
+          "link": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock"
         }
       ]
     }
