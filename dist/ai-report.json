@@ -1,79 +1,65 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕大语言模型（LLM）的推理效率、Agent能力与安全性。多项研究揭示了LLM在医疗分诊中的性别偏见、通过Reddit操纵AI搜索的产业风险，以及Meta与微软等巨头在企业Agent领域的竞争加剧。同时，开源社区对本地化AI Agent和工具链的讨论热度不减。",
+  "global_brief": "过去24小时，AI领域持续主导技术动态，多项研究聚焦于LLM推理效率、Agent训练与安全治理。OpenAI发布了前沿AI民主治理蓝图与公共政策议程，同时多篇论文揭示了LLM在医疗分诊中的性别偏见、以及通过线性探针检测任务格式而非推理模式等关键发现。社区讨论则围绕AI工具的实际效用与Agent开发实践展开。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 51952,
-      "event_count": 868
+      "field_score": 47377,
+      "event_count": 814
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1820,
-      "event_count": 40
+      "field_score": 1531,
+      "event_count": 33
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1377,
+      "field_score": 1363,
       "event_count": 34
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 747,
-      "event_count": 14
+      "field_score": 687,
+      "event_count": 13
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 705,
-      "event_count": 14
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 605,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "研究揭示LLM在医疗分诊中存在性别依赖的诊断替代现象",
-      "summary": "一项新研究 发现，大语言模型在面对相同症状时，会根据患者性别给出不同的紧急程度判断，揭示了LLM在医疗场景中的潜在偏见。",
+      "title": "Measuring Maximum Activations in Open Large Language Models",
+      "summary": "arXiv:2605.15572v2 Announce Type: replace Abstract: The dynamic range of activations is a first-order constraint for lo…；Measuring Maximum Activations in Open Large Language Model…",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.03641"
-        }
-      ]
-    },
-    {
-      "title": "英国监管机构要求谷歌提供AI搜索退出工具",
-      "summary": "英国监管机构要求谷歌 提供一项工具，允许网站发布者选择不被AI搜索功能抓取和展示内容，这是对AI搜索版权和内容使用的新监管举措。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2605.15572"
         },
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/gadgets/2026/06/google-announces-deepfake-call-detection-for-android-new-airdrop-device-support"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/942302/google-search-ai-overviews-uk-cma-publisher-opt-out"
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2606.03946"
         }
       ]
     },
     {
-      "title": "研究提出通过自对弈强化学习训练超级智能软件Agent",
-      "summary": "一项新研究 提出了SWE-RL方法，旨在通过自对弈强化学习训练超越当前LLM能力的超级智能软件Agent，标志着Agent自主进化研究的重要方向。",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "summary": "A blueprint for democratic governance of frontier AI；OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, a…",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2512.18552"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/frontier-safety-blueprint"
         }
       ]
     },
     {
-      "title": "研究揭示线性探针检测的是任务格式而非LLM的推理模式",
-      "summary": "一项针对Qwen等开源模型的研究 表明，广泛使用的线性探针方法实际上检测的是任务格式，而非LLM隐藏状态中的推理模式，对现有可解释性研究提出了挑战。",
+      "title": "Linear Probes Detect Task Format, Not Reasoning Mode in Language Model Hidden States",
+      "summary": "arXiv:2606.02907v1 Announce Type: cross Abstract: Linear probing of large language model (LLM) hidden states is widely…；Linear Probes Detect Task Format, Not Reasoning Mode in Lan…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -86,120 +72,15 @@
       ]
     },
     {
-      "title": "研究提出FlashMLA-ETAP以加速DeepSeek模型在NVIDIA H20 GPU上的推理",
-      "summary": "一项新研究 提出了FlashMLA-ETAP，一种高效转置注意力流水线，旨在加速DeepSeek 671B模型在NVIDIA H20 GPU上的MLA推理，聚焦于特定硬件的推理优化。",
+      "title": "OpenAI public policy agenda",
+      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global s…；OpenAI public policy agenda",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2506.01969"
-        }
-      ]
-    },
-    {
-      "title": "研究评估LLM在真实世界消费设备维修问题上的有效性",
-      "summary": "一项新研究 将消费设备维修作为测试床，评估了LLM在解决真实世界、非结构化问题上的有效性，为LLM在垂直领域的应用提供了新视角。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.03331"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/public-policy-agenda"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "企业Agent竞争白热化，Meta与微软正面交锋",
-      "summary": "Meta推出企业级AI Agent，而微软则通过Project Solara 和Majorana 2 等项目展示其Agent平台能力，同时微软与OpenAI的关系破裂 预示着AI Agent市场的竞争格局将更加复杂和激烈。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://reuters.com/business/meta-launches-enterprise-focused-ai-business-agent-automate-daily-operations-2026-06-03"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://geekwire.com/2026/inside-microsofts-project-solara-a-new-platform-for-devices-that-run-ai-agents-instead-of-apps"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://news.microsoft.com/source/features/innovation/majorana-2-microsoft-discovery-agentic-ai"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition"
-        }
-      ]
-    },
-    {
-      "title": "AI搜索内容操纵风险凸显，监管与对抗手段并行",
-      "summary": "有报道指出公司正利用Reddit操纵ChatGPT和Google AI搜索，与此同时，英国监管机构要求谷歌提供退出工具，这表明在AI搜索领域，内容操纵与监管博弈正在同步升级。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/gadgets/2026/06/google-announces-deepfake-call-detection-for-android-new-airdrop-device-support"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/942302/google-search-ai-overviews-uk-cma-publisher-opt-out"
-        }
-      ]
-    },
-    {
-      "title": "本地化AI Agent需求旺盛，但能力与成本仍是瓶颈",
-      "summary": "社区讨论显示，开发者对本地化AI Agent（如接近Claude Code的模型）有强烈需求，同时出现了检测AI Agent“作弊”行为的工具，这反映出当前AI Agent在自主性和可靠性方面仍存在显著不足，本地化部署是平衡成本与控制的探索方向。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://news.ycombinator.com/item?id=48384536"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/Aaronontheweb/dotnet-slopwatch"
-        }
-      ]
-    },
-    {
-      "title": "LLM安全与偏见研究深化，从量化压缩到伦理审查",
-      "summary": "多项研究关注LLM的安全与偏见问题，包括量化误差对强化学习的影响 、医疗分诊中的性别偏见 、以及拟人化Agent的伦理审查，表明业界正从单纯追求性能转向更全面的安全与公平性评估。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.20402"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.03641"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2601.09869"
-        }
-      ]
-    },
-    {
-      "title": "Agent强化学习成为LLM后训练新范式，效率与资源管理是关键",
-      "summary": "多篇研究 聚焦于Agent强化学习（RL）的后训练，提出了Libra、EvoTrainer等资源管理和策略优化方法，表明Agent RL正成为LLM能力提升的核心路径，但如何高效管理计算资源是当前面临的主要挑战。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.03077"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.03108"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.03762"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
