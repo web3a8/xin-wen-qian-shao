@@ -1,17 +1,23 @@
 {
-  "global_brief": "微软在Build大会连发七款新AI模型，首款旗舰推理模型正面挑战Anthropic，同时OpenAI宣布ChatGPT月活突破10亿，成为史上最快达到该里程碑的应用。AI应用成本问题引发关注，Uber因4个月耗尽全年AI预算而设定单人单工具每月1500美元的使用上限。",
+  "global_brief": "过去24小时，AI领域迎来多项重大进展：OpenAI的ChatGPT月活突破10亿，并宣布与Codex合体，为近10亿用户提供“超级Agent”能力；同时，Anthropic在IPO前遭遇AI支出反弹，而微软发布了新的MAI系列文本模型。学术界则涌现大量关于LLM推理、多模态、Agent安全及高效推理的研究成果。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 92358,
-      "event_count": 1591
+      "field_score": 92774,
+      "event_count": 1599
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2256,
-      "event_count": 51
+      "field_score": 2147,
+      "event_count": 49
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1553,
+      "event_count": 39
     },
     {
       "field_key": "science",
@@ -20,44 +26,61 @@
       "event_count": 27
     },
     {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1222,
-      "event_count": 31
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 998,
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 1004,
       "event_count": 20
     }
   ],
   "highlight_facts": [
     {
-      "title": "微软Build大会连发七款新AI模型，首款旗舰推理模型叫板Anthropic",
-      "summary": "微软在年度开发者大会Build上发布七款新AI模型，覆盖推理、编码、视觉、多模态等方向，其中最受关注的是其首款旗舰推理模型MAI-Thinking-1，旨在与Anthropic竞争。",
+      "title": "The Shape of Wisdom: Decision Trajectories in Language Models",
+      "summary": "arXiv:2606.01202v1 Announce Type: new Abstract: Language models do not simply choose an answer at the output layer. In…；The Shape of Wisdom: Decision Trajectories in Language Mode…",
       "references": [
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3773709"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.01202"
+        }
+      ]
+    },
+    {
+      "title": "Wavelet-Fusion Diffusion Model for Multimodal Brain MRI Synthesis with Modality and Metadata Conditioning",
+      "summary": "arXiv:2606.00689v1 Announce Type: new Abstract: Multimodal MRI provides complementary information for neuroimaging anal…；Wavelet-Fusion Diffusion Model for Multimodal Brain MRI Sy…",
+      "references": [
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2606.00689"
         },
         {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jun/2/microsofts-new-models"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.01770"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/02/meta-tests-series-for-episodic-reels-on-instagram-and-facebook"
+        }
+      ]
+    },
+    {
+      "title": "Codex for every role, tool, and workflow",
+      "summary": "Codex for every role, tool, and workflow；Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams…",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/codex-for-every-role-tool-workflow"
+        }
+      ]
+    },
+    {
+      "title": "SmartThinker: Progressive Chain-of-Thought Length Calibration for Efficient Large Language Model Reasoning",
+      "summary": "arXiv:2603.08000v2 Announce Type: replace Abstract: Large reasoning models (LRMs) like OpenAI o1 and DeepSeek-R1 achiev…；SmartThinker: Progressive Chain-of-Thought Length Calibrat…",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2603.08000"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI应用成本高企，企业开始收紧预算",
-      "summary": "Uber因AI预算超支而设定使用上限，反映出随着AI工具在企业中的普及，高昂的使用成本正成为企业必须面对的现实问题，可能促使更多公司效仿，对AI服务商的定价策略产生影响。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/959/030.htm"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
