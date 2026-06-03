@@ -1,86 +1,67 @@
 {
-  "global_brief": "过去24小时，AI领域迎来多项重大进展：OpenAI的ChatGPT月活突破10亿，并宣布与Codex合体，为近10亿用户提供“超级Agent”能力；同时，Anthropic在IPO前遭遇AI支出反弹，而微软发布了新的MAI系列文本模型。学术界则涌现大量关于LLM推理、多模态、Agent安全及高效推理的研究成果。",
+  "global_brief": "过去24小时，AI领域持续主导技术动态，OpenAI的ChatGPT月活突破10亿成为标志性事件，同时其Codex工具正从编码助手向通用生产力平台扩展。学术界则聚焦于LLM推理效率、Agent强化学习及模型安全与偏见等前沿议题，开源社区也涌现出大量旨在降低AI工具使用门槛的创新项目。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 92774,
-      "event_count": 1599
+      "field_score": 52056,
+      "event_count": 843
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2147,
-      "event_count": 49
+      "field_score": 1730,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1553,
-      "event_count": 39
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 1295,
-      "event_count": 27
+      "field_score": 1507,
+      "event_count": 37
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 1004,
-      "event_count": 20
+      "field_score": 713,
+      "event_count": 16
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 589,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "The Shape of Wisdom: Decision Trajectories in Language Models",
-      "summary": "arXiv:2606.01202v1 Announce Type: new Abstract: Language models do not simply choose an answer at the output layer. In…；The Shape of Wisdom: Decision Trajectories in Language Mode…",
+      "title": "ChatGPT月活跃用户突破10亿",
+      "summary": "市场情报机构Sensor Tower估计，OpenAI旗下ChatGPT的全球月活跃用户已突破10亿，成为史上最快达到这一里程碑的应用程序。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.01202"
-        }
-      ]
-    },
-    {
-      "title": "Wavelet-Fusion Diffusion Model for Multimodal Brain MRI Synthesis with Modality and Metadata Conditioning",
-      "summary": "arXiv:2606.00689v1 Announce Type: new Abstract: Multimodal MRI provides complementary information for neuroimaging anal…；Wavelet-Fusion Diffusion Model for Multimodal Brain MRI Sy…",
-      "references": [
-        {
-          "source_name": "arXiv 计算机视觉",
-          "link": "https://arxiv.org/abs/2606.00689"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.01770"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/06/02/meta-tests-series-for-episodic-reels-on-instagram-and-facebook"
-        }
-      ]
-    },
-    {
-      "title": "Codex for every role, tool, and workflow",
-      "summary": "Codex for every role, tool, and workflow；Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams…",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/codex-for-every-role-tool-workflow"
-        }
-      ]
-    },
-    {
-      "title": "SmartThinker: Progressive Chain-of-Thought Length Calibration for Efficient Large Language Model Reasoning",
-      "summary": "arXiv:2603.08000v2 Announce Type: replace Abstract: Large reasoning models (LRMs) like OpenAI o1 and DeepSeek-R1 achiev…；SmartThinker: Progressive Chain-of-Thought Length Calibrat…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2603.08000"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/959/083.htm"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "Agent强化学习成为LLM能力提升的关键路径",
+      "summary": "近期多项研究（如EvoTrainer、Tool-Aware Optimization、Libra）聚焦于通过强化学习训练更强大的LLM Agent，表明业界正将Agent能力视为下一代AI系统的核心，并积极探索自动化、高效的训练方法。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.03108"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.03762"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.03077"
+        }
+      ]
+    }
+  ]
 }
