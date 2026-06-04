@@ -1,41 +1,71 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导全球科技动态，Google、OpenAI、Meta等巨头在搜索治理、前沿模型、商业应用及安全治理方面密集发布新进展。同时，学术界围绕LLM推理机制、智能体训练及模型压缩等方向产出了大量高质量研究，显示出行业正从模型能力竞赛转向效率优化与安全对齐的深水区。",
+  "global_brief": "过去24小时，AI领域研究密集发布，涵盖LLM推理效率、安全对齐、量化攻击及多模态应用，同时Google搜索推出新功能，Meta和香港HKGAI分别发布商业智能体与本地大模型，产业落地与安全研究并行推进。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48058,
-      "event_count": 824
+      "field_score": 46251,
+      "event_count": 764
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1760,
-      "event_count": 37
+      "field_score": 1800,
+      "event_count": 38
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1336,
-      "event_count": 34
+      "field_score": 1274,
+      "event_count": 31
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 720,
+      "event_count": 16
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 771,
-      "event_count": 15
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 625,
-      "event_count": 14
+      "field_score": 672,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Google 被要求修改AI概览并允许英国出版商退出",
-      "summary": "英国监管机构裁定，Google必须修改其AI搜索概览功能，提供更清晰的来源链接，并允许英国出版商选择不被AI抓取。该裁定基于Google声称用户“不想要大量来源链接”的论点被驳回。",
+      "title": "OckBench: Measuring the Efficiency of LLM Reasoning",
+      "summary": "arXiv:2511.05722v3 Announce Type: replace-cross Abstract: Large language models (LLMs) such as GPT-5 and Gemini 3 have…；OckBench: Measuring the Efficiency of LLM Reasoning",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2511.05722"
+        }
+      ]
+    },
+    {
+      "title": "The Invisible Lottery: How Subtle Cues Steer Algorithm Choice in LLM Code Generation",
+      "summary": "arXiv:2606.04057v1 Announce Type: cross Abstract: Large language models (LLMs) now generate substantial production code…；The Invisible Lottery: How Subtle Cues Steer Algorithm Cho…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.04057"
+        }
+      ]
+    },
+    {
+      "title": "MENTOR: A Metacognition-Driven Self-Evolution Framework for Uncovering and Mitigating Implicit Domain Risks in LLMs",
+      "summary": "arXiv:2511.07107v3 Announce Type: replace Abstract: Ensuring the safety of Large Language Models (LLMs) is critical for…；MENTOR: A Metacognition-Driven Self-Evolution Framework fo…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2511.07107"
+        }
+      ]
+    },
+    {
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "summary": "5 ways Google Search can level up your thrift and vintage shopping；Dreambeans is a curated list of AI-illustrated \"stories\" culled from the personal data in your Google account.；G…",
       "references": [
         {
           "source_name": "Google AI Blog",
@@ -56,36 +86,5 @@
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI治理进入“规则制定”阶段，行业巨头与监管博弈加剧",
-      "summary": "Google在英国被要求修改AI搜索呈现方式，OpenAI则主动发布治理蓝图和政策议程。这表明AI行业正从技术竞赛转向与监管机构深度博弈，企业试图通过主动提出规则框架来影响未来的监管方向，而非被动接受。",
-      "references": [
-        {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon"
-        },
-        {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/frontier-safety-blueprint"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/public-policy-agenda"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
