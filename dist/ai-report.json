@@ -1,43 +1,91 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：5 ways Google Search can level up your thrift and vintage shopping；Introducing new capabilities to GPT-Rosalind；Measuring Maximum Activations in Open Large Language Models。",
+  "global_brief": "过去24小时，AI领域持续主导全球科技动态，Google、OpenAI、Meta等巨头在搜索治理、前沿模型、商业应用及安全治理方面密集发布新进展。同时，学术界围绕LLM推理机制、智能体训练及模型压缩等方向产出了大量高质量研究，显示出行业正从模型能力竞赛转向效率优化与安全对齐的深水区。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 50061,
-      "event_count": 858
+      "field_score": 48058,
+      "event_count": 824
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1803,
-      "event_count": 39
+      "field_score": 1760,
+      "event_count": 37
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1313,
+      "field_score": 1336,
       "event_count": 34
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 783,
+      "field_score": 771,
       "event_count": 15
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 742,
-      "event_count": 16
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 625,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "制糖工厂 发布 AI 小电拼 Mirror，支持 AI Agent 原生接入",
-      "summary": "制糖工厂 发布 AI 小电拼 Mirror，支持 AI Agent 原生接入；时间：2026-06-03T03:09:33.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Google 被要求修改AI概览并允许英国出版商退出",
+      "summary": "英国监管机构裁定，Google必须修改其AI搜索概览功能，提供更清晰的来源链接，并允许英国出版商选择不被AI抓取。该裁定基于Google声称用户“不想要大量来源链接”的论点被驳回。",
+      "references": [
+        {
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon"
+        },
+        {
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI治理进入“规则制定”阶段，行业巨头与监管博弈加剧",
+      "summary": "Google在英国被要求修改AI搜索呈现方式，OpenAI则主动发布治理蓝图和政策议程。这表明AI行业正从技术竞赛转向与监管机构深度博弈，企业试图通过主动提出规则框架来影响未来的监管方向，而非被动接受。",
+      "references": [
+        {
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon"
+        },
+        {
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/frontier-safety-blueprint"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/public-policy-agenda"
+        }
+      ]
+    }
+  ]
 }
