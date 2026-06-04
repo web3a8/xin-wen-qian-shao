@@ -1,41 +1,71 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导全球科技动态，OpenAI提出“主动式AI”作为继聊天机器人和智能体之后的下一阶段发展方向，同时Anthropic的Claude Code被曝存在严重安全漏洞，引发对AI开发工具安全性的广泛讨论。此外，Token倒卖产业链的曝光揭示了AI服务成本压力下的灰色市场，而长安汽车自研大模型获批则标志着国内AI在垂直行业的合规化落地加速。",
+  "global_brief": "今日AI领域持续聚焦智能体（Agent）与安全两大主线：OpenAI CEO奥尔特曼提出“主动式AI”为下一阶段，同时承认Token成本问题；Anthropic的Claude Code被曝存在严重安全漏洞，引发对AI Agent安全性的广泛讨论。此外，多家巨头开始研究“AI意识”，而长安汽车大模型获国家级备案，标志着AI在垂直行业的落地加速。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 42606,
-      "event_count": 738
+      "field_score": 43434,
+      "event_count": 750
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1946,
-      "event_count": 44
+      "field_score": 1841,
+      "event_count": 40
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1723,
+      "field_score": 1701,
       "event_count": 43
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 729,
-      "event_count": 15
+      "field_score": 764,
+      "event_count": 16
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 670,
-      "event_count": 13
+      "field_score": 562,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI CEO Sam Altman 提出“主动式AI”为下一阶段发展方向",
-      "summary": "在OpenAI的企业活动上，CEO Sam Altman提出了AI产品开发的三阶段理论，认为继聊天机器人和AI智能体之后，行业下一阶段将是“主动式AI”。",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "summary": "How Endava is redesigning software delivery around AI agents；Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows…",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/endava-frontiers"
+        }
+      ]
+    },
+    {
+      "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+      "summary": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable p…；Claude Code GitHub Action Flaw Let One Malicious Issue Hij…",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+        }
+      ]
+    },
+    {
+      "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
+      "summary": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It；Over the past several weeks, the cybersecurity community has been reminded how quickly front…",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 奥尔特曼预测：“主动式 AI”将成为聊天机器人和智能体之后的下一阶段",
+      "summary": "IT之家 6 月 4 日消息，在 OpenAI 举办的一场企业活动上，公司 CEO 萨姆 · 奥尔特曼（Sam Altman）提出了 AI 产品开发的三阶段理论。 他认为，继聊天机器人和 AI 智能体（Agent）之后，行业下一阶段的发展…；OpenAI 奥尔特曼预测：“主动式 AI”将成为聊天机器人和智能体之后的下一阶段；OpenAI 扩展 Codex…",
       "references": [
         {
           "source_name": "IT之家",
@@ -46,132 +76,7 @@
           "link": "https://sspai.com/post/110698"
         }
       ]
-    },
-    {
-      "title": "Anthropic 的 Claude Code GitHub Action 存在严重安全漏洞",
-      "summary": "安全研究人员发现Anthropic的Claude Code GitHub Action存在一个漏洞，攻击者可通过一个恶意Issue接管易受攻击的仓库。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
-        }
-      ]
-    },
-    {
-      "title": "长安汽车自研“天枢大模型”通过国家生成式AI备案审批",
-      "summary": "长安汽车宣布其全栈自研的长安天枢大模型已正式通过国家网信办“生成式人工智能服务”备案审批，成为重庆首家通过国家级备案的车企。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/960/128.htm"
-        }
-      ]
-    },
-    {
-      "title": "大模型Token倒卖产业链曝光，成本压力催生灰色市场",
-      "summary": "报道揭示了大模型时代Token作为重要流通货币，其高昂价格催生了隐秘的倒卖生意，一个AI SaaS创业者每月可能消耗价值上万元的Token。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3773875"
-        }
-      ]
-    },
-    {
-      "title": "美国科技行业5月裁员38,242人，AI成为最主要原因",
-      "summary": "据Tom's Hardware报道，美国科技行业在5月份裁员38,242人，AI被列为裁员的最主要原因。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/tech-sector-cut-us-jobs-by-38242-in-may"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic、谷歌DeepMind等巨头开始研究“AI意识”",
-      "summary": "据报道，Anthropic、谷歌DeepMind和Meta等公司已开始聘请心理学、哲学和伦理学专家，研究机器意识及AI福利问题。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/960/158.htm"
-        }
-      ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI开发工具的安全性问题正成为行业焦点",
-      "summary": "继Anthropic的Claude Code被曝出严重漏洞后，社区对AI辅助编程工具的安全性关注度显著提升。同时，关于Codex额度消耗过快和“倒卖Token”的讨论，反映出开发者在使用这些工具时面临成本与安全性的双重挑战。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1217886"
-        },
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48395460"
-        },
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2306997"
-        },
-        {
-          "source_name": "V2EX 最热",
-          "link": "https://v2ex.com/t/1217904"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3773875"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent 正从概念走向工程化落地，但安全与信任仍是关键瓶颈",
-      "summary": "从OpenAI的“主动式AI”愿景，到Endava等企业基于AI Agent重构软件交付，再到多项关于Agent可验证性、信任认证和部署前保障的研究，表明行业正加速推动Agent的工程化。然而，Claude Code的安全漏洞和关于Token成本的讨论，凸显了在Agent大规模部署前，安全、成本和信任问题亟待解决。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/endava-frontiers"
-        },
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.04990"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.04037"
-        }
-      ]
-    },
-    {
-      "title": "开源社区正积极构建AI基础设施，从推理引擎到安全工具全面覆盖",
-      "summary": "过去24小时内，多个开源项目涌现，包括修复LLM流中截断JSON的反向代理、本地LLM推理引擎、零依赖幻觉检测器以及针对Apple Silicon的LLM基准测试工具。这表明社区正从多个维度（性能、可靠性、安全性）完善AI开发生态。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/tensorhq/suture-stream-repair"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/zhongkaifu/TensorSharp"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/malaxiya202505https:/github.com/malaxiya20250530-glitch/anchor-llm-in-truth"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/john-rocky/apple-silicon-llm-bench"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
