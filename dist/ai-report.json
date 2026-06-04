@@ -1,94 +1,59 @@
 {
-  "global_brief": "今日AI领域持续涌现大量研究进展，涵盖Agent系统、模型安全与推理效率，同时社区讨论聚焦于AI工具的实际应用与监管。OpenAI与Anthropic联合签署防止AI开发生物武器的公开信，标志着行业在安全治理上迈出关键一步。",
+  "global_brief": "过去24小时，AI领域持续主导技术动态，多篇研究聚焦于大语言模型的安全、推理效率与智能体系统。OpenAI 发布了 GPT-Rosalind 在生命科学领域的新能力，同时一项关于 AI 辅助编程工具被黑客利用传播恶意软件的报告引发了安全关注。此外，关于 Token 倒卖灰色产业链的报道也揭示了 AI 产业背后的成本与商业风险。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 44316,
-      "event_count": 750
+      "field_score": 43370,
+      "event_count": 736
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1665,
-      "event_count": 36
+      "field_score": 1756,
+      "event_count": 38
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1397,
-      "event_count": 35
+      "field_score": 1747,
+      "event_count": 44
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 778,
-      "event_count": 15
+      "field_score": 729,
+      "event_count": 14
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 581,
-      "event_count": 11
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 628,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "summary": "How Endava is redesigning software delivery around AI agents；Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows…",
+      "title": "OpenAI 发布 GPT-Rosalind 在生命科学领域的新能力",
+      "summary": "OpenAI 宣布为 GPT-Rosalind 引入新功能，旨在增强其在生物学推理、药物化学和基因组学方面的能力。",
       "references": [
         {
           "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/endava-frontiers"
-        },
-        {
-          "source_name": "ByteByteGo",
-          "link": "https://blog.bytebytego.com/p/how-openai-built-its-data-agent"
-        }
-      ]
-    },
-    {
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
-      "summary": "5 ways Google Search can level up your thrift and vintage shopping；Dreambeans is a curated list of AI-illustrated \"stories\" culled from the personal data in your Google account.；G…",
-      "references": [
-        {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon"
-        },
-        {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers"
-        }
-      ]
-    },
-    {
-      "title": "OckBench: Measuring the Efficiency of LLM Reasoning",
-      "summary": "arXiv:2511.05722v3 Announce Type: replace-cross Abstract: Large language models (LLMs) such as GPT-5 and Gemini 3 have…；OckBench: Measuring the Efficiency of LLM Reasoning",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2511.05722"
-        }
-      ]
-    },
-    {
-      "title": "The Invisible Lottery: How Subtle Cues Steer Algorithm Choice in LLM Code Generation",
-      "summary": "arXiv:2606.04057v1 Announce Type: cross Abstract: Large language models (LLMs) now generate substantial production code…；The Invisible Lottery: How Subtle Cues Steer Algorithm Cho…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.04057"
+          "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 编程工具的普及正带来新的安全攻击面",
+      "summary": "黑客针对 Gemini CLI 和 Claude Code 等热门 AI 编程工具设计钓鱼攻击，表明随着开发者对 AI 工具的依赖加深，供应链安全风险正从代码库扩展到开发工具本身。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/960/100.htm"
+        }
+      ]
+    }
+  ]
 }
