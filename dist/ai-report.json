@@ -1,55 +1,65 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导技术动态，多篇研究聚焦于LLM推理效率、安全性与Agent系统。OpenAI与Endava合作探索AI Agent重构软件交付，同时长安汽车成为重庆首家通过国家生成式AI备案的车企。安全方面，黑客利用Gemini CLI与Claude Code热潮散播恶意木马，而Anthropic、Google DeepMind等巨头已开始研究“AI意识”问题。",
+  "global_brief": "过去24小时，AI领域持续主导全球科技动态，OpenAI提出“主动式AI”作为继聊天机器人和智能体之后的下一阶段发展方向，同时Anthropic的Claude Code被曝存在严重安全漏洞，引发对AI开发工具安全性的广泛讨论。此外，Token倒卖产业链的曝光揭示了AI服务成本压力下的灰色市场，而长安汽车自研大模型获批则标志着国内AI在垂直行业的合规化落地加速。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 43644,
+      "field_score": 42606,
       "event_count": 738
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1821,
-      "event_count": 40
+      "field_score": 1946,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1527,
-      "event_count": 38
+      "field_score": 1723,
+      "event_count": 43
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 767,
-      "event_count": 16
+      "field_score": 729,
+      "event_count": 15
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 737,
-      "event_count": 14
+      "field_score": 670,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Endava与OpenAI合作，利用AI Agent重构软件交付",
-      "summary": "咨询公司Endava正与OpenAI合作，利用AI Agent、ChatGPT Enterprise和Codex加速软件交付流程，并分享了如何构建其数据Agent的经验。",
+      "title": "OpenAI CEO Sam Altman 提出“主动式AI”为下一阶段发展方向",
+      "summary": "在OpenAI的企业活动上，CEO Sam Altman提出了AI产品开发的三阶段理论，认为继聊天机器人和AI智能体之后，行业下一阶段将是“主动式AI”。",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/endava-frontiers"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/960/168.htm"
         },
         {
-          "source_name": "ByteByteGo",
-          "link": "https://blog.bytebytego.com/p/how-openai-built-its-data-agent"
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/110698"
         }
       ]
     },
     {
-      "title": "长安天枢大模型通过国家生成式AI备案审批",
-      "summary": "长安汽车宣布其全栈自研的“天枢大模型”正式通过国家网信办备案审批，成为重庆首家通过国家级备案的车企。",
+      "title": "Anthropic 的 Claude Code GitHub Action 存在严重安全漏洞",
+      "summary": "安全研究人员发现Anthropic的Claude Code GitHub Action存在一个漏洞，攻击者可通过一个恶意Issue接管易受攻击的仓库。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+        }
+      ]
+    },
+    {
+      "title": "长安汽车自研“天枢大模型”通过国家生成式AI备案审批",
+      "summary": "长安汽车宣布其全栈自研的长安天枢大模型已正式通过国家网信办“生成式人工智能服务”备案审批，成为重庆首家通过国家级备案的车企。",
       "references": [
         {
           "source_name": "IT之家",
@@ -58,50 +68,8 @@
       ]
     },
     {
-      "title": "黑客利用Gemini CLI与Claude Code热潮散播恶意木马",
-      "summary": "随着AI辅助编程工具Gemini CLI与Claude Code热度攀升，黑客已开始设计钓鱼网站，利用这些工具散播恶意木马。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/960/100.htm"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出OckBench基准，衡量LLM推理效率",
-      "summary": "一项新研究提出了OckBench基准，旨在衡量GPT-5和Gemini 3等大型语言模型的推理效率。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2511.05722"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示LLM代码生成中细微线索如何影响算法选择",
-      "summary": "一项研究揭示了在LLM代码生成过程中，细微的上下文线索如何像“隐形彩票”一样，显著影响模型对算法的选择。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.04057"
-        }
-      ]
-    },
-    {
-      "title": "研究提出MENTOR框架，用于发现和缓解LLM的隐含领域风险",
-      "summary": "一项新研究提出了MENTOR框架，这是一种元认知驱动的自我进化方法，旨在发现并缓解大型语言模型中的隐含领域风险。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2511.07107"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "Token倒卖生意火爆，反映大模型应用成本压力",
-      "summary": "随着AI应用普及，Token作为核心流通货币，其高昂成本催生了隐秘的倒卖生意，一个AI SaaS创业者月消耗Token价值可达上万元，这凸显了当前大模型推理成本对下游应用的制约。",
+      "title": "大模型Token倒卖产业链曝光，成本压力催生灰色市场",
+      "summary": "报道揭示了大模型时代Token作为重要流通货币，其高昂价格催生了隐秘的倒卖生意，一个AI SaaS创业者每月可能消耗价值上万元的Token。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
@@ -110,43 +78,69 @@
       ]
     },
     {
-      "title": "巨头研究“AI意识”表明AI安全与伦理讨论进入新阶段",
-      "summary": "Anthropic、Google DeepMind和Meta等公司开始聘请心理学、哲学专家研究机器意识，这标志着行业对AI风险的关注已从功能性安全扩展到更深层次的伦理和福利问题。",
+      "title": "美国科技行业5月裁员38,242人，AI成为最主要原因",
+      "summary": "据Tom's Hardware报道，美国科技行业在5月份裁员38,242人，AI被列为裁员的最主要原因。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/tech-sector-cut-us-jobs-by-38242-in-may"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic、谷歌DeepMind等巨头开始研究“AI意识”",
+      "summary": "据报道，Anthropic、谷歌DeepMind和Meta等公司已开始聘请心理学、哲学和伦理学专家，研究机器意识及AI福利问题。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/960/158.htm"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "多项研究聚焦LLM量化安全，模型压缩或引入新攻击面",
-      "summary": "近期多项研究（如Widening the Gap、Recover-LoRA）指出，LLM量化在提升效率的同时，可能引入新的安全漏洞，例如通过异常值注入进行攻击，这提示模型部署需权衡效率与鲁棒性。",
+      "title": "AI开发工具的安全性问题正成为行业焦点",
+      "summary": "继Anthropic的Claude Code被曝出严重漏洞后，社区对AI辅助编程工具的安全性关注度显著提升。同时，关于Codex额度消耗过快和“倒卖Token”的讨论，反映出开发者在使用这些工具时面临成本与安全性的双重挑战。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.15152"
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
         },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.04238"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1217886"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48395460"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2306997"
+        },
+        {
+          "source_name": "V2EX 最热",
+          "link": "https://v2ex.com/t/1217904"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3773875"
         }
       ]
     },
     {
-      "title": "开源LLM安全行为存在领域依赖性，透明度缺口亟待解决",
-      "summary": "一项对12B和70B开源模型的研究发现，其安全合规行为在不同领域表现不一致，存在“透明度缺口”，这为模型在实际部署中的可靠性带来了不确定性。",
+      "title": "AI Agent 正从概念走向工程化落地，但安全与信任仍是关键瓶颈",
+      "summary": "从OpenAI的“主动式AI”愿景，到Endava等企业基于AI Agent重构软件交付，再到多项关于Agent可验证性、信任认证和部署前保障的研究，表明行业正加速推动Agent的工程化。然而，Claude Code的安全漏洞和关于Token成本的讨论，凸显了在Agent大规模部署前，安全、成本和信任问题亟待解决。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.04035"
-        }
-      ]
-    },
-    {
-      "title": "Agent系统研究从构建转向信任与验证，企业级部署需求驱动",
-      "summary": "多篇论文（如From Agent Traces to Trust、Toward Pre-Deployment Assurance）聚焦于Agent系统的可追溯性、执行溯源和预部署认证，表明行业正从探索Agent能力转向解决企业级应用中的信任与合规问题。",
-      "references": [
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/endava-frontiers"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+        },
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2606.04990"
@@ -158,20 +152,24 @@
       ]
     },
     {
-      "title": "多模态与推理效率成研究热点，工具调用需“适可而止”",
-      "summary": "多项研究（如SAID、Query-based Cross-Modal Projector）致力于加速扩散语言模型和多模态LLM的推理，同时有研究指出，在推理中并非总是需要调用外部工具，自适应地决定是否使用工具可能更优。",
+      "title": "开源社区正积极构建AI基础设施，从推理引擎到安全工具全面覆盖",
+      "summary": "过去24小时内，多个开源项目涌现，包括修复LLM流中截断JSON的反向代理、本地LLM推理引擎、零依赖幻觉检测器以及针对Apple Silicon的LLM基准测试工具。这表明社区正从多个维度（性能、可靠性、安全性）完善AI开发生态。",
       "references": [
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2606.04974"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/tensorhq/suture-stream-repair"
         },
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2606.04719"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/zhongkaifu/TensorSharp"
         },
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.19852"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/malaxiya202505https:/github.com/malaxiya20250530-glitch/anchor-llm-in-truth"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/john-rocky/apple-silicon-llm-bench"
         }
       ]
     }
