@@ -1,38 +1,74 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，涵盖LLM推理效率、安全性、多模态及Agent系统，同时Google搜索因AI概览被要求整改，OpenAI则发布了前沿AI治理蓝图与生命科学专用模型GPT-Rosalind。 [FACT] TITLE: Google被要求修改AI概览并允许英国出版商选择退出 SUMMARY: 英国监管机构命令Google修改其AI搜索概览，要求提供更清晰的来源链接，并允许英国出版商选择不被AI抓取。该决定基于Google声称用户不想要“大量来源链接”的说法被驳回。 SCORE: 77 ARTICLE_IDS…",
+  "global_brief": "今日AI领域持续涌现大量研究进展，涵盖Agent系统、模型安全与推理效率，同时社区讨论聚焦于AI工具的实际应用与监管。OpenAI与Anthropic联合签署防止AI开发生物武器的公开信，标志着行业在安全治理上迈出关键一步。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 46483,
-      "event_count": 771
+      "field_score": 44316,
+      "event_count": 750
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1826,
-      "event_count": 39
+      "field_score": 1665,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1085,
-      "event_count": 27
+      "field_score": 1397,
+      "event_count": 35
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 616,
-      "event_count": 12
+      "field_score": 778,
+      "event_count": 15
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 562,
-      "event_count": 10
+      "field_score": 581,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
+    {
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "summary": "How Endava is redesigning software delivery around AI agents；Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows…",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/endava-frontiers"
+        },
+        {
+          "source_name": "ByteByteGo",
+          "link": "https://blog.bytebytego.com/p/how-openai-built-its-data-agent"
+        }
+      ]
+    },
+    {
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "summary": "5 ways Google Search can level up your thrift and vintage shopping；Dreambeans is a curated list of AI-illustrated \"stories\" culled from the personal data in your Google account.；G…",
+      "references": [
+        {
+          "source_name": "Google AI Blog",
+          "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon"
+        },
+        {
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers"
+        }
+      ]
+    },
     {
       "title": "OckBench: Measuring the Efficiency of LLM Reasoning",
       "summary": "arXiv:2511.05722v3 Announce Type: replace-cross Abstract: Large language models (LLMs) such as GPT-5 and Gemini 3 have…；OckBench: Measuring the Efficiency of LLM Reasoning",
@@ -50,38 +86,6 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2606.04057"
-        }
-      ]
-    },
-    {
-      "title": "MENTOR: A Metacognition-Driven Self-Evolution Framework for Uncovering and Mitigating Implicit Domain Risks in LLMs",
-      "summary": "arXiv:2511.07107v3 Announce Type: replace Abstract: Ensuring the safety of Large Language Models (LLMs) is critical for…；MENTOR: A Metacognition-Driven Self-Evolution Framework fo…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2511.07107"
-        }
-      ]
-    },
-    {
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
-      "summary": "5 ways Google Search can level up your thrift and vintage shopping；Google must change AI Overviews after claiming users don't want \"lots of sources.\"；Google ordered to put clearer…",
-      "references": [
-        {
-          "source_name": "Google AI Blog",
-          "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon"
-        },
-        {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers"
         }
       ]
     }
