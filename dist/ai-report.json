@@ -1,69 +1,139 @@
 {
-  "global_brief": "今日AI领域持续涌现大量研究进展，涵盖模型安全、Agent系统与量化压缩等方向；同时，Anthropic被曝提交IPO申请并登顶AI Arena排行榜，引发行业关注；安全方面，Claude Code GitHub Action被发现存在严重漏洞，可导致仓库被劫持。",
+  "global_brief": "今日AI领域持续主导技术动态，多项研究聚焦于LLM的安全性、推理效率与Agent能力，同时Anthropic的Claude Code工具曝出严重安全漏洞，引发对AI Agent安全性的广泛讨论。开源社区在模型路由、量化压缩和多模态安全评估方面也取得多项进展。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 57150,
-      "event_count": 942
+      "field_score": 56487,
+      "event_count": 930
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2417,
-      "event_count": 50
+      "field_score": 2457,
+      "event_count": 52
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1572,
-      "event_count": 40
+      "field_score": 1658,
+      "event_count": 42
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 697,
+      "event_count": 13
     },
     {
       "field_key": "science",
       "field_name": "Science",
       "field_score": 696,
       "event_count": 13
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 640,
-      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic被曝提交IPO申请并登顶AI Arena排行榜",
-      "summary": "据社区讨论，Anthropic已提交IPO申请，同时其模型在AI Arena排行榜上位居首位。",
+      "title": "Claude Code GitHub Action存在严重安全漏洞",
+      "summary": "安全研究人员发现Anthropic的Claude Code GitHub Action存在一个漏洞，攻击者可通过单个恶意Issue接管易受攻击的仓库。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://liveclip.substack.com/p/anthropic-files-for-ipo-state-of-ai"
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出利用元学习路由LLM以平衡成本与性能",
+      "summary": "一项新研究（arXiv:2606.06178）提出通过元学习从隐式成本-性能偏好中学习路由LLM，旨在优化模型选择。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.06178"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示线性探针检测的是任务格式而非推理模式",
+      "summary": "一项针对Qwen 14B模型的研究（arXiv:2606.02907）发现，线性探针在LLM隐藏状态中检测到的是任务格式，而非真正的推理模式。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.02907"
+        }
+      ]
+    },
+    {
+      "title": "新攻击方法SlotGCG利用LLM位置脆弱性实现越狱",
+      "summary": "研究（arXiv:2606.05609）提出SlotGCG攻击方法，利用LLM在位置上的脆弱性进行越狱攻击，凸显了模型安全风险。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.05609"
+        }
+      ]
+    },
+    {
+      "title": "研究提出自适应自动线束系统用于Agent持续自我改进",
+      "summary": "一项多来源研究 提出自适应自动线束系统，使Agent系统能在开放式任务流中实现持续的自我改进。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2606.01770"
         },
         {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48403770"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.06056"
+        }
+      ]
+    },
+    {
+      "title": "谷歌Gemini Mac原生应用发布但体验存争议",
+      "summary": "谷歌发布了Gemini的Mac原生应用，但被评论指出其方式“明显谷歌化”且“令人恼火地自以为是”。",
+      "references": [
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://gemini.google/mac"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent安全与可靠性成为行业焦点",
-      "summary": "从Claude Code的漏洞到RAG安全威胁模型的正式化，再到社区对LLM可靠性的普遍失望，表明随着AI Agent的规模化部署，其安全性和可靠性已成为当前最紧迫的挑战之一。",
+      "title": "AI Agent安全风险成为焦点",
+      "summary": "Claude Code的漏洞 与Agentic AI在防御中的安全基础设施讨论 同时出现，表明随着AI Agent从实验走向生产，其安全性和攻击面正成为行业核心关切。",
       "references": [
         {
           "source_name": "The Hacker News",
           "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
         },
         {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html"
+        }
+      ]
+    },
+    {
+      "title": "LLM评估方法面临根本性挑战",
+      "summary": "多项研究指出当前LLM评估的局限性：线性探针可能误读模型内部状态，提示词依赖导致基准测试结果失真，这暗示行业需要更严谨、更鲁棒的评估框架。",
+      "references": [
+        {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2509.20324"
+          "link": "https://arxiv.org/abs/2606.02907"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://umrashrf.github.io/llm-ai-chatbots-are-letting-me-down-every-single-day"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2510.05709"
+        }
+      ]
+    },
+    {
+      "title": "开源AI协作模式与治理结构受关注",
+      "summary": "一项对14个开源大语言模型项目的全面研究 绘制了开源AI中的协作实践、动机和治理模式，表明开源AI社区正在从单纯的技术贡献转向更复杂的组织与治理问题。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2509.25397"
         }
       ]
     }
