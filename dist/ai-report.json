@@ -1,29 +1,29 @@
 {
-  "global_brief": "过去24小时，AI安全与治理成为最核心议题，Anthropic呼吁全球暂停AI开发，同时其Claude Code工具被发现存在严重安全漏洞。在模型层面，多项研究聚焦于LLM的量化压缩、长上下文推理与多模态安全评估，而社区讨论则围绕LLM可靠性、成本下降与Agent应用展开。",
+  "global_brief": "过去24小时，AI领域研究密集发布，涵盖LLM安全性、推理效率与多模态评估，同时出现Claude Code GitHub Action安全漏洞及华为云、高通等产业生态合作动态。安全与效率成为当前技术社区最关注的两大主题。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54847,
-      "event_count": 935
+      "field_score": 54838,
+      "event_count": 931
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1992,
-      "event_count": 42
+      "field_score": 2529,
+      "event_count": 54
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1638,
-      "event_count": 41
+      "field_score": 1550,
+      "event_count": 39
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 748,
-      "event_count": 15
+      "field_score": 674,
+      "event_count": 13
     },
     {
       "field_key": "science",
@@ -34,32 +34,114 @@
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 呼吁全球暂停 AI 开发",
-      "summary": "Anthropic 公开呼吁全球暂停AI开发，称行业需要一个“刹车踏板”。",
+      "title": "Claude Code GitHub Action存在仓库接管漏洞",
+      "summary": "安全研究人员发现Anthropic的Claude Code GitHub Action存在一个漏洞，攻击者可通过单个恶意Issue接管易受攻击的仓库。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://telegraph.co.uk/business/2026/06/04/worlds-most-valuable-ai-start-up-calls-for-global-freeze-in"
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+        }
+      ]
+    },
+    {
+      "title": "新研究揭示LLM越狱攻击方法SlotGCG",
+      "summary": "一项新研究（arXiv:2606.05609）提出了SlotGCG攻击方法，利用LLM中的位置脆弱性实现越狱攻击。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.05609"
+        }
+      ]
+    },
+    {
+      "title": "华为云联合20余家模型厂商发布生态合作计划",
+      "summary": "在华为云INSPIRE创想者大会上，华为云联合智谱、DeepSeek、Kimi等20余家模型厂商发布生态合作计划，旨在共建系统化商业生态。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/960/720.htm"
+        }
+      ]
+    },
+    {
+      "title": "高通宣布车端AI Claw生态计划，将智能体引入座舱",
+      "summary": "高通在2026汽车技术与合作峰会上宣布车端人工智能Claw生态计划，与诚迈科技、斑马智能等企业合作，将智能体AI引入智能座舱。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/960/695.htm"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出LLM成本-性能路由元学习方法",
+      "summary": "一项新研究（arXiv:2606.06178）提出通过元学习从隐式成本-性能偏好中学习路由LLM，以优化模型选择。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.06178"
+        }
+      ]
+    },
+    {
+      "title": "新基准CogManip评估LLM多轮交互中的操纵行为",
+      "summary": "一项新研究（arXiv:2606.06099）提出了CogManip基准，用于评估大语言模型在多轮交互中是否存在隐蔽的心理操纵行为。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.06099"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 安全与治理进入新阶段，行业自律与外部监管并行",
-      "summary": "Anthropic 的“暂停”呼吁与 OpenAI 对政府审查令的服从，以及 Meta 黑客事件引发的讨论，共同表明AI行业正面临前所未有的监管压力，安全已从技术问题上升为治理核心议题。",
+      "title": "AI安全风险从模型层扩展到工具链与供应链",
+      "summary": "从Claude Code的GitHub Action漏洞到SlotGCG越狱攻击，再到RAG安全威胁模型的正式化，AI安全风险正从模型本身向开发工具链、部署环境和数据供应链全面扩散，企业需建立更系统的安全评估框架。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://telegraph.co.uk/business/2026/06/04/worlds-most-valuable-ai-start-up-calls-for-global-freeze-in"
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
         },
         {
-          "source_name": "Hacker News AI",
-          "link": "https://cnbc.com/2026/06/05/openai-trump-ai-model-review-order.html"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.05609"
         },
         {
-          "source_name": "Hacker News AI",
-          "link": "https://technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2509.20324"
+        }
+      ]
+    },
+    {
+      "title": "产业界加速AI落地，生态合作与垂直场景成为关键",
+      "summary": "华为云联合20余家模型厂商、高通推出车端AI生态计划，表明AI产业正从单一模型竞争转向生态共建，智能座舱、企业级Agent等垂直场景成为商业化落地的核心战场。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/960/720.htm"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/960/695.htm"
+        }
+      ]
+    },
+    {
+      "title": "LLM评估基准正面临方法论危机，亟需更严谨的统计框架",
+      "summary": "多项新研究指出，现有LLM基准存在提示依赖、随机坍缩和隐式偏见等问题，并提出了贝叶斯分层模型、多上下文安全评估等新方法，反映出社区对评估结果可靠性的普遍担忧。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2510.05709"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2606.05874"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.05177"
         }
       ]
     }
