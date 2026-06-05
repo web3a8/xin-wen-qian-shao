@@ -1,61 +1,65 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导技术新闻，研究重点集中在LLM的安全性、效率优化与多模态能力上。同时，Anthropic的Claude Code GitHub Action被发现存在严重安全漏洞，凸显了AI Agent部署中的风险。此外，Google发布了原生的Gemini Mac应用，但其体验引发了一些争议。",
+  "global_brief": "过去24小时，AI安全与治理成为最核心议题，Anthropic呼吁全球暂停AI开发，同时其Claude Code工具被发现存在严重安全漏洞。在模型层面，多项研究聚焦于LLM的量化压缩、长上下文推理与多模态安全评估，而社区讨论则围绕LLM可靠性、成本下降与Agent应用展开。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 55601,
-      "event_count": 948
+      "field_score": 54847,
+      "event_count": 935
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2477,
-      "event_count": 53
+      "field_score": 1992,
+      "event_count": 42
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1782,
-      "event_count": 45
+      "field_score": 1638,
+      "event_count": 41
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 748,
+      "event_count": 15
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 713,
-      "event_count": 14
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 634,
-      "event_count": 12
+      "field_score": 672,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Claude Code GitHub Action存在严重安全漏洞",
-      "summary": "安全研究人员发现Anthropic的Claude Code GitHub Action存在一个漏洞，攻击者可通过单个恶意Issue接管易受攻击的仓库。",
+      "title": "Anthropic 呼吁全球暂停 AI 开发",
+      "summary": "Anthropic 公开呼吁全球暂停AI开发，称行业需要一个“刹车踏板”。",
       "references": [
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+          "source_name": "Hacker News AI",
+          "link": "https://telegraph.co.uk/business/2026/06/04/worlds-most-valuable-ai-start-up-calls-for-global-freeze-in"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent安全风险日益凸显",
-      "summary": "从Claude Code的漏洞到关于Agentic AI安全基础设施的讨论，业界普遍认为，在AI Agent能力快速提升的同时，其带来的安全威胁和基础设施要求也变得更加严峻。",
+      "title": "AI 安全与治理进入新阶段，行业自律与外部监管并行",
+      "summary": "Anthropic 的“暂停”呼吁与 OpenAI 对政府审查令的服从，以及 Meta 黑客事件引发的讨论，共同表明AI行业正面临前所未有的监管压力，安全已从技术问题上升为治理核心议题。",
       "references": [
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+          "source_name": "Hacker News AI",
+          "link": "https://telegraph.co.uk/business/2026/06/04/worlds-most-valuable-ai-start-up-calls-for-global-freeze-in"
         },
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html"
+          "source_name": "Hacker News AI",
+          "link": "https://cnbc.com/2026/06/05/openai-trump-ai-model-review-order.html"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos"
         }
       ]
     }
