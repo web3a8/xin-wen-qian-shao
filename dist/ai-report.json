@@ -1,149 +1,53 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，涵盖LLM安全性、推理效率与多模态评估，同时出现Claude Code GitHub Action安全漏洞及华为云、高通等产业生态合作动态。安全与效率成为当前技术社区最关注的两大主题。",
+  "global_brief": "过去24小时的重要动态主要集中在：Can AI Refute Economic Theory? Evidence from Beyond the Knowledge Cutoff；MAI-Thinking-1: Microsoft's New Reasoning Model and What It Means for Developers；Learning to Route LLMs from Implicit Cost-Performance Preferences via Meta-Learning。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 54838,
-      "event_count": 931
+      "field_score": 52600,
+      "event_count": 924
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2529,
-      "event_count": 54
+      "field_score": 2162,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1550,
-      "event_count": 39
+      "field_score": 1512,
+      "event_count": 38
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 674,
-      "event_count": 13
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 738,
+      "event_count": 14
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 672,
+      "field_score": 648,
       "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Claude Code GitHub Action存在仓库接管漏洞",
-      "summary": "安全研究人员发现Anthropic的Claude Code GitHub Action存在一个漏洞，攻击者可通过单个恶意Issue接管易受攻击的仓库。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
-        }
-      ]
+      "title": "The latest AI news we 发布 in May 2026",
+      "summary": "The latest AI news we 发布 in May 2026；时间：2026-06-05T14:45:00.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "新研究揭示LLM越狱攻击方法SlotGCG",
-      "summary": "一项新研究（arXiv:2606.05609）提出了SlotGCG攻击方法，利用LLM中的位置脆弱性实现越狱攻击。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05609"
-        }
-      ]
+      "title": "高通 发布 车端人工智能 Claw 生态计划，将智能体 AI 引入智能座舱",
+      "summary": "高通 发布 车端人工智能 Claw 生态计划，将智能体 AI 引入智能座舱；时间：2026-06-05T11:07:23.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     },
     {
-      "title": "华为云联合20余家模型厂商发布生态合作计划",
-      "summary": "在华为云INSPIRE创想者大会上，华为云联合智谱、DeepSeek、Kimi等20余家模型厂商发布生态合作计划，旨在共建系统化商业生态。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/960/720.htm"
-        }
-      ]
-    },
-    {
-      "title": "高通宣布车端AI Claw生态计划，将智能体引入座舱",
-      "summary": "高通在2026汽车技术与合作峰会上宣布车端人工智能Claw生态计划，与诚迈科技、斑马智能等企业合作，将智能体AI引入智能座舱。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/960/695.htm"
-        }
-      ]
-    },
-    {
-      "title": "新研究提出LLM成本-性能路由元学习方法",
-      "summary": "一项新研究（arXiv:2606.06178）提出通过元学习从隐式成本-性能偏好中学习路由LLM，以优化模型选择。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.06178"
-        }
-      ]
-    },
-    {
-      "title": "新基准CogManip评估LLM多轮交互中的操纵行为",
-      "summary": "一项新研究（arXiv:2606.06099）提出了CogManip基准，用于评估大语言模型在多轮交互中是否存在隐蔽的心理操纵行为。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.06099"
-        }
-      ]
+      "title": "华为云联合 20 余家模型厂商 发布 生态合作计划，将共建系统化商业生态",
+      "summary": "华为云联合 20 余家模型厂商 发布 生态合作计划，将共建系统化商业生态；时间：2026-06-05T13:19:43.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI安全风险从模型层扩展到工具链与供应链",
-      "summary": "从Claude Code的GitHub Action漏洞到SlotGCG越狱攻击，再到RAG安全威胁模型的正式化，AI安全风险正从模型本身向开发工具链、部署环境和数据供应链全面扩散，企业需建立更系统的安全评估框架。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05609"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2509.20324"
-        }
-      ]
-    },
-    {
-      "title": "产业界加速AI落地，生态合作与垂直场景成为关键",
-      "summary": "华为云联合20余家模型厂商、高通推出车端AI生态计划，表明AI产业正从单一模型竞争转向生态共建，智能座舱、企业级Agent等垂直场景成为商业化落地的核心战场。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/960/720.htm"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/960/695.htm"
-        }
-      ]
-    },
-    {
-      "title": "LLM评估基准正面临方法论危机，亟需更严谨的统计框架",
-      "summary": "多项新研究指出，现有LLM基准存在提示依赖、随机坍缩和隐式偏见等问题，并提出了贝叶斯分层模型、多上下文安全评估等新方法，反映出社区对评估结果可靠性的普遍担忧。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2510.05709"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2606.05874"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05177"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
