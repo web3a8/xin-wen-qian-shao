@@ -1,38 +1,48 @@
 {
-  "global_brief": "OpenAI CEO Sam Altman 提出AI产品开发三阶段理论，预测“主动式AI”将成为继聊天机器人和智能体之后的下一个阶段；与此同时，Anthropic的Claude Code被发现存在严重安全漏洞，可被恶意利用接管仓库；多家AI巨头已开始研究“AI意识”问题，聘请心理学和伦理学专家。",
+  "global_brief": "今日AI领域持续主导技术新闻，安全与效率成为两大核心议题：Anthropic的Claude Code GitHub Action被发现存在严重安全漏洞，同时多项研究聚焦于LLM推理效率、量化安全及隐私保护推理。此外，OpenAI推出了增强记忆的ChatGPT新系统，而Google的Gemini原生Mac应用也引发了关于用户体验的讨论。 [FACT] TITLE: Claude Code GitHub Action存在严重安全漏洞 SUMMARY: 安全研究人员发现Anthropic的Claude Code GitHub Action存在一个漏洞，攻击者…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 40887,
-      "event_count": 715
+      "field_score": 42250,
+      "event_count": 735
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1868,
-      "event_count": 41
+      "field_score": 1936,
+      "event_count": 43
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1614,
-      "event_count": 42
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 716,
-      "event_count": 16
+      "field_score": 1359,
+      "event_count": 34
     },
     {
       "field_key": "science",
       "field_name": "Science",
       "field_score": 568,
       "event_count": 11
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 547,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
+    {
+      "title": "LLM API cost attribution playbook for production SaaS teams",
+      "summary": "LLM API cost attribution playbook for production SaaS teams；TL;DR If your SaaS product calls multiple LLM providers, the invoice from OpenAI, Anthropic, Gemini, Bedrock, or OpenRo…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/jacksoul_c3a27b9c8184/llm-api-cost-attribution-playbook-for-production-saas-teams-1inf"
+        }
+      ]
+    },
     {
       "title": "How Endava is redesigning software delivery around AI agents",
       "summary": "How Endava is redesigning software delivery around AI agents；Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows…",
@@ -60,20 +70,6 @@
         {
           "source_name": "The Hacker News",
           "link": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI 奥尔特曼预测：“主动式 AI”将成为聊天机器人和智能体之后的下一阶段",
-      "summary": "IT之家 6 月 4 日消息，在 OpenAI 举办的一场企业活动上，公司 CEO 萨姆 · 奥尔特曼（Sam Altman）提出了 AI 产品开发的三阶段理论。 他认为，继聊天机器人和 AI 智能体（Agent）之后，行业下一阶段的发展…；OpenAI 奥尔特曼预测：“主动式 AI”将成为聊天机器人和智能体之后的下一阶段；OpenAI 扩展 Codex…",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/960/168.htm"
-        },
-        {
-          "source_name": "少数派",
-          "link": "https://sspai.com/post/110698"
         }
       ]
     }
