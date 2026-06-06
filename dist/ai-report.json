@@ -1,41 +1,51 @@
 {
-  "global_brief": "今日AI领域持续主导技术动态，多项研究聚焦于LLM的安全性、效率与成本优化，同时开源模型与Agent框架的社区讨论热度不减。标普500拒绝SpaceX、OpenAI和Anthropic入指的消息引发市场关注，而Roblox发布的大型AI世界模型则遭遇玩家普遍反感。",
+  "global_brief": "今日 AI 领域研究密集，多项新工作聚焦于大语言模型的安全、效率与评估。Anthropic 被曝雇佣 1000 名工程师训练 Claude Code，同时 OpenAI 推出 ChatGPT 锁定模式以增强数据安全。标普 500 拒绝 SpaceX、OpenAI 及 Anthropic 等公司入指，引发市场关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 29073,
-      "event_count": 476
+      "field_score": 25281,
+      "event_count": 429
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1243,
-      "event_count": 31
+      "field_score": 1363,
+      "event_count": 34
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1216,
-      "event_count": 27
+      "field_score": 1237,
+      "event_count": 28
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 666,
-      "event_count": 15
+      "field_score": 628,
+      "event_count": 14
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 448,
-      "event_count": 8
+      "field_score": 395,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "标普500拒绝SpaceX、OpenAI和Anthropic入指",
-      "summary": "标普500指数拒绝了SpaceX的纳入申请，同时也阻止了OpenAI和Anthropic等AI公司进入该指数，这意味着这些公司无法轻易从被动投资者那里获得数十亿美元的资金。",
+      "title": "Can AI Refute Economic Theory? Evidence from Beyond the Knowledge Cutoff",
+      "summary": "arXiv:2606.05383v1 Announce Type: cross Abstract: Can artificial intelligence (AI) refute economic theory? I document e…；Can AI Refute Economic Theory? Evidence from Beyond the Kn…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.05383"
+        }
+      ]
+    },
+    {
+      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+      "summary": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic；SpaceX won’t get easy access to billions of dollars from passive investors.",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -44,114 +54,25 @@
       ]
     },
     {
-      "title": "新研究揭示LLM存在位置性漏洞可被用于越狱攻击",
-      "summary": "一项名为SlotGCG的新研究指出，大型语言模型（LLM）存在位置性漏洞，攻击者可利用该漏洞发起越狱攻击，这为AI安全带来了新的挑战。",
+      "title": "Learning to Route LLMs from Implicit Cost-Performance Preferences via Meta-Learning",
+      "summary": "arXiv:2606.06178v1 Announce Type: cross Abstract: Large language models (LLMs) present a trade-off between performance…；Learning to Route LLMs from Implicit Cost-Performance Prefe…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05609"
+          "link": "https://arxiv.org/abs/2606.06178"
         }
       ]
     },
     {
-      "title": "研究显示线性探针检测到的是任务格式而非推理模式",
-      "summary": "一项针对Qwen 14B模型的研究表明，用于探测LLM隐藏状态的线性探针，实际上检测到的是任务格式，而非模型的推理模式，这对理解LLM内部机制提出了新的疑问。",
+      "title": "Linear Probes Detect Task Format, Not Reasoning Mode in Language Model Hidden States",
+      "summary": "arXiv:2606.02907v2 Announce Type: replace-cross Abstract: Linear probing of large language model (LLM) hidden states is…；Linear Probes Detect Task Format, Not Reasoning Mode in La…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2606.02907"
         }
       ]
-    },
-    {
-      "title": "OpenAI为ChatGPT推出新的锁定模式以防止数据泄露",
-      "summary": "OpenAI已经开始为符合条件的个人用户推出ChatGPT的“锁定模式”，该模式将限制可能用于数据外泄的工具，旨在增强数据安全性。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html"
-        }
-      ]
-    },
-    {
-      "title": "Roblox发布游戏界最大AI世界模型但遭用户普遍反感",
-      "summary": "Roblox发布了其号称游戏界最大的AI世界模型，但该举措在玩家和社区中引发了普遍的负面反应。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://kuber.studio/blog/AI/Roblox-Released-the-Biggest-AI-World-Model-in-Gaming.-Everyone-Hates-It."
-        }
-      ]
-    },
-    {
-      "title": "开发者社区涌现多个开源LLM Agent框架与工具",
-      "summary": "社区中出现了多个新的开源项目，包括用于LLM委托和子Agent编排的Sub-Agent MCP、异步多层记忆框架Sawtooth，以及符合GDPR/EU AI法案的LLM网关ToTra，显示出Agent生态的活跃发展。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/stormaref/Sub-Agent-MCP"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/HtooTayZa/sawtooth-memory"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/SugaC-275/ToTra"
-        }
-      ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "开源模型与成本优化方案正加速挑战闭源API的统治地位",
-      "summary": "多个来源 的讨论和案例表明，通过使用Qwen-Turbo、DeepSeek等开源模型，或增加本地LLM过滤层，开发者可以大幅削减70%以上的API开支。这预示着AI应用的成本结构正在发生根本性变化，开源模型在性价比上的优势将促使更多中小企业和独立开发者从OpenAI/Claude等高价API迁移。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/q409605362/cut-70-llm-api-expense-with-qwen-turbo-deepseek-real-pricing-optimization-case-3jik"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://umrashrf.github.io/large-companies-can-add-a-local-llm-filter-layer-to-considerably-reducing-their-ai-costs"
-        }
-      ]
-    },
-    {
-      "title": "LLM安全研究正从单一攻击转向系统性评估与防御",
-      "summary": "近期多项研究 不仅揭示了新的攻击面（如SlotGCG位置性漏洞、RAG安全威胁模型），还提出了针对性的防御策略（如针对微调后模型错位的训练中防御）。这表明AI安全领域正从发现单一漏洞，转向构建更全面的威胁模型和防御体系，以应对日益复杂的部署环境。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05609"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2509.20324"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2508.06249"
-        }
-      ]
-    },
-    {
-      "title": "Agentic AI的评估与保障成为关键瓶颈",
-      "summary": "社区讨论和学术研究 均指向一个核心问题：如何可靠地评估和保障AI Agent的性能与安全。从“重新思考生成测试的价值”到“预部署保证框架”，再到“工具失败时的动态重规划基准”，都反映出业界正努力解决Agent系统在落地前缺乏有效验证手段的痛点。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://arxiv.org/abs/2602.07900"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.04037"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05806"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
