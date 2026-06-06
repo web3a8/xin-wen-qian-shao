@@ -1,139 +1,78 @@
 {
-  "global_brief": "今日AI领域研究密集发布，涵盖模型安全、推理效率与多模态能力，同时标普500拒绝SpaceX、OpenAI及Anthropic入指，凸显科技巨头在资本市场的准入壁垒。",
+  "global_brief": "今日AI领域研究密集，多项工作聚焦于大语言模型的安全、效率与评估方法，同时开源协作与多智能体系统成为重要趋势。标普500拒绝SpaceX、OpenAI和Anthropic入指，引发对科技公司资本路径的讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30996,
-      "event_count": 505
+      "field_score": 27052,
+      "event_count": 447
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1452,
-      "event_count": 33
+      "field_score": 1361,
+      "event_count": 31
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1199,
+      "field_score": 1221,
       "event_count": 31
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 718,
+      "field_score": 712,
       "event_count": 16
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 597,
+      "field_score": 589,
       "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "标普500拒绝SpaceX、OpenAI及Anthropic入指",
-      "summary": "标普500指数拒绝了SpaceX的纳入申请，同时也阻止了OpenAI和Anthropic的进入，这意味着这些公司无法轻易从被动投资者处获得数十亿美元资金。",
+      "title": "Can AI Refute Economic Theory? Evidence from Beyond the Knowledge Cutoff",
+      "summary": "arXiv:2606.05383v1 Announce Type: cross Abstract: Can artificial intelligence (AI) refute economic theory? I document e…；Can AI Refute Economic Theory? Evidence from Beyond the Kn…",
       "references": [
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/openai-and-anthropic-may-be-rivals-but-their-investors-arent-choosing-sides"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.05383"
         }
       ]
     },
     {
-      "title": "新研究揭示LLM隐藏状态探测的是任务格式而非推理模式",
-      "summary": "一项针对Qwen 14B模型的研究表明，线性探测方法检测到的是语言模型隐藏状态中的任务格式，而非真正的推理模式。",
+      "title": "Learning to Route LLMs from Implicit Cost-Performance Preferences via Meta-Learning",
+      "summary": "arXiv:2606.06178v1 Announce Type: cross Abstract: Large language models (LLMs) present a trade-off between performance…；Learning to Route LLMs from Implicit Cost-Performance Prefe…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.06178"
+        }
+      ]
+    },
+    {
+      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+      "summary": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic；SpaceX won’t get easy access to billions of dollars from passive investors.",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms"
+        }
+      ]
+    },
+    {
+      "title": "Linear Probes Detect Task Format, Not Reasoning Mode in Language Model Hidden States",
+      "summary": "arXiv:2606.02907v2 Announce Type: replace-cross Abstract: Linear probing of large language model (LLM) hidden states is…；Linear Probes Detect Task Format, Not Reasoning Mode in La…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2606.02907"
         }
       ]
-    },
-    {
-      "title": "研究者提出利用位置脆弱性对LLM进行越狱攻击的新方法",
-      "summary": "一项名为SlotGCG的新研究揭示了大型语言模型在位置上的脆弱性，并利用此漏洞开发了越狱攻击方法。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05609"
-        }
-      ]
-    },
-    {
-      "title": "对Gemini模型的谄媚行为进行多维度纵向审计",
-      "summary": "一项针对Google Gemini模型的审计研究发现了“粒度差距”，即模型在提供高风险建议时存在谄媚行为。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05183"
-        }
-      ]
-    },
-    {
-      "title": "研究者提出基于图引导的超低位宽量化方法",
-      "summary": "一项新研究提出了Minimizing the Hidden Cost of Scales方法，通过图引导技术实现大型语言模型的超低位宽量化，以降低部署成本。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05429"
-        }
-      ]
-    },
-    {
-      "title": "多智能体经济系统在3B模型上成功运行",
-      "summary": "Hugging Face博客发布了一项成果，名为“Thousand Token Wood”，成功在一个3B参数模型上运行了多智能体经济系统。",
-      "references": [
-        {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim"
-        }
-      ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "LLM安全研究从宏观对齐转向微观漏洞挖掘",
-      "summary": "近期多项研究（如SlotGCG越狱攻击、Gemini谄媚审计、RAG安全威胁模型）表明，AI安全研究正从宏观的对齐策略转向对模型内部机制和特定应用场景的微观漏洞挖掘，这预示着未来安全防护将更加精细化。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05609"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05183"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2509.20324"
-        }
-      ]
-    },
-    {
-      "title": "开源社区正推动AI应用向轻量化与专业化发展",
-      "summary": "从3B模型运行多智能体经济到针对特定领域（如鸟类识别、音乐生成）的模型研究，开源社区正推动AI从追求通用大模型转向更轻量、更专业化的应用，这有助于降低AI使用门槛并拓展应用场景。",
-      "references": [
-        {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.05522"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.07294"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
