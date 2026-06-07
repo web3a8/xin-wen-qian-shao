@@ -1,51 +1,41 @@
 {
-  "global_brief": "AI领域持续主导全球科技动态，模型能力竞争白热化，OpenAI计划对ChatGPT进行史上最大规模改版，将其转型为集编程与智能体于一体的“超级应用”，同时华为云发布Agentic AI新入口“智果园”，行业正加速向智能体与多模型集成方向演进。",
+  "global_brief": "今日AI领域动态密集，华为云发布Agentic AI新入口“智果园”，支持调用DeepSeek、Kimi等模型，标志着云服务向智能体时代加速演进。同时，OpenAI推出ChatGPT“锁定模式”以防御提示注入攻击，并计划对ChatGPT进行史上最大规模升级，将其转型为“超级应用”。此外，OpenAI自研芯片项目关键人物“002号员工”Clive Chan已转投Anthropic，引发行业对人才流动的关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 4539,
-      "event_count": 87
+      "field_score": 6266,
+      "event_count": 119
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1675,
-      "event_count": 43
+      "field_score": 1583,
+      "event_count": 41
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 515,
-      "event_count": 12
+      "field_score": 678,
+      "event_count": 16
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 355,
-      "event_count": 8
+      "field_score": 390,
+      "event_count": 9
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 129,
-      "event_count": 3
+      "field_score": 270,
+      "event_count": 6
     }
   ],
   "highlight_facts": [
     {
-      "title": "2026年中盘点：国内外十大AI大模型全能横评",
-      "summary": "一份全面的AI大模型评测显示，MiniMax M3在编程领域登顶，Claude Opus在推理方面封王，DeepSeek以性价比著称，Gemini在多模态能力上表现突出。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/guangying8hao/2026nian-zhong-pan-dian-guo-nei-wai-shi-da-aida-mo-xing-quan-neng-heng-ping-shui-cai-shi-zhen-zheng-de-liu-bian-xing-zhan-shi--4mlo"
-        }
-      ]
-    },
-    {
       "title": "华为云发布Agentic AI新入口“智果园”",
-      "summary": "华为云推出面向Agentic AI时代的全新云入口“智果园”，支持调用DeepSeek、Kimi等第三方模型，并集成了代码、办公和文档智能体。",
+      "summary": "华为云发布全新云入口“智果园”，支持调用DeepSeek、Kimi等模型，并集成云码道CodeArts代码智能体、华为云OfficeAce办公智能体和WorkAgent文档智能体。",
       "references": [
         {
           "source_name": "IT之家",
@@ -54,46 +44,72 @@
       ]
     },
     {
-      "title": "OpenAI计划对ChatGPT进行发布以来最大规模改版",
-      "summary": "据英国金融时报报道，OpenAI计划将ChatGPT转型为集编程工具与AI智能体于一体的“超级应用”，旨在增加收入并争取高利润企业客户。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3774032"
-        },
-        {
-          "source_name": "华尔街见闻实时快讯",
-          "link": "https://wallstreetcn.com/livenews/3115520"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI推出Lockdown Mode以防御提示注入攻击",
-      "summary": "OpenAI推出了Lockdown Mode，旨在保护敏感数据免受提示注入攻击，尽管该模式仍可能存在漏洞，但目标是降低攻击可能性。",
+      "title": "OpenAI推出“锁定模式”防御提示注入攻击",
+      "summary": "OpenAI推出ChatGPT“锁定模式”（Lockdown Mode），旨在保护敏感数据免受提示注入攻击，但该模式仍存在被绕过的可能性。",
       "references": [
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks"
         }
       ]
+    },
+    {
+      "title": "OpenAI自研芯片“002号员工”转投Anthropic",
+      "summary": "OpenAI自研芯片项目关键人物Clive Chan宣布离开OpenAI，并于本周正式加入Anthropic，其履历包括特斯拉、谷歌、SpaceX等公司。",
+      "references": [
+        {
+          "source_name": "Readhub 热门",
+          "link": "https://readhub.cn/topic/8tl8u2yTi5p"
+        },
+        {
+          "source_name": "今日热榜 - 36氪",
+          "link": "https://36kr.com/p/3842475940268552"
+        }
+      ]
+    },
+    {
+      "title": "Meta巨型AI数据中心正在重塑路易斯安那州乡村",
+      "summary": "Meta在路易斯安那州乡村建设的大型AI数据中心正在对当地产生深远影响。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://bloomberg.com/features/2026-meta-facebook-ai-data-center-louisiana"
+        }
+      ]
+    },
+    {
+      "title": "Qwen 3.7Max高考数学评估得分114分",
+      "summary": "社区对Qwen 3.7Max进行高考数学评估，初步意见为114分，测试环境包括Claude Code和Reasoning Max。",
+      "references": [
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2325174"
+        }
+      ]
+    },
+    {
+      "title": "AgentCrew发布：面向AI编程智能体的Markdown优先操作系统",
+      "summary": "开发者发布AgentCrew，一个以Markdown为先的操作系统，专为AI编程智能体设计。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/mlguyYT/AgentCrew"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "OpenAI“超级应用”战略与华为“智果园”模式，预示AI平台化竞争加剧",
-      "summary": "OpenAI计划将ChatGPT升级为“超级应用”，而华为云则推出开放的“智果园”平台，两者代表了AI平台化的两种路径：封闭生态的深度整合与开放生态的多模型集成。这预示着未来AI竞争将从模型能力转向平台生态和商业模式的较量。",
+      "title": "AI Agent生态正从模型层向平台层和工具层快速演进",
+      "summary": "华为云“智果园”的发布、AgentCrew等工具的涌现，以及OpenAI计划将ChatGPT升级为“超级应用”，共同表明AI Agent的竞争已不再局限于模型本身，而是转向构建集成了编程、办公、文档等多种能力的综合性平台和开发工具。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/961/185.htm"
         },
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3774032"
-        },
-        {
-          "source_name": "华尔街见闻实时快讯",
-          "link": "https://wallstreetcn.com/livenews/3115520"
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/mlguyYT/AgentCrew"
         },
         {
           "source_name": "Readhub 热门",
