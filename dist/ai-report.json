@@ -1,78 +1,87 @@
 {
-  "global_brief": "OpenAI 正计划对 ChatGPT 进行上线以来最大规模的升级，将其转型为集成编程工具与 AI 智能体的“超级应用”，以提升营收并争取企业客户。与此同时，社区围绕 AI 编程工具的使用边界、安全风险及开发者未来角色展开了广泛讨论。此外，中国央行连续第 19 个月增持黄金，显示出持续的战略储备调整。 [FACT] TITLE: OpenAI 计划将 ChatGPT 升级为超级应用 SUMMARY: 据英国《金融时报》报道，OpenAI 计划对 ChatGPT 进行发布以来最大规模的改版，将其转…",
+  "global_brief": "OpenAI 正计划对 ChatGPT 进行上线以来最大规模升级，将其转型为集成编程工具与 AI 智能体的“超级应用”，以提升营收并争取企业客户。与此同时，OpenAI 芯片项目关键人物“002 号员工”Clive Chan 已离职并加入 Anthropic，而社区围绕本地 LLM 部署、AI 编码依赖度以及 LLM 安全性的讨论也持续升温。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7815,
-      "event_count": 142
+      "field_score": 7235,
+      "event_count": 137
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1708,
-      "event_count": 43
+      "field_score": 1726,
+      "event_count": 44
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 522,
-      "event_count": 13
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 442,
-      "event_count": 10
+      "field_score": 660,
+      "event_count": 16
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 361,
-      "event_count": 8
+      "field_score": 547,
+      "event_count": 12
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 392,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "消息称 OpenAI 将对 ChatGPT 进行大升级，将其打造为超级应用",
-      "summary": "IT之家 6 月 7 日消息，据英国《金融时报》周日报道，OpenAI 计划对 ChatGPT 开展迄今为止规模最大的一次升级改造，打算将其打造为超级应用，新增代码开发工具与 AI 智能体功能，以期在潜在上市前提升营收。 IT之家注意到，…；消息称 OpenAI 将对 ChatGPT 进行大升级，将其打造为超级应用",
+      "title": "OpenAI 计划将 ChatGPT 升级为“超级应用”",
+      "summary": "据英国《金融时报》报道，OpenAI 计划对 ChatGPT 进行自 2022 年上线以来最大规模升级，将其转型为集编程工具与 AI 智能体于一体的“超级应用”，旨在提升营收并争取高利润企业客户。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/961/077.htm"
-        }
-      ]
-    },
-    {
-      "title": "Stop Blaming the Model: Write the Doc First, Then Let Cursor Chew On It",
-      "summary": "I've been using Cursor and Claude Code for a few months now, and somewhere around week six I noticed something weird. T…；Stop Blaming the Model: Write the Doc First, Then Let Curs…",
-      "references": [
+        },
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ninghonggang/stop-blaming-the-model-write-the-doc-first-then-let-cursor-chew-on-it-599o"
-        }
-      ]
-    },
-    {
-      "title": "Her · हेर — a detective for your Claude Code sessions",
-      "summary": "Her · हेर — a detective for your Claude Code sessions",
-      "references": [
+          "source_name": "第一财经最新",
+          "link": "https://yicai.com/news/103218752.html"
+        },
         {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/build-small-hackathon/her-blog"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
-      "summary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likeliho…；OpenAI unveils Lockdown Mode to protect sensitive data fro…",
-      "references": [
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3774032"
+        },
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks"
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3115520"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "OpenAI 的“超级应用”战略与人才流失形成对比",
+      "summary": "OpenAI 一边通过将 ChatGPT 升级为“超级应用”来追求商业化和高利润企业客户，另一边其芯片项目核心成员却转投竞争对手 Anthropic。这种战略扩张与核心人才流失的并存，可能影响其长期技术自主性和硬件布局。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/961/077.htm"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3774032"
+        },
+        {
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3115520"
+        },
+        {
+          "source_name": "Readhub 热门",
+          "link": "https://readhub.cn/topic/8tl8u2yTi5p"
+        },
+        {
+          "source_name": "今日热榜 - 36氪",
+          "link": "https://36kr.com/p/3842475940268552"
+        }
+      ]
+    }
+  ]
 }
