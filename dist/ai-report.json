@@ -1,72 +1,46 @@
 {
-  "global_brief": "OpenAI 正计划对 ChatGPT 进行上线以来最大规模改版，将其转型为集成编程工具与 AI 智能体的“超级应用”，同时推出了旨在防止数据泄露的 Lockdown Mode。与此同时，Anthropic 的 Claude Code 被曝存在可能导致 GitHub 凭证泄露的漏洞，引发了关于 AI 工具安全性的广泛讨论。此外，中国央行连续第 19 个月增持黄金，显示出持续的战略储备调整。",
+  "global_brief": "OpenAI 计划对 ChatGPT 进行发布以来最大规模改版，将其转型为集成编程工具与 AI 智能体的“超级应用”，同时推出 Lockdown Mode 以防范提示注入攻击。社区侧围绕 AI 智能体工具链、LLM 推理优化及模型安全展开密集讨论，多个开源项目获得关注。此外，中国央行连续第19个月增持黄金，显示持续的战略储备调整。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7506,
-      "event_count": 138
+      "field_score": 7215,
+      "event_count": 131
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1616,
-      "event_count": 40
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 601,
-      "event_count": 12
+      "field_score": 1766,
+      "event_count": 44
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 509,
-      "event_count": 13
+      "field_score": 608,
+      "event_count": 15
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 300,
-      "event_count": 7
+      "field_score": 358,
+      "event_count": 8
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 167,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "微软警告称 ClaudeCode 存在漏洞，可能导致 GitHub 账号凭证泄露",
-      "summary": "IT之家 6 月 7 日消息，微软研究人员发现，Anthropic 旗下 Claude Code 的 GitHub 自动化流程存在一处漏洞，该漏洞可能导致持续集成 / 持续部署（CI / CD）工作流中的机密信息泄露，攻击者或可通过提示词…；微软警告称 ClaudeCode 存在漏洞，可能导致 GitHub 账号凭证泄露",
+      "title": "OpenAI 计划将 ChatGPT 升级为超级应用，集成编程工具与 AI 智能体",
+      "summary": "据英国《金融时报》报道，OpenAI 计划对 ChatGPT 进行发布以来最大规模改版，将其转型为集编程工具与 AI 智能体于一体的“超级应用”，旨在提升营收并争取高利润企业客户。",
       "references": [
         {
           "source_name": "IT之家",
-          "link": "https://ithome.com/0/960/994.htm"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
-      "summary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likeliho…；OpenAI unveils Lockdown Mode to protect sensitive data fro…",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks"
-        }
-      ]
-    },
-    {
-      "title": "Five labs, five minds: building a multi-model finance drama on small models",
-      "summary": "Five labs, five minds: building a multi-model finance drama on small models",
-      "references": [
-        {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI计划对ChatGPT进行发布以来最大规模改版",
-      "summary": "OpenAI计划对ChatGPT进行发布以来最大规模改版；据英国金融时报，OpenAI计划将ChatGPT转型为集编程工具与AI智能体于一体的“超级应用”，并增加高管认为能带来更多收入的产品。；据英国金融时报，OpenAI计划将ChatGPT转型为集编程工具与AI智能体于一体的“超级应用”，并增加高管认为能带来更多收入的产品。 风险提示及免责条款 市场有风…",
-      "references": [
+          "link": "https://ithome.com/0/961/077.htm"
+        },
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3774032"
@@ -74,9 +48,204 @@
         {
           "source_name": "华尔街见闻实时快讯",
           "link": "https://wallstreetcn.com/livenews/3115520"
+        },
+        {
+          "source_name": "Readhub 热门",
+          "link": "https://readhub.cn/topic/8tlCsENHyEB"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2321775"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 为 ChatGPT 推出 Lockdown Mode 以防范数据泄露",
+      "summary": "OpenAI 已开始为符合条件的个人用户推出 ChatGPT Lockdown Mode，该模式旨在限制可能被用于数据外泄的工具，以防范提示注入攻击。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html"
+        }
+      ]
+    },
+    {
+      "title": "中国央行连续第19个月增持黄金",
+      "summary": "中国央行数据显示，5月末黄金储备报7496万盎司（约2331.52吨），环比增加32万盎司（约9.95吨），为连续第19个月增持。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3774030"
+        },
+        {
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3115513"
+        }
+      ]
+    },
+    {
+      "title": "社区热议 AI 智能体工具链，多个开源项目涌现",
+      "summary": "Hacker News 上多个关于 AI 智能体的开源项目引发讨论，包括用于 LLM 代理的异步分层内存中间件、基于 MCP 的子代理编排工具、以及可让 AI 代理读写 Obsidian 知识库的桥梁工具。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/HtooTayZa/sawtooth-memory"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/stormaref/Sub-Agent-MCP"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/samuraisguilt-jpg/obsidian-agent-bridge"
+        }
+      ]
+    },
+    {
+      "title": "研究提出 Gaia2 基准，用于评估动态异步环境下的 LLM 代理",
+      "summary": "一篇 arXiv 论文提出了 Gaia2 基准，专门用于评估 LLM 代理在动态和异步环境中的表现，反映了对代理能力评估标准化的需求。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2602.11964"
+        }
+      ]
+    },
+    {
+      "title": "OpenCV 5.0 发布，内置 LLM 和 VLM 支持",
+      "summary": "OpenCV 5.0 正式发布，其重写的 DNN 引擎新增了对大语言模型和视觉语言模型的内置支持，标志着计算机视觉库向 AI 模型集成迈出重要一步。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://phoronix.com/news/OpenCV-5.0-Released"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "OpenAI 超级应用战略与安全措施并行，反映 AI 平台商业化与风险控制的矛盾",
+      "summary": "OpenAI 一边推进 ChatGPT 向超级应用转型以增加收入，一边推出 Lockdown Mode 防范数据泄露，这种“加速商业化”与“强化安全”并行的策略，凸显了 AI 平台在追求规模增长时面临的信任与安全挑战。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/961/077.htm"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3774032"
+        },
+        {
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3115520"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html"
+        }
+      ]
+    },
+    {
+      "title": "AI 智能体工具链快速成熟，但安全与可靠性仍是核心争议",
+      "summary": "社区涌现大量 AI 智能体工具（如子代理编排、知识库集成、会话搜索），但与此同时，关于“AI 代理如何花钱”的研究以及“无法通过检测解决灾难性 LLM 故障”的讨论，表明业界对代理的自主决策安全性和系统可靠性存在普遍担忧。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/HtooTayZa/sawtooth-memory"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/stormaref/Sub-Agent-MCP"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/samuraisguilt-jpg/obsidian-agent-bridge"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/izzzzzi/agent-asearch"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://arxiv.org/abs/2604.22750"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/joseteiadirector/teia-igo-vs-claude-opus-4.8/blob/main/README.en.md"
+        }
+      ]
+    },
+    {
+      "title": "LLM 推理优化成为社区焦点，量化与原生推理工具需求旺盛",
+      "summary": "从 GGUF/GPTQ/AWQ 量化指南到纯 CUDA 的 LLM 强化学习训练，再到 PHP 原生推理扩展，社区对 LLM 推理效率、成本优化和本地化部署的关注度持续上升，反映出从“能用”到“用好”的务实转变。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/KJLdefeated/RL.cu"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://vettedconsumer.com/gguf-vs-gptq-vs-awq-the-plain-english-guide-to-llm-quantization-and-which-one-to-pick"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://infer.displace.tech/"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/harshuljain13/llm-inference-at-scale"
+        }
+      ]
+    },
+    {
+      "title": "AI 对开发者认知的影响引发反思，平台治理争议加剧",
+      "summary": "有开发者公开承认“AI 正在腐蚀大脑”，同时 Substack CEO 将一封关于平台漂移的公开信斥为“AI 垃圾”，这两件事共同指向一个趋势：AI 在提升效率的同时，其长期对开发者思维和平台内容生态的负面影响正引发更多反思与争议。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://msn.com/en-us/news/technology/software-developers-admit-that-ai-is-rotting-their-brains/ar-AA237htp"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://substack.com/@cb/note/c-271417569"
+        }
+      ]
+    },
+    {
+      "title": "多模型协作与小型模型应用成为新探索方向",
+      "summary": "Hugging Face 博客介绍了用五个小型模型协作构建金融剧情的实验，同时有研究提出为 LLM 助手添加预测性世界模型，这些探索表明业界正从“单一巨模型”思路转向更灵活、更模块化的多模型协作与轻量化应用。",
+      "references": [
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://zenfox.ai/research/world-model-llm-assistant"
+        }
+      ]
+    },
+    {
+      "title": "AI 代理的商业化落地面临平台封锁与基础设施挑战",
+      "summary": "关于“亚马逊何时能封锁代理型 AI 服务”的法律分析，以及“在隔离 VM 中运行 AI 代理的无服务器基础设施”项目的出现，共同指向 AI 代理在商业化落地过程中面临的平台准入、法律合规和基础设施隔离等现实挑战。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://blog.ericgoldman.org/archives/2026/06/when-can-amazon-block-an-agentic-ai-service-amazon-v-perplexity-guest-blog-post.htm"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://svahnar.com/"
+        }
+      ]
+    }
+  ]
 }
