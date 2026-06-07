@@ -1,41 +1,41 @@
 {
-  "global_brief": "今日AI领域动态密集，华为云发布Agentic AI新入口“智果园”，支持调用DeepSeek、Kimi等模型，标志着云服务向智能体时代加速演进。同时，OpenAI推出ChatGPT“锁定模式”以防御提示注入攻击，并计划对ChatGPT进行史上最大规模升级，将其转型为“超级应用”。此外，OpenAI自研芯片项目关键人物“002号员工”Clive Chan已转投Anthropic，引发行业对人才流动的关注。",
+  "global_brief": "华为云发布Agentic AI入口“智果园”，支持调用DeepSeek、Kimi等模型；OpenAI推出Lockdown Mode防御提示注入，并计划将ChatGPT升级为“超级应用”；社区热议本地LLM部署与AI编码工具的使用边界，同时OpenAI芯片项目核心成员转投Anthropic引发关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6266,
-      "event_count": 119
+      "field_score": 7391,
+      "event_count": 133
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1583,
+      "field_score": 1563,
       "event_count": 41
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 678,
-      "event_count": 16
+      "field_score": 497,
+      "event_count": 12
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 390,
+      "field_score": 403,
       "event_count": 9
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 270,
-      "event_count": 6
+      "field_score": 317,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "华为云发布Agentic AI新入口“智果园”",
-      "summary": "华为云发布全新云入口“智果园”，支持调用DeepSeek、Kimi等模型，并集成云码道CodeArts代码智能体、华为云OfficeAce办公智能体和WorkAgent文档智能体。",
+      "title": "华为云发布Agentic AI入口“智果园”",
+      "summary": "华为云发布全新云入口“智果园”，支持调用DeepSeek、Kimi等模型，并集成云码道CodeArts代码智能体、OfficeAce办公智能体和WorkAgent文档智能体。",
       "references": [
         {
           "source_name": "IT之家",
@@ -44,8 +44,8 @@
       ]
     },
     {
-      "title": "OpenAI推出“锁定模式”防御提示注入攻击",
-      "summary": "OpenAI推出ChatGPT“锁定模式”（Lockdown Mode），旨在保护敏感数据免受提示注入攻击，但该模式仍存在被绕过的可能性。",
+      "title": "OpenAI推出Lockdown Mode防御提示注入",
+      "summary": "OpenAI推出Lockdown Mode，旨在保护敏感数据免受提示注入攻击，但承认该模式下ChatGPT仍可能被攻破。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -54,8 +54,22 @@
       ]
     },
     {
-      "title": "OpenAI自研芯片“002号员工”转投Anthropic",
-      "summary": "OpenAI自研芯片项目关键人物Clive Chan宣布离开OpenAI，并于本周正式加入Anthropic，其履历包括特斯拉、谷歌、SpaceX等公司。",
+      "title": "社区展示RTX 5090上本地LLM最佳部署方案",
+      "summary": "开发者展示在RTX 5090消费级硬件上，通过llama.cpp分支和turboquant量化方案，成功运行Qwen 3.6 Q6等开源模型，取得良好本地推理效果。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://local-llm.utop.workers.dev/"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48434185"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI芯片项目核心成员转投Anthropic",
+      "summary": "OpenAI自研芯片项目“002号员工”Clive Chan宣布离开OpenAI，本周正式加入Anthropic，其履历包括特斯拉、谷歌、SpaceX等公司。",
       "references": [
         {
           "source_name": "Readhub 热门",
@@ -68,52 +82,88 @@
       ]
     },
     {
-      "title": "Meta巨型AI数据中心正在重塑路易斯安那州乡村",
-      "summary": "Meta在路易斯安那州乡村建设的大型AI数据中心正在对当地产生深远影响。",
+      "title": "OpenAI计划将ChatGPT升级为“超级应用”",
+      "summary": "OpenAI正准备对ChatGPT进行上线以来最大幅度升级，计划将其转型为整合编程工具与AI智能体的“超级应用”，以争取高利润企业客户。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://bloomberg.com/features/2026-meta-facebook-ai-data-center-louisiana"
+          "source_name": "Readhub 热门",
+          "link": "https://readhub.cn/topic/8tlCsENHyEB"
         }
       ]
     },
     {
-      "title": "Qwen 3.7Max高考数学评估得分114分",
-      "summary": "社区对Qwen 3.7Max进行高考数学评估，初步意见为114分，测试环境包括Claude Code和Reasoning Max。",
-      "references": [
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2325174"
-        }
-      ]
-    },
-    {
-      "title": "AgentCrew发布：面向AI编程智能体的Markdown优先操作系统",
-      "summary": "开发者发布AgentCrew，一个以Markdown为先的操作系统，专为AI编程智能体设计。",
+      "title": "开发者展示自托管AI智能体AbTARS",
+      "summary": "开发者展示AbTARS，一个具有持久记忆和五层自愈能力的自托管AI智能体，引发社区对本地化AI代理的关注。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://github.com/mlguyYT/AgentCrew"
+          "link": "https://github.com/aksika/abtars"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent生态正从模型层向平台层和工具层快速演进",
-      "summary": "华为云“智果园”的发布、AgentCrew等工具的涌现，以及OpenAI计划将ChatGPT升级为“超级应用”，共同表明AI Agent的竞争已不再局限于模型本身，而是转向构建集成了编程、办公、文档等多种能力的综合性平台和开发工具。",
+      "title": "本地LLM部署与云服务形成双轨竞争格局",
+      "summary": "华为云等厂商推出集成多模型的Agentic云入口，而社区则通过llama.cpp等工具在消费级硬件上实现高效本地推理，表明AI应用正同时向云端平台化和本地私有化两个方向演进，用户可根据对成本、隐私和延迟的需求选择不同路径。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/961/185.htm"
         },
         {
+          "source_name": "Hacker News LLM",
+          "link": "https://local-llm.utop.workers.dev/"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48434185"
+        }
+      ]
+    },
+    {
+      "title": "AI编码工具普及引发“无AI编码”反思",
+      "summary": "社区中关于“谁还在不用AI编码”的讨论热度高，反映出AI编码工具（如Claude Code、GitHub Copilot）的普及已让部分开发者产生依赖，同时也促使另一部分开发者反思纯手工编码的价值和必要性。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48432990"
+        }
+      ]
+    },
+    {
+      "title": "LLM推理成本优化成为行业焦点",
+      "summary": "多篇研究论文和社区讨论聚焦于LLM推理成本，包括提示缓存、价格演化、以及减少Web自动化中的重跑次数，表明随着模型部署规模扩大，降低推理成本已成为AI应用商业化和普及化的关键瓶颈。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2603.28576"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2604.09718"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://weidongzhou.wordpress.com/2026/06/06/deep-dive-into-llm-token-cost-blog-series-part-2-how-prompt-caching-actually-works"
+        }
+      ]
+    },
+    {
+      "title": "AI智能体从实验走向工程化，可观测性需求凸显",
+      "summary": "多个项目（如AbTARS、AgentCrew、Context Mode Insight）展示了AI智能体在持久记忆、自愈、可观测性等方面的工程化进展，表明社区正从构建单一智能体转向构建可运维、可调试的智能体系统。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/aksika/abtars"
+        },
+        {
           "source_name": "Hacker News AI",
           "link": "https://github.com/mlguyYT/AgentCrew"
         },
         {
-          "source_name": "Readhub 热门",
-          "link": "https://readhub.cn/topic/8tlCsENHyEB"
+          "source_name": "Hacker News AI",
+          "link": "https://context-mode.com/"
         }
       ]
     }
