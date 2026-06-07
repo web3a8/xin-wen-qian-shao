@@ -1,52 +1,77 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：消息称 OpenAI 将对 ChatGPT 进行大升级，将其打造为超级应用；OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks；fix(doctor): merge legacy codex models safely。",
+  "global_brief": "OpenAI 正计划对 ChatGPT 进行上线以来最大规模的升级，将其转型为集成编程工具与 AI 智能体的“超级应用”，以提升营收并争取企业客户。与此同时，社区围绕 AI 编程工具的使用边界、安全风险及开发者未来角色展开了广泛讨论。此外，中国央行连续第 19 个月增持黄金，显示出持续的战略储备调整。 [FACT] TITLE: OpenAI 计划将 ChatGPT 升级为超级应用 SUMMARY: 据英国《金融时报》报道，OpenAI 计划对 ChatGPT 进行发布以来最大规模的改版，将其转…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7852,
-      "event_count": 148
+      "field_score": 7815,
+      "event_count": 142
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1630,
-      "event_count": 41
+      "field_score": 1708,
+      "event_count": 43
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 504,
+      "field_score": 522,
       "event_count": 13
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 380,
-      "event_count": 8
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 301,
-      "event_count": 7
+      "field_score": 442,
+      "event_count": 10
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 361,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI计划对ChatGPT进行 发布 以来最大规模改版",
-      "summary": "OpenAI计划对ChatGPT进行 发布 以来最大规模改版；时间：2026-06-07T04:45:29.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "消息称 OpenAI 将对 ChatGPT 进行大升级，将其打造为超级应用",
+      "summary": "IT之家 6 月 7 日消息，据英国《金融时报》周日报道，OpenAI 计划对 ChatGPT 开展迄今为止规模最大的一次升级改造，打算将其打造为超级应用，新增代码开发工具与 AI 智能体功能，以期在潜在上市前提升营收。 IT之家注意到，…；消息称 OpenAI 将对 ChatGPT 进行大升级，将其打造为超级应用",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/961/077.htm"
+        }
+      ]
     },
     {
-      "title": "OpenAI 发布 Lockdown Mode to protect sensitive data from prompt injection attacks",
-      "summary": "OpenAI 发布 Lockdown Mode to protect sensitive data from prompt injection attacks；时间：2026-06-06T20:32:24.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Stop Blaming the Model: Write the Doc First, Then Let Cursor Chew On It",
+      "summary": "I've been using Cursor and Claude Code for a few months now, and somewhere around week six I noticed something weird. T…；Stop Blaming the Model: Write the Doc First, Then Let Curs…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/ninghonggang/stop-blaming-the-model-write-the-doc-first-then-let-cursor-chew-on-it-599o"
+        }
+      ]
     },
     {
-      "title": "消息称 OpenAI 将对 ChatGPT 进行大 更新 将其打造为超级应用",
-      "summary": "消息称 OpenAI 将对 ChatGPT 进行大 更新 将其打造为超级应用；时间：2026-06-07T06:29:40.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Her · हेर — a detective for your Claude Code sessions",
+      "summary": "Her · हेर — a detective for your Claude Code sessions",
+      "references": [
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/build-small-hackathon/her-blog"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "summary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likeliho…；OpenAI unveils Lockdown Mode to protect sensitive data fro…",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
