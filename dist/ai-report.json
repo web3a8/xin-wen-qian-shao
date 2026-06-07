@@ -1,50 +1,62 @@
 {
-  "global_brief": "OpenAI 正计划对 ChatGPT 进行上线以来最大规模升级，将其转型为集成编程工具与 AI 智能体的“超级应用”，以提升营收并争取企业客户。与此同时，OpenAI 芯片项目关键人物“002 号员工”Clive Chan 已离职并加入 Anthropic，而社区围绕本地 LLM 部署、AI 编码依赖度以及 LLM 安全性的讨论也持续升温。",
+  "global_brief": "AI领域持续主导全球科技动态，模型能力竞争白热化，OpenAI计划对ChatGPT进行史上最大规模改版，将其转型为集编程与智能体于一体的“超级应用”，同时华为云发布Agentic AI新入口“智果园”，行业正加速向智能体与多模型集成方向演进。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7235,
-      "event_count": 137
+      "field_score": 4539,
+      "event_count": 87
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1726,
-      "event_count": 44
+      "field_score": 1675,
+      "event_count": 43
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 660,
-      "event_count": 16
+      "field_score": 515,
+      "event_count": 12
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 547,
-      "event_count": 12
+      "field_score": 355,
+      "event_count": 8
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 392,
-      "event_count": 9
+      "field_score": 129,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 计划将 ChatGPT 升级为“超级应用”",
-      "summary": "据英国《金融时报》报道，OpenAI 计划对 ChatGPT 进行自 2022 年上线以来最大规模升级，将其转型为集编程工具与 AI 智能体于一体的“超级应用”，旨在提升营收并争取高利润企业客户。",
+      "title": "2026年中盘点：国内外十大AI大模型全能横评",
+      "summary": "一份全面的AI大模型评测显示，MiniMax M3在编程领域登顶，Claude Opus在推理方面封王，DeepSeek以性价比著称，Gemini在多模态能力上表现突出。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/guangying8hao/2026nian-zhong-pan-dian-guo-nei-wai-shi-da-aida-mo-xing-quan-neng-heng-ping-shui-cai-shi-zhen-zheng-de-liu-bian-xing-zhan-shi--4mlo"
+        }
+      ]
+    },
+    {
+      "title": "华为云发布Agentic AI新入口“智果园”",
+      "summary": "华为云推出面向Agentic AI时代的全新云入口“智果园”，支持调用DeepSeek、Kimi等第三方模型，并集成了代码、办公和文档智能体。",
       "references": [
         {
           "source_name": "IT之家",
-          "link": "https://ithome.com/0/961/077.htm"
-        },
-        {
-          "source_name": "第一财经最新",
-          "link": "https://yicai.com/news/103218752.html"
-        },
+          "link": "https://ithome.com/0/961/185.htm"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI计划对ChatGPT进行发布以来最大规模改版",
+      "summary": "据英国金融时报报道，OpenAI计划将ChatGPT转型为集编程工具与AI智能体于一体的“超级应用”，旨在增加收入并争取高利润企业客户。",
+      "references": [
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3774032"
@@ -54,16 +66,26 @@
           "link": "https://wallstreetcn.com/livenews/3115520"
         }
       ]
+    },
+    {
+      "title": "OpenAI推出Lockdown Mode以防御提示注入攻击",
+      "summary": "OpenAI推出了Lockdown Mode，旨在保护敏感数据免受提示注入攻击，尽管该模式仍可能存在漏洞，但目标是降低攻击可能性。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "OpenAI 的“超级应用”战略与人才流失形成对比",
-      "summary": "OpenAI 一边通过将 ChatGPT 升级为“超级应用”来追求商业化和高利润企业客户，另一边其芯片项目核心成员却转投竞争对手 Anthropic。这种战略扩张与核心人才流失的并存，可能影响其长期技术自主性和硬件布局。",
+      "title": "OpenAI“超级应用”战略与华为“智果园”模式，预示AI平台化竞争加剧",
+      "summary": "OpenAI计划将ChatGPT升级为“超级应用”，而华为云则推出开放的“智果园”平台，两者代表了AI平台化的两种路径：封闭生态的深度整合与开放生态的多模型集成。这预示着未来AI竞争将从模型能力转向平台生态和商业模式的较量。",
       "references": [
         {
           "source_name": "IT之家",
-          "link": "https://ithome.com/0/961/077.htm"
+          "link": "https://ithome.com/0/961/185.htm"
         },
         {
           "source_name": "华尔街见闻最新资讯",
@@ -75,11 +97,7 @@
         },
         {
           "source_name": "Readhub 热门",
-          "link": "https://readhub.cn/topic/8tl8u2yTi5p"
-        },
-        {
-          "source_name": "今日热榜 - 36氪",
-          "link": "https://36kr.com/p/3842475940268552"
+          "link": "https://readhub.cn/topic/8tlCsENHyEB"
         }
       ]
     }
