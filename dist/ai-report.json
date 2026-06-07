@@ -1,59 +1,86 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导技术社区讨论，焦点集中在Agentic AI的落地、本地LLM部署优化以及AI编程工具的深度影响。华为云发布Agentic AI入口“智果园”，支持调用DeepSeek、Kimi等模型，标志着云服务向智能体时代的转型。同时，社区围绕“AI是否取代开发者”以及“如何检测和防范LLM灾难性故障”等议题展开激烈辩论，反映出行业对AI能力边界与风险的深度思考。",
+  "global_brief": "今日 AI 领域动态密集，华为云发布 Agentic AI 入口“智果园”，英伟达与 SK 海力士达成多年期技术合作，同时 OpenAI 芯片项目核心成员转投 Anthropic，社区侧则围绕本地 LLM 部署、推理成本优化及 OpenAI 漏洞展开热议。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6785,
-      "event_count": 121
+      "field_score": 6240,
+      "event_count": 119
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1525,
-      "event_count": 41
+      "field_score": 1335,
+      "event_count": 36
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 616,
-      "event_count": 15
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 264,
-      "event_count": 6
+      "field_score": 795,
+      "event_count": 19
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 257,
-      "event_count": 6
+      "field_score": 343,
+      "event_count": 8
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 226,
+      "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "华为云发布Agentic AI入口“智果园”",
-      "summary": "华为云发布全新云入口“智果园”，支持调用DeepSeek、Kimi等模型，并提供云码道CodeArts代码智能体、华为云OfficeAce办公智能体和WorkAgent文档智能体，旨在为Agentic AI时代提供一站式云服务。",
+      "title": "支持调用 Deepseek、Kimi 等模型，Agentic 华为云入口“智果园”发布",
+      "summary": "IT之家 6 月 7 日消息，华为云现已针对 Agentic AI 时代发布全新云入口“智果园”，新产品支持云码道 CodeArts 代码智能体、华为云 OfficeAce 办公智能体和 WorkAgent 文档智能体。 据介绍，智果园拥…；支持调用 Deepseek、Kimi 等模型，Agentic 华为云入口“智果园”发布",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/961/185.htm"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "Agentic AI暴露了软件工程中的其他根本问题",
-      "summary": "有观点认为，Agentic AI虽然解决了编码问题，但同时也暴露了软件工程中除编码之外的其他所有问题，如需求理解、系统设计和运维等，这暗示着AI的进步正在迫使行业重新审视软件开发的整体流程。",
+      "title": "Amazing Digital Dentures (a failed project)",
+      "summary": "Amazing Digital Dentures (a failed project)",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://venturebeat.com/technology/agentic-ai-solved-coding-and-exposed-every-other-problem-in-software-engineering"
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures"
+        }
+      ]
+    },
+    {
+      "title": "英伟达与SK海力士宣布达成多年期技术合作伙伴关系",
+      "summary": "英伟达与SK海力士宣布达成多年期技术合作伙伴关系；英伟达和SK海力士宣布建立多年技术合作，推进人工智能工厂所需的记忆体。SK海力士将与英伟达共同开发用于英伟达Vera Rubin、Vera CPU、RTX Spark和Jetson Thor的记忆体。；英伟达和SK海力士宣布建立多年技术合作，推进人工智能工厂所需的记忆体。SK海力士将与英伟达共同开发用于英伟…",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3774048"
+        },
+        {
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3115662"
+        }
+      ]
+    },
+    {
+      "title": "Show HN: Best setup local LLM found for a 5090 (llama.cpp fork + turboquant)",
+      "summary": "Hi folks, I found this setup on consummer hardware that seems to have great results on local hardware. - qwen 3.6 q6 -…；Show HN: Best setup local LLM found for a 5090 (llama.cpp f…",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://local-llm.utop.workers.dev/"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48434185"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
