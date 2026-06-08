@@ -1,62 +1,77 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：秘密会议、高管出局、押注谷歌Gemini——新Siri能否救赎库克的最后一战？；From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging；Fine-Tuning and Serving Gemma 4 31B on Google Cloud TPU: A Technical Comparison with GPU Baselines。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM推理优化、多模态模型幻觉检测与Agent工作流调度上。同时，月之暗面被曝寻求高达20亿美元融资，估值达300亿美元，引发市场关注。苹果WWDC前夕，Siri的全面重构被视为其AI战略的关键一战。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33148,
-      "event_count": 549
+      "field_score": 33286,
+      "event_count": 557
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1558,
-      "event_count": 39
+      "field_score": 1690,
+      "event_count": 42
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1061,
-      "event_count": 23
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 689,
-      "event_count": 13
+      "field_score": 1100,
+      "event_count": 24
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 646,
+      "field_score": 698,
+      "event_count": 14
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 683,
       "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "秘密会议、高管出局、押注谷歌Gemini——新Siri能否救赎库克的最后一战？",
-      "summary": "秘密会议、高管出局、押注谷歌Gemini——新Siri能否救赎库克的最后一战？；苹果公司在人工智能领域的全面落后，正在以一场高层重组和产品大换血的方式寻求翻盘。据彭博报道，这场迟来的自救始于2025年初一次秘密高层会议，终点则是本周一全球开发者大会（WWDC）上即将亮相的全新Siri。 6月7日，据彭博披露，这次会议…",
-      "references": []
-    },
-    {
       "title": "From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging",
-      "summary": "arXiv:2606.00357v2 Announce Type: replace Abstract: Training strong large language models (LLMs) requires high-quality…；From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging",
-      "references": []
+      "summary": "arXiv:2606.00357v2 Announce Type: replace Abstract: Training strong large language models (LLMs) requires high-quality…；From \"Weak\" Signals to Strong Models: Preference Delta Aggr…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.00357"
+        }
+      ]
     },
     {
       "title": "Fine-Tuning and Serving Gemma 4 31B on Google Cloud TPU: A Technical Comparison with GPU Baselines",
-      "summary": "arXiv:2605.25645v3 Announce Type: replace-cross Abstract: We present the first end-to-end demonstration of fine-tuning…；Fine-Tuning and Serving Gemma 4 31B on Google Cloud TPU: A Technical Comparison with GPU Baselines",
-      "references": []
+      "summary": "arXiv:2605.25645v3 Announce Type: replace-cross Abstract: We present the first end-to-end demonstration of fine-tuning…；Fine-Tuning and Serving Gemma 4 31B on Google Cloud TPU: A…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.25645"
+        }
+      ]
     },
     {
       "title": "A Comprehensive Anatomy of Human and DeepSeek-R1 LLM Mathematical Reasoning",
-      "summary": "A Comprehensive Anatomy of Human and DeepSeek-R1 LLM Mathematical Reasoning；arXiv:2606.07410v1 Announce Type: cross Abstract: The emergence of \"Aha moments\" in large language models, particularly…",
-      "references": []
+      "summary": "A Comprehensive Anatomy of Human and DeepSeek-R1 LLM Mathematical Reasoning；arXiv:2606.07410v1 Announce Type: cross Abstract: The emergence of \"Aha moments\" in large language mode…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.07410"
+        }
+      ]
     },
     {
       "title": "Scalable Joint Resource Allocation for SLO-Constrained LLM Inference in Heterogeneous GPU Clouds",
-      "summary": "arXiv:2604.07472v2 Announce Type: replace Abstract: Serving large language model (LLM) inference in cloud environments…；Scalable Joint Resource Allocation for SLO-Constrained LLM Inference in Heterogeneous GPU Clouds",
-      "references": []
+      "summary": "arXiv:2604.07472v2 Announce Type: replace Abstract: Serving large language model (LLM) inference in cloud environments…；Scalable Joint Resource Allocation for SLO-Constrained LLM…",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2604.07472"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
