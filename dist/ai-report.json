@@ -1,41 +1,51 @@
 {
-  "global_brief": "今日AI领域研究密集发布，重点围绕LLM推理效率、多模态理解与Agent能力评估，同时OpenAI宣布ChatGPT将迎来史上最大改版，向“超级应用”转型，引发社区广泛讨论。",
+  "global_brief": "AI领域持续主导今日动态，大量研究聚焦于LLM推理效率、量化压缩与Agent安全控制。社区侧涌现多个针对AI Agent的运行时安全工具，同时关于LLM在医疗、法律等专业领域应用可靠性的讨论升温。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 34162,
-      "event_count": 587
+      "field_score": 34114,
+      "event_count": 579
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1378,
-      "event_count": 34
+      "field_score": 1420,
+      "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1068,
-      "event_count": 24
+      "field_score": 1409,
+      "event_count": 32
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 727,
-      "event_count": 14
+      "field_score": 677,
+      "event_count": 13
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 640,
-      "event_count": 13
+      "field_score": 553,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "研究提出偏好Delta聚合与LoRA合并方法，从弱信号构建强模型",
-      "summary": "一项新研究 提出通过偏好Delta聚合与LoRA合并技术，从弱信号中训练出强大的大语言模型，相关论文已发布在arXiv。",
+      "title": "Telegram Integration - 0$ Personal Agentic AI Assistant - Part 5",
+      "summary": "Introduction Part 5 of the Zero Dollar AI Assistant series - Your Personal AI Assistant via Telegram — Always On. Part…；Telegram Integration - 0$ Personal Agentic AI Assistant - P…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/akdevcraft/telegram-integration-0-personal-agentic-ai-assistant-part-5-4m2n"
+        }
+      ]
+    },
+    {
+      "title": "From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging",
+      "summary": "arXiv:2606.00357v2 Announce Type: replace Abstract: Training strong large language models (LLMs) requires high-quality…；From \"Weak\" Signals to Strong Models: Preference Delta Aggr…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -44,8 +54,8 @@
       ]
     },
     {
-      "title": "研究首次端到端展示在Google Cloud TPU上微调与部署Gemma 4 31B",
-      "summary": "一项技术报告 首次展示了在Google Cloud TPU上对Gemma 4 31B模型进行微调和服务的完整流程，并与GPU基线进行了技术对比。",
+      "title": "Fine-Tuning and Serving Gemma 4 31B on Google Cloud TPU: A Technical Comparison with GPU Baselines",
+      "summary": "arXiv:2605.25645v3 Announce Type: replace-cross Abstract: We present the first end-to-end demonstration of fine-tuning…；Fine-Tuning and Serving Gemma 4 31B on Google Cloud TPU: A…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,86 +64,15 @@
       ]
     },
     {
-      "title": "研究深入剖析人类与DeepSeek-R1 LLM的数学推理过程",
-      "summary": "一项新研究 对人类和DeepSeek-R1大语言模型的数学推理进行了全面解剖，探讨了“顿悟时刻”等现象。",
+      "title": "A Comprehensive Anatomy of Human and DeepSeek-R1 LLM Mathematical Reasoning",
+      "summary": "A Comprehensive Anatomy of Human and DeepSeek-R1 LLM Mathematical Reasoning；arXiv:2606.07410v1 Announce Type: cross Abstract: The emergence of \"Aha moments\" in large language mode…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2606.07410"
         }
       ]
-    },
-    {
-      "title": "新基准测试评估前沿LLM及Agent在研究生命周期中的表现",
-      "summary": "一项新研究 提出了名为“Act As a Real Researcher”的基准测试套件，用于评估前沿大语言模型和Agent系统在整个研究生命周期中的能力。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.07462"
-        }
-      ]
-    },
-    {
-      "title": "研究提出AAAC方法实现4-bit LLM权重量化",
-      "summary": "一项新研究 提出了AAAC（Activation-Aware Adaptive Codebooks）方法，用于大语言模型的4-bit权重量化，旨在提升推理效率。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2605.08692"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI计划对ChatGPT进行史上最大改版，转型为“超级应用”",
-      "summary": "据央视财经报道，OpenAI即将对ChatGPT进行自2022年上线以来规模最大的升级，计划将其从单一聊天机器人转型为整合编程工具等功能的“超级应用”，新版将在未来几周内逐步上线。",
-      "references": [
-        {
-          "source_name": "今日热榜 - 36氪",
-          "link": "https://36kr.com/p/3844133886396936"
-        }
-      ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "Agent竞赛白热化，行业加速远超预期",
-      "summary": "行业观察 指出，Agent领域的竞争已进入白热化阶段，Claude Code、Codex、Cursor等工具贴身肉搏，整个行业的加速快得“不讲道理”，编程赛道变得异常拥挤。",
-      "references": [
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1668337"
-        }
-      ]
-    },
-    {
-      "title": "本地AI模型声称超越顶级模型引发社区质疑",
-      "summary": "Hacker News上的一则讨论 关注到一个声称能击败GPT 5.5和Opus 4.7的本地AI模型，社区对此类未经广泛验证的宣称普遍持怀疑态度。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://old.reddit.com/r/Hugston/comments/1u04e3p/local_ai_model_claim_to_beat_gpt_55"
-        }
-      ]
-    },
-    {
-      "title": "DeepSeek的低成本模式面临持续投入挑战",
-      "summary": "一篇分析文章 指出，DeepSeek虽然通过技术创新大幅降低了AI成本，但为了维持这种低成本优势，未来仍需投入数十亿美元的资金。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://chinacompany.substack.com/p/deepseek-made-ai-cheap-now-it-needs"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent无法解决“意图债务”问题",
-      "summary": "一篇技术博客 认为，尽管AI Agent能力日益强大，但它们无法帮助解决软件开发中的“意图债务”问题，即需求不明确或目标模糊带来的长期成本。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://addyosmani.com/blog/intent-debt"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
