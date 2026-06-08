@@ -1,75 +1,83 @@
 {
-  "global_brief": "本周AI领域焦点从模型性能转向实际部署与生态建设，华为云发布Agentic AI入口“智果园”，苹果WWDC推出Siri 2.0，同时社区热议Agent技能成为新“包”管理现象，以及本地LLM部署方案的优化。",
+  "global_brief": "今日AI领域持续主导技术社区讨论，多个开源项目与前沿研究涌现，同时关于AI安全与物理瓶颈控制的宏观讨论升温。国内方面，国家主席习近平已启程对朝鲜进行国事访问。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7119,
-      "event_count": 127
+      "field_score": 7895,
+      "event_count": 146
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1158,
-      "event_count": 30
+      "field_score": 1695,
+      "event_count": 43
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 626,
+      "field_score": 622,
       "event_count": 15
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 258,
-      "event_count": 6
+      "field_score": 545,
+      "event_count": 13
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 226,
-      "event_count": 5
+      "field_score": 146,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "支持调用 Deepseek、Kimi 等模型，Agentic 华为云入口“智果园”发布",
-      "summary": "IT之家 6 月 7 日消息，华为云现已针对 Agentic AI 时代发布全新云入口“智果园”，新产品支持云码道 CodeArts 代码智能体、华为云 OfficeAce 办公智能体和 WorkAgent 文档智能体。 据介绍，智果园拥…；支持调用 Deepseek、Kimi 等模型，Agentic 华为云入口“智果园”发布",
+      "title": "Amazing Digital Dentures (a failed project)",
+      "summary": "Amazing Digital Dentures (a failed project)",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/961/185.htm"
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures"
         }
       ]
     },
     {
-      "title": "GeekNews AI Weekly Deep Dive - 2026-06-08",
-      "summary": "GeekNews AI Weekly Deep Dive - 2026-06-08；이번 주 AI 이슈는 모델 성능보다 실제 도입의 주변 조건이 더 크게 보인 한 주였습니다. 신규 대졸자 고용과 HN 논쟁은 AI가 노동시장과 개발자 문화에 미치는 긴장을 보여줬고, Codex 활용 사례와 Claud…",
+      "title": "习近平离京对朝鲜进行国事访问",
+      "summary": "6月8日上午，中共中央总书记、国家主席习近平乘专机离开北京，应朝鲜劳动党总书记、朝鲜民主主义人民共和国国务委员长金正恩邀请，对朝鲜进行国事访问。 陪同出访的有：习近平总书记、国家主席夫人彭丽媛，中共中央政治局常委、中央办公厅主任蔡奇，中共…；习近平离京对朝鲜进行国事访问",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ageofclick/geeknews-ai-weekly-deep-dive-2026-06-08-5hib"
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3115777"
+        },
+        {
+          "source_name": "澎湃新闻头条",
+          "link": "https://m.thepaper.cn/detail/33331700"
         }
       ]
     },
     {
-      "title": "Two agent skills hit GitHub trending the same week. Skills are becoming the new packages, and the dependency graph nobo…",
-      "summary": "The signal hidden in this week's GitHub trending Two agent-shaped repositories cracked the daily GitHub trending board…；Two agent skills hit GitHub trending the same week. Skills…",
+      "title": "AI Code Stitcher",
+      "summary": "AI Code Stitcher；Article URL: https://github.com/ue-patcher/code_stitcher/releases Comments URL: https://news.ycombinator.com/item?id=48…",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/layzerzero105/two-agent-skills-hit-github-trending-the-same-week-skills-are-becoming-the-new-packages-and-the-34ac"
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/ue-patcher/code_stitcher/releases"
         }
       ]
     },
     {
-      "title": "Apple WWDC 2026: Rebuilt Siri, the Extensions API, and What Claude on 1.4 Billion iPhones Means for Developers",
-      "summary": "1.4 billion iPhones. That's how many devices Apple will push Siri 2.0 to this fall—built on a custom 1.2-trillion-param…；Apple WWDC 2026: Rebuilt Siri, the Extensions API, and Wha…",
+      "title": "Running an AI-native engineering org",
+      "summary": "Article URL: https://claude.com/blog/running-an-ai-native-engineering-org Comments URL: https://news.ycombinator.com/it…；Running an AI-native engineering org；Anthropic, please shi…",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/akaranjkar08/apple-wwdc-2026-rebuilt-siri-the-extensions-api-and-what-claude-on-14-billion-iphones-means-for-1c1l"
+          "source_name": "Hacker News AI",
+          "link": "https://claude.com/blog/running-an-ai-native-engineering-org"
+        },
+        {
+          "source_name": "Hacker News 最佳",
+          "link": "https://github.com/anthropics/claude-code/issues/65697"
         }
       ]
     }
