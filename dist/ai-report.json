@@ -1,91 +1,83 @@
 {
-  "global_brief": "OpenAI 已秘密提交 IPO 申请，紧随其主要竞争对手 Anthropic 的步伐，标志着 AI 行业资本化进程加速。与此同时，AI 研究社区在模型推理效率、Agent 框架和多模态能力评估方面涌现大量新成果，行业正从模型能力竞赛转向工程化与安全部署阶段。",
+  "global_brief": "过去24小时，AI领域最重大的动态是OpenAI紧随Anthropic之后，向SEC秘密提交了IPO草案，标志着AI头部公司正式进入资本市场博弈阶段。与此同时，微软GitHub数十个开源项目遭黑客入侵并植入窃取密码的恶意程序，引发了开源供应链安全的广泛担忧。在模型能力方面，一项针对Claude Opus 4、GPT-4.1等主流模型的对抗性测试显示，所有模型均在同一个场景下失效，揭示了当前大语言模型在特定安全边界上的系统性脆弱点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32808,
-      "event_count": 573
+      "field_score": 74546,
+      "event_count": 1195
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1675,
-      "event_count": 37
+      "field_score": 2422,
+      "event_count": 50
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1473,
-      "event_count": 36
+      "field_score": 1512,
+      "event_count": 37
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 598,
-      "event_count": 12
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 818,
+      "event_count": 14
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 572,
-      "event_count": 13
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 790,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI files confidentially for IPO, following Anthropic",
-      "summary": "OpenAI files confidentially for IPO, following Anthropic；The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the rac…；O…",
+      "title": "I Tested Claude Opus 4, GPT-4.1, GPT-4o, Sonnet 4, and Gemini 2.5 Pro on 10 Adversarial Scenarios. They All Broke on th…",
+      "summary": "I Tested Claude Opus 4, GPT-4.1, GPT-4o, Sonnet 4, and Gemini 2.5 Pro on 10 Adversarial Scenarios. They All Broke on th…；TL;DR Last week I benchmarked 5 open-weight models (Llama…",
       "references": [
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/openai-confidentially-files-for-ipo"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/saurav_bhattacharya/i-tested-claude-opus-4-gpt-41-gpt-4o-sonnet-4-and-gemini-25-pro-on-10-adversarial-scenarios-do3"
         }
       ]
     },
     {
-      "title": "Confidential submission of draft S-1 to the SEC",
-      "summary": "Confidential submission of draft S-1 to the SEC；OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.；As OpenAI files for…",
+      "title": "微软 GitHub 数十个开源项目遭黑客入侵，被植入窃取密码的恶意程序",
+      "summary": "IT之家 6 月 9 日消息，微软已封锁其托管在 GitHub 平台上的数十个开源项目访问权限。此前有黑客疑似入侵了这些项目，并在代码中植入窃取密码的恶意程序，微软目前正就此展开调查。 此次受影响的项目大多与微软云服务 Azure，以及开…；微软 GitHub 数十个开源项目遭黑客入侵，被植入窃取密码的恶意程序",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/openai-submits-confidential-s-1"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says"
-        },
-        {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/961/836.htm"
         }
       ]
     },
     {
-      "title": "From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging",
-      "summary": "arXiv:2606.00357v2 Announce Type: replace Abstract: Training strong large language models (LLMs) requires high-quality…；From \"Weak\" Signals to Strong Models: Preference Delta Aggr…",
+      "title": "Evaluating Hallucinations in Domain-Adapted Large Language Models",
+      "summary": "arXiv:2606.07521v1 Announce Type: cross Abstract: This study investigates the phenomenon of hallucinations in domain-ad…；Evaluating Hallucinations in Domain-Adapted Large Language…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.00357"
+          "link": "https://arxiv.org/abs/2606.07521"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2606.09682"
         }
       ]
     },
     {
-      "title": "Fine-Tuning and Serving Gemma 4 31B on Google Cloud TPU: A Technical Comparison with GPU Baselines",
-      "summary": "arXiv:2605.25645v3 Announce Type: replace-cross Abstract: We present the first end-to-end demonstration of fine-tuning…；Fine-Tuning and Serving Gemma 4 31B on Google Cloud TPU: A…",
+      "title": "VideoWeaver: Evaluating and Evolving Skills for Agentic Long Video Generation",
+      "summary": "arXiv:2606.08091v1 Announce Type: new Abstract: Recent agent frameworks such as Claude Code, Codex, and OpenClaw are st…；VideoWeaver: Evaluating and Evolving Skills for Agentic Lo…",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.25645"
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2606.08091"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1668274"
         }
       ]
     }
