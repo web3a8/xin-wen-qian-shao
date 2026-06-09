@@ -1,41 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域IPO浪潮成为最显著动态，继Anthropic之后，OpenAI已秘密提交S-1文件，Perplexity也宣布计划2028年上市。与此同时，学术界密集发布了多项关于大语言模型幻觉评估、安全测试及边缘端推理效率的研究成果。",
+  "global_brief": "今日AI领域动态密集：OpenAI与Anthropic相继秘密提交IPO申请，标志着AI行业进入资本化新阶段；同时，多篇学术论文聚焦大模型幻觉评估、边缘端推理效率及多模态智能体空间推理等前沿方向，安全与可解释性研究也持续升温。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 73747,
-      "event_count": 1234
+      "field_score": 75355,
+      "event_count": 1260
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2384,
-      "event_count": 50
+      "field_score": 2340,
+      "event_count": 49
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1540,
-      "event_count": 37
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 846,
-      "event_count": 17
+      "field_score": 1301,
+      "event_count": 32
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 835,
-      "event_count": 14
+      "field_score": 920,
+      "event_count": 15
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 768,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
     {
       "title": "OpenAI 秘密提交 IPO 申请",
-      "summary": "OpenAI 已向美国证券交易委员会秘密提交了 S-1 草案文件，但尚未确定上市时间。此举紧随其主要竞争对手 Anthropic 提交类似申请之后。",
+      "summary": "OpenAI 已向美国证券交易委员会（SEC）秘密提交了 S-1 表格草案，启动首次公开募股（IPO）流程，但尚未确定具体时间表。",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -46,16 +46,8 @@
           "link": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says"
         },
         {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app"
-        },
-        {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential"
         },
         {
           "source_name": "Wired",
@@ -64,22 +56,18 @@
       ]
     },
     {
-      "title": "Perplexity 宣布 2028 年 IPO 计划",
-      "summary": "人工智能搜索初创公司 Perplexity 首席执行官表示，无论 Anthropic 和 OpenAI 表现如何，公司计划于 2028 年上市。",
+      "title": "Perplexity 计划 2028 年上市",
+      "summary": "人工智能搜索公司 Perplexity 的 CEO 表示，无论竞争对手 Anthropic 和 OpenAI 表现如何，公司计划于 2028 年进行 IPO。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/962/068.htm"
-        },
-        {
-          "source_name": "澎湃新闻头条",
-          "link": "https://m.thepaper.cn/detail/33341826"
         }
       ]
     },
     {
       "title": "研究揭示领域自适应大模型的幻觉问题",
-      "summary": "一项新研究系统性地调查了领域自适应大语言模型中的幻觉现象，并提出了评估方法。",
+      "summary": "一项新研究调查了领域自适应大语言模型中的幻觉现象，并提出了评估方法。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -92,18 +80,8 @@
       ]
     },
     {
-      "title": "新基准测试评估多模态智能体空间推理能力",
-      "summary": "研究团队发布了 SpatialWorld 基准，用于在真实世界任务中评估多模态智能体的交互式空间推理能力。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.09669"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示医疗大模型存在潜在安全缺陷",
-      "summary": "一项压力测试发现，医疗大语言模型在超越基准准确率后，仍存在潜在的安全病理学缺陷。",
+      "title": "研究提出医疗大模型安全压力测试方法",
+      "summary": "一项研究指出，当前基准测试无法完全揭示医疗大语言模型的安全隐患，并提出了新的压力测试方法。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -112,28 +90,34 @@
       ]
     },
     {
-      "title": "边缘端大模型推理效率研究取得进展",
-      "summary": "一项研究探讨了在移动设备、NPU 和 GPU 上部署大语言模型进行持续负载下的性能效率权衡。",
+      "title": "新基准测试多模态智能体空间推理能力",
+      "summary": "研究团队发布了 SpatialWorld 基准，用于评估多模态智能体在真实世界任务中的交互式空间推理能力。",
       "references": [
         {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2603.23640"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.09669"
+        }
+      ]
+    },
+    {
+      "title": "研究提出逻辑驱动的大模型推理可靠性测试方法",
+      "summary": "一项名为 LGMT 的研究提出了基于逻辑的蜕变测试方法，用于评估大语言模型的推理可靠性。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.23965"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 公司扎堆 IPO 预示行业进入资本化新阶段",
-      "summary": "OpenAI、Anthropic 和 Perplexity 等头部 AI 公司密集推进 IPO 计划，表明生成式 AI 行业正从技术竞赛转向资本化竞争，市场对 AI 商业模式的可持续性关注度显著提升。",
+      "title": "AI 公司 IPO 潮预示行业进入资本化新阶段",
+      "summary": "OpenAI 和 Anthropic 在短时间内相继秘密提交 IPO 申请，加上 Perplexity 的明确上市计划，表明头部 AI 公司正加速从风险投资驱动转向公开市场融资，这将对行业竞争格局和估值体系产生深远影响。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/962/068.htm"
-        },
-        {
-          "source_name": "澎湃新闻头条",
-          "link": "https://m.thepaper.cn/detail/33341826"
         },
         {
           "source_name": "OpenAI 博客",
@@ -144,32 +128,48 @@
           "link": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says"
         },
         {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app"
-        },
-        {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo"
-        }
-      ]
-    },
-    {
-      "title": "AI 编码工具竞争已超越单一产品对比",
-      "summary": "行业讨论显示，2026 年的 AI 编码对话已从“Cursor 对比 Claude Code”的单一产品之争，转向更广泛的生态和模式讨论，反映出 AI 辅助开发工具的成熟与分化。",
-      "references": [
+        },
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ninghonggang/the-2026-ai-coding-conversation-has-moved-past-cursor-vs-claude-code-47ig"
+          "source_name": "Wired",
+          "link": "https://wired.com/story/openai-confidentially-files-for-ipo"
         }
       ]
     },
     {
-      "title": "多智能体系统透明度问题引发早期采用者关注",
-      "summary": "一项针对早期采用者的研究指出，构建多智能体大语言模型系统的开发者正面临“第22条军规”式的透明度困境，这将成为该领域发展的关键挑战。",
+      "title": "大模型安全与可靠性研究从“能力测试”转向“病理诊断”",
+      "summary": "多篇研究（如医疗模型压力测试、逻辑推理可靠性测试、文化适应性红队测试）表明，学界正从单纯追求基准分数，转向更深入地诊断模型在特定领域和复杂场景下的系统性缺陷与安全隐患。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.08323"
+          "link": "https://arxiv.org/abs/2606.07929"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2605.23965"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.09178"
+        }
+      ]
+    },
+    {
+      "title": "边缘端与智能体成为大模型部署的两大核心方向",
+      "summary": "从边缘端推理效率研究到智能体驱动的视频生成和空间推理，当前研究热点清晰地指向两个方向：一是让模型在移动设备上高效运行，二是赋予模型在复杂环境中自主执行任务的能力。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2603.23640"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2606.08091"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.09669"
         }
       ]
     }
