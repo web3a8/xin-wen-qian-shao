@@ -1,41 +1,57 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕大语言模型（LLM）的安全性、推理可靠性及多模态能力评估。同时，行业格局出现重大变化，OpenAI紧随Anthropic之后秘密提交IPO申请，标志着AI商业化进入新阶段。边缘端部署与智能体（Agent）技术也持续成为研究热点。",
+  "global_brief": "Anthropic 发布了其首个 Mythos 级模型 Claude Fable 5，同时 OpenAI 紧随其后秘密提交了 IPO 申请，AI 领域的头部竞争进入新阶段。学术界则密集发布了关于 LLM 幻觉评估、边缘端推理效率以及多模态智能体空间推理的系列研究，显示出行业正从模型能力竞赛转向安全、部署与实用性的深度探索。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 74854,
-      "event_count": 1247
+      "field_score": 73460,
+      "event_count": 1258
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2613,
-      "event_count": 55
+      "field_score": 2649,
+      "event_count": 57
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1208,
-      "event_count": 30
+      "field_score": 1166,
+      "event_count": 29
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 868,
-      "event_count": 14
+      "field_score": 899,
+      "event_count": 15
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 837,
-      "event_count": 15
+      "field_score": 772,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI秘密提交IPO申请",
-      "summary": "OpenAI已秘密提交首次公开募股（IPO）申请，紧随其主要竞争对手Anthropic之后，后者在约一周前也采取了类似行动。",
+      "title": "Anthropic 发布首个 Mythos 级模型 Claude Fable 5",
+      "summary": "Anthropic 宣布推出 Claude Fable 5，称其为迄今为止最强大的公开可用模型。该模型配备了新的防护措施，是 Anthropic 首个面向公众的 Mythos 级模型。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "AI 公司 IPO 潮标志着行业从技术竞赛转向资本化阶段",
+      "summary": "OpenAI 和 Anthropic 在短时间内相继秘密提交 IPO 申请，表明领先的 AI 公司正寻求通过公开市场获取巨额资本，以支撑其高昂的模型训练和运营成本，这标志着 AI 行业进入了一个新的资本化竞争阶段。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -47,6 +63,5 @@
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
