@@ -1,41 +1,41 @@
 {
-  "global_brief": "Anthropic 发布了其首个 Mythos 级模型 Claude Fable 5，同时 OpenAI 紧随其后秘密提交了 IPO 申请，AI 领域的头部竞争进入新阶段。学术界则密集发布了关于 LLM 幻觉评估、边缘端推理效率以及多模态智能体空间推理的系列研究，显示出行业正从模型能力竞赛转向安全、部署与实用性的深度探索。",
+  "global_brief": "Anthropic 发布其首个 Mythos 级模型 Claude Fable 5，成为本周最受关注的 AI 事件；同时，Meta 在多项关于 LLM 幻觉、安全性和推理可靠性的研究中占据主导，而 OpenAI、SpaceX 和 Anthropic 的 IPO 动向则预示着科技行业格局的潜在重塑。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 73460,
-      "event_count": 1258
+      "field_score": 73770,
+      "event_count": 1265
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2649,
-      "event_count": 57
+      "field_score": 2551,
+      "event_count": 54
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1166,
-      "event_count": 29
+      "field_score": 1216,
+      "event_count": 31
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 899,
-      "event_count": 15
+      "field_score": 953,
+      "event_count": 16
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 772,
+      "field_score": 770,
       "event_count": 14
     }
   ],
   "highlight_facts": [
     {
       "title": "Anthropic 发布首个 Mythos 级模型 Claude Fable 5",
-      "summary": "Anthropic 宣布推出 Claude Fable 5，称其为迄今为止最强大的公开可用模型。该模型配备了新的防护措施，是 Anthropic 首个面向公众的 Mythos 级模型。",
+      "summary": "Anthropic 宣布推出 Claude Fable 5，称其为公司迄今为止最强大的模型，并已向公众开放。该模型配备了新的防护措施。",
       "references": [
         {
           "source_name": "The Verge",
@@ -46,20 +46,122 @@
           "link": "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "AI 公司 IPO 潮标志着行业从技术竞赛转向资本化阶段",
-      "summary": "OpenAI 和 Anthropic 在短时间内相继秘密提交 IPO 申请，表明领先的 AI 公司正寻求通过公开市场获取巨额资本，以支撑其高昂的模型训练和运营成本，这标志着 AI 行业进入了一个新的资本化竞争阶段。",
+      "title": "研究揭示领域自适应 LLM 的幻觉现象",
+      "summary": "一项新研究（arXiv:2606.07521）调查了领域自适应大型语言模型中的幻觉现象，该研究由 Meta 相关团队进行，并发表于 arXiv。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.07521"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2606.09682"
+        }
+      ]
+    },
+    {
+      "title": "压力测试揭示医学 LLM 存在基准准确率之外的潜在安全病理",
+      "summary": "一项由 Meta 主导的研究（arXiv:2606.07929）对医学大型语言模型进行了压力测试，发现其在标准基准测试之外存在潜在的安全隐患。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.07929"
+        }
+      ]
+    },
+    {
+      "title": "Meta 将利用站外商业数据个性化信息流和 AI",
+      "summary": "Meta 宣布将利用其他企业共享的信息来个性化用户的信息流和 AI 响应，该消息被多家媒体报道。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/946744/meta-website-activity-personalize-feeds"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/06/one-day-after-discovery-meta-pulls-facial-recognition-code-from-its-smart-glasses"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/threats-against-politicians-skyrocketed-after-meta-changed-its-speech-rules"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI、SpaceX 和 Anthropic 等公司筹备 IPO，科技行业或迎来“MANGOS”时代",
+      "summary": "据报道，OpenAI 已秘密提交 IPO 申请，紧随 SpaceX 和 Anthropic 之后，市场开始讨论科技行业从“FAANG”向“MANGOS”的转变。",
       "references": [
         {
           "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo"
+          "link": "https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos"
         },
         {
           "source_name": "Wired",
           "link": "https://wired.com/story/openai-confidentially-files-for-ipo"
+        }
+      ]
+    },
+    {
+      "title": "Google 推出 Gemini 3.5 Live Translate 和 Gemma 4 12B 模型",
+      "summary": "Google DeepMind 发布了 Gemini 3.5 Live Translate，提供近乎实时的自然语音翻译；同时推出了统一的免编码器多模态模型 Gemma 4 12B。",
+      "references": [
+        {
+          "source_name": "Google DeepMind",
+          "link": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate"
+        },
+        {
+          "source_name": "Google DeepMind",
+          "link": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "前沿模型发布与 IPO 热潮预示 AI 行业进入资本密集新阶段",
+      "summary": "Anthropic 发布 Claude Fable 5 的同时，OpenAI 和 SpaceX 也在筹备 IPO，这表明 AI 领域的头部公司正从技术竞赛转向资本市场的角逐，行业格局可能因此重塑。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/openai-confidentially-files-for-ipo"
+        }
+      ]
+    },
+    {
+      "title": "社区对 AI 编码代理的微观变更追踪和上下文管理存在普遍焦虑",
+      "summary": "Hacker News 上的讨论显示，开发者在使用 Claude Code 和 Cursor 等 AI 编码代理时，对如何追踪微观变更以及应对“上下文腐烂”问题感到困扰，这反映出当前 AI 辅助开发工具在工程实践中的痛点。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48462813"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.09090"
+        }
+      ]
+    },
+    {
+      "title": "多智能体系统的透明度问题成为早期采用者的核心关切",
+      "summary": "一项针对多智能体 LLM 系统构建者的研究指出，这些早期采用者正面临一个“第22条军规”式的困境，即如何在系统日益复杂的情况下实现有效的透明度，这凸显了该领域在可解释性方面的根本挑战。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.08323"
         }
       ]
     }
