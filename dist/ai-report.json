@@ -1,83 +1,65 @@
 {
-  "global_brief": "过去24小时，AI领域最重大的动态是OpenAI紧随Anthropic之后，向SEC秘密提交了IPO草案，标志着AI头部公司正式进入资本市场博弈阶段。与此同时，微软GitHub数十个开源项目遭黑客入侵并植入窃取密码的恶意程序，引发了开源供应链安全的广泛担忧。在模型能力方面，一项针对Claude Opus 4、GPT-4.1等主流模型的对抗性测试显示，所有模型均在同一个场景下失效，揭示了当前大语言模型在特定安全边界上的系统性脆弱点。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕大语言模型的幻觉评估、边缘端推理效率、多模态智能体空间推理及安全对齐审计。同时，OpenAI已向SEC秘密提交IPO申请，紧随Anthropic之后，标志着AI行业资本化进程加速。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 74546,
-      "event_count": 1195
+      "field_score": 77303,
+      "event_count": 1258
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2422,
-      "event_count": 50
+      "field_score": 2521,
+      "event_count": 52
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1512,
+      "field_score": 1540,
       "event_count": 37
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 818,
-      "event_count": 14
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 790,
-      "event_count": 15
+      "field_score": 835,
+      "event_count": 16
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 791,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "I Tested Claude Opus 4, GPT-4.1, GPT-4o, Sonnet 4, and Gemini 2.5 Pro on 10 Adversarial Scenarios. They All Broke on th…",
-      "summary": "I Tested Claude Opus 4, GPT-4.1, GPT-4o, Sonnet 4, and Gemini 2.5 Pro on 10 Adversarial Scenarios. They All Broke on th…；TL;DR Last week I benchmarked 5 open-weight models (Llama…",
+      "title": "OpenAI 秘密提交 IPO 申请",
+      "summary": "OpenAI 已向美国证券交易委员会（SEC）秘密提交了 S-1 表格的首次公开募股（IPO）申请，但尚未确定具体时间。此举发生在其主要竞争对手 Anthropic 提交类似申请约一周之后。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/saurav_bhattacharya/i-tested-claude-opus-4-gpt-41-gpt-4o-sonnet-4-and-gemini-25-pro-on-10-adversarial-scenarios-do3"
-        }
-      ]
-    },
-    {
-      "title": "微软 GitHub 数十个开源项目遭黑客入侵，被植入窃取密码的恶意程序",
-      "summary": "IT之家 6 月 9 日消息，微软已封锁其托管在 GitHub 平台上的数十个开源项目访问权限。此前有黑客疑似入侵了这些项目，并在代码中植入窃取密码的恶意程序，微软目前正就此展开调查。 此次受影响的项目大多与微软云服务 Azure，以及开…；微软 GitHub 数十个开源项目遭黑客入侵，被植入窃取密码的恶意程序",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/961/836.htm"
-        }
-      ]
-    },
-    {
-      "title": "Evaluating Hallucinations in Domain-Adapted Large Language Models",
-      "summary": "arXiv:2606.07521v1 Announce Type: cross Abstract: This study investigates the phenomenon of hallucinations in domain-ad…；Evaluating Hallucinations in Domain-Adapted Large Language…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.07521"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/openai-submits-confidential-s-1"
         },
         {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2606.09682"
-        }
-      ]
-    },
-    {
-      "title": "VideoWeaver: Evaluating and Evolving Skills for Agentic Long Video Generation",
-      "summary": "arXiv:2606.08091v1 Announce Type: new Abstract: Recent agent frameworks such as Claude Code, Codex, and OpenClaw are st…；VideoWeaver: Evaluating and Evolving Skills for Agentic Lo…",
-      "references": [
-        {
-          "source_name": "arXiv 计算机视觉",
-          "link": "https://arxiv.org/abs/2606.08091"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says"
         },
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1668274"
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/openai-confidentially-files-for-ipo"
         }
       ]
     }
