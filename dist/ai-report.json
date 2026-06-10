@@ -1,41 +1,41 @@
 {
-  "global_brief": "Anthropic 发布其最强大的 Claude Fable 5 模型，并为其设置了严格的安全护栏，禁止讨论网络安全、生物和化学等危险话题。与此同时，学术界围绕 LLM 智能体安全、推理效率和多模态能力发表了大量新研究，包括针对具身智能体的越狱攻击（BadRobot）和生物安全基准（ABC-Bench）。OpenAI 则展示了其模型在企业级 AI 应用中的落地案例。",
+  "global_brief": "Anthropic 发布了其最强大的 AI 模型 Claude Fable 5，并为其设置了网络安全、生物和化学等高风险话题的对话限制，该模型还被用于编写 LLM 工具的最新版本。与此同时，学术界围绕 LLM 智能体的安全、推理效率及跨语言偏差等方向发布了多项新研究。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 43858,
-      "event_count": 732
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1625,
-      "event_count": 37
+      "field_score": 41750,
+      "event_count": 720
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1548,
-      "event_count": 39
+      "field_score": 1638,
+      "event_count": 41
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 1623,
+      "event_count": 37
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 836,
+      "event_count": 18
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 651,
-      "event_count": 13
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 625,
-      "event_count": 13
+      "field_score": 815,
+      "event_count": 16
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 发布 Claude Fable 5 模型",
-      "summary": "Anthropic 发布了其最强大的 AI 模型 Claude Fable 5，该模型具备网络安全防护功能，其代码几乎完全由新模型编写。",
+      "title": "llm 0.32a3",
+      "summary": "llm 0.32a3；Release: llm 0.32a3 Almost entirely written by the new Claude Fable 5, see my write-up for more details. Tags: project…；Anthropic Releases Claude Fable 5, Its Most Pow…",
       "references": [
         {
           "source_name": "Simon Willison's Blog",
@@ -52,40 +52,39 @@
         {
           "source_name": "IT之家 24h",
           "link": "https://ithome.com/0/962/152.htm"
+        }
+      ]
+    },
+    {
+      "title": "From data to decisions: how LSEG is scaling trusted AI",
+      "summary": "From data to decisions: how LSEG is scaling trusted AI；See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycle…",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/lseg"
+        }
+      ]
+    },
+    {
+      "title": "Instruction Finetuning DeepSeek-R1-8B Model Using LoRA and NEFTune",
+      "summary": "arXiv:2606.10392v1 Announce Type: new Abstract: Financial named-entity recognition (NER) is essential for translating u…；Instruction Finetuning DeepSeek-R1-8B Model Using LoRA and…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.10392"
+        }
+      ]
+    },
+    {
+      "title": "ReflectiChain: Epistemic Grounding in LLM-Driven World Models for Supply Chain Resilience",
+      "summary": "arXiv:2606.10359v1 Announce Type: new Abstract: AI agents in supply chains face a fundamental epistemic gap: large lang…；ReflectiChain: Epistemic Grounding in LLM-Driven World Mod…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.10359"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "前沿模型安全策略分化加剧",
-      "summary": "Anthropic 对 Claude Fable 5 采取主动拒绝危险话题的策略，与 OpenAI 等公司侧重企业级应用落地的路径形成对比，反映出行业在模型安全与商业化之间的不同权衡。",
-      "references": [
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jun/9/llm"
-        },
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1668544"
-        },
-        {
-          "source_name": "IT之家 24h",
-          "link": "https://ithome.com/0/962/152.htm"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/lseg"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/06/anthropic-says-these-topics-are-too-dangerous-to-let-its-fable-5-model-talk-about"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
