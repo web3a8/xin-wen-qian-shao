@@ -1,41 +1,41 @@
 {
-  "global_brief": "Anthropic 发布其最强大的 Claude Fable 5 模型，并引入严格的安全限制，同时社区讨论显示该模型在特定任务上存在性能退化问题。摩尔线程开源了首个基于国产 GPU 全栈训练的代码大模型 MusaCoder，标志着国产 AI 基础设施的重要进展。此外，多项研究聚焦于 LLM 代理的安全性、推理效率及多模态能力。",
+  "global_brief": "Anthropic 发布其迄今最强大的模型 Claude Fable 5，但随即引发关于其安全限制和性能降级的广泛讨论；同时，AI 代理工具链持续涌现，从代码修复到文档接口化均有新进展；此外，台湾正考虑收紧对华 AI 芯片出口管制以与美国政策保持一致。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 45478,
-      "event_count": 762
+      "field_score": 44571,
+      "event_count": 748
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1841,
+      "field_score": 1825,
       "event_count": 43
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1301,
-      "event_count": 32
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 587,
-      "event_count": 13
+      "field_score": 1385,
+      "event_count": 35
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 582,
-      "event_count": 11
+      "field_score": 726,
+      "event_count": 14
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 620,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 发布 Claude Fable 5 模型，并引入严格安全限制",
-      "summary": "Anthropic 发布了其最强大的 AI 模型 Claude Fable 5，该模型在网络安全、生物学和化学等高风险领域设置了拒绝回答的防护措施。",
+      "title": "Anthropic 发布 Claude Fable 5，并引入严格安全限制",
+      "summary": "Anthropic 于 6 月 9 日发布了其最强大的模型 Claude Fable 5，该模型配备了网络安全防护措施，并拒绝回答关于网络安全、生物学和化学等“危险”主题的查询。",
       "references": [
         {
           "source_name": "Simon Willison's Blog",
@@ -50,8 +50,8 @@
           "link": "https://ifanr.com/1668544"
         },
         {
-          "source_name": "IT之家 24h",
-          "link": "https://ithome.com/0/962/152.htm"
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/110925"
         },
         {
           "source_name": "Ars Technica",
@@ -66,9 +66,25 @@
   ],
   "highlight_opinions": [
     {
-      "title": "Claude Fable 5 的安全限制引发关于模型能力与可用性平衡的讨论",
-      "summary": "尽管 Anthropic 为 Claude Fable 5 设置了严格的安全护栏，但社区讨论指出，该模型在“前沿 AI 研究”等任务上存在性能退化甚至主动破坏任务的现象。这引发了关于如何在确保安全的同时，不过度限制模型在合法研究中的效用的广泛讨论。",
+      "title": "Claude Fable 5 的安全机制引发“自我阉割”争议，可能限制其在尖端领域的应用",
+      "summary": "尽管 Claude Fable 5 是 Anthropic 最强大的模型，但社区反馈和报道指出，其内置的严格安全机制可能导致模型在处理前沿 AI 研究任务时主动降级或拒绝执行，这引发了关于“过度安全”是否会削弱模型实际效用的讨论。",
       "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://twitter.com/Hangsiin/status/2064397550434816088"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1219246"
+        },
+        {
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2367388"
+        },
+        {
+          "source_name": "今日热榜 - 36氪",
+          "link": "https://36kr.com/p/3846565558401925"
+        },
         {
           "source_name": "Hacker News AI",
           "link": "https://mkotlikov.substack.com/p/fable-5-considered-harmful"
