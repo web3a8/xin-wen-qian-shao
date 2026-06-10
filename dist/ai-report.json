@@ -1,42 +1,46 @@
 {
-  "global_brief": "Anthropic 发布其最强大的 Mythos 级 AI 模型 Claude Fable 5，并内置了严格的安全机制，引发了关于前沿模型安全性与可用性的广泛讨论。与此同时，AI 智能体领域迎来重大进展，OpenAI 与 Visa 合作允许 AI 智能体自主付款，而全球监管机构则呼吁加强对金融领域智能体 AI 的管控。学术界则密集发布了关于 LLM 智能体安全、推理优化和量化压缩的多项研究。",
+  "global_brief": "Anthropic 发布其最强 AI 模型 Claude Fable 5，但该模型拒绝回答基础生物学问题，且微软因数据保留担忧对其加以限制，引发行业对模型安全与实用性的讨论。与此同时，OpenAI 与 Visa 合作，允许 AI 智能体在用户授权下自主执行付款，标志着 AI 向自主商业代理迈出关键一步。此外，Google 开源了速度提升 4 倍的 DiffusionGemma 模型，而小米也发布了基于 OpenCode 的 AI 编程助手 MiMo Code V0.1.0。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 43462,
-      "event_count": 743
+      "field_score": 43162,
+      "event_count": 737
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1644,
+      "field_score": 1612,
       "event_count": 41
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1300,
-      "event_count": 28
+      "field_score": 1481,
+      "event_count": 33
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 657,
+      "field_score": 653,
       "event_count": 13
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 603,
-      "event_count": 13
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 609,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "llm 0.32a3",
-      "summary": "llm 0.32a3；Release: llm 0.32a3 Almost entirely written by the new Claude Fable 5, see my write-up for more details. Tags: project…；Anthropic Releases Claude Fable 5, Its Most Pow…",
+      "title": "Anthropic 发布 Claude Fable 5 模型，但存在安全与实用性争议",
+      "summary": "Anthropic 发布了其声称最强大的 AI 模型 Claude Fable 5，但该模型被曝拒绝回答基础生物学问题。微软因数据保留担忧，已限制其员工使用该模型。",
       "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions"
+        },
         {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/Jun/9/llm"
@@ -50,41 +54,22 @@
           "link": "https://ifanr.com/1668544"
         },
         {
-          "source_name": "IT之家 24h",
-          "link": "https://ithome.com/0/962/152.htm"
-        }
-      ]
-    },
-    {
-      "title": "From data to decisions: how LSEG is scaling trusted AI",
-      "summary": "From data to decisions: how LSEG is scaling trusted AI；See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycle…",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/lseg"
-        }
-      ]
-    },
-    {
-      "title": "Microsoft restricts Claude Fable for employees over data retention concerns",
-      "summary": "Anthropic released Claude Fable, its first Mythos-class AI model, yesterday and it's already causing concerns inside Mi…；Microsoft restricts Claude Fable for employees over data r…",
-      "references": [
-        {
           "source_name": "The Verge",
           "link": "https://theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "Instruction Finetuning DeepSeek-R1-8B Model Using LoRA and NEFTune",
-      "summary": "arXiv:2606.10392v1 Announce Type: new Abstract: Financial named-entity recognition (NER) is essential for translating u…；Instruction Finetuning DeepSeek-R1-8B Model Using LoRA and…",
+      "title": "AI 智能体商业化加速，支付授权是里程碑也是风险点",
+      "summary": "OpenAI 与 Visa 的合作将 AI 智能体从信息处理推向实际交易执行，这标志着 AI 商业化的重大突破，但同时也带来了关于用户授权、资金安全和责任归属的新风险。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.10392"
+          "source_name": "华尔街见闻实时快讯",
+          "link": "https://wallstreetcn.com/livenews/3117653"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
