@@ -1,41 +1,41 @@
 {
-  "global_brief": "Anthropic 发布其首个 Mythos 级模型 Claude Fable 5，在几乎所有基准上达到最强，但因其严格的安全限制和高昂定价引发广泛争议。与此同时，AI 安全研究、边缘推理和 Agent 工具链成为社区讨论的焦点。",
+  "global_brief": "Anthropic 发布其迄今最强大的公开模型 Claude Fable 5，引发行业对 AI 安全边界的激烈讨论，同时社区涌现大量针对 LLM Agent 的工具与安全研究，AI 领域竞争与治理议题持续升温。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 73264,
-      "event_count": 1248
+      "field_score": 46367,
+      "event_count": 763
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2468,
-      "event_count": 54
+      "field_score": 1719,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1596,
-      "event_count": 39
+      "field_score": 1362,
+      "event_count": 34
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 983,
-      "event_count": 17
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 742,
+      "event_count": 16
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 768,
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 652,
       "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 发布首个 Mythos 级模型 Claude Fable 5",
-      "summary": "Anthropic 于 6 月 9 日发布 Claude Fable 5，称其为迄今最强大的广泛可用模型，定价为每百万 token 10 美元，性能较前代提升约 9 倍。",
+      "title": "Anthropic releases its first Mythos-class model Claude Fable",
+      "summary": "Anthropic just announced Claude Fable 5, a new AI model it said is the most powerful model it has ever made widely avai…；Anthropic releases its first Mythos-class model Claude Fab…",
       "references": [
         {
           "source_name": "The Verge",
@@ -52,35 +52,13 @@
         {
           "source_name": "少数派",
           "link": "https://sspai.com/post/110925"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/tokenmixai/claude-fable-5-for-developers-api-changes-pricing-migration-notes-2f0n"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "Claude Fable 5 的严格安全限制可能阻碍前沿研究",
-      "summary": "社区讨论指出，Claude Fable 5 对网络安全、生物学和化学等领域的拒绝回答机制，虽然提升了安全性，但也可能“破坏”前沿 LLM 研究任务，因为许多合法研究也涉及这些主题。",
+      "title": "Anthropic says these topics are too dangerous to let its Fable 5 model talk about",
+      "summary": "Anthropic says these topics are too dangerous to let its Fable 5 model talk about；New frontier model refuses cybersecurity, biology, and chemistry queries.；Anthropic is releasing…",
       "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://twitter.com/Hangsiin/status/2064397550434816088"
-        },
-        {
-          "source_name": "知乎热榜",
-          "link": "https://zhihu.com/question/2047851398734394746"
-        },
-        {
-          "source_name": "LinuxDo 最新话题",
-          "link": "https://linux.do/t/topic/2361504"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1219217"
-        },
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/ai/2026/06/anthropic-says-these-topics-are-too-dangerous-to-let-its-fable-5-model-talk-about"
@@ -90,6 +68,27 @@
           "link": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today"
         }
       ]
+    },
+    {
+      "title": "Instruction Finetuning DeepSeek-R1-8B Model Using LoRA and NEFTune",
+      "summary": "arXiv:2606.10392v1 Announce Type: new Abstract: Financial named-entity recognition (NER) is essential for translating u…；Instruction Finetuning DeepSeek-R1-8B Model Using LoRA and…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.10392"
+        }
+      ]
+    },
+    {
+      "title": "ReflectiChain: Epistemic Grounding in LLM-Driven World Models for Supply Chain Resilience",
+      "summary": "arXiv:2606.10359v1 Announce Type: new Abstract: AI agents in supply chains face a fundamental epistemic gap: large lang…；ReflectiChain: Epistemic Grounding in LLM-Driven World Mod…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.10359"
+        }
+      ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
