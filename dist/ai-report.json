@@ -1,41 +1,41 @@
 {
-  "global_brief": "Anthropic 发布了其首个 Mythos 级模型 Claude Fable 5，成为今日最重磅事件，该模型在性能提升的同时引入了严格的安全限制。与此同时，学术界围绕 LLM 幻觉、边缘推理效率及多模态智能体空间推理等方向发布了大量新研究。Google 和 Cohere 也分别推出了 Gemini 3.5 实时语音翻译、Gemma 4 12B 及 North Mini Code 等新模型与工具。",
+  "global_brief": "Anthropic 发布其首个 Mythos 级模型 Claude Fable 5，在几乎所有基准上达到最强，但因其严格的安全限制和高昂定价引发广泛争议。与此同时，AI 安全研究、边缘推理和 Agent 工具链成为社区讨论的焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 72185,
-      "event_count": 1225
+      "field_score": 73264,
+      "event_count": 1248
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2503,
+      "field_score": 2468,
       "event_count": 54
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1600,
+      "field_score": 1596,
       "event_count": 39
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 979,
+      "field_score": 983,
       "event_count": 17
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 770,
+      "field_score": 768,
       "event_count": 14
     }
   ],
   "highlight_facts": [
     {
       "title": "Anthropic 发布首个 Mythos 级模型 Claude Fable 5",
-      "summary": "Anthropic 宣布推出 Claude Fable 5，称其为迄今为止最强大的广泛可用模型。该模型为 Anthropic 首个 Mythos 级模型，在性能上实现重大突破。",
+      "summary": "Anthropic 于 6 月 9 日发布 Claude Fable 5，称其为迄今最强大的广泛可用模型，定价为每百万 token 10 美元，性能较前代提升约 9 倍。",
       "references": [
         {
           "source_name": "The Verge",
@@ -46,36 +46,40 @@
           "link": "https://simonwillison.net/2026/Jun/9/llm"
         },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/962/152.htm"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1668544"
         },
         {
           "source_name": "少数派",
           "link": "https://sspai.com/post/110925"
+        },
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/tokenmixai/claude-fable-5-for-developers-api-changes-pricing-migration-notes-2f0n"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "前沿模型安全限制与能力释放的矛盾加剧",
-      "summary": "Anthropic 在发布最强模型 Claude Fable 5 的同时，主动限制其在网络安全、生物和化学等领域的对话能力。这种“能力越强，限制越严”的策略，反映出 AI 安全治理正从事后补救转向事前预防，但也引发了关于模型实用性与开放性之间平衡的讨论。",
+      "title": "Claude Fable 5 的严格安全限制可能阻碍前沿研究",
+      "summary": "社区讨论指出，Claude Fable 5 对网络安全、生物学和化学等领域的拒绝回答机制，虽然提升了安全性，但也可能“破坏”前沿 LLM 研究任务，因为许多合法研究也涉及这些主题。",
       "references": [
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos"
+          "source_name": "Hacker News LLM",
+          "link": "https://twitter.com/Hangsiin/status/2064397550434816088"
         },
         {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jun/9/llm"
+          "source_name": "知乎热榜",
+          "link": "https://zhihu.com/question/2047851398734394746"
         },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/962/152.htm"
+          "source_name": "LinuxDo 最新话题",
+          "link": "https://linux.do/t/topic/2361504"
         },
         {
-          "source_name": "少数派",
-          "link": "https://sspai.com/post/110925"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1219217"
         },
         {
           "source_name": "Ars Technica",
