@@ -1,29 +1,29 @@
 {
-  "global_brief": "Anthropic 发布其首个 Mythos 级模型 Claude Fable 5，成为今日最重磅事件，同时该模型在安全限制上引发广泛讨论。AI 安全与对齐研究持续升温，多篇论文聚焦于大模型幻觉、推理可靠性及多模态空间推理。此外，Google 推出 Gemini 3.5 Live Translate 和 Gemma 4 12B 模型，OpenAI 则展示了 Codex 在 Notion 和 Nextdoor 的应用案例。",
+  "global_brief": "Anthropic 发布了其首个 Mythos 级模型 Claude Fable 5，成为今日最重磅事件，该模型在性能提升的同时引入了严格的安全限制。与此同时，学术界围绕 LLM 幻觉、边缘推理效率及多模态智能体空间推理等方向发布了大量新研究。Google 和 Cohere 也分别推出了 Gemini 3.5 实时语音翻译、Gemma 4 12B 及 North Mini Code 等新模型与工具。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 73262,
-      "event_count": 1245
+      "field_score": 72185,
+      "event_count": 1225
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2685,
-      "event_count": 58
+      "field_score": 2503,
+      "event_count": 54
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1417,
-      "event_count": 36
+      "field_score": 1600,
+      "event_count": 39
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 944,
-      "event_count": 16
+      "field_score": 979,
+      "event_count": 17
     },
     {
       "field_key": "world",
@@ -34,51 +34,49 @@
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic releases its first Mythos-class model Claude Fable",
-      "summary": "Anthropic just announced Claude Fable 5, a new AI model it said is the most powerful model it has ever made widely avai…；Anthropic releases its first Mythos-class model Claude Fab…",
+      "title": "Anthropic 发布首个 Mythos 级模型 Claude Fable 5",
+      "summary": "Anthropic 宣布推出 Claude Fable 5，称其为迄今为止最强大的广泛可用模型。该模型为 Anthropic 首个 Mythos 级模型，在性能上实现重大突破。",
       "references": [
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos"
         },
         {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jun/9/llm"
+        },
+        {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/962/152.htm"
         },
         {
-          "source_name": "华尔街见闻最热",
-          "link": "https://wallstreetcn.com/articles/3774197"
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/110925"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "Claude Fable 5 Is Here. Here's What Actually Matters for Developers 👨🏾‍💻",
-      "summary": "Anthropic dropped two models today. Most people are focused on the wrong one. What launched: Fable 5 — the public-facin…；Claude Fable 5 Is Here. Here's What Actually Matters for D…",
+      "title": "前沿模型安全限制与能力释放的矛盾加剧",
+      "summary": "Anthropic 在发布最强模型 Claude Fable 5 的同时，主动限制其在网络安全、生物和化学等领域的对话能力。这种“能力越强，限制越严”的策略，反映出 AI 安全治理正从事后补救转向事前预防，但也引发了关于模型实用性与开放性之间平衡的讨论。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/chrismbah/claude-fable-5-is-here-heres-what-actually-matters-for-developers-29ko"
-        }
-      ]
-    },
-    {
-      "title": "Evaluating Hallucinations in Domain-Adapted Large Language Models",
-      "summary": "arXiv:2606.07521v1 Announce Type: cross Abstract: This study investigates the phenomenon of hallucinations in domain-ad…；Evaluating Hallucinations in Domain-Adapted Large Language…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.07521"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos"
         },
         {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2606.09682"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic says these topics are too dangerous to let its Fable 5 model talk about",
-      "summary": "Anthropic says these topics are too dangerous to let its Fable 5 model talk about；New frontier model refuses cybersecurity, biology, and chemistry queries.；Anthropic is releasing…",
-      "references": [
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jun/9/llm"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/962/152.htm"
+        },
+        {
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/110925"
+        },
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/ai/2026/06/anthropic-says-these-topics-are-too-dangerous-to-let-its-fable-5-model-talk-about"
@@ -89,6 +87,5 @@
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
