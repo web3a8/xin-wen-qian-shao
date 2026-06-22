@@ -1,46 +1,51 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Samsung Electronics brings ChatGPT and Codex to employees；The Asymmetric Fallacy: Why the Claude Fable Ban Hurts Cloud Defenders；Getty Images 与 OpenAI 达成合作，将授权图库内容引入 ChatGPT。",
+  "global_brief": "过去24小时的重要动态主要集中在：test(agents): add large prompt cache coverage (#95653)；Samsung Electronics brings ChatGPT and Codex to employees；Pydantic AI 的 5 个隐藏用法：类型安全的 Agent 框架。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7931,
-      "event_count": 150
+      "field_score": 9121,
+      "event_count": 171
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1550,
-      "event_count": 40
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 501,
-      "event_count": 12
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 352,
-      "event_count": 9
+      "field_score": 1530,
+      "event_count": 38
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 328,
-      "event_count": 7
+      "field_score": 642,
+      "event_count": 13
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 370,
+      "event_count": 10
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 212,
+      "event_count": 5
     }
   ],
   "highlight_facts": [
+    {
+      "title": "test(agents): add large prompt cache coverage (#95653)",
+      "summary": "test(agents): add large prompt cache coverage (#95653)；test(agents): add large prompt cache coverage (#95653) Adds large OpenAI and Anthropic prompt-cache live coverage plus…",
+      "references": []
+    },
     {
       "title": "Samsung Electronics brings ChatGPT and Codex to employees",
       "summary": "Samsung Electronics brings ChatGPT and Codex to employees；Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterp…",
       "references": []
     },
     {
-      "title": "The Asymmetric Fallacy: Why the Claude Fable Ban Hurts Cloud Defenders",
-      "summary": "In June 2026, the U.S. Department of Commerce handed the cloud security community a massive geopolitical reality check.…；The Asymmetric Fallacy: Why the Claude Fable Ban Hurts Cloud Defenders",
+      "title": "Pydantic AI 的 5 个隐藏用法：类型安全的 Agent 框架",
+      "summary": "Pydantic AI 的 5 个隐藏用法：类型安全的 Agent 框架；你知道吗？最近一个 AI Agent 直接删除了生产数据库，然后在 Twitter 上轻松\"自首\"——这条消息在 Hacker News 上获得了 860 分和超过 1000 条评论。随着 AI Agent 从演示走向生产环境，\"在我的机…",
       "references": []
     },
     {
@@ -49,13 +54,8 @@
       "references": []
     },
     {
-      "title": "Show HN: Lupen – an itemized, verified receipt for Claude Code and Codex spend",
-      "summary": "Article URL: https://github.com/momoraul/Lupen Comments URL: https://news.ycombinator.com/item?id=48623711 Points: 1 #…；Show HN: Lupen – an itemized, verified receipt for Claude Code and Codex spend",
-      "references": []
-    },
-    {
-      "title": "Show HN: PeekAI – Local-first observability for Python AI agents",
-      "summary": "Article URL: https://github.com/oussamaKH63/peekai Comments URL: https://news.ycombinator.com/item?id=48623745 Points:…；Show HN: PeekAI – Local-first observability for Python AI agents",
+      "title": "开源了一个 LLM 推理服务监控面板",
+      "summary": "开源了一个 LLM 推理服务监控面板；开源了一个 LLM 推理服务监控面板 项目地址： https://github.com/coolwolfqs/llm-inference-monitor 为什么做这个 最近在用 llama.cpp 跑推理服务，一直缺一个好用的监控面板。…",
       "references": []
     }
   ],
