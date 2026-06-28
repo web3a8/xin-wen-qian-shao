@@ -1,41 +1,61 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：AI基建“吞金”无底洞：科技巨头密集融资引爆债市担忧，高评级信用利差走阔；[codex] Update Claude CLI billing docs (#96848)；On-Device AI Just Got Real。",
+  "global_brief": "过去24小时的重要动态主要集中在：AI基建“吞金”无底洞：科技巨头密集融资引爆债市担忧，高评级信用利差走阔；Prosecutors used ChatGPT logs as evidence in the Palisades fire trial；Show HN: Caliper – pass@k reliability testing for Claude Code and Codex skills。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 4812,
-      "event_count": 93
+      "field_score": 5810,
+      "event_count": 115
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1880,
+      "field_score": 1840,
       "event_count": 48
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 503,
-      "event_count": 12
+      "field_score": 573,
+      "event_count": 14
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 99,
+      "event_count": 2
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 137,
-      "event_count": 3
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 44,
-      "event_count": 1
+      "field_score": 98,
+      "event_count": 2
     }
   ],
   "highlight_facts": [
     {
-      "title": "[codex] 更新 Claude CLI billing docs (#96848)",
-      "summary": "[codex] 更新 Claude CLI billing docs (#96848)；时间：2026-06-28T18:03:17.000Z；证据级别：weak；置信度：0.45",
+      "title": "AI基建“吞金”无底洞：科技巨头密集融资引爆债市担忧，高评级信用利差走阔",
+      "summary": "AI基建“吞金”无底洞：科技巨头密集融资引爆债市担忧，高评级信用利差走阔；科技巨头正以互联网泡沫以来最密集的节奏融资扩张，但债券投资者并未跟着乐观。本月，美国高评级科技债风险溢价升至0.79个百分点，较5月底的0.74个百分点显著走阔。 6月以来，Alphabet完成850亿美元股权出售，SpaceX以750亿…",
+      "references": []
+    },
+    {
+      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "summary": "Jonathan Rinderknecht was facing arson charges for setting a fire on New Year's Day in 2025, which became one of the de…；Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "references": []
+    },
+    {
+      "title": "Show HN: Caliper – pass@k reliability testing for Claude Code and Codex skills",
+      "summary": "Show HN: Caliper – pass@k reliability testing for Claude Code and Codex skills；Skills for Claude Code and Codex are hard to test. What I mean by hard is that there's no standard way to do it. You ev…",
+      "references": []
+    },
+    {
+      "title": "Hestia – a local-first Home Assistant that trusts timers over the LLM",
+      "summary": "Article URL: https://github.com/thefullnacho/hestia Comments URL: https://news.ycombinator.com/item?id=48707227 Points:…；Hestia – a local-first Home Assistant that trusts timers over the LLM",
+      "references": []
+    },
+    {
+      "title": "Show HN: LLMSim – a fast OpenAI LLM API simulator for load-testing LLM apps",
+      "summary": "Show HN: LLMSim – a fast OpenAI LLM API simulator for load-testing LLM apps；Testing LLM apps and agent frameworks against real APIs is expensive, rate-limited, slow, and non-reproducible. LLMSim…",
       "references": []
     }
   ],
