@@ -1,101 +1,53 @@
 {
-  "global_brief": "AI领域持续主导今日动态，大疆与影石在国内互诉专利侵权，阿里内部全面禁用Claude Code，同时Anthropic宣布进军药物研发，Meta声称其新模型已追平OpenAI旗舰水平。",
+  "global_brief": "AI领域竞争白热化，OpenAI被曝即将发布GPT-5.6三大子模型，Meta则宣称其新模型已追平OpenAI旗舰水平；同时，Anthropic宣布进军药物研发，阿里内部因安全风险全面禁用Claude Code，微软则计划重构Copilot并新增AutoPilot智能体。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6924,
-      "event_count": 123
+      "field_score": 7191,
+      "event_count": 129
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1037,
-      "event_count": 26
+      "field_score": 1001,
+      "event_count": 25
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 715,
-      "event_count": 18
+      "field_score": 745,
+      "event_count": 19
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 386,
-      "event_count": 8
+      "field_score": 217,
+      "event_count": 4
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 191,
+      "field_score": 189,
       "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "大疆与影石在国内互相起诉专利侵权",
-      "summary": "手持智能相机领域两大巨头大疆和影石在国内互相起诉，指控对方侵犯多项核心专利。",
+      "title": "OpenAI GPT-5.6 三大子模型曝光，或于下周发布",
+      "summary": "网友在Codex应用底层代码中发现GPT-5.6 Sol、Terra和Luna三大子模型标识，以及全新的“速度拨盘”功能，暗示用户可根据需求调整模型性能。",
       "references": [
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1670957"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/972/470.htm"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic宣布进军药物研发领域",
-      "summary": "Anthropic在“AI for Science”活动上宣布推出Claude Science，计划利用AI自主开发药物。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development"
-        }
-      ]
-    },
-    {
-      "title": "Google DeepMind与A24达成研究合作",
-      "summary": "Google DeepMind与电影公司A24宣布建立首创的研究合作伙伴关系。",
-      "references": [
-        {
-          "source_name": "Google DeepMind",
-          "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership"
-        }
-      ]
-    },
-    {
-      "title": "Meta AI负责人称新模型已追平OpenAI旗舰",
-      "summary": "Meta AI负责人表示，其即将发布的大语言模型已追平OpenAI的旗舰模型。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://businessinsider.com/meta-ai-model-catches-up-openai-gpt-5-says-2026-7"
-        }
-      ]
-    },
-    {
-      "title": "字节跳动发现新缩放定律，或可延续AI热潮",
-      "summary": "据报道，字节跳动发现了一种新的AI缩放定律，可能有助于维持当前的AI发展热潮。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://scmp.com/tech/big-tech/article/3359373/chinas-bytedance-discovers-new-scaling-law-could-sustain-ai-boom"
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776196"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI编程工具的安全性与企业管控成为焦点",
-      "summary": "阿里全面禁用Claude Code与社区讨论中用户因Claude Code读取本地信息被封号的事件，共同凸显了AI编程工具在数据安全和隐私方面的风险，企业级管控措施亟待加强。",
+      "title": "AI 安全与合规风险正成为企业采用 AI 工具的核心考量",
+      "summary": "阿里因安全风险禁用Claude Code，以及社区讨论中出现的“Claude Code会偷偷读取本地信息”的担忧，表明企业在引入AI开发工具时，数据安全和后门风险已成为不可忽视的决策因素，可能促使更多企业转向自研或国产替代方案。",
       "references": [
         {
           "source_name": "爱范儿",
@@ -108,66 +60,6 @@
         {
           "source_name": "Hacker News 最佳",
           "link": "https://reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03"
-        }
-      ]
-    },
-    {
-      "title": "AI推理业务盈利能力获市场认可",
-      "summary": "社区讨论指出AI推理业务“明显有利可图”，这与Anthropic进军药物研发、Meta宣称模型追平对手等商业化动作相呼应，表明AI行业正从模型竞赛转向盈利模式验证。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://seangoedecke.com/ai-inference-is-obviously-profitable"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://businessinsider.com/meta-ai-model-catches-up-openai-gpt-5-says-2026-7"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent的自主性与可审计性成为开发核心挑战",
-      "summary": "多篇讨论聚焦于AI Agent的决策可追溯性，如“上下文图” 和“后果感知准入” 等概念被提出，反映出社区正积极解决Agent在自主行动中的透明度和控制问题。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://nanonets.com/blog/what-is-a-context-graph"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/gfernandf/agent-skills/blob/main/docs/ACTION_PREFLIGHT_FORECAST_QUICKSTART.md"
-        }
-      ]
-    },
-    {
-      "title": "开源工具链加速LLM应用的安全与监控",
-      "summary": "多个开源项目如PrivAiTe（PII脱敏代理）、Seismograph（API漂移预警）和Gavio（拦截管道）涌现，表明社区正构建更完善的LLM应用安全与可观测性基础设施，以应对生产环境中的风险。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/crp4222/PrivAiTe"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Tania-coder/SEISMOGRAPH"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/manojmallick/gavio"
-        }
-      ]
-    },
-    {
-      "title": "AI版权法律战升级，Midjourney要求披露片方AI使用情况",
-      "summary": "Midjourney在版权诉讼中寻求强制披露电影公司对AI的使用情况，此举可能为AI生成内容的版权界定和举证责任设立新先例。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://variety.com/2026/film/news/midjourney-studios-ai-copyright-discovery-1236800902"
         }
       ]
     }
