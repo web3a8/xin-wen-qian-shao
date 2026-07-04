@@ -1,65 +1,141 @@
 {
-  "global_brief": "AI领域持续活跃，OpenAI疑似即将发布GPT-5.6，而Anthropic则宣布进军药物研发并遭遇阿里禁用其Claude Code工具，同时Meta CEO扎克伯格表示AI Agent技术进展慢于预期，社区对AI模型选择、安全及成本问题讨论热烈。",
+  "global_brief": "AI领域持续主导全站热点，模型发布与智能体工具链成为两大核心议题。OpenAI被曝即将发布GPT-5.6，而Anthropic则宣布进军药物研发并推出Claude Science平台。与此同时，围绕Claude Code的安全性与使用限制引发了广泛讨论，阿里巴巴已将其列为高风险软件并内部禁用。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5538,
-      "event_count": 100
+      "field_score": 5380,
+      "event_count": 97
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1442,
-      "event_count": 38
+      "field_score": 1491,
+      "event_count": 39
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 413,
-      "event_count": 10
+      "field_score": 504,
+      "event_count": 11
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 274,
+      "field_score": 257,
       "event_count": 6
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 99,
+      "field_score": 97,
       "event_count": 2
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI疑似即将发布GPT-5.6",
-      "summary": "有网友在Codex应用的底层代码中发现GPT-5.6 Sol、Terra和Luna三大子模型标识，并暗示存在“速度拨盘”功能，预计可能于7月7日发布。",
+      "title": "OpenAI 被曝即将发布 GPT-5.6",
+      "summary": "有网友在 Codex 应用的底层代码中发现 GPT-5.6 Sol、Terra 和 Luna 三大子模型标识，以及一个名为“速度拨盘”的新功能，暗示该模型可能于下周发布。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3776196"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "企业AI安全策略分化加剧",
-      "summary": "阿里巴巴因安全风险全面禁用Claude Code，而Anthropic则大举进军药物研发，这反映出企业在采用AI工具时，安全与效率的权衡正导致截然不同的策略选择。",
+      "title": "Anthropic 宣布进军药物研发领域",
+      "summary": "Anthropic 发布面向科研人员的新平台 Claude Science，并宣布将启动自主药物研发，重点关注大型药企因利润不足而忽视的罕见病领域。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/972/606.htm"
+        }
+      ]
+    },
+    {
+      "title": "阿里巴巴内部全面禁用 Claude Code",
+      "summary": "据多家媒体报道，阿里巴巴已将 Anthropic 的 AI 编程工具 Claude Code 归类为高风险软件，并在公司内部全面禁止员工使用，理由是存在植入后门的风险。",
       "references": [
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code"
         },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/972/606.htm"
-        },
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1670957"
+        }
+      ]
+    },
+    {
+      "title": "微软“Copilot OS”概念视频泄露",
+      "summary": "一段泄露视频展示了微软正在开发的“Copilot OS”，该系统深度集成 Copilot 和智能体 AI，暗示微软正探索一种全新的、以 AI 为核心的操作系统形态。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://windowscentral.com/microsoft/windows-11/microsoft-copilot-os-revealed-in-leaked-video-lightweight-windows-os-exploration-features-new-desktop-ui-built-entirely-around-copilot-and-agentic-ai"
+        }
+      ]
+    },
+    {
+      "title": "扎克伯格称 AI 智能体技术进展慢于预期",
+      "summary": "Meta CEO 马克·扎克伯格在接受采访时表示，AI 智能体（AI agent）技术的发展速度比预期的要慢，这为当前火热的智能体赛道提供了一个来自行业巨头的冷静视角。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://finance.yahoo.com/technology/ai/articles/exclusive-zuckerberg-says-ai-agent-201123441.html"
+        }
+      ]
+    },
+    {
+      "title": "大疆与影石专利战升级至国内市场",
+      "summary": "大疆与影石之间的专利战火已从海外烧回国内，双方互相起诉多项核心专利侵权，标志着这场科技领域的知识产权纠纷进入新阶段。",
+      "references": [
         {
           "source_name": "爱范儿",
           "link": "https://ifanr.com/1670957"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "AI 智能体成本控制成为行业焦点",
+      "summary": "随着 AI 智能体应用增多，其潜在的“失控”成本引发担忧。GitHub 上出现了关于“原子预算预留”的 RFC 提案，旨在解决智能体支出失控问题，这反映出业界正从单纯追求能力转向关注其经济可行性与安全性。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/iamapsrajput/agent-budget-protocol/blob/main/RFC.md"
+        }
+      ]
+    },
+    {
+      "title": "模型能力提升与工具实用性之间出现“剪刀差”",
+      "summary": "有开发者提出“更好的模型，更差的工具”这一悖论，指出随着模型能力增强，开发者工具（如 Claude Code）的某些方面反而出现退化或难以驾驭。这提示 AI 工具的设计需要与模型能力同步进化，而非简单堆叠。",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools"
+        }
+      ]
+    },
+    {
+      "title": "检索增强生成（RAG）的未来地位受到质疑",
+      "summary": "社区中出现观点认为，如果检索是 AI 的未来，那么以搜索起家的谷歌早已获胜。这一讨论暗示，业界正在探索超越传统 RAG 范式的 AI 知识获取与推理路径。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://news.ycombinator.com/item?id=48788520"
+        }
+      ]
+    },
+    {
+      "title": "国内用户对 Claude 的依赖与替代方案探索并行",
+      "summary": "在 Claude 账号被封禁事件后，国内用户开始积极寻找国产替代方案，如 Qoder 等集成多家国产大模型的新平台。这表明在 AI 工具领域，地缘政治和合规风险正加速本土化生态的形成。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1224903"
         }
       ]
     }
