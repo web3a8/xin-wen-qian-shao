@@ -1,67 +1,82 @@
 {
-  "global_brief": "AI领域竞争白热化，OpenAI被曝即将发布GPT-5.6三大子模型，Meta则宣称其新模型已追平OpenAI旗舰水平；同时，Anthropic宣布进军药物研发，阿里内部因安全风险全面禁用Claude Code，微软则计划重构Copilot并新增AutoPilot智能体。",
+  "global_brief": "AI 领域竞争白热化，OpenAI 被曝即将发布 GPT-5.6 三大子模型，Anthropic 则宣布进军药物研发并引发安全与封号讨论，同时微软正重构 Copilot 以整合消费者与企业功能。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7191,
-      "event_count": 129
+      "field_score": 7246,
+      "event_count": 128
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1001,
-      "event_count": 25
+      "field_score": 1224,
+      "event_count": 30
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 745,
-      "event_count": 19
+      "field_score": 551,
+      "event_count": 14
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 217,
-      "event_count": 4
+      "field_score": 230,
+      "event_count": 5
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 189,
-      "event_count": 4
+      "field_score": 140,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI GPT-5.6 三大子模型曝光，或于下周发布",
-      "summary": "网友在Codex应用底层代码中发现GPT-5.6 Sol、Terra和Luna三大子模型标识，以及全新的“速度拨盘”功能，暗示用户可根据需求调整模型性能。",
+      "title": "早报｜大疆影石专利战火烧回国内/阿里内部全面禁用Claude Code/茉莉奶白被判赔LV 1030万后，月薪4万招法务",
+      "summary": "早报｜大疆影石专利战火烧回国内/阿里内部全面禁用Claude Code/茉莉奶白被判赔LV 1030万后，月薪4万招法务；🤖 大疆影石专利战火烧回国内，双方互相起诉多项核心专利侵权 💰 存在植入后门风险，阿里内部全面禁用 Claude Code 🔌 曝腾讯 QClaw 负责人张舒昱离职，否认内部存在「赛马」机制 🚗 每周最高 200 美元，特斯拉开始控制员…",
+      "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1670957"
+        }
+      ]
+    },
+    {
+      "title": "趁火打劫！GPT-5.6三大模型全曝，定档7月7日？",
+      "summary": "GPT-5.6，将于下周发布？ 就在昨天，网友们激动发现：Codex应用的底层代码中惊现GPT-5.6 Sol、Terra和Luna三大子模型标识。 更令人期待的是，一个全新的「速度拨盘」功能也出现在代码中。 这暗示着，用户可以根据需求在…；趁火打劫！GPT-5.6三大模型全曝，定档7月7日？",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3776196"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "AI 安全与合规风险正成为企业采用 AI 工具的核心考量",
-      "summary": "阿里因安全风险禁用Claude Code，以及社区讨论中出现的“Claude Code会偷偷读取本地信息”的担忧，表明企业在引入AI开发工具时，数据安全和后门风险已成为不可忽视的决策因素，可能促使更多企业转向自研或国产替代方案。",
+      "title": "Anthropic wants to develop its own drugs",
+      "summary": "Anthropic wants to develop its own drugs；Anthropic 宣布进军药物研发：瞄准大型药企无利可言的罕见病领域；At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a n…",
       "references": [
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1670957"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development"
         },
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1224882"
-        },
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/972/606.htm"
+        }
+      ]
+    },
+    {
+      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "summary": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "references": [
         {
-          "source_name": "Hacker News 最佳",
-          "link": "https://reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03"
+          "source_name": "Google DeepMind",
+          "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
