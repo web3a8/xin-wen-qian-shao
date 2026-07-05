@@ -1,75 +1,45 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导全球科技动态，中国大模型以极低成本逼近前沿水平引发行业对现有商业模式的反思，同时AI Agent的安全性与供应链风险成为社区讨论焦点。开源生态与个人开发者在Agent创新上展现出超越大厂的趋势，而AI安全议题已从模型输出错误扩展到模型与客户竞争、勒索软件自动化攻击等更复杂的层面。",
+  "global_brief": "过去24小时，AI领域持续主导全站动态，中国大模型以极低成本逼近前沿性能引发行业讨论，同时Agent工具生态与安全风险成为社区关注焦点。Anthropic与Cursor的竞合关系、Karpathy关于个人开发者领先Agent前沿的观点，以及多项开源Agent工具与安全研究项目密集发布，共同勾勒出当前AI产业竞争加剧、技术快速迭代的图景。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6120,
-      "event_count": 105
+      "field_score": 6240,
+      "event_count": 107
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1424,
-      "event_count": 36
+      "field_score": 1402,
+      "event_count": 35
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 594,
-      "event_count": 13
+      "field_score": 435,
+      "event_count": 9
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 453,
-      "event_count": 11
+      "field_score": 411,
+      "event_count": 10
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 125,
-      "event_count": 3
+      "field_score": 176,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "中国大模型会终结Anthropic的暴利吗？",
-      "summary": "vLLM项目联合创始人、Inferact联合创始人兼首席执行官Simon Mo 表示，GLM-5.2 并非孤例，而是过去几个月中国模型实验室密集涌现的前沿模型代表之一，它们在编程等长周期任务上以极低成本逼近甚至局部超越 Claude Op…；中国大模型会终结Anthropic的暴利吗？",
+      "title": "中国大模型以极低成本逼近前沿性能，引发行业讨论",
+      "summary": "vLLM项目联合创始人Simon Mo表示，GLM-5.2并非孤例，而是中国模型实验室密集涌现的前沿模型代表之一，在编程等长周期任务上以极低成本逼近甚至局部超越Claude Opus，引发关于中国大模型是否会终结Anthropic暴利的讨论。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/charts/41959356"
-        }
-      ]
-    },
-    {
-      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
-      "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with th…；What is Mistral AI? Everything to know about the OpenAI co…",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor"
-        }
-      ]
-    },
-    {
-      "title": "企业应该“小心”大模型“学会然后抄袭”？",
-      "summary": "企业应该“小心”大模型“学会然后抄袭”？；美国风投家David Sacks表示，大模型最大的风险，或许是“学会之后自己做”。Anthropic眼看客户Cursor将Claude推成爆款编程助手，转身推出Claude Code直接抢市场。未来AI安全的核心已不只是防模型输出错误，而…",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/charts/41959355"
-        }
-      ]
-    },
-    {
-      "title": "Karpathy最新Agent观点：大厂并没有掌握智能体核心技术，个人开发者正称霸前沿",
-      "summary": "Andrej Karpathy最新内部Agent观点分享直接指出了当前AI领域最大的一个失误：人们正在强迫Agent去工作，完全忽略了应该先彻底掌握底层大模型。AK说了一个反常识的结论：目前站在Agent最前沿的不是大厂而是独立开发者和创…；Karpathy最新Agent观点：大厂并没有掌握智能体核心技术，个人开发者正称霸前沿",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3776229"
         }
       ]
     }
