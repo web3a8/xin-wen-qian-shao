@@ -1,29 +1,29 @@
 {
-  "global_brief": "本周市场将迎来多项关键事件：中国通胀数据、美联储会议纪要公布，同时AI行业竞争格局出现新变化，Anthropic与客户Cursor之间的竞合关系引发对AI安全与商业模式的讨论。",
+  "global_brief": "AI领域竞争加剧，Anthropic与Cursor的竞合关系引发对模型“学会后抄袭”的担忧，同时Karpathy指出个人开发者正主导Agent前沿技术。下周中国通胀数据、美联储会议纪要及科技巨头动态将成为市场焦点。",
   "top_fields": [
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1604,
-      "event_count": 40
-    },
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 1514,
-      "event_count": 29
+      "field_score": 1659,
+      "event_count": 31
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1481,
+      "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 84,
+      "field_score": 93,
       "event_count": 2
     }
   ],
   "highlight_facts": [
     {
-      "title": "企业应该“小心”大模型“学会然后抄袭”？",
-      "summary": "美国风投家David Sacks指出，大模型最大的风险可能是“学会之后自己做”。Anthropic在客户Cursor将Claude推成爆款编程助手后，推出Claude Code直接进入同一市场。",
+      "title": "Anthropic与Cursor的竞合关系引发模型“抄袭”担忧",
+      "summary": "美国风投家David Sacks指出，大模型最大的风险可能是“学会之后自己做”。Anthropic在客户Cursor将Claude推成爆款编程助手后，推出Claude Code直接抢市场。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
@@ -32,8 +32,18 @@
       ]
     },
     {
-      "title": "下周重磅日程：中国通胀数据、美联储会议纪要、SK海力士美股首秀、智谱MiniMax解禁",
-      "summary": "下周中国将公布6月CPI、PPI及外储数据，市场关注价格“K型分化”是否延续；美联储将公布6月会议纪要；美国将就对60国加征关税举行听证会；此外，苹果、OpenAI、Meta等科技巨头CEO将齐聚。",
+      "title": "Karpathy称个人开发者正主导Agent前沿技术",
+      "summary": "Andrej Karpathy分享观点，认为当前AI领域一大失误是强迫Agent工作而忽略底层大模型掌握，并指出站在Agent最前沿的是独立开发者和创业者，而非大厂。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776229"
+        }
+      ]
+    },
+    {
+      "title": "下周中国通胀数据及美联储会议纪要等重磅日程公布",
+      "summary": "下周中国将公布6月CPI、PPI及外储数据，市场关注价格“K型分化”是否延续。美联储6月会议纪要出炉，美国将就对60国加征关税举行听证会。苹果、OpenAI、Meta等科技巨头CEO将齐聚。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
