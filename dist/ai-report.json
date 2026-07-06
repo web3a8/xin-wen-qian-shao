@@ -1,69 +1,45 @@
 {
-  "global_brief": "AI领域竞争白热化，Anthropic发布最强公开模型Claude Fable 5，同时中国大模型以极低成本逼近前沿水平，引发行业对定价模式的讨论。社区热议AI编程工具的成本效益与数据安全，个人开发者正成为Agent技术创新的重要力量。",
+  "global_brief": "AI 领域持续活跃，开发者社区涌现大量围绕 LLM 代理、推理优化和工具链的开源项目，同时消费电子市场出现折叠屏 iPhone 推迟等传闻，科技巨头在模型与智能体领域的竞争格局进一步深化。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6108,
-      "event_count": 105
+      "field_score": 4453,
+      "event_count": 78
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1539,
-      "event_count": 38
+      "field_score": 1407,
+      "event_count": 35
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 532,
-      "event_count": 11
+      "field_score": 340,
+      "event_count": 6
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 345,
-      "event_count": 9
+      "field_score": 144,
+      "event_count": 4
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 228,
-      "event_count": 5
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 140,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "中国大模型会终结Anthropic的暴利吗？",
-      "summary": "vLLM项目联合创始人、Inferact联合创始人兼首席执行官Simon Mo 表示，GLM-5.2 并非孤例，而是过去几个月中国模型实验室密集涌现的前沿模型代表之一，它们在编程等长周期任务上以极低成本逼近甚至局部超越 Claude Op…；中国大模型会终结Anthropic的暴利吗？",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/charts/41959356"
-        }
-      ]
-    },
-    {
-      "title": "Fable 5 Hype: Fangirling with Datasets to Build a Lakers Dashboard",
-      "summary": "Fable 5 Hype: Fangirling with Datasets to Build a Lakers Dashboard；This is the story of a for-fun project, Luka Fit Index that started with me typing \"ai for fun? picture this\" at…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/earlgreyhot1701d/fable-5-hype-fangirling-with-datasets-to-build-a-lakers-dashboard-3pdd"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/member/articles/3776232"
-        }
-      ]
-    },
-    {
-      "title": "fix(agents): run bootstrap ritual on Claude CLI (#100560)",
-      "summary": "fix(agents): run bootstrap ritual on Claude CLI (#100560)；fix(agents): run bootstrap ritual on Claude CLI (#100560) * fix: CLI-backend agent runtimes skip the BOOTSTRAP.md first…",
+      "title": "fix(agents): detect bundled and legacy providers in model-not-found h…",
+      "summary": "fix(agents): detect bundled and legacy providers in model-not-found hint (#100120) * [AI] fix(agents): detect legacy op…；fix(agents): detect bundled and legacy providers in model-…",
       "references": [
         {
           "source_name": "OpenClaw Commits",
-          "link": "https://github.com/openclaw/openclaw/commit/e92bfd892a741c56b18e6373ae5b229369fd3c0b"
+          "link": "https://github.com/openclaw/openclaw/commit/d6dad9d9d5954297f6370433e663f24be9e97fc4"
         }
       ]
     },
@@ -74,6 +50,26 @@
         {
           "source_name": "爱范儿",
           "link": "https://ifanr.com/1669952"
+        }
+      ]
+    },
+    {
+      "title": "🤗 Kernels: Major Updates",
+      "summary": "🤗 Kernels: Major Updates",
+      "references": [
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/revamped-kernels"
+        }
+      ]
+    },
+    {
+      "title": "早报｜曝折叠屏iPhone发售将推迟/华为何庭波发布「韬定律」V2版论文/7-Eleven起诉耐克新鞋配色涉嫌抄袭",
+      "summary": "早报｜曝折叠屏iPhone发售将推迟/华为何庭波发布「韬定律」V2版论文/7-Eleven起诉耐克新鞋配色涉嫌抄袭；📱 曝折叠屏 iPhone 发售将推迟 🛑 豆包、千问将下线智能体功能 💻 iOS 27 测试版代码现「B790」线索，疑指带摄像头的新款 AirPods 💰 手机电脑又要涨价，三星 DRAM 拟开启今年第三轮大幅提价 🧠 内存、SSD…",
+      "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1670995"
         }
       ]
     }
