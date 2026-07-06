@@ -1,43 +1,133 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：We ran an AI-agent-readiness scan on 19 AI-native brands. Here is what breaks.；谷歌要放大招? Gemini 3.5 Pro传7月17日发布，前端碾压Fable 5；Meta 被曝让外包人员伪装未成年人，诱导竞争对手 AI 聊敏感话题。",
+  "global_brief": "AI领域持续主导今日动态，模型竞赛白热化，谷歌Gemini 3.5 Pro泄露信息显示其将在前端能力上压制Anthropic，同时Anthropic自身陷入用户监控争议。AI编程工具与智能体成为社区讨论焦点，开发者正面临工具选择与成本管理的双重挑战。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7439,
-      "event_count": 130
+      "field_score": 6771,
+      "event_count": 124
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1503,
-      "event_count": 38
+      "field_score": 1330,
+      "event_count": 34
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 700,
-      "event_count": 17
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 342,
-      "event_count": 7
+      "field_score": 842,
+      "event_count": 21
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 328,
-      "event_count": 7
+      "field_score": 367,
+      "event_count": 8
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 264,
+      "event_count": 6
     }
   ],
   "highlight_facts": [
     {
-      "title": "早报｜曝折叠屏iPhone发售将推迟/华为何庭波 发布 「韬定律」V2版论文/7-Eleven起诉耐克新鞋配色涉嫌抄袭",
-      "summary": "早报｜曝折叠屏iPhone发售将推迟/华为何庭波 发布 「韬定律」V2版论文/7-Eleven起诉耐克新鞋配色涉嫌抄袭；时间：2026-07-06T00:00:42.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "谷歌Gemini 3.5 Pro泄露，前端能力跃升",
+      "summary": "据泄露信息，谷歌Gemini 3.5 Pro将于7月17日发布，其前端与视觉代码生成能力据称出现跨越式跃升，在多项测试中压制Anthropic的Fable 5，但在硬核推理与复杂工程任务上仍落后于对手。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776301"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic被指控监控用户，秘密追踪器引发争议",
+      "summary": "Anthropic被指控监控用户，一名工程师称该“实验”已结束。秘密的Claude追踪器在Anthropic此前反监控立场背景下引发用户震惊。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users"
+        }
+      ]
+    },
+    {
+      "title": "SK海力士启动280亿美元美国上市，押注全球AI浪潮",
+      "summary": "韩国SK海力士宣布启动280亿美元的美国上市计划，以抓住全球AI浪潮带来的机遇。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://reuters.com/world/asia-pacific/south-koreas-sk-hynix-launch-28-billion-us-listing-ride-global-ai-wave-2026-07-06"
+        }
+      ]
+    },
+    {
+      "title": "AI编程工具成本管理成社区热议话题",
+      "summary": "社区讨论指出，Cursor、Claude Code、Copilot等AI编程工具的使用模式正变得像额度账单，开发者面临如何判断哪些任务值得消耗更高阶AI编程额度的新问题。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1225199"
+        }
+      ]
+    },
+    {
+      "title": "Claude Code默认30天后删除对话记录，引发数据丢失担忧",
+      "summary": "有用户报告称，Claude Code的默认设置会在30天后删除对话历史，导致数据丢失，该信息在社区中引发关注。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48802300"
+        }
+      ]
+    },
+    {
+      "title": "保险公司AI免责条款引发投保人对保障缺口的担忧",
+      "summary": "保险公司引入AI相关免责条款，引发投保人对保障缺口和潜在风险的警觉。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://news.bloomberglaw.com/insurance/insurer-ai-exclusions-spark-policyholder-alarm-on-coverage-gaps"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI编程工具进入“额度管理”时代，开发者需重新评估工作流",
+      "summary": "随着Cursor、Claude Code等工具按额度收费，社区观点认为，问题已从“哪个工具更强”转向“什么任务值得消耗更高阶额度”，这要求开发者更精细地规划AI辅助编程的使用场景，避免低价值任务消耗高成本资源。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1225199"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1669952"
+        }
+      ]
+    },
+    {
+      "title": "AI监控能力增强将对社会进步产生寒蝉效应",
+      "summary": "有评论指出，AI监控正在被超级强化，这种趋势将抑制社会进步，因为人们会因担心被监控而减少创新和异议表达。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://theguardian.com/commentisfree/2026/jul/06/ai-surveillance-policy"
+        }
+      ]
+    },
+    {
+      "title": "本地优先的AI编程智能体正成为新趋势，挑战云端依赖",
+      "summary": "社区中出现了如Grinta等通过106分钟压力测试的本地优先AI编程智能体，这表明开发者对减少云端依赖、增强数据隐私和离线可用性的需求正在增长，可能改变现有AI编程工具的市场格局。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/josephsenior/Grinta-Coding-Agent"
+        }
+      ]
+    }
+  ]
 }
