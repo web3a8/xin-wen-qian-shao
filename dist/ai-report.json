@@ -1,48 +1,131 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导全站动态，中国大模型以极低成本逼近前沿性能引发行业讨论，同时Agent工具生态与安全风险成为社区关注焦点。Anthropic与Cursor的竞合关系、Karpathy关于个人开发者领先Agent前沿的观点，以及多项开源Agent工具与安全研究项目密集发布，共同勾勒出当前AI产业竞争加剧、技术快速迭代的图景。",
+  "global_brief": "过去24小时，AI领域持续主导全站热点，中国大模型以低成本逼近前沿性能引发行业讨论，同时围绕大模型厂商与客户之间的竞争关系、Agent技术主导权归属以及AI研究数据安全等议题出现多维度观点交锋。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6240,
-      "event_count": 107
+      "field_score": 3850,
+      "event_count": 70
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1402,
-      "event_count": 35
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 435,
-      "event_count": 9
+      "field_score": 1438,
+      "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 411,
-      "event_count": 10
+      "field_score": 429,
+      "event_count": 11
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 176,
-      "event_count": 4
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 339,
+      "event_count": 7
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 113,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "中国大模型以极低成本逼近前沿性能，引发行业讨论",
-      "summary": "vLLM项目联合创始人Simon Mo表示，GLM-5.2并非孤例，而是中国模型实验室密集涌现的前沿模型代表之一，在编程等长周期任务上以极低成本逼近甚至局部超越Claude Opus，引发关于中国大模型是否会终结Anthropic暴利的讨论。",
+      "title": "中国大模型以极低成本逼近前沿性能",
+      "summary": "vLLM项目联合创始人Simon Mo表示，GLM-5.2等中国模型实验室密集涌现的前沿模型，在编程等长周期任务上以极低成本逼近甚至局部超越Claude Opus。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/charts/41959356"
         }
       ]
+    },
+    {
+      "title": "风投家警告大模型“学会然后抄袭”风险",
+      "summary": "美国风投家David Sacks指出，Anthropic在客户Cursor将Claude推成爆款编程助手后，转身推出Claude Code直接抢市场，揭示了“学会之后自己做”的商业模式风险。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/charts/41959355"
+        }
+      ]
+    },
+    {
+      "title": "Karpathy称个人开发者正主导Agent前沿",
+      "summary": "Andrej Karpathy指出当前AI领域的一大失误是强迫Agent工作而忽略底层大模型，并认为目前站在Agent最前沿的是独立开发者和创业者，而非大厂。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776229"
+        }
+      ]
+    },
+    {
+      "title": "社区警告不要向大公司AI Agent泄露研究IP",
+      "summary": "Hacker News用户发帖警告，不要信任Claude Code或ChatGPT/Codex等大公司AI Agent处理AI研究相关的知识产权，担忧数据被用于模型训练。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48798385"
+        }
+      ]
+    },
+    {
+      "title": "多个LLM工具项目在社区发布",
+      "summary": "社区涌现多个LLM相关开源项目，包括多Agent编排器Fugu 、基于LLM的博客评论工具Sidenote 、100%由LLM生成代码的IDE microide 等。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/SakanaAI/fugu"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/bharadwaj-pendyala/sidenote"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://pablojimenezmateo.github.io/microide"
+        }
+      ]
+    },
+    {
+      "title": "下周将公布中国通胀数据及美联储会议纪要",
+      "summary": "下周重磅日程包括中国6月CPI、PPI数据，美联储6月会议纪要，以及美国对60国加征关税听证会，同时苹果、OpenAI、Meta等CEO将齐聚。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/charts/41959354"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "Agent技术主导权正从大厂流向个人开发者",
+      "summary": "Karpathy的观点与社区涌现的大量个人开发者项目形成呼应，表明Agent技术的核心创新可能不在大公司的封闭体系中，而在于独立开发者对底层模型的灵活运用和快速迭代。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776229"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/SakanaAI/fugu"
+        }
+      ]
+    },
+    {
+      "title": "用户对LLM能力的低估源于对特定任务边界的认知不足",
+      "summary": "V2EX用户讨论指出，大语言模型在特定复杂任务（如编写rrweb-player示例）上集体出错，说明用户容易因模型在常见任务上的出色表现而高估其泛化能力，低估其在非典型场景下的局限性。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1225083"
+        }
+      ]
+    }
+  ]
 }
