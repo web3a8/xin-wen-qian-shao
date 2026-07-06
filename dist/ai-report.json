@@ -1,78 +1,165 @@
 {
-  "global_brief": "AI 领域持续活跃，开发者社区涌现大量围绕 LLM 代理、推理优化和工具链的开源项目，同时消费电子市场出现折叠屏 iPhone 推迟等传闻，科技巨头在模型与智能体领域的竞争格局进一步深化。",
+  "global_brief": "AI 编程工具与智能体（agent）的 Token 成本管理成为社区核心议题，同时字节跳动与阿里巴巴因新规即将下线个性化 AI 智能体功能，引发对 AI 治理与成本效率的广泛讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 4453,
-      "event_count": 78
+      "field_score": 6801,
+      "event_count": 120
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1407,
-      "event_count": 35
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 340,
-      "event_count": 6
+      "field_score": 1076,
+      "event_count": 26
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 144,
-      "event_count": 4
+      "field_score": 400,
+      "event_count": 10
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 140,
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 336,
+      "event_count": 7
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 129,
       "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "fix(agents): detect bundled and legacy providers in model-not-found h…",
-      "summary": "fix(agents): detect bundled and legacy providers in model-not-found hint (#100120) * [AI] fix(agents): detect legacy op…；fix(agents): detect bundled and legacy providers in model-…",
-      "references": [
-        {
-          "source_name": "OpenClaw Commits",
-          "link": "https://github.com/openclaw/openclaw/commit/d6dad9d9d5954297f6370433e663f24be9e97fc4"
-        }
-      ]
-    },
-    {
       "title": "Codex 一键省 Token 大法，亲测有效",
-      "summary": "Codex 一键省 Token 大法，亲测有效；每次写 Codex 的教程或者使用案例，都有读者询问，这个 Token 消耗情况怎么样。 虽然免费也能用 Codex，但不同的档次 Plus、Pro 5x、Pro 20x 所包含的 Token 额度完全不同，怎么省 Token 成了这段时…",
+      "summary": "爱范儿分享了使用 Codex 时节省 Token 消耗的方法，并提及不同套餐（Plus、Pro 5x、Pro 20x）的 Token 额度差异。",
       "references": [
         {
           "source_name": "爱范儿",
           "link": "https://ifanr.com/1669952"
+        },
+        {
+          "source_name": "Product Hunt",
+          "link": "https://producthunt.com/products/codemote-remote-control-for-any-ai"
         }
       ]
     },
     {
-      "title": "🤗 Kernels: Major Updates",
-      "summary": "🤗 Kernels: Major Updates",
+      "title": "面向数学形式化证明：Mistral AI 发布 Leanstral 1.5 低使用成本开源模型",
+      "summary": "欧洲 AI 企业 Mistral AI 发布了面向数学形式化证明语言 Lean 4 的 Leanstral 1.5 模型，该模型拥有 119B 参数，但仅激活 6B 参数，旨在降低使用成本。",
       "references": [
         {
-          "source_name": "Hugging Face 博客",
-          "link": "https://huggingface.co/blog/revamped-kernels"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/973/135.htm"
         }
       ]
     },
     {
-      "title": "早报｜曝折叠屏iPhone发售将推迟/华为何庭波发布「韬定律」V2版论文/7-Eleven起诉耐克新鞋配色涉嫌抄袭",
-      "summary": "早报｜曝折叠屏iPhone发售将推迟/华为何庭波发布「韬定律」V2版论文/7-Eleven起诉耐克新鞋配色涉嫌抄袭；📱 曝折叠屏 iPhone 发售将推迟 🛑 豆包、千问将下线智能体功能 💻 iOS 27 测试版代码现「B790」线索，疑指带摄像头的新款 AirPods 💰 手机电脑又要涨价，三星 DRAM 拟开启今年第三轮大幅提价 🧠 内存、SSD…",
+      "title": "字节跳动与阿里巴巴将禁用类人 AI 自定义智能体",
+      "summary": "据南华早报报道，字节跳动和阿里巴巴即将根据新规，于 7 月 15 日下线豆包、千问等平台的个性化 AI 智能体功能。",
       "references": [
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1670995"
+          "source_name": "Hacker News AI",
+          "link": "https://scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom"
+        }
+      ]
+    },
+    {
+      "title": "字节跳动发现新 Scaling Law，或可支撑 AI 热潮",
+      "summary": "字节跳动通过其 EdgeBench 项目发现了新的 AI 学习缩放定律，该发现被认为可能有助于维持 AI 领域的持续繁荣。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://scmp.com/tech/big-tech/article/3359373/chinas-bytedance-discovers-new-scaling-law-could-sustain-ai-boom"
+        }
+      ]
+    },
+    {
+      "title": "大科技公司突然转变对 AI 导致失业的看法",
+      "summary": "华尔街日报报道，大型科技公司高层对 AI 导致大规模失业的预测态度发生了突然转变。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://wsj.com/tech/ai/ai-workers-tech-ceos-job-losses-afc71e15"
+        }
+      ]
+    },
+    {
+      "title": "研究：AI 写作剥夺了故事的悬念与复杂性",
+      "summary": "一项发表在 Neuroscience News 上的研究指出，AI 写作会从故事中剥离神秘感和复杂性。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://neurosciencenews.com/ai-writing-mystery-complexity-creativity-30978"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 编程工具的成本意识正在重塑开发者工作流",
+      "summary": "社区讨论 指出，随着 Cursor、Claude Code 等工具按额度计费，开发者面临的核心问题已从“哪个工具更强”转变为“什么任务值得消耗高阶 AI 编程额度”，这促使开发者更审慎地评估任务价值。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1225199"
+        }
+      ]
+    },
+    {
+      "title": "无计量 LLM API 的出现预示着 AI 服务定价模式的变革",
+      "summary": "有项目 推出每月 6 美元、无 Token 追踪和无限制的 LLM API，这种“无计量”模式直接挑战了当前主流的按量计费模式，可能推动 AI 服务向更简单的订阅制演进。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://yolo-auto.com/"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1225093"
+        }
+      ]
+    },
+    {
+      "title": "字节跳动的“新 Scaling Law”与“禁用智能体”形成鲜明对比，凸显 AI 发展的双重压力",
+      "summary": "字节跳动一方面通过 EdgeBench 发现新的 Scaling Law 以推动技术发展，另一方面又因监管新规而禁用类人 AI 智能体。这反映了中国 AI 企业在追求技术前沿与应对合规风险之间的复杂平衡。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://scmp.com/tech/big-tech/article/3359373/chinas-bytedance-discovers-new-scaling-law-could-sustain-ai-boom"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom"
+        }
+      ]
+    },
+    {
+      "title": "社区对 AI 模型能力的低估与高估并存，测试方法成关键",
+      "summary": "V2EX 上的讨论 指出，开发者发现让多个大模型在特定任务（如编写 rrweb-player 示例）上集体出错，这引发了对如何正确评估和测试 LLM 能力的反思，表明简单的基准测试可能无法反映真实场景下的表现。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1225083"
+        }
+      ]
+    },
+    {
+      "title": "开源 AI 编码代理工具涌现，但“100% 由 LLM 生成”的代码引发质量担忧",
+      "summary": "多个开源 AI 编码代理（如 Excalibur、microide）在社区发布，其中 microide 明确声明其代码 100% 由 LLM 生成。这引发了关于 AI 生成代码的可维护性、安全性和长期价值的讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://pablojimenezmateo.github.io/microide"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://getexcalibur.dev/"
+        }
+      ]
+    }
+  ]
 }
