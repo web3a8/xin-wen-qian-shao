@@ -1,41 +1,41 @@
 {
-  "global_brief": "今日AI领域研究密集发布，前沿图像生成模型带来的合成视觉证据风险引发关注，同时Agentic AI在加速多模态推理、科学软件开发及物理实验等场景取得多项突破，Anthropic被指控秘密追踪用户行为也引发隐私争议。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在多模态模型、LLM Agent的推理与安全、以及模型压缩与本地部署。Meta发布其超级智能实验室的首个图像生成模型Muse Image，引发关注；同时，DeepSeek计划自研芯片以应对出口管制，以及微软在部分应用中用自研AI替换OpenAI和Anthropic模型，成为行业动态焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 73941,
-      "event_count": 1236
+      "field_score": 72664,
+      "event_count": 1248
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1861,
-      "event_count": 42
+      "field_score": 2127,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1364,
-      "event_count": 33
+      "field_score": 1270,
+      "event_count": 32
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1316,
-      "event_count": 25
+      "field_score": 1161,
+      "event_count": 23
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1191,
+      "field_score": 1143,
       "event_count": 24
     }
   ],
   "highlight_facts": [
     {
-      "title": "前沿图像生成模型带来合成视觉证据风险",
-      "summary": "一项研究指出，前沿图像生成模型已从艺术合成转向制造逼真的合成视觉证据，对现实世界构成风险。",
+      "title": "Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk",
+      "summary": "arXiv:2604.24197v2 Announce Type: replace-cross Abstract: Frontier image generation has moved from artistic synthesis t…；Seeing Is No Longer Believing: Frontier Image Generation M…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -48,8 +48,8 @@
       ]
     },
     {
-      "title": "新方法加速多模态大语言模型推理",
-      "summary": "研究提出SpecEyes方法，通过推测性感知与规划来加速Agentic多模态大语言模型（如OpenAI模型）的推理过程。",
+      "title": "SpecEyes: Accelerating Agentic Multimodal LLMs via Speculative Perception and Planning",
+      "summary": "arXiv:2603.23483v2 Announce Type: replace-cross Abstract: Agentic multimodal large language models (MLLMs) (e.g., OpenA…；SpecEyes: Accelerating Agentic Multimodal LLMs via Specula…",
       "references": [
         {
           "source_name": "arXiv NLP",
@@ -58,70 +58,25 @@
       ]
     },
     {
-      "title": "新方法实现家庭集群上运行30-70B大模型推理",
-      "summary": "Prima.cpp项目实现了在异构低资源家庭集群上快速运行30-70B参数的大语言模型推理，推动了端侧部署。",
+      "title": "Probe, Don't Prompt: A Hidden-State Probe for Metadata Filtering in Multi-Meta-RAG",
+      "summary": "arXiv:2607.03929v1 Announce Type: cross Abstract: Multi-Meta-RAG improves retrieval for multi-hop question answering by…；Probe, Don't Prompt: A Hidden-State Probe for Metadata Fil…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2504.08791"
+          "link": "https://arxiv.org/abs/2607.03929"
         }
       ]
     },
     {
-      "title": "Agentic AI首次用于大型粒子加速器物理实验",
-      "summary": "研究展示了Agentic AI在大型用户设施粒子加速器上进行多阶段物理实验的首次应用。",
+      "title": "GIM-ENDO: A Multimodal Endoscopic Image and Video Dataset for Gastric Intestinal Metaplasia Morphology and Pathology",
+      "summary": "arXiv:2606.20919v2 Announce Type: replace Abstract: Gastric intestinal metaplasia (GIM) is a precursor lesion to gastri…；GIM-ENDO: A Multimodal Endoscopic Image and Video Dataset…",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2509.17255"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic被指控秘密追踪用户行为",
-      "summary": "Anthropic被指控监视用户，其秘密的Claude追踪器在反监控立场下引发用户震惊。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users"
-        }
-      ]
-    },
-    {
-      "title": "新基准测试评估LLM Agent在非理想环境中的表现",
-      "summary": "AgentGym2基准测试发布，旨在评估大语言模型Agent在去理想化的真实世界环境中的性能。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.05174"
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2606.20919"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "端侧推理与Agent技术正推动AI应用落地",
-      "summary": "Prima.cpp等家庭集群推理方案与AgentGym2等真实环境基准的出现，表明AI正从云端大模型向更贴近实际应用的端侧和Agent化方向发展。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2504.08791"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.05174"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent记忆安全成为新兴研究焦点",
-      "summary": "针对LLM Agent记忆的伪造推理攻击研究，揭示了持久化记忆带来的新安全风险，未来Agent系统的安全设计需将记忆保护作为核心考量。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.05029"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
