@@ -1,41 +1,55 @@
 {
-  "global_brief": "AI领域持续主导今日动态，模型发布、Agent工具成本优化及安全议题成为焦点。谷歌被曝将于7月17日发布支持200万Tokens上下文的Gemini 3.5 Pro模型，同时社区围绕AI编程工具的Token消耗策略展开激烈讨论，并涌现出多个旨在降低Agent成本的创新方案。",
+  "global_brief": "过去24小时，AI领域研究密集发布，前沿图像生成模型带来的合成视觉证据风险引发关注，同时谷歌被曝将于7月17日发布支持200万Tokens上下文的Gemini 3.5 Pro模型，Anthropic则因秘密追踪用户行为陷入隐私争议。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 8387,
-      "event_count": 148
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1076,
-      "event_count": 27
+      "field_score": 74591,
+      "event_count": 1212
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 852,
-      "event_count": 22
+      "field_score": 1832,
+      "event_count": 41
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 433,
-      "event_count": 9
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 1371,
+      "event_count": 26
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 409,
-      "event_count": 9
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1324,
+      "event_count": 32
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 1319,
+      "event_count": 26
     }
   ],
   "highlight_facts": [
     {
-      "title": "谷歌被曝将于7月17日发布Gemini 3.5 Pro模型，支持200万Tokens上下文",
-      "summary": "据消息源爆料，谷歌计划于7月17日发布Gemini 3.5 Pro模型，该模型将支持200万Tokens的上下文窗口，并引入全新的“深度思考”功能。在部分前端AI测试中，其性能已赶超Claude Fable 5。",
+      "title": "前沿图像生成模型带来合成视觉证据风险",
+      "summary": "一项研究指出，前沿图像生成模型已从艺术合成转向生成逼真的合成视觉证据，对现实世界构成风险。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.24197"
+        },
+        {
+          "source_name": "arXiv 计算机视觉",
+          "link": "https://arxiv.org/abs/2601.02211"
+        }
+      ]
+    },
+    {
+      "title": "谷歌计划发布Gemini 3.5 Pro模型",
+      "summary": "据消息源爆料，谷歌计划于7月17日发布Gemini 3.5 Pro模型，该模型支持200万Tokens上下文窗口，并引入“深度思考”功能，在前端部分AI测试中已赶超Claude Fable 5。",
       "references": [
         {
           "source_name": "IT之家",
@@ -44,172 +58,118 @@
       ]
     },
     {
-      "title": "Anthropic被指控监控用户，秘密追踪器引发隐私争议",
-      "summary": "Anthropic被指控存在监控用户行为，一名工程师称其“实验”已经结束。这一秘密追踪器的发现，与Anthropic此前反对监控的立场形成鲜明对比，引发了用户的震惊和隐私担忧。",
+      "title": "新研究提出加速多模态AI代理的方法",
+      "summary": "一项名为SpecEyes的研究提出通过推测性感知和规划来加速多模态大语言模型（MLLMs）的代理能力。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2603.23483"
+        }
+      ]
+    },
+    {
+      "title": "新方法实现30-70B大模型在低资源家庭集群上推理",
+      "summary": "Prima.cpp项目实现了在异构、低资源的家庭集群上快速运行30-70B参数的大语言模型推理。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2504.08791"
+        }
+      ]
+    },
+    {
+      "title": "新基准测试评估LLM代理在非理想化环境中的表现",
+      "summary": "AgentGym2基准测试旨在评估大语言模型代理在去理想化的真实世界环境中的表现。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.05174"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic被曝秘密追踪用户行为",
+      "summary": "Anthropic被指控监视用户，一名工程师称其“实验”已结束，此事因其反监控立场而引发用户震惊。",
       "references": [
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users"
-        }
-      ]
-    },
-    {
-      "title": "苹果发布visionOS 27.0 Beta 3，Siri AI可感知佩戴者注视内容",
-      "summary": "苹果向Vision Pro用户推送了visionOS 27.0开发者预览版Beta 3更新。新版本中，Siri AI能够理解佩戴者正在注视的内容，并支持将全景照片转换为空间环境。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/973/308.htm"
-        }
-      ]
-    },
-    {
-      "title": "社区热议AI编程工具Token消耗策略，成本控制成新痛点",
-      "summary": "在V2EX等社区，开发者们开始讨论在Cursor、Claude Code、Copilot等AI编程工具日益普及的背景下，如何判断哪些任务值得消耗昂贵的Token额度，而非单纯比较工具性能。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1225199"
-        }
-      ]
-    },
-    {
-      "title": "开源社区涌现多个降低LLM Agent成本的方案",
-      "summary": "多个旨在降低LLM Agent运行成本的开源项目在Hacker News上获得关注，包括提供无计量LLM API的服务 、名为Compressor V2的压缩层方案，以及用于管理Agent运行状态的Kennel工具。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://yolo-auto.com/"
-        },
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://jpthecat.com/"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1225417"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://edgee.ai/blog/posts/introducing-compressor-v2-three-compression-layers-measured-end-to-end-for-a-50-cost-reduction"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/eranif/kennel"
-        }
-      ]
-    },
-    {
-      "title": "JadePuffer勒索软件利用AI Agent自动化攻击流程",
-      "summary": "安全报告显示，名为JadePuffer的勒索软件已开始使用AI Agent来自动化其整个攻击流程，标志着AI在网络安全威胁领域的应用进入新阶段。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI编程工具的“额度账单”模式正在改变开发者行为",
-      "summary": "随着AI编程工具按Token计费的模式普及，开发者的关注点正从“哪个工具更强”转向“什么任务值得消耗更高阶的AI编程额度”，这可能导致开发者在简单任务上减少对高级模型的依赖，并催生更多成本优化方案。",
+      "title": "谷歌与Anthropic的竞争正从模型能力延伸到隐私策略",
+      "summary": "谷歌Gemini 3.5 Pro在技术上追赶Claude系列的同时，Anthropic却因秘密追踪用户而损害其反监控的品牌形象，这预示着AI公司的竞争维度正在从单纯的模型性能扩展到用户信任和隐私实践。",
       "references": [
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1225199"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/973/334.htm"
         },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://yolo-auto.com/"
-        },
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://jpthecat.com/"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1225417"
-        },
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1669952"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent安全风险加剧，从隐私监控到自动化攻击",
-      "summary": "从Anthropic的监控争议到JadePuffer勒索软件利用AI Agent自动化攻击，再到Node.js社区面临AI生成的虚假安全报告洪流，AI Agent带来的安全挑战正从隐私、供应链安全向网络犯罪领域全面扩散，亟需更完善的防御体系。",
-      "references": [
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://heise.de/news/Sicherheitswarnungen-Node-js-will-KI-Flut-mit-KI-bekaempfen-11355142.html"
         }
       ]
     },
     {
-      "title": "开源与自托管方案成为对抗AI成本与锁定效应的关键路径",
-      "summary": "面对高昂的API费用和潜在的供应商锁定，社区正积极转向开源和自托管方案，如Mozilla推出的Otari LLM控制平面、无计量API服务以及各类本地优先的推理工具，这预示着AI基础设施领域将出现更显著的“去中心化”趋势。",
+      "title": "本地化推理成为AI部署的关键趋势",
+      "summary": "Prima.cpp等项目致力于在低资源家庭集群上运行大模型，结合STELLA等端侧推理研究，表明AI行业正加速向去中心化、隐私保护的本地部署模式转型。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://yolo-auto.com/"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2504.08791"
         },
         {
-          "source_name": "Hacker News Show",
-          "link": "https://jpthecat.com/"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1225417"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/mozilla-ai/otari"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://blog.mozilla.ai/introducing-otari-the-open-source-llm-control-plane"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Lore-Hex/BurstyRouter"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.03089"
         }
       ]
     },
     {
-      "title": "AI市场可能面临“痛苦的重定价”，泡沫风险不容忽视",
-      "summary": "阿波罗经济学家警告，尽管AI在生产力提升方面展现出潜力，但市场可能面临“痛苦的重定价”。这一观点与社区中关于AI编程工具成本、Token消耗策略的讨论相呼应，暗示当前AI服务的定价模式与用户实际感知的价值之间可能存在鸿沟。",
+      "title": "AI代理安全研究进入深水区",
+      "summary": "针对LLM代理记忆的伪造推理攻击研究，以及AgentGym2等非理想化环境基准的提出，表明业界正从关注代理能力转向关注其在复杂、对抗性环境下的鲁棒性和安全性。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://fortune.com/2026/07/06/ai-productivity-gains-bubble-painful-repricing-markets-torsten-slok"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.05174"
         },
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1225199"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.05029"
         }
       ]
     },
     {
-      "title": "小型AI模型在特定场景下正获得更多关注",
-      "summary": "在网络不稳定的地区，小型AI模型因其低延迟和低资源需求而获得更多关注。同时，针对行政任务等特定场景的本地LLM基准测试也相继出现，表明行业正从追求“大而全”的通用模型，转向探索更务实、更场景化的模型部署策略。",
+      "title": "多智能体强化学习与LLM的结合成为研究热点",
+      "summary": "多篇研究探索了LLM增强的多智能体强化学习、交互式学习及数学研究代理，表明利用LLM的推理能力来协调和优化多智能体系统正成为AI研究的前沿方向。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.04470"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://aai-labs.com/en/research/local-llm-benchmark-administrative-tasks"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2509.26306"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.04394"
+        }
+      ]
+    },
+    {
+      "title": "医疗AI评估正从静态基准转向动态、过程导向的范式",
+      "summary": "MedBench v5等新基准强调过程可见性和对幻觉的感知，而MedCalc-Pro等研究则聚焦于解决复杂医疗计算，这标志着医疗AI的评估标准正变得更加严谨和实用。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2606.24155"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.02879"
         }
       ]
     }
