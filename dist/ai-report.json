@@ -1,41 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，前沿图像生成模型带来的合成视觉证据风险引发关注，同时谷歌被曝将于7月17日发布支持200万Tokens上下文的Gemini 3.5 Pro模型，Anthropic则因秘密追踪用户行为陷入隐私争议。",
+  "global_brief": "前沿图像生成模型带来的合成视觉证据风险引发学界关注，同时中国AI大模型凭借成本优势正加速进入美国企业市场，Anthropic则因被指监控用户而陷入隐私争议。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 74591,
-      "event_count": 1212
+      "field_score": 73846,
+      "event_count": 1233
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1832,
+      "field_score": 1809,
       "event_count": 41
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 1371,
-      "event_count": 26
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1324,
-      "event_count": 32
+      "field_score": 1458,
+      "event_count": 35
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 1277,
+      "event_count": 25
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1319,
-      "event_count": 26
+      "field_score": 1191,
+      "event_count": 24
     }
   ],
   "highlight_facts": [
     {
-      "title": "前沿图像生成模型带来合成视觉证据风险",
-      "summary": "一项研究指出，前沿图像生成模型已从艺术合成转向生成逼真的合成视觉证据，对现实世界构成风险。",
+      "title": "Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk",
+      "summary": "arXiv:2604.24197v2 Announce Type: replace-cross Abstract: Frontier image generation has moved from artistic synthesis t…；Seeing Is No Longer Believing: Frontier Image Generation M…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -48,18 +48,18 @@
       ]
     },
     {
-      "title": "谷歌计划发布Gemini 3.5 Pro模型",
-      "summary": "据消息源爆料，谷歌计划于7月17日发布Gemini 3.5 Pro模型，该模型支持200万Tokens上下文窗口，并引入“深度思考”功能，在前端部分AI测试中已赶超Claude Fable 5。",
+      "title": "成本优势显著，中国 AI 大模型正逐渐获得美国企业青睐",
+      "summary": "IT之家 7 月 7 日消息，据 CNBC 报道，随着中国人工智能模型不断缩小与美国头部竞品的性能差距，且使用成本显著更低，这类模型正逐渐获得美国企业的青睐。 DeepSeek、智谱 AI 等中国企业近期推出的多款模型，在许多业内人士看来…；成本优势显著，中国 AI 大模型正逐渐获得美国企业青睐",
       "references": [
         {
           "source_name": "IT之家",
-          "link": "https://ithome.com/0/973/334.htm"
+          "link": "https://ithome.com/0/973/643.htm"
         }
       ]
     },
     {
-      "title": "新研究提出加速多模态AI代理的方法",
-      "summary": "一项名为SpecEyes的研究提出通过推测性感知和规划来加速多模态大语言模型（MLLMs）的代理能力。",
+      "title": "SpecEyes: Accelerating Agentic Multimodal LLMs via Speculative Perception and Planning",
+      "summary": "arXiv:2603.23483v2 Announce Type: replace-cross Abstract: Agentic multimodal large language models (MLLMs) (e.g., OpenA…；SpecEyes: Accelerating Agentic Multimodal LLMs via Specula…",
       "references": [
         {
           "source_name": "arXiv NLP",
@@ -68,110 +68,15 @@
       ]
     },
     {
-      "title": "新方法实现30-70B大模型在低资源家庭集群上推理",
-      "summary": "Prima.cpp项目实现了在异构、低资源的家庭集群上快速运行30-70B参数的大语言模型推理。",
+      "title": "Probe, Don't Prompt: A Hidden-State Probe for Metadata Filtering in Multi-Meta-RAG",
+      "summary": "arXiv:2607.03929v1 Announce Type: cross Abstract: Multi-Meta-RAG improves retrieval for multi-hop question answering by…；Probe, Don't Prompt: A Hidden-State Probe for Metadata Fil…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2504.08791"
-        }
-      ]
-    },
-    {
-      "title": "新基准测试评估LLM代理在非理想化环境中的表现",
-      "summary": "AgentGym2基准测试旨在评估大语言模型代理在去理想化的真实世界环境中的表现。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.05174"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic被曝秘密追踪用户行为",
-      "summary": "Anthropic被指控监视用户，一名工程师称其“实验”已结束，此事因其反监控立场而引发用户震惊。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users"
+          "link": "https://arxiv.org/abs/2607.03929"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "谷歌与Anthropic的竞争正从模型能力延伸到隐私策略",
-      "summary": "谷歌Gemini 3.5 Pro在技术上追赶Claude系列的同时，Anthropic却因秘密追踪用户而损害其反监控的品牌形象，这预示着AI公司的竞争维度正在从单纯的模型性能扩展到用户信任和隐私实践。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/973/334.htm"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users"
-        }
-      ]
-    },
-    {
-      "title": "本地化推理成为AI部署的关键趋势",
-      "summary": "Prima.cpp等项目致力于在低资源家庭集群上运行大模型，结合STELLA等端侧推理研究，表明AI行业正加速向去中心化、隐私保护的本地部署模式转型。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2504.08791"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.03089"
-        }
-      ]
-    },
-    {
-      "title": "AI代理安全研究进入深水区",
-      "summary": "针对LLM代理记忆的伪造推理攻击研究，以及AgentGym2等非理想化环境基准的提出，表明业界正从关注代理能力转向关注其在复杂、对抗性环境下的鲁棒性和安全性。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.05174"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.05029"
-        }
-      ]
-    },
-    {
-      "title": "多智能体强化学习与LLM的结合成为研究热点",
-      "summary": "多篇研究探索了LLM增强的多智能体强化学习、交互式学习及数学研究代理，表明利用LLM的推理能力来协调和优化多智能体系统正成为AI研究的前沿方向。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.04470"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2509.26306"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.04394"
-        }
-      ]
-    },
-    {
-      "title": "医疗AI评估正从静态基准转向动态、过程导向的范式",
-      "summary": "MedBench v5等新基准强调过程可见性和对幻觉的感知，而MedCalc-Pro等研究则聚焦于解决复杂医疗计算，这标志着医疗AI的评估标准正变得更加严谨和实用。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2606.24155"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.02879"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
