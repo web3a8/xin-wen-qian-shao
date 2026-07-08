@@ -1,34 +1,34 @@
 {
-  "global_brief": "过去24小时，AI领域持续活跃，多篇研究聚焦于LLM Agent的安全性与效率瓶颈，同时产业界出现重大动态：SpaceX与Cursor计划联合发布新模型，直接挑战Anthropic和OpenAI。此外，GitHub AI Agent被曝存在泄露私有仓库的安全漏洞，引发社区广泛讨论。 [FACT] TITLE: SpaceX与Cursor计划联合发布AI模型 SUMMARY: SpaceX旗下AI部门与编程工具公司Cursor计划最快于本周三联合发布首款共同研发的AI模型，目标直指Anthropic的Opus 4.8及OpenAI的GPT-5.5 …",
+  "global_brief": "7月全球AI大模型竞赛进入密集发布窗口期，OpenAI、Meta、DeepSeek等头部玩家同步亮出新牌，同时学术界围绕LLM Agent的推理、安全与效率产出大量新成果，社区侧则涌现出多款面向Agent记忆与推理的开源工具。 [FACT] TITLE: OpenAI宣布GPT-5.6旗舰模型Sol将于本周四发布，搭载全新Ultra多智能体模式 SUMMARY: OpenAI首席执行官Sam Altman在社交媒体上宣布，GPT-5.6 Sol将于本周四正式发布，这是GPT-5.6系列中的旗舰模型，搭载全新ultra多智能体模式，标志着AI能力与商业化…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33442,
-      "event_count": 545
+      "field_score": 32877,
+      "event_count": 546
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1705,
-      "event_count": 37
+      "field_score": 2058,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1192,
-      "event_count": 29
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 879,
-      "event_count": 17
+      "field_score": 1423,
+      "event_count": 35
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 783,
+      "field_score": 904,
+      "event_count": 18
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 761,
       "event_count": 15
     }
   ],
@@ -40,6 +40,16 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2501.07892"
+        }
+      ]
+    },
+    {
+      "title": "7月AI大乱斗：国外GPT-5.6、Grok4.5、Gemini 3 Pro轮流登场，国内DeepSeek V4正式版也来了！",
+      "summary": "7月AI大乱斗：国外GPT-5.6、Grok4.5、Gemini 3 Pro轮流登场，国内DeepSeek V4正式版也来了！；7月全球AI大模型竞赛进入密集发布窗口期，国内外头部玩家几乎同步亮出新牌。 OpenAI旗舰模型GPT-5.6 Sol定于本周四正式发布，马斯克旗下SpaceX AI宣布Grok 4.5也将于明日向公众开放，谷歌Gemini 3.…",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776450"
         }
       ]
     },
@@ -60,16 +70,6 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2607.06001"
-        }
-      ]
-    },
-    {
-      "title": "From Application-Layer Simulation to Native Meta-Architecture: Structural Tension as an Endogenous Driver for Heterogen…",
-      "summary": "arXiv:2607.06269v1 Announce Type: new Abstract: Current large language models (LLMs) are fundamentally stateless: their…；From Application-Layer Simulation to Native Meta-Architect…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.06269"
         }
       ]
     }
