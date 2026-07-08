@@ -1,43 +1,139 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Leveraging Metamemory Agent for Enhanced Data-Free Code Generation in Large Language Models；MLLM-LLaVA-FL: Multimodal Large Language Model Assisted Federated Learning；Information Limits and Attractor Dynamics in Economies of Frontier LLM Agents: A Pre-Registered…",
+  "global_brief": "过去24小时，AI领域持续主导技术动态，OpenAI发布了新一代语音模型GPT-Live，同时AI编程代理引发的安全边界问题受到关注，多篇研究论文深入探讨了LLM代理的规划与推理失败模式。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 31295,
-      "event_count": 525
+      "field_score": 32099,
+      "event_count": 545
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1937,
-      "event_count": 47
+      "field_score": 1868,
+      "event_count": 46
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1812,
+      "field_score": 1783,
       "event_count": 41
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 772,
-      "event_count": 16
+      "field_score": 1042,
+      "event_count": 22
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 726,
+      "field_score": 698,
       "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "Hot French startup ZML 发布 free product to speed inference across lots of AI chips",
-      "summary": "Hot French startup ZML 发布 free product to speed inference across lots of AI chips；时间：2026-07-08T08:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
+      "summary": "安全公司Sophos分析一周端点数据发现，AI编程代理（如Cursor）的行为触发了原本用于检测攻击者的安全规则，引发了对AI工具安全边界的担忧。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html"
+        }
+      ]
+    },
+    {
+      "title": "Introducing GPT-Live",
+      "summary": "OpenAI发布了新一代语音模型GPT-Live，该模型支持同时说话和聆听，旨在实现更自然的人机交互，并已集成至ChatGPT的语音模式中。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/introducing-gpt-live"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations"
+        }
+      ]
+    },
+    {
+      "title": "SpaceXAI与Cursor联合发布Grok AI模型，主打法律与金融任务",
+      "summary": "SpaceXAI与AI编程初创公司Cursor合作发布了Grok 4.5模型，该模型专注于法律和金融领域的任务，旨在缩小与Anthropic和OpenAI等竞争对手的差距。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776499"
+        }
+      ]
+    },
+    {
+      "title": "Helping K–12 educators build practical AI skills",
+      "summary": "OpenAI Academy与Walton Family Foundation合作，为K-12教育工作者提供实践性的AI技能培训，旨在提升教育领域的AI应用能力。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/k-12-educators-practical-skills"
+        }
+      ]
+    },
+    {
+      "title": "Leveraging Metamemory Agent for Enhanced Data-Free Code Generation in Large Language Models",
+      "summary": "一篇arXiv论文提出利用元记忆代理（Metamemory Agent）增强大语言模型在无数据场景下的代码生成能力，探索了代理在代码生成中的新应用。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2501.07892"
+        }
+      ]
+    },
+    {
+      "title": "Beyond the Leaderboard: A Synthesis of Tool-Use, Planning, and Reasoning Failures in Large Language Model Agents",
+      "summary": "一篇arXiv论文系统总结了LLM代理在工具使用、规划和推理方面的失败模式，指出当前基准测试可能无法全面反映代理在实际任务中的表现。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.05775"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "开源社区持续推动LLM推理效率与安全研究",
+      "summary": "多篇arXiv论文聚焦于移动端LLM推理瓶颈、对齐模型的安全漏洞分析以及通过强化学习提升模型质量，表明开源社区正从效率、安全和质量三个维度推动LLM的实用化进程。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.05475"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.05842"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.06175"
+        }
+      ]
+    },
+    {
+      "title": "多模态LLM训练面临计算与内存的帕累托前沿挑战",
+      "summary": "一篇论文提出BigMac方法以打破多模态LLM训练中计算与内存的帕累托前沿，这反映出当前多模态模型训练在资源效率上仍有巨大优化空间，是模型规模化部署的关键瓶颈。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2605.25451"
+        }
+      ]
+    }
+  ]
 }
