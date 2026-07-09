@@ -1,41 +1,51 @@
 {
-  "global_brief": "今日AI领域持续高速发展，安全与治理成为核心议题：OpenAI发布政府与国家安全合作原则，同时AI编码代理触发端点安全警报、LLM面临记忆投毒等新威胁浮出水面。模型竞赛方面，SpaceXAI发布Grok 4.5，而一项分析显示Claude Fable 5在成本远超DeepSeek V4 Pro的情况下性能仅领先12分，引发对性价比的讨论。此外，多项研究聚焦于提升LLM的推理、记忆与多模态能力，并探索更高效的Agent架构。",
+  "global_brief": "过去24小时，AI领域持续聚焦于AI Agent的安全性与可靠性，多项研究揭示了编码Agent触发安全规则、记忆投毒攻击等新风险。同时，OpenAI更新了其政府与国家安全合作策略，并发布了更自然的语音模型，而SpaceXAI则推出了Grok 4.5。社区侧涌现出大量针对Agent工具链和安全防护的开源项目。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30000,
-      "event_count": 497
+      "field_score": 28925,
+      "event_count": 491
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1649,
-      "event_count": 37
+      "field_score": 1697,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1359,
-      "event_count": 34
+      "field_score": 1391,
+      "event_count": 35
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 549,
+      "event_count": 10
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 485,
-      "event_count": 10
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 443,
-      "event_count": 9
+      "field_score": 512,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI发布政府与国家安全合作原则",
-      "summary": "OpenAI公布了其与政府和国家安全机构合作的原则，旨在负责任地使用AI，并发布了用于更自然实时对话的新语音模型。",
+      "title": "Large Language Models (LLMs) and Generative AI in Cybersecurity and Privacy: A Survey of Dual-Use Risks, AI-Generated M…",
+      "summary": "arXiv:2607.06963v1 Announce Type: cross Abstract: Large Language Models (LLMs) and generative AI (GenAI) systems, such…；Large Language Models (LLMs) and Generative AI in Cybersecu…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.06963"
+        }
+      ]
+    },
+    {
+      "title": "Our approach to government and national security partnerships",
+      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, demo…；Our approach to government and national security partnersh…",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -46,26 +56,27 @@
           "link": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "AI Agent安全风险从理论走向现实",
-      "summary": "从Sophos发现AI编码代理触发安全规则，到针对Agent的记忆投毒攻击研究，再到社区讨论针对MCP攻击的拒绝训练，AI Agent的安全问题正从学术研究快速演变为实际部署中的紧迫挑战。",
+      "title": "早报｜努比亚确认推出全球首款AI智能体手机/法拉利高管:中国车企做的是快消品/华为天才少年回应DeepSeek面试争议",
+      "summary": "早报｜努比亚确认推出全球首款AI智能体手机/法拉利高管:中国车企做的是快消品/华为天才少年回应DeepSeek面试争议；🔒 工信部 NVDB 提醒 Claude Code 安全后门隐患 📱 GPT-5.6 定档本周全量上线 🤖 SpaceXAI 最强模型 Grok 4.5 发布 🔥 Claude Fable 5 免费使用期延长至 7 月 12 日，付费用户…",
       "references": [
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html"
-        },
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1671401"
+        }
+      ]
+    },
+    {
+      "title": "AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org",
+      "summary": "AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org；arXiv:2512.11935v2 Announce Type: replace Abstract: Agentic AI systems increasingl…",
+      "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.06595"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/johnhalloran321/mcp_safety_training"
+          "link": "https://arxiv.org/abs/2512.11935"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
