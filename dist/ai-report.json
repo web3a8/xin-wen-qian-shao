@@ -1,183 +1,56 @@
 {
-  "global_brief": "过去24小时，AI领域持续高热，安全与Agent成为两大核心议题。一方面，AI编码Agent触发端点安全规则、Claude Code被曝安全后门隐患等事件凸显了AI工具的双刃剑效应；另一方面，开源AI开发工具Ollama获6500万美元融资，用户数逼近900万，标志着AI基础设施的繁荣。同时，SpaceXAI发布Grok 4.5，OpenAI推出新语音模型，模型竞赛仍在加速。",
+  "global_brief": "Meta 正式加入 AI 模型商业化竞争，推出付费大模型 Muse Spark 1.1，并采取激进定价策略，同时其新 AI 图像工具允许使用公开 Instagram 照片引发隐私争议。AI 安全与治理成为焦点，Sophos 发现 AI 编程代理频繁触发端点安全规则，联合国数字技术机构也启动提升 AI 代理信任度的倡议。此外，开源 AI 开发工具 Ollama 获得 6500 万美元融资，用户量接近 900 万，显示开发者工具市场持续火热。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 28871,
-      "event_count": 492
+      "field_score": 27973,
+      "event_count": 486
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1756,
-      "event_count": 39
+      "field_score": 1865,
+      "event_count": 42
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1597,
-      "event_count": 39
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 617,
-      "event_count": 12
+      "field_score": 1567,
+      "event_count": 38
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 428,
+      "field_score": 410,
       "event_count": 9
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 390,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "AI编码Agent触发端点安全规则",
-      "summary": "安全公司Sophos分析一周的端点数据发现，AI编码Agent的行为触发了为捕捉攻击者而设的端点安全规则。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html"
-        }
-      ]
-    },
-    {
-      "title": "开源AI工具Ollama获6500万美元融资",
-      "summary": "由Benchmark支持的开源AI开发者工具Ollama完成6500万美元融资，其GitHub星标数达17.6万，用户数已增长至近900万。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users"
-        }
-      ]
-    },
-    {
-      "title": "SpaceXAI发布Grok 4.5模型",
-      "summary": "SpaceXAI发布了最新版Grok 4.5，马斯克称其为“Opus级模型”，并承诺提供更便宜、更高效的替代方案。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model"
-        }
-      ]
-    },
-    {
-      "title": "Meta新AI工具允许使用公开Instagram照片生成图像",
-      "summary": "Meta宣布其新AI模型Muse Image允许用户利用他人的公开Instagram帖子生成AI图像，引发隐私关注。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://nytimes.com/2026/07/08/technology/meta-instagram-ai.html"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI发布新语音模型",
-      "summary": "OpenAI发布了新的语音模型，支持更自然的实时对话，能够同时进行听和说。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations"
-        }
-      ]
-    },
-    {
-      "title": "大模型周榜：Claude-Fable-5蝉联榜首",
-      "summary": "Arena平台最新大模型对战周榜显示，Anthropic的Claude-Fable-5继续位居榜首，国产模型稳定在中上游。",
+      "title": "Meta 发布付费 AI 模型 Muse Spark 1.1，采取激进定价策略",
+      "summary": "Meta 正式向开发者开放 Muse Spark AI 模型 API，并发布升级版 Muse Spark 1.1，标志着其加入 AI 商业化竞争。据华尔街见闻和 Hacker News 报道，该模型能力超越 Google，定价仅为 Anthropic 的四分之一，扎克伯格承诺采取“激进”定价策略。",
       "references": [
         {
           "source_name": "IT之家",
-          "link": "https://ithome.com/0/974/695.htm"
+          "link": "https://ithome.com/0/974/775.htm"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776599"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://bloomberg.com/news/articles/2026-07-09/meta-starts-charging-for-ai-with-muse-spark-1-1-agentic-model"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI Agent安全风险成为焦点",
-      "summary": "从AI编码Agent触发安全规则到针对Agent的MCP攻击训练，再到Claude Code被指存在后门隐患，社区和业界对AI Agent带来的新型安全挑战关注度急剧上升。",
-      "references": [
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1671401"
-        },
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/johnhalloran321/mcp_safety_training"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent开发工具生态快速膨胀",
-      "summary": "社区涌现出大量AI Agent开发工具，如用于检测Agent不稳定的控制论方法、状态与人格管理框架SoulOS、以及将Agent行为编译为WASM的工具，表明开发者正在积极探索Agent的可靠性、可管理性和可验证性。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/vishal-dehurdle/state-harness"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://mziqudhd92.github.io/soul-os"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/RightNow-AI/auto"
-        }
-      ]
-    },
-    {
-      "title": "AI编码工具正改变开发者工作流",
-      "summary": "随着Claude Code、Codex等AI编码Agent的普及，开发者访问Stack Overflow的频率显著下降，这预示着传统开发者知识共享模式正面临根本性变革。",
-      "references": [
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48843956"
-        }
-      ]
-    },
-    {
-      "title": "视频游戏数据或成LLM训练新前沿",
-      "summary": "有观点认为，相比互联网数据，视频游戏能提供更好的训练数据，这为突破当前LLM在实现AGI方面的瓶颈提供了新思路。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet"
-        }
-      ]
-    },
-    {
-      "title": "小型专用模型在Agent任务中潜力巨大",
-      "summary": "研究显示，像Terminus-4B这样的小型模型在特定Agent执行任务上可能取代前沿大模型，这预示着未来AI应用将更倾向于采用更高效、更专业的模型组合。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2605.03195"
-        }
-      ]
-    },
-    {
-      "title": "LLM在金融分析中的信息保真度受质疑",
-      "summary": "一项研究指出，LLM生成的摘要可能会扭曲财务决策，这警示在金融等高风险领域部署LLM时需谨慎评估其信息保真度。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.29251"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
