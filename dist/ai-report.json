@@ -1,29 +1,29 @@
 {
-  "global_brief": "OpenAI 正式推出 GPT-5.6 系列模型（Luna、Terra、Sol），并宣布“ChatGPT Work”服务，此前该模型因监管审查延迟发布。Meta 同时加入 AI 商业化竞争，向开发者开放 Muse Spark AI 模型 API，并发布升级版 Muse Spark 1.1，定价策略激进。此外，开源 AI 开发工具 Ollama 获得 6500 万美元融资，用户数接近 900 万，显示开发者对本地运行 AI 模型的需求持续高涨。 [FACT] TITLE: OpenAI 正式推出 GPT-5.6 系列模型 SUMMARY: OpenAI…",
+  "global_brief": "OpenAI 在获得政府批准后正式全面推出 GPT-5.6 模型系列，并同步宣布“ChatGPT Work”服务，同时关闭了其 AI 浏览器 Atlas。Meta 则通过发布 Muse Spark 1.1 模型 API 并采取激进定价策略，正式加入 AI 商业化竞争，引发行业价格战。此外，开源 AI 开发工具 Ollama 获得 6500 万美元融资，用户数接近 900 万，显示出开发者生态的强劲活力。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 28309,
-      "event_count": 488
+      "field_score": 28671,
+      "event_count": 495
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1604,
-      "event_count": 35
+      "field_score": 1634,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1503,
+      "field_score": 1491,
       "event_count": 38
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 944,
-      "event_count": 20
+      "field_score": 828,
+      "event_count": 18
     },
     {
       "field_key": "science",
@@ -34,39 +34,13 @@
   ],
   "highlight_facts": [
     {
-      "title": "Large Language Models (LLMs) and Generative AI in Cybersecurity and Privacy: A Survey of Dual-Use Risks, AI-Generated M…",
-      "summary": "arXiv:2607.06963v1 Announce Type: cross Abstract: Large Language Models (LLMs) and generative AI (GenAI) systems, such…；Large Language Models (LLMs) and Generative AI in Cybersecu…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.06963"
-        }
-      ]
-    },
-    {
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "summary": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot；Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and……",
+      "title": "OpenAI 全面推出 GPT-5.6 模型系列",
+      "summary": "OpenAI 在经历监管审查后，正式向公众推出其最新旗舰模型 GPT-5.6，该系列包含 Luna、Terra 和 Sol 三个版本，并已集成至 Microsoft 365 Copilot 中成为首选模型。",
       "references": [
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
-        }
-      ]
-    },
-    {
-      "title": "llm 0.31.1",
-      "summary": "llm 0.31.1；Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could re…",
-      "references": [
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/9/llm"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
-      "summary": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organ…；OpenAI rolls out GPT-5.6 after government greenlight — and…",
-      "references": [
+        },
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work"
@@ -82,9 +56,40 @@
         {
           "source_name": "daringfireball.net",
           "link": "https://9to5mac.com/2026/07/09/openai-announcing-the-next-chapter-for-chatgpt-today-watch-here"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 模型商业化进入价格战阶段",
+      "summary": "Meta 以远低于竞争对手的价格推出 Muse Spark 1.1，标志着 AI 大模型商业化竞争从技术能力比拼转向价格战，这可能迫使其他厂商（如 Anthropic 和 OpenAI）调整定价策略，加速行业洗牌。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/974/775.htm"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1"
+        },
+        {
+          "source_name": "Vercel Blog",
+          "link": "https://vercel.com/changelog/muse-spark-1-1-is-now-available-on-ai-gateway"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776599"
+        }
+      ]
+    }
+  ]
 }
