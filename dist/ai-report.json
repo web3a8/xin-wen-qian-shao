@@ -1,53 +1,75 @@
 {
-  "global_brief": "Meta 正式加入 AI 模型商业化竞争，推出付费大模型 Muse Spark 1.1，并采取激进定价策略，同时其新 AI 图像工具允许使用公开 Instagram 照片引发隐私争议。AI 安全与治理成为焦点，Sophos 发现 AI 编程代理频繁触发端点安全规则，联合国数字技术机构也启动提升 AI 代理信任度的倡议。此外，开源 AI 开发工具 Ollama 获得 6500 万美元融资，用户量接近 900 万，显示开发者工具市场持续火热。",
+  "global_brief": "Meta 正式加入 AI 模型商业化竞争，推出付费大模型 Muse Spark 1.1，定价策略激进；同时，OpenAI 在获得政府批准后全量上线 GPT-5.6，并推出“ChatGPT Work”智能体功能。此外，开源 AI 开发工具 Ollama 获得 6500 万美元融资，用户数接近 900 万，显示开发者工具市场热度不减。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 27973,
-      "event_count": 486
+      "field_score": 28712,
+      "event_count": 498
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1865,
-      "event_count": 42
+      "field_score": 1803,
+      "event_count": 40
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1567,
+      "field_score": 1543,
       "event_count": 38
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 897,
+      "event_count": 19
     },
     {
       "field_key": "science",
       "field_name": "Science",
       "field_score": 410,
       "event_count": 9
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 390,
-      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "Meta 发布付费 AI 模型 Muse Spark 1.1，采取激进定价策略",
-      "summary": "Meta 正式向开发者开放 Muse Spark AI 模型 API，并发布升级版 Muse Spark 1.1，标志着其加入 AI 商业化竞争。据华尔街见闻和 Hacker News 报道，该模型能力超越 Google，定价仅为 Anthropic 的四分之一，扎克伯格承诺采取“激进”定价策略。",
+      "title": "Large Language Models (LLMs) and Generative AI in Cybersecurity and Privacy: A Survey of Dual-Use Risks, AI-Generated M…",
+      "summary": "arXiv:2607.06963v1 Announce Type: cross Abstract: Large Language Models (LLMs) and generative AI (GenAI) systems, such…；Large Language Models (LLMs) and Generative AI in Cybersecu…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.06963"
+        }
+      ]
+    },
+    {
+      "title": "llm 0.31.1",
+      "summary": "llm 0.31.1；Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could re…",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/9/llm"
+        }
+      ]
+    },
+    {
+      "title": "Meta 正式向开发者开放 Muse Spark AI 模型 API，加入 AI 商业化竞争",
+      "summary": "IT之家 7 月 9 日消息，Meta Platforms 今日正式向开发者开 Muse Spark AI 模型 API，同时发布了升级版 Muse Spark 1.1。此举意味着 Meta 正式加入 AI 模型商业化竞争，与 Anthr…；Meta 正式向开发者开放 Muse Spark AI 模型 API，加入 AI 商业化竞争",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/974/775.htm"
-        },
+        }
+      ]
+    },
+    {
+      "title": "早报｜努比亚确认推出全球首款AI智能体手机/法拉利高管:中国车企做的是快消品/华为天才少年回应DeepSeek面试争议",
+      "summary": "早报｜努比亚确认推出全球首款AI智能体手机/法拉利高管:中国车企做的是快消品/华为天才少年回应DeepSeek面试争议；🔒 工信部 NVDB 提醒 Claude Code 安全后门隐患 📱 GPT-5.6 定档本周全量上线 🤖 SpaceXAI 最强模型 Grok 4.5 发布 🔥 Claude Fable 5 免费使用期延长至 7 月 12 日，付费用户…",
+      "references": [
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3776599"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://bloomberg.com/news/articles/2026-07-09/meta-starts-charging-for-ai-with-muse-spark-1-1-agentic-model"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1671401"
         }
       ]
     }
