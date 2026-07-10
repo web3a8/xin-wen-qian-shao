@@ -1,95 +1,94 @@
 {
-  "global_brief": "OpenAI 在获得政府批准后正式全面推出 GPT-5.6 模型系列，并同步宣布“ChatGPT Work”服务，同时关闭了其 AI 浏览器 Atlas。Meta 则通过发布 Muse Spark 1.1 模型 API 并采取激进定价策略，正式加入 AI 商业化竞争，引发行业价格战。此外，开源 AI 开发工具 Ollama 获得 6500 万美元融资，用户数接近 900 万，显示出开发者生态的强劲活力。",
+  "global_brief": "OpenAI 正式发布 GPT-5.6 系列模型（Luna、Terra、Sol），并推出由该模型驱动的 ChatGPT Work 智能体，同时成为 Microsoft 365 Copilot 的首选模型。Meta 则通过开放 Muse Spark 1.1 模型 API 并以低价策略加入 AI 商业化竞争，同时其新 AI 图像工具因使用公开 Instagram 照片引发隐私争议。此外，Anthropic 揭示了 Claude 模型内部的概念推理空间，为 AI 可解释性研究提供了新视角（S…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 28671,
-      "event_count": 495
+      "field_score": 28276,
+      "event_count": 489
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1634,
-      "event_count": 36
+      "field_score": 1736,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1491,
-      "event_count": 38
+      "field_score": 1211,
+      "event_count": 31
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 828,
-      "event_count": 18
+      "field_score": 739,
+      "event_count": 16
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 410,
-      "event_count": 9
+      "field_score": 494,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 全面推出 GPT-5.6 模型系列",
-      "summary": "OpenAI 在经历监管审查后，正式向公众推出其最新旗舰模型 GPT-5.6，该系列包含 Luna、Terra 和 Sol 三个版本，并已集成至 Microsoft 365 Copilot 中成为首选模型。",
+      "title": "Large Language Models (LLMs) and Generative AI in Cybersecurity and Privacy: A Survey of Dual-Use Risks, AI-Generated M…",
+      "summary": "arXiv:2607.06963v1 Announce Type: cross Abstract: Large Language Models (LLMs) and generative AI (GenAI) systems, such…；Large Language Models (LLMs) and Generative AI in Cybersecu…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.06963"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 推出 ChatGPT Work 智能体：GPT-5.6 支持，可驾驭长时间、多步骤任务",
+      "summary": "IT之家 7 月 10 日消息，OpenAI 今天（7 月 10 日）发布博文，在宣布推出 GPT-5.6 系列 AI 模型的同时，还推出全新的 ChatGPT Work 智能体， 由 GPT-5.6 提供支持，定位为可承担长时、多步骤任…；OpenAI 推出 ChatGPT Work 智能体：GPT-5.6 支持，可驾驭长时间、多步骤任务；OpenAI…",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/974/789.htm"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset"
+        },
+        {
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/112091"
+        }
+      ]
+    },
+    {
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot；Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and……",
       "references": [
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
         },
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/gpt-5-6"
-        },
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot amid breakup chatter",
+      "summary": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot amid breakup chatter；OpenAI's new family of models will continue to power Microsoft's suite of workplace and pro…",
+      "references": [
         {
           "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://9to5mac.com/2026/07/09/openai-announcing-the-next-chapter-for-chatgpt-today-watch-here"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6"
+          "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI 模型商业化进入价格战阶段",
-      "summary": "Meta 以远低于竞争对手的价格推出 Muse Spark 1.1，标志着 AI 大模型商业化竞争从技术能力比拼转向价格战，这可能迫使其他厂商（如 Anthropic 和 OpenAI）调整定价策略，加速行业洗牌。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/974/775.htm"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1"
-        },
-        {
-          "source_name": "Vercel Blog",
-          "link": "https://vercel.com/changelog/muse-spark-1-1-is-now-available-on-ai-gateway"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3776599"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
