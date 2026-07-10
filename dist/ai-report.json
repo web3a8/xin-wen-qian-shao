@@ -1,81 +1,85 @@
 {
-  "global_brief": "OpenAI 正式发布 GPT-5.6 系列模型（Luna、Terra、Sol），并宣布其成为 Microsoft 365 Copilot 的首选模型，同时关闭了 AI 浏览器 Atlas。Meta 则发布了编程智能体模型 Muse Spark 1.1，加入 AI 编码工具竞争。此外，《纽约时报》指控 OpenAI 在 ChatGPT 版权案中隐藏证据，引发法律与安全层面的广泛关注。",
+  "global_brief": "OpenAI 发布 GPT-5.6 系列模型（Luna、Terra、Sol），并宣布 GPT-5.6 成为 Microsoft Copilot 365 的“首选模型”，同时将 Codex 并入 ChatGPT。Meta 推出编程智能体模型 Muse Spark 1.1，加剧了 AI 编程工具领域的竞争。此外，《纽约时报》指控 OpenAI 在 ChatGPT 版权审判中隐藏证据，引发法律与伦理关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 24325,
-      "event_count": 425
+      "field_score": 23680,
+      "event_count": 421
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1657,
-      "event_count": 38
+      "field_score": 1533,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1030,
-      "event_count": 25
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 564,
-      "event_count": 12
+      "field_score": 848,
+      "event_count": 21
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 550,
-      "event_count": 11
+      "field_score": 663,
+      "event_count": 13
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 604,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 发布 GPT-5.6 系列模型并整合 Codex",
-      "summary": "OpenAI 正式推出 GPT-5.6 系列模型，包含 Luna、Terra、Sol 三个版本，并宣布该系列已成为 Microsoft 365 Copilot 的首选模型。同时，OpenAI 将 Codex 功能并入 ChatGPT，并关闭了其 AI 浏览器 Atlas。",
+      "title": "OpenAI 发布 GPT-5.6 系列模型",
+      "summary": "OpenAI 正式发布其最新旗舰模型系列 GPT-5.6，包含 Luna、Terra 和 Sol 三个版本，并宣布该系列模型将成为 Microsoft Copilot 365 的“首选模型”。",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6"
         },
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter"
         },
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset"
-        },
-        {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "GPT-5.6 与 Copilot 深度绑定加剧了 OpenAI 与微软关系的复杂性",
-      "summary": "尽管外界持续猜测 OpenAI 与微软的合作关系可能出现裂痕，但 GPT-5.6 被指定为 Microsoft 365 Copilot 的首选模型，表明双方在核心产品层面的技术依赖依然牢固，商业合作短期内难以脱钩。",
+      "title": "AI 编程工具竞争白热化，产品整合成趋势",
+      "summary": "随着 OpenAI 将 Codex 并入 ChatGPT 以及 Meta 推出 Muse Spark 1.1，AI 编程工具市场进入激烈竞争阶段。社区讨论 指出，各厂商正将对话、本地 Agent 和云端 Agent 三条产品线进行整合，以提供更统一的用户体验。",
       "references": [
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1226367"
         },
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
+          "source_name": "Hacker News 最佳",
+          "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1"
+        },
+        {
+          "source_name": "Product Hunt",
+          "link": "https://producthunt.com/products/muse-spark-1-1-by-meta"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you"
         }
       ]
     }
