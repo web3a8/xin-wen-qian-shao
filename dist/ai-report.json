@@ -1,42 +1,46 @@
 {
-  "global_brief": "Apple 起诉 OpenAI 窃取硬件机密，同时 OpenAI 发布 GPT-5.6 系列模型，Anthropic 为 Claude Code 新增内置浏览器。社区热议中国开源 AI 模型对全球软实力的影响，以及 AI 智能体在编程、安全等领域的实际应用与成本问题。",
+  "global_brief": "苹果起诉 OpenAI 窃取硬件商业机密，Meta 因争议关闭 Instagram AI 深度伪造功能，同时多篇研究聚焦 LLM 量化压缩与推理效率，AI 产业在安全合规与成本优化间加速博弈。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 22811,
-      "event_count": 416
+      "field_score": 22577,
+      "event_count": 411
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1667,
-      "event_count": 39
+      "field_score": 1757,
+      "event_count": 41
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 814,
+      "field_score": 817,
       "event_count": 21
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 739,
-      "event_count": 15
+      "field_score": 776,
+      "event_count": 16
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 658,
+      "field_score": 672,
       "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "Apple 起诉 OpenAI 窃取硬件机密",
-      "summary": "Apple 已对 OpenAI 提起诉讼，指控其工程师窃取 Apple 的商业机密以推进 AI 硬件计划，并称该行为由 OpenAI 高级管理层指使。",
+      "title": "苹果起诉 OpenAI 窃取硬件商业机密",
+      "summary": "苹果公司正式起诉 OpenAI，指控其工程师窃取苹果硬件机密以推进 AI 初创公司的硬件计划，并称该行为由 OpenAI 高级管理层指使。",
       "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1671681"
+        },
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets"
@@ -54,16 +58,106 @@
           "link": "https://wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware"
         }
       ]
+    },
+    {
+      "title": "Meta 关闭 Instagram AI 深度伪造功能",
+      "summary": "在遭到强烈反对后，Meta 关闭了本周推出的、允许用户对公开账户生成 AI 图像的功能。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://bbc.com/news/articles/c2dy6e8klw0o"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic 桌面版 Claude Code 新增内置浏览器",
+      "summary": "Anthropic 宣布桌面版 Claude Code 新增应用内浏览器，可读取、点击并与网站交互，用于 AI 调试网页等场景。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/975/374.htm"
+        }
+      ]
+    },
+    {
+      "title": "马斯克要求特斯拉员工优先使用 Grok",
+      "summary": "据《The Information》报道，马斯克在一份备忘录中表示，鉴于 Grok 4.5 的 Token 成本低于对手，要求特斯拉员工在可能的情况下改用 Grok。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/975/386.htm"
+        }
+      ]
+    },
+    {
+      "title": "研究提出 KronQ 与 BiSCo-LLM 等 LLM 量化压缩新方法",
+      "summary": "多篇新论文聚焦 LLM 后训练量化，包括基于 Kronecker 分解的 KronQ 方法和面向极低比特的 BiSCo-LLM 二进制球形编码方案，旨在降低模型部署的内存和计算成本。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2607.07964"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2607.08643"
+        }
+      ]
+    },
+    {
+      "title": "社区热议 AI Agent 高昂的 Token 消耗成本",
+      "summary": "有开发者测量发现，AI Agent 读取一个维基百科页面平均消耗 68,000 个 Token，引发关于 AI 推理成本和效率的广泛讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://news.ycombinator.com/item?id=48867021"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/seaworthy-io/seaworthy-mcp"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1226505"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "中国开源 AI 模型正成为全球软实力工具",
-      "summary": "社区讨论认为，中国开源 AI 模型正在推动其全球软实力的增长，这一趋势可能改变全球 AI 生态的竞争格局。",
+      "title": "AI 模型价值观与公众存在显著偏差",
+      "summary": "经济学人报道指出，AI 模型的价值观与大多数人的价值观存在显著差异，这引发了关于 AI 对齐和伦理风险的持续担忧。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power"
+          "link": "https://economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples"
+        }
+      ]
+    },
+    {
+      "title": "开源模型与前沿模型的差距正在缩小",
+      "summary": "社区讨论认为，声称开源模型落后前沿模型 6 个月的观点正受到挑战，用户发现许多任务中开源模型已能胜任，对“只有前沿模型才能完成”的任务边界产生质疑。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48863171"
+        }
+      ]
+    },
+    {
+      "title": "企业级 LLM 应用需从提示工程转向可审计的合约工程",
+      "summary": "一项研究提出，企业 LLM 应用应从简单的提示工程转向“合约工程”，以构建可审计、可追溯的 Agent 系统，满足企业合规与安全需求。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2607.08028"
         }
       ]
     }
