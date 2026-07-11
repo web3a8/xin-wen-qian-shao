@@ -1,41 +1,55 @@
 {
-  "global_brief": "AI 领域持续活跃，Meta 承认在 AI 竞赛中落后并预告新模型，同时苹果对 OpenAI 提起诉讼引发行业关注。多篇 arXiv 研究聚焦于 LLM 安全、Agent 评估及模型效率优化，显示出业界对模型可靠性、可审计性及实际部署的重视。 [FACT] TITLE: Meta 承认 AI 落后并预告新模型 SUMMARY: Meta CEO 扎克伯格承认公司在 AI 领域落后于 OpenAI 等公司，并预告了代号为“西瓜”的新模型，旨在打造极致智能。 SCORE: 86 ARTICLE_IDS: 9211aebbb8e1e95d967ca5…",
+  "global_brief": "今日AI领域竞争激烈，苹果起诉OpenAI窃取商业机密，Meta则因AI功能引发争议后将其移除，同时扎克伯格承认Meta在AI领域落后并预告新模型。多篇研究聚焦于LLM安全、Agent效率与成本控制，社区对Token成本与模型能力边界讨论热烈。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 19178,
-      "event_count": 310
+      "field_score": 18708,
+      "event_count": 303
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1558,
+      "field_score": 1568,
       "event_count": 37
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 922,
-      "event_count": 23
+      "field_score": 1175,
+      "event_count": 29
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 737,
+      "field_score": 738,
       "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 403,
-      "event_count": 8
+      "field_score": 496,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "扎克伯格称 Meta 在 AI 上落后 OpenAI 等公司，预告“西瓜”模型打造极致智能",
-      "summary": "IT之家 7 月 11 日消息，科技媒体 Business Insider 昨日（7 月 10 日）发布博文，报道称 Meta 最新推出的 Muse Spark 1.1，可能会在 AI 市场引发“价格战”。 IT之家此前报道，Muse S…；扎克伯格称 Meta 在 AI 上落后 OpenAI 等公司，预告“西瓜”模型打造极致智能；IT之家 7 月 11…",
+      "title": "苹果起诉OpenAI，指控其窃取商业机密",
+      "summary": "苹果已对OpenAI提起诉讼，指控其硬件团队窃取苹果的商业机密以推进自身AI技术发展。",
+      "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1671681"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://washingtonpost.com/technology/2026/07/10/apple-sues-openai-alleging-ai-company-stole-trade-secrets"
+        }
+      ]
+    },
+    {
+      "title": "扎克伯格承认Meta在AI领域落后，预告“西瓜”模型",
+      "summary": "Meta CEO扎克伯格表示公司在AI领域落后于OpenAI等公司，并预告了旨在打造极致智能的下一代“西瓜”模型。",
       "references": [
         {
           "source_name": "IT之家",
@@ -44,8 +58,28 @@
       ]
     },
     {
-      "title": "Who Analyses the Analyser? Self-Validating LLM Hazard Analysis with Constitutional Meta-STPA",
-      "summary": "arXiv:2607.08054v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly trusted to draft the ar…；Who Analyses the Analyser? Self-Validating LLM Hazard Anal…",
+      "title": "Meta因全球用户反弹移除Instagram AI功能",
+      "summary": "在遭到全球用户强烈反对后，Meta移除了Instagram上的一项AI功能。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://rnz.co.nz/news/science-and-technology/700735/missed-the-mark-meta-removes-ai-feature-on-instagram-after-global-backlash"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI发布GPT-5.6 Sol，可自主后训练其他模型",
+      "summary": "OpenAI称其新模型GPT-5.6 Sol能够扮演研究员角色，自主后训练较小的Luna模型，并在聚合RSI指数上比前代提升16.2个百分点。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/975/461.htm"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出LLM自我验证安全分析方法",
+      "summary": "一项新研究提出了“Constitutional Meta-STPA”方法，用于LLM危害分析的自我验证，旨在提升模型安全性。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -54,25 +88,74 @@
       ]
     },
     {
-      "title": "早报｜苹果起诉OpenAI/努比亚倪飞披露AI智能体手机细节/小米澎程N90升降车顶曝光",
-      "summary": "早报｜苹果起诉OpenAI/努比亚倪飞披露AI智能体手机细节/小米澎程N90升降车顶曝光；🤖 苹果起诉 OpenAI，指控其硬件团队窃取商业机密 🧠 态度大反转，马斯克盛赞 Anthropic 旗下 Mythos/Fable 模型 🤖 曝腾讯拟买回 Manus，成为其最大股东 📱 努比亚倪飞披露 AI 智能体手机细节，定义「听…",
+      "title": "社区热议AI Agent高昂的Token成本问题",
+      "summary": "Hacker News上多个讨论指出，AI Agent在任务执行中消耗巨大，例如读取一个维基百科页面就需要68,000个Token，控制Token成本成为开发者核心痛点。",
       "references": [
         {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1671681"
-        }
-      ]
-    },
-    {
-      "title": "InvestPhilBench: A Multi-Layer Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment…",
-      "summary": "arXiv:2606.25984v2 Announce Type: replace Abstract: Large language models are increasingly deployed as investment resea…；InvestPhilBench: A Multi-Layer Benchmark for Evaluating La…",
-      "references": [
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48869320"
+        },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.25984"
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48867021"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1226505"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "苹果起诉OpenAI加剧科技巨头间的人才与知识产权争夺",
+      "summary": "苹果对OpenAI的诉讼，结合Meta承认落后并预告新模型，表明AI领域的竞争已从单纯的技术比拼，升级为涉及商业机密、人才流动和法律诉讼的全面对抗。这预示着未来科技巨头间的合作将更加谨慎，诉讼风险增加。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/975/438.htm"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1671681"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://washingtonpost.com/technology/2026/07/10/apple-sues-openai-alleging-ai-company-stole-trade-secrets"
+        }
+      ]
+    },
+    {
+      "title": "AI Agent实用化面临“Token成本墙”，效率优化成关键瓶颈",
+      "summary": "社区对Token成本的广泛讨论，以及“Local Motion”等本地LLM方案的出现，反映出当前AI Agent在商业化落地中面临严峻的成本挑战。开发者正从追求模型能力转向寻求成本可控的解决方案，这或将催生更多针对Agent的推理优化和缓存技术。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48869320"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/mattmireles/local-motion"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48867021"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1226505"
+        }
+      ]
+    },
+    {
+      "title": "开源模型与前沿模型的差距正在缩小，但“最后一公里”任务仍需前沿模型",
+      "summary": "HN上的讨论表明，尽管开源模型进步迅速，但在处理某些极其复杂或需要深度推理的“最后一公里”任务时，前沿模型（如OpenAI、Anthropic的模型）仍不可替代。这暗示市场将出现分层：通用任务由开源模型承担，而高价值、高难度的任务则留给付费的前沿模型。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48863171"
+        }
+      ]
+    }
+  ]
 }
