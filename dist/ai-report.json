@@ -1,78 +1,63 @@
 {
-  "global_brief": "今日AI领域动态密集，苹果起诉OpenAI窃取商业机密引发行业关注，同时社区围绕AI Agent的Token成本控制、模型降智监测及开源治理工具展开热烈讨论。多篇研究论文聚焦于LLM安全、推理效率及多智能体系统的可靠性评估。",
+  "global_brief": "OpenAI 发布 GPT-5.6 公测版，同时苹果对其提起商业机密窃取诉讼，AI 领域迎来重大产品与法律动态。学术界围绕 LLM 安全、Agent 评估与多模态模型持续产出大量研究成果，其中 Meta 贡献了多项关于模型自验证与异构演化的新方法。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 17154,
-      "event_count": 286
+      "field_score": 17593,
+      "event_count": 294
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1508,
-      "event_count": 39
+      "field_score": 1371,
+      "event_count": 36
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 951,
-      "event_count": 23
+      "field_score": 851,
+      "event_count": 20
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 513,
-      "event_count": 11
+      "field_score": 367,
+      "event_count": 8
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 209,
+      "field_score": 207,
       "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "Who Analyses the Analyser? Self-Validating LLM Hazard Analysis with Constitutional Meta-STPA",
-      "summary": "arXiv:2607.08054v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly trusted to draft the ar…；Who Analyses the Analyser? Self-Validating LLM Hazard Anal…",
+      "title": "OpenAI 发布 GPT-5.6 公测版",
+      "summary": "OpenAI 于 7 月 12 日推出 GPT-5.6 公测版，同时 Muse Spark 1.1 也同步发布。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.08054"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/hiroki-ii-ai/ai-daily-digest-july-12-2026-gpt-56-goes-public-muse-spark-11-arrives-open-robotics-pipeline-5di2"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "早报｜苹果起诉OpenAI/努比亚倪飞披露AI智能体手机细节/小米澎程N90升降车顶曝光",
-      "summary": "早报｜苹果起诉OpenAI/努比亚倪飞披露AI智能体手机细节/小米澎程N90升降车顶曝光；🤖 苹果起诉 OpenAI，指控其硬件团队窃取商业机密 🧠 态度大反转，马斯克盛赞 Anthropic 旗下 Mythos/Fable 模型 🤖 曝腾讯拟买回 Manus，成为其最大股东 📱 努比亚倪飞披露 AI 智能体手机细节，定义「听…",
+      "title": "苹果诉讼与 OpenAI 产品发布同日发生，凸显 AI 行业竞争白热化",
+      "summary": "苹果起诉 OpenAI 与后者发布 GPT-5.6 公测版在同一天发生，这不仅是法律纠纷，更反映出科技巨头在 AI 硬件和人才上的争夺已进入公开对抗阶段。",
       "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/hiroki-ii-ai/ai-daily-digest-july-12-2026-gpt-56-goes-public-muse-spark-11-arrives-open-robotics-pipeline-5di2"
+        },
         {
           "source_name": "爱范儿",
           "link": "https://ifanr.com/1671681"
         }
       ]
-    },
-    {
-      "title": "No Baked-In Behavior: Why Your AI Agent's System Prompt Should Be Yours",
-      "summary": "Every AI coding agent ships with baked-in behavior. Hidden system prompts you can't see. Tools you can't remove. Steeri…；No Baked-In Behavior: Why Your AI Agent's System Prompt Sh…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/danielbilek/no-baked-in-behavior-why-your-ai-agents-system-prompt-should-be-yours-10o2"
-        }
-      ]
-    },
-    {
-      "title": "InvestPhilBench: A Multi-Layer Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment…",
-      "summary": "arXiv:2606.25984v2 Announce Type: replace Abstract: Large language models are increasingly deployed as investment resea…；InvestPhilBench: A Multi-Layer Benchmark for Evaluating La…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.25984"
-        }
-      ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
