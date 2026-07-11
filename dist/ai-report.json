@@ -1,29 +1,29 @@
 {
-  "global_brief": "苹果起诉 OpenAI 窃取硬件商业机密，Meta 因争议关闭 Instagram 的 AI 深度伪造功能，同时社区热议 AI 智能体成本与安全风险，多篇研究聚焦 LLM 推理、安全和对齐。",
+  "global_brief": "今日AI领域动态密集，苹果起诉OpenAI窃取商业机密引发广泛关注，同时Meta因用户强烈反对而关闭了Instagram的AI深度伪造功能。学术界则涌现大量关于LLM安全、Agent评估及模型优化的新研究，显示出行业正从模型能力竞赛转向安全与实用性的深度探索。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 17765,
-      "event_count": 288
+      "field_score": 17070,
+      "event_count": 282
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1578,
-      "event_count": 39
+      "field_score": 1597,
+      "event_count": 40
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1291,
-      "event_count": 32
+      "field_score": 966,
+      "event_count": 24
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 1030,
-      "event_count": 21
+      "field_score": 420,
+      "event_count": 9
     },
     {
       "field_key": "finance",
@@ -34,18 +34,8 @@
   ],
   "highlight_facts": [
     {
-      "title": "Who Analyses the Analyser? Self-Validating LLM Hazard Analysis with Constitutional Meta-STPA",
-      "summary": "arXiv:2607.08054v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly trusted to draft the ar…；Who Analyses the Analyser? Self-Validating LLM Hazard Anal…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.08054"
-        }
-      ]
-    },
-    {
-      "title": "早报｜苹果起诉OpenAI/努比亚倪飞披露AI智能体手机细节/小米澎程N90升降车顶曝光",
-      "summary": "早报｜苹果起诉OpenAI/努比亚倪飞披露AI智能体手机细节/小米澎程N90升降车顶曝光；🤖 苹果起诉 OpenAI，指控其硬件团队窃取商业机密 🧠 态度大反转，马斯克盛赞 Anthropic 旗下 Mythos/Fable 模型 🤖 曝腾讯拟买回 Manus，成为其最大股东 📱 努比亚倪飞披露 AI 智能体手机细节，定义「听…",
+      "title": "苹果起诉OpenAI，指控其硬件团队窃取商业机密",
+      "summary": "苹果公司正式对OpenAI提起诉讼，指控其硬件团队窃取了苹果的商业机密。该事件由爱范儿报道，并指出马斯克态度反转，盛赞Anthropic的模型。",
       "references": [
         {
           "source_name": "爱范儿",
@@ -54,8 +44,32 @@
       ]
     },
     {
-      "title": "InvestPhilBench: A Multi-Layer Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment…",
-      "summary": "arXiv:2606.25984v2 Announce Type: replace Abstract: Large language models are increasingly deployed as investment resea…；InvestPhilBench: A Multi-Layer Benchmark for Evaluating La…",
+      "title": "Meta关闭Instagram的AI深度伪造功能",
+      "summary": "在遭到用户强烈反对后，Meta关闭了本周早些时候上线的Instagram功能，该功能允许用户利用AI生成其他公开账户的深度伪造图像。Meta表示其初衷是提供创意工具，但未能充分控制其使用方式。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash"
+        }
+      ]
+    },
+    {
+      "title": "新研究提出LLM自我验证危害分析方法",
+      "summary": "一篇来自arXiv的论文 提出了一种名为“Constitutional Meta-STPA”的方法，旨在让大型语言模型（LLM）能够自我验证其危害分析，以提升安全性。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.08054"
+        }
+      ]
+    },
+    {
+      "title": "新基准测试评估LLM在投资哲学中的推理能力",
+      "summary": "一项新研究 发布了“InvestPhilBench”基准，用于评估大型语言模型在专家投资哲学中的程序性推理能力。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,15 +78,108 @@
       ]
     },
     {
-      "title": "From Application-Layer Simulation to Native Meta-Architecture: Structural Tension as an Endogenous Driver for Heterogen…",
-      "summary": "arXiv:2607.06269v2 Announce Type: replace Abstract: Current large language models (LLMs) are stateless across inference…；From Application-Layer Simulation to Native Meta-Architect…",
+      "title": "多模态模型“遗忘”研究综述发布",
+      "summary": "一篇综述论文 系统调查了在视觉、语言、视频和音频等多模态模型中进行“遗忘”（Unlearning）的方法、数据集和基准。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.06269"
+          "link": "https://arxiv.org/abs/2607.07907"
+        }
+      ]
+    },
+    {
+      "title": "新研究揭示LLM越狱的机械可解释性",
+      "summary": "一篇来自arXiv的论文 通过内部归因图，对大型语言模型越狱攻击的机制进行了可解释性分析。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.07903"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI Agent标准化与市场化的趋势加速",
+      "summary": "社区中出现了“Agent World”这样的开放标准和市场，以及用于审计AI搜索可见性的工具，这表明开发者社区正积极推动AI Agent的标准化、商业化和可审计性，而不仅仅是关注模型本身的能力。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://ai-visibility.pro/"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/macrokit/agent-world"
+        }
+      ]
+    },
+    {
+      "title": "模型能力“降智”监测成为社区关注焦点",
+      "summary": "V2EX用户开发了监测多个主流大模型（如Claude、GPT、Gemini）能力变化的页面，反映出用户对模型服务端更新后性能波动的高度敏感，以及对模型能力透明度的迫切需求。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1226624"
+        }
+      ]
+    },
+    {
+      "title": "LLM Agent的可靠性评估成为研究热点",
+      "summary": "多项新研究 聚焦于LLM Agent的故障定位、长周期决策稳定性及因果推理能力，这表明学术界正从构建Agent转向系统性地评估和提升其在复杂、真实场景下的可靠性。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.07989"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2603.16453"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.08093"
+        }
+      ]
+    },
+    {
+      "title": "LLM在专业领域应用深化，但面临安全与伦理挑战",
+      "summary": "从医疗推理 到材料科学，LLM正被应用于更多专业领域。然而，关于模型偏见、越狱攻击和价值对齐的全球数据集 的出现，凸显了在部署前解决这些安全和伦理问题的紧迫性。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.07761"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.20899"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.08034"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.07903"
+        }
+      ]
+    },
+    {
+      "title": "模型效率优化从训练扩展到推理和服务",
+      "summary": "多项研究 关注LLM的KV缓存优化、结构化剪枝和量化效果，表明在模型规模持续增长的背景下，提升推理效率和服务性能已成为与提升模型能力同等重要的研究方向。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.08057"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.08027"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.08734"
+        }
+      ]
+    }
+  ]
 }
