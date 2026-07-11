@@ -1,78 +1,71 @@
 {
-  "global_brief": "过去24小时，AI领域发生多起重大事件：OpenAI正式发布GPT-5.6系列模型，并成为微软Copilot 365的首选模型；苹果起诉OpenAI，指控其窃取硬件机密；同时，社区围绕前沿模型的实际价值、本地推理和智能体治理展开热烈讨论。",
+  "global_brief": "Apple 起诉 OpenAI 窃取硬件机密，同时 OpenAI 发布 GPT-5.6 系列模型，Anthropic 为 Claude Code 新增内置浏览器。社区热议中国开源 AI 模型对全球软实力的影响，以及 AI 智能体在编程、安全等领域的实际应用与成本问题。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 23163,
-      "event_count": 421
+      "field_score": 22811,
+      "event_count": 416
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1480,
-      "event_count": 35
+      "field_score": 1667,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 873,
-      "event_count": 23
+      "field_score": 814,
+      "event_count": 21
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 794,
-      "event_count": 16
+      "field_score": 739,
+      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 655,
+      "field_score": 658,
       "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
-      "summary": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter；OpenAI's new family of models will continue to power Microsoft's suite of workplace and…",
+      "title": "Apple 起诉 OpenAI 窃取硬件机密",
+      "summary": "Apple 已对 OpenAI 提起诉讼，指控其工程师窃取 Apple 的商业机密以推进 AI 硬件计划，并称该行为由 OpenAI 高级管理层指使。",
       "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets"
+        },
         {
           "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter"
-        }
-      ]
-    },
-    {
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, netw…；How Deutsche Telekom is rewiring telecommunications with AI",
-      "references": [
+          "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft"
+        },
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/deutsche-telekom"
-        }
-      ]
-    },
-    {
-      "title": "KronQ: LLM Quantization via Kronecker-Factored Hessian",
-      "summary": "arXiv:2607.07964v1 Announce Type: new Abstract: Post-training quantization (PTQ) is a widely adopted technique for comp…；KronQ: LLM Quantization via Kronecker-Factored Hessian",
-      "references": [
+          "source_name": "daringfireball.net",
+          "link": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft"
+        },
         {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2607.07964"
-        }
-      ]
-    },
-    {
-      "title": "InvestPhilBench: A Multi-Layer Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment…",
-      "summary": "arXiv:2606.25984v2 Announce Type: replace-cross Abstract: Large language models are increasingly deployed as investment…；InvestPhilBench: A Multi-Layer Benchmark for Evaluating La…",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2606.25984"
+          "source_name": "Wired",
+          "link": "https://wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "中国开源 AI 模型正成为全球软实力工具",
+      "summary": "社区讨论认为，中国开源 AI 模型正在推动其全球软实力的增长，这一趋势可能改变全球 AI 生态的竞争格局。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power"
+        }
+      ]
+    }
+  ]
 }
