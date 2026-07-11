@@ -1,41 +1,51 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，涵盖LLM安全、Agent评估与推理优化，同时苹果起诉OpenAI窃取商业机密成为行业焦点，GPT-5.6 Sol自主后训练能力引发关注。",
+  "global_brief": "过去24小时，AI领域持续主导技术动态，焦点集中在LLM安全、Agent工具链和模型能力边界。苹果起诉OpenAI窃取商业机密，Meta因争议关闭Instagram AI深度伪造功能，同时社区围绕Agent成本、安全审计和开源模型能力展开热烈讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 17927,
-      "event_count": 295
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1541,
-      "event_count": 37
+      "field_score": 17867,
+      "event_count": 292
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1253,
-      "event_count": 31
+      "field_score": 1581,
+      "event_count": 39
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 625,
-      "event_count": 13
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 1357,
+      "event_count": 33
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 578,
-      "event_count": 12
+      "field_score": 629,
+      "event_count": 13
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 399,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "苹果起诉OpenAI，指控其窃取商业机密",
-      "summary": "苹果已对OpenAI提起诉讼，指控其硬件团队窃取苹果的商业机密以推进自身技术发展。",
+      "title": "Who Analyses the Analyser? Self-Validating LLM Hazard Analysis with Constitutional Meta-STPA",
+      "summary": "arXiv:2607.08054v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly trusted to draft the ar…；Who Analyses the Analyser? Self-Validating LLM Hazard Anal…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.08054"
+        }
+      ]
+    },
+    {
+      "title": "早报｜苹果起诉OpenAI/努比亚倪飞披露AI智能体手机细节/小米澎程N90升降车顶曝光",
+      "summary": "早报｜苹果起诉OpenAI/努比亚倪飞披露AI智能体手机细节/小米澎程N90升降车顶曝光；🤖 苹果起诉 OpenAI，指控其硬件团队窃取商业机密 🧠 态度大反转，马斯克盛赞 Anthropic 旗下 Mythos/Fable 模型 🤖 曝腾讯拟买回 Manus，成为其最大股东 📱 努比亚倪飞披露 AI 智能体手机细节，定义「听…",
       "references": [
         {
           "source_name": "爱范儿",
@@ -44,84 +54,25 @@
       ]
     },
     {
-      "title": "OpenAI发布GPT-5.6 Sol，可自主后训练较小模型",
-      "summary": "OpenAI称其新模型GPT-5.6 Sol能够扮演研究员角色，自主后训练较小的Luna AI模型，在聚合RSI指数上比前代GPT-5.5高出16.2个百分点。",
+      "title": "InvestPhilBench: A Multi-Layer Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment…",
+      "summary": "arXiv:2606.25984v2 Announce Type: replace Abstract: Large language models are increasingly deployed as investment resea…；InvestPhilBench: A Multi-Layer Benchmark for Evaluating La…",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/975/461.htm"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.25984"
         }
       ]
     },
     {
-      "title": "新研究提出LLM自我验证安全分析方法",
-      "summary": "一篇arXiv论文提出了“Constitutional Meta-STPA”方法，用于LLM的自我验证危害分析，旨在提升模型安全性。",
+      "title": "From Application-Layer Simulation to Native Meta-Architecture: Structural Tension as an Endogenous Driver for Heterogen…",
+      "summary": "arXiv:2607.06269v2 Announce Type: replace Abstract: Current large language models (LLMs) are stateless across inference…；From Application-Layer Simulation to Native Meta-Architect…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.08054"
-        }
-      ]
-    },
-    {
-      "title": "多模态模型“遗忘”研究综述发布",
-      "summary": "一项新研究对视觉、语言、视频和音频领域的多模态模型“遗忘”方法、数据集和基准进行了全面调查。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.07907"
-        }
-      ]
-    },
-    {
-      "title": "新基准测试评估LLM Agent在零售环境中的决策能力",
-      "summary": "研究团队发布了RetailBench基准，用于评估LLM Agent在逼真零售环境中的长周期自主决策和策略稳定性。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.16453"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示LLM微调中记忆知识难以泛化的机制",
-      "summary": "一项新研究从机制上解释了为什么LLM在微调过程中注入的新记忆知识难以泛化到新场景。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.08393"
+          "link": "https://arxiv.org/abs/2607.06269"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "LLM Agent评估正从单一任务转向复杂、长周期场景",
-      "summary": "近期多个新基准（如RetailBench、PolyWorkBench）的发布 表明，业界对LLM Agent的评估重点已从简单问答转向多语言、长周期和真实环境下的决策能力，这反映了Agent应用落地的实际需求。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.06008"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.16453"
-        }
-      ]
-    },
-    {
-      "title": "LLM安全研究正从被动防御转向主动验证与可解释性",
-      "summary": "近期关于LLM自我验证安全分析 和越狱机制可解释性 的研究，标志着AI安全领域正从事后修补转向构建模型内在的、可审计的安全能力，这对高风险应用至关重要。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.08054"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.07903"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
