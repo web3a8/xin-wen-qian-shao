@@ -1,165 +1,78 @@
 {
-  "global_brief": "苹果起诉 OpenAI 窃取硬件商业机密，Meta 因争议关闭 Instagram AI 深度伪造功能，同时多篇研究聚焦 LLM 量化压缩与推理效率，AI 产业在安全合规与成本优化间加速博弈。",
+  "global_brief": "苹果起诉OpenAI窃取商业机密，同时Meta因全球反对撤下Instagram的AI功能，AI安全与合规问题持续发酵。社区热议AI Agent的运行时状态检查与token成本，前沿模型与开源模型的能力差距讨论升温。 [FACT] TITLE:苹果起诉OpenAI，指控其硬件团队窃取商业机密 SUMMARY:苹果已对OpenAI提起诉讼，指控其工程师窃取苹果的商业机密以推进AI技术发展。 SCORE:78 ARTICLE_IDS:82f33f1cad4d26acb382e44ae8481f95739161ac,4fb78c01717685…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 22577,
-      "event_count": 411
+      "field_score": 19537,
+      "event_count": 319
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1757,
-      "event_count": 41
+      "field_score": 1531,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 817,
-      "event_count": 21
+      "field_score": 927,
+      "event_count": 23
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 776,
-      "event_count": 16
+      "field_score": 737,
+      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 672,
-      "event_count": 14
+      "field_score": 576,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "苹果起诉 OpenAI 窃取硬件商业机密",
-      "summary": "苹果公司正式起诉 OpenAI，指控其工程师窃取苹果硬件机密以推进 AI 初创公司的硬件计划，并称该行为由 OpenAI 高级管理层指使。",
+      "title": "Who Analyses the Analyser? Self-Validating LLM Hazard Analysis with Constitutional Meta-STPA",
+      "summary": "arXiv:2607.08054v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly trusted to draft the ar…；Who Analyses the Analyser? Self-Validating LLM Hazard Anal…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.08054"
+        }
+      ]
+    },
+    {
+      "title": "早报｜苹果起诉OpenAI/努比亚倪飞披露AI智能体手机细节/小米澎程N90升降车顶曝光",
+      "summary": "早报｜苹果起诉OpenAI/努比亚倪飞披露AI智能体手机细节/小米澎程N90升降车顶曝光；🤖 苹果起诉 OpenAI，指控其硬件团队窃取商业机密 🧠 态度大反转，马斯克盛赞 Anthropic 旗下 Mythos/Fable 模型 🤖 曝腾讯拟买回 Manus，成为其最大股东 📱 努比亚倪飞披露 AI 智能体手机细节，定义「听…",
       "references": [
         {
           "source_name": "爱范儿",
           "link": "https://ifanr.com/1671681"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware"
         }
       ]
     },
     {
-      "title": "Meta 关闭 Instagram AI 深度伪造功能",
-      "summary": "在遭到强烈反对后，Meta 关闭了本周推出的、允许用户对公开账户生成 AI 图像的功能。",
+      "title": "InvestPhilBench: A Multi-Layer Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment…",
+      "summary": "arXiv:2606.25984v2 Announce Type: replace Abstract: Large language models are increasingly deployed as investment resea…；InvestPhilBench: A Multi-Layer Benchmark for Evaluating La…",
       "references": [
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://bbc.com/news/articles/c2dy6e8klw0o"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.25984"
         }
       ]
     },
     {
-      "title": "Anthropic 桌面版 Claude Code 新增内置浏览器",
-      "summary": "Anthropic 宣布桌面版 Claude Code 新增应用内浏览器，可读取、点击并与网站交互，用于 AI 调试网页等场景。",
+      "title": "From Application-Layer Simulation to Native Meta-Architecture: Structural Tension as an Endogenous Driver for Heterogen…",
+      "summary": "arXiv:2607.06269v2 Announce Type: replace Abstract: Current large language models (LLMs) are stateless across inference…；From Application-Layer Simulation to Native Meta-Architect…",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/975/374.htm"
-        }
-      ]
-    },
-    {
-      "title": "马斯克要求特斯拉员工优先使用 Grok",
-      "summary": "据《The Information》报道，马斯克在一份备忘录中表示，鉴于 Grok 4.5 的 Token 成本低于对手，要求特斯拉员工在可能的情况下改用 Grok。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/975/386.htm"
-        }
-      ]
-    },
-    {
-      "title": "研究提出 KronQ 与 BiSCo-LLM 等 LLM 量化压缩新方法",
-      "summary": "多篇新论文聚焦 LLM 后训练量化，包括基于 Kronecker 分解的 KronQ 方法和面向极低比特的 BiSCo-LLM 二进制球形编码方案，旨在降低模型部署的内存和计算成本。",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2607.07964"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2607.08643"
-        }
-      ]
-    },
-    {
-      "title": "社区热议 AI Agent 高昂的 Token 消耗成本",
-      "summary": "有开发者测量发现，AI Agent 读取一个维基百科页面平均消耗 68,000 个 Token，引发关于 AI 推理成本和效率的广泛讨论。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://news.ycombinator.com/item?id=48867021"
-        },
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/seaworthy-io/seaworthy-mcp"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226505"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.06269"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI 模型价值观与公众存在显著偏差",
-      "summary": "经济学人报道指出，AI 模型的价值观与大多数人的价值观存在显著差异，这引发了关于 AI 对齐和伦理风险的持续担忧。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples"
-        }
-      ]
-    },
-    {
-      "title": "开源模型与前沿模型的差距正在缩小",
-      "summary": "社区讨论认为，声称开源模型落后前沿模型 6 个月的观点正受到挑战，用户发现许多任务中开源模型已能胜任，对“只有前沿模型才能完成”的任务边界产生质疑。",
-      "references": [
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48863171"
-        }
-      ]
-    },
-    {
-      "title": "企业级 LLM 应用需从提示工程转向可审计的合约工程",
-      "summary": "一项研究提出，企业 LLM 应用应从简单的提示工程转向“合约工程”，以构建可审计、可追溯的 Agent 系统，满足企业合规与安全需求。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2607.08028"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
