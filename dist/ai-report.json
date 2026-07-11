@@ -1,34 +1,34 @@
 {
-  "global_brief": "今日AI领域持续高热，研究重心集中在LLM安全、Agent评估与推理效率优化。苹果起诉OpenAI窃取商业机密，以及Meta因争议关闭Instagram的AI深度伪造功能，成为产业与监管层面的焦点事件。同时，社区对AI模型能力降级和Agent成本控制的讨论也显著升温。",
+  "global_brief": "今日AI领域动态密集，苹果起诉OpenAI窃取商业机密引发行业关注，同时社区围绕AI Agent的Token成本控制、模型降智监测及开源治理工具展开热烈讨论。多篇研究论文聚焦于LLM安全、推理效率及多智能体系统的可靠性评估。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 17115,
+      "field_score": 17154,
       "event_count": 286
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1538,
+      "field_score": 1508,
       "event_count": 39
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 814,
-      "event_count": 20
+      "field_score": 951,
+      "event_count": 23
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 457,
-      "event_count": 10
+      "field_score": 513,
+      "event_count": 11
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 235,
+      "field_score": 209,
       "event_count": 5
     }
   ],
@@ -54,22 +54,22 @@
       ]
     },
     {
+      "title": "No Baked-In Behavior: Why Your AI Agent's System Prompt Should Be Yours",
+      "summary": "Every AI coding agent ships with baked-in behavior. Hidden system prompts you can't see. Tools you can't remove. Steeri…；No Baked-In Behavior: Why Your AI Agent's System Prompt Sh…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/danielbilek/no-baked-in-behavior-why-your-ai-agents-system-prompt-should-be-yours-10o2"
+        }
+      ]
+    },
+    {
       "title": "InvestPhilBench: A Multi-Layer Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment…",
       "summary": "arXiv:2606.25984v2 Announce Type: replace Abstract: Large language models are increasingly deployed as investment resea…；InvestPhilBench: A Multi-Layer Benchmark for Evaluating La…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2606.25984"
-        }
-      ]
-    },
-    {
-      "title": "From Application-Layer Simulation to Native Meta-Architecture: Structural Tension as an Endogenous Driver for Heterogen…",
-      "summary": "arXiv:2607.06269v2 Announce Type: replace Abstract: Current large language models (LLMs) are stateless across inference…；From Application-Layer Simulation to Native Meta-Architect…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.06269"
         }
       ]
     }
