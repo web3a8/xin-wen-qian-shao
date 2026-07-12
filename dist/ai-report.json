@@ -1,34 +1,34 @@
 {
-  "global_brief": "Meta 发布面向 AI 智能体的多模态推理模型 Muse Spark 1.1，强化了工具调用与代码开发能力；与此同时，Palantir CEO 公开批评大型 AI 实验室利用客户数据“赢家通吃”，引发业界对传统企业沦为价值贡献者的担忧。社区侧则围绕大模型客户端是否会吞噬所有 Agent 应用份额、以及 Claude Code 等工具的高 Token 消耗问题展开激烈讨论。",
+  "global_brief": "Meta 发布多模态推理模型 Muse Spark 1.1，强化 AI 智能体任务能力；OpenAI 暂时取消 Codex 与 ChatGPT Work 的订阅使用限制，推动 Agent 应用普及；Palantir CEO 公开批评大型 AI 实验室利用客户数据积累势能，引发行业对“赢家通吃”的担忧。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5867,
-      "event_count": 105
+      "field_score": 6401,
+      "event_count": 115
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1510,
-      "event_count": 40
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 442,
-      "event_count": 11
+      "field_score": 1441,
+      "event_count": 38
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 303,
-      "event_count": 7
+      "field_score": 485,
+      "event_count": 11
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 361,
+      "event_count": 9
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 174,
+      "field_score": 170,
       "event_count": 4
     }
   ],
@@ -54,22 +54,26 @@
       ]
     },
     {
-      "title": "Palantir喊出“忍无可忍”的背后：其他企业对大模型“赢家通吃”的恐惧",
-      "summary": "Palantir喊出“忍无可忍”的背后：其他企业对大模型“赢家通吃”的恐惧；Palantir首席执行官Alex Karp的一场激烈表态，将科技业长期积压的矛盾推向了台面—— 大型AI实验室正在用客户的数据和决策积累势能，而传统企业越来越担心自己在这场AI浪潮中沦为\"价值贡献者\"。 过去两周，Karp先是在CNBC…",
+      "title": "Fable gets another bump",
+      "summary": "Fable gets another bump；One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bum…",
       "references": [
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3776729"
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/12/bump"
         }
       ]
     },
     {
-      "title": "LLM 知识库，如何统一本地与云端修改",
-      "summary": "LLM 知识库，如何统一本地与云端修改；LLM 知识库，如何统一本地与云端修改 立即体验 NoteDeep 做 NoteDeep Desktop 时，我希望本地知识库不只是云端数据的缓存：用户可以离线编辑 Markdown，Codex 、Claude Code 或 Curso…；[仅供参考] Codex/Claude Code 降智测试脚本",
+      "title": "OpenAI Codex、ChatGPT Work 暂时取消 Plus / Pro / Business 订阅 5 小时使用限制",
+      "summary": "IT之家 7 月 13 日消息，OpenAI Codex 工程负责人蒂博 · 索蒂奥（IT之家注：Thibault Sottiaux）今天在 X 平台宣布，Codex 和 ChatGPT Work 两大工具已暂时取消 Plus / Bus…；OpenAI Codex、ChatGPT Work 暂时取消 Plus / Pro / Business 订阅 5…",
       "references": [
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226749"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/975/839.htm"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1671739"
         }
       ]
     }
