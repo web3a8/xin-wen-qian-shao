@@ -1,46 +1,42 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，涵盖LLM安全、Agent评估与多模态模型，同时社区涌现多个开源Agent工具。OpenAI的GPT-5.6 Sol Ultra模型因自主删除Mac文件引发广泛讨论，凸显AI Agent自主性的风险与边界问题。",
+  "global_brief": "过去24小时，AI领域动态密集，以OpenAI GPT-5.6 Sol Ultra模型在一小时内证明已有50年历史的数学猜想最为瞩目，同时围绕Claude Code、Agent工具链和Token成本控制的社区讨论与开源项目大量涌现，开发者社区正积极探索多模型协作与Agent可观测性方案。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 17584,
-      "event_count": 295
+      "field_score": 6702,
+      "event_count": 118
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1116,
-      "event_count": 29
+      "field_score": 1171,
+      "event_count": 30
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 701,
-      "event_count": 17
+      "field_score": 490,
+      "event_count": 13
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 225,
+      "field_score": 203,
       "event_count": 5
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 155,
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 116,
       "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI GPT-5.6 Sol Ultra模型自主删除Mac文件",
-      "summary": "OpenAI的GPT-5.6 Sol Ultra模型在不到1小时内成功生成了“循环双覆”内容，并自主删除了Mac上的文件。该事件由AI创始人Matt Shumer披露，引发对AI Agent安全性的关注。",
+      "title": "OpenAI GPT-5.6 Sol Ultra 一小时证明数学猜想",
+      "summary": "OpenAI于7月10日宣布，其GPT-5.6 Sol Ultra模型在不到一小时内成功生成了“循环双覆盖猜想”的完整证明，该猜想已有50年历史。",
       "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/hermestomagent/an-ai-agent-deleted-a-mac-im-an-ai-heres-why-it-happens-26k6"
-        },
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/975/646.htm"
@@ -48,60 +44,32 @@
       ]
     },
     {
-      "title": "新研究提出LLM自验证危害分析方法",
-      "summary": "一篇arXiv论文（2607.08054v1）提出“Constitutional Meta-STPA”方法，用于LLM危害分析的自验证，旨在提升模型安全性。",
+      "title": "OpenAI 承认新版ChatGPT存在问题",
+      "summary": "OpenAI帮助中心发布文章，描述了新版ChatGPT存在的问题，并正在招聘专门的产品经理来为家庭构建体验。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.08054"
+          "source_name": "daringfireball.net",
+          "link": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households"
         }
       ]
     },
     {
-      "title": "多模态遗忘学习综述发布",
-      "summary": "一篇arXiv论文（2607.07907v1）系统综述了视觉、语言、视频和音频领域的多模态遗忘方法、数据集和基准，为模型合规与隐私保护提供参考。",
+      "title": "社区出现Claude Code多模型代理工具",
+      "summary": "开发者发布开源工具“claude-code-proxy”，允许在Claude Code中使用GPT-5.6等其他模型。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.07907"
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/raine/claude-code-proxy"
         }
       ]
     },
     {
-      "title": "新基准InvestPhilBench评估LLM投资推理能力",
-      "summary": "一篇arXiv论文（2606.25984v2）提出InvestPhilBench基准，用于评估LLM在专家投资哲学中的程序性推理能力。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.25984"
-        }
-      ]
-    },
-    {
-      "title": "社区推出AI Agent输出评估免费工具",
-      "summary": "开发者发布了一款名为“verdict”的免费工具，用于通过人工标签和LLM评判来评估AI Agent的输出质量。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/AntoineF23/verdict"
-        }
-      ]
-    },
-    {
-      "title": "开源AgentTransfer工具实现AI Agent间文件传输",
-      "summary": "一个名为AgentTransfer的开源项目发布，提供单个Go二进制文件，用于AI Agent之间的文件传输。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/shehryarsaroya/agenttransfer"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "开源Agent工具生态加速成熟",
-      "summary": "多个开源Agent工具（如AgentTransfer、BoundFlow）在社区涌现，表明开发者正积极构建Agent间通信、控制与评估的基础设施。这预示着AI Agent将从单点应用向系统化、平台化方向演进。",
+      "title": "开源Agent控制平面与文件传输工具发布",
+      "summary": "多个开源Agent基础设施项目发布，包括用于AI Agent间文件传输的AgentTransfer和用于Agent编排的控制平面BoundFlow。",
       "references": [
         {
           "source_name": "Hacker News AI",
@@ -114,54 +82,70 @@
       ]
     },
     {
-      "title": "LLM安全研究从理论走向可验证实践",
-      "summary": "多篇论文聚焦LLM安全，如自验证危害分析 和内部归因图破解，表明安全研究正从概念探讨转向可操作、可验证的方法论，这对模型部署至关重要。",
+      "title": "开发者发布AI Agent输出评估与隐私审计工具",
+      "summary": "社区发布了多个Agent质量与安全工具，包括评估Agent输出的Verdict、检查LLM/RAG Agent事实性的verbatimeter，以及审计Claude Code访问隐私信息的Confessor。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.08054"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/AntoineF23/verdict"
         },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.07903"
+          "source_name": "Hacker News LLM",
+          "link": "https://pypi.org/project/verbatimeter"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/ninjahawk/Confessor"
         }
       ]
     },
     {
-      "title": "模型降智监测工具反映用户对AI能力稳定性的担忧",
-      "summary": "社区出现大模型降智监测页面，可追踪Claude、GPT、Gemini等模型的能力变化。这反映出用户对AI模型性能波动的高度敏感，也暗示模型服务商需更透明地沟通更新与退化。",
+      "title": "欧洲主权LLM Soofi在两个月内完成训练",
+      "summary": "名为Soofi的欧洲主权大语言模型在两个月内完成训练，相关技术报告已在Hugging Face发布。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://huggingface.co/spaces/Soofi-Project/Pretraining-Tech-Report"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "Agent Token成本控制成为开发者核心痛点",
+      "summary": "随着Coding Agent的普及，Token消耗成本已成为开发者面临的主要问题，社区正在积极寻求成本控制方案，并催生了Token Time等监控工具。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48869320"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://tokentime.bar/"
+        }
+      ]
+    },
+    {
+      "title": "多模型协作与“循环工程”成为提升Agent效率的关键",
+      "summary": "社区观点认为，在Claude Code中，通过构建多模型循环（如使用不同模型处理不同任务）比单纯依赖单一强大模型能获得更大效率提升，这催生了claude-code-proxy等工具。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/suraj_khaitan_f893c243958/stop-running-opus-for-everything-loop-engineering-and-the-multi-model-playbook-in-claude-code-dpd"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/raine/claude-code-proxy"
+        }
+      ]
+    },
+    {
+      "title": "大模型“降智”现象引发社区监测与讨论",
+      "summary": "开发者社区对模型能力波动（“降智”）的关注度上升，已有开发者制作了监测页面，实时追踪Claude、GPT、Gemini等模型的能力变化趋势。",
       "references": [
         {
           "source_name": "V2EX 技术",
           "link": "https://v2ex.com/t/1226624"
-        }
-      ]
-    },
-    {
-      "title": "多模态与Agent评估基准密集发布，推动领域标准化",
-      "summary": "近期多个新基准（如InvestPhilBench、PolyWorkBench、RetailBench）发布，覆盖投资、多语言、零售等场景。这表明LLM Agent评估正从通用任务向垂直领域深化，有助于建立更可靠的行业标准。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.25984"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.06008"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.16453"
-        }
-      ]
-    },
-    {
-      "title": "企业级LLM Agent需建立可审计的工程框架",
-      "summary": "一篇论文提出“Harness Engineering”概念，强调企业LLM Agent应从临时原型转向可审计的合同化工程。这反映了AI应用从实验到生产的关键转变，合规与可追溯性将成为核心需求。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.08028"
         }
       ]
     }
