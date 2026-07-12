@@ -1,41 +1,41 @@
 {
-  "global_brief": "Meta 发布多模态推理模型 Muse Spark 1.1，强化 AI 智能体任务能力；同时，社区对 Claude Code 等编码工具的高额 token 消耗展开讨论，并关注大模型客户端可能整合 Agent 应用的趋势。Palantir CEO 对大型 AI 实验室“赢家通吃”的激烈批评，也引发了产业界对数据与价值分配的担忧。",
+  "global_brief": "Meta 发布面向 AI 智能体的多模态推理模型 Muse Spark 1.1，强化了工具调用与代码开发能力；与此同时，Palantir CEO 公开批评大型 AI 实验室利用客户数据“赢家通吃”，引发业界对传统企业沦为价值贡献者的担忧。社区侧则围绕大模型客户端是否会吞噬所有 Agent 应用份额、以及 Claude Code 等工具的高 Token 消耗问题展开激烈讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6296,
-      "event_count": 112
+      "field_score": 5867,
+      "event_count": 105
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1550,
+      "field_score": 1510,
       "event_count": 40
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 515,
-      "event_count": 11
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 431,
+      "field_score": 442,
       "event_count": 11
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 303,
+      "event_count": 7
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 248,
-      "event_count": 6
+      "field_score": 174,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "Meta 发布多模态推理模型 Muse Spark 1.1",
-      "summary": "Meta 于 7 月 9 日发布 Muse Spark 1.1，重点提升模型在智能体任务中的规划、协同与执行能力，并增强了工具调用、代码开发和应用操作能力。",
+      "title": "Meta 发布多模态推理模型 Muse Spark 1.1，强化 AI 智能体任务能力",
+      "summary": "IT之家 7 月 12 日消息，Meta 于 7 月 9 日正式发布适用于 AI 智能体的多模态推理模型 Muse Spark 1.1 版本，重点提升了模型在智能体任务中的规划、协同与执行能力，并增强了工具调用、代码开发、应用操作能力。…；Meta 发布多模态推理模型 Muse Spark 1.1，强化 AI 智能体任务能力",
       "references": [
         {
           "source_name": "IT之家",
@@ -44,22 +44,18 @@
       ]
     },
     {
-      "title": "研究发现 Claude Code 发送大量系统提示 token",
-      "summary": "一项对比测量显示，Claude Code 在用户输入提示前会发送约 33,000 个 token 的系统提示、工具架构和脚手架代码，而开源替代 OpenCode 仅发送约 7,000 个 token。",
+      "title": "TwoMillionKit: Use Private Cloud Compute in MacOS 27 Foundation Models Without an Entitlement",
+      "summary": "Guilherme Rambo: Apple ships the fm command-line tool in macOS 27, which can be used to run inference with the local sy…；TwoMillionKit: Use Private Cloud Compute in MacOS 27 Found…",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/terminalblog/claude-code-sends-33k-tokens-before-your-prompt-opencode-sends-7k-4em7"
-        },
-        {
-          "source_name": "Hacker News",
-          "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead"
+          "source_name": "daringfireball.net",
+          "link": "https://github.com/insidegui/TwoMillionKit"
         }
       ]
     },
     {
-      "title": "Palantir CEO 批评大型 AI 实验室“赢家通吃”",
-      "summary": "Palantir 首席执行官 Alex Karp 激烈表态，指责大型 AI 实验室利用客户数据和决策积累势能，导致传统企业担心沦为“价值贡献者”。",
+      "title": "Palantir喊出“忍无可忍”的背后：其他企业对大模型“赢家通吃”的恐惧",
+      "summary": "Palantir喊出“忍无可忍”的背后：其他企业对大模型“赢家通吃”的恐惧；Palantir首席执行官Alex Karp的一场激烈表态，将科技业长期积压的矛盾推向了台面—— 大型AI实验室正在用客户的数据和决策积累势能，而传统企业越来越担心自己在这场AI浪潮中沦为\"价值贡献者\"。 过去两周，Karp先是在CNBC…",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
@@ -68,50 +64,15 @@
       ]
     },
     {
-      "title": "生产级 AI Agent 迁移至 GPT-5.6 性能提升",
-      "summary": "一篇实践报告显示，将生产级 AI Agent 迁移至 GPT-5.6 后，速度提升 2.2 倍，成本降低 27%。",
+      "title": "LLM 知识库，如何统一本地与云端修改",
+      "summary": "LLM 知识库，如何统一本地与云端修改；LLM 知识库，如何统一本地与云端修改 立即体验 NoteDeep 做 NoteDeep Desktop 时，我希望本地知识库不只是云端数据的缓存：用户可以离线编辑 Markdown，Codex 、Claude Code 或 Curso…；[仅供参考] Codex/Claude Code 降智测试脚本",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI 的 AI 在 AtCoder 世界巡回赛决赛中击败所有人类选手",
-      "summary": "OpenAI 的 AI 系统在 AtCoder 竞赛中解决了全部五道问题，击败了所有人类参赛者。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://mlq.ai/news/openais-ai-sweeps-all-five-problems-at-atcoder-world-tour-finals-beating-every-human"
-        }
-      ]
-    },
-    {
-      "title": "苹果自动驾驶项目失败，但留下强大的 AI 芯片遗产",
-      "summary": "报道指出，苹果已终止的自动驾驶汽车项目为其留下了强大的 AI 芯片技术遗产，并体现在 M6、M7 和 M8 芯片的路线图中。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://bloomberg.com/news/newsletters/2026-07-12/apple-s-chip-plans-m6-m7-pro-m7-max-m7-ultra-m8-details-touch-macbook-pro"
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1226749"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "大模型客户端可能整合并取代独立 Agent 应用",
-      "summary": "社区讨论认为，随着 GPT-5.6 等模型客户端将 ChatGPT 与 Codex 融合，其强大的原生能力可能“吃光”所有独立的 Agent 应用份额，用户对 AI 的约束性操作将越来越少。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226704"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
