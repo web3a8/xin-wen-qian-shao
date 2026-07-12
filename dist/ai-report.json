@@ -1,143 +1,63 @@
 {
-  "global_brief": "AI领域持续主导今日动态，模型能力分化与地缘竞争加剧，同时围绕AI Agent的工具链和安全性讨论显著升温。OpenAI与Anthropic的模型更新引发社区对客户端生态和隐私的广泛关注，而DeepSeek自研芯片的消息则凸显了中美AI竞赛的硬件化趋势。",
+  "global_brief": "过去24小时的重要动态主要集中在：When an agent can prove it is Claude；OpenAI Help Center Describes What Is Wrong With the New ChatGPT；Inside the secret AI war between Silicon Valley and China。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6675,
-      "event_count": 116
+      "field_score": 6116,
+      "event_count": 108
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1453,
-      "event_count": 37
+      "field_score": 1642,
+      "event_count": 41
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 457,
-      "event_count": 12
+      "field_score": 494,
+      "event_count": 13
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 317,
-      "event_count": 7
+      "field_score": 167,
+      "event_count": 4
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 159,
+      "field_score": 157,
       "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI承认ChatGPT新版本存在问题",
-      "summary": "OpenAI在其帮助中心发布文章，详细描述了新版ChatGPT存在的问题，并指出“Work和Codex”功能仅在特定区域可用。",
-      "references": [
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households"
-        }
-      ]
+      "title": "When an agent can prove it is Claude",
+      "summary": "A site that wants to let an AI agent act has a problem it rarely says out loud. It cannot tell which agent is actually…；When an agent can prove it is Claude",
+      "references": []
     },
     {
-      "title": "DeepSeek被曝正在自研AI芯片",
-      "summary": "据路透社援引消息人士报道，中国AI公司DeepSeek正在开发自己的AI芯片。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07"
-        }
-      ]
+      "title": "OpenAI Help Center Describes What Is Wrong With the New ChatGPT",
+      "summary": "OpenAI Help Center Describes What Is Wrong With the New ChatGPT；OpenAI Help Center, “Where Work and Codex are available”: Work is available on ChatGPT web and mobile for eligible paid…；ChatGPT is hiring a dedicated prod…",
+      "references": []
     },
     {
-      "title": "硅谷与中国之间的秘密AI战争被曝光",
-      "summary": "《华盛顿邮报》报道了硅谷与中国之间一场秘密的AI战争，其中涉及Anthropic指控中国企业进行模型蒸馏。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://washingtonpost.com/national-security/2026/07/06/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude"
-        }
-      ]
+      "title": "Inside the secret AI war between Silicon Valley and China",
+      "summary": "Article URL: https://www.washingtonpost.com/national-security/2026/07/06/why-anthropic-alleges-chinese-firms-are-distil…；Inside the secret AI war between Silicon Valley and China",
+      "references": []
     },
     {
-      "title": "欧洲主权LLM“Soofi”在两个月内完成训练",
-      "summary": "一个名为Soofi的欧洲主权大语言模型项目在两个月内完成训练，相关技术报告已发布在Hugging Face上。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://huggingface.co/spaces/Soofi-Project/Pretraining-Tech-Report"
-        }
-      ]
+      "title": "AI Should Build Its Own Research World Model",
+      "summary": "AI Should Build Its Own Research World Model；Article URL: https://www.evolvinglab.ai/blog/research-world-model Comments URL: https://news.ycombinator.com/item?id=48…",
+      "references": []
     },
     {
-      "title": "AI发现了一个被忽视15年的Linux root漏洞",
-      "summary": "据《连线》杂志报道，一个AI系统发现了一个存在于Linux系统中长达15年的root权限漏洞。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years"
-        }
-      ]
-    },
-    {
-      "title": "NVIDIA发布JAX大模型训练中HBM瓶颈的解决方案",
-      "summary": "NVIDIA发布博客，介绍如何通过主机卸载来减少基于JAX的大模型训练中的高带宽内存（HBM）瓶颈。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading"
-        }
-      ]
+      "title": "I built a free tool to evaluate AI agent outputs (human labels and LLM judges)",
+      "summary": "Article URL: https://github.com/AntoineF23/verdict Comments URL: https://news.ycombinator.com/item?id=48875259 Points:…；I built a free tool to evaluate AI agent outputs (human labels and LLM judges)",
+      "references": []
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI Agent客户端生态面临整合与竞争",
-      "summary": "社区讨论认为，随着OpenAI将ChatGPT与Codex融合，大模型客户端可能凭借一体化体验“吃掉”大量独立Agent应用的份额，开发者需重新思考应用定位。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226704"
-        }
-      ]
-    },
-    {
-      "title": "模型降智监测工具反映用户对AI能力稳定性的焦虑",
-      "summary": "社区出现监测Claude、GPT等模型“智商”变化的页面，反映出用户对前沿模型能力波动（降智）的普遍担忧，并催生了第三方监控工具的需求。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226624"
-        }
-      ]
-    },
-    {
-      "title": "开源社区对AI的接纳过程充满博弈",
-      "summary": "一项针对LLVM项目的案例研究显示，开源软件社区在接纳AI工具和贡献时，正经历复杂的谈判与适应过程，并非一帆风顺。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://gupea.ub.gu.se/server/api/core/bitstreams/ad9b523e-f6d5-4dc2-b632-64f9734484cf/content"
-        }
-      ]
-    },
-    {
-      "title": "企业快速适配新模型成为关键挑战",
-      "summary": "在GPT-5.6等新模型发布后，社区关注点转向企业如何快速、平滑地集成新模型能力，这已成为AI应用落地的核心痛点。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226701"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
