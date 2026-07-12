@@ -1,151 +1,57 @@
 {
-  "global_brief": "AI领域持续主导技术社区讨论，焦点从模型能力转向工程化落地与成本控制，同时企业界对大型AI实验室“赢家通吃”的担忧加剧，开发者社区则涌现大量针对AI Agent安全性与可观测性的工具创新。",
+  "global_brief": "AI Agent 工具链与基础设施成为过去24小时最活跃的领域，AWS、微软研究院等巨头相继推出面向Agent的云原生插件与可视化语言，同时社区涌现大量Agent沙箱、评估与监控工具。Palantir CEO 对大型AI实验室“赢家通吃”的公开批评，折射出企业客户对数据主权与价值分配的深层焦虑。OpenAI 则通过招聘家庭产品经理，试图将ChatGPT进一步渗透至家庭场景。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6288,
-      "event_count": 107
+      "field_score": 6568,
+      "event_count": 114
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1679,
-      "event_count": 42
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 363,
-      "event_count": 8
+      "field_score": 1603,
+      "event_count": 40
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 322,
+      "field_score": 511,
+      "event_count": 13
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 435,
       "event_count": 9
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 214,
-      "event_count": 5
+      "field_score": 170,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "Palantir CEO公开批评大型AI实验室“赢家通吃”",
-      "summary": "Palantir首席执行官Alex Karp激烈表态，指责大型AI实验室利用客户数据和决策积累势能，传统企业担心沦为“价值贡献者”。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3776729"
-        }
-      ]
-    },
-    {
-      "title": "开发者探索让Claude Code实现无人值守自我改进",
-      "summary": "一篇技术文章介绍了如何利用成本控制机制，让Claude Code在无人干预的情况下自动改进自身代码。",
+      "title": "AWS 发布官方 MCP 服务器插件，使 Claude Code 等 Agent 云原生",
+      "summary": "AWS 发布了官方 Agent Toolkit，可接入 Claude Code、Codex 和 Cursor 等工具，使 AI Agent 能够原生操作 AWS 云服务。",
       "references": [
         {
           "source_name": "Dev.to",
-          "link": "https://dev.to/bokuwalily/let-claude-code-improve-itself-unattended-an-autopilot-that-uses-cost-to-stop-runaways-5e76"
-        }
-      ]
-    },
-    {
-      "title": "中国AI模型声称相比GPT-4o可节省40倍成本",
-      "summary": "有分析指出，中国AI模型在成本上相比GPT-4o有巨大优势，但存在一些限制条件。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/bean_bean/chinese-ai-models-vs-gpt-4o-the-40x-savings-claims-with-catches-26m7"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI为ChatGPT招聘家庭产品经理，并承认新版本存在问题",
-      "summary": "OpenAI正在招聘专注于家庭、看护和老年人体验的产品经理，同时其帮助中心承认新版ChatGPT存在一些问题。",
-      "references": [
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households"
-        }
-      ]
-    },
-    {
-      "title": "多个开源项目聚焦AI Agent沙箱与安全策略",
-      "summary": "社区涌现了Sanbox、Runeward等多个项目，旨在为AI Agent提供隔离、可恢复的运行环境和策略门控。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://sanbox.cloud/"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://runewardd.github.io/runeward"
-        }
-      ]
-    },
-    {
-      "title": "开发者社区热议大模型“降智”现象并推出监测工具",
-      "summary": "有开发者发布了专门测试Codex/Claude Code是否“降智”的脚本，以及一个可监测Claude、GPT、Gemini、DeepSeek等模型能力变化的页面。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226728"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226624"
+          "link": "https://dev.to/terminalblog/aws-just-made-claude-code-cloud-native-the-official-aws-mcp-server-plugin-3442"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI Agent安全与可观测性成为开发者社区核心关切",
-      "summary": "从Sanbox、Runeward到Verdict、verbatimeter，大量新工具聚焦于Agent的沙箱隔离、策略控制、输出评估和事实性检查，表明社区正从“如何构建Agent”转向“如何安全、可控地运行Agent”。",
+      "title": "企业级 AI 应用面临“数据主权”信任危机",
+      "summary": "Palantir CEO 的激烈表态并非孤立事件，它揭示了企业客户对大型 AI 实验室“赢家通吃”模式的普遍恐惧。当企业将核心数据和决策流程交给 AI 时，它们担心自己会沦为模型训练的数据贡献者，而非价值的最终受益者。这种信任危机可能成为企业级 AI 落地的最大障碍。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://sanbox.cloud/"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://runewardd.github.io/runeward"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/AntoineF23/verdict"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://pypi.org/project/verbatimeter"
-        }
-      ]
-    },
-    {
-      "title": "大模型客户端可能“吃掉”Agent应用市场",
-      "summary": "有观点认为，随着GPT-5.6等模型客户端将ChatGPT与Codex融合，其强大的自然语言处理能力可能使独立的Agent应用失去生存空间，引发对AI应用生态格局的担忧。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226704"
-        }
-      ]
-    },
-    {
-      "title": "开发者应转变思路，从“提示”转向“工程”",
-      "summary": "一篇技术文章指出，将LLM视为不可靠函数进行工程化设计，而非依赖长提示词期望模型完美返回，是更有效的开发范式。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ntty/stop-prompting-and-start-engineering-treating-llms-as-unreliable-functions-12fp"
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776729"
         }
       ]
     }
