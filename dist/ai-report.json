@@ -1,41 +1,41 @@
 {
-  "global_brief": "过去24小时，AI智能体与多模态推理模型成为最热焦点，Meta发布Muse Spark 1.1，微软推出开源可视化中间语言Flint，同时社区围绕AI Agent的评估、协作与客户端生态展开激烈讨论，Palantir CEO对大型AI实验室“赢家通吃”的担忧也引发广泛关注。",
+  "global_brief": "Meta 发布多模态推理模型 Muse Spark 1.1，强化 AI 智能体任务能力；同时，社区对 Claude Code 等编码工具的高额 token 消耗展开讨论，并关注大模型客户端可能整合 Agent 应用的趋势。Palantir CEO 对大型 AI 实验室“赢家通吃”的激烈批评，也引发了产业界对数据与价值分配的担忧。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5883,
-      "event_count": 105
+      "field_score": 6296,
+      "event_count": 112
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1574,
+      "field_score": 1550,
       "event_count": 40
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 596,
-      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 485,
+      "field_score": 515,
+      "event_count": 11
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 431,
       "event_count": 11
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 164,
-      "event_count": 4
+      "field_score": 248,
+      "event_count": 6
     }
   ],
   "highlight_facts": [
     {
-      "title": "Meta发布多模态推理模型Muse Spark 1.1",
-      "summary": "Meta于7月9日正式发布适用于AI智能体的多模态推理模型Muse Spark 1.1版本，重点提升了模型在智能体任务中的规划、协同与执行能力，并增强了工具调用、代码开发和应用操作能力。",
+      "title": "Meta 发布多模态推理模型 Muse Spark 1.1",
+      "summary": "Meta 于 7 月 9 日发布 Muse Spark 1.1，重点提升模型在智能体任务中的规划、协同与执行能力，并增强了工具调用、代码开发和应用操作能力。",
       "references": [
         {
           "source_name": "IT之家",
@@ -44,18 +44,22 @@
       ]
     },
     {
-      "title": "微软研究院推出开源可视化中间语言Flint",
-      "summary": "微软研究院联合中国人民大学IDEAS Lab推出了开源可视化中间语言Flint，该语言能让AI智能体通过一句话生成Vega-Lite、ECharts、Chart.js等专业图表。",
+      "title": "研究发现 Claude Code 发送大量系统提示 token",
+      "summary": "一项对比测量显示，Claude Code 在用户输入提示前会发送约 33,000 个 token 的系统提示、工具架构和脚手架代码，而开源替代 OpenCode 仅发送约 7,000 个 token。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/975/816.htm"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/terminalblog/claude-code-sends-33k-tokens-before-your-prompt-opencode-sends-7k-4em7"
+        },
+        {
+          "source_name": "Hacker News",
+          "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead"
         }
       ]
     },
     {
-      "title": "Palantir CEO批评大型AI实验室“赢家通吃”",
-      "summary": "Palantir首席执行官Alex Karp激烈表态，指出大型AI实验室正利用客户数据和决策积累势能，传统企业越来越担心自己在这场AI浪潮中沦为“价值贡献者”。",
+      "title": "Palantir CEO 批评大型 AI 实验室“赢家通吃”",
+      "summary": "Palantir 首席执行官 Alex Karp 激烈表态，指责大型 AI 实验室利用客户数据和决策积累势能，导致传统企业担心沦为“价值贡献者”。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
@@ -64,100 +68,48 @@
       ]
     },
     {
-      "title": "社区讨论LLM知识库本地与云端同步方案",
-      "summary": "在V2EX和Hacker News上，开发者围绕如何统一LLM知识库的本地与云端修改展开讨论，涉及Codex、Claude Code、Cursor等工具的使用体验。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226749"
-        },
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48874236"
-        }
-      ]
-    },
-    {
-      "title": "开源工具Verdict发布，用于评估AI Agent输出",
-      "summary": "开发者发布了一款名为Verdict的免费工具，用于评估AI Agent的输出，支持人工标注和LLM作为评判者两种模式。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/AntoineF23/verdict"
-        }
-      ]
-    },
-    {
-      "title": "开发者将Git仓库变为AI编码Agent的群聊",
-      "summary": "有开发者展示了名为AgentComm的项目，通过将Git仓库作为基础，为AI编码Agent提供了一个群聊环境。",
+      "title": "生产级 AI Agent 迁移至 GPT-5.6 性能提升",
+      "summary": "一篇实践报告显示，将生产级 AI Agent 迁移至 GPT-5.6 后，速度提升 2.2 倍，成本降低 27%。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://github.com/yonidavidson/agentcomm"
+          "link": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 的 AI 在 AtCoder 世界巡回赛决赛中击败所有人类选手",
+      "summary": "OpenAI 的 AI 系统在 AtCoder 竞赛中解决了全部五道问题，击败了所有人类参赛者。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://mlq.ai/news/openais-ai-sweeps-all-five-problems-at-atcoder-world-tour-finals-beating-every-human"
+        }
+      ]
+    },
+    {
+      "title": "苹果自动驾驶项目失败，但留下强大的 AI 芯片遗产",
+      "summary": "报道指出，苹果已终止的自动驾驶汽车项目为其留下了强大的 AI 芯片技术遗产，并体现在 M6、M7 和 M8 芯片的路线图中。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://bloomberg.com/news/newsletters/2026-07-12/apple-s-chip-plans-m6-m7-pro-m7-max-m7-ultra-m8-details-touch-macbook-pro"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "大型AI模型客户端可能吞噬Agent应用市场",
-      "summary": "随着GPT-5.6等模型客户端将ChatGPT与Codex融合，有观点认为大模型客户端将凭借其一体化体验，吃光所有独立Agent应用的份额。",
+      "title": "大模型客户端可能整合并取代独立 Agent 应用",
+      "summary": "社区讨论认为，随着 GPT-5.6 等模型客户端将 ChatGPT 与 Codex 融合，其强大的原生能力可能“吃光”所有独立的 Agent 应用份额，用户对 AI 的约束性操作将越来越少。",
       "references": [
         {
           "source_name": "V2EX 技术",
           "link": "https://v2ex.com/t/1226704"
-        }
-      ]
-    },
-    {
-      "title": "开源工具生态正试图打破AI供应商锁定",
-      "summary": "从“Linux of AI”项目到各种评估和网关工具，社区正积极构建开源工具链，以降低对单一AI供应商的依赖，防止被锁定。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/sekacorn/Linux-of-Ai"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/AntoineF23/verdict"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226735"
-        }
-      ]
-    },
-    {
-      "title": "AI编码Agent正从单打独斗走向团队协作",
-      "summary": "将Git仓库作为Agent群聊、在SDLC中引入多个AI Agent等实践表明，AI编码Agent的应用正从单一任务执行向更复杂的团队协作模式演进。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/yonidavidson/agentcomm"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://petrostechchronicles.com/blog/How_I_Ship_Production_Features_With_AI_Agents"
-        }
-      ]
-    },
-    {
-      "title": "AI代码审查基准测试可能“完美地打错了靶子”",
-      "summary": "有分析指出，当前的AI代码审查基准测试可能存在设计缺陷，导致模型在测试中表现优异，但在实际场景中效果不佳。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://shrsv.hexmos.com/post/perfectly-hitting-the-wrong-target"
-        }
-      ]
-    },
-    {
-      "title": "浏览器端P2P分布式LLM推理成为新探索方向",
-      "summary": "LLMlet等项目尝试在浏览器中实现点对点分布式LLM推理，这为降低AI推理成本和提升隐私保护提供了新的技术路径。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/ktock/llmlet"
         }
       ]
     }
