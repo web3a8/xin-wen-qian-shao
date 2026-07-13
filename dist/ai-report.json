@@ -1,52 +1,58 @@
 {
-  "global_brief": "过去24小时，AI领域竞争白热化，Meta发布多模态推理模型Muse Spark 1.1，而OpenAI与Anthropic在用户争夺上动作频频，同时苹果起诉OpenAI窃取商业机密，引发行业震动。",
+  "global_brief": "AI 领域竞争白热化，Anthropic 与 OpenAI 在模型发布、使用权限和定价策略上展开全面博弈，同时 Meta 发布多模态推理模型 Muse Spark 1.1 强化智能体能力。社区侧涌现大量 AI 智能体与开发工具创新，涵盖代码代理、安全扫描和分布式推理等方向。苹果起诉 OpenAI 窃取商业机密等事件也引发广泛关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6338,
-      "event_count": 111
+      "field_score": 5500,
+      "event_count": 94
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1521,
+      "field_score": 1555,
       "event_count": 39
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 210,
-      "event_count": 5
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 180,
-      "event_count": 4
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 177,
-      "event_count": 4
+      "field_score": 482,
+      "event_count": 10
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 325,
+      "event_count": 8
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 126,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "Meta发布多模态推理模型Muse Spark 1.1",
-      "summary": "Meta于7月9日发布Muse Spark 1.1版本，重点提升AI智能体在规划、协同与执行方面的能力，并增强了工具调用、代码开发和应用操作能力。",
+      "title": "Meta 发布多模态推理模型 Muse Spark 1.1，强化 AI 智能体任务能力",
+      "summary": "Meta 于 7 月 9 日正式发布适用于 AI 智能体的多模态推理模型 Muse Spark 1.1 版本，重点提升了模型在智能体任务中的规划、协同与执行能力，并增强了工具调用、代码开发、应用操作能力。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/975/832.htm"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "OpenAI Codex和ChatGPT Work暂时取消使用限制",
-      "summary": "OpenAI Codex工程负责人宣布，Codex和ChatGPT Work两大工具已暂时取消Plus、Pro及Business订阅用户的5小时使用限制。",
+      "title": "AI 模型竞争已从能力比拼延伸至定价与使用权限的全面博弈",
+      "summary": "Anthropic 与 OpenAI 正以最直接的方式争夺同一批用户，Claude Fable 5 的多次延期和 OpenAI 取消使用限制，表明双方在用户留存和市场份额上的竞争已进入白热化阶段，这预示着未来 AI 服务的定价和访问策略将更加灵活和激进。",
       "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776748"
+        },
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/975/839.htm"
@@ -54,82 +60,6 @@
         {
           "source_name": "爱范儿",
           "link": "https://ifanr.com/1671739"
-        }
-      ]
-    },
-    {
-      "title": "Claude Fable 5再度延期，OpenAI Sol取消限制",
-      "summary": "Anthropic宣布将Claude Fable 5在所有付费套餐上的订阅访问期限再度延长7天，与此同时OpenAI取消了Sol模型的使用限制，双方用户争夺战白热化。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3776748"
-        }
-      ]
-    },
-    {
-      "title": "苹果起诉OpenAI窃取商业机密",
-      "summary": "苹果公司正式对OpenAI提起诉讼，指控其窃取商业机密，该事件与变压器短缺、世界杯带动小红书使用时长提升等新闻一同出现在派早报中。",
-      "references": [
-        {
-          "source_name": "少数派",
-          "link": "https://sspai.com/post/112215"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/member/articles/3776738"
-        }
-      ]
-    },
-    {
-      "title": "Palantir CEO批评大型AI实验室“赢家通吃”",
-      "summary": "Palantir首席执行官Alex Karp激烈表态，指责大型AI实验室利用客户数据和决策积累势能，传统企业越来越担心沦为“价值贡献者”。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3776729"
-        }
-      ]
-    },
-    {
-      "title": "开发者训练出113M参数的地震预测LLM",
-      "summary": "一位开发者从零开始训练了一个拥有1.13亿参数的地震预测语言模型，相关项目已在GitHub上开源。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/jiazhe868/nanogpt-seis"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "AI模型客户端可能吞噬独立Agent应用市场",
-      "summary": "随着OpenAI Codex等客户端将ChatGPT与Codex融合，用户对AI的约束性操作越来越少，社区讨论认为大模型客户端可能凭借一体化体验吃光所有独立Agent应用的份额。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1226704"
-        }
-      ]
-    },
-    {
-      "title": "Claude Code与OpenCode的token消耗差异引发效率讨论",
-      "summary": "有分析指出，Claude Code在读取提示前会发送3.3万个token，而开源替代OpenCode仅发送7千个，这一巨大差异引发了对AI编程工具效率与资源消耗的广泛讨论。",
-      "references": [
-        {
-          "source_name": "Hacker News",
-          "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead"
-        }
-      ]
-    },
-    {
-      "title": "AI生成代码的安全性问题日益凸显",
-      "summary": "随着“vibe coding”成为主流，社区普遍认识到典型AI生成代码存在安全隐患，催生了如Isitsecure等一键式安全扫描工具的出现。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/jaurakunal/isitsecure"
         }
       ]
     }
