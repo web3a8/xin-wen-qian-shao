@@ -1,42 +1,54 @@
 {
-  "global_brief": "AI领域持续主导技术动态，多篇研究聚焦于提升LLM推理效率与Agent能力，同时社区讨论活跃，涌现出多个旨在降低LLM调用成本、增强Agent与物理设备连接的开源工具。此外，苹果对OpenAI的诉讼披露了多项惊人指控，而Meta提交的“全天候监听”AI专利也引发了隐私担忧。",
+  "global_brief": "苹果起诉OpenAI窃取商业机密，指控其与前苹果员工合谋，成为今日最受关注的行业事件。与此同时，AI Agent与LLM推理效率研究密集发布，涵盖世界构建、规划、安全控制与推理加速等多个方向。社区侧则涌现大量开源工具，聚焦于降低LLM使用成本、提升Agent可靠性及实现设备端AI应用。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 23336,
-      "event_count": 407
+      "field_score": 23689,
+      "event_count": 414
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1483,
-      "event_count": 37
+      "field_score": 1410,
+      "event_count": 36
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1251,
-      "event_count": 27
+      "field_score": 1300,
+      "event_count": 30
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 524,
+      "event_count": 11
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 494,
-      "event_count": 10
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 435,
+      "field_score": 468,
       "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "苹果起诉OpenAI，指控其存在不当行为",
-      "summary": "苹果在针对OpenAI的诉讼中提出多项惊人指控，包括OpenAI在面试苹果员工时试图挖角，以及其硬件团队的不当行为。",
+      "title": "Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets",
+      "summary": "苹果公司对OpenAI提起诉讼，指控其与前苹果员工合谋，利用漏洞窃取商业机密。该诉讼包含多项惊人指控，涉及苹果员工在面试OpenAI职位时的情况。",
       "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets"
+        },
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://arstechnica.com/tech-policy/2025/08/elon-musk-sues-apple-openai-to-block-exclusive-iphone-chatgpt-integration"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai"
+        },
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
@@ -46,16 +58,16 @@
   ],
   "highlight_opinions": [
     {
-      "title": "Agent效率优化成为社区焦点",
-      "summary": "社区开发者正积极通过多种技术手段降低LLM Agent的运营成本，例如将语义缓存集成到图结构中（减少76%的LLM调用）以及设计紧凑的数据管道语言（减少33%的Token使用量），这表明成本是当前Agent落地的核心瓶颈之一。",
+      "title": "AI Agent安全与可靠性成为研究焦点",
+      "summary": "多篇新论文（如Neuro-Agentic Control、Toward Auditable AI Scientists）表明，随着Agent应用深入，如何确保其行为可审计、可控制并抵御网络攻击，已成为AI安全研究的核心议题。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/insightitsGit/ChorusGraph"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.09076"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/pinku/Flow"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.09195"
         }
       ]
     }
