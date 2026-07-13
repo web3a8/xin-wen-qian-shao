@@ -1,78 +1,71 @@
 {
-  "global_brief": "今日AI领域持续活跃，多篇研究聚焦于提升LLM推理效率与Agent能力，同时OpenAI与Anthropic的模型竞争进入新阶段，社区侧涌现大量关于Agent工具和自托管方案的讨论。",
+  "global_brief": "OpenAI 正式向所有用户开放 GPT-5.6 系列模型并优化使用限额，Anthropic 延长 Fable 5 推广期，两大模型竞争加剧。同时，社区涌现大量 LLM 代理工具与基础设施创新，包括连接物理设备的 Device Context Protocol 和减少 76% LLM 调用的语义缓存方案。多篇研究聚焦于 LLM 推理加速、多智能体协作及地缘政治对齐等方向。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 21632,
-      "event_count": 355
+      "field_score": 23475,
+      "event_count": 390
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1449,
-      "event_count": 36
+      "field_score": 1560,
+      "event_count": 38
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 625,
-      "event_count": 13
+      "field_score": 645,
+      "event_count": 14
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 461,
-      "event_count": 9
+      "field_score": 520,
+      "event_count": 10
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 382,
-      "event_count": 7
+      "field_score": 421,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "Fictional Worldbuilding: Multi-Agent LLM Collaboration with Hierarchical Context Compression and Iterative Review",
-      "summary": "arXiv:2607.09403v1 Announce Type: new Abstract: Worldbuilding, the construction of coherent fictional worlds, is a foun…；Fictional Worldbuilding: Multi-Agent LLM Collaboration wit…",
+      "title": "OpenAI 正式开放 GPT-5.6 系列模型并优化使用限额",
+      "summary": "OpenAI 于上周正式向所有用户开放了 GPT-5.6 系列全部三款模型（Sol、Terra、Luna），并优化了使用限额。此前该系列仅小范围预览。同时，GPT-5.6 Sol 被社区归类为 Fable/Mythos 级别模型。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09403"
-        }
-      ]
-    },
-    {
-      "title": "TwoMillionKit: Use Private Cloud Compute in MacOS 27 Foundation Models Without an Entitlement",
-      "summary": "Guilherme Rambo: Apple ships the fm command-line tool in macOS 27, which can be used to run inference with the local sy…；TwoMillionKit: Use Private Cloud Compute in MacOS 27 Found…",
-      "references": [
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/975/974.htm"
+        },
         {
-          "source_name": "daringfireball.net",
-          "link": "https://github.com/insidegui/TwoMillionKit"
-        }
-      ]
-    },
-    {
-      "title": "Geopolitical alignment: Endorsement effects in large language models",
-      "summary": "arXiv:2607.09262v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly used to summarize and e…；Geopolitical alignment: Endorsement effects in large langu…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09262"
-        }
-      ]
-    },
-    {
-      "title": "MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation",
-      "summary": "arXiv:2607.09142v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed in online medica…；MedRealMM: A Real-World Multimodal Benchmark for Chinese O…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09142"
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/12/bump"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "LLM 代理正从概念走向实用化，基础设施层创新加速",
+      "summary": "本周社区动态显示，LLM 代理正快速从概念验证走向实际应用。Device Context Protocol 连接物理世界、ChorusGraph 通过语义缓存减少 76% 的 LLM 调用，以及针对 CLI 编码代理失败轨迹的分析，都表明开发者正在解决代理系统在可靠性、成本和物理交互方面的核心痛点。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/device-context-protocol/dcp"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/insightitsGit/ChorusGraph"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.09510"
+        }
+      ]
+    }
+  ]
 }
