@@ -1,78 +1,63 @@
 {
-  "global_brief": "今日AI领域持续活跃，多篇研究聚焦于提升LLM推理效率与Agent能力，同时苹果与OpenAI的法律纠纷、Meta的持续性监听专利引发广泛关注。社区侧涌现大量降低LLM调用成本与提升开发效率的开源工具和讨论。 [FACT] TITLE: Apple ships on-device LLM inference tool in macOS 27 SUMMARY: 开发者发现Apple在macOS 27中内置了名为“fm”的命令行工具，可用于本地运行基础模型推理，无需特定授权。 SCORE: 73 ARTICLE_IDS: bbfe3b504eb4e…",
+  "global_brief": "AI领域持续主导技术动态，多篇研究聚焦于提升LLM推理效率与Agent能力，同时社区讨论活跃，涌现出多个旨在降低LLM调用成本、增强Agent与物理设备连接的开源工具。此外，苹果对OpenAI的诉讼披露了多项惊人指控，而Meta提交的“全天候监听”AI专利也引发了隐私担忧。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 23600,
+      "field_score": 23336,
       "event_count": 407
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1501,
+      "field_score": 1483,
       "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1041,
-      "event_count": 23
+      "field_score": 1251,
+      "event_count": 27
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 651,
-      "event_count": 13
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 494,
+      "event_count": 10
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 437,
+      "field_score": 435,
       "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "TwoMillionKit: Use Private Cloud Compute in MacOS 27 Foundation Models Without an Entitlement",
-      "summary": "Guilherme Rambo: Apple ships the fm command-line tool in macOS 27, which can be used to run inference with the local sy…；TwoMillionKit: Use Private Cloud Compute in MacOS 27 Found…",
+      "title": "苹果起诉OpenAI，指控其存在不当行为",
+      "summary": "苹果在针对OpenAI的诉讼中提出多项惊人指控，包括OpenAI在面试苹果员工时试图挖角，以及其硬件团队的不当行为。",
       "references": [
         {
-          "source_name": "daringfireball.net",
-          "link": "https://github.com/insidegui/TwoMillionKit"
-        }
-      ]
-    },
-    {
-      "title": "Fable gets another bump",
-      "summary": "Fable gets another bump；One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bum…",
-      "references": [
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/12/bump"
-        }
-      ]
-    },
-    {
-      "title": "Codex no VS Code não carregava no Linux Mint: falha no sync de plugins, IPv6 quebrado (solução)",
-      "summary": "Codex no VS Code não carregava no Linux Mint: falha no sync de plugins, IPv6 quebrado (solução)；Descrição curta / resumo A interface da extensão Codex ficava completamente vazia n…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/sevahc/codex-no-vs-code-nao-carregava-no-linux-mint-falha-no-sync-de-plugins-ipv6-quebrado-solucao-3e8b"
-        }
-      ]
-    },
-    {
-      "title": "Fictional Worldbuilding: Multi-Agent LLM Collaboration with Hierarchical Context Compression and Iterative Review",
-      "summary": "arXiv:2607.09403v1 Announce Type: new Abstract: Worldbuilding, the construction of coherent fictional worlds, is a foun…；Fictional Worldbuilding: Multi-Agent LLM Collaboration wit…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09403"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "Agent效率优化成为社区焦点",
+      "summary": "社区开发者正积极通过多种技术手段降低LLM Agent的运营成本，例如将语义缓存集成到图结构中（减少76%的LLM调用）以及设计紧凑的数据管道语言（减少33%的Token使用量），这表明成本是当前Agent落地的核心瓶颈之一。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/insightitsGit/ChorusGraph"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/pinku/Flow"
+        }
+      ]
+    }
+  ]
 }
