@@ -1,41 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导技术动态，多篇研究聚焦于提升LLM推理效率与Agent能力，同时业界出现教授批量加入科技巨头的人才流动趋势，以及中国AI模型在美国市场获得关注的新动向。 [FACT] TITLE: 美国顶尖教授批量离校加入OpenAI、Anthropic等AI巨头 SUMMARY: 美国顶尖大学正面临新一轮AI人才外流危机，多所一流高校的计算机科学教授今年加速出走，加入OpenAI、Anthropic、Meta等科技巨头，留守学界的研究人员警告这一趋势威胁开源AI模型的发展。 SCORE: 66 ARTICLE_IDS: 5d81…",
+  "global_brief": "过去24小时，AI领域持续主导技术动态，多篇关于LLM推理加速、Agent规划与安全控制的研究密集发布，同时美国顶尖高校教授批量流向OpenAI、Anthropic等AI巨头，引发学界对开源模型发展前景的担忧。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 22933,
-      "event_count": 389
+      "field_score": 24018,
+      "event_count": 406
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1436,
-      "event_count": 35
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 752,
-      "event_count": 15
+      "field_score": 1264,
+      "event_count": 31
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 584,
-      "event_count": 13
+      "field_score": 815,
+      "event_count": 18
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 413,
-      "event_count": 8
+      "field_score": 453,
+      "event_count": 9
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 367,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
       "title": "TwoMillionKit: Use Private Cloud Compute in MacOS 27 Foundation Models Without an Entitlement",
-      "summary": "Guilherme Rambo: Apple ships the fm command-line tool in macOS 27, which can be used to run inference with the local sy…；TwoMillionKit: Use Private Cloud Compute in MacOS 27 Found…",
+      "summary": "开发者Guilherme Rambo发现，苹果在macOS 27中内置了名为“fm”的命令行工具，可用于运行本地基础模型推理，而TwoMillionKit项目则展示了如何无需授权即可使用苹果的私有云计算功能。",
       "references": [
         {
           "source_name": "daringfireball.net",
@@ -44,8 +44,18 @@
       ]
     },
     {
+      "title": "美国顶尖教授批量离校加入OpenAI、Anthropic等AI巨头",
+      "summary": "美国顶尖大学正面临AI人才外流危机，随着OpenAI、Anthropic、Meta等科技巨头以丰厚资源吸引学术界精英，多所一流高校的计算机科学教授今年加速出走，留守学界的研究人员警告这一趋势将威胁开源AI模型的发展。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776795"
+        }
+      ]
+    },
+    {
       "title": "Fictional Worldbuilding: Multi-Agent LLM Collaboration with Hierarchical Context Compression and Iterative Review",
-      "summary": "arXiv:2607.09403v1 Announce Type: new Abstract: Worldbuilding, the construction of coherent fictional worlds, is a foun…；Fictional Worldbuilding: Multi-Agent LLM Collaboration wit…",
+      "summary": "一篇新研究提出利用多智能体LLM协作，通过分层上下文压缩和迭代审查机制，构建连贯的虚构世界。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -55,7 +65,7 @@
     },
     {
       "title": "Geopolitical alignment: Endorsement effects in large language models",
-      "summary": "arXiv:2607.09262v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly used to summarize and e…；Geopolitical alignment: Endorsement effects in large langu…",
+      "summary": "一项研究探讨了大型语言模型中的地缘政治对齐问题，分析了模型在总结和评估信息时可能产生的背书效应。",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -64,15 +74,90 @@
       ]
     },
     {
-      "title": "MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation",
-      "summary": "arXiv:2607.09142v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed in online medica…；MedRealMM: A Real-World Multimodal Benchmark for Chinese O…",
+      "title": "GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning",
+      "summary": "新研究提出GATS框架，通过图增强的树搜索和分层世界模型，提升LLM智能体在多步规划任务中的效率。",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09142"
+          "link": "https://arxiv.org/abs/2607.08894"
+        }
+      ]
+    },
+    {
+      "title": "Neuro-Agentic Control: A Deep Learning-based LLM-Powered Agentic AI Framework for Controlling Security Controls",
+      "summary": "一项研究提出Neuro-Agentic Control框架，利用深度学习驱动的LLM智能体来自动化控制网络安全控制措施，以应对日益增长的网络攻击。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.09076"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "学术界人才流失将加剧AI产业与开源生态的失衡",
+      "summary": "美国顶尖教授批量流向OpenAI、Anthropic等公司，结合Anthropic与OpenAI在模型能力上的竞争态势，表明产业界对核心研究人才的虹吸效应正在加速，这可能进一步削弱大学在基础研究和开源模型开发上的领导力，长期来看不利于AI生态的多元化。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776795"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/12/bump"
+        }
+      ]
+    },
+    {
+      "title": "LLM推理优化与Agent自主性研究正成为并行热点",
+      "summary": "多篇研究同时聚焦于LLM推理加速（如稀疏权重矩阵、早期退出机制）和Agent自主规划（如GATS、Agora），反映出业界在追求模型效率提升的同时，也在积极探索更复杂的多智能体协作与任务分配范式。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.08786"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2407.21082"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.08894"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.09600"
+        }
+      ]
+    },
+    {
+      "title": "AI安全控制正从被动防御转向主动智能体框架",
+      "summary": "新提出的Neuro-Agentic Control框架 与业界关于结合自主AI与分析师副驾的讨论 相呼应，表明安全领域正尝试将LLM智能体从辅助工具升级为主动决策者，以应对日益复杂的网络威胁。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.09076"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html"
+        }
+      ]
+    },
+    {
+      "title": "多模态LLM的评估与优化正走向真实世界场景",
+      "summary": "MedRealMM基准测试 和Mixture of Probes方法 的提出，标志着多模态LLM研究正从实验室标准数据集转向更贴近真实世界（如中文在线医疗咨询）的评估与优化，这有助于提升模型在实际应用中的可靠性。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.09142"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2607.08839"
+        }
+      ]
+    }
+  ]
 }
