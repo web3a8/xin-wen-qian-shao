@@ -1,41 +1,41 @@
 {
-  "global_brief": "今日AI领域持续主导技术动态，多篇研究聚焦于提升LLM推理效率与Agent能力，同时安全与对齐议题也受到关注。社区侧则涌现大量关于Agent工具链、模型测试与安全防护的开源项目，反映出开发者对构建可靠、可控AI系统的强烈需求。",
+  "global_brief": "今日AI领域持续活跃，多篇研究聚焦于提升LLM推理效率与Agent能力，同时苹果与OpenAI的法律纠纷、Meta的持续性监听专利引发广泛关注。社区侧涌现大量降低LLM调用成本与提升开发效率的开源工具和讨论。 [FACT] TITLE: Apple ships on-device LLM inference tool in macOS 27 SUMMARY: 开发者发现Apple在macOS 27中内置了名为“fm”的命令行工具，可用于本地运行基础模型推理，无需特定授权。 SCORE: 73 ARTICLE_IDS: bbfe3b504eb4e…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 23993,
+      "field_score": 23600,
       "event_count": 407
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1485,
-      "event_count": 36
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 842,
-      "event_count": 17
+      "field_score": 1501,
+      "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 789,
-      "event_count": 17
+      "field_score": 1041,
+      "event_count": 23
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 651,
+      "event_count": 13
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 503,
-      "event_count": 10
+      "field_score": 437,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "macOS 27 内置本地AI推理工具",
-      "summary": "开发者发现苹果在macOS 27中内置了名为“fm”的命令行工具，可用于运行本地基础模型进行推理，无需特定授权。",
+      "title": "TwoMillionKit: Use Private Cloud Compute in MacOS 27 Foundation Models Without an Entitlement",
+      "summary": "Guilherme Rambo: Apple ships the fm command-line tool in macOS 27, which can be used to run inference with the local sy…；TwoMillionKit: Use Private Cloud Compute in MacOS 27 Found…",
       "references": [
         {
           "source_name": "daringfireball.net",
@@ -44,150 +44,35 @@
       ]
     },
     {
-      "title": "首个完全由AI Agent执行的勒索软件攻击被记录",
-      "summary": "安全公司Sysdig记录了首个端到端由AI Agent执行的勒索软件攻击案例，标志着AI在网络安全威胁领域的新里程碑。",
+      "title": "Fable gets another bump",
+      "summary": "Fable gets another bump；One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bum…",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://yacnews.com/sysdig-documents-the-first-ransomware-attack-run-end-to-end-by-an-ai-agent"
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/12/bump"
         }
       ]
     },
     {
-      "title": "Meta申请全天候情绪追踪AI专利",
-      "summary": "Meta提交了一项专利申请，涉及一种能够全天候监听用户语音并追踪其情绪状态的AI系统。",
+      "title": "Codex no VS Code não carregava no Linux Mint: falha no sync de plugins, IPv6 quebrado (solução)",
+      "summary": "Codex no VS Code não carregava no Linux Mint: falha no sync de plugins, IPv6 quebrado (solução)；Descrição curta / resumo A interface da extensão Codex ficava completamente vazia n…",
       "references": [
         {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/sevahc/codex-no-vs-code-nao-carregava-no-linux-mint-falha-no-sync-de-plugins-ipv6-quebrado-solucao-3e8b"
         }
       ]
     },
     {
-      "title": "Cloudflare推出检测AI Agent行为的工具",
-      "summary": "Cloudflare发布了名为“Precursor”的新工具，通过持续客户端信号检测AI Agent的自动化行为，用于机器人管理。",
-      "references": [
-        {
-          "source_name": "Cloudflare Blog",
-          "link": "https://blog.cloudflare.com/introducing-precursor"
-        }
-      ]
-    },
-    {
-      "title": "研究提出基于拍卖的LLM Agent推理增强方法",
-      "summary": "一项新研究提出“Agora”框架，通过基于拍卖的任务分配机制来增强LLM Agent的推理能力。",
+      "title": "Fictional Worldbuilding: Multi-Agent LLM Collaboration with Hierarchical Context Compression and Iterative Review",
+      "summary": "arXiv:2607.09403v1 Announce Type: new Abstract: Worldbuilding, the construction of coherent fictional worlds, is a foun…；Fictional Worldbuilding: Multi-Agent LLM Collaboration wit…",
       "references": [
         {
           "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09600"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示LLM存在地缘政治立场倾向",
-      "summary": "一项新研究探讨了大型语言模型在总结和评估信息时表现出的地缘政治立场倾向，即“地缘政治对齐”效应。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09262"
+          "link": "https://arxiv.org/abs/2607.09403"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI Agent安全风险从理论走向现实",
-      "summary": "首个完全由AI Agent执行的勒索软件攻击被记录，结合Cloudflare推出Agent行为检测工具，表明AI Agent带来的安全威胁已从理论探讨进入实际对抗阶段，产业界正加速构建防御体系。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://yacnews.com/sysdig-documents-the-first-ransomware-attack-run-end-to-end-by-an-ai-agent"
-        },
-        {
-          "source_name": "Cloudflare Blog",
-          "link": "https://blog.cloudflare.com/introducing-precursor"
-        }
-      ]
-    },
-    {
-      "title": "本地化与隐私化AI推理成为新趋势",
-      "summary": "苹果在macOS中内置本地推理工具，与Meta申请全天候语音情绪追踪专利形成对比，反映出AI部署路径的分化：一方强调端侧隐私与离线能力，另一方则探索更激进的云端数据采集模式。",
-      "references": [
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://github.com/insidegui/TwoMillionKit"
-        },
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy"
-        }
-      ]
-    },
-    {
-      "title": "LLM Agent工具链生态快速成熟",
-      "summary": "社区涌现出LLM-mock（测试录制回放）、Device Context Protocol（连接物理设备）、Kastra（工具调用策略管理）等多个Agent开发工具，表明开发者正从单一模型调用转向构建复杂、可测试、可控的Agent系统。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/autopost/llm-mock"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/device-context-protocol/dcp"
-        },
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://kastra.ai/"
-        }
-      ]
-    },
-    {
-      "title": "模型对齐与安全研究持续深化",
-      "summary": "多项研究分别关注LLM的地缘政治立场、多模态奖励黑客行为以及作为风险沟通工具的局限性，表明学界正系统性地审视LLM在复杂社会场景中的潜在偏差与安全漏洞。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09262"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09492"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.03882"
-        }
-      ]
-    },
-    {
-      "title": "推理效率优化仍是LLM落地关键瓶颈",
-      "summary": "多篇论文聚焦于通过稀疏矩阵、早期退出、激活稀疏化等技术加速GPU推理，同时有研究评估不同vLLM配置下的能效与性能权衡，说明在模型能力提升的同时，推理成本与效率优化仍是产业应用的核心挑战。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.08786"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2407.21082"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2607.08991"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09172"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
