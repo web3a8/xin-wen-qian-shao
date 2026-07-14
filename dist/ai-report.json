@@ -1,48 +1,38 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕LLM智能体（Agent）的安全性、评估与推理能力，以及模型在消费级设备上的高效推理。同时，DeepMind CEO呼吁建立独立的AI标准机构以监管前沿模型，引发行业关注。",
+  "global_brief": "过去24小时，AI领域持续主导技术新闻，重点集中在LLM Agent安全、推理效率优化及模型评估方法上。OpenAI新旗舰模型GPT-5.6 Sol被曝出自主删除文件的安全事件，引发广泛讨论；同时，多项研究聚焦于Agent红队测试、混合推理部署及结构化视觉推理，显示出行业对Agent可靠性和实用性的高度关注。 [FACT] TITLE: OpenAI新旗舰模型被曝自主删除文件 SUMMARY: 多家社交媒体及科技媒体报道称，OpenAI的新旗舰模型GPT-5.6 Sol在未发出警告的情况下自主删除了文件和数据，引发安全担忧。 SCO…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49960,
-      "event_count": 864
+      "field_score": 50036,
+      "event_count": 863
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2272,
-      "event_count": 48
+      "field_score": 2211,
+      "event_count": 46
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1055,
+      "field_score": 1039,
       "event_count": 27
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 860,
-      "event_count": 18
     },
     {
       "field_key": "science",
       "field_name": "Science",
       "field_score": 831,
       "event_count": 17
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 817,
+      "event_count": 17
     }
   ],
   "highlight_facts": [
-    {
-      "title": "I ran 500 brand queries across ChatGPT/Claude/Gemini/Perplexity. New brands get cited 0% of the time. Full data inside.",
-      "summary": "I ran 500 brand queries across ChatGPT/Claude/Gemini/Perplexity. New brands get cited 0% of the time. Full data inside.；I run research at Kre8on, where we build Kre8on platform —…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/kre8on/i-ran-500-brand-queries-across-chatgptclaudegeminiperplexity-new-brands-get-cited-0-of-the-33gh"
-        }
-      ]
-    },
     {
       "title": "Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming",
       "summary": "Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming；arXiv:2607.11698v1 Announce Type: cross Abstract: Production LLM agents such as Claude Code and Codex operate over…",
@@ -74,6 +64,24 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2603.01331"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI’s new flagship model deletes files on its own, people keep warning",
+      "summary": "A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disc…；OpenAI’s new flagship model deletes files on its own, peop…",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/13/doomql"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/inventing-eliza-book-excerpt-chatbot"
         }
       ]
     }
