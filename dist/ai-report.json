@@ -1,48 +1,38 @@
 {
-  "global_brief": "全球AI领域竞争持续白热化，Anthropic的Claude Opus 4在代码榜登顶，同时其面向科学家的AI工作台Claude Science引发社区热议；与此同时，苹果起诉OpenAI窃取商业机密，大模型安全与Agent可靠性成为研究焦点。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM Agent的安全性、推理效率与评估方法上，同时海外大模型厂商间的竞争态势加剧，国产模型性能快速攀升。多篇研究关注Agent在红队测试、临床推理和网络操作中的失败模式与安全风险，而MoE芯片推理、结构化剪枝等硬件协同优化方案也取得进展。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 53447,
-      "event_count": 871
+      "field_score": 52992,
+      "event_count": 863
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2491,
-      "event_count": 53
+      "field_score": 2426,
+      "event_count": 52
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1180,
+      "event_count": 29
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 932,
-      "event_count": 18
+      "field_score": 1010,
+      "event_count": 20
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 830,
-      "event_count": 16
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 825,
-      "event_count": 16
+      "field_score": 885,
+      "event_count": 17
     }
   ],
   "highlight_facts": [
-    {
-      "title": "2026년 7월 14일 AI·LLM 이슈 다이제스트 — 에이전트가 사무실로 들어오는데, 문단속은 누가 하나",
-      "summary": "2026년 7월 14일 AI·LLM 이슈 다이제스트 — 에이전트가 사무실로 들어오는데, 문단속은 누가 하나；이 글은 제 블로그에 처음 발행되었습니다 · Originally published at dbhyeong.github.io 2026년 7월 14일 기준 최근 이슈를 다이제스트로 묶었다. 코딩 도구 Cursor가 이메…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/hyeong/2026nyeon-7weol-14il-aillm-isyu-daijeseuteu-eijeonteuga-samusilro-deuleooneunde-mundansogeun-nuga-hana-5do"
-        }
-      ]
-    },
     {
       "title": "Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming",
       "summary": "Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming；arXiv:2607.11698v1 Announce Type: cross Abstract: Production LLM agents such as Claude Code and Codex operate over…",
@@ -74,6 +64,16 @@
         {
           "source_name": "arXiv 机器学习",
           "link": "https://arxiv.org/abs/2504.12594"
+        }
+      ]
+    },
+    {
+      "title": "MetaState: Persistent Working Memory Enhances Reasoning in Discrete Diffusion Language Models",
+      "summary": "arXiv:2603.01331v3 Announce Type: replace-cross Abstract: Discrete diffusion language models (dLLMs) generate text by i…；MetaState: Persistent Working Memory Enhances Reasoning in…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2603.01331"
         }
       ]
     }
