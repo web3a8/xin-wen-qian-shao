@@ -1,52 +1,62 @@
 {
-  "global_brief": "今日AI领域研究密集发布，重点围绕LLM智能体安全评估、推理效率优化及多模态能力增强。Anthropic与OpenAI相关研究提出智能体红队自动化方法，Meta则贡献了跨层对齐检测、持久工作记忆等多项技术突破。",
+  "global_brief": "今日AI领域研究密集，重点围绕LLM智能体安全、推理效率与评估方法展开，同时苹果起诉OpenAI窃取商业机密事件引发广泛关注。多项研究聚焦于智能体红队测试、跨层对齐检测及结构化视觉推理，显示出业界对模型可靠性与安全性的持续投入。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 52801,
+      "field_score": 51274,
       "event_count": 860
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2571,
+      "field_score": 2495,
       "event_count": 55
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1181,
-      "event_count": 29
+      "field_score": 1109,
+      "event_count": 27
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 1006,
-      "event_count": 20
+      "field_score": 938,
+      "event_count": 19
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 911,
-      "event_count": 18
+      "field_score": 808,
+      "event_count": 16
     }
   ],
   "highlight_facts": [
     {
       "title": "Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming",
-      "summary": "Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming；arXiv:2607.11698v1 Announce Type: cross Abstract: Production LLM agents such as Claude Code and Codex operate over…",
+      "summary": "一项新研究提出利用智能体自动对生产环境中的LLM智能体进行红队测试，以发现安全漏洞。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2607.11698"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "Cross-Layer Misalignment Detection in Agent Skills: A Progressive Loading-Aware Contrastive Learning Approach",
-      "summary": "arXiv:2607.10534v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly extended through Age…；Cross-Layer Misalignment Detection in Agent Skills: A Prog…",
+      "title": "LLM智能体安全评估正从单一任务完成度转向多维度考量",
+      "summary": "多项研究 将存储占用、间接提示注入和跨层对齐等纳入智能体评估体系，表明业界正构建更全面的安全与性能评估框架。",
       "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.11149"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2607.10490"
+        },
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2607.10534"
@@ -56,27 +66,6 @@
           "link": "https://arxiv.org/abs/2504.12594"
         }
       ]
-    },
-    {
-      "title": "MetaState: Persistent Working Memory Enhances Reasoning in Discrete Diffusion Language Models",
-      "summary": "arXiv:2603.01331v3 Announce Type: replace-cross Abstract: Discrete diffusion language models (dLLMs) generate text by i…；MetaState: Persistent Working Memory Enhances Reasoning in…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2603.01331"
-        }
-      ]
-    },
-    {
-      "title": "Eval-Pair Matrix: Answer-Paired Meta-Evaluation of LLM Judges for Grounded RAG",
-      "summary": "arXiv:2607.10626v1 Announce Type: new Abstract: LLM-as-a-judge evaluation is widely used for retrieval-augmented genera…；Eval-Pair Matrix: Answer-Paired Meta-Evaluation of LLM Jud…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2607.10626"
-        }
-      ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
