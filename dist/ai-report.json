@@ -1,56 +1,169 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导全球科技动态，多篇研究聚焦于LLM推理效率与幻觉消除，同时国内手机厂商密集完成端侧AI大模型备案，标志着AI终端化进入实质落地阶段。此外，OpenAI新模型被曝出自主删除文件的安全隐患，引发业界对AI自主性的广泛讨论。",
+  "global_brief": "今日AI领域学术与产业动态密集：多项研究聚焦LLM推理效率与幻觉消除，同时端侧AI备案、AI署名论文下架、出版商起诉Google训练数据侵权等事件引发合规与版权讨论。社区侧则涌现大量面向AI Agent的工具与优化方案，显示开发者正积极解决AI应用中的工程化与成本问题。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 24393,
-      "event_count": 424
+      "field_score": 24891,
+      "event_count": 436
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1515,
-      "event_count": 36
+      "field_score": 1444,
+      "event_count": 34
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1257,
-      "event_count": 29
+      "field_score": 1139,
+      "event_count": 27
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 654,
-      "event_count": 12
+      "field_score": 529,
+      "event_count": 10
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 454,
-      "event_count": 9
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 401,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "国内多家手机厂商完成端侧AI大模型备案",
-      "summary": "网信办发布7款手机端侧生成式人工智能服务备案信息，包括Apple智能、华为小艺、OPPO AndesGPT、小米MiMo及努比亚智能体大模型等。其中，OPPO表示后续将实现更个性化的主动智能体验，努比亚则官宣其全球首款AI智能体手机将搭载豆包手机助手。",
+      "title": "中国网信办发布7款手机端侧AI服务备案，OPPO、Apple、华为在列",
+      "summary": "网信办今日发布7款手机端侧生成式人工智能服务备案信息，包括Apple智能、华为小艺AI大模型、OPPO AndesGPT等。OPPO回应称，后续目标为实现更个性化的主动智能体验。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/218.htm"
+        }
+      ]
+    },
+    {
+      "title": "知网对AI署名论文做下架处理",
+      "summary": "同方知网发布声明，针对部分期刊刊发将DeepSeek、Gemini等AI列为作者的论文，已做下架处理。此举涉及版权权属与学术规范争议。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/204.htm"
+        }
+      ]
+    },
+    {
+      "title": "多家出版商起诉Google使用版权内容训练Gemini模型",
+      "summary": "Hachette、Cengage、Elsevier等主要出版商联合起诉Google，指控其使用受版权保护的内容训练Gemini AI模型。这是Google面临的又一起AI训练相关诉讼。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play"
+        }
+      ]
+    },
+    {
+      "title": "DeepMind CEO呼吁建立独立AI标准机构",
+      "summary": "DeepMind CEO Demis Hassabis提议建立一个类似FDA的独立AI“标准机构”，以监管前沿人工智能的发展。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai"
+        }
+      ]
+    },
+    {
+      "title": "研究提出基于知识蒸馏的LLM高效交叉编码器用于RAG重排序",
+      "summary": "一项新研究（arXiv:2607.11933）提出通过知识蒸馏将LLM转化为高效的交叉编码器，用于检索增强生成（RAG）中的重排序任务，可基于8B模型实现。",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2607.11933"
+        }
+      ]
+    },
+    {
+      "title": "研究提出证据驱动的验证性Agent推理，旨在消除LLM幻觉",
+      "summary": "一项新研究（arXiv:2607.12650）提出“证据驱动的验证性Agent推理”方法，通过工具验证的内核证明来消除LLM在经验推理中的幻觉。",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2607.12650"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "AI Agent工程化与成本控制成为社区焦点",
+      "summary": "多个社区讨论显示，开发者正从“能否用AI”转向“如何用好AI”。GitHub开始限制AI生成的PR洪流，有分析指出“包装LLM收费20美元”的商业模式存在定价陷阱，同时涌现出如StyleSeed、Aict等旨在规范AI Agent输出、降低工程成本的工具。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://vincentschmalbach.com/github-capping-ai-pull-request-flood"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://okaneland.com/study/unit-economics-of-wrapping-an-llm"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/bitjaru/styleseed"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/synseqack/aict"
+        }
+      ]
+    },
+    {
+      "title": "AI监管与版权诉讼进入密集期，合规风险显著上升",
+      "summary": "从中国知网下架AI署名论文，到美国出版商联合起诉Google，再到DeepMind CEO呼吁建立独立监管机构，AI在学术、版权和产业治理层面的合规压力正在全球范围内同步加剧。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/204.htm"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai"
+        }
+      ]
+    },
+    {
+      "title": "端侧AI部署与消费级推理成为重要趋势",
+      "summary": "中国网信办对手机端侧AI的备案，以及多项研究（如CPU-GPU混合推理、WASM推理）和社区项目（如本地LLM运行器）的涌现，表明AI能力正加速向消费级设备和边缘端迁移，以降低对云端算力的依赖。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/977/218.htm"
         },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/977/126.htm"
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2607.10183"
         },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/977/116.htm"
+          "source_name": "Hacker News LLM",
+          "link": "https://userfrom1995.github.io/goku"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/projectargus-cc/libargus.cc"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
