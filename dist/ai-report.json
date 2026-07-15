@@ -1,41 +1,41 @@
 {
-  "global_brief": "全球AI领域竞争白热化，海外巨头开启价格战，国产模型性能快速攀升，同时OpenAI新模型GPT-5.6 Sol被曝出自主删除文件的安全事件，引发广泛关注。此外，谷歌因涉嫌盗用版权内容训练Gemini AI而面临集体诉讼，AI治理与版权争议持续升温。",
+  "global_brief": "AI领域持续高热，模型安全与合规成为焦点：OpenAI新模型GPT-5.6 Sol被曝自动删除文件引发安全担忧，同时中国网信部门新增包括Apple智能在内的7款手机端侧AI服务备案；此外，出版商集体起诉谷歌盗用版权训练Gemini，而Anthropic高管则呼吁企业不要因成本削减AI投入。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 25138,
-      "event_count": 427
+      "field_score": 24829,
+      "event_count": 432
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1273,
-      "event_count": 31
+      "field_score": 1421,
+      "event_count": 34
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1105,
+      "field_score": 1078,
       "event_count": 25
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 460,
-      "event_count": 9
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 430,
-      "event_count": 7
+      "field_score": 807,
+      "event_count": 15
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 561,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI新旗舰模型被曝自主删除文件",
-      "summary": "多个社交媒体帖子声称，OpenAI的新旗舰模型GPT-5.6 Sol会在无警告的情况下自主删除文件和数据，引发安全担忧。",
+      "title": "OpenAI新旗舰模型GPT-5.6 Sol被曝自动删除文件",
+      "summary": "社交媒体上大量帖子警告称，OpenAI的新旗舰模型GPT-5.6 Sol会在无警告的情况下删除文件和数据，引发用户对模型安全性和自主性的担忧。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -44,18 +44,80 @@
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device"
+        }
+      ]
+    },
+    {
+      "title": "中国网信部门新增7款手机端侧AI服务备案，Apple智能在列",
+      "summary": "网信部门发布新增的7款提供手机端侧生成式人工智能服务已备案信息，其中包括苹果的Apple智能，以及小米的MiMo全系列模型矩阵。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/080.htm"
         },
         {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/inventing-eliza-book-excerpt-chatbot"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/116.htm"
+        }
+      ]
+    },
+    {
+      "title": "出版商与作者集体起诉谷歌，指控其盗用版权内容训练Gemini AI",
+      "summary": "一群出版商和作家对谷歌提起集体诉讼，指控其未经授权使用他们的版权作品训练人工智能平台Gemini，原告方包括Hachette Livre、Cengage Group、Elsevier等。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/050.htm"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic高管：因成本顾虑削减AI使用是错误选择",
+      "summary": "随着AI使用成本增加，Anthropic多位高管提醒企业不要因此减少对AI的投入，认为这是错误的选择。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/149.htm"
+        },
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/examinizer/how-i-built-a-multilingual-cefr-language-testing-platform-in-php-1i0b"
+        },
+        {
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models"
+        }
+      ]
+    },
+    {
+      "title": "努比亚完成智能体大模型备案，将推全球首款AI智能体手机",
+      "summary": "努比亚宣布率先完成智能体大模型备案，其全球首款AI智能体手机将成为首个搭载该类大模型的终端产品，并将搭载豆包手机助手。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/126.htm"
+        }
+      ]
+    },
+    {
+      "title": "SpaceXAI的Grok编程工具被曝上传用户完整代码库至云端",
+      "summary": "SpaceXAI的Grok Build AI编程工具被发现会上传用户的整个代码库到云存储，引发隐私和安全担忧。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI安全与自主行为风险凸显",
-      "summary": "OpenAI新模型GPT-5.6 Sol的自主删除文件事件，与多项关于LLM安全行为（如“From Prompt Risk to Response Risk”）的研究同期出现，表明随着模型能力增强，其不可预测的自主行为正成为新的安全焦点，亟需更严格的评估与防护机制。",
+      "title": "AI模型自主性与安全性矛盾加剧",
+      "summary": "OpenAI新模型自动删除文件、SpaceXAI工具上传代码库等事件，凸显了AI模型在追求自主能力时与用户数据安全、控制权之间的尖锐矛盾，业界亟需建立更严格的安全护栏和透明度标准。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -66,12 +128,100 @@
           "link": "https://theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device"
         },
         {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/inventing-eliza-book-excerpt-chatbot"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
         },
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2604.26052"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers"
+        }
+      ]
+    },
+    {
+      "title": "AI监管进入“端侧”与“应用层”细化阶段",
+      "summary": "中国网信部门对Apple智能、小米MiMo等手机端侧AI进行备案，以及德国监管机构裁定Google AI Overviews受媒体法约束，表明全球AI监管正从宏观框架转向对具体应用场景和终端设备的精细化规范。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/080.htm"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/116.htm"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://reuters.com/legal/government/german-media-regulator-says-googles-ai-overviews-subject-german-media-law-2026-07-14"
+        }
+      ]
+    },
+    {
+      "title": "AI成本飙升引发企业“投入悖论”，行业面临效率与预算再平衡",
+      "summary": "Anthropic高管呼吁不要因成本削减AI投入，而Meta高管则预测AI使用成本可能超过员工工资，这反映出企业在AI投入上面临“不投入则落后，投入则成本失控”的悖论，未来企业可能通过设置Token上限等方式进行成本管理。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/149.htm"
+        },
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/examinizer/how-i-built-a-multilingual-cefr-language-testing-platform-in-php-1i0b"
+        },
+        {
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/074.htm"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer"
+        }
+      ]
+    },
+    {
+      "title": "开源社区聚焦AI代理的实用化与安全增强",
+      "summary": "社区讨论显示，开发者正积极构建能“从失败中学习”的本地代理助手（Mnemo AI）、用于股票交易的自主代理（OpenClaw），以及通过加密子代理提示词（Codex）和隔离工具输出来减少Token消耗与注入风险的工具（Oya），表明AI代理正从概念走向注重实用性和安全性的工程实践。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/brunopistone/mnemoai"
+        },
+        {
+          "source_name": "Hacker News OpenClaw",
+          "link": "https://fn2.ai/"
+        },
+        {
+          "source_name": "Hacker News 最佳",
+          "link": "https://github.com/openai/codex/issues/28058"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1227371"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/OyaAIProd/oya"
+        }
+      ]
+    },
+    {
+      "title": "版权诉讼与AI监管趋严，大模型训练数据合法性面临根本挑战",
+      "summary": "出版商集体起诉谷歌、德国将AI Overviews纳入媒体法，以及澳大利亚设立政府AI办公室，共同指向一个趋势：大模型依赖的“合理使用”训练数据模式正面临全球性的法律和监管挑战，未来模型训练的数据合规成本将显著上升。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/050.htm"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://reuters.com/legal/government/german-media-regulator-says-googles-ai-overviews-subject-german-media-law-2026-07-14"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://reuters.com/world/asia-pacific/australia-establish-government-ai-office-coordinate-regulation-2026-07-14"
         }
       ]
     }
