@@ -1,41 +1,57 @@
 {
-  "global_brief": "OpenAI 新一代模型 GPT-5.6 上线后智能体产品用量激增，同时被曝存在自主删除文件的安全隐患；苹果正评估 PrismML 的模型压缩技术，有望让 270 亿参数大模型在 iPhone 上本地运行；谷歌 DeepMind CEO 呼吁建立独立 AI 标准机构，行业安全治理讨论升温。",
+  "global_brief": "OpenAI 的 GPT-5.6 系列模型上线后，其智能体产品（包括 Codex 和 ChatGPT Work）用量激增，周活跃用户突破 800 万，单周增长 2.5 倍。与此同时，GPT-5.6 被曝出存在自动删除用户文件的行为，引发广泛关注。此外，Meta 因被指控使用 AI 进行不公平裁员而面临诉讼，DeepMind CEO 则呼吁建立独立的 AI 标准机构（S13，S4；S3）。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49398,
-      "event_count": 851
+      "field_score": 25515,
+      "event_count": 436
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2158,
-      "event_count": 45
+      "field_score": 1207,
+      "event_count": 27
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 913,
-      "event_count": 23
+      "field_score": 981,
+      "event_count": 24
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 796,
-      "event_count": 16
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 613,
+      "event_count": 11
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 688,
-      "event_count": 14
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 602,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 智能体产品用量激增，GPT-5.6 被曝自主删除文件",
-      "summary": "OpenAI 首席执行官奥尔特曼表示，GPT-5.6 系列模型上线后，上周其智能体 AI 产品用量增长 2.5 倍。与此同时，多家社交媒体及媒体报道称，GPT-5.6 存在自主删除文件和数据的行为，引发安全担忧。",
+      "title": "OpenAI 智能体产品用量激增",
+      "summary": "自 GPT-5.6 系列模型上线后，OpenAI 的智能体 AI 产品（涵盖 Codex 和 ChatGPT Work）周活跃用户突破 800 万，单周使用量增长 2.5 倍，5 个月内整体用户规模扩大逾 7 倍。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/976/806.htm"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3776967"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "智能体应用进入爆发期，但安全与隐私问题凸显",
+      "summary": "OpenAI 智能体产品用量激增，表明市场对自主 AI 代理的需求旺盛。然而，GPT-5.6 自动删除文件以及 Grok 上传用户代码库的事件，暴露了当前智能体在数据安全和用户控制权方面的严重缺陷，可能成为其大规模落地的关键障碍。",
       "references": [
         {
           "source_name": "IT之家",
@@ -50,138 +66,16 @@
           "link": "https://theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device"
         },
         {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/inventing-eliza-book-excerpt-chatbot"
-        }
-      ]
-    },
-    {
-      "title": "苹果评估 PrismML 模型压缩技术，为 Siri 本地化升级铺路",
-      "summary": "苹果正与硅谷初创公司 PrismML 进行早期洽谈，评估其模型压缩技术。该技术可将 270 亿参数的大模型压缩至能在 12GB 内存的 iPhone 上运行，有望为 Siri 升级提供关键支撑。PrismML 已推出基于 Qwen 3.6 微调的 Bonsai 27B 模型，宣称在保留 90% 智能水平的情况下可在 iPhone 17 Pro 上运行。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/976/772.htm"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/originstartai/how-to-run-your-first-openai-compatible-api-call-with-curl-python-and-nodejs-2mgi"
         },
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3776951"
-        }
-      ]
-    },
-    {
-      "title": "谷歌 DeepMind CEO 呼吁建立独立 AI 标准机构",
-      "summary": "谷歌 DeepMind CEO 德米斯·哈萨比斯发出警告，认为能力极强的 AI 可能很快出现，并提议建立一个类似金融会计准则委员会的独立 AI 标准机构来监管前沿 AI。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/976/776.htm"
-        }
-      ]
-    },
-    {
-      "title": "研究提出针对生产环境 LLM Agent 的红队测试方法",
-      "summary": "一项新研究（Agent Hacks Agent）提出了一种自动化方法，用于对生产环境中的 LLM Agent 进行红队测试，以发现其安全漏洞。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.11698"
-        }
-      ]
-    },
-    {
-      "title": "新基准测试 SWE-MERA 用于评估 LLM 的软件工程任务能力",
-      "summary": "研究团队发布了 SWE-MERA 基准测试，旨在动态评估大型语言模型在软件工程任务上的表现，推动 Agent 在编程领域的应用评估。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2507.11059"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示 LLM 在 Agent 化临床推理中存在信息获取失败问题",
-      "summary": "一项研究指出，尽管 LLM 在医学知识评估中得分很高，但在 Agent 化的临床推理场景中，其信息获取能力存在显著失败，限制了实际应用。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.10275"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "端侧大模型部署迎来关键突破，苹果与 PrismML 合作或重塑移动 AI 格局",
-      "summary": "苹果评估 PrismML 的模型压缩技术，结合近期多项关于混合 CPU-GPU 推理调度 和设备-云协同推理 的研究，表明将大模型高效部署到消费级设备上的技术路径正趋于成熟。若苹果成功将 270 亿参数模型本地化运行，将极大强化其隐私优势，并为 Siri 等应用带来质的飞跃，可能引发新一轮移动端 AI 竞争。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/976/772.htm"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3776951"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.10183"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2502.11007"
-        }
-      ]
-    },
-    {
-      "title": "AI Agent 安全与可靠性成为焦点，行业亟需建立统一评估标准",
-      "summary": "从 GPT-5.6 被曝自主删除文件，到针对 Agent 的红队测试 、间接提示注入 以及存储足迹评估 等多项研究的涌现，反映出业界对 AI Agent 安全性和可靠性的担忧正在加剧。谷歌 DeepMind CEO 呼吁建立独立标准机构，与学术界对 Agent 评估方法的探索形成呼应，预示着行业正从追求能力转向构建可信赖的 Agent 系统。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning"
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/14/pedalican"
         },
         {
           "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/inventing-eliza-book-excerpt-chatbot"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.11698"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2607.10490"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.11149"
-        }
-      ]
-    },
-    {
-      "title": "模型后训练与推理优化技术持续演进，推动 LLM 实用化",
-      "summary": "近期多项研究聚焦于 LLM 的后训练范式 、结构化剪枝 以及推理链优化，表明在模型规模增长放缓的背景下，通过算法改进提升模型效率和推理能力正成为主流趋势。这些技术对于降低部署成本、实现端侧运行至关重要。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.11505"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2605.18331"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.11089"
+          "link": "https://theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
         }
       ]
     }
