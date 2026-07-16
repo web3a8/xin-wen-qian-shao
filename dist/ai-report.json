@@ -1,68 +1,38 @@
 {
-  "global_brief": "今日AI领域动态密集：前OpenAI CTO Mira Murati创立的Thinking Machines Lab发布美国最强开源多模态模型Inkling；OpenAI推出用于安全测试的LLM超级黑客GPT-Red，并发布Codex专用键盘；微软被曝训练销售人员贬低OpenAI和Anthropic的模型以推广自家AI。同时，多项研究揭示了Agentic LLM工具在代码生成中的“事实压缩”幻觉问题，以及边缘-云协同推理等效率优化方案。",
+  "global_brief": "今日AI领域研究密集，多项工作揭示了LLM在编码、视频理解及安全方面的深层缺陷与优化方向。同时，产业竞争加剧，微软被曝训练销售团队贬低对手，OpenAI则发布了硬件键盘与自动化红队工具GPT-Red。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 26480,
-      "event_count": 438
+      "field_score": 28476,
+      "event_count": 483
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1491,
-      "event_count": 36
+      "field_score": 1519,
+      "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 786,
-      "event_count": 17
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 363,
-      "event_count": 7
+      "field_score": 1334,
+      "event_count": 33
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 340,
-      "event_count": 7
+      "field_score": 562,
+      "event_count": 11
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 374,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
-    {
-      "title": "json_shield: Engineering an AI-Ready Dart Package",
-      "summary": "Code generation has shifted. The majority of code calling a new pub.dev package is no longer typed by a human reading t…；json_shield: Engineering an AI-Ready Dart Package",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/d_ivanitsky_1c82522ba2c52/jsonshield-engineering-an-ai-ready-dart-package-18ik"
-        }
-      ]
-    },
-    {
-      "title": "Deploying AI-Powered Laravel Apps: Queues, Streaming, Timeouts",
-      "summary": "Deploying AI-Powered Laravel Apps: Queues, Streaming, Timeouts；Somewhere in the Laravel app you're running right now, there's a good chance an HTTP call goes out to OpenAI, Anthro…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/deploynix/deploying-ai-powered-laravel-apps-queues-streaming-timeouts-5dck"
-        }
-      ]
-    },
-    {
-      "title": "美国最强开源 AI：多模态 Inkling 模型登场，前 OpenAI 首席技术官穆拉蒂打造",
-      "summary": "IT之家 7 月 16 日消息，由前 OpenAI 首席技术官米拉 · 穆拉蒂（Mira Murati）创立的思维机器实验室（Thinking Machines Lab）最新推出 Inkling 多模态 AI 模型， 被认为是美国最强的开…；美国最强开源 AI：多模态 Inkling 模型登场，前 OpenAI 首席技术官穆拉蒂打造",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/977/504.htm"
-        }
-      ]
-    },
     {
       "title": "Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Processes",
       "summary": "arXiv:2607.13071v1 Announce Type: cross Abstract: Agentic LLM coding tools compress long session histories into compact…；Compaction as Epistemic Failure: How Agentic LLM Tools Fab…",
@@ -70,6 +40,36 @@
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2607.13071"
+        }
+      ]
+    },
+    {
+      "title": "Efficient and Privacy Aware Edge Cloud Collaborative Inference for Large Language Models",
+      "summary": "arXiv:2607.13093v1 Announce Type: cross Abstract: On-device LLM inference faces a trilemma of response latency, limited…；Efficient and Privacy Aware Edge Cloud Collaborative Infer…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.13093"
+        }
+      ]
+    },
+    {
+      "title": "MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation",
+      "summary": "arXiv:2607.09142v2 Announce Type: replace Abstract: Large language models (LLMs) are increasingly deployed in online me…；MedRealMM: A Real-World Multimodal Benchmark for Chinese O…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.09142"
+        }
+      ]
+    },
+    {
+      "title": "Our approach to bioresilience",
+      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.；Our approach to bioresilience",
+      "references": [
+        {
+          "source_name": "Google DeepMind",
+          "link": "https://deepmind.google/blog/our-approach-to-bioresilience"
         }
       ]
     }
