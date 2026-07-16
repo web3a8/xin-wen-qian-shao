@@ -1,91 +1,71 @@
 {
-  "global_brief": "今日AI领域动态密集，前OpenAI CTO创立的Thinking Machines Lab发布首款模型，其架构借鉴了DeepSeek-V3和Kimi K2.5，同时月之暗面预热Kimi K3模型，显示中国AI技术的影响力持续扩大。此外，OpenAI发布了用于安全测试的“超级黑客”模型GPT-Red，并推出了其首款硬件产品Codex Micro键盘，而三星“盖乐世AI”通过中国大模型服务备案，合作方为百度智能云。",
+  "global_brief": "今日AI领域动态密集：前OpenAI CTO Mira Murati创立的Thinking Machines Lab发布美国最强开源多模态模型Inkling；OpenAI推出用于安全测试的LLM超级黑客GPT-Red，并发布Codex专用键盘；微软被曝训练销售人员贬低OpenAI和Anthropic的模型以推广自家AI。同时，多项研究揭示了Agentic LLM工具在代码生成中的“事实压缩”幻觉问题，以及边缘-云协同推理等效率优化方案。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 28357,
-      "event_count": 470
+      "field_score": 26480,
+      "event_count": 438
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 964,
-      "event_count": 24
+      "field_score": 1491,
+      "event_count": 36
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 885,
-      "event_count": 20
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 654,
-      "event_count": 14
+      "field_score": 786,
+      "event_count": 17
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 408,
-      "event_count": 8
+      "field_score": 363,
+      "event_count": 7
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 340,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "前OpenAI CTO发布首款AI模型，架构借鉴中国技术",
-      "summary": "前OpenAI首席技术官Mira Murati创立的Thinking Machines Lab发布了其首款通用AI模型，该模型架构借鉴了DeepSeek-V3，并使用了Kimi K2.5的改进技术。",
+      "title": "json_shield: Engineering an AI-Ready Dart Package",
+      "summary": "Code generation has shifted. The majority of code calling a new pub.dev package is no longer typed by a human reading t…；json_shield: Engineering an AI-Ready Dart Package",
       "references": [
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3777067"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/d_ivanitsky_1c82522ba2c52/jsonshield-engineering-an-ai-ready-dart-package-18ik"
         }
       ]
     },
     {
-      "title": "月之暗面预热Kimi K3模型，挑战Claude",
-      "summary": "月之暗面在B站、X平台等发布视频，预热其下一代Kimi K3模型，视频中出现了数字“3”的暗示，该模型有望在近期推出，旨在挑战Anthropic的Claude模型。",
+      "title": "Deploying AI-Powered Laravel Apps: Queues, Streaming, Timeouts",
+      "summary": "Deploying AI-Powered Laravel Apps: Queues, Streaming, Timeouts；Somewhere in the Laravel app you're running right now, there's a good chance an HTTP call goes out to OpenAI, Anthro…",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/977/468.htm"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/deploynix/deploying-ai-powered-laravel-apps-queues-streaming-timeouts-5dck"
         }
       ]
     },
     {
-      "title": "OpenAI构建“超级黑客”GPT-Red以提升模型安全性",
-      "summary": "OpenAI开发了一个名为GPT-Red的LLM“超级黑客”，用于作为“陪练”来测试和提升其自身模型的安全性。",
-      "references": [
-        {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer"
-        }
-      ]
-    },
-    {
-      "title": "三星“盖乐世AI”通过中国备案，合作方为百度",
-      "summary": "三星的“盖乐世AI”（Galaxy AI）已通过中国的大模型服务备案，据《科创板日报》报道，其合作方为百度智能云。",
+      "title": "美国最强开源 AI：多模态 Inkling 模型登场，前 OpenAI 首席技术官穆拉蒂打造",
+      "summary": "IT之家 7 月 16 日消息，由前 OpenAI 首席技术官米拉 · 穆拉蒂（Mira Murati）创立的思维机器实验室（Thinking Machines Lab）最新推出 Inkling 多模态 AI 模型， 被认为是美国最强的开…；美国最强开源 AI：多模态 Inkling 模型登场，前 OpenAI 首席技术官穆拉蒂打造",
       "references": [
         {
           "source_name": "IT之家",
-          "link": "https://ithome.com/0/977/464.htm"
+          "link": "https://ithome.com/0/977/504.htm"
         }
       ]
     },
     {
-      "title": "OpenAI推出首款品牌硬件Codex Micro键盘",
-      "summary": "OpenAI推出了其首款品牌硬件产品Codex Micro，这是一款带有灯光指示的键盘，旨在帮助用户监控多个智能体（agent）线程的状态。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示智能体LLM编码工具存在“事实捏造”问题",
-      "summary": "一项新研究指出，智能体LLM编码工具在压缩长会话历史时，可能会从已终止的进程中捏造出已确认的结果，这种现象被称为“压缩作为认知失败”。",
+      "title": "Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Processes",
+      "summary": "arXiv:2607.13071v1 Announce Type: cross Abstract: Agentic LLM coding tools compress long session histories into compact…；Compaction as Epistemic Failure: How Agentic LLM Tools Fab…",
       "references": [
         {
           "source_name": "arXiv AI",
@@ -94,52 +74,5 @@
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "中国AI模型影响力显著提升",
-      "summary": "前OpenAI CTO的新模型直接借鉴DeepSeek-V3和Kimi K2.5，而月之暗面Kimi K3也高调预热，这表明中国AI实验室的技术路线和成果正被全球顶尖团队采纳和追赶，中国在全球AI生态中的地位正在从“跟随者”向“技术输出者”转变。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3777067"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/977/468.htm"
-        }
-      ]
-    },
-    {
-      "title": "AI安全与对齐研究进入“以毒攻毒”新阶段",
-      "summary": "OpenAI构建“超级黑客”GPT-Red进行安全测试，同时多项研究揭示了智能体工具（如编码助手）在压缩历史时可能捏造事实，以及LLM可能声称拥有不存在的“保护能力”。这些进展表明，业界正从被动防御转向主动攻击和系统性评估，以应对更复杂的AI安全风险。",
-      "references": [
-        {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.13071"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.13596"
-        }
-      ]
-    },
-    {
-      "title": "智能体（Agent）开发正从概念验证转向工程优化",
-      "summary": "社区中涌现出多个旨在降低LLM调用成本、提升推理效率的智能体项目，例如一个运行时将LLM调用次数减少80%，以及一个实现30毫秒延迟和零LLM成本的本地浏览器代理。这反映出开发者社区正聚焦于解决智能体落地的核心工程瓶颈，即推理成本和延迟。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/chengmatt416/LHIC"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Tura-AI/tura"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
