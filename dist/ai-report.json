@@ -1,78 +1,71 @@
 {
-  "global_brief": "今日AI领域研究密集，多项工作揭示了LLM在编码、视频理解及安全方面的深层缺陷与优化方向。同时，产业竞争加剧，微软被曝训练销售团队贬低对手，OpenAI则发布了硬件键盘与自动化红队工具GPT-Red。",
+  "global_brief": "今日AI领域持续主导全站动态，多项研究聚焦于LLM的推理能力、安全性与多模态评估，同时产业层面出现微软与OpenAI/Anthropic的竞争加剧、OpenAI发布首款硬件键盘等关键事件。此外，谷歌DeepMind因军事合作引发内部争议，以及LLM被用于辅助开发物联网僵尸网络，凸显了AI伦理与安全风险的紧迫性。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 28476,
-      "event_count": 483
+      "field_score": 29073,
+      "event_count": 492
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1519,
-      "event_count": 37
+      "field_score": 1411,
+      "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1334,
-      "event_count": 33
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 562,
-      "event_count": 11
+      "field_score": 1267,
+      "event_count": 31
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 374,
-      "event_count": 8
+      "field_score": 469,
+      "event_count": 10
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 444,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Processes",
-      "summary": "arXiv:2607.13071v1 Announce Type: cross Abstract: Agentic LLM coding tools compress long session histories into compact…；Compaction as Epistemic Failure: How Agentic LLM Tools Fab…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.13071"
-        }
-      ]
-    },
-    {
-      "title": "Efficient and Privacy Aware Edge Cloud Collaborative Inference for Large Language Models",
-      "summary": "arXiv:2607.13093v1 Announce Type: cross Abstract: On-device LLM inference faces a trilemma of response latency, limited…；Efficient and Privacy Aware Edge Cloud Collaborative Infer…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.13093"
-        }
-      ]
-    },
-    {
-      "title": "MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation",
-      "summary": "arXiv:2607.09142v2 Announce Type: replace Abstract: Large language models (LLMs) are increasingly deployed in online me…；MedRealMM: A Real-World Multimodal Benchmark for Chinese O…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09142"
-        }
-      ]
-    },
-    {
-      "title": "Our approach to bioresilience",
-      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.；Our approach to bioresilience",
+      "title": "谷歌DeepMind发布生物弹性与AI模型联合方法",
+      "summary": "谷歌DeepMind与Isomorphic Labs分享了其在生物弹性（bioresilience）和AI模型方面的联合方法。",
       "references": [
         {
           "source_name": "Google DeepMind",
           "link": "https://deepmind.google/blog/our-approach-to-bioresilience"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "LLM Agent可靠性面临“幻觉”与“记忆管理”双重挑战",
+      "summary": "多项新研究 指出，LLM Agent在长上下文处理中存在“压缩即认知失败”和“保护能力幻觉”等问题，同时“记忆管理”成为提升Agent性能的关键瓶颈，这表明当前Agent系统在可靠性和事实性上仍有重大缺陷。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.13071"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.13591"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.13596"
+        }
+      ]
+    }
+  ]
 }
