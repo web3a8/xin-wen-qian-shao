@@ -1,35 +1,35 @@
 {
-  "global_brief": "今日AI领域持续活跃，多起模型发布与安全研究事件并行推进。OpenAI发布GPT-Red自动化红队测试模型以强化GPT-5.6安全，同时推出面向青少年的安全AI使用指南。Mira Murati的Thinking Machines Lab发布了首个开源权重模型Inkling，而中国Moonshot AI的Kimi K3模型被预期将缩小与Anthropic Opus的差距。此外，一项新研究揭示了Agentic LLM工具在压缩会话历史时存在“认知失败”并可能编造结果，引发对AI编码工具可靠性的关注。",
+  "global_brief": "过去24小时，AI领域持续主导全球科技动态，模型安全与青少年保护成为焦点，同时开源模型竞争加剧，多智能体系统在软件工程中的应用引发广泛讨论。OpenAI发布了针对青少年的ChatGPT安全措施，并披露了用于强化模型安全性的自动化红队测试工具GPT-Red。此外，Mira Murati的Thinking Machines Lab发布了首个开源权重模型Inkling，而德国AI联盟也推出了在多项基准测试中领先的开源30B模型Soofi S。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 28177,
-      "event_count": 491
+      "field_score": 28777,
+      "event_count": 498
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1292,
+      "field_score": 1259,
       "event_count": 31
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1082,
-      "event_count": 26
+      "field_score": 1136,
+      "event_count": 27
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 463,
-      "event_count": 9
+      "field_score": 601,
+      "event_count": 12
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 432,
-      "event_count": 9
+      "field_score": 574,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
@@ -46,12 +46,12 @@
           "link": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball"
         },
         {
-          "source_name": "MIT Technology Review",
-          "link": "https://technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us"
-        },
-        {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2607.11977"
+        },
+        {
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us"
         }
       ]
     },
@@ -70,16 +70,6 @@
       ]
     },
     {
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads,…；How Cars24 scales conversations and builds faster with Ope…",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/cars24"
-        }
-      ]
-    },
-    {
       "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
       "summary": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8；The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count betwe…",
       "references": [
@@ -88,8 +78,22 @@
           "link": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8"
         },
         {
+          "source_name": "OpenClaw Commits",
+          "link": "https://github.com/openclaw/openclaw/commit/42ff5ec75474980c0154155ff17e7bf0a9319896"
+        },
+        {
           "source_name": "Vercel Blog",
           "link": "https://vercel.com/changelog/kimi-k3-is-now-available-on-ai-gateway"
+        }
+      ]
+    },
+    {
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads,…；How Cars24 scales conversations and builds faster with Ope…",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/cars24"
         }
       ]
     }
