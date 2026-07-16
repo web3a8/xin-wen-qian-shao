@@ -1,35 +1,35 @@
 {
-  "global_brief": "今日AI领域动态密集：OpenAI同时推进安全红队系统GPT-Red、首款硬件键盘Codex Micro及AI治理框架；中国端侧AI服务备案落地，Apple Intelligence获准入华并采用阿里通义千问；知网下架AI署名论文，学术规范争议升温；开源社区涌现多款低延迟、本地优先的Agent工具，Agent安全与支付标准化议题开始进入主流视野。",
+  "global_brief": "今日AI领域密集发布多项重要进展：OpenAI推出GPT-Red自动化红队系统与Codex Micro联名键盘，同时其前CTO穆拉蒂发布新模型Inkling；中国端侧AI备案名单公布，Apple Intelligence获准与阿里Qwen合作入华；微软被曝训练销售团队贬低OpenAI与Anthropic，竞争态势加剧。此外，马斯克开源Grok Build编程智能体，TuxBot v3物联网僵尸网络被发现利用LLM辅助开发，安全与开源生态成为焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 24742,
-      "event_count": 442
+      "field_score": 24747,
+      "event_count": 440
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1433,
-      "event_count": 34
+      "field_score": 1474,
+      "event_count": 35
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1394,
-      "event_count": 35
+      "field_score": 1044,
+      "event_count": 27
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 505,
+      "event_count": 10
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 621,
-      "event_count": 13
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 368,
-      "event_count": 8
+      "field_score": 503,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
@@ -44,22 +44,22 @@
       ]
     },
     {
+      "title": "What running an LLM in production actually costs you",
+      "summary": "Every \"build an AI app\" tutorial stops at the demo. Prompt goes in, response comes out, ship it. Nobody covers the part…；What running an LLM in production actually costs you",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/orens/what-running-an-llm-in-production-actually-costs-you-20ih"
+        }
+      ]
+    },
+    {
       "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
       "summary": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer；OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other mo…",
       "references": [
         {
           "source_name": "MIT Technology Review",
           "link": "https://technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer"
-        }
-      ]
-    },
-    {
-      "title": "OPPO 回应获端侧 AI 服务备案：后续目标实现更个性化的主动智能体验",
-      "summary": "IT之家 7 月 15 日消息，今日，网信办发布 7 款手机端侧生成式人工智能服务备案信息，包括 Apple、华为、OPPO 等端侧模型在列。 据《科创板日报》报道，针对 OPPO AndesGPT 大模型完成端侧生成式人工智能服务备案，…；OPPO 回应获端侧 AI 服务备案：后续目标实现更个性化的主动智能体验；IT之家 7 月 15 日消息，今日，网信…",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/977/218.htm"
         }
       ]
     },
