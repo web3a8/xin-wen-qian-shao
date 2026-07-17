@@ -1,34 +1,34 @@
 {
-  "global_brief": "过去24小时，AI领域持续活跃，模型发布、融资动态与安全研究并行。OpenAI发布了面向青少年的ChatGPT安全措施，而月之暗面则推出了其最强模型Kimi K3。同时，Anthropic被曝筹备IPO，DeepSeek新一轮融资估值达3510亿元，显示出资本对AI赛道的持续热情。 [FACT] TITLE: OpenAI 发布面向青少年的 ChatGPT 安全措施 SUMMARY: OpenAI 宣布为 ChatGPT 引入针对青少年的年龄适宜保护措施、学习工具和家长控制功能，旨在让青少年安全地使用AI。该举措基于其发布的关于青少年应获得安全AI访问…",
+  "global_brief": "过去24小时，AI领域持续主导全球科技动态，模型发布、融资与安全研究密集涌现。Kimi K3在代码能力上超越Claude Fable 5和GPT-5.6 Sol，登顶Code Arena榜首；智谱ARR达到10亿美元，半年增长15倍；Anthropic被曝筹备秋季IPO，DeepSeek新一轮融资后估值约3510亿元。同时，OpenAI发布了面向青少年的安全ChatGPT指南 和内部自动化红队模型GPT-Red，社区则围绕AI Agent与工作流自动化的替代关系展…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 38634,
+      "field_score": 38685,
       "event_count": 639
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1418,
-      "event_count": 32
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1208,
+      "field_score": 1329,
+      "event_count": 33
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 1320,
       "event_count": 30
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 717,
+      "field_score": 715,
       "event_count": 14
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 518,
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 516,
       "event_count": 11
     }
   ],
@@ -66,6 +66,16 @@
       ]
     },
     {
+      "title": "When Machine Unlearning Meets Retrieval-Augmented Generation (RAG): Keep Secret or Forget Knowledge?",
+      "summary": "arXiv:2410.15267v3 Announce Type: replace-cross Abstract: The deployment of large language models (LLMs) like ChatGPT a…；When Machine Unlearning Meets Retrieval-Augmented Generati…",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2410.15267"
+        }
+      ]
+    },
+    {
       "title": "Kimi K3, and what we can still learn from the pelican benchmark",
       "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8…；Kimi K3, and what we can still learn from the pelican benc…",
       "references": [
@@ -78,22 +88,8 @@
           "link": "https://ithome.com/0/977/961.htm"
         },
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/agent-one/kimi-k3-moonshot-ais-28-trillion-parameter-open-frontier-model-benchmarks-architecture-and-11gk"
-        },
-        {
           "source_name": "少数派",
           "link": "https://sspai.com/post/112414"
-        }
-      ]
-    },
-    {
-      "title": "When Machine Unlearning Meets Retrieval-Augmented Generation (RAG): Keep Secret or Forget Knowledge?",
-      "summary": "arXiv:2410.15267v3 Announce Type: replace-cross Abstract: The deployment of large language models (LLMs) like ChatGPT a…；When Machine Unlearning Meets Retrieval-Augmented Generati…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2410.15267"
         }
       ]
     }
