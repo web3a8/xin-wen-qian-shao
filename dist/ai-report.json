@@ -1,60 +1,38 @@
 {
-  "global_brief": "过去24小时，AI领域竞争白热化，中国开源模型Kimi K3在编程基准测试中登顶，同时海外巨头Anthropic、OpenAI、Meta等掀起新一轮大模型价格战。此外，OpenAI发布了面向青少年的安全AI使用指南，而社区则围绕AI Agent与工作流自动化的替代关系展开了热烈讨论。",
+  "global_brief": "今日AI领域竞争白热化：Kimi K3在代码能力上登顶全球第一，同时Anthropic筹备IPO、DeepSeek估值达3510亿元，行业融资与模型迭代同步加速。海外巨头开启价格战，国产模型性能快速攀升，全球前沿模型格局“终局未定”。此外，OpenAI推出青少年安全AI指南，Google更新AI Mode与Vids功能，社区侧则涌现大量本地化AI工具与安全研究。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 37321,
+      "field_score": 37382,
       "event_count": 632
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1663,
-      "event_count": 38
+      "field_score": 1795,
+      "event_count": 41
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1377,
+      "field_score": 1374,
       "event_count": 34
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 636,
-      "event_count": 13
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 619,
-      "event_count": 12
+      "field_score": 656,
+      "event_count": 13
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 430,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
-    {
-      "title": "Why teens deserve access to safe AI",
-      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls,…；Why teens deserve access to safe AI；arXiv:2607.11977v2 Ann…",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/why-teens-deserve-access-safe-ai"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.11977"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://openai.com/supply/co-lab/work-louder"
-        }
-      ]
-    },
     {
       "title": "早报｜真我暂停产品更新/华为撤回「世界」商标申请/努比亚全球首款AI智能体手机搭载豆包手机助手",
       "summary": "早报｜真我暂停产品更新/华为撤回「世界」商标申请/努比亚全球首款AI智能体手机搭载豆包手机助手；🍏 曝苹果寻求收购 AI 芯片企业，补强 AI 服务器算力 🚀 Anthropic 被曝筹备秋季 IPO 投资者会议 💰 DeepSeek 新一轮融资后估值约 3510 亿元 ⚠️ Codex 团队回应 GPT-5.6 误删文件风险：建议…",
@@ -62,6 +40,28 @@
         {
           "source_name": "爱范儿",
           "link": "https://ifanr.com/1672229"
+        }
+      ]
+    },
+    {
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8…；Kimi K3, and what we can still learn from the pelican benc…",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/16/kimi-k3"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3777236"
+        },
+        {
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/112414"
+        },
+        {
+          "source_name": "Product Hunt",
+          "link": "https://producthunt.com/products/kimi-ai-assistant"
         }
       ]
     },
