@@ -1,53 +1,53 @@
 {
-  "global_brief": "过去24小时，AI领域持续活跃，模型发布与安全治理并行。OpenAI发布了面向青少年的安全AI指南，而谷歌的旗舰模型Gemini 3.5 Pro据传因技术表现未达目标而延期。同时，月之暗面发布了其最强模型Kimi K3，Mira Murati创立的Thinking Machines Lab也推出了首个开源模型Inkling，显示出行业竞争格局的多元化。",
+  "global_brief": "过去24小时，AI领域持续活跃，模型发布、融资动态与安全研究并行。OpenAI发布了面向青少年的ChatGPT安全措施，而月之暗面则推出了其最强模型Kimi K3。同时，Anthropic被曝筹备IPO，DeepSeek新一轮融资估值达3510亿元，显示出资本对AI赛道的持续热情。 [FACT] TITLE: OpenAI 发布面向青少年的 ChatGPT 安全措施 SUMMARY: OpenAI 宣布为 ChatGPT 引入针对青少年的年龄适宜保护措施、学习工具和家长控制功能，旨在让青少年安全地使用AI。该举措基于其发布的关于青少年应获得安全AI访问…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 29347,
-      "event_count": 508
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1360,
-      "event_count": 33
+      "field_score": 38634,
+      "event_count": 639
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1276,
+      "field_score": 1418,
+      "event_count": 32
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1208,
       "event_count": 30
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 577,
-      "event_count": 12
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 717,
+      "event_count": 14
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 431,
-      "event_count": 9
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 518,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 发布面向青少年的安全AI指南",
-      "summary": "OpenAI 发布博客，阐述如何通过适龄保护、学习工具和家长控制等措施，让ChatGPT对青少年更安全，并强调青少年应获得安全的AI访问权。",
+      "title": "Why teens deserve access to safe AI",
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls,…；Why teens deserve access to safe AI；arXiv:2607.11977v2 Ann…",
       "references": [
         {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/why-teens-deserve-access-safe-ai"
         },
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball"
-        },
-        {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2607.11977"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball"
         },
         {
           "source_name": "MIT Technology Review",
@@ -56,22 +56,30 @@
       ]
     },
     {
-      "title": "谷歌旗舰模型 Gemini 3.5 Pro 据传延期",
-      "summary": "据彭博社援引知情人士消息，谷歌最强旗舰AI模型Gemini 3.5 Pro已延期数月，原因是公司希望进一步提升其能力，尤其是在编程方面的表现，目前尚未达到预定目标。",
+      "title": "早报｜真我暂停产品更新/华为撤回「世界」商标申请/努比亚全球首款AI智能体手机搭载豆包手机助手",
+      "summary": "早报｜真我暂停产品更新/华为撤回「世界」商标申请/努比亚全球首款AI智能体手机搭载豆包手机助手；🍏 曝苹果寻求收购 AI 芯片企业，补强 AI 服务器算力 🚀 Anthropic 被曝筹备秋季 IPO 投资者会议 💰 DeepSeek 新一轮融资后估值约 3510 亿元 ⚠️ Codex 团队回应 GPT-5.6 误删文件风险：建议…",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/977/847.htm"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1672229"
         }
       ]
     },
     {
-      "title": "月之暗面发布 Kimi K3 模型",
-      "summary": "中国AI实验室月之暗面宣布推出其最新模型Kimi K3，称其为迄今为止最强大的模型，拥有28亿参数，在多项基准测试中表现优异。",
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8…；Kimi K3, and what we can still learn from the pelican benc…",
       "references": [
         {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/Jul/16/kimi-k3"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/977/961.htm"
+        },
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/agent-one/kimi-k3-moonshot-ais-28-trillion-parameter-open-frontier-model-benchmarks-architecture-and-11gk"
         },
         {
           "source_name": "少数派",
@@ -80,58 +88,15 @@
       ]
     },
     {
-      "title": "Thinking Machines Lab 发布首个开源模型 Inkling",
-      "summary": "由前OpenAI首席技术官Mira Murati创立的Thinking Machines Lab发布了其首个开源权重模型Inkling，该模型拥有410亿参数，并采用了975B tokens的混合专家架构进行训练。",
+      "title": "When Machine Unlearning Meets Retrieval-Augmented Generation (RAG): Keep Secret or Forget Knowledge?",
+      "summary": "arXiv:2410.15267v3 Announce Type: replace-cross Abstract: The deployment of large language models (LLMs) like ChatGPT a…；When Machine Unlearning Meets Retrieval-Augmented Generati…",
       "references": [
         {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/16/inkling"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示智能体LLM工具存在“事实捏造”风险",
-      "summary": "一篇发表在arXiv上的研究指出，智能体LLM编程工具在压缩长会话历史时，可能会“捏造”已终止进程的确认结果，这种现象被称为“压缩即认知失败”。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.13071"
-        }
-      ]
-    },
-    {
-      "title": "前DeepMind研究员以3亿美元估值完成种子轮融资",
-      "summary": "一位前DeepMind研究员在尚未发布任何产品的情况下，凭借其超过十年构建全球最具影响力AI系统的经验，以3亿美元的估值完成了种子轮融资。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2410.15267"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "模型发布节奏分化，行业进入“能力竞赛”深水区",
-      "summary": "谷歌旗舰模型因技术瓶颈延期，而月之暗面和Thinking Machines Lab等新势力却快速推出新模型，这表明行业正从“发布速度”转向“能力深度”的竞争。头部玩家面临更大的技术压力，而新入局者则通过差异化路径寻求突破。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/977/847.htm"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/16/kimi-k3"
-        },
-        {
-          "source_name": "少数派",
-          "link": "https://sspai.com/post/112414"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/16/inkling"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
