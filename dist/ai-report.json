@@ -1,42 +1,46 @@
 {
-  "global_brief": "过去24小时，AI领域竞争白热化：中国AI实验室月之暗面发布2.8万亿参数的开源模型Kimi K3，在编程基准测试中超越Claude Fable 5；与此同时，谷歌突然叫停Gemini 3.5 Pro的发布，而智谱则传出ARR已达10亿美元的消息。此外，多篇研究论文揭示了AI Agent在编码和推理中的新风险与优化方向。",
+  "global_brief": "过去24小时，AI领域竞争白热化，中国开源模型Kimi K3在编程基准测试中登顶全球第一，同时海外巨头掀起新一轮大模型价格战，谷歌Gemini 3.5 Pro的发布则被意外叫停。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 23855,
-      "event_count": 397
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1306,
-      "event_count": 32
+      "field_score": 37383,
+      "event_count": 633
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1137,
-      "event_count": 27
+      "field_score": 1502,
+      "event_count": 34
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 596,
-      "event_count": 12
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1362,
+      "event_count": 33
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 711,
+      "event_count": 15
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 535,
-      "event_count": 11
+      "field_score": 684,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "Optimization Is Not All You Need",
-      "summary": "arXiv:2607.11977v2 Announce Type: replace Abstract: In 2019, OpenAI released two million GPT-2 outputs-ungrammatical, h…；Optimization Is Not All You Need；Why is OpenAI selling a C…",
+      "title": "Why teens deserve access to safe AI",
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls,…；Why teens deserve access to safe AI；arXiv:2607.11977v2 Ann…",
       "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/why-teens-deserve-access-safe-ai"
+        },
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2607.11977"
@@ -48,48 +52,36 @@
         {
           "source_name": "MIT Technology Review",
           "link": "https://technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://openai.com/supply/co-lab/work-louder"
         }
       ]
     },
     {
-      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
-      "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8…；Kimi K3, and what we can still learn from the pelican benc…",
+      "title": "早报｜真我暂停产品更新/华为撤回「世界」商标申请/努比亚全球首款AI智能体手机搭载豆包手机助手",
+      "summary": "早报｜真我暂停产品更新/华为撤回「世界」商标申请/努比亚全球首款AI智能体手机搭载豆包手机助手；🍏 曝苹果寻求收购 AI 芯片企业，补强 AI 服务器算力 🚀 Anthropic 被曝筹备秋季 IPO 投资者会议 💰 DeepSeek 新一轮融资后估值约 3510 亿元 ⚠️ Codex 团队回应 GPT-5.6 误删文件风险：建议…",
       "references": [
         {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/16/kimi-k3"
-        },
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/charts/41959417"
-        },
-        {
-          "source_name": "少数派",
-          "link": "https://sspai.com/post/112414"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1672229"
         }
       ]
     },
     {
-      "title": "OpenAI 的大模型价格战，历史早已写过结局",
-      "summary": "OpenAI 的大模型价格战，历史早已写过结局；从六月最后一周到七月初，整条AI赛道被集体重定价。 Anthropic先手出了Sonnet 5，限时优惠砍到2/10美元。一周多后，xAI、OpenAI、Meta在48小时内密集出货——Grok 4.5、GPT-5.6三档、Muse Sp…",
+      "title": "大模型7月激战：国产性能快速攀升，海外巨头开启价格战",
+      "summary": "大模型7月激战：国产性能快速攀升，海外巨头开启价格战；当前，全球Frontier Model（前沿模型）的竞争格局呈现出“交替领先、终局未定”的焦灼态势。Google凭借Gemini 3的原生多模态能力在2025年年末短暂登顶，Anthropic在2026年初依靠卓越的Coding（编程）能…",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3777199"
+          "link": "https://wallstreetcn.com/member/articles/3776757"
         }
       ]
     },
     {
-      "title": "Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Processes",
-      "summary": "arXiv:2607.13071v1 Announce Type: cross Abstract: Agentic LLM coding tools compress long session histories into compact…；Compaction as Epistemic Failure: How Agentic LLM Tools Fab…",
+      "title": "When Machine Unlearning Meets Retrieval-Augmented Generation (RAG): Keep Secret or Forget Knowledge?",
+      "summary": "arXiv:2410.15267v3 Announce Type: replace-cross Abstract: The deployment of large language models (LLMs) like ChatGPT a…；When Machine Unlearning Meets Retrieval-Augmented Generati…",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.13071"
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2410.15267"
         }
       ]
     }
