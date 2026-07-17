@@ -1,51 +1,41 @@
 {
-  "global_brief": "今日AI领域竞争白热化：Kimi K3在代码能力上登顶全球第一，同时Anthropic筹备IPO、DeepSeek估值达3510亿元，行业融资与模型迭代同步加速。海外巨头开启价格战，国产模型性能快速攀升，全球前沿模型格局“终局未定”。此外，OpenAI推出青少年安全AI指南，Google更新AI Mode与Vids功能，社区侧则涌现大量本地化AI工具与安全研究。",
+  "global_brief": "AI 领域持续主导今日动态，中国大模型公司月之暗面发布 Kimi K3 模型，被多家机构视为中国前沿大模型实现全面追赶的标志性事件。同时，Anthropic 被曝筹备秋季 IPO 投资者会议，DeepSeek 新一轮融资后估值约 3510 亿元，AI 行业资本热度不减。学术界则聚焦于 LLM 推理、多模态模型及 Agent 系统的可靠性研究。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 37382,
-      "event_count": 632
+      "field_score": 35558,
+      "event_count": 618
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1795,
-      "event_count": 41
+      "field_score": 1936,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1374,
-      "event_count": 34
+      "field_score": 1325,
+      "event_count": 33
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 656,
+      "field_score": 638,
       "event_count": 13
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 430,
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 429,
       "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "早报｜真我暂停产品更新/华为撤回「世界」商标申请/努比亚全球首款AI智能体手机搭载豆包手机助手",
-      "summary": "早报｜真我暂停产品更新/华为撤回「世界」商标申请/努比亚全球首款AI智能体手机搭载豆包手机助手；🍏 曝苹果寻求收购 AI 芯片企业，补强 AI 服务器算力 🚀 Anthropic 被曝筹备秋季 IPO 投资者会议 💰 DeepSeek 新一轮融资后估值约 3510 亿元 ⚠️ Codex 团队回应 GPT-5.6 误删文件风险：建议…",
-      "references": [
-        {
-          "source_name": "爱范儿",
-          "link": "https://ifanr.com/1672229"
-        }
-      ]
-    },
-    {
-      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
-      "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8…；Kimi K3, and what we can still learn from the pelican benc…",
+      "title": "月之暗面发布 Kimi K3 模型",
+      "summary": "中国 AI 实验室月之暗面（Moonshot AI）发布其最强模型 Kimi K3，摩根士丹利认为该模型标志着中国前沿大模型在规模、性能与定价上已实现全面追赶。",
       "references": [
         {
           "source_name": "Simon Willison's Blog",
@@ -64,27 +54,34 @@
           "link": "https://producthunt.com/products/kimi-ai-assistant"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "大模型7月激战：国产性能快速攀升，海外巨头开启价格战",
-      "summary": "大模型7月激战：国产性能快速攀升，海外巨头开启价格战；当前，全球Frontier Model（前沿模型）的竞争格局呈现出“交替领先、终局未定”的焦灼态势。Google凭借Gemini 3的原生多模态能力在2025年年末短暂登顶，Anthropic在2026年初依靠卓越的Coding（编程）能…",
+      "title": "中国大模型正从“追赶”转向“并跑”，但商业化路径仍需验证",
+      "summary": "月之暗面 Kimi K3 的发布与摩根士丹利的积极评价，结合 DeepSeek 的高估值融资，表明中国 AI 大模型在技术能力上已接近国际前沿。然而，这些模型能否在激烈的市场竞争中实现可持续的商业化，并应对潜在的算力限制，仍是关键挑战。",
       "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/16/kimi-k3"
+        },
         {
           "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/member/articles/3776757"
-        }
-      ]
-    },
-    {
-      "title": "When Machine Unlearning Meets Retrieval-Augmented Generation (RAG): Keep Secret or Forget Knowledge?",
-      "summary": "arXiv:2410.15267v3 Announce Type: replace-cross Abstract: The deployment of large language models (LLMs) like ChatGPT a…；When Machine Unlearning Meets Retrieval-Augmented Generati…",
-      "references": [
+          "link": "https://wallstreetcn.com/articles/3777236"
+        },
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2410.15267"
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/112414"
+        },
+        {
+          "source_name": "Product Hunt",
+          "link": "https://producthunt.com/products/kimi-ai-assistant"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1672229"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
