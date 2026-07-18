@@ -1,109 +1,51 @@
 {
-  "global_brief": "苹果对 OpenAI 提起商业秘密诉讼，可能影响其 IPO 计划；欧盟则命令谷歌向第三方 AI 助手开放 Android 系统权限；与此同时，美国正考虑设立类似金融业监管局的独立机构来审查顶级 AI 模型。这些事件标志着全球 AI 监管与法律博弈进入新阶段。",
+  "global_brief": "苹果起诉OpenAI窃取商业机密，欧盟则要求谷歌向竞争对手AI助手开放安卓核心权限，两大科技巨头同日遭遇监管与法律挑战。与此同时，美国特朗普政府正考虑设立类似金融业监管局的独立机构，对顶级AI模型进行安全审查，标志着AI治理进入新阶段。Anthropic的Claude Fable 5模型开始向付费订阅用户开放，但限额问题引发社区讨论。 [FACT] TITLE:苹果起诉OpenAI窃取商业机密，或影响其IPO计划 SUMMARY:苹果公司上周五对OpenAI提起商业秘密诉讼，指控其存在一系列不当行为。多家媒体 报道称，该诉讼可能扰乱O…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 9262,
-      "event_count": 164
+      "field_score": 8074,
+      "event_count": 139
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 942,
-      "event_count": 25
+      "field_score": 903,
+      "event_count": 24
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 563,
-      "event_count": 14
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 427,
-      "event_count": 9
+      "field_score": 772,
+      "event_count": 19
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 425,
-      "event_count": 9
+      "field_score": 324,
+      "event_count": 7
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 277,
+      "event_count": 6
     }
   ],
   "highlight_facts": [
     {
-      "title": "苹果起诉 OpenAI 窃取商业秘密",
-      "summary": "苹果上周五对 OpenAI 提起商业秘密诉讼，指控其存在一系列不当行为。该诉讼可能扰乱 OpenAI 的 IPO 计划。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://spyglass.org/chatgpt-brings-back-chatgpt"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/podcast/967244/apple-openai-lawsuit-vergecast"
-        }
-      ]
-    },
-    {
-      "title": "欧盟命令谷歌向竞争对手开放 Android 系统权限",
-      "summary": "欧盟委员会周四下令，要求谷歌向第三方 AI 助手开放 Android 设备的麦克风、摄像头和屏幕访问权限。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores"
-        }
-      ]
-    },
-    {
-      "title": "美国考虑设立独立 AI 监管机构",
-      "summary": "据彭博社报道，特朗普政府正考虑设立一个由行业参与的独立监管机构，仿照金融业监管局（FINRA）的模式，对顶级 AI 模型进行安全审查。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3777267"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://bloomberg.com/news/articles/2026-07-17/us-considers-creating-finra-like-watchdog-to-vet-top-ai-models"
-        }
-      ]
-    },
-    {
-      "title": "Claude Fable 5 入驻付费订阅计划，引发用户不满",
-      "summary": "Anthropic 宣布从 7 月 20 日起，Claude Fable 5 将向 Max 和 Team Premium 订阅用户开放，但有网友指出其 50% 的使用限额不如竞品 Kimi K3。社区讨论显示，该模型已从免费试用转为需要消耗使用额度。",
+      "title": "Claude Fable 5 入驻 AI 订阅计划，网友称限额 50% 还不如用 Kimi K3",
+      "summary": "Claude Fable 5 入驻 AI 订阅计划，网友称限额 50% 还不如用 Kimi K3；IT之家 7 月 18 日消息，@claudeai 官方 X 账号今天（7 月 18 日）发布推文，宣布将于 7 月 20 日开始， Max 和 Team Premium 订阅用户可以使用 Claude Fable 5 模型，限额为 50…",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/978/440.htm"
-        },
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48950625"
         }
       ]
     },
     {
-      "title": "OpenAI 发布 AI 时代 ROI 记分卡",
-      "summary": "OpenAI 首席财务官 Sarah Friar 发布了一篇博文，介绍了一种实用的 AI 记分卡，旨在通过“有用工作”和“每次成功成本”等指标来衡量 AI 投资的回报率。",
+      "title": "A scorecard for the AI age",
+      "summary": "A scorecard for the AI age；Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful…",
       "references": [
         {
           "source_name": "OpenAI 博客",
@@ -112,80 +54,25 @@
       ]
     },
     {
-      "title": "B 站“猫娘计划”亮相 WAIC 2026",
-      "summary": "在 2026 年世界人工智能大会上，哔哩哔哩展示了其开源 AI 数字生命生态计划“猫娘计划”，该计划支持自主导入模型，并能理解桌面内容主动发起对话。",
+      "title": "B站“猫娘计划”亮相 WAIC 2026：支持自主导入模型，可理解桌面内容主动发起对话",
+      "summary": "B站“猫娘计划”亮相 WAIC 2026：支持自主导入模型，可理解桌面内容主动发起对话；IT之家 7 月 18 日消息，2026 世界人工智能大会暨人工智能全球治理高级别会议今天在上海举行。现场，哔哩哔哩展示了开源 AI 数字生命生态计划“猫娘计划”。 据介绍，猫娘计划 Project N.E.K.O.的核心产品为一款主动…",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/978/464.htm"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "苹果诉讼与欧盟监管令预示 AI 平台权力再分配",
-      "summary": "苹果对 OpenAI 的诉讼和欧盟对谷歌的监管命令，共同指向一个趋势：科技巨头正试图通过法律和监管手段，重新划定 AI 时代的平台边界与数据控制权。苹果的诉讼可能意在遏制 OpenAI 的扩张并保护自身生态，而欧盟的命令则旨在打破 Android 系统的封闭性，为第三方 AI 助手创造公平竞争环境。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://spyglass.org/chatgpt-brings-back-chatgpt"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/podcast/967244/apple-openai-lawsuit-vergecast"
-        },
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html"
-        }
-      ]
     },
     {
-      "title": "AI 编码代理正从内容生成转向任务执行，但安全与隐私问题凸显",
-      "summary": "社区讨论指出，AI 代理正从单纯的内容生成转向执行复杂任务。然而，有开发者发现，即使默认使用本地 LLM，提示词仍可能被发送至云端，这暴露了 AI 工具在隐私和安全性上的重大隐患，可能阻碍企业级应用的采用。",
+      "title": "Death by Poisoning: Your Agent Read a Comment and Started Helping Your Competitor",
+      "summary": "Death by Poisoning: Your Agent Read a Comment and Started Helping Your Competitor；Death by Poisoning: Your Agent Read a Comment and Started Helping Your Competitor 1.2 million web…",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://themarketingnewsletter.org/p/45-agentic-ai-is-taking-over-execution"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/anomalyco/opencode/issues/15854"
-        }
-      ]
-    },
-    {
-      "title": "模型路由基准测试揭示优化方向错误",
-      "summary": "一项关于模型路由的基准测试 指出，当前的路由器优化了错误的方向。这暗示，在追求“最佳模型”的同时，行业可能忽略了更关键的指标，如成本、延迟和特定任务的适配性，这为模型编排和推理优化领域提供了新的思考方向。",
-      "references": [
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/dotnetspark/fbc-model-routing-benchmark"
-        }
-      ]
-    },
-    {
-      "title": "AI 狂热正在侵蚀全球决策能力",
-      "summary": "一篇社区文章 尖锐地批评了当前的“AI 狂热”现象，认为其正在削弱全球决策能力。这种观点反映了技术社区内部对 AI 过度炒作和盲目应用的反思，提示决策者应警惕技术乐观主义可能带来的认知偏差和战略误判。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/wzg0911/death-by-poisoning-your-agent-read-a-comment-and-started-helping-your-competitor-2ohf"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
