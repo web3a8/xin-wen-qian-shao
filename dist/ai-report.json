@@ -1,11 +1,11 @@
 {
-  "global_brief": "苹果起诉OpenAI窃取商业机密，可能影响其IPO计划；旧金山要求苹果和谷歌下架“脱衣”应用；月之暗面Kimi筹备赴港上市，最快6个月内完成。AI领域持续活跃，从模型发布到工具链创新均有重要进展。",
+  "global_brief": "AI领域持续主导今日动态，月之暗面Kimi筹备赴港IPO引发市场关注，同时苹果对OpenAI提起的商业机密诉讼可能影响后者上市计划。社区侧涌现大量AI代理工具与开源项目，开发者生态活跃度显著提升。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7733,
-      "event_count": 139
+      "field_score": 7257,
+      "event_count": 132
     },
     {
       "field_key": "domestic",
@@ -16,156 +16,50 @@
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 885,
-      "event_count": 22
+      "field_score": 554,
+      "event_count": 13
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 323,
-      "event_count": 7
+      "field_score": 462,
+      "event_count": 10
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 266,
-      "event_count": 6
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 237,
+      "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "苹果起诉OpenAI窃取商业机密",
-      "summary": "苹果公司上周五对OpenAI提起商业机密诉讼，指控其存在一系列不当行为，该诉讼可能对OpenAI的IPO计划造成干扰。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/podcast/967244/apple-openai-lawsuit-vergecast"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://spyglass.org/chatgpt-brings-back-chatgpt"
-        }
-      ]
-    },
-    {
-      "title": "旧金山要求苹果和谷歌下架“脱衣”应用",
-      "summary": "旧金山市政部门正式下令，要求苹果和谷歌从其应用商店中移除“脱衣”（nudify）应用。官方估计，这两家公司可能已从这些应用的相关费用中赚取了数百万美元。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage"
-        },
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores"
-        }
-      ]
-    },
-    {
-      "title": "月之暗面Kimi筹备赴港上市",
-      "summary": "据投资界消息，Kimi已通知投资者调整公司架构，筹备赴港IPO，最快可能6个月内完成上市。该公司本周发布了Kimi K3模型，原生支持视觉理解并拥有100万token上下文。",
+      "title": "月之暗面Kimi筹备赴港IPO，最快6个月内上市",
+      "summary": "据投资界消息，Kimi已通知投资者调整公司架构，筹备赴港IPO，最快可能6个月内完成港股上市。月之暗面本周发布了Kimi K3模型，原生支持视觉理解并拥有100万token上下文。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/978/527.htm"
         }
       ]
-    },
-    {
-      "title": "特朗普政府干预前沿AI模型访问权限",
-      "summary": "据报道，特朗普政府正在主导决定哪些机构可以访问Anthropic和OpenAI等公司开发的前沿AI模型。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://cnbc.com/2026/07/17/white-house-ai-access-anthropic-openai.html"
-        }
-      ]
-    },
-    {
-      "title": "谷歌员工请愿要求AI热潮下的裁员保护",
-      "summary": "在AI业务蓬勃发展的背景下，谷歌员工发起请愿，向CEO要求获得裁员保护措施。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://theguardian.com/technology/2026/jul/16/google-workers-layoff-protections-ai"
-        }
-      ]
-    },
-    {
-      "title": "开源AI工具链持续涌现",
-      "summary": "社区发布了多个开源项目，包括用于LLM代理的零信任P2P网关Tkngate 、用于AI代理的确定性控制框架Bound，以及用于监控LLM推理过程的“Htop”工具LLM Inspector。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/tkngate/tkngate"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/Danny-de-bree/bound"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/helasaoudi/llm-inspector"
-        }
-      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI代理工具正从“能做事”向“可控、可信、可交易”演进",
-      "summary": "近期多个项目（如Bound控制框架、Tkngate安全网关、TrAIcer编码轨迹捕获）表明，社区关注点已从AI代理的功能性转向其安全性、可审计性和商业化潜力，这预示着AI代理将进入更成熟的应用阶段。",
+      "title": "苹果诉讼与Kimi上市折射AI行业资本化路径分化",
+      "summary": "苹果对OpenAI的诉讼可能成为AI公司IPO进程中的关键变量，而Kimi选择赴港上市则显示中国AI企业正加速寻求独立资本化路径。两者对比反映出全球AI公司在合规与融资策略上的显著分化。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/Danny-de-bree/bound"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/527.htm"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/tkngate/tkngate"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans"
         },
         {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/smashah/traicer"
-        }
-      ]
-    },
-    {
-      "title": "AI模型能力对比正从基准测试转向实战应用",
-      "summary": "用户通过让GPT-5.6 Sol与Claude Fable 5在《红色警戒2》中直接对战来比较模型能力，这表明社区对模型评估的方式正从静态基准测试转向动态、可观察的实战场景。",
-      "references": [
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://system-2-arena.vercel.app/showcase/ra2?war=sol-vs-fable-lake"
-        },
-        {
-          "source_name": "Hacker News",
-          "link": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1228144"
-        }
-      ]
-    },
-    {
-      "title": "AI辅助写作的边界引发反思",
-      "summary": "一篇题为“AI辅助技术写作：何时停止”的讨论引发关注，表明随着AI写作工具的普及，开发者开始反思过度依赖AI对技术文档原创性和思考深度的潜在影响。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://ae1020.github.io/ai-writing-when-to-stop"
+          "source_name": "daringfireball.net",
+          "link": "https://spyglass.org/chatgpt-brings-back-chatgpt"
         }
       ]
     }
