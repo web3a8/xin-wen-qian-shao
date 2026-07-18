@@ -1,77 +1,62 @@
 {
-  "global_brief": "过去24小时，AI领域研究密集发布，重点围绕LLM推理、多模态模型、Agent系统及隐私安全。OpenAI发布AI投资回报衡量工具，并回应了GPT-5.6 Sol意外删除用户文件的安全事件。多项研究揭示了Agent工具在结果确认、记忆管理及代码生成正确性方面的关键缺陷与改进方向。",
+  "global_brief": "过去24小时的重要动态主要集中在：When Machine Unlearning Meets Retrieval-Augmented Generation (RAG): Keep Secret or Forget Knowledge?；Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Processes；Efficient and Privacy Aware Edge Cloud Collaborative Inf…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 35658,
-      "event_count": 623
+      "field_score": 34339,
+      "event_count": 601
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1613,
-      "event_count": 36
+      "field_score": 1243,
+      "event_count": 28
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1072,
-      "event_count": 28
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 592,
-      "event_count": 12
+      "field_score": 965,
+      "event_count": 25
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 591,
-      "event_count": 12
+      "field_score": 539,
+      "event_count": 11
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 509,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
       "title": "When Machine Unlearning Meets Retrieval-Augmented Generation (RAG): Keep Secret or Forget Knowledge?",
-      "summary": "arXiv:2410.15267v3 Announce Type: replace-cross Abstract: The deployment of large language models (LLMs) like ChatGPT a…；When Machine Unlearning Meets Retrieval-Augmented Generati…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2410.15267"
-        }
-      ]
+      "summary": "arXiv:2410.15267v3 Announce Type: replace-cross Abstract: The deployment of large language models (LLMs) like ChatGPT a…；When Machine Unlearning Meets Retrieval-Augmented Generation (RAG): Keep Secret or Forget Knowledg…",
+      "references": []
     },
     {
       "title": "Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Processes",
-      "summary": "arXiv:2607.13071v1 Announce Type: cross Abstract: Agentic LLM coding tools compress long session histories into compact…；Compaction as Epistemic Failure: How Agentic LLM Tools Fab…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.13071"
-        }
-      ]
+      "summary": "arXiv:2607.13071v1 Announce Type: cross Abstract: Agentic LLM coding tools compress long session histories into compact…；Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Pro…",
+      "references": []
     },
     {
       "title": "Efficient and Privacy Aware Edge Cloud Collaborative Inference for Large Language Models",
-      "summary": "arXiv:2607.13093v1 Announce Type: cross Abstract: On-device LLM inference faces a trilemma of response latency, limited…；Efficient and Privacy Aware Edge Cloud Collaborative Infer…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.13093"
-        }
-      ]
+      "summary": "arXiv:2607.13093v1 Announce Type: cross Abstract: On-device LLM inference faces a trilemma of response latency, limited…；Efficient and Privacy Aware Edge Cloud Collaborative Inference for Large Language Models",
+      "references": []
     },
     {
       "title": "MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation",
-      "summary": "arXiv:2607.09142v3 Announce Type: replace Abstract: Large language models (LLMs) are increasingly deployed in online me…；MedRealMM: A Real-World Multimodal Benchmark for Chinese O…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.09142"
-        }
-      ]
+      "summary": "arXiv:2607.09142v3 Announce Type: replace Abstract: Large language models (LLMs) are increasingly deployed in online me…；MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation",
+      "references": []
+    },
+    {
+      "title": "OpenAI 回应 GPT-5.6 Sol AI 意外删除用户文件：已采取措施降低风险",
+      "summary": "IT之家 7 月 18 日消息，OpenAI 核心产品负责人蒂博 · 索蒂奥（Tibo Sottiaux）于 7 月 16 日在 X 平台发布推文， 回应 GPT-5.6 Sol 会擅自删除用户文件问题。 IT之家曾于 7 月 15 日报…；OpenAI 回应 GPT-5.6 Sol AI 意外删除用户文件：已采取措施降低风险；IT之家 7 月 18 日消息，OpenAI 核心产品负责人蒂博 · 索蒂奥（Tibo Sottiaux）昨…",
+      "references": []
     }
   ],
   "highlight_opinions": []
