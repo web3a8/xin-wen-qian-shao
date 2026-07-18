@@ -1,78 +1,87 @@
 {
-  "global_brief": "苹果起诉OpenAI窃取商业机密，欧盟则要求谷歌向竞争对手AI助手开放安卓核心权限，两大科技巨头同日遭遇监管与法律挑战。与此同时，美国特朗普政府正考虑设立类似金融业监管局的独立机构，对顶级AI模型进行安全审查，标志着AI治理进入新阶段。Anthropic的Claude Fable 5模型开始向付费订阅用户开放，但限额问题引发社区讨论。 [FACT] TITLE:苹果起诉OpenAI窃取商业机密，或影响其IPO计划 SUMMARY:苹果公司上周五对OpenAI提起商业秘密诉讼，指控其存在一系列不当行为。多家媒体 报道称，该诉讼可能扰乱O…",
+  "global_brief": "苹果起诉OpenAI窃取商业机密，可能影响其IPO进程；欧盟要求谷歌向竞争对手AI助手开放Android系统核心权限；月之暗面Kimi筹备赴港上市，最快6个月内完成。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 8074,
-      "event_count": 139
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 903,
-      "event_count": 24
+      "field_score": 7185,
+      "event_count": 131
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 772,
-      "event_count": 19
+      "field_score": 909,
+      "event_count": 22
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 813,
+      "event_count": 21
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 370,
+      "event_count": 8
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 324,
-      "event_count": 7
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 277,
-      "event_count": 6
+      "field_score": 236,
+      "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "Claude Fable 5 入驻 AI 订阅计划，网友称限额 50% 还不如用 Kimi K3",
-      "summary": "Claude Fable 5 入驻 AI 订阅计划，网友称限额 50% 还不如用 Kimi K3；IT之家 7 月 18 日消息，@claudeai 官方 X 账号今天（7 月 18 日）发布推文，宣布将于 7 月 20 日开始， Max 和 Team Premium 订阅用户可以使用 Claude Fable 5 模型，限额为 50…",
+      "title": "苹果起诉OpenAI窃取商业机密，可能影响其IPO计划",
+      "summary": "苹果上周五对OpenAI提起商业机密诉讼，指控其存在系统性窃密行为。该诉讼可能对OpenAI的IPO计划造成重大干扰。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/978/440.htm"
-        }
-      ]
-    },
-    {
-      "title": "A scorecard for the AI age",
-      "summary": "A scorecard for the AI age；Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful…",
-      "references": [
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans"
+        },
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/a-scorecard-for-the-ai-age"
-        }
-      ]
-    },
-    {
-      "title": "B站“猫娘计划”亮相 WAIC 2026：支持自主导入模型，可理解桌面内容主动发起对话",
-      "summary": "B站“猫娘计划”亮相 WAIC 2026：支持自主导入模型，可理解桌面内容主动发起对话；IT之家 7 月 18 日消息，2026 世界人工智能大会暨人工智能全球治理高级别会议今天在上海举行。现场，哔哩哔哩展示了开源 AI 数字生命生态计划“猫娘计划”。 据介绍，猫娘计划 Project N.E.K.O.的核心产品为一款主动…",
-      "references": [
+          "source_name": "The Verge",
+          "link": "https://theverge.com/podcast/967244/apple-openai-lawsuit-vergecast"
+        },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/978/464.htm"
-        }
-      ]
-    },
-    {
-      "title": "Death by Poisoning: Your Agent Read a Comment and Started Helping Your Competitor",
-      "summary": "Death by Poisoning: Your Agent Read a Comment and Started Helping Your Competitor；Death by Poisoning: Your Agent Read a Comment and Started Helping Your Competitor 1.2 million web…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/wzg0911/death-by-poisoning-your-agent-read-a-comment-and-started-helping-your-competitor-2ohf"
+          "source_name": "daringfireball.net",
+          "link": "https://spyglass.org/chatgpt-brings-back-chatgpt"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "苹果诉讼与欧盟监管双重夹击，AI巨头面临合规与商业双重风险",
+      "summary": "苹果对OpenAI的诉讼和欧盟对谷歌的监管命令，标志着全球科技巨头在AI领域的竞争已从技术层面上升到法律和监管层面。这预示着未来AI公司不仅需要技术领先，还必须应对复杂的法律和合规挑战，可能重塑行业格局。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/podcast/967244/apple-openai-lawsuit-vergecast"
+        },
+        {
+          "source_name": "daringfireball.net",
+          "link": "https://spyglass.org/chatgpt-brings-back-chatgpt"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage"
+        }
+      ]
+    }
+  ]
 }
