@@ -1,63 +1,86 @@
 {
-  "global_brief": "AI领域持续主导今日动态，月之暗面Kimi筹备赴港上市并发布新模型，同时围绕开源与闭源AI的路线之争在社区引发激烈讨论。此外，白宫计划利用AI建立网络安全漏洞清理中心，Meta的AI芯片也即将投产。",
+  "global_brief": "月之暗面Kimi筹备赴港IPO并发布K3模型，同时OpenAI内部就AI对创造力影响展开辩论，社区侧涌现大量AI代理与推理效率工具，AI领域持续主导技术讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6591,
-      "event_count": 123
+      "field_score": 6529,
+      "event_count": 122
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1052,
+      "field_score": 1067,
       "event_count": 27
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 367,
-      "event_count": 9
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 323,
-      "event_count": 6
+      "field_score": 476,
+      "event_count": 9
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 126,
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 405,
+      "event_count": 10
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 115,
       "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "月之暗面Kimi筹备赴港上市并发布新模型",
-      "summary": "据投资界消息，Kimi已通知投资者调整公司架构，筹备赴港IPO，最快可能6个月内完成港股上市。本周，月之暗面还发布了Kimi K3模型，原生支持视觉理解并拥有100万token上下文。",
+      "title": "消息称月之暗面 Kimi 已通知投资者调整公司架构，有望最快 6 个月内赴港上市",
+      "summary": "IT之家 7 月 18 日消息，据投资界今日消息，Kimi 已通知投资者调整公司架构，筹备赴港 IPO， 最快可能 6 个月内就能完成港股上市。 月之暗面本周发布了 Kimi K3 模型，原生支持视觉理解，并拥有 100 万 token…；消息称月之暗面 Kimi 已通知投资者调整公司架构，有望最快 6 个月内赴港上市",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/978/527.htm"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "开源与闭源AI的路线之争加剧",
-      "summary": "社区讨论显示，围绕AI开源与闭源的立场分歧日益尖锐。OpenAI战略负责人将开源AI定义为“反乌托邦的地狱”，而另一观点则认为开源权重模型主导的世界可能导致“完全的AI共产主义”，这反映了业界对AI发展路径的根本性分歧。",
+      "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
+      "summary": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’；Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The…",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://twitter.com/deanwball/status/2078133895766114412"
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
         },
         {
-          "source_name": "Hacker News AI",
-          "link": "https://xcancel.com/deanwball/status/2078133895766114412?s=46"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/607.htm"
+        }
+      ]
+    },
+    {
+      "title": "Kimi: Threat or menace?",
+      "summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI commun…；Kimi: Threat or menace?",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace"
+        }
+      ]
+    },
+    {
+      "title": "Google is open-sourcing its 3D emoji",
+      "summary": "Google is open-sourcing its 3D emoji；Now, if you want to, you can use Google's 3D emoji in your own creations. The company shared some details about how it…；How Google’s New Gemin…",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/design/967606/google-open-source-3d-emoji"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
