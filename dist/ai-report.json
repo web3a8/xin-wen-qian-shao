@@ -1,35 +1,35 @@
 {
-  "global_brief": "AI领域持续主导全球科技动态，中国大模型厂商密集发布新品，Kimi K3与Qwen3.8-Max-Preview相继亮相并开放权重，引发市场强烈反应。与此同时，围绕Claude、Codex等AI编码工具的社区讨论热度不减，开发者正积极探索Agent工作流与知识图谱集成方案，而针对AI行业的抗议活动也首次波及OpenAI总部，折射出技术加速背后的社会张力。",
+  "global_brief": "今日AI领域竞争激烈，月之暗面发布Kimi K3大模型并创下ARR单日增幅纪录，阿里云则推出Token Plan个人版及Qwen3.8-Max-Preview模型，两大国产模型厂商同日发力。与此同时，社区热议AI Agent的瓶颈已从模型转向上下文层，提示注入攻击正成为安全攻防新焦点，而一项研究显示AI生成内容导致开源社区首次贡献者合并率下降18.18%。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7413,
-      "event_count": 130
+      "field_score": 6830,
+      "event_count": 121
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1132,
+      "field_score": 1118,
       "event_count": 29
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 394,
-      "event_count": 9
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 379,
-      "event_count": 10
+      "field_score": 469,
+      "event_count": 12
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 110,
-      "event_count": 2
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 126,
+      "event_count": 3
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 121,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
@@ -39,17 +39,7 @@
       "references": [
         {
           "source_name": "Dev.to",
-          "link": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-h6l"
-        }
-      ]
-    },
-    {
-      "title": "Building Your First AI Agent with .NET and Azure AI Foundry",
-      "summary": "Building Your First AI Agent with.NET and Azure AI Foundry；If you're a.NET developer looking to break into AI engineering, agents are the single best place to start. They're the…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ziya_abbas_e1e5d8bbcc5c3b/building-your-first-ai-agent-with-net-and-azure-ai-foundry-13pl"
+          "link": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-38bd"
         }
       ]
     },
@@ -59,7 +49,7 @@
       "references": [
         {
           "source_name": "Dev.to",
-          "link": "https://dev.to/imus_d7584cbc8ee9b0336256/building-production-grade-llm-evaluation-pipelines-from-vibes-to-metrics-4e7e"
+          "link": "https://dev.to/imus_d7584cbc8ee9b0336256/building-production-grade-llm-evaluation-pipelines-from-vibes-to-metrics-5424"
         }
       ]
     },
@@ -74,6 +64,20 @@
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3777352"
+        }
+      ]
+    },
+    {
+      "title": "阿里 Token Plan 个人版发布，限时优惠每月 39 元起",
+      "summary": "IT之家 7 月 19 日消息，阿里云官方今日宣布， 阿里 Token Plan 个人版正式发布，用户可在其中抢先体验 Qwen3.8-Max-Preview。 官方表示，Qwen3.8-Max 参数量达 2.4T，在代码工程和专业办公…；IT之家 7 月 19 日消息，阿里千问今日宣布，Qwen3.8-Max-Preview 首发上线千问 PC 端及…",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/775.htm"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3777367"
         }
       ]
     }
