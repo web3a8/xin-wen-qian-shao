@@ -1,61 +1,41 @@
 {
-  "global_brief": "今日AI领域竞争激烈，月之暗面发布Kimi K3大模型并创下ARR单日增幅纪录，阿里云则推出Token Plan个人版及Qwen3.8-Max-Preview模型，两大国产模型厂商同日发力。与此同时，社区热议AI Agent的瓶颈已从模型转向上下文层，提示注入攻击正成为安全攻防新焦点，而一项研究显示AI生成内容导致开源社区首次贡献者合并率下降18.18%。",
+  "global_brief": "今日AI领域迎来重大模型发布潮，月之暗面Kimi K3与阿里Qwen3.8-Max相继亮相，引发市场与社区高度关注。同时，AI Agent工具链与安全议题成为开发者讨论焦点，多款新工具涌现。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6830,
+      "field_score": 6871,
       "event_count": 121
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1118,
+      "field_score": 1102,
       "event_count": 29
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 469,
+      "field_score": 500,
       "event_count": 12
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 126,
-      "event_count": 3
+      "field_score": 272,
+      "event_count": 6
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 121,
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 151,
       "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40%",
-      "summary": "Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40%；Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 4…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-38bd"
-        }
-      ]
-    },
-    {
-      "title": "Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics",
-      "summary": "Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics；Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics How we replaced \"looks good to…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/imus_d7584cbc8ee9b0336256/building-production-grade-llm-evaluation-pipelines-from-vibes-to-metrics-5424"
-        }
-      ]
-    },
-    {
-      "title": "月之暗面总裁张予彤：Kimi K3 发布次日 ARR 创下历史最大单日增幅",
-      "summary": "IT之家 7 月 19 日消息，据科创板日报报道，7 月 17 日，月之暗面正式发布新一代大模型 Kimi K3。Kimi 总裁张予彤昨日（7 月 18 日）在朋友圈表示，该模型拥有 2.8 万亿参数，并将于近日开放权重。 数据显示，在…；月之暗面总裁张予彤：Kimi K3 发布次日 ARR 创下历史最大单日增幅；Kimi K3：能力跨越带来模型价值重估",
+      "title": "月之暗面发布Kimi K3大模型，次日ARR创历史最大单日增幅",
+      "summary": "月之暗面于7月17日正式发布新一代大模型Kimi K3，该模型拥有2.8万亿参数，并将于近日开放权重。总裁张予彤透露，发布次日ARR创下历史最大单日增幅，市场反应热烈。此外，由于需求激增，Moonshot AI已暂停新订阅。",
       "references": [
         {
           "source_name": "IT之家",
@@ -64,12 +44,20 @@
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3777352"
+        },
+        {
+          "source_name": "Hacker News",
+          "link": "https://twitter.com/kimi_moonshot/status/2078855608565207130"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://askciela.com/"
         }
       ]
     },
     {
-      "title": "阿里 Token Plan 个人版发布，限时优惠每月 39 元起",
-      "summary": "IT之家 7 月 19 日消息，阿里云官方今日宣布， 阿里 Token Plan 个人版正式发布，用户可在其中抢先体验 Qwen3.8-Max-Preview。 官方表示，Qwen3.8-Max 参数量达 2.4T，在代码工程和专业办公…；IT之家 7 月 19 日消息，阿里千问今日宣布，Qwen3.8-Max-Preview 首发上线千问 PC 端及…",
+      "title": "阿里发布Token Plan个人版及Qwen3.8-Max-Preview模型",
+      "summary": "阿里云发布Token Plan个人版，用户可抢先体验Qwen3.8-Max-Preview。该模型参数量达2.4T，在代码工程和专业办公方面表现突出。官方预告Qwen3.8即将开源，正在以“天”为单位持续进化。",
       "references": [
         {
           "source_name": "IT之家",
@@ -78,9 +66,144 @@
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3777367"
+        },
+        {
+          "source_name": "Hacker News 最佳",
+          "link": "https://qwencloud.com/pricing/token-plan"
+        },
+        {
+          "source_name": "Hacker News",
+          "link": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291"
+        }
+      ]
+    },
+    {
+      "title": "AI Agent工具链密集发布：语音、会议、协作与测试框架齐亮相",
+      "summary": "开发者社区涌现多款AI Agent相关工具，包括为Claude Code和Codex添加语音功能的Aloud、基于Codex/Claude Code的会议笔记工具CallBro、AI Agent活动控制台Huginn、非确定性行为测试框架AgentSpec，以及支持多Agent协作的Bothread。",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/softcane/aloud"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://callbro.ai/"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/tohuw/huginn"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/Ozperium/agentspec"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/AdamACE9/bothread"
+        }
+      ]
+    },
+    {
+      "title": "AI芯片初创公司Etched正洽谈200亿美元估值融资",
+      "summary": "据华尔街日报报道，AI芯片初创公司Etched正在洽谈新一轮融资，估值目标高达200亿美元。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://wsj.com/tech/ai/ai-chip-startup-etched-is-in-talks-for-20-billion-valuation-caf1787d"
+        }
+      ]
+    },
+    {
+      "title": "提示注入攻击正阻碍AI黑客代理的发展",
+      "summary": "安全领域出现新动态，提示注入攻击（Prompt Injection）正被防御方利用，以有效阻止AI驱动的黑客代理。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too"
+        }
+      ]
+    },
+    {
+      "title": "研究显示AI生成内容使开源项目首次贡献者合并率下降18.18%",
+      "summary": "一项覆盖294个仓库的研究表明，AI生成内容（AI slop）导致开源项目首次贡献者的代码合并率下降了18.18%。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://arxiv.org/abs/2607.04003"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "中国AI厂商通过开源与商业化双轮驱动，加速市场渗透",
+      "summary": "Kimi K3发布次日ARR创纪录，阿里Qwen3.8即将开源，结合此前中国AI战略报告，表明中国AI厂商正通过“开源+商业”的双重策略，快速抢占市场并巩固产业主导地位。Kimi因需求暂停订阅，Qwen推出个人版套餐，均显示出强劲的商业化落地能力。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/734.htm"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3777352"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/775.htm"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3777367"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://uscc.gov/sites/default/files/2026-03/Two_Loops--How_Chinas_Open_AI_Strategy_Reinforces_Its_Industrial_Dominance.pdf"
+        },
+        {
+          "source_name": "Hacker News",
+          "link": "https://twitter.com/kimi_moonshot/status/2078855608565207130"
+        }
+      ]
+    },
+    {
+      "title": "AI对开源社区生态的负面影响开始显现，需警惕“AI slop”问题",
+      "summary": "研究显示AI生成内容导致首次贡献者合并率下降，结合“AI advice减少‘我不知道’回答”的研究，表明AI在提升效率的同时，也可能对社区协作和人类独立思考产生负面影响，需要建立更完善的审核与引导机制。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://arxiv.org/abs/2607.04003"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://osf.io/preprints/psyarxiv/5y6m4_v1"
+        }
+      ]
+    },
+    {
+      "title": "LLM市场格局趋同，竞争焦点转向推理效率与成本控制",
+      "summary": "多篇讨论指向LLM市场正经历类似数据库市场的“战争”，同时开发者社区涌现出大量聚焦于推理优化、成本对比和Token压缩的工具与文章，如RAG优化、LLM路由器和Agent Token压缩等，表明模型能力趋同后，推理效率和成本成为新的竞争高地。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-4ffe"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://flexinference.com/"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://vivekhaldar.com/articles/compiling-an-ai-agent-skill"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://rruxandra.github.io/llm-wars-database-wars.html"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://hail.so/costs"
+        }
+      ]
+    }
+  ]
 }
