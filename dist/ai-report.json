@@ -1,43 +1,135 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：月之暗面 Kimi K3 大模型登顶全球榜单后，彭博社称美国 AI 领先中国固有认知被打破；How to get your site cited by AI assistants；How to use Kimi K3 with an OpenAI-compatible API endpoint。",
+  "global_brief": "过去24小时，AI领域持续主导全站热点，模型发布与开源动态密集。月之暗面发布Kimi K3大模型，阿里推出Token Plan个人版并预告Qwen3.8开源，同时社区围绕AI编码代理、模型使用体验及行业监管展开广泛讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6101,
-      "event_count": 108
+      "field_score": 5768,
+      "event_count": 103
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1514,
-      "event_count": 37
+      "field_score": 1377,
+      "event_count": 34
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 464,
+      "field_score": 468,
       "event_count": 12
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 440,
+      "field_score": 436,
       "event_count": 10
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 152,
-      "event_count": 4
+      "field_score": 205,
+      "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "月之暗面总裁张予彤：Kimi K3 发布 次日 ARR 创下历史最大单日增幅",
-      "summary": "月之暗面总裁张予彤：Kimi K3 发布 次日 ARR 创下历史最大单日增幅；时间：2026-07-19T08:44:39.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "月之暗面发布Kimi K3大模型，次日ARR创历史最大单日增幅",
+      "summary": "月之暗面于7月17日正式发布新一代大模型Kimi K3，该模型拥有2.8万亿参数，并计划于近日开放权重。公司总裁张予彤透露，发布次日，公司ARR（年度经常性收入）创下历史最大单日增幅。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/734.htm"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3777352"
+        }
+      ]
+    },
+    {
+      "title": "阿里发布Token Plan个人版并预告Qwen3.8开源",
+      "summary": "阿里云发布Token Plan个人版，用户可抢先体验Qwen3.8-Max-Preview模型，该模型参数量达2.4T。阿里千问同时宣布，Qwen3.8即将发布并开源，新模型正在以“天”为单位持续进化。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/775.htm"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3777367"
+        }
+      ]
+    },
+    {
+      "title": "旧金山要求苹果和谷歌从应用商店删除AI“脱衣”应用",
+      "summary": "旧金山市政当局正式要求苹果和谷歌从其应用商店中删除AI“Nudify”应用，此类应用利用AI技术生成裸体图像，引发了严重的伦理与法律担忧。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores"
+        }
+      ]
+    },
+    {
+      "title": "反AI抗议活动蔓延至OpenAI总部",
+      "summary": "一场反AI抗议活动抵达OpenAI总部，抗议者表达了对AI技术发展可能带来的社会问题的担忧。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://msn.com/en-in/money/topstories/anti-ai-protest-reaches-openai-hq-why-protesters-left-body-bags-outside-office"
+        }
+      ]
+    },
+    {
+      "title": "开发者社区热议Claude使用体验，称其“令人痛苦”",
+      "summary": "在Hacker News上，有开发者发帖抱怨Claude的使用体验，称其“对抗性强”、“速度慢”，引发了关于Claude模型可用性和用户体验的广泛讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48964237"
+        }
+      ]
+    },
+    {
+      "title": "开发者分享利用闲置Mac控制Claude Code的教程",
+      "summary": "一篇关于如何设置闲置Mac电脑，使其能够被Claude Code远程控制的详细指南在社区引发关注，该教程涉及多个来源的讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News 最佳",
+          "link": "https://ykdojo.github.io/claude-controls-mac"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48959308"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1228277"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "中国开源AI模型引发“陷阱”论争",
+      "summary": "《经济学人》的一篇文章提出“中国开源AI是陷阱”的观点，认为其可能隐藏着数据安全或技术依赖风险。这一观点在社区引发了对中国开源模型战略意图的激烈辩论。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://economist.com/international/2026/07/14/when-chinas-open-source-ai-is-a-trap"
+        }
+      ]
+    },
+    {
+      "title": "AI编码代理应追求“更少的自有代码”",
+      "summary": "有观点认为，AI编码代理的优化目标不应是生成更多代码，而应是减少开发者需要长期维护的代码量，这代表了AI辅助编程理念的一种转变。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://openenergytransition.org/posts/ai-coding-agents-should-optimize-for-less-owned-code"
+        }
+      ]
+    }
+  ]
 }
