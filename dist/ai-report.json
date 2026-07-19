@@ -1,145 +1,43 @@
 {
-  "global_brief": "今日AI领域竞争激烈，月之暗面Kimi K3大模型以2.8万亿参数登顶全球榜单，打破美国AI领先的固有认知；同时，社区围绕AI Agent效率、模型使用体验及安全风险展开热议，提示行业正从模型能力比拼转向工程化落地与安全治理。",
+  "global_brief": "过去24小时的重要动态主要集中在：月之暗面 Kimi K3 大模型登顶全球榜单后，彭博社称美国 AI 领先中国固有认知被打破；How to get your site cited by AI assistants；How to use Kimi K3 with an OpenAI-compatible API endpoint。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6287,
-      "event_count": 115
+      "field_score": 6101,
+      "event_count": 108
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1369,
-      "event_count": 33
+      "field_score": 1514,
+      "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 438,
-      "event_count": 11
+      "field_score": 464,
+      "event_count": 12
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 313,
-      "event_count": 7
+      "field_score": 440,
+      "event_count": 10
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 74,
-      "event_count": 2
+      "field_score": 152,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "月之暗面Kimi K3大模型登顶全球榜单",
-      "summary": "月之暗面发布Kimi K3大模型，拥有2.8万亿参数和100万Tokens上下文，在Frontend Code Arena全球榜单中排名第一。彭博社评论称，这打破了美国在AI领域领先中国的固有认知。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/978/670.htm"
-        }
-      ]
-    },
-    {
-      "title": "荣耀发布多模态智能体操作系统AgenticOS",
-      "summary": "荣耀在2026世界人工智能大会上发布新一代伙伴型多模态智能体操作系统AgenticOS，支持多模态交互，将于8月随Robot Phone首发内核。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/978/621.htm"
-        }
-      ]
-    },
-    {
-      "title": "作者Dave Eggers向OpenAI员工批评ChatGPT“沉默一代人”",
-      "summary": "作家Dave Eggers受Sam Altman邀请，向约200名OpenAI员工发表演讲，称ChatGPT正在“沉默整整一代人”。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
-        }
-      ]
-    },
-    {
-      "title": "Google开源3D表情符号并更新Gemini使用费率",
-      "summary": "Google宣布开源其3D表情符号，并更新了Gemini的使用费率及追踪方式。",
-      "references": [
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/design/967606/google-open-source-3d-emoji"
-        }
-      ]
-    },
-    {
-      "title": "中国对AI伴侣应用进行大规模整治",
-      "summary": "据报道，中国正在对AI伴侣应用进行大规模整治，导致数百万用户被迫与AI“分手”。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://abc.net.au/news/2026-07-19/china-cracks-down-on-artificial-intelligence-companions/106925352"
-        }
-      ]
-    },
-    {
-      "title": "研究显示AI尚未在挪威取代年轻求职者",
-      "summary": "一项在挪威进行的研究表明，AI目前尚未导致年轻求职者被取代，但未来仍存在不确定性。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://norwegianscitechnews.com/2026/07/ai-is-not-displacing-young-job-seekers-yet"
-        }
-      ]
+      "title": "月之暗面总裁张予彤：Kimi K3 发布 次日 ARR 创下历史最大单日增幅",
+      "summary": "月之暗面总裁张予彤：Kimi K3 发布 次日 ARR 创下历史最大单日增幅；时间：2026-07-19T08:44:39.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI Agent效率优化成为社区焦点",
-      "summary": "多个社区项目（如FlexInference LLM Router、Flightwake、Synapse）及用户自研架构均聚焦于降低AI Agent的推理成本、减少Token消耗和提升工作流稳定性，表明行业正从模型能力竞赛转向工程化效率优化。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://flexinference.com/"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/kaiwutech-TW/flightwake"
-        },
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/nrkoka786/synapse"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1228293"
-        }
-      ]
-    },
-    {
-      "title": "提示注入攻击正成为AI Agent安全的主要威胁",
-      "summary": "社区讨论指出，提示注入攻击正在有效挫败AI黑客代理，防御方也开始利用该技术进行反击，提示注入已成为AI Agent安全领域攻防双方的核心战场。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too"
-        }
-      ]
-    },
-    {
-      "title": "Claude的使用体验引发用户强烈不满",
-      "summary": "有用户公开抱怨Claude使用体验“痛苦”，认为其反应慢且带有对抗性，这反映出在模型能力提升的同时，用户体验和交互流畅度仍是亟待解决的关键问题。",
-      "references": [
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48964237"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
