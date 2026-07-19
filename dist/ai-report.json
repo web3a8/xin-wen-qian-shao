@@ -1,61 +1,159 @@
 {
-  "global_brief": "今日AI领域持续主导全球科技动态，多模态智能体操作系统与新一代模型成为焦点，同时围绕AI安全、版权及社会影响的讨论也显著升温。荣耀发布AgenticOS操作系统，Kimi新版本引发关注，而OpenAI内部关于AI“沉默一代”的批评与AI伴侣监管等议题则凸显了技术发展的复杂面向。",
+  "global_brief": "月之暗面发布2.8万亿参数Kimi K3大模型并登顶全球榜单，引发关于中美AI竞争格局的讨论；荣耀发布多模态智能体操作系统AgenticOS，推动AI终端落地；社区热议AI编码Agent效率优化与Prompt注入攻击防御。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5552,
-      "event_count": 105
+      "field_score": 6700,
+      "event_count": 122
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1130,
-      "event_count": 28
+      "field_score": 1053,
+      "event_count": 26
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 351,
-      "event_count": 9
+      "field_score": 441,
+      "event_count": 11
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 320,
+      "field_score": 300,
       "event_count": 6
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 39,
-      "event_count": 1
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 115,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "荣耀发布新一代伙伴型多模态智能体操作系统 AgenticOS",
-      "summary": "荣耀在2026世界人工智能大会上正式发布AgenticOS，这是一款多模态智能体操作系统，将于8月在Robot Phone上首发内核。",
+      "title": "月之暗面发布Kimi K3大模型，登顶全球榜单",
+      "summary": "月之暗面于周四发布Kimi K3大模型，拥有2.8万亿参数和100万Tokens上下文，在Frontend Code Arena全球AI大模型榜单中登顶。彭博社评论称，这打破了美国AI领先中国的固有认知。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/670.htm"
+        }
+      ]
+    },
+    {
+      "title": "荣耀发布多模态智能体操作系统AgenticOS",
+      "summary": "荣耀在2026世界人工智能大会上正式发布新一代伙伴型多模态智能体操作系统AgenticOS，该系统支持多模态交互，将于8月首发于Robot Phone。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/978/621.htm"
         }
       ]
+    },
+    {
+      "title": "作者Dave Eggers警告OpenAI员工ChatGPT正在“沉默一代人”",
+      "summary": "作家Dave Eggers应OpenAI CEO Sam Altman邀请，向约200名OpenAI员工发表演讲，称ChatGPT正在“沉默一代人”。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/607.htm"
+        }
+      ]
+    },
+    {
+      "title": "中国打击AI伴侣应用，迫使数百万用户“分手”",
+      "summary": "中国开始对AI伴侣应用进行打击，导致数百万用户被迫与虚拟伴侣“分手”。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://abc.net.au/news/2026-07-19/china-cracks-down-on-artificial-intelligence-companions/106925352"
+        }
+      ]
+    },
+    {
+      "title": "提示注入攻击正挫败AI黑客代理",
+      "summary": "安全领域出现新趋势，提示注入攻击被用于防御，正在挫败AI驱动的黑客代理。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too"
+        }
+      ]
+    },
+    {
+      "title": "社区开发者提出新Agent架构，减少80%长编码任务开销",
+      "summary": "有开发者提出一种新的Agent架构，据称能减少长编码任务中80%的LLM往返和Token开销，并提供了基准测试。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1228293"
+        },
+        {
+          "source_name": "Hacker News 首页",
+          "link": "https://codex-resets.com/"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI狂热正在侵蚀全球决策能力",
-      "summary": "有观点认为，当前对AI的狂热正在损害全球范围内的决策质量，导致决策过程变得非理性。",
+      "title": "Kimi K3的登顶标志着中美AI竞争进入新阶段",
+      "summary": "Kimi K3的发布和登顶，结合彭博社的评论，表明中国AI模型在特定基准测试上已具备全球竞争力，挑战了美国在AI领域的传统领先地位。这不仅是技术突破，也引发了地缘政治层面的讨论。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/670.htm"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace"
+        }
+      ]
+    },
+    {
+      "title": "AI Agent工具链正从“导航者”向“记录者”演进，并面临安全挑战",
+      "summary": "社区涌现出如Flightwake（飞行记录器）和Synapse（代码索引器）等工具，表明AI编码Agent的辅助工具正从主动引导转向事后记录与调试。同时，提示注入攻击被用于防御AI黑客代理，揭示了Agent安全性的攻防博弈正在加剧。",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking"
+          "link": "https://github.com/kaiwutech-TW/flightwake"
         },
         {
-          "source_name": "Hacker News",
-          "link": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making"
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/nrkoka786/synapse"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too"
+        }
+      ]
+    },
+    {
+      "title": "用户对Claude的体验抱怨与AI监管收紧形成对比",
+      "summary": "社区用户对Claude的体验表达了强烈不满，认为其“痛苦”、“对抗性强”。与此同时，中国开始打击AI伴侣应用，美国作家也公开批评ChatGPT。这反映出AI产品在用户体验、社会影响和监管层面正面临日益复杂的挑战。",
+      "references": [
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=48964237"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://abc.net.au/news/2026-07-19/china-cracks-down-on-artificial-intelligence-companions/106925352"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/607.htm"
         }
       ]
     }
