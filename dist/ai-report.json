@@ -1,35 +1,35 @@
 {
-  "global_brief": "本周AI领域竞争白热化，国产Kimi K3开源模型登顶全球榜单并引发硅谷论战，同时OpenAI重获投资者青睐，Anthropic仍是热门标的；安全方面，Hugging Face遭自主AI代理入侵，凸显开源生态风险。",
+  "global_brief": "国产Kimi K3开源大模型登顶全球榜单，引发美国硅谷与政界强烈反应，OpenAI高管批评其开源策略但遭多方驳斥，同时白宫正考虑禁止美国人使用Kimi K3等中国AI模型。OpenAI发布长周期AI模型部署安全经验，而Anthropic仍为最受投资者青睐的AI公司。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 24336,
-      "event_count": 415
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1275,
-      "event_count": 32
+      "field_score": 24477,
+      "event_count": 418
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1139,
-      "event_count": 25
+      "field_score": 1186,
+      "event_count": 26
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1111,
+      "event_count": 28
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 549,
+      "field_score": 558,
       "event_count": 11
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 465,
-      "event_count": 9
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 483,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
@@ -64,12 +64,16 @@
       ]
     },
     {
-      "title": "OpenAI 高管批 Kimi K3 开源，硅谷多方驳斥其观点",
-      "summary": "IT之家 7 月 20 日消息，据 Business Insider 报道，每隔一段时间，就会有一家中国企业发布新的 AI 模型，然后引发美国人的恐慌。 上周，中国 AI 公司月之暗面（Moonshot AI）发布 Kimi K3 模型后…；OpenAI 高管批 Kimi K3 开源，硅谷多方驳斥其观点",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and impr…；Safety and alignment in an era of long-horizon models；AWS…",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/979/215.htm"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/safety-alignment-long-horizon-models"
+        },
+        {
+          "source_name": "AWS Blog",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026"
         }
       ]
     }
