@@ -1,47 +1,117 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40%；Building AI Agents That Don't Hallucinate: Structured Workflows, Guardrails, and Per-Step Evaluation；Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metr…",
+  "global_brief": "全球AI大模型进入参数军备竞赛新阶段，阿里巴巴发布2.4万亿参数的Qwen3.8 Max预览版，月之暗面推出2.8万亿参数的Kimi K3，两者均直指Anthropic的Fable 5。与此同时，社区讨论焦点转向AI Agent工具链、模型效率与资源消耗的“杰文斯悖论”，以及AI对科技行业就业安全感的冲击。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6747,
-      "event_count": 120
+      "field_score": 6942,
+      "event_count": 122
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1044,
-      "event_count": 28
+      "field_score": 1407,
+      "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 498,
-      "event_count": 12
+      "field_score": 611,
+      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 332,
-      "event_count": 7
+      "field_score": 233,
+      "event_count": 5
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 159,
+      "field_score": 153,
       "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "阿里 Token Plan 个人版 发布 限时优惠每月 39 元起",
-      "summary": "阿里 Token Plan 个人版 发布 限时优惠每月 39 元起；时间：2026-07-19T11:17:11.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "阿里巴巴发布2.4万亿参数旗舰大模型Qwen3.8 Max预览版",
+      "summary": "阿里巴巴于7月19日发布旗舰大模型Qwen3.8 Max预览版，参数规模高达2.4万亿，官方称其综合能力在全球范围内仅次于Anthropic的Fable 5。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3777381"
+        }
+      ]
     },
     {
-      "title": "月之暗面总裁张予彤：Kimi K3 发布 次日 ARR 创下历史最大单日增幅",
-      "summary": "月之暗面总裁张予彤：Kimi K3 发布 次日 ARR 创下历史最大单日增幅；时间：2026-07-19T08:44:39.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "Kimi K3发布，参数规模达2.8万亿，并暂停C端新用户订阅",
+      "summary": "月之暗面发布Kimi K3模型，拥有2.8万亿参数。为保障已有订阅用户，公司决定即日起暂停C端新用户订阅，将算力全部投入服务现有用户。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3777389"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/808.htm"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/978/821.htm"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/charts/41959430"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI减少Codex模型上下文窗口大小",
+      "summary": "OpenAI在GitHub上提交代码，将Codex模型的上下文窗口大小从372k减少至272k。",
+      "references": [
+        {
+          "source_name": "Hacker News 最佳",
+          "link": "https://github.com/openai/codex/pull/33972/files"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1228480"
+        }
+      ]
+    },
+    {
+      "title": "社区讨论AI Agent工具链，包括本地化笔记搜索与系统思维框架",
+      "summary": "Hacker News上出现多个AI Agent相关工具，包括使Obsidian知识库对AI Agent可搜索的本地优先CLI工具，以及为AI Agent提供系统思维技能的Dart Framework。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/nmdra/notebrain-cli"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/asofyan/dart-framework"
+        }
+      ]
+    },
+    {
+      "title": "社区热议AI对科技行业就业安全感的冲击",
+      "summary": "一篇题为“Tech Workers Face Evaporating Financial Security as AI Transforms Industry”的文章在Hacker News引发讨论，关注AI转型对科技从业者财务安全感的侵蚀。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://adn.com/nation-world/2026/07/19/the-biggest-winners-of-the-american-economy-fear-theyre-sinking-fast"
+        }
+      ]
+    },
+    {
+      "title": "社区讨论AI入侵事件：从Hugging Face泄露事件中吸取教训",
+      "summary": "一篇分析文章指出，自主AI入侵已成为现实，并从Hugging Face的泄露事件中总结了安全教训。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://embracethered.com/blog/posts/2026/ai-intrusion-are-now-real"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
