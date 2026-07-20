@@ -1,118 +1,67 @@
 {
-  "global_brief": "全球AI大模型进入参数军备竞赛新阶段，阿里巴巴发布2.4万亿参数的Qwen3.8 Max预览版，月之暗面推出2.8万亿参数的Kimi K3，两者均直指Anthropic的Fable 5。与此同时，社区讨论焦点转向AI Agent工具链、模型效率与资源消耗的“杰文斯悖论”，以及AI对科技行业就业安全感的冲击。",
+  "global_brief": "全球AI大模型领域进入新一轮参数军备竞赛，阿里巴巴、月之暗面等厂商相继发布万亿参数级旗舰模型，同时Hugging Face遭遇首次由自主AI智能体发起的网络攻击，凸显了AI安全与模型能力同步升级的紧迫性。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6942,
-      "event_count": 122
+      "field_score": 24790,
+      "event_count": 404
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1407,
-      "event_count": 35
+      "field_score": 1374,
+      "event_count": 34
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 611,
-      "event_count": 15
+      "field_score": 1100,
+      "event_count": 24
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 233,
-      "event_count": 5
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 608,
+      "event_count": 12
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 153,
-      "event_count": 3
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 480,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "阿里巴巴发布2.4万亿参数旗舰大模型Qwen3.8 Max预览版",
-      "summary": "阿里巴巴于7月19日发布旗舰大模型Qwen3.8 Max预览版，参数规模高达2.4万亿，官方称其综合能力在全球范围内仅次于Anthropic的Fable 5。",
+      "title": "阿里巴巴发布2.4万亿参数旗舰模型Qwen3.8 Max预览版",
+      "summary": "阿里巴巴于7月19日发布旗舰大模型Qwen3.8 Max预览版，参数规模达2.4万亿，官方称其综合能力在全球范围内仅次于Anthropic的Fable 5和Kimi K3。",
       "references": [
         {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3777381"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "Kimi K3发布，参数规模达2.8万亿，并暂停C端新用户订阅",
-      "summary": "月之暗面发布Kimi K3模型，拥有2.8万亿参数。为保障已有订阅用户，公司决定即日起暂停C端新用户订阅，将算力全部投入服务现有用户。",
+      "title": "大模型参数军备竞赛加剧，开源与闭源路线之争白热化",
+      "summary": "阿里Qwen3.8、月之暗面Kimi K3等万亿参数级模型的密集发布，以及OpenAI高管对Kimi开源策略的公开批评，表明全球AI巨头正围绕模型规模和开放程度展开激烈竞争，开源可能成为影响资本流向和行业格局的关键变量。",
       "references": [
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3777389"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1672471"
         },
         {
           "source_name": "IT之家",
-          "link": "https://ithome.com/0/978/808.htm"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/978/821.htm"
+          "link": "https://ithome.com/0/978/956.htm"
         },
         {
           "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/charts/41959430"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI减少Codex模型上下文窗口大小",
-      "summary": "OpenAI在GitHub上提交代码，将Codex模型的上下文窗口大小从372k减少至272k。",
-      "references": [
-        {
-          "source_name": "Hacker News 最佳",
-          "link": "https://github.com/openai/codex/pull/33972/files"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1228480"
-        }
-      ]
-    },
-    {
-      "title": "社区讨论AI Agent工具链，包括本地化笔记搜索与系统思维框架",
-      "summary": "Hacker News上出现多个AI Agent相关工具，包括使Obsidian知识库对AI Agent可搜索的本地优先CLI工具，以及为AI Agent提供系统思维技能的Dart Framework。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/nmdra/notebrain-cli"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/asofyan/dart-framework"
-        }
-      ]
-    },
-    {
-      "title": "社区热议AI对科技行业就业安全感的冲击",
-      "summary": "一篇题为“Tech Workers Face Evaporating Financial Security as AI Transforms Industry”的文章在Hacker News引发讨论，关注AI转型对科技从业者财务安全感的侵蚀。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://adn.com/nation-world/2026/07/19/the-biggest-winners-of-the-american-economy-fear-theyre-sinking-fast"
-        }
-      ]
-    },
-    {
-      "title": "社区讨论AI入侵事件：从Hugging Face泄露事件中吸取教训",
-      "summary": "一篇分析文章指出，自主AI入侵已成为现实，并从Hugging Face的泄露事件中总结了安全教训。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://embracethered.com/blog/posts/2026/ai-intrusion-are-now-real"
+          "link": "https://wallstreetcn.com/articles/3777381"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
