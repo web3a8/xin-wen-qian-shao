@@ -1,42 +1,46 @@
 {
-  "global_brief": "谷歌发布Gemini 3.6 Flash及网络安全专用模型，月之暗面Kimi首次回应K3外界关切，同时社区涌现大量LLM代理工具与推理优化项目，AI领域竞争持续白热化。",
+  "global_brief": "谷歌今日发布 Gemini 3.6 Flash、3.5 Flash-Lite 及专攻网络安全的 3.5 Flash Cyber 三款新模型，同时预告正在训练 Gemini 4。OpenAI 推出面向小企业的 ChatGPT 计划，月之暗面 Kimi 首次公开回应其开源大模型 K3 的关切。社区侧则涌现多个聚焦 LLM 代理安全、上下文监控与评估的工具项目。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48762,
-      "event_count": 824
+      "field_score": 48597,
+      "event_count": 821
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2107,
-      "event_count": 46
+      "field_score": 2186,
+      "event_count": 48
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1351,
+      "field_score": 1339,
       "event_count": 32
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 873,
-      "event_count": 15
     },
     {
       "field_key": "world",
       "field_name": "World",
       "field_score": 827,
       "event_count": 17
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 781,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "谷歌发布Gemini 3.6 Flash及三款新AI模型",
-      "summary": "谷歌正式推出Gemini 3.6 Flash、3.5 Flash-Lite以及专门针对网络安全优化的Gemini 3.5 Flash Cyber，旨在提供更便宜的安全模型替代方案。",
+      "title": "谷歌发布 Gemini 3.6 Flash 及网络安全专用模型",
+      "summary": "谷歌 DeepMind 宣布推出 Gemini 3.6 Flash、3.5 Flash-Lite 以及专门用于发现和修复软件漏洞的 Gemini 3.5 Flash Cyber 三款新 AI 模型，并透露正在训练 Gemini 4。",
       "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html"
+        },
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model"
@@ -50,118 +54,32 @@
           "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber"
         },
         {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro"
+        },
+        {
           "source_name": "华尔街见闻最新资讯",
           "link": "https://wallstreetcn.com/articles/3777594"
-        }
-      ]
-    },
-    {
-      "title": "Kimi首次回应K3外界关切",
-      "summary": "月之暗面Kimi在北京媒体交流活动中，首次全面回应了关于其开源大模型K3的疑问，该模型总参数2.8万亿，具备100万上下文窗口。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3777588"
-        }
-      ]
-    },
-    {
-      "title": "Kimi K3在代码评测中登顶，并获开发者集成教程",
-      "summary": "Kimi K3在发布当周即登顶Arena前端代码评测榜首，开发者社区已发布如何将其与Claude Code、Cursor和Cline等工具集成的教程。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/smakosh/how-to-use-kimi-k3-with-claude-code-cursor-and-cline-1dpi"
-        }
-      ]
-    },
-    {
-      "title": "开源LLM在2026年已非廉价选择",
-      "summary": "有分析指出，2026年的开源LLM已不再是预算选项，Kimi K3的性能已与Claude Opus 4等顶级闭源模型持平。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/smakosh/9-best-open-source-llms-in-2026-compared-29p2"
-        }
-      ]
-    },
-    {
-      "title": "社区热议AI成本节约与代理工具",
-      "summary": "Hacker News上出现多个热门讨论，包括对AI成本节约声明的基准测试、用于在速率限制前暂停LLM代理的工具Agentpause，以及用于追踪代理上下文使用情况的Context Spy。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/lemoncrow-lab/lemoncrow"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Champoleello/agentpause"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/RimantasZ/contextspy"
-        }
-      ]
-    },
-    {
-      "title": "多项研究聚焦LLM代理评估与推理优化",
-      "summary": "多篇学术论文发布，包括用于评估代理长上下文推理能力的RECON基准、用于多轮证据阅读代理的CIGPO优化策略，以及用于LLM代理离线策略评估的自回归扩散世界模型。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.16716"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.16244"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2606.05558"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "开源模型崛起加剧AI安全与地缘政治博弈",
-      "summary": "OpenAI对开源权重模型表示担忧，美国国内也出现关于是否应禁止中国开源LLM的讨论，这揭示了将AI安全担忧转化为具体监管政策的挑战。同时，谷歌推出更便宜的网络安全专用模型，也反映出市场对成本效益更高的AI安全方案的需求。",
+      "title": "谷歌发布专用安全模型凸显 AI 安全应用垂直化趋势",
+      "summary": "谷歌推出 Gemini 3.5 Flash Cyber 表明，大型 AI 公司正从通用模型转向针对特定高价值领域（如网络安全）的专用模型，这可能会催生更高效、成本更低的行业解决方案。",
       "references": [
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be"
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html"
         },
         {
           "source_name": "The Verge",
           "link": "https://theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model"
-        }
-      ]
-    },
-    {
-      "title": "AI代理工具生态正从“能用”转向“可观测与可控”",
-      "summary": "社区涌现出大量旨在提升LLM代理可观测性和控制性的工具，如Agentpause（暂停代理）、Context Spy（追踪上下文）和Genesys（因果图记忆），这表明开发者正从追求代理能力转向解决其在实际部署中的可靠性、成本和安全问题。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Champoleello/agentpause"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/RimantasZ/contextspy"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/Astrix-Labs/genesys"
-        }
-      ]
-    },
-    {
-      "title": "AI模型API的“黑箱”问题引发开发者不满",
-      "summary": "有开发者批评主流AI API仅提供一个标签（如gpt-5.5、claude-opus-4.8）让用户相信其性能，而缺乏透明度。这反映了随着模型数量激增，开发者对模型能力可验证性和可比较性的需求日益增长。",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/antseedai/most-ai-apis-hand-you-a-label-and-ask-you-to-believe-it-8b"
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing"
         }
       ]
     }
