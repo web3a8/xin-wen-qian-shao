@@ -1,177 +1,78 @@
 {
-  "global_brief": "全球AI领域竞争持续升温，模型安全与部署风险成为焦点。日本Sakana AI发布网络安全专用模型Fugu Cyber，在特定基准上超越GPT-5.5-Cyber；OpenAI则分享了长周期AI模型部署的安全经验。同时，中美AI博弈加剧，美国被曝拟重启对华AI模型禁令，中国则考虑收紧AI模型与芯片出口管制，并建成首个全国产芯片的千兆瓦级数据中心。",
+  "global_brief": "过去24小时，AI领域研究密集发布，重点集中在LLM智能体（Agent）的评估、推理与部署优化，同时社区围绕开源模型安全、多智能体协作工具以及中国AI模型（如Kimi K3）的监管动态展开了激烈讨论。多篇论文提出了针对智能体记忆、世界模型和代码优化的新基准与方法，而业界则关注推理基础设施的融资与模型间竞争。 [FACT] TITLE: RECON基准测试发布，评估智能体在长上下文中的组合推理记忆能力 SUMMARY: 一项名为RECON的新基准被提出，用于评估大语言模型（LLM）智能体在长上下文场景下进行组合推理时的记忆能力。 SCORE: 7…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 50780,
-      "event_count": 814
+      "field_score": 49406,
+      "event_count": 818
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1878,
-      "event_count": 40
+      "field_score": 2163,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1295,
-      "event_count": 30
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 995,
-      "event_count": 19
+      "field_score": 1563,
+      "event_count": 37
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 883,
+      "field_score": 863,
       "event_count": 17
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 724,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "Sakana AI 发布网络安全模型 Fugu Cyber",
-      "summary": "日本AI初创公司Sakana AI发布了专为网络防御设计的Fugu Cyber模型。该模型在CyberGym等安全基准测试中表现卓越，据称优于GPT-5.5-Cyber。",
+      "title": "RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts",
+      "summary": "arXiv:2607.16716v1 Announce Type: new Abstract: Large language models and LLM-based agents are widely used as personal…；RECON: Benchmarking Agent Memory for Compositional Reasonin…",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/979/495.htm"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.16716"
         }
       ]
     },
     {
-      "title": "OpenAI 分享长周期AI模型部署的安全经验",
-      "summary": "OpenAI发布了一份关于部署长周期运行AI模型的报告，重点阐述了新的安全风险、观察到的失败模式以及改进措施。",
+      "title": "CIGPO: Contextual Information-Gain Policy Optimization for Multi-Turn Evidence-Reading LLM Agents",
+      "summary": "arXiv:2607.16244v1 Announce Type: cross Abstract: Training multi-turn evidence-reading agents with outcome-only reinfor…；CIGPO: Contextual Information-Gain Policy Optimization for…",
       "references": [
         {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/safety-alignment-long-horizon-models"
-        },
-        {
-          "source_name": "AWS Blog",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.16244"
         }
       ]
     },
     {
-      "title": "美国拟重启对华AI模型禁令，涉及Kimi K3",
-      "summary": "据报道，特朗普政府正考虑重启对部分中国AI模型的禁令，其中点名了Kimi K3模型。",
+      "title": "An Explicit World Model Based on Data-First Ontology: DaoQL Multimodal Storage Validation and Counterfactual Reasoning…",
+      "summary": "An Explicit World Model Based on Data-First Ontology: DaoQL Multimodal Storage Validation and Counterfactual Reasoning…；arXiv:2607.17269v1 Announce Type: new Abstract: Large langu…",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/trump-administration-reportedly-reviving-push-to-ban-chinese-ai-models-following-kimi-k3-launch-citing-cybersecurity-concerns-downloadable-open-weights-could-make-an-outright-u-s-ban-nearly-impossibl…"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.17269"
         }
       ]
     },
     {
-      "title": "中国Z.ai建成全国产芯片的千兆瓦级AI数据中心",
-      "summary": "中国AI公司Z.ai宣布建成一座1千兆瓦的AI数据中心，该中心完全采用国产芯片。",
+      "title": "Autoregressive Diffusion World Models for Off-Policy Evaluation of LLM Agents",
+      "summary": "arXiv:2606.05558v2 Announce Type: replace Abstract: Evaluating large language model (LLM) agents in multi-turn interact…；Autoregressive Diffusion World Models for Off-Policy Evalu…",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://finance.yahoo.com/technology/ai/articles/chinas-z-ai-completes-1-205515769.html"
-        }
-      ]
-    },
-    {
-      "title": "中国考虑收紧AI模型与芯片出口管制",
-      "summary": "据英国《金融时报》报道，中国正在权衡对AI模型和芯片实施更严格的出口管制措施。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a"
-        }
-      ]
-    },
-    {
-      "title": "大模型7月激战：国产性能攀升，海外巨头开启价格战",
-      "summary": "当前全球前沿模型竞争格局焦灼，Google、Anthropic、OpenAI等巨头交替领先，同时海外市场已开启价格战。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/member/articles/3776757"
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2606.05558"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI定价模式或将迎来颠覆性变革",
-      "summary": "OpenAI董事长Bret Taylor预测，随着AI市场成熟，企业将无需管理Token，AI服务将转向“按结果付费”模式，这可能在一年内颠覆现有的Token付费模式。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3777531"
-        }
-      ]
-    },
-    {
-      "title": "中美AI博弈加剧，供应链与市场面临双重压力",
-      "summary": "美国拟重启对华AI模型禁令与中国考虑收紧出口管制，叠加中国建成全国产芯片数据中心，表明中美在AI领域的脱钩趋势正从芯片向模型和应用层面蔓延，全球AI供应链和市场格局面临重塑。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://tomshardware.com/tech-industry/artificial-intelligence/trump-administration-reportedly-reviving-push-to-ban-chinese-ai-models-following-kimi-k3-launch-citing-cybersecurity-concerns-downloadable-open-weights-could-make-an-outright-u-s-ban-nearly-impossibl…"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://finance.yahoo.com/technology/ai/articles/chinas-z-ai-completes-1-205515769.html"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a"
-        }
-      ]
-    },
-    {
-      "title": "开发者社区对AI Agent工具链的“配额管理”与“多模型路由”需求旺盛",
-      "summary": "社区涌现出Claudexor、Relay、LLMrPro等多个旨在解决AI Agent配额限制、实现多模型智能路由的开源项目，反映出开发者对灵活、高效且成本可控的Agent工具链有强烈需求。",
-      "references": [
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/razzant/claudexor"
-        },
-        {
-          "source_name": "Hacker News Ask",
-          "link": "https://news.ycombinator.com/item?id=48983245"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1228795"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/Gysho/LLMrPro"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/llmrelay/relay"
-        }
-      ]
-    },
-    {
-      "title": "中国AI模型崛起引发美国内部政策分歧",
-      "summary": "中国AI模型的快速发展，如Kimi K3，正在美国AI界引发激烈争论，导致特朗普政府内部在是否以及如何限制中国AI的问题上出现分歧。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself"
-        }
-      ]
-    },
-    {
-      "title": "现有编码基准测试与Agentic软件工程实践脱节",
-      "summary": "一篇研究论文指出，当前的编码基准测试未能有效反映Agentic软件工程的实际需求，暗示需要开发更贴近真实开发场景的评估体系。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2606.17799"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
