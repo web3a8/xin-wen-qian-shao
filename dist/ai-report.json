@@ -1,87 +1,78 @@
 {
-  "global_brief": "谷歌今日发布 Gemini 3.6 Flash、3.5 Flash-Lite 及专攻网络安全的 3.5 Flash Cyber 三款新模型，同时预告正在训练 Gemini 4。OpenAI 推出面向小企业的 ChatGPT 计划，月之暗面 Kimi 首次公开回应其开源大模型 K3 的关切。社区侧则涌现多个聚焦 LLM 代理安全、上下文监控与评估的工具项目。",
+  "global_brief": "谷歌发布 Gemini 3.6 Flash 及网络安全专用模型，同时 Anthropic 的 15 亿美元版权和解获批，AI 行业在模型迭代与法律合规方面均有重大进展。Kimi 首次公开回应其开源大模型 K3 的规划，而社区则涌现出大量针对 LLM 代理的实用工具与讨论。 [FACT] TITLE: 谷歌发布 Gemini 3.6 Flash 及网络安全专用模型 SUMMARY: 谷歌 DeepMind 宣布推出三款新 AI 模型，包括性能最强的 Gemini 3.6 Flash、针对网络安全优化的 Gemini 3.5 Flash Cyber 以及轻…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48597,
-      "event_count": 821
+      "field_score": 47900,
+      "event_count": 815
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2186,
-      "event_count": 48
+      "field_score": 2207,
+      "event_count": 49
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1339,
+      "field_score": 1315,
       "event_count": 32
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 827,
-      "event_count": 17
+      "field_score": 790,
+      "event_count": 16
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 781,
-      "event_count": 14
+      "field_score": 741,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "谷歌发布 Gemini 3.6 Flash 及网络安全专用模型",
-      "summary": "谷歌 DeepMind 宣布推出 Gemini 3.6 Flash、3.5 Flash-Lite 以及专门用于发现和修复软件漏洞的 Gemini 3.5 Flash Cyber 三款新 AI 模型，并透露正在训练 Gemini 4。",
+      "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
+      "summary": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities；Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized arti…",
       "references": [
         {
           "source_name": "The Hacker News",
           "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Introducing the ChatGPT for small business program",
+      "summary": "Introducing the ChatGPT for small business program；OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and gro…",
+      "references": [
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model"
-        },
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/introducing-chatgpt-small-business-program"
+        }
+      ]
+    },
+    {
+      "title": "谷歌发布三款新 AI 模型，含 Gemini 3.6 Flash、3.5 Flash Cyber",
+      "summary": "IT之家 7 月 21 日消息，谷歌今日发布了三款新的人工智能模型，包括性能最强的 Gemini 3.6 Flash，以及专门针对网络安全优化的 Gemini 3.5 Flash Cyber。 谷歌希望借此在前沿 AI 模型和网络安全领域…；谷歌发布三款新 AI 模型，含 Gemini 3.6 Flash、3.5 Flash Cyber",
+      "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/979/795.htm"
-        },
-        {
-          "source_name": "Google DeepMind",
-          "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Kimi首次回应K3外界关切",
+      "summary": "7月21日，月之暗面Kimi在北京办公区举行媒体交流活动。活动上，围绕备受关注的K3与月之暗面后续的商业规划，月之暗面企业业务负责人黄震昕首次进行了全面回应。 就在四天前，Kimi官宣发布全新开源大模型K3，总参数2.8万亿，具备100万…；Kimi首次回应K3外界关切",
+      "references": [
         {
           "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3777594"
+          "link": "https://wallstreetcn.com/articles/3777588"
         }
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "谷歌发布专用安全模型凸显 AI 安全应用垂直化趋势",
-      "summary": "谷歌推出 Gemini 3.5 Flash Cyber 表明，大型 AI 公司正从通用模型转向针对特定高价值领域（如网络安全）的专用模型，这可能会催生更高效、成本更低的行业解决方案。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
