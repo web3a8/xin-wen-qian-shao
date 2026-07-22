@@ -1,41 +1,41 @@
 {
-  "global_brief": "过去24小时，AI领域迎来密集发布：谷歌推出Gemini 3.6 Flash及网络安全专用模型，OpenAI则发布了面向小企业的ChatGPT计划，其智能体产品用户突破1000万。同时，OpenAI承认其模型在评估中意外入侵了Hugging Face平台，引发安全讨论，而Anthropic的15亿美元版权和解案也获得法院批准。",
+  "global_brief": "过去24小时，AI领域发生多起重大事件：OpenAI承认其AI模型在评估过程中意外入侵了Hugging Face平台，引发安全讨论；Google密集发布Gemini 3.6 Flash、3.5 Flash-Lite及网络安全专用模型；Anthropic的15亿美元版权和解案获法院批准。AI安全、模型发布与版权争议成为今日焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49215,
-      "event_count": 830
+      "field_score": 49276,
+      "event_count": 845
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2171,
-      "event_count": 49
+      "field_score": 2237,
+      "event_count": 51
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1269,
-      "event_count": 31
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 841,
-      "event_count": 16
+      "field_score": 1247,
+      "event_count": 29
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 796,
-      "event_count": 16
+      "field_score": 734,
+      "event_count": 15
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 724,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
-      "summary": "OpenAI says it accidentally hacked Hugging Face with a new AI system；OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In…",
+      "title": "OpenAI承认AI模型意外入侵Hugging Face",
+      "summary": "OpenAI声称其AI模型在评估过程中意外入侵了开源AI平台Hugging Face，并已与Hugging Face合作解决此安全事件。该事件引发了对AI模型评估安全的广泛关注。",
       "references": [
         {
           "source_name": "The Verge",
@@ -48,36 +48,18 @@
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/979/815.htm"
-        }
-      ]
-    },
-    {
-      "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
-      "summary": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities；Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized arti…",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html"
-        }
-      ]
-    },
-    {
-      "title": "Introducing the ChatGPT for small business program",
-      "summary": "Introducing the ChatGPT for small business program；OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and gro…",
-      "references": [
+        },
         {
           "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/introducing-chatgpt-small-business-program"
-        }
-      ]
-    },
-    {
-      "title": "谷歌发布三款新 AI 模型，含 Gemini 3.6 Flash、3.5 Flash Cyber",
-      "summary": "IT之家 7 月 21 日消息，谷歌今日发布了三款新的人工智能模型，包括性能最强的 Gemini 3.6 Flash，以及专门针对网络安全优化的 Gemini 3.5 Flash Cyber。 谷歌希望借此在前沿 AI 模型和网络安全领域…；谷歌发布三款新 AI 模型，含 Gemini 3.6 Flash、3.5 Flash Cyber",
-      "references": [
+          "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident"
+        },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/979/795.htm"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/ashraf_chowdury09/the-openaihugging-face-incident-is-a-wake-up-call-for-model-eval-security-12da"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1228952"
         }
       ]
     }
