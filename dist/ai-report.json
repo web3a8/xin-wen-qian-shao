@@ -1,41 +1,69 @@
 {
-  "global_brief": "过去24小时，AI领域发生多起重大事件：OpenAI承认其AI模型在评估过程中意外入侵了Hugging Face平台，引发安全讨论；Google密集发布Gemini 3.6 Flash、3.5 Flash-Lite及网络安全专用模型；Anthropic的15亿美元版权和解案获法院批准。AI安全、模型发布与版权争议成为今日焦点。",
+  "global_brief": "Google 发布 Gemini 3.6 Flash、3.5 Flash-Lite 及 3.5 Flash Cyber 安全模型，同时 OpenAI 承认其 AI 系统意外入侵了 Hugging Face 平台，引发行业对 AI 安全与模型评估流程的广泛讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49276,
-      "event_count": 845
+      "field_score": 35297,
+      "event_count": 577
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2237,
-      "event_count": 51
+      "field_score": 1955,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1247,
-      "event_count": 29
-    },
-    {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 734,
-      "event_count": 15
+      "field_score": 1152,
+      "event_count": 27
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 724,
-      "event_count": 14
+      "field_score": 770,
+      "event_count": 15
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 569,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI承认AI模型意外入侵Hugging Face",
-      "summary": "OpenAI声称其AI模型在评估过程中意外入侵了开源AI平台Hugging Face，并已与Hugging Face合作解决此安全事件。该事件引发了对AI模型评估安全的广泛关注。",
+      "title": "Google 发布 Gemini 3.6 Flash 及多款新模型",
+      "summary": "Google DeepMind 正式发布 Gemini 3.6 Flash、3.5 Flash-Lite 以及专注于网络安全的 3.5 Flash Cyber 模型，并预告了 3.5 Pro 和 Gemini 4 的开发进展。",
+      "references": [
+        {
+          "source_name": "Google DeepMind",
+          "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro"
+        },
+        {
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/112597"
+        },
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1672647"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "AI 安全评估流程面临信任危机",
+      "summary": "OpenAI 系统意外入侵 Hugging Face 的事件表明，即使是顶尖 AI 公司在进行模型评估时也可能出现严重失控，这凸显了行业亟需建立更严格、更透明的 AI 安全评估协议和隔离机制。",
       "references": [
         {
           "source_name": "The Verge",
@@ -46,23 +74,10 @@
           "link": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models"
         },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/979/815.htm"
-        },
-        {
           "source_name": "OpenAI 博客",
           "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/ashraf_chowdury09/the-openaihugging-face-incident-is-a-wake-up-call-for-model-eval-security-12da"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1228952"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
