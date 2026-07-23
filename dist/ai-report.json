@@ -1,47 +1,93 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Launching Health in ChatGPT；Google just had its first negative cash flow quarter due to massive AI spending；For What Reason? Interpreting Models' Encoding of Causation and Antithesis。",
+  "global_brief": "过去24小时，AI领域动态密集：OpenAI推出ChatGPT健康功能，Anthropic升级Claude语音模式，同时Google因AI巨额支出首次出现负现金流季度。安全方面，OpenAI意外攻击Hugging Face事件引发行业对AI军备竞赛的反思，Anthropic的Claude Cowork也被曝存在沙箱逃逸漏洞。 [FACT] TITLE: OpenAI向所有美国用户推出ChatGPT Health功能 SUMMARY: OpenAI宣布ChatGPT Health向所有美国用户开放，允许用户安全连接医疗记录和Apple Health数据，…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 38171,
-      "event_count": 667
+      "field_score": 39105,
+      "event_count": 679
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2238,
-      "event_count": 48
+      "field_score": 2105,
+      "event_count": 46
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1287,
+      "field_score": 1269,
       "event_count": 32
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 604,
-      "event_count": 12
+      "field_score": 643,
+      "event_count": 13
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 499,
-      "event_count": 10
+      "field_score": 533,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI is making big claims as it 发布 ChatGPT Health to everyone",
-      "summary": "OpenAI is making big claims as it 发布 ChatGPT Health to everyone；时间：2026-07-23T17:10:27.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "Anthropic updates Claude voice mode with more capable models",
+      "summary": "Anthropic updates Claude voice mode with more capable models；Claude's new voice model will let you reschedule your meeting or draft an email.；Claude’s voice mode is now available…",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai"
+        }
+      ]
     },
     {
-      "title": "RoboInspector 发布 the Unreliability of Policy Code for LLM-enabled Robotic Manipulation",
-      "summary": "RoboInspector 发布 the Unreliability of Policy Code for LLM-enabled Robotic Manipulation；时间：2026-07-23T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Launching Health in ChatGPT",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personaliz…；Launching Health in ChatGPT",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/health-in-chatgpt"
+        }
+      ]
+    },
+    {
+      "title": "Google just had its first negative cash flow quarter due to massive AI spending",
+      "summary": "Google continues to report big quarterly revenue, but its AI spending has skyrocketed.；Google just had its first negative cash flow quarter due to massive AI spending；Google Adds…",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/23/google-will-now-let-you-sign-in-to-your-account-with-a-selfie-video"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/eu-fines-google-billion-prioritizing-own-services-in-search"
+        }
+      ]
+    },
+    {
+      "title": "For What Reason? Interpreting Models' Encoding of Causation and Antithesis",
+      "summary": "arXiv:2607.18570v1 Announce Type: cross Abstract: Discourse relations provide document structure, critical to language…；For What Reason? Interpreting Models' Encoding of Causation…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.18570"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
