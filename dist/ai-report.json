@@ -1,23 +1,23 @@
 {
-  "global_brief": "Google 因巨额 AI 支出首次出现季度负现金流，引发市场对科技巨头 AI 投资回报率的担忧。与此同时，OpenAI 正式向美国用户推出 ChatGPT Health 功能，允许连接医疗记录，并披露了一起针对 Hugging Face 的意外网络攻击事件。Anthropic 则更新了 Claude 的语音模式，并曝出其 Cowork 功能存在沙箱逃逸漏洞。",
+  "global_brief": "过去24小时，AI领域动态密集：谷歌因内部士气与军方合作争议导致旗舰大模型难产，同时其因巨额AI投入首次出现负现金流季度；Anthropic更新了Claude语音模式，但其Agent产品被曝存在沙箱逃逸漏洞；多篇研究论文聚焦LLM安全、Agent框架与评估基准，行业对AI安全与商业可持续性的关注持续升温。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 39382,
-      "event_count": 681
+      "field_score": 37678,
+      "event_count": 659
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1971,
-      "event_count": 43
+      "field_score": 1713,
+      "event_count": 37
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1135,
-      "event_count": 29
+      "field_score": 1080,
+      "event_count": 27
     },
     {
       "field_key": "science",
@@ -28,39 +28,31 @@
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 391,
+      "field_score": 387,
       "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "Google 因 AI 巨额支出首次出现季度负现金流",
-      "summary": "谷歌母公司 Alphabet 报告了巨额季度营收，但其 AI 基础设施支出激增，导致公司首次出现季度负现金流。",
+      "title": "谷歌旗舰大模型因内部争议难产",
+      "summary": "据Axios报道，六位现任及前任谷歌DeepMind员工透露，员工士气低落，部分源于与军方的合作，是导致谷歌推迟发布其最强大模型Gemini的原因之一，内部感叹已落后于Meta等竞争对手。",
       "references": [
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending"
-        },
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/23/google-will-now-let-you-sign-in-to-your-account-with-a-selfie-video"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/eu-fines-google-billion-prioritizing-own-services-in-search"
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/980/911.htm"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 军备竞赛的代价与风险日益显现",
-      "summary": "谷歌因 AI 支出出现负现金流，以及 OpenAI 的意外网络攻击事件，共同表明 AI 领域的激烈竞争正带来巨大的财务压力和前所未有的安全风险，行业可能需要重新审视其发展策略。",
+      "title": "谷歌困境凸显AI巨头内部文化冲突与商业压力",
+      "summary": "谷歌旗舰模型难产与首次负现金流的双重打击，揭示了AI巨头在追求技术前沿时面临的内部文化冲突（如员工对军方合作的不满）与外部商业压力（巨额投入与回报周期）之间的尖锐矛盾，这可能成为影响其未来竞争力的关键因素。",
       "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/980/911.htm"
+        },
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending"
@@ -70,20 +62,12 @@
           "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html"
         },
         {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/gdg/zero-to-multi-region-high-availability-serverless-with-cloud-run-and-cross-region-failover--dcc"
+        },
+        {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/07/23/google-will-now-let-you-sign-in-to-your-account-with-a-selfie-video"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/eu-fines-google-billion-prioritizing-own-services-in-search"
-        },
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/22/openai-cyberattack"
         }
       ]
     }
