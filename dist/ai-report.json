@@ -1,58 +1,42 @@
 {
-  "global_brief": "过去24小时，AI领域动态密集：谷歌因内部士气与军方合作争议导致旗舰大模型难产，同时其因巨额AI投入首次出现负现金流季度；Anthropic更新了Claude语音模式，但其Agent产品被曝存在沙箱逃逸漏洞；多篇研究论文聚焦LLM安全、Agent框架与评估基准，行业对AI安全与商业可持续性的关注持续升温。",
+  "global_brief": "过去24小时，AI领域动态密集：谷歌因巨额AI支出首次出现负现金流季度，同时其旗舰大模型因内部员工士气问题而难产；OpenAI则加速产品落地，推出ChatGPT桌面应用语音模式并向全美用户开放ChatGPT Health功能。此外，Anthropic升级了Claude语音模式，而AI安全与Agent风险成为多方关注的焦点。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 37678,
-      "event_count": 659
+      "field_score": 28702,
+      "event_count": 499
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1713,
-      "event_count": 37
+      "field_score": 1766,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1080,
-      "event_count": 27
+      "field_score": 1308,
+      "event_count": 32
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 387,
+      "event_count": 7
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 643,
-      "event_count": 13
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 387,
+      "field_score": 381,
       "event_count": 8
     }
   ],
   "highlight_facts": [
     {
-      "title": "谷歌旗舰大模型因内部争议难产",
-      "summary": "据Axios报道，六位现任及前任谷歌DeepMind员工透露，员工士气低落，部分源于与军方的合作，是导致谷歌推迟发布其最强大模型Gemini的原因之一，内部感叹已落后于Meta等竞争对手。",
+      "title": "谷歌首次出现负现金流季度，AI支出飙升",
+      "summary": "谷歌最新季度财报显示，尽管营收依然强劲，但巨额的AI基础设施投资导致公司首次出现负现金流季度。",
       "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/980/911.htm"
-        }
-      ]
-    }
-  ],
-  "highlight_opinions": [
-    {
-      "title": "谷歌困境凸显AI巨头内部文化冲突与商业压力",
-      "summary": "谷歌旗舰模型难产与首次负现金流的双重打击，揭示了AI巨头在追求技术前沿时面临的内部文化冲突（如员工对军方合作的不满）与外部商业压力（巨额投入与回报周期）之间的尖锐矛盾，这可能成为影响其未来竞争力的关键因素。",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/980/911.htm"
-        },
         {
           "source_name": "Ars Technica",
           "link": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending"
@@ -62,12 +46,140 @@
           "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html"
         },
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/gdg/zero-to-multi-region-high-availability-serverless-with-cloud-run-and-cross-region-failover--dcc"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/23/google-will-now-let-you-sign-in-to-your-account-with-a-selfie-video"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/eu-fines-google-billion-prioritizing-own-services-in-search"
+        }
+      ]
+    },
+    {
+      "title": "谷歌旗舰大模型因内部员工士气问题难产",
+      "summary": "据Axios报道，六位现任及前任谷歌DeepMind员工透露，因与军方合作引发的员工不满等因素导致士气低落，是谷歌推迟发布其最强大模型Gemini的原因之一。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/980/911.htm"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI推出ChatGPT桌面应用语音模式",
+      "summary": "OpenAI升级ChatGPT桌面应用，引入由GPT-Live模型驱动的语音模式，用户可通过口述需求让AI推进多项任务。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/980/975.htm"
+        },
+        {
+          "source_name": "OpenClaw Commits",
+          "link": "https://github.com/openclaw/openclaw/commit/61f036f748645952487ca35d280a1905665af766"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI向全美用户开放ChatGPT Health功能",
+      "summary": "OpenAI宣布向所有美国用户推出ChatGPT Health功能，该功能旨在提供健康相关的信息和建议。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic升级Claude语音模式",
+      "summary": "Anthropic更新了Claude的语音模式，使其支持更强大的模型（Opus和Sonnet），可用于安排会议或起草邮件等任务。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai"
+        }
+      ]
+    },
+    {
+      "title": "AI安全研究揭示Agent与模型新风险",
+      "summary": "多项研究揭示了AI安全新挑战，包括Anthropic Claude Cowork的沙箱逃逸漏洞，以及针对LLM的后门攻击防御方法。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.19894"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "AI军备竞赛的代价与反思",
+      "summary": "谷歌因AI支出首次出现负现金流，以及其内部因价值观冲突导致模型难产，表明在激烈的AI军备竞赛中，即使是巨头也面临巨大的财务和内部文化压力。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html"
         },
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/07/23/google-will-now-let-you-sign-in-to-your-account-with-a-selfie-video"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/eu-fines-google-billion-prioritizing-own-services-in-search"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/980/911.htm"
+        }
+      ]
+    },
+    {
+      "title": "AI安全护栏正阻碍网络安全研究",
+      "summary": "有观点指出，当前AI模型的安全护栏在阻止恶意使用的同时，也严重妨碍了白帽黑客和网络安全研究人员发现漏洞的工作，这可能削弱整体防御能力。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers"
+        }
+      ]
+    },
+    {
+      "title": "AI Agent失控风险引发关注",
+      "summary": "关于“首个已知的失控AI Agent”的讨论，无论其是真实事件还是营销噱头，都凸显了业界对AI Agent自主行动可能带来的不可预测后果的深切担忧。",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent"
+        }
+      ]
+    },
+    {
+      "title": "边缘AI与离线开发成为新趋势",
+      "summary": "随着对隐私和成本的关注，社区开始探索构建离线AI开发栈（如LM Studio和Ollama），同时Acrab等公司发布边缘AI芯片，表明AI应用正从云端向边缘和本地化部署延伸。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/robertpelloni/building-the-ultimate-offline-ai-development-stack-lm-studio-ollama-and-tormentnexus-19gn"
+        },
+        {
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/112677"
         }
       ]
     }
