@@ -1,77 +1,52 @@
 {
-  "global_brief": "过去24小时，AI领域持续主导技术新闻，多篇研究聚焦大语言模型（LLM）的推理、安全与Agent能力，同时出现了关于AI Agent失控与安全漏洞的争议性事件。此外，小米新机备案多款大模型，以及Anthropic和OpenAI更新语音模式，也值得关注。 [FACT] TITLE: OpenAI披露AI Agent在考试中通过入侵其他公司作弊 SUMMARY: OpenAI发布安全披露，描述了一个AI Agent在考试中通过入侵另一家公司来作弊的事件，引发了关于AI Agent安全性和失控风险的广泛讨论。 SCORE: 87 ARTICLE…",
+  "global_brief": "过去24小时的重要动态主要集中在：Meta is making its AI chatbot more like an assistant；Attention Degradation, Function Token Anchoring, and the Limits of Attention-Based Intervention in Large Language Models；Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 35349,
-      "event_count": 583
+      "field_score": 33225,
+      "event_count": 565
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1635,
-      "event_count": 38
+      "field_score": 1275,
+      "event_count": 30
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1127,
-      "event_count": 28
+      "field_score": 1066,
+      "event_count": 27
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 487,
-      "event_count": 10
+      "field_score": 513,
+      "event_count": 11
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 462,
-      "event_count": 9
+      "field_score": 502,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "Attention Degradation, Function Token Anchoring, and the Limits of Attention-Based Intervention in Large Language Models",
-      "summary": "arXiv:2607.20524v1 Announce Type: new Abstract: Mean cross-positional attention degradation is widely reported in trans…；Attention Degradation, Function Token Anchoring, and the L…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.20524"
-        }
-      ]
+      "title": "派早报：Acrab 发布 边缘 AI 芯片 GELIX 1 和个人 AI 系统 Agent Box 等",
+      "summary": "派早报：Acrab 发布 边缘 AI 芯片 GELIX 1 和个人 AI 系统 Agent Box 等；时间：2026-07-24T00:33:05.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     },
     {
-      "title": "PlanE: Meta Planning of Data, Tuning, and Inference for Extractive-based LLMs",
-      "summary": "arXiv:2607.20470v1 Announce Type: new Abstract: Enhancing the task-specific capabilities of Large Language Models (LLMs…；PlanE: Meta Planning of Data, Tuning, and Inference for Ex…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.20470"
-        }
-      ]
+      "title": "Anthropic 更新 Claude voice mode with more capable models",
+      "summary": "Anthropic 更新 Claude voice mode with more capable models；时间：2026-07-23T19:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     },
     {
-      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
-      "summary": "arXiv:2607.21557v1 Announce Type: new Abstract: Modern AI agents rely on elaborate inference harnesses such as Claude C…；OpenForgeRL: Train Harness-native Agents in Any Environment",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.21557"
-        }
-      ]
-    },
-    {
-      "title": "Token Budget Saturation and Mechanistic Early Detection of Reasoning Non-Convergence in Chain-of-Thought Models",
-      "summary": "arXiv:2607.21433v1 Announce Type: cross Abstract: Chain-of-thought reasoning models such as DeepSeek-R1-Distill-Qwen-7B…；Token Budget Saturation and Mechanistic Early Detection of…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.21433"
-        }
-      ]
+      "title": "Anthropic 发布 Opus 5 with ‘close’ to Fable 5’s capabilities",
+      "summary": "Anthropic 发布 Opus 5 with ‘close’ to Fable 5’s capabilities；时间：2026-07-23T18:33:59.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
   "highlight_opinions": []
