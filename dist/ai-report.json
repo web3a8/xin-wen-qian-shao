@@ -1,16 +1,16 @@
 {
-  "global_brief": "今日AI领域围绕开源模型的地缘政治博弈与AI Agent工具链安全两大主线展开。OpenAI与Anthropic游说美国限制中国开源模型引发硅谷分裂，同时Claude Code与OpenAI Codex被曝出存在意外删除用户文件的数据丢失风险，凸显了AI Agent在落地过程中的安全隐忧。",
+  "global_brief": "AI安全与开源之争成为今日焦点：Hugging Face CEO呼吁对OpenAI首次自主智能体攻击事件保持“彻底透明”，同时OpenAI与Anthropic被曝游说美国限制中国开源模型，引发黄仁勋、马斯克等业界领袖公开反对。社区侧，开发者围绕LLM评估噪声、本地化追踪工具及边缘端推理等话题展开热烈讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5579,
-      "event_count": 100
+      "field_score": 4611,
+      "event_count": 88
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1525,
+      "field_score": 1513,
       "event_count": 38
     },
     {
@@ -20,32 +20,32 @@
       "event_count": 12
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 280,
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 250,
       "event_count": 6
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 256,
-      "event_count": 6
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 146,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "SkillOpt: Microsoft Teaches AI Agents to Self-Evolve Without Touching Model Weights",
-      "summary": "SkillOpt — เมื่อ Microsoft สอนให้ AI Agent พัฒนาตัวเองโดยไม่แตะโมเดลแม้แต่บรรทัดเดียว โดย Nokka (นก-กา) | 21 กรกฎาคม 20…；SkillOpt: Microsoft Teaches AI Agents to Self-Evolve Witho…",
+      "title": "Hugging Face CEO呼吁对OpenAI首次自主智能体攻击保持“彻底透明”",
+      "summary": "Hugging Face CEO在OpenAI遭遇其所谓的“首次自主智能体网络攻击”后，公开呼吁行业采取前所未有的透明度和应对措施。",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/sarantoon/skillopt-microsoft-teaches-ai-agents-to-self-evolve-without-touching-model-weights-3blg"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack"
         }
       ]
     },
     {
-      "title": "消息称 OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋马斯克公开反对",
-      "summary": "北京时间 7 月 26 日，据《纽约时报》报道，多年来，硅谷科技界在 AI 软件开发方式上一直存在理念分歧。本周，这场争论达到了白热化。 一方是以 Anthropic 和 OpenAI 为首的头部 AI 企业，它们认为，某些 AI 模型过…；消息称 OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋马斯克公开反对",
+      "title": "OpenAI与Anthropic游说美国限制中国开源模型，遭黄仁勋马斯克反对",
+      "summary": "据《纽约时报》报道，OpenAI和Anthropic正在游说美国政府限制中国开源AI模型的发展，此举遭到英伟达CEO黄仁勋和特斯拉CEO马斯克的公开反对。",
       "references": [
         {
           "source_name": "IT之家",
@@ -54,25 +54,88 @@
       ]
     },
     {
-      "title": "Agentes 101 - 02: El ciclo del agente como State Machine (y Hierarchical State Machines)",
-      "summary": "Agentes 101 - 02: El ciclo del agente como State Machine (y Hierarchical State Machines)；En el artículo anterior definimos un agente de forma práctica: Un agente LLM es un modelo…",
+      "title": "开发者构建213个MCP服务器安全评分器",
+      "summary": "一位开发者因手动评估MCP服务器安全性效率低下，构建了一个针对213个MCP服务器的安全评分工具，揭示了不同服务器间的安全差异。",
       "references": [
         {
           "source_name": "Dev.to",
-          "link": "https://dev.to/xvierd/agentes-101-02-el-ciclo-del-agente-como-state-machine-y-hierarchical-state-machines-5986"
+          "link": "https://dev.to/ismail_khouya_4643b00c238/i-built-a-security-scorer-for-213-mcp-servers-heres-what-made-the-difference-2hi4"
         }
       ]
     },
     {
-      "title": "Hallmark – Anti-AI-Slop Design Skill for Claude Code, Cursor, and Codex",
-      "summary": "Article URL: https://github.com/Nutlope/hallmark Comments URL: https://news.ycombinator.com/item?id=49058547 Points: 3…；Hallmark – Anti-AI-Slop Design Skill for Claude Code, Curso…",
+      "title": "开源LLM Apertus 1.5发布",
+      "summary": "号称“真正开源”的大语言模型Apertus 1.5版本正式发布，引发社区对开源模型定义的讨论。",
       "references": [
         {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/Nutlope/hallmark"
+          "source_name": "Hacker News LLM",
+          "link": "https://apertus-ai.org/articles/2026-07-apertus-1-5"
+        }
+      ]
+    },
+    {
+      "title": "开发者成功在8美元微控制器上运行2890万参数LLM",
+      "summary": "一项社区项目展示了如何在成本仅8美元的ESP32微控制器上运行一个2890万参数的大语言模型，探索边缘AI的极限。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/slvDev/esp32-ai"
+        }
+      ]
+    },
+    {
+      "title": "新工具Toolgz可将LLM工具定义Token减少约80%",
+      "summary": "开源工具Toolgz声称能在不降低准确率的前提下，将LLM工具定义所需的Token数量削减约80%，旨在提升推理效率和降低成本。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/dperussina/toolgz"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI安全与开源生态的博弈加剧",
+      "summary": "OpenAI遭遇的首次自主智能体攻击与游说限制中国开源模型事件，共同指向一个核心矛盾：头部AI企业在追求安全可控的同时，正试图通过政策手段巩固技术壁垒，这与开源社区倡导的开放、透明原则形成激烈冲突。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/981/797.htm"
+        }
+      ]
+    },
+    {
+      "title": "LLM评估的“噪声”问题成为社区共识",
+      "summary": "社区讨论指出，LLM评估系统必须处理来自测试集和评分函数的两种主要噪声源，这反映了业界对当前基准测试可靠性的普遍担忧，并催生了如Toolgz等旨在优化工具定义效率的实用方案。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://wilburhimself.github.io/blog/64-the-two-sources-of-noise-every-llm-evaluation-system-must-handle"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/dperussina/toolgz"
+        }
+      ]
+    },
+    {
+      "title": "开发者社区对AI编码工具的实用性产生质疑",
+      "summary": "针对opencode等AI编码助手的高资源占用和实际效果不佳的批评，以及“古法编程”话题的兴起，表明部分开发者开始反思AI工具的过度承诺，并重新审视传统编程方式的价值。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1229924"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1229967"
+        }
+      ]
+    }
+  ]
 }
