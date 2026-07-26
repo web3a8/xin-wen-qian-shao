@@ -1,41 +1,41 @@
 {
-  "global_brief": "AI安全与开源之争成为今日焦点：Hugging Face CEO呼吁对OpenAI首次自主智能体攻击事件保持“彻底透明”，同时OpenAI与Anthropic被曝游说美国限制中国开源模型，引发黄仁勋、马斯克等业界领袖公开反对。社区侧，开发者围绕LLM评估噪声、本地化追踪工具及边缘端推理等话题展开热烈讨论。",
+  "global_brief": "AI 安全与地缘政治博弈成为今日焦点：OpenAI 遭遇首次自主智能体网络攻击，引发行业对透明度的呼吁；同时，OpenAI 与 Anthropic 被曝游说美国限制中国开源模型，遭黄仁勋、马斯克公开反对。此外，AI 智能体工具链迎来密集发布，社区围绕智能体安全、可观测性与效率展开激烈讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 4611,
-      "event_count": 88
+      "field_score": 5856,
+      "event_count": 105
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1513,
+      "field_score": 1491,
       "event_count": 38
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 462,
-      "event_count": 12
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 250,
-      "event_count": 6
+      "field_score": 410,
+      "event_count": 11
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 146,
-      "event_count": 3
+      "field_score": 243,
+      "event_count": 5
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 203,
+      "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "Hugging Face CEO呼吁对OpenAI首次自主智能体攻击保持“彻底透明”",
-      "summary": "Hugging Face CEO在OpenAI遭遇其所谓的“首次自主智能体网络攻击”后，公开呼吁行业采取前所未有的透明度和应对措施。",
+      "title": "Hugging Face CEO 呼吁“彻底透明”，回应 OpenAI 遭“前所未有”的自主智能体攻击",
+      "summary": "Hugging Face 首席执行官将 OpenAI 遭受的攻击称为“首次自主智能体网络攻击”，并呼吁行业采取“前所未有的回应”，即“彻底透明”。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -44,8 +44,8 @@
       ]
     },
     {
-      "title": "OpenAI与Anthropic游说美国限制中国开源模型，遭黄仁勋马斯克反对",
-      "summary": "据《纽约时报》报道，OpenAI和Anthropic正在游说美国政府限制中国开源AI模型的发展，此举遭到英伟达CEO黄仁勋和特斯拉CEO马斯克的公开反对。",
+      "title": "消息称 OpenAI 与 Anthropic 游说美国限制中国开源模型，遭黄仁勋与马斯克公开反对",
+      "summary": "据《纽约时报》报道，OpenAI 与 Anthropic 正在游说美国政府限制中国开源 AI 模型的发展。英伟达 CEO 黄仁勋与特斯拉 CEO 马斯克公开表示反对这一限制。",
       "references": [
         {
           "source_name": "IT之家",
@@ -54,86 +54,81 @@
       ]
     },
     {
-      "title": "开发者构建213个MCP服务器安全评分器",
-      "summary": "一位开发者因手动评估MCP服务器安全性效率低下，构建了一个针对213个MCP服务器的安全评分工具，揭示了不同服务器间的安全差异。",
+      "title": "中国考虑收紧 AI 模型与芯片的出口管制",
+      "summary": "据路透社报道，中国正考虑对 AI 模型和芯片实施更严格的出口管制措施。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://reuters.com/world/asia-pacific/china-considers-tighter-export-controls-ai-models-chips-ft-reports-2026-07-21"
+        }
+      ]
+    },
+    {
+      "title": "开发者将 Claude Code 改造为渗透测试工具",
+      "summary": "一位开发者创建了一个开源项目，旨在将 Anthropic 的 Claude Code 自动化工具转变为渗透测试工具，用于自动化其日常工作。",
       "references": [
         {
           "source_name": "Dev.to",
-          "link": "https://dev.to/ismail_khouya_4643b00c238/i-built-a-security-scorer-for-213-mcp-servers-heres-what-made-the-difference-2hi4"
+          "link": "https://dev.to/shiftgrid/turn-claude-code-into-a-pentester-5hl5"
         }
       ]
     },
     {
-      "title": "开源LLM Apertus 1.5发布",
-      "summary": "号称“真正开源”的大语言模型Apertus 1.5版本正式发布，引发社区对开源模型定义的讨论。",
+      "title": "社区发布多项 AI 智能体安全与效率工具",
+      "summary": "开发者社区密集发布了多项针对 AI 智能体的开源工具，包括用于 LLM 越狱的交互式工具 、微秒级二进制断路器 DROS-VEP 、运行时护栏 ModelFuzz 以及确定性判决协议 SP/1.0。",
       "references": [
         {
           "source_name": "Hacker News LLM",
-          "link": "https://apertus-ai.org/articles/2026-07-apertus-1-5"
+          "link": "https://github.com/joshfischer1108/jailbreak-lab"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/Top-Celestial-Company-Ltd/DROS-VEP-lite"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://modelfuzz.com/"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/Fame510/SHACKLE/blob/master/SP-1.0-SPECIFICATION.md"
         }
       ]
     },
     {
-      "title": "开发者成功在8美元微控制器上运行2890万参数LLM",
-      "summary": "一项社区项目展示了如何在成本仅8美元的ESP32微控制器上运行一个2890万参数的大语言模型，探索边缘AI的极限。",
+      "title": "新工具 OpenSmith 实现本地化 LLM 管道追踪",
+      "summary": "一款名为 OpenSmith 的开源工具发布，允许开发者在本地追踪 LLM 管道，无需依赖云端服务。",
       "references": [
         {
           "source_name": "Hacker News LLM",
-          "link": "https://github.com/slvDev/esp32-ai"
-        }
-      ]
-    },
-    {
-      "title": "新工具Toolgz可将LLM工具定义Token减少约80%",
-      "summary": "开源工具Toolgz声称能在不降低准确率的前提下，将LLM工具定义所需的Token数量削减约80%，旨在提升推理效率和降低成本。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/dperussina/toolgz"
+          "link": "https://github.com/shivnathtathe/opensmith"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI安全与开源生态的博弈加剧",
-      "summary": "OpenAI遭遇的首次自主智能体攻击与游说限制中国开源模型事件，共同指向一个核心矛盾：头部AI企业在追求安全可控的同时，正试图通过政策手段巩固技术壁垒，这与开源社区倡导的开放、透明原则形成激烈冲突。",
+      "title": "AI 智能体正以 8000% 的速度增长，重塑商业模式",
+      "summary": "有分析指出，AI 智能体正在“吞噬”网络，其增长速度高达 8000%，并正在从根本上改写商业模型。这引发了关于“互联网已死”理论的讨论。",
+      "references": []
+    },
+    {
+      "title": "AI 的下一个挑战不是模型本身，而是组织架构",
+      "summary": "业界观点认为，随着 AI 智能体的规模化，当前面临的核心挑战已从模型能力转向如何构建适应 AI 的组织架构和协作流程。",
       "references": [
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/981/797.htm"
+          "source_name": "Hacker News AI",
+          "link": "https://aibusiness.com/agentic-ai/next-challenge-scaling-ai"
         }
       ]
     },
     {
-      "title": "LLM评估的“噪声”问题成为社区共识",
-      "summary": "社区讨论指出，LLM评估系统必须处理来自测试集和评分函数的两种主要噪声源，这反映了业界对当前基准测试可靠性的普遍担忧，并催生了如Toolgz等旨在优化工具定义效率的实用方案。",
+      "title": "美国民众对全球 AI 竞赛的看法存在分歧",
+      "summary": "皮尤研究中心的最新调查揭示了美国民众对于全球 AI 竞赛的复杂态度，这为政策制定者提供了重要的民意参考。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://wilburhimself.github.io/blog/64-the-two-sources-of-noise-every-llm-evaluation-system-must-handle"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/dperussina/toolgz"
-        }
-      ]
-    },
-    {
-      "title": "开发者社区对AI编码工具的实用性产生质疑",
-      "summary": "针对opencode等AI编码助手的高资源占用和实际效果不佳的批评，以及“古法编程”话题的兴起，表明部分开发者开始反思AI工具的过度承诺，并重新审视传统编程方式的价值。",
-      "references": [
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1229924"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1229967"
+          "source_name": "Hacker News AI",
+          "link": "https://pewresearch.org/short-reads/2026/07/23/what-americans-think-about-the-global-ai-race"
         }
       ]
     }
