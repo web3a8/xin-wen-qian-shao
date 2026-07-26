@@ -1,63 +1,153 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Claude Opus 5 Benchmarks: What the Numbers Actually Show；The Underrated AI Tool That Lets Any LLM Watch Videos；AI 工作台一定要住在云端吗 – 最近火起来的 Rowboat，把 AI 的长期记忆写回了 Markdown。",
+  "global_brief": "今日技术社区焦点集中在AI工具链的本地化与开源实践上，多个项目展示了将AI能力从云端迁移至本地、并整合多种消息平台与LLM提供商的趋势。同时，关于LLM评估系统的噪声处理、以及类“矿池”式分布式训练LLM的构想也引发了讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5279,
-      "event_count": 98
+      "field_score": 4991,
+      "event_count": 94
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1432,
-      "event_count": 35
+      "field_score": 1551,
+      "event_count": 38
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 517,
-      "event_count": 13
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 281,
-      "event_count": 6
+      "field_score": 606,
+      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 264,
-      "event_count": 6
+      "field_score": 402,
+      "event_count": 9
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 332,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "Claude Opus 5 Benchmarks: What the Numbers Actually Show",
-      "summary": "Claude Opus 5 Benchmarks: What the Numbers Actually Show；Opus 5 posts 79.2 percent on SWE-bench Pro against Opus 4.8 at 69.2, a 10 point jump with no change in per-token price…",
-      "references": []
+      "title": "Termic 桌面应用发布，用于运行 CLI 编码代理",
+      "summary": "一款名为 Termic 的开源桌面应用发布，旨在管理 Claude Code、Codex 等 CLI 编码代理，支持 CLI、MCP 和 Skills 功能。",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://termic.dev/"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1229795"
+        }
+      ]
     },
     {
-      "title": "The Underrated AI Tool That Lets Any LLM Watch Videos",
-      "summary": "I spent this month testing the ways people actually get an LLM to \"watch\" a video. One of them got a 2,181-video stress…；The Underrated AI Tool That Lets Any LLM Watch Videos",
-      "references": []
+      "title": "本地优先的个人AI网关连接32个消息平台",
+      "summary": "开发者构建了一个本地优先的个人AI网关，能够连接 Telegram、Discord、WhatsApp、Slack 等32个消息平台，并支持13个LLM提供商，具备真实记忆功能。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/amitchandra/one-ai-assistant-for-every-messaging-app-you-use-telegram-discord-whatsapp-slack-29-more--38a0"
+        }
+      ]
     },
     {
-      "title": "AI 工作台一定要住在云端吗 – 最近火起来的 Rowboat，把 AI 的长期记忆写回了 Markdown",
-      "summary": "AI 工作台一定要住在云端吗 – 最近火起来的 Rowboat，把 AI 的长期记忆写回了 Markdown；现在有不少 AI 工作台，似乎很自然地都把信息扔在了云端。 我们在 ChatGPT、Claude、Notion AI 或其它在线工具里聊天、上传文件、连接邮箱，然后期待 AI 可以慢慢理解我们的工作。 但是，当一个 AI 真正开始接触邮件…",
-      "references": []
+      "title": "Rowboat 将AI长期记忆写回Markdown文件",
+      "summary": "新兴工具 Rowboat 提出将AI工作台的长期记忆存储于本地Markdown文件中，而非云端，挑战了当前主流AI工作台的信息存储方式。",
+      "references": [
+        {
+          "source_name": "效率火箭",
+          "link": "https://xlrocket.blog/2026/07/26/ai-%e5%b7%a5%e4%bd%9c%e5%8f%b0%e4%b8%80%e5%ae%9a%e8%a6%81%e4%bd%8f%e5%9c%a8%e4%ba%91%e7%ab%af%e5%90%97-%e6%9c%80%e8%bf%91%e7%81%ab%e8%b5%b7%e6%9d%a5%e7%9a%84-rowboat%ef%bc%8c%e6%8a%8a-ai-%e7%9a%84"
+        }
+      ]
     },
     {
-      "title": "The Two Sources of Noise Every LLM Evaluation System Must Handle",
-      "summary": "Article URL: https://wilburhimself.github.io/blog/64-the-two-sources-of-noise-every-llm-evaluation-system-must-handle/…；The Two Sources of Noise Every LLM Evaluation System Must Handle",
-      "references": []
+      "title": "开源LLM Apertus 1.5 发布",
+      "summary": "一个名为 Apertus 1.5 的“真正开源”LLM 发布，引发了社区对开源模型定义的讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://apertus-ai.org/articles/2026-07-apertus-1-5"
+        }
+      ]
     },
     {
-      "title": "Will it be possible to do LLM Pool Training?",
-      "summary": "Inspired by Crypto Pool Mining: would it be possible to train LLMs as a pool of volunteers? I feel like that would be a…；Will it be possible to do LLM Pool Training?",
-      "references": []
+      "title": "Toolgz 工具可将LLM工具定义令牌减少80%",
+      "summary": "新工具 Toolgz 声称能在不降低准确率的情况下，将LLM工具定义的令牌数量削减约80%，旨在提升推理效率。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/dperussina/toolgz"
+        }
+      ]
+    },
+    {
+      "title": "社区热议 opencode 项目内存占用过高",
+      "summary": "开源项目 opencode 因在V2EX上被批评为“最过誉的开源项目”而引发讨论，用户指出其CLI版本内存占用高达700MB至1GB，且任务完成效果不如预期。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1229924"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "本地化AI工具链成为新趋势",
+      "summary": "从Rowboat到个人AI网关，再到Termic，多个项目不约而同地强调“本地优先”和“去云端化”，这反映了开发者对数据隐私、离线可用性和低延迟的强烈需求，正在重塑AI工作台的设计范式。",
+      "references": [
+        {
+          "source_name": "效率火箭",
+          "link": "https://xlrocket.blog/2026/07/26/ai-%e5%b7%a5%e4%bd%9c%e5%8f%b0%e4%b8%80%e5%ae%9a%e8%a6%81%e4%bd%8f%e5%9c%a8%e4%ba%91%e7%ab%af%e5%90%97-%e6%9c%80%e8%bf%91%e7%81%ab%e8%b5%b7%e6%9d%a5%e7%9a%84-rowboat%ef%bc%8c%e6%8a%8a-ai-%e7%9a%84"
+        },
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/amitchandra/one-ai-assistant-for-every-messaging-app-you-use-telegram-discord-whatsapp-slack-29-more--38a0"
+        },
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://termic.dev/"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1229795"
+        }
+      ]
+    },
+    {
+      "title": "LLM评估系统的噪声问题亟待解决",
+      "summary": "社区讨论指出，LLM评估系统普遍存在两种噪声源，这可能导致对模型性能的误判。同时，关于“LLM作为评判者”的实践指南也表明，评估方法论本身正成为一个需要被严肃对待的研究领域。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://wilburhimself.github.io/blog/64-the-two-sources-of-noise-every-llm-evaluation-system-must-handle"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://kraghavan.ca/llm-infrastructure/evaluation/2026/07/25/llm-as-a-judge-field-guide.html"
+        }
+      ]
+    },
+    {
+      "title": "开源LLM的“真正”定义与实用性面临拷问",
+      "summary": "Apertus 1.5 的发布与 opencode 的争议共同指向一个核心问题：开源AI项目在追求“开放”的同时，其实际性能、资源消耗和用户体验是否达到了社区预期？这可能导致社区对开源AI项目的评判标准更加严格。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://apertus-ai.org/articles/2026-07-apertus-1-5"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1229924"
+        }
+      ]
+    }
+  ]
 }
