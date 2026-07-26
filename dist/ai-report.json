@@ -1,67 +1,78 @@
 {
-  "global_brief": "AI 领域成为今日绝对焦点，围绕开源模型监管、AI 支出风险以及 Agent 工具生态的讨论最为密集。OpenAI 与 Anthropic 游说限制中国开源模型引发行业分裂，而多家科技巨头因 AI 投入面临信用评级下调风险，同时社区涌现大量面向 AI Agent 的桌面端与基础设施工具。",
+  "global_brief": "今日AI领域围绕开源模型的地缘政治博弈与AI Agent工具链安全两大主线展开。OpenAI与Anthropic游说美国限制中国开源模型引发硅谷分裂，同时Claude Code与OpenAI Codex被曝出存在意外删除用户文件的数据丢失风险，凸显了AI Agent在落地过程中的安全隐忧。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5128,
-      "event_count": 91
+      "field_score": 5579,
+      "event_count": 100
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1614,
-      "event_count": 40
+      "field_score": 1525,
+      "event_count": 38
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 502,
-      "event_count": 13
+      "field_score": 462,
+      "event_count": 12
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 304,
-      "event_count": 7
+      "field_score": 280,
+      "event_count": 6
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 258,
+      "field_score": 256,
       "event_count": 6
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI、Anthropic 游说美国限制中国开源模型，遭黄仁勋马斯克公开反对",
-      "summary": "据《纽约时报》报道，OpenAI 与 Anthropic 正在游说美国政府限制中国开源 AI 模型，认为某些模型过于危险。英伟达 CEO 黄仁勋与马斯克公开反对这一立场，硅谷在 AI 开发理念上的分歧达到白热化。",
+      "title": "SkillOpt: Microsoft Teaches AI Agents to Self-Evolve Without Touching Model Weights",
+      "summary": "SkillOpt — เมื่อ Microsoft สอนให้ AI Agent พัฒนาตัวเองโดยไม่แตะโมเดลแม้แต่บรรทัดเดียว โดย Nokka (นก-กา) | 21 กรกฎาคม 20…；SkillOpt: Microsoft Teaches AI Agents to Self-Evolve Witho…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/sarantoon/skillopt-microsoft-teaches-ai-agents-to-self-evolve-without-touching-model-weights-3blg"
+        }
+      ]
+    },
+    {
+      "title": "消息称 OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋马斯克公开反对",
+      "summary": "北京时间 7 月 26 日，据《纽约时报》报道，多年来，硅谷科技界在 AI 软件开发方式上一直存在理念分歧。本周，这场争论达到了白热化。 一方是以 Anthropic 和 OpenAI 为首的头部 AI 企业，它们认为，某些 AI 模型过…；消息称 OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋马斯克公开反对",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/981/797.htm"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "AI 投资回报率面临严峻考验，企业开始寻求低成本替代方案",
-      "summary": "穆迪的信用警告与谷歌投资者的不安情绪，叠加 Coinbase 转向中国模型以削减 50% 成本的案例，共同指向一个趋势：科技巨头在 AI 上的巨额投入正面临越来越大的回报压力，企业开始积极寻找性价比更高的替代模型。",
+      "title": "Agentes 101 - 02: El ciclo del agente como State Machine (y Hierarchical State Machines)",
+      "summary": "Agentes 101 - 02: El ciclo del agente como State Machine (y Hierarchical State Machines)；En el artículo anterior definimos un agente de forma práctica: Un agente LLM es un modelo…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/xvierd/agentes-101-02-el-ciclo-del-agente-como-state-machine-y-hierarchical-state-machines-5986"
+        }
+      ]
+    },
+    {
+      "title": "Hallmark – Anti-AI-Slop Design Skill for Claude Code, Cursor, and Codex",
+      "summary": "Article URL: https://github.com/Nutlope/hallmark Comments URL: https://news.ycombinator.com/item?id=49058547 Points: 3…；Hallmark – Anti-AI-Slop Design Skill for Claude Code, Curso…",
       "references": [
         {
           "source_name": "Hacker News AI",
-          "link": "https://cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://wsj.com/tech/ai/alphabet-googl-q2-earnings-report-2026-stock-f6bdd223"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://mlq.ai/news/coinbase-switches-to-chinese-ai-models-glm-and-kimi-cuts-ai-spending-by-50"
+          "link": "https://github.com/Nutlope/hallmark"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
