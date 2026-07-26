@@ -1,41 +1,41 @@
 {
-  "global_brief": "AI安全与开源治理成为今日焦点：OpenAI遭遇首次自主智能体网络攻击，引发行业对透明度的呼吁；同时，OpenAI与Anthropic被曝游说美国限制中国开源模型，遭黄仁勋、马斯克公开反对。社区侧则涌现大量LLM工具链创新，包括本地化追踪、越狱测试与评估方法论讨论。",
+  "global_brief": "AI安全与地缘政治博弈成为今日焦点：OpenAI遭首次自主智能体网络攻击引发行业对透明度的呼吁，同时OpenAI与Anthropic被曝游说美国限制中国开源模型，引发黄仁勋、马斯克等业界领袖公开反对。社区侧则涌现大量LLM评估、代理工具及开源基础设施项目，技术生态持续活跃。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 4944,
-      "event_count": 95
+      "field_score": 5942,
+      "event_count": 107
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1451,
-      "event_count": 38
+      "field_score": 1584,
+      "event_count": 41
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 346,
-      "event_count": 9
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 244,
-      "event_count": 6
+      "field_score": 427,
+      "event_count": 11
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 241,
+      "field_score": 259,
+      "event_count": 5
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 199,
       "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "Hugging Face CEO呼吁“彻底透明”，回应OpenAI遭首次自主智能体网络攻击",
-      "summary": "Hugging Face首席执行官在OpenAI遭遇“首次自主智能体网络攻击”后，呼吁行业采取“前所未有的回应”和“彻底透明”。该事件被描述为一次里程碑式的安全事件。",
+      "title": "Hugging Face CEO呼吁“彻底透明”回应OpenAI遭“前所未有”黑客攻击",
+      "summary": "Hugging Face首席执行官将此次事件称为“首次自主智能体网络攻击”，并呼吁行业采取前所未有的回应措施。",
       "references": [
         {
           "source_name": "TechCrunch",
@@ -44,8 +44,8 @@
       ]
     },
     {
-      "title": "消息称OpenAI与Anthropic游说美国限制中国开源模型，遭业界大佬反对",
-      "summary": "据《纽约时报》报道，OpenAI和Anthropic正在游说美国政府限制中国开源AI模型。英伟达CEO黄仁勋和特斯拉CEO马斯克公开反对此举，认为这不利于全球AI发展。",
+      "title": "OpenAI与Anthropic被曝游说美国限制中国开源模型，遭黄仁勋、马斯克公开反对",
+      "summary": "据《纽约时报》报道，硅谷在AI开发理念上的分歧达到白热化，以Anthropic和OpenAI为首的企业主张限制某些AI模型，而黄仁勋和马斯克则公开反对这一立场。",
       "references": [
         {
           "source_name": "IT之家",
@@ -54,8 +54,18 @@
       ]
     },
     {
-      "title": "开发者展示交互式LLM越狱工具，引发安全讨论",
-      "summary": "一个名为“Jailbreak Lab”的交互式工具在Hacker News上展示，声称可以“在不违法的情况下利用LLM”。该工具引发了关于AI模型安全性和对抗性攻击的社区讨论。",
+      "title": "DeepSeek泄露事件引发关注：基础设施密钥比模型权重更重要",
+      "summary": "一篇分析文章指出，DeepSeek的泄露事件凸显了基础设施安全的重要性，其潜在影响远超模型权重的泄露。",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/james_lin/the-deepseek-leak-why-infrastructure-secrets-matter-more-than-model-weights-3c3n"
+        }
+      ]
+    },
+    {
+      "title": "社区发布交互式工具，可“安全”探索LLM越狱方法",
+      "summary": "一个名为“jailbreak-lab”的GitHub项目提供了一个交互式环境，允许用户在不触犯法律的情况下研究LLM的漏洞利用方式。",
       "references": [
         {
           "source_name": "Hacker News LLM",
@@ -64,80 +74,84 @@
       ]
     },
     {
-      "title": "开源工具OpenSmith实现LLM管道本地追踪，无需云端",
-      "summary": "开发者发布开源项目OpenSmith，允许用户在本地追踪LLM管道（pipeline）的执行过程，无需依赖任何云服务。该工具旨在提升AI开发的可观测性和数据隐私。",
+      "title": "开源AI操作系统HART OS发布，声称无需数据中心即可运行前沿AI",
+      "summary": "一个名为HART OS的开源项目旨在构建一个无需大型数据中心即可运行前沿AI模型的AI操作系统。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/shivnathtathe/opensmith"
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/hertz-ai/HARTOS"
         }
       ]
     },
     {
-      "title": "开发者构建“思维导图”式LLM聊天画布",
-      "summary": "一个名为ThoughtDAG的项目将LLM聊天记录转化为可编辑的思维导图，旨在改善AI对话的组织和回溯体验。",
+      "title": "皮尤研究中心发布报告：美国民众对全球AI竞赛的看法",
+      "summary": "皮尤研究中心发布了一份关于美国民众如何看待全球AI竞赛的调查报告。",
       "references": [
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/chenxiachan/thoughtdag"
-        }
-      ]
-    },
-    {
-      "title": "分析文章指出LLM评估系统必须处理的两大噪声源",
-      "summary": "一篇技术文章深入分析了LLM评估系统中普遍存在的两种噪声来源，并强调了处理这些噪声对于获得可靠评估结果的重要性。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://wilburhimself.github.io/blog/64-the-two-sources-of-noise-every-llm-evaluation-system-must-handle"
+          "source_name": "Hacker News AI",
+          "link": "https://pewresearch.org/short-reads/2026/07/23/what-americans-think-about-the-global-ai-race"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI安全事件与开源限制游说并行，凸显行业治理困境",
-      "summary": "一边是首次自主智能体攻击暴露了AI系统的脆弱性，另一边是头部企业试图通过政治手段限制竞争对手。这两件事共同指向一个核心矛盾：在AI安全风险日益增大的背景下，行业是选择开放协作还是封闭壁垒。",
+      "title": "AI安全事件频发，行业对“自主智能体攻击”的防御准备不足",
+      "summary": "从OpenAI遭自主智能体攻击到社区涌现的LLM越狱工具，再到对DeepSeek基础设施泄露的讨论，表明当前AI安全焦点正从模型权重保护转向对自主智能体行为的防御和基础设施安全，但行业整体应对能力仍显滞后。",
       "references": [
         {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack"
         },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/981/797.htm"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/joshfischer1108/jailbreak-lab"
+        },
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/james_lin/the-deepseek-leak-why-infrastructure-secrets-matter-more-than-model-weights-3c3n"
         }
       ]
     },
     {
-      "title": "社区对AI编程工具的体验分化：从“古法编程”到“过誉项目”",
-      "summary": "社区讨论显示，开发者对AI编程工具的态度出现明显分化。一方面有开发者怀念“古法编程”，另一方面有用户批评开源项目“opencode”资源占用过高、体验不佳，认为其“过誉”。这表明AI编程工具在实用性和效率上仍有巨大改进空间。",
+      "title": "LLM评估体系面临“噪声”挑战，社区探索更务实的方法",
+      "summary": "多篇讨论指出，传统的LLM评估实验设计复杂且难以执行，而社区开始转向更务实的单次实验或关注评估系统中的“噪声”来源，反映出对现有基准测试有效性的反思。",
       "references": [
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1229967"
-        },
-        {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1229924"
-        }
-      ]
-    },
-    {
-      "title": "本地化与可观测性工具涌现，LLM开发正从“黑盒”走向“透明”",
-      "summary": "多个新项目（如OpenSmith、ThoughtDAG）专注于LLM管道的本地追踪、可视化与评估，反映出开发者社区对AI系统可解释性和可控性的强烈需求。这预示着LLM应用开发正从依赖云端API的“黑盒”模式，转向更注重本地化、可观测和可调试的工程化范式。",
-      "references": [
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/shivnathtathe/opensmith"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://github.com/chenxiachan/thoughtdag"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/debashish_ghosal/i-planned-10-llm-evaluation-experiments-and-only-ran-1-it-was-enough-2gjf"
         },
         {
           "source_name": "Hacker News LLM",
           "link": "https://wilburhimself.github.io/blog/64-the-two-sources-of-noise-every-llm-evaluation-system-must-handle"
+        }
+      ]
+    },
+    {
+      "title": "AI代理工具链快速成熟，但成本控制与安全防护成为新焦点",
+      "summary": "社区涌现出如Wattage（令牌花费分析器）、ModelFuzz（运行时护栏）和Shepherd Model Gateway（模型路由网关）等工具，表明AI代理的部署正从“能否实现”转向“如何安全、经济地规模化运行”。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/faizannraza/wattage"
+        },
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://modelfuzz.com/"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/lightseekorg/smg"
+        }
+      ]
+    },
+    {
+      "title": "开发者社区对AI编码工具的体验出现分化，部分项目被指“过誉”",
+      "summary": "在V2EX等社区，有开发者对opencode等AI编码工具提出批评，指出其资源占用过高、实际体验不佳，与宣传效果存在差距，反映出AI辅助编程工具在落地过程中仍面临用户体验和效率的挑战。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1229924"
         }
       ]
     }
