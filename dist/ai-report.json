@@ -1,57 +1,173 @@
 {
-  "global_brief": "本周AI领域研究密集，多项工作聚焦于大语言模型的伦理逻辑、部署配置对伪科学验证的影响，以及Agent系统的效率与安全性。同时，科技巨头围绕开源模型的安全性展开公开辩论，英伟达、微软等签署联名信支持开源模型，而Anthropic和OpenAI则主张严格管控。Kimi K3在Arena周榜中蝉联前端开发全球第一，显示国产模型在特定领域的竞争力。",
+  "global_brief": "今日AI领域研究密集，多篇论文聚焦大模型伦理逻辑、部署配置对伪科学验证的影响，以及Agent系统的效率与安全。同时，英伟达与微软联合发起开放AI安全联盟，但未邀请OpenAI、谷歌和Anthropic，引发行业关注。此外，OpenAI发布新研究，探讨AI如何扩展人类工作内容。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 25707,
-      "event_count": 429
+      "field_score": 26616,
+      "event_count": 446
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1577,
-      "event_count": 39
+      "field_score": 1415,
+      "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 893,
-      "event_count": 20
+      "field_score": 1054,
+      "event_count": 24
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 371,
+      "field_score": 381,
       "event_count": 8
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 216,
-      "event_count": 4
+      "field_score": 278,
+      "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "八款大语言模型伦理逻辑分析",
-      "summary": "一项研究分析了包括Anthropic、DeepSeek、Google、Meta在内的八款大语言模型的伦理逻辑。",
+      "title": "英伟达与微软联合发起开放AI安全联盟，未邀请OpenAI、谷歌和Anthropic",
+      "summary": "英伟达宣布与微软、SpaceX、IBM等公司合作，建立并共享开放AI安全工具，但该联盟未包含OpenAI、谷歌和Anthropic。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+        }
+      ]
+    },
+    {
+      "title": "研究分析八款大语言模型的伦理逻辑",
+      "summary": "一项研究（arXiv:2501.08951）分析了包括Anthropic、DeepSeek、谷歌和Meta在内的八款大语言模型的伦理逻辑。",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2501.08951"
         }
       ]
+    },
+    {
+      "title": "研究揭示LLM部署配置如何影响伪科学验证",
+      "summary": "一项研究（arXiv:2607.22513）指出，商业大语言模型作为知识库使用时，其部署配置会塑造对伪科学的验证过程。同时，韩国企业因将海外大模型引入业务流程，正面临AI词元使用成本快速攀升的挑战。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.22513"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/982/241.htm"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI研究显示AI正在扩展人类工作内容",
+      "summary": "OpenAI发布新研究，表明AI正在扩展工人的工作内容，ChatGPT用户正在承担更多类型的任务。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
+        }
+      ]
+    },
+    {
+      "title": "研究提出跨模型LLM代码审查方法",
+      "summary": "一项研究（arXiv:2607.21656）探讨了开发者是否应使用Claude来审查Codex的代码，反之亦然，即跨模型LLM代码审查。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.21656"
+        }
+      ]
+    },
+    {
+      "title": "研究提出用于Agent记忆系统的高效KV缓存复用方法",
+      "summary": "一项研究（arXiv:2607.21604）提出了AgentKVShift，一种用于增强型Agent记忆系统的高效KV缓存复用方法。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.21604"
+        }
+      ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "开源与闭源模型安全之争加剧",
-      "summary": "英伟达、微软等巨头签署联名信支持开源模型，直接挑战了Anthropic和OpenAI所主张的“模型过于危险需严格管控”的立场，这场辩论将深刻影响全球AI治理和模型分发模式。",
+      "title": "Agent系统研究密集，但基准测试有效性存疑",
+      "summary": "多篇论文聚焦Agent系统的效率（如KV缓存复用）和框架（如OpenForgeRL），但另一项研究质疑现有Agent基准测试是否真正衡量了能力，提示该领域需更严谨的评估方法论。",
       "references": [
         {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3778016"
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.21656"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.21557"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.21604"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.22368"
+        }
+      ]
+    },
+    {
+      "title": "从RAG到Agentic RAG，数据集成正走向自主化",
+      "summary": "研究从传统RAG向Agentic RAG的演进，以及DataFlow-Harness等可编辑数据管道平台的提出，表明AI正从被动检索转向主动、自主的数据集成与处理。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.22319"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.16617"
+        }
+      ]
+    },
+    {
+      "title": "LLM在专业领域应用深化，安全与幻觉问题突出",
+      "summary": "多项研究将LLM应用于核反应堆操作员考试、机器人健康护理控制等高风险领域，同时“方向性幻觉”和安全性基准测试的涌现，凸显了在专业场景中部署LLM的迫切挑战。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.22067"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2604.26577"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.20487"
+        }
+      ]
+    },
+    {
+      "title": "小模型与推理效率成为研究热点，旨在降低部署门槛",
+      "summary": "针对小模型的GRPO收敛性研究、统一静态-动态剪枝以及稀疏注意力架构（RIS-Kernel）等成果，共同指向一个趋势：业界正积极寻求在边缘设备或资源受限环境下高效运行LLM的方案。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.21626"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.21985"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2607.21927"
         }
       ]
     }
