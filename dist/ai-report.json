@@ -1,43 +1,147 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Analyzing the Ethical Logic of Eight Large Language Models；Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science；Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic。",
+  "global_brief": "过去24小时，AI领域研究密集，涵盖大模型伦理逻辑、部署配置对伪科学验证的影响、以及跨模型代码审查等前沿课题。同时，安全与治理议题升温，英伟达与微软联合发起开放AI安全联盟，但未邀请OpenAI、谷歌等巨头；OpenAI的Hugging Face泄露事件也重新引发了对AI对齐与控制的辩论。此外，微软发布了其首个网络安全AI模型及代理系统，ChatGPT则开始阻止直接模仿作者风格的请求。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 26630,
+      "field_score": 26250,
       "event_count": 455
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1208,
-      "event_count": 31
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1042,
-      "event_count": 23
+      "field_score": 1365,
+      "event_count": 30
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1116,
+      "event_count": 29
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 539,
-      "event_count": 11
+      "field_score": 586,
+      "event_count": 12
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 305,
-      "event_count": 6
+      "field_score": 352,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "Nvidia, Microsoft 发布 open AI security alliance — without OpenAI, Google, or Anthropic",
-      "summary": "Nvidia, Microsoft 发布 open AI security alliance — without OpenAI, Google, or Anthropic；时间：2026-07-27T13:07:41.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "英伟达与微软联合发起开放AI安全联盟，未邀请OpenAI、谷歌等",
+      "summary": "英伟达宣布与微软、SpaceX、IBM等公司合作，共同构建和分享开放AI安全工具与最佳实践，但该联盟未包含OpenAI、谷歌或Anthropic等主要AI公司。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI的Hugging Face泄露事件引发AI对齐与控制辩论",
+      "summary": "OpenAI的Hugging Face账户遭遇泄露，该事件重新点燃了关于AI对齐与控制的辩论，暴露了关于内部安全措施有效性的不同观点。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control"
+        },
+        {
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent"
+        }
+      ]
+    },
+    {
+      "title": "微软发布首个网络安全AI模型及代理系统",
+      "summary": "微软本周推出了其首个AI安全模型和一个新的代理网络安全系统，以增强其AI网络安全产品线。",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT开始阻止直接模仿作者风格的请求",
+      "summary": "ChatGPT开始阻止用户直接要求其复制特定作者写作风格的请求，这一新行为可能涉及法律影响。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling"
+        }
+      ]
+    },
+    {
+      "title": "研究揭示大模型部署配置如何影响伪科学验证",
+      "summary": "一项新研究探讨了商业大语言模型作为知识库使用时，其部署配置如何影响对伪科学主张的验证过程，涉及Anthropic、谷歌和OpenAI的模型。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.22513"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/982/241.htm"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI研究显示AI正在扩展而非替代人类工作内容",
+      "summary": "OpenAI的最新研究表明，AI正在扩展员工的工作范围，使用ChatGPT的用户倾向于承担更多类型的任务。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "跨模型代码审查研究揭示AI代理协作的新范式",
+      "summary": "一项研究探讨了使用Claude审查Codex代码或反之的跨模型代码审查模式，这预示着未来软件开发可能从单一AI辅助转向多AI代理协作与相互验证的新范式。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.21656"
+        }
+      ]
+    },
+    {
+      "title": "大模型伦理逻辑研究为AI安全对齐提供新视角",
+      "summary": "对八种大模型伦理逻辑的系统性分析，为理解不同AI系统的内在价值取向提供了实证基础，这对于构建更安全、更可控的AI系统至关重要。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2501.08951"
+        }
+      ]
+    },
+    {
+      "title": "边缘设备上的延迟预测研究是LLM部署的关键瓶颈",
+      "summary": "针对异构边缘设备上LLM的可迁移延迟预测研究，对于推动大模型在移动端和物联网等场景的落地至关重要，是解决实际部署中性能与成本平衡的核心技术。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.21602"
+        }
+      ]
+    },
+    {
+      "title": "开源AI代理工具链的涌现正加速AI应用开发民主化",
+      "summary": "多个开源AI代理平台（如OpenForgeRL、DataFlow-Harness）的发布，表明AI代理开发正从封闭框架走向开放生态，这将显著降低构建复杂AI应用的门槛，推动AI技术更广泛的普及。",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.21557"
+        }
+      ]
+    }
+  ]
 }
