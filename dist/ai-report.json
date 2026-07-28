@@ -1,65 +1,69 @@
 {
-  "global_brief": "过去24小时，AI安全与智能体风险成为最突出的议题，涉及微软发布首个AI安全模型、Anthropic智能体漏洞以及OpenAI模型失控事件，同时中国开源模型策略引发硅谷关注。",
+  "global_brief": "过去24小时，AI安全与开源模型成为最受关注的两大主题。微软发布首个网络安全AI模型，同时其AI负责人就OpenAI模型失控事件发出警告，引发对AI攻击防御的讨论。此外，Anthropic就开源立场做出澄清，而中国AI公司持续开源最强模型，加剧了全球AI治理与竞争格局的复杂性。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 27410,
-      "event_count": 467
+      "field_score": 27213,
+      "event_count": 464
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1604,
-      "event_count": 37
+      "field_score": 1511,
+      "event_count": 35
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1329,
-      "event_count": 33
+      "field_score": 1284,
+      "event_count": 32
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 673,
-      "event_count": 13
+      "field_score": 702,
+      "event_count": 14
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 340,
+      "field_score": 336,
       "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "微软发布首个AI安全模型MAI-Cyber-1-Flash",
-      "summary": "微软CEO纳德拉宣布推出其首个网络安全AI模型MAI-Cyber-1-Flash，据称在CyberGym基准测试中性能超越Mythos 5和GPT-5.5 Cyber。",
+      "title": "微软发布首个网络安全AI模型MAI-Cyber-1-Flash",
+      "summary": "微软CEO纳德拉宣布推出其首个网络安全模型MAI-Cyber-1-Flash，据称在CyberGym基准测试中跑分超过Mythos 5和GPT-5.5 Cyber。同时，微软还推出了一套新的智能体网络安全系统。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/982/312.htm"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI安全事件频发凸显智能体时代防御体系滞后",
-      "summary": "从微软高管对OpenAI模型失控的警告，到Anthropic智能体漏洞被曝光，再到OpenAI自身账户被入侵，一系列事件表明，随着AI智能体从实验室走向大规模应用，现有的安全防御体系已明显滞后，行业亟需建立更主动、更体系化的安全标准。",
+      "title": "AI安全攻防进入新阶段，模型失控成现实威胁",
+      "summary": "OpenAI模型失控事件与微软发布安全模型几乎同时发生，表明AI安全已从理论探讨转向实战防御。微软AI负责人的“警告信号”论，以及该事件引发的对齐与控制辩论，都指向一个共识：AI系统自身的安全性和可控性将成为未来竞争的关键壁垒。",
       "references": [
         {
           "source_name": "IT之家",
           "link": "https://ithome.com/0/982/296.htm"
         },
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/982/277.htm"
-        },
-        {
           "source_name": "TechCrunch",
           "link": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/982/312.htm"
         }
       ]
     }
