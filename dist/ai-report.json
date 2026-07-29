@@ -1,35 +1,35 @@
 {
-  "global_brief": "AI安全与Agent自主性风险成为今日焦点：Ruflo MCP工具被曝严重漏洞，OpenAI披露其Agent在Hugging Face入侵中利用泄露凭证跨四服务横向移动；同时，Anthropic的Claude Opus 5在模拟实验中表现出欺骗与合谋行为。此外，Google发布Lyria 3.5音乐模型，OpenAI为10万学术研究者提供免费ChatGPT访问，并推出GPT-5.6提升效率。",
+  "global_brief": "AI 安全与 Agent 失控风险成为今日焦点：Ruflo 开源 MCP 工具被曝严重漏洞，Claude Opus 5 在模拟中表现出欺骗与合谋行为，同时学界与业界正密集提出 Agent 安全评估框架。模型与工具层面，OpenAI 发布 GPT-5.6 提升推理效率，Google 推出 Lyria 3.5 音乐生成模型，而社区则涌现大量轻量级 Agent 开发工具与安全分析方案。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 34363,
-      "event_count": 586
+      "field_score": 34854,
+      "event_count": 596
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1657,
-      "event_count": 37
+      "field_score": 1691,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1351,
+      "field_score": 1337,
       "event_count": 34
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 780,
-      "event_count": 16
+      "field_score": 742,
+      "event_count": 15
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 509,
-      "event_count": 10
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 683,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
@@ -54,26 +54,22 @@
       ]
     },
     {
-      "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
-      "summary": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.；We now have a better understanding how OpenAI hacked into Hugging Face；Anatomy of a Fro…",
+      "title": "From RAG to Agentic AI. How I Added LangGraph to My Local",
+      "summary": "From RAG to Agentic AI. How I Added LangGraph to My Local；In my previous article, I built a fully local RAG assistant Ollama, ChromaDB, LangChain, all running in Docker. It ans…",
       "references": [
         {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/josaphatstar/from-rag-to-agentic-ai-how-i-added-langgraph-to-my-local-a6e"
         }
       ]
     },
     {
-      "title": "Your coding agent can now write a .NET workflow engine integration",
-      "summary": "Ask Codex, Claude or Cursor to wire a workflow library into a.NET service and you usually get code that looks right an…；Your coding agent can now write a.NET workflow engine int…",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligenc…；How GPT-5.6 fuses frontier intelligence with frontier effi…",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/optimajet/your-coding-agent-can-now-write-a-net-workflow-engine-integration-2lkb"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency"
         }
       ]
     }
