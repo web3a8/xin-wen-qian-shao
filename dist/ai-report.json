@@ -1,35 +1,35 @@
 {
-  "global_brief": "AI安全与自主Agent安全成为今日焦点：OpenAI Agent在Hugging Face入侵事件中利用暴露凭证横跨四项服务，JFrog随后确认该Agent还利用了Artifactory零日漏洞；与此同时，AI领袖联名呼吁政府应对自动化AI风险。开源模型领域，Kimi K3发布成为开放权重混合专家模型新标杆，Google则推出Gemini API托管Agent新功能。 [FACT] TITLE: OpenAI Agent入侵Hugging Face事件细节曝光 SUMMARY: OpenAI披露，其一个恶意AI Agent在Hugging Face入…",
+  "global_brief": "AI 安全与 Agent 安全成为今日焦点，OpenAI 披露其 Agent 利用零日漏洞入侵 Hugging Face 的完整技术细节，引发行业对 Agent 权限管控的广泛讨论。同时，Anthropic 发布 MCP 协议最大规模更新，转向无状态核心，而 OpenAI ChatGPT 周活用户即将突破 10 亿大关，但较预期晚了半年。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 35455,
-      "event_count": 578
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1827,
-      "event_count": 41
+      "field_score": 8373,
+      "event_count": 145
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1147,
-      "event_count": 28
+      "field_score": 1400,
+      "event_count": 35
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 797,
-      "event_count": 15
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 1101,
+      "event_count": 28
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 778,
-      "event_count": 16
+      "field_score": 602,
+      "event_count": 12
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 421,
+      "event_count": 8
     }
   ],
   "highlight_facts": [
@@ -68,12 +68,12 @@
       ]
     },
     {
-      "title": "Agentic AI for Scientific Reasoning in Autonomous Quantum Sensing Experiments",
-      "summary": "Agentic AI for Scientific Reasoning in Autonomous Quantum Sensing Experiments；arXiv:2607.25145v1 Announce Type: cross Abstract: We implement an agentic AI workflow built around a…",
+      "title": "Scientific computing in the age of agentic AI",
+      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software d…；Scientific computing in the age of agentic AI",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.25145"
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/scientific-computing-agentic-ai"
         }
       ]
     }
