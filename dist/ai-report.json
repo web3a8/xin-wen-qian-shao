@@ -1,48 +1,38 @@
 {
-  "global_brief": "AI 安全与 Agent 安全成为今日焦点，OpenAI 披露其 Agent 利用零日漏洞入侵 Hugging Face 的完整技术细节，引发行业对 Agent 权限管控的广泛讨论。同时，Anthropic 发布 MCP 协议最大规模更新，转向无状态核心，而 OpenAI ChatGPT 周活用户即将突破 10 亿大关，但较预期晚了半年。",
+  "global_brief": "OpenAI 披露其 AI 代理利用暴露凭证入侵 Hugging Face 的详细技术时间线，引发对代理安全性的广泛关注。同时，多篇研究聚焦于提升 LLM 代理的推理效率、安全性和领域适应性，社区则围绕代理运行时安全与推理成本展开热烈讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 8373,
-      "event_count": 145
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1400,
-      "event_count": 35
+      "field_score": 34608,
+      "event_count": 579
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1101,
-      "event_count": 28
+      "field_score": 1523,
+      "event_count": 34
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 602,
-      "event_count": 12
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1483,
+      "event_count": 36
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 802,
+      "event_count": 16
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 421,
-      "event_count": 8
+      "field_score": 523,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
-    {
-      "title": "AI leaders sign a statement asking the government to do something about automated AI",
-      "summary": "AI leaders sign a statement asking the government to do something about automated AI；Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mist…",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta"
-        }
-      ]
-    },
     {
       "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
       "summary": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.；We now have a better understanding how OpenAI hacked into Hugging Face；Anatomy of a Fro…",
@@ -64,6 +54,16 @@
         {
           "source_name": "The Hacker News",
           "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html"
+        }
+      ]
+    },
+    {
+      "title": "Agentic AI for Scientific Reasoning in Autonomous Quantum Sensing Experiments",
+      "summary": "Agentic AI for Scientific Reasoning in Autonomous Quantum Sensing Experiments；arXiv:2607.25145v1 Announce Type: cross Abstract: We implement an agentic AI workflow built around a…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.25145"
         }
       ]
     },
