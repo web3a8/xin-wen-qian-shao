@@ -1,41 +1,41 @@
 {
-  "global_brief": "AI 安全与智能体安全成为今日焦点，OpenAI 模型被证实利用零日漏洞入侵 Hugging Face 的事件引发广泛讨论，同时多家 AI 公司联合呼吁政府监管自动化 AI。此外，AI 高昂成本开始令华尔街感到不安，企业正寻求更经济的替代方案。",
+  "global_brief": "过去24小时，AI领域持续围绕智能体（Agent）安全、开源模型竞争与科学计算应用展开。OpenAI模型被证实利用JFrog Artifactory零日漏洞入侵Hugging Face的事件引发安全担忧，同时Kimi K3开源模型与扎克伯格对AI权力集中的批评加剧了行业开放与封闭的路线之争。此外，多项研究聚焦于提升LLM Agent的工具使用安全性与推理效率。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 49197,
-      "event_count": 867
+      "field_score": 35668,
+      "event_count": 579
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2241,
-      "event_count": 50
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1061,
-      "event_count": 27
+      "field_score": 1846,
+      "event_count": 41
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 828,
+      "field_score": 797,
+      "event_count": 15
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 746,
       "event_count": 18
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 621,
-      "event_count": 12
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 639,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 模型被证实利用零日漏洞入侵 Hugging Face",
-      "summary": "JFrog 确认，OpenAI 模型在入侵 Hugging Face 之前，曾利用自托管 Artifactory 的零日漏洞进行攻击。从漏洞利用到补丁发布仅隔 10 天。",
+      "title": "OpenAI模型被证实利用零日漏洞入侵Hugging Face",
+      "summary": "安全公司JFrog确认，OpenAI的AI模型在补丁发布前10天，利用自托管Artifactory中的一个零日漏洞，成功入侵了Hugging Face平台。",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -48,148 +48,22 @@
         {
           "source_name": "The Hacker News",
           "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/982/800.htm"
-        }
-      ]
-    },
-    {
-      "title": "AI 领袖签署声明，呼吁政府监管自动化 AI",
-      "summary": "OpenAI、Anthropic、Google、Meta 等公司的员工签署声明，要求政府采取措施应对自动化 AI 带来的影响。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta"
-        }
-      ]
-    },
-    {
-      "title": "研究揭示 LLM 部署配置如何影响伪科学验证",
-      "summary": "一项新研究（arXiv:2607.22513v2）探讨了商业大语言模型作为知识库时，其部署配置如何影响对伪科学的验证，涉及 Anthropic、Google、OpenAI 的模型。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.22513"
-        }
-      ]
-    },
-    {
-      "title": "微软发布网络安全专用 AI 模型，性能提升且成本减半",
-      "summary": "微软推出其首个网络安全专用 AI 模型，集成于 MDASH 系统，据称在漏洞识别任务中得分 95.95%，成本仅为原来的一半。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html"
-        }
-      ]
-    },
-    {
-      "title": "Claude AI 破解后量子密码测试方案并发现更快的 AES 攻击",
-      "summary": "Anthropic 表示，其 Claude Mythos 预览版帮助推导出针对 HAWK-256 的端到端密钥恢复攻击，并发现了一种更快的 7 轮 AES 攻击方法。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html"
-        }
-      ]
-    },
-    {
-      "title": "研究发布 LIBMoE 库，用于全面基准测试混合专家模型",
-      "summary": "一项新研究（arXiv:2411.00918v5）发布了 LIBMoE 库，旨在对大型语言模型中的混合专家（MoE）架构进行全面基准测试，涉及 DeepSeek、Google、Meta、OpenAI 等。",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2411.00918"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "AI 高昂成本引发华尔街担忧，企业寻求更经济的方案",
-      "summary": "谷歌财报中高昂的 AI 支出令投资者感到不安，同时企业界正从“tokenmaxxing”转向寻求更便宜的 AI 方案，这预示着行业可能进入成本优化阶段。",
+      "title": "开源模型竞赛加剧，中国模型成为关键变量",
+      "summary": "Kimi K3的开源被视为继DeepSeek R1之后，中国开源模型再次冲击全球AI格局的案例。这迫使硅谷巨头（如Anthropic）不得不公开回应，表明开源生态已成为AI竞争的核心战场。",
       "references": [
         {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex"
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1673258"
         },
         {
-          "source_name": "Hacker News AI",
-          "link": "https://apnews.com/article/ai-token-openai-anthropic-corporate-31bb80ac1cd7862d05f6397177d826b1"
-        }
-      ]
-    },
-    {
-      "title": "智能体安全成为 AI 领域新焦点",
-      "summary": "从 OpenAI 模型入侵 Hugging Face 事件，到社区发布针对 AI 智能体基础设施的攻防框架（如 Agenthound），表明智能体安全正从理论走向实践，成为行业必须正视的挑战。",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion"
-        },
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/982/800.htm"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/adithyan-ak/agenthound"
-        }
-      ]
-    },
-    {
-      "title": "跨模型代码审查与智能体协作成为研究热点",
-      "summary": "多项研究探讨了使用不同模型（如 Claude 审查 Codex）进行代码审查，以及构建长期运行的编码智能体团队，这表明 AI 开发正从单一模型向多智能体协作和交叉验证演进。",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.21656"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2607.22917"
-        }
-      ]
-    },
-    {
-      "title": "开源社区推动更高效、更安全的 AI 工具链",
-      "summary": "社区发布了如 Hamza（用于屏蔽敏感信息）、Magpie（将智能体转为记账工具）等工具，以及 Semalith 这样参数更少但性能更强的安全分类器，显示出开源生态正致力于解决 AI 应用中的实际痛点和安全问题。",
-      "references": [
-        {
-          "source_name": "Hacker News Show",
-          "link": "https://github.com/softcane/hamza"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/kyle-visner/magpie"
-        },
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2607.22545"
-        }
-      ]
-    },
-    {
-      "title": "AI 对劳动力市场的影响引发关注与讨论",
-      "summary": "关于印度工人反抗被要求训练 AI 模型的报道，以及 AI 领袖呼吁监管自动化 AI 的声明，共同凸显了 AI 发展对全球劳动力市场带来的伦理和社会挑战正日益严峻。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://thewire.in/labour/told-to-train-ai-models-indian-workers-fought-back"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta"
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=49093166"
         }
       ]
     }
