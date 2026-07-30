@@ -1,78 +1,63 @@
 {
-  "global_brief": "AI 领域持续活跃，安全与竞争格局成为焦点：Ruflo 开源代理框架曝出严重安全漏洞，可被用于命令执行与 AI 记忆投毒；微软在 AI 投资中从 Anthropic 获利 32 亿美元，同时开始与 OpenAI 和 Anthropic 公开竞争；Kimi 完成超 35 亿美元 F 轮融资，估值升至 350 亿美元。",
+  "global_brief": "今日AI领域持续高热，安全与竞争成为两大主线：Ruflo MCP工具被曝出最高严重级别漏洞，引发对AI Agent安全性的广泛关注；同时，微软在财报中披露对Anthropic投资获利32亿美元，并公开与OpenAI、Anthropic展开直接竞争，行业格局加速重塑。此外，Kimi完成超35亿美元F轮融资，估值达350亿美元，中国AI市场资本热度不减。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33114,
-      "event_count": 541
+      "field_score": 34353,
+      "event_count": 562
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1663,
-      "event_count": 36
+      "field_score": 1697,
+      "event_count": 37
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1132,
-      "event_count": 28
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 737,
-      "event_count": 15
+      "field_score": 1159,
+      "event_count": 29
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 589,
-      "event_count": 11
+      "field_score": 638,
+      "event_count": 12
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 626,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-      "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for…；Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands…",
+      "title": "Ruflo MCP工具被曝最高严重级别安全漏洞",
+      "summary": "网络安全研究人员发现开源Agent元框架Ruflo存在一个最高严重级别的安全漏洞，该漏洞允许未经身份验证的攻击者远程执行命令并污染AI内存。",
       "references": [
         {
           "source_name": "The Hacker News",
           "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html"
         }
       ]
-    },
+    }
+  ],
+  "highlight_opinions": [
     {
-      "title": "The Reliability of LLMs for Medical Diagnosis: An Examination of Consistency, Manipulation, and Contextual Awareness",
-      "summary": "arXiv:2503.10647v2 Announce Type: replace-cross Abstract: This study evaluated the diagnostic reliability of two Large…；The Reliability of LLMs for Medical Diagnosis: An Examinati…",
+      "title": "AI Agent安全风险从理论走向现实",
+      "summary": "Ruflo MCP的严重漏洞 与社区发布的AI Agent安全审计指南 共同表明，随着Agent框架的普及，针对MCP协议和LLM的渗透测试与安全评估正成为行业刚需，安全建设滞后于应用部署的风险正在加剧。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2503.10647"
-        }
-      ]
-    },
-    {
-      "title": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution",
-      "summary": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution；arXiv:2607.26661v1 Announce Type: new Abstract: Ascend C operator optimization is cri…",
-      "references": [
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html"
+        },
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.26661"
-        }
-      ]
-    },
-    {
-      "title": "Low-Precision Training of Large Language Models: Methods, Challenges, and Opportunities",
-      "summary": "arXiv:2505.01043v2 Announce Type: replace-cross Abstract: Large language models (LLMs) have achieved impressive perform…；Low-Precision Training of Large Language Models: Methods,…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2505.01043"
+          "source_name": "Dev.to",
+          "link": "https://dev.to/correctover/ai-agent-security-audit-from-mcp-penetration-testing-to-llm-vulnerability-assessment-4k40"
         }
       ]
     }
-  ],
-  "highlight_opinions": []
+  ]
 }
