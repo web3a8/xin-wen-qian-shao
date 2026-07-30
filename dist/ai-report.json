@@ -1,78 +1,71 @@
 {
-  "global_brief": "AI领域持续主导全球科技动态，微软在Anthropic投资中录得32亿美元收益，同时与OpenAI的竞争公开化；Kimi完成超35亿美元F轮融资，估值升至350亿美元；多项研究揭示LLM在医疗诊断可靠性、安全漏洞及能源效率方面的关键挑战。",
+  "global_brief": "OpenAI 发布 GPT-5.6 并降价，同时其黑客攻击 Hugging Face 事件引发安全讨论；Google DeepMind 推出可控制完整人形机器人的 Gemini Robotics 新模型；Kimi 完成超 35 亿美元 F 轮融资，投后估值达 350 亿美元，AI 领域的竞争与投资热度持续升温。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32501,
-      "event_count": 556
+      "field_score": 31603,
+      "event_count": 545
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1727,
-      "event_count": 39
+      "field_score": 1544,
+      "event_count": 34
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 972,
+      "field_score": 950,
       "event_count": 24
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 653,
-      "event_count": 14
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 515,
-      "event_count": 10
+      "field_score": 472,
+      "event_count": 9
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 383,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "The Reliability of LLMs for Medical Diagnosis: An Examination of Consistency, Manipulation, and Contextual Awareness",
-      "summary": "arXiv:2503.10647v2 Announce Type: replace-cross Abstract: This study evaluated the diagnostic reliability of two Large…；The Reliability of LLMs for Medical Diagnosis: An Examinati…",
+      "title": "OpenAI 发布 GPT-5.6 并调整定价",
+      "summary": "OpenAI 宣布推出 GPT-5.6，旨在提升性价比，并为 Luna 和 Terra 计划提供更低价格。社区讨论也关注到 OpenAI 因企业成本敏感而降价。",
       "references": [
         {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2503.10647"
-        }
-      ]
-    },
-    {
-      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
-      "summary": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag；When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), i…",
-      "references": [
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6"
+        },
         {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag"
-        }
-      ]
-    },
-    {
-      "title": "In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable",
-      "summary": "Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against Hugging…；In the Hugging Face breach, OpenAI’s hacker was noisy and f…",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable"
-        }
-      ]
-    },
-    {
-      "title": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution",
-      "summary": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution；arXiv:2607.26661v1 Announce Type: new Abstract: Ascend C operator optimization is cri…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2607.26661"
+          "source_name": "Hacker News AI",
+          "link": "https://cnbc.com/2026/07/30/open-ai-price-cut-gpt.html"
         }
       ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "LLM 安全存在根本性缺陷",
+      "summary": "多项研究指出，大型语言模型存在根本性缺陷，使其极易受到攻击，且无法实现完全安全。同时，有研究提出通过自动化测试和策略蒸馏来提升 LLM 安全知识和对齐。",
+      "references": [
+        {
+          "source_name": "MIT Technology Review",
+          "link": "https://technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.18496"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.27081"
+        }
+      ]
+    }
+  ]
 }
