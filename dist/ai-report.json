@@ -1,48 +1,38 @@
 {
-  "global_brief": "AI领域持续活跃，模型安全、融资与开源生态成为焦点：Ruflo MCP被曝严重安全漏洞，可致AI记忆中毒；Kimi完成超35亿美元F轮融资，估值达350亿美元；同时，多项研究关注LLM在医疗诊断、低精度训练及多模态推理方面的进展与挑战。",
+  "global_brief": "AI 领域持续活跃，安全与竞争格局成为焦点：Ruflo 开源代理框架曝出严重安全漏洞，可被用于命令执行与 AI 记忆投毒；微软在 AI 投资中从 Anthropic 获利 32 亿美元，同时开始与 OpenAI 和 Anthropic 公开竞争；Kimi 完成超 35 亿美元 F 轮融资，估值升至 350 亿美元。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 34226,
-      "event_count": 555
+      "field_score": 33114,
+      "event_count": 541
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1630,
-      "event_count": 35
+      "field_score": 1663,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1185,
-      "event_count": 29
+      "field_score": 1132,
+      "event_count": 28
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 750,
+      "field_score": 737,
       "event_count": 15
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 574,
+      "field_score": 589,
       "event_count": 11
     }
   ],
   "highlight_facts": [
-    {
-      "title": "Building a unified OpenAI-compatible gateway for 16 Chinese LLMs: architecture notes on routing, payments and ops",
-      "summary": "Building a unified OpenAI-compatible gateway for 16 Chinese LLMs: architecture notes on routing, payments and ops；Why we built this If you want to use Chinese frontier models — De…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/martinhhht/building-a-unified-openai-compatible-gateway-for-16-chinese-llms-architecture-notes-on-routing-465f"
-        }
-      ]
-    },
     {
       "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
       "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for…；Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands…",
@@ -54,26 +44,32 @@
       ]
     },
     {
-      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-      "summary": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control；IT之家 7 月 30 日消息，谷歌昨日（7 月 29 日）发布博文， 宣布正在 Google Flow Music 中推…",
-      "references": [
-        {
-          "source_name": "Google DeepMind",
-          "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/983/412.htm"
-        }
-      ]
-    },
-    {
       "title": "The Reliability of LLMs for Medical Diagnosis: An Examination of Consistency, Manipulation, and Contextual Awareness",
       "summary": "arXiv:2503.10647v2 Announce Type: replace-cross Abstract: This study evaluated the diagnostic reliability of two Large…；The Reliability of LLMs for Medical Diagnosis: An Examinati…",
       "references": [
         {
           "source_name": "arXiv AI",
           "link": "https://arxiv.org/abs/2503.10647"
+        }
+      ]
+    },
+    {
+      "title": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution",
+      "summary": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution；arXiv:2607.26661v1 Announce Type: new Abstract: Ascend C operator optimization is cri…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.26661"
+        }
+      ]
+    },
+    {
+      "title": "Low-Precision Training of Large Language Models: Methods, Challenges, and Opportunities",
+      "summary": "arXiv:2505.01043v2 Announce Type: replace-cross Abstract: Large language models (LLMs) have achieved impressive perform…；Low-Precision Training of Large Language Models: Methods,…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2505.01043"
         }
       ]
     }
