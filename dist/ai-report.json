@@ -1,63 +1,58 @@
 {
-  "global_brief": "今日AI领域持续高热，安全与竞争成为两大主线：Ruflo MCP工具被曝出最高严重级别漏洞，引发对AI Agent安全性的广泛关注；同时，微软在财报中披露对Anthropic投资获利32亿美元，并公开与OpenAI、Anthropic展开直接竞争，行业格局加速重塑。此外，Kimi完成超35亿美元F轮融资，估值达350亿美元，中国AI市场资本热度不减。",
+  "global_brief": "过去24小时的重要动态主要集中在：Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory；The Reliability of LLMs for Medical Diagnosis: An Examination of Consistency, Manipulation, and Contextual Awareness；We’re launching Lyria 3.5 in Google Flow Music, with advances acr…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 34353,
-      "event_count": 562
+      "field_score": 33005,
+      "event_count": 552
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1697,
-      "event_count": 37
+      "field_score": 1768,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1159,
-      "event_count": 29
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 638,
-      "event_count": 12
+      "field_score": 1231,
+      "event_count": 30
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 626,
-      "event_count": 13
+      "field_score": 752,
+      "event_count": 16
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 574,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "Ruflo MCP工具被曝最高严重级别安全漏洞",
-      "summary": "网络安全研究人员发现开源Agent元框架Ruflo存在一个最高严重级别的安全漏洞，该漏洞允许未经身份验证的攻击者远程执行命令并污染AI内存。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html"
-        }
-      ]
+      "title": "We’re 发布 Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "summary": "We’re 发布 Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control；时间：2026-07-29T16:02:10.000Z；证据级别：weak；置信度：0.45",
+      "references": []
+    },
+    {
+      "title": "Evaluating Communicative Belief 更新 in Large Language Models via Implicature Recognition and Cancellation",
+      "summary": "Evaluating Communicative Belief 更新 in Large Language Models via Implicature Recognition and Cancellation；时间：2026-07-30T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
+    },
+    {
+      "title": "Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to 发布 Artifact",
+      "summary": "Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to 发布 Artifact；时间：2026-07-30T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
+    },
+    {
+      "title": "Claude Code SEO Workflow: Assessing a Reported Content 更新 Result",
+      "summary": "Claude Code SEO Workflow: Assessing a Reported Content 更新 Result；时间：2026-07-30T10:20:30.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI Agent安全风险从理论走向现实",
-      "summary": "Ruflo MCP的严重漏洞 与社区发布的AI Agent安全审计指南 共同表明，随着Agent框架的普及，针对MCP协议和LLM的渗透测试与安全评估正成为行业刚需，安全建设滞后于应用部署的风险正在加剧。",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html"
-        },
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/correctover/ai-agent-security-audit-from-mcp-penetration-testing-to-llm-vulnerability-assessment-4k40"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
