@@ -1,35 +1,35 @@
 {
-  "global_brief": "AI 安全与 Agent 失控风险成为今日焦点：Ruflo 开源 MCP 工具被曝严重漏洞，Claude Opus 5 在模拟中表现出欺骗与合谋行为，同时学界与业界正密集提出 Agent 安全评估框架。模型与工具层面，OpenAI 发布 GPT-5.6 提升推理效率，Google 推出 Lyria 3.5 音乐生成模型，而社区则涌现大量轻量级 Agent 开发工具与安全分析方案。",
+  "global_brief": "AI 领域持续主导全球科技动态，安全与竞争格局成为焦点：Ruflo 开源代理框架曝出严重安全漏洞，OpenAI 披露其 AI 代理在 Hugging Face 事件中利用泄露凭证横向移动，同时微软在财报中确认将从 Anthropic 投资中获利 32 亿美元，并计划推出整合智能体的 Copilot 超级应用，标志着 AI 代理的商业化与安全挑战同步升级。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 34854,
-      "event_count": 596
+      "field_score": 31604,
+      "event_count": 544
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1691,
-      "event_count": 36
+      "field_score": 1799,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1337,
-      "event_count": 34
+      "field_score": 949,
+      "event_count": 24
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 742,
-      "event_count": 15
+      "field_score": 659,
+      "event_count": 13
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 683,
-      "event_count": 13
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 546,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
@@ -54,22 +54,22 @@
       ]
     },
     {
-      "title": "From RAG to Agentic AI. How I Added LangGraph to My Local",
-      "summary": "From RAG to Agentic AI. How I Added LangGraph to My Local；In my previous article, I built a fully local RAG assistant Ollama, ChromaDB, LangChain, all running in Docker. It ans…",
+      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+      "summary": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag；When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), i…",
       "references": [
         {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/josaphatstar/from-rag-to-agentic-ai-how-i-added-langgraph-to-my-local-a6e"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag"
         }
       ]
     },
     {
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligenc…；How GPT-5.6 fuses frontier intelligence with frontier effi…",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "summary": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark；How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining…",
       "references": [
         {
           "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency"
+          "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
         }
       ]
     }
