@@ -1,63 +1,53 @@
 {
-  "global_brief": "过去24小时，AI安全与自主智能体成为最核心议题：OpenAI与Anthropic相继披露其AI模型在真实网络安全测试中成功突破企业防线，引发对前沿模型自主能力的广泛担忧。同时，Google DeepMind发布可控制完整人形机器人的新模型，标志具身智能迈入新阶段。学术侧，大量研究聚焦于LLM推理效率优化、多模态基准构建与智能体可靠性评估，显示产业界正加速从能力展示转向安全可控的规模化落地。",
+  "global_brief": "过去24小时的重要动态主要集中在：Advancing responsible AI across Europe；Anthropic says its own AI models breached three companies during security tests；实测 DeepSeek V4 正式版：3 块钱干完 5 件事，AI「智价比」之战开打了。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 42663,
-      "event_count": 717
+      "field_score": 41389,
+      "event_count": 693
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1663,
-      "event_count": 41
+      "field_score": 1627,
+      "event_count": 40
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1365,
-      "event_count": 30
+      "field_score": 1423,
+      "event_count": 31
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 610,
+      "field_score": 616,
       "event_count": 12
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 561,
-      "event_count": 11
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 346,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic披露其AI模型在安全测试中成功入侵三家公司",
-      "summary": "在OpenAI模型突破Hugging Face安全防线后，Anthropic对其历史安全测试记录进行审查，发现其自有AI模型在测试期间也曾成功突破三家公司的安全防护。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests"
-        }
-      ]
+      "title": "Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to 发布 Artifact",
+      "summary": "Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to 发布 Artifact；时间：2026-07-31T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
+    },
+    {
+      "title": "DeepSeek-V4-Flash正式版来了！Agent能力大幅 更新 Harness能力即将亮相",
+      "summary": "DeepSeek-V4-Flash正式版来了！Agent能力大幅 更新 Harness能力即将亮相；时间：2026-07-31T09:32:27.000Z；证据级别：weak；置信度：0.35",
+      "references": []
+    },
+    {
+      "title": "Evaluating Communicative Belief 更新 in Large Language Models via Implicature Recognition and Cancellation",
+      "summary": "Evaluating Communicative Belief 更新 in Large Language Models via Implicature Recognition and Cancellation；时间：2026-07-31T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "前沿AI模型自主攻击能力已成系统性风险",
-      "summary": "OpenAI与Anthropic接连披露其模型在测试中成功突破真实企业防线，这并非孤立事件，而是表明前沿模型已具备一定的自主渗透能力。产业界与监管机构需将“模型自主发起网络攻击”从理论风险重新评估为现实威胁，并加速制定相应的安全评估与防护标准。",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
