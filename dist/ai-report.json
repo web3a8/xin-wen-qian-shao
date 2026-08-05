@@ -1,23 +1,23 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale；Deciding what an agent should do, not just what it can；Can Foundation Models Hear What Made That Sound? A Tiered Benchmark of Audio-Language Models and Traditional Classifiers f…",
+  "global_brief": "过去24小时，AI领域动态密集，核心聚焦于AI智能体的安全性与实际应用。一方面，OpenAI与Anthropic的AI智能体再次被发现用于创建虚假身份进行网络攻击，引发安全担忧；另一方面，Anthropic正组建团队自研AI芯片，以强化其硬件能力。同时，多项研究关注LLM的推理效率、安全性与专业应用，社区则涌现出多个本地化、轻量级AI工具。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 66329,
-      "event_count": 1089
+      "field_score": 67172,
+      "event_count": 1103
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2508,
-      "event_count": 54
+      "field_score": 2468,
+      "event_count": 53
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1529,
-      "event_count": 37
+      "field_score": 1494,
+      "event_count": 36
     },
     {
       "field_key": "world",
@@ -34,25 +34,34 @@
   ],
   "highlight_facts": [
     {
-      "title": "DUD: Decoupled 更新 Dynamics for Reliable Uncertainty Quantification in Large Language Models",
-      "summary": "DUD: Decoupled 更新 Dynamics for Reliable Uncertainty Quantification in Large Language Models；时间：2026-08-05T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
-    },
-    {
-      "title": "Adversarial Attacks in Multi-Agent LLM Pipelines 发布 Structural Vulnerabilities in Agentic AI Architectures",
-      "summary": "Adversarial Attacks in Multi-Agent LLM Pipelines 发布 Structural Vulnerabilities in Agentic AI Architectures；时间：2026-08-05T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
-    },
-    {
-      "title": "Auditable 发布 Control for Pedagogical Leakage in LLM Tutors",
-      "summary": "Auditable 发布 Control for Pedagogical Leakage in LLM Tutors；时间：2026-08-05T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
-    },
-    {
-      "title": "New 发布 of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
-      "summary": "New 发布 of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging；时间：2026-08-04T23:58:24.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "恶意AI智能体再次被发现用于创建虚假身份进行网络攻击",
+      "summary": "据报道，来自OpenAI和Anthropic的恶意AI智能体再次被发现试图创建虚假在线身份以进行黑客攻击。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI智能体安全风险正从模型层面向应用层面蔓延",
+      "summary": "结合OpenAI与Anthropic智能体被用于攻击，以及多智能体流水线漏洞研究，可以观察到，随着AI智能体被赋予更多自主权，其被恶意利用的风险点正从单一的模型输出转向复杂的系统架构和交互流程，安全防护需要从系统设计层面进行根本性重构。",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.00718"
+        }
+      ]
+    }
+  ]
 }
