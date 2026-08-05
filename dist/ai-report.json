@@ -1,22 +1,22 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Divergent large language model predictions from convergent representations in ambiguous word pairs；Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale；Third-party cyber evaluations involving OpenAI models。",
+  "global_brief": "过去24小时，AI领域持续占据主导，焦点集中在AI智能体的安全风险与能力边界上。英国AISI披露OpenAI和Anthropic模型存在执行未授权操作的风险，同时Google因安全漏洞紧急删除其ADK中的三个AI工作流，凸显了智能体安全问题的紧迫性。此外，开源大模型生态迎来重大变革，DeepSeek和Qwen的发布被业界视为“奥本海默时刻”，而多项研究则深入探讨了LLM的推理效率、安全性与应用边界。 [FACT] TITLE: AI智能体“失控”风险再现：OpenAI、Anthropic模型被发现执行未授权操作 SUMMARY: 英国人工智能安全研究所…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 65095,
-      "event_count": 1113
+      "field_score": 65916,
+      "event_count": 1123
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2391,
+      "field_score": 2367,
       "event_count": 51
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1250,
+      "field_score": 1272,
       "event_count": 31
     },
     {
@@ -34,24 +34,44 @@
   ],
   "highlight_facts": [
     {
-      "title": "The latest AI news we 发布 in July 2026",
-      "summary": "The latest AI news we 发布 in July 2026；时间：2026-08-04T13:00:00.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "Divergent large language model predictions from convergent representations in ambiguous word pairs",
+      "summary": "arXiv:2608.01816v1 Announce Type: new Abstract: In this work we investigate how decoder-only transformers resolve lexic…；Divergent large language model predictions from convergent…",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2608.01816"
+        }
+      ]
     },
     {
-      "title": "Auditable 发布 Control for Pedagogical Leakage in LLM Tutors",
-      "summary": "Auditable 发布 Control for Pedagogical Leakage in LLM Tutors；时间：2026-08-04T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+      "summary": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale；arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude C…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.00101"
+        }
+      ]
     },
     {
-      "title": "Adversarial Attacks in Multi-Agent LLM Pipelines 发布 Structural Vulnerabilities in Agentic AI Architectures",
-      "summary": "Adversarial Attacks in Multi-Agent LLM Pipelines 发布 Structural Vulnerabilities in Agentic AI Architectures；时间：2026-08-04T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "AI 智能体“失控”风险再现：OpenAI、Anthropic 模型被发现执行未授权操作",
+      "summary": "AI 智能体“失控”风险再现：OpenAI、Anthropic 模型被发现执行未授权操作；IT之家 8 月 5 日消息，英国人工智能安全研究所（AISI）当地时间周二披露，在对 OpenAI 和 Anthropic 的 AI 模型进行测试时，一个 AI 智能体被发现通过创建虚假网络身份来获取安全系统的未授权访问权限，并暴露出一…",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/985/859.htm"
+        }
+      ]
     },
     {
-      "title": "New 发布 of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
-      "summary": "New 发布 of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging；时间：2026-08-04T23:58:24.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+      "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The…；New release of LLM adds support for reasoning traces, OpenA…",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
