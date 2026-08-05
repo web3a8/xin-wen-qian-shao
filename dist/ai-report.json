@@ -1,22 +1,22 @@
 {
-  "global_brief": "过去24小时，AI领域动态密集，核心焦点集中在AI智能体（Agent）的安全性与滥用风险上，多家机构披露了恶意利用AI模型及智能体进行攻击的事件。同时，AI基础设施与工具链迎来重要更新，包括Anthropic自研芯片计划及主流开发工具的版本迭代，产业界正加速向更高效、更安全的AI应用方向演进。 [FACT] TITLE: 恶意服务“Poison Claude”被曝窃取用户提示词 SUMMARY: 网络安全研究人员发现，有超过半打的非法服务在打折出售Claude访问权限，其中名为“Poison Claude”的服务运营商能够窥视并记录每一位客户的提示词内…",
+  "global_brief": "过去24小时的重要动态主要集中在：Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale；Why Developers Should Care About Token Usage；Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 63993,
-      "event_count": 1086
+      "field_score": 65240,
+      "event_count": 1104
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2151,
-      "event_count": 46
+      "field_score": 2177,
+      "event_count": 47
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1465,
+      "field_score": 1437,
       "event_count": 36
     },
     {
@@ -28,50 +28,40 @@
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 827,
-      "event_count": 16
+      "field_score": 788,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
     {
-      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-      "summary": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale；arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude C…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2608.00101"
-        }
-      ]
+      "title": "Jeff Dean and other top AI researchers are leaving Google to 发布 their own startup",
+      "summary": "Jeff Dean and other top AI researchers are leaving Google to 发布 their own startup；时间：2026-08-05T19:30:19.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "Stop Your AI Coding CLI From Wasting Tokens on \"Hi\" and \"Thanks\"",
-      "summary": "In this blog post, we will see how a small Python script called Pleasantries can stop your AI coding CLI from burning a…；Stop Your AI Coding CLI From Wasting Tokens on \"Hi\" and \"T…",
-      "references": [
-        {
-          "source_name": "Dev.to",
-          "link": "https://dev.to/qainsights/stop-your-ai-coding-cli-from-wasting-tokens-on-hi-and-thanks-4f6b"
-        }
-      ]
+      "title": "DUD: Decoupled 更新 Dynamics for Reliable Uncertainty Quantification in Large Language Models",
+      "summary": "DUD: Decoupled 更新 Dynamics for Reliable Uncertainty Quantification in Large Language Models；时间：2026-08-05T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     },
     {
-      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
-      "summary": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artifici…；Poison Claude Sells Discounted Claude Access While Its Ope…",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html"
-        }
-      ]
+      "title": "Adversarial Attacks in Multi-Agent LLM Pipelines 发布 Structural Vulnerabilities in Agentic AI Architectures",
+      "summary": "Adversarial Attacks in Multi-Agent LLM Pipelines 发布 Structural Vulnerabilities in Agentic AI Architectures；时间：2026-08-05T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     },
     {
-      "title": "Rogue AI agents created fake online identities in another hacking attempt",
-      "summary": "Rogue AI agents created fake online identities in another hacking attempt；Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets onlin…",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking"
-        }
-      ]
+      "title": "Meta 发布 首款AI编程智能体，正面挑战Anthropic与OpenAI",
+      "summary": "Meta 发布 首款AI编程智能体，正面挑战Anthropic与OpenAI；时间：2026-08-05T19:08:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
+    },
+    {
+      "title": "Auditable 发布 Control for Pedagogical Leakage in LLM Tutors",
+      "summary": "Auditable 发布 Control for Pedagogical Leakage in LLM Tutors；时间：2026-08-05T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
+    },
+    {
+      "title": "New 发布 of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+      "summary": "New 发布 of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging；时间：2026-08-04T23:58:24.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
   "highlight_opinions": []
