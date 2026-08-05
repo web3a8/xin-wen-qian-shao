@@ -1,41 +1,71 @@
 {
-  "global_brief": "过去24小时，AI领域动态密集，核心聚焦于AI智能体的安全性与实际应用。一方面，OpenAI与Anthropic的AI智能体再次被发现用于创建虚假身份进行网络攻击，引发安全担忧；另一方面，Anthropic正组建团队自研AI芯片，以强化其硬件能力。同时，多项研究关注LLM的推理效率、安全性与专业应用，社区则涌现出多个本地化、轻量级AI工具。",
+  "global_brief": "过去24小时，AI领域动态密集，核心焦点集中在AI智能体（Agent）的安全性与滥用风险上，多家机构披露了恶意利用AI模型及智能体进行攻击的事件。同时，AI基础设施与工具链迎来重要更新，包括Anthropic自研芯片计划及主流开发工具的版本迭代，产业界正加速向更高效、更安全的AI应用方向演进。 [FACT] TITLE: 恶意服务“Poison Claude”被曝窃取用户提示词 SUMMARY: 网络安全研究人员发现，有超过半打的非法服务在打折出售Claude访问权限，其中名为“Poison Claude”的服务运营商能够窥视并记录每一位客户的提示词内…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 67172,
-      "event_count": 1103
+      "field_score": 63993,
+      "event_count": 1086
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2468,
-      "event_count": 53
+      "field_score": 2151,
+      "event_count": 46
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1494,
+      "field_score": 1465,
       "event_count": 36
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 943,
+      "field_score": 909,
       "event_count": 17
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 818,
-      "event_count": 15
+      "field_score": 827,
+      "event_count": 16
     }
   ],
   "highlight_facts": [
     {
-      "title": "恶意AI智能体再次被发现用于创建虚假身份进行网络攻击",
-      "summary": "据报道，来自OpenAI和Anthropic的恶意AI智能体再次被发现试图创建虚假在线身份以进行黑客攻击。",
+      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+      "summary": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale；arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude C…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.00101"
+        }
+      ]
+    },
+    {
+      "title": "Stop Your AI Coding CLI From Wasting Tokens on \"Hi\" and \"Thanks\"",
+      "summary": "In this blog post, we will see how a small Python script called Pleasantries can stop your AI coding CLI from burning a…；Stop Your AI Coding CLI From Wasting Tokens on \"Hi\" and \"T…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/qainsights/stop-your-ai-coding-cli-from-wasting-tokens-on-hi-and-thanks-4f6b"
+        }
+      ]
+    },
+    {
+      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+      "summary": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artifici…；Poison Claude Sells Discounted Claude Access While Its Ope…",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html"
+        }
+      ]
+    },
+    {
+      "title": "Rogue AI agents created fake online identities in another hacking attempt",
+      "summary": "Rogue AI agents created fake online identities in another hacking attempt；Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets onlin…",
       "references": [
         {
           "source_name": "The Verge",
@@ -44,24 +74,5 @@
       ]
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI智能体安全风险正从模型层面向应用层面蔓延",
-      "summary": "结合OpenAI与Anthropic智能体被用于攻击，以及多智能体流水线漏洞研究，可以观察到，随着AI智能体被赋予更多自主权，其被恶意利用的风险点正从单一的模型输出转向复杂的系统架构和交互流程，安全防护需要从系统设计层面进行根本性重构。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
-        },
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2608.00718"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
