@@ -5,7 +5,7 @@
     <link>https://web3a8.github.io/news-push-data/</link>
     <description>通用新闻引擎输出的精选资讯流，当前仍以科技与 AI 信号源为主</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 06 Aug 2026 12:08:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 14:10:39 GMT</lastBuildDate>
     <item>
       <title>Amazon DynamoDB now supports real-time vector search at any scale</title>
       <link>https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale</link>
@@ -13,6 +13,14 @@
       <description>DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastr…</description>
       <source>AWS Blog</source>
       <category>AWS Blog</category>
+    </item>
+    <item>
+      <title>AI isn’t enough to protect social media communities from AI</title>
+      <link>https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai</link>
+      <guid>https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai</guid>
+      <description>Why humans need to moderate humans.</description>
+      <source>Ars Technica</source>
+      <category>Ars Technica</category>
     </item>
     <item>
       <title>Thousands of servers can be backdoored by exploiting buggy motherboard controllers</title>
@@ -127,20 +135,60 @@
       <category>Ars Technica</category>
     </item>
     <item>
-      <title>SpaceX spooks investors with debut earnings report</title>
-      <link>https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report</link>
-      <guid>https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report</guid>
-      <description>Shares slide in pre-market trading even as group says its quarterly revenues nearly doubled.</description>
-      <source>Ars Technica</source>
-      <category>Ars Technica</category>
-    </item>
-    <item>
       <title>How Big Models Teach Small Models to Be Smart</title>
       <link>https://blog.bytebytego.com/p/how-big-models-teach-small-models</link>
       <guid>https://blog.bytebytego.com/p/how-big-models-teach-small-models</guid>
       <description>In this article, we will walk through the idea from the ground up.</description>
       <source>ByteByteGo</source>
       <category>ByteByteGo</category>
+    </item>
+    <item>
+      <title>Building an open Agentic Internet: readable, discoverable, callable, and payable</title>
+      <link>https://blog.cloudflare.com/the-agentic-internet</link>
+      <guid>https://blog.cloudflare.com/the-agentic-internet</guid>
+      <description>Agents are a new kind of visitor. They don&#x27;t render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer. We&#x27;re building the ope…</description>
+      <source>Cloudflare Blog</source>
+      <category>Cloudflare Blog</category>
+    </item>
+    <item>
+      <title>Cloudflare AI Search: give your agents a search engine for your data</title>
+      <link>https://blog.cloudflare.com/ai-search-easier</link>
+      <guid>https://blog.cloudflare.com/ai-search-easier</guid>
+      <description>AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We&#x27;re also sha…</description>
+      <source>Cloudflare Blog</source>
+      <category>Cloudflare Blog</category>
+    </item>
+    <item>
+      <title>From ranking to recommended: get your site ready to thrive in the age of AI agents</title>
+      <link>https://blog.cloudflare.com/aeo</link>
+      <guid>https://blog.cloudflare.com/aeo</guid>
+      <description>More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how o…</description>
+      <source>Cloudflare Blog</source>
+      <category>Cloudflare Blog</category>
+    </item>
+    <item>
+      <title>Give any website a WebMCP interface</title>
+      <link>https://blog.cloudflare.com/webmcp</link>
+      <guid>https://blog.cloudflare.com/webmcp</guid>
+      <description>Today we&#x27;re launching a developer preview of WebMCP on Cloudflare. With one switch, any site becomes usable by browser AI agents — no new APIs, no origin changes — while the human…</description>
+      <source>Cloudflare Blog</source>
+      <category>Cloudflare Blog</category>
+    </item>
+    <item>
+      <title>Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers</title>
+      <link>https://blog.cloudflare.com/kitesurf</link>
+      <guid>https://blog.cloudflare.com/kitesurf</guid>
+      <description>We should be giving all agents tools that excel at what’s important for an AI model. Kitesurf is Cloudflare’s new stateless, highly scalable, and cost-effective web browser that r…</description>
+      <source>Cloudflare Blog</source>
+      <category>Cloudflare Blog</category>
+    </item>
+    <item>
+      <title>The next generation of MCP</title>
+      <link>https://blog.cloudflare.com/mcp-v2</link>
+      <guid>https://blog.cloudflare.com/mcp-v2</guid>
+      <description>The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear f…</description>
+      <source>Cloudflare Blog</source>
+      <category>Cloudflare Blog</category>
     </item>
     <item>
       <title>Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports</title>
@@ -151,161 +199,129 @@
       <category>Cloudflare Blog</category>
     </item>
     <item>
-      <title>The Agent Access Model</title>
-      <link>https://blog.cloudflare.com/the-agent-access-model</link>
-      <guid>https://blog.cloudflare.com/the-agent-access-model</guid>
-      <description>The Agent Access Model proposes a new architecture to secure task-scoped agents using strict identity brokering, continuous mediation, and stateful trust.</description>
-      <source>Cloudflare Blog</source>
-      <category>Cloudflare Blog</category>
-    </item>
-    <item>
-      <title>How we’re rethinking work at Cloudflare with Cloudflare OS</title>
-      <link>https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os</link>
-      <guid>https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os</guid>
-      <description>We built Cloudflare OS to equip our teams to safely rethink how they get work done with AI. The platform brings together the best of our technologies, from our Compute primitives…</description>
-      <source>Cloudflare Blog</source>
-      <category>Cloudflare Blog</category>
-    </item>
-    <item>
-      <title>Catching rogue AI behavior with identity-aware analytics</title>
-      <link>https://blog.cloudflare.com/identity-aware-ai-gateway</link>
-      <guid>https://blog.cloudflare.com/identity-aware-ai-gateway</guid>
-      <description>Identity-aware AI Gateway is now in open beta. User Insights turns that traffic into a behavioral baseline for every person and agent, and flags insider risk the moment it appears.</description>
-      <source>Cloudflare Blog</source>
-      <category>Cloudflare Blog</category>
-    </item>
-    <item>
-      <title>Cloudflare OS: an open platform for agents, apps, and work</title>
-      <link>https://blog.cloudflare.com/cloudflare-os</link>
-      <guid>https://blog.cloudflare.com/cloudflare-os</guid>
-      <description>Cloudflare OS is an open-source platform that lets everyone in your company build apps, automate work, and safely access internal systems, shaped around what your organization kno…</description>
-      <source>Cloudflare Blog</source>
-      <category>Cloudflare Blog</category>
-    </item>
-    <item>
-      <title>WriteGuard: fine-grained controls for MCP Servers</title>
-      <link>https://blog.cloudflare.com/mcp-portal-writeguard-private-beta</link>
-      <guid>https://blog.cloudflare.com/mcp-portal-writeguard-private-beta</guid>
-      <description>At Cloudflare, we knew we could not depend on every employee to configure every agent perfectly or watch every tool call. Before expanding write access across our own internal MCP…</description>
-      <source>Cloudflare Blog</source>
-      <category>Cloudflare Blog</category>
-    </item>
-    <item>
-      <title>Marketplace Monetization Models: Beyond Transaction Fees</title>
-      <link>https://dev.to/mercur/marketplace-monetization-models-beyond-transaction-fees-2d2d</link>
-      <guid>https://dev.to/mercur/marketplace-monetization-models-beyond-transaction-fees-2d2d</guid>
-      <description>You picked a commission model - a percentage of GMV - because that&#x27;s what everyone does. It&#x27;s how Mirakl prices, it&#x27;s how most SaaS marketplaces work, it&#x27;s the default. And the mo…</description>
+      <title>Java CMYK to RGB Conversion – Speed Comparison</title>
+      <link>https://dev.to/idrsolutions/java-cmyk-to-rgb-conversion-speed-comparison-1onl</link>
+      <guid>https://dev.to/idrsolutions/java-cmyk-to-rgb-conversion-speed-comparison-1onl</guid>
+      <description>Introduction Some optimisations are best left to Java. For example a System.arraycopy is the fastest way to create a new version because it is optimised in hardware inside Java. S…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Automating DEV: seven things the Forem API does not tell you</title>
-      <link>https://dev.to/marcosgcuenta1/automating-dev-seven-things-the-forem-api-does-not-tell-you-mp6</link>
-      <guid>https://dev.to/marcosgcuenta1/automating-dev-seven-things-the-forem-api-does-not-tell-you-mp6</guid>
-      <description>I have published nine articles here without opening the editor once — written, tagged, illustrated, corrected and retitled entirely through the API, because the thing writing them…</description>
+      <title>React Suspense and Error Boundaries: How They Interact and How to Debug Failures</title>
+      <link>https://dev.to/mspk97/react-suspense-and-error-boundaries-how-they-interact-and-how-to-debug-failures-4i1e</link>
+      <guid>https://dev.to/mspk97/react-suspense-and-error-boundaries-how-they-interact-and-how-to-debug-failures-4i1e</guid>
+      <description>Ever had your React component throw an error inside a Suspense boundary and wondered why neither your Suspense fallback nor your Error Boundary’s fallback UI showed up? I ran into…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>I benchmarked CSV vs JSON on 200k rows so you don&#x27;t have to</title>
-      <link>https://dev.to/developer_tech/i-benchmarked-csv-vs-json-on-200k-rows-so-you-dont-have-to-1m0p</link>
-      <guid>https://dev.to/developer_tech/i-benchmarked-csv-vs-json-on-200k-rows-so-you-dont-have-to-1m0p</guid>
-      <description>Most &quot;CSV vs JSON&quot; comparisons are vibes. Here are real numbers, measured on a real dataset. Setup: 200,000 rows x 12 columns, Node v22.18.0, no streaming tricks. Metric Result CS…</description>
+      <title>A unique click id on a free Cloudflare redirect, no Worker involved</title>
+      <link>https://dev.to/301st/a-unique-click-id-on-a-free-cloudflare-redirect-no-worker-involved-1750</link>
+      <guid>https://dev.to/301st/a-unique-click-id-on-a-free-cloudflare-redirect-no-worker-involved-1750</guid>
+      <description>You send paid or partner traffic through a redirect and you want every click to arrive at the destination carrying its own identifier — something to join against a conversion late…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Top AI Papers on Hugging Face - 2026-08-06</title>
-      <link>https://dev.to/y_hnhnhan_2f26de65ffcc4/top-ai-papers-on-hugging-face-2026-08-06-1mg4</link>
-      <guid>https://dev.to/y_hnhnhan_2f26de65ffcc4/top-ai-papers-on-hugging-face-2026-08-06-1mg4</guid>
-      <description>10 paper AI nổi bật nhất trên Hugging Face hôm nay: Agent dài hạn, multimodal, world model và những cảnh báo mới về LLM Hôm nay, danh sách paper được cộng đồng Hugging Face upvote…</description>
+      <title>How I Built an iOS AI Companion That Can See What You Show It</title>
+      <link>https://dev.to/apoorvdarshan/how-i-built-an-ios-ai-companion-that-can-see-what-you-show-it-5hj</link>
+      <guid>https://dev.to/apoorvdarshan/how-i-built-an-ios-ai-companion-that-can-see-what-you-show-it-5hj</guid>
+      <description>Most AI companions only know what you type or say. Scowld adds an optional third input: a single camera frame you deliberately choose to share. The interaction I wanted Describing…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>The Circuit Breaker Pattern for AI Agents</title>
-      <link>https://dev.to/brennhill/the-circuit-breaker-pattern-for-ai-agents-11pl</link>
-      <guid>https://dev.to/brennhill/the-circuit-breaker-pattern-for-ai-agents-11pl</guid>
-      <description>A circuit breaker for AI agents is an automatic control that pauses an agent the moment a measured condition crosses a threshold (too many errors, too much spend, too many actions…</description>
+      <title>Build a Load Testing Tool with Python and asyncio</title>
+      <link>https://dev.to/qingluan/build-a-load-testing-tool-with-python-and-asyncio-h3j</link>
+      <guid>https://dev.to/qingluan/build-a-load-testing-tool-with-python-and-asyncio-h3j</guid>
+      <description>Build a Load Testing Tool with Python and asyncio tags: python, testing, devops, tutorial tags: python, automation, tools, tutorial tags: python, automation, tools, tutorial tags:…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Nobody Hacked the CRM Software. They Just Logged In</title>
-      <link>https://dev.to/tahiralmas/nobody-hacked-the-crm-software-they-just-logged-in-n1i</link>
-      <guid>https://dev.to/tahiralmas/nobody-hacked-the-crm-software-they-just-logged-in-n1i</guid>
-      <description>Originally published at ictcrm.com Short answer: the CRM software was not broken. In the biggest CRM breaches of 2026, attackers turned up holding a valid credential or an OAuth t…</description>
+      <title>Custom AI Development for Founders</title>
+      <link>https://dev.to/devaland/custom-ai-development-for-founders-29ah</link>
+      <guid>https://dev.to/devaland/custom-ai-development-for-founders-29ah</guid>
+      <description>Off-the-shelf AI is enough when a wrong answer is cheap and a human checks the output anyway. It stops being enough the moment the AI touches your real documents, your numbers, or…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>How Much Does It Cost to Build a Chat App? Build vs Buy Explained</title>
-      <link>https://dev.to/sivaraman_v/how-much-does-it-cost-to-build-a-chat-app-build-vs-buy-explained-5214</link>
-      <guid>https://dev.to/sivaraman_v/how-much-does-it-cost-to-build-a-chat-app-build-vs-buy-explained-5214</guid>
-      <description>Chat is the norm now. When you build a marketplace, a healthcare app or a SaaS dashboard, people expect to message someone without leaving the app and when that feature is missing…</description>
+      <title>Do your agent system prompts do anything? I measured 19 of mine</title>
+      <link>https://dev.to/willianpinho/do-your-agent-system-prompts-do-anything-i-measured-19-of-mine-2ek1</link>
+      <guid>https://dev.to/willianpinho/do-your-agent-system-prompts-do-anything-i-measured-19-of-mine-2ek1</guid>
+      <description>The body of an agent system prompt is text. It goes to the same model that would have answered without it, and by itself it changes no weights and adds no tools. The skeptical rea…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>The pleasing effect: why AI grades your CV on a curve</title>
-      <link>https://dev.to/therabbithole/the-pleasing-effect-why-ai-grades-your-cv-on-a-curve-4fcd</link>
-      <guid>https://dev.to/therabbithole/the-pleasing-effect-why-ai-grades-your-cv-on-a-curve-4fcd</guid>
-      <description>I recently wrote about the halo effect associated with AI: the idea that a model that is good at one thing must be good at everything. I presented a simple example in which even t…</description>
+      <title>Building an MCP tool-call test rig with the Python SDK in 2026</title>
+      <link>https://dev.to/aidevhub/building-an-mcp-tool-call-test-rig-with-the-python-sdk-in-2026-4iln</link>
+      <guid>https://dev.to/aidevhub/building-an-mcp-tool-call-test-rig-with-the-python-sdk-in-2026-4iln</guid>
+      <description>Building an MCP tool-call test rig with the Python SDK in 2026 You can test an agent&#x27;s tool-call loop without a model. Write down the calls the model would have made, replay them…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Your SPA probably leaks memory. Your Playwright suite can catch it</title>
-      <link>https://dev.to/asmyshlyaev177/your-spa-probably-leaks-memory-your-playwright-suite-can-catch-it-93l</link>
-      <guid>https://dev.to/asmyshlyaev177/your-spa-probably-leaks-memory-your-playwright-suite-can-catch-it-93l</guid>
-      <description>[soak] drawer — 80 iterations base heap 2.83MB nodes 675 listeners 163 docs 1 @ 40 heap 3.50MB nodes 5675 listeners 163 docs 1 @ 80 heap 4.18MB nodes 10675 listeners 163 docs 1 de…</description>
+      <title>Dify vs Custom Development: When Visual AI Workflows Actually Work (and When They Don&#x27;t)</title>
+      <link>https://dev.to/zediot/dify-vs-custom-development-when-visual-ai-workflows-actually-work-and-when-they-dont-62h</link>
+      <guid>https://dev.to/zediot/dify-vs-custom-development-when-visual-ai-workflows-actually-work-and-when-they-dont-62h</guid>
+      <description>Dify can accelerate Workflow, RAG, Agent, and API-based AI applications, but it should not replace a complex business backend. This decision guide draws a clear boundary between w…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Sandbox First: A Throwaway-Server Workflow for Probing Where AI Coding Agents Break Their Boundaries</title>
-      <link>https://dev.to/hackgo_6978/sandbox-first-a-throwaway-server-workflow-for-probing-where-ai-coding-agents-break-their-boundaries-203c</link>
-      <guid>https://dev.to/hackgo_6978/sandbox-first-a-throwaway-server-workflow-for-probing-where-ai-coding-agents-break-their-boundaries-203c</guid>
-      <description>My last two posts here were about scoring free coding models before committing to them — build a small harness, run it, compare. But after a few rounds of that, a different questi…</description>
+      <title>How to measure development performance</title>
+      <link>https://dev.to/omelianenko/how-to-measure-development-performance-50d5</link>
+      <guid>https://dev.to/omelianenko/how-to-measure-development-performance-50d5</guid>
+      <description>My name is Anton Omelianenko and I’m Head of Software Development at EXANTE . A manager runs a team so that it delivers results for the business. To judge how well people are hand…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>20 Python One-Liners That Will Surprise You</title>
-      <link>https://dev.to/devshefali/20-python-one-liners-that-will-surprise-you-1hjm</link>
-      <guid>https://dev.to/devshefali/20-python-one-liners-that-will-surprise-you-1hjm</guid>
-      <description>Python is known for its simple and readable syntax. But some Python one-liners make things even easier. Tasks that usually take several lines of code can sometimes be done in just…</description>
+      <title>Persistent Memory for a Financial Model: The Six Things That Must Survive a New Session</title>
+      <link>https://dev.to/layerz/persistent-memory-for-a-financial-model-the-six-things-that-must-survive-a-new-session-n8</link>
+      <guid>https://dev.to/layerz/persistent-memory-for-a-financial-model-the-six-things-that-must-survive-a-new-session-n8</guid>
+      <description>The second session is always worse than the first. The first one goes well. You explain the model, the agent picks it up, you get real work done. Two days later you open a new ses…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Your AI Agent Has Shell Access. Here&#x27;s How I Test What It Can Actually Touch.</title>
-      <link>https://dev.to/devio_4040/your-ai-agent-has-shell-access-heres-how-i-test-what-it-can-actually-touch-21gm</link>
-      <guid>https://dev.to/devio_4040/your-ai-agent-has-shell-access-heres-how-i-test-what-it-can-actually-touch-21gm</guid>
-      <description>A few weeks ago I gave an LLM-driven coding agent the ability to run shell commands on a scratch server, and within ten minutes of unconstrained experimentation it tried to curl a…</description>
+      <title>I Built a Free AI Background Remover Without Login Using JavaScript &amp; ONNX — Here&#x27;s How</title>
+      <link>https://dev.to/huzaifa_khan_dab9fe94dae8/i-built-a-free-ai-background-remover-without-login-using-javascript-onnx-heres-how-2ke5</link>
+      <guid>https://dev.to/huzaifa_khan_dab9fe94dae8/i-built-a-free-ai-background-remover-without-login-using-javascript-onnx-heres-how-2ke5</guid>
+      <description>I recently shipped NeumoStudio AI — a completely free browser-based image &amp; PDF toolkit with NO login required and NO server-side processing. Here&#x27;s what it does: ✅ Remove Backgro…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>How Americans View Capitalism, Socialism and Free Enterprise</title>
-      <link>https://news.gallup.com/poll/713144/americans-view-capitalism-socialism-free-enterprise.aspx</link>
-      <guid>https://news.gallup.com/poll/713144/americans-view-capitalism-socialism-free-enterprise.aspx</guid>
+      <title>Telephones Caught in Between</title>
+      <link>https://computer.rip/2026-08-02-telephone-leasing.html</link>
+      <guid>https://computer.rip/2026-08-02-telephone-leasing.html</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
     </item>
     <item>
-      <title>What I love about Django</title>
-      <link>https://buttondown.com/blog/what-i-love-about-django</link>
-      <guid>https://buttondown.com/blog/what-i-love-about-django</guid>
+      <title>Humans missed 1 in 3 threats approving AI agent commands across 40k game runs</title>
+      <link>https://scalex.dev/blog/ai-agent-permissions-stats</link>
+      <guid>https://scalex.dev/blog/ai-agent-permissions-stats</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Let&#x27;s all meet up in the Y2K</title>
-      <link>https://blog.gingerbeardman.com/2026/08/06/lets-all-meet-up-in-the-y2k</link>
-      <guid>https://blog.gingerbeardman.com/2026/08/06/lets-all-meet-up-in-the-y2k</guid>
+      <title>Show HN: demake – one source project compiles to any retro game console ROM</title>
+      <link>https://geosona.com/demake</link>
+      <guid>https://geosona.com/demake</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Mario Meets Pareto</title>
+      <link>https://mayerowitz.io/blog/mario-meets-pareto</link>
+      <guid>https://mayerowitz.io/blog/mario-meets-pareto</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -322,14 +338,6 @@
       <title>Crime Pays but Botany Doesn&#x27;t</title>
       <link>https://crimepaysbutbotanydoesnt.com/reading-list</link>
       <guid>https://crimepaysbutbotanydoesnt.com/reading-list</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
-      <title>Nashville uses eminent domain to block data center near zoo</title>
-      <link>https://costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project</link>
-      <guid>https://costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -399,14 +407,6 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)</title>
-      <link>https://arxiv.org/abs/2510.01395</link>
-      <guid>https://arxiv.org/abs/2510.01395</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
       <title>Atlassian Rovo Exfiltrates Data, Bypassing Controls</title>
       <link>https://promptarmor.com/resources/atlassian-rovo-exfiltrates-data</link>
       <guid>https://promptarmor.com/resources/atlassian-rovo-exfiltrates-data</guid>
@@ -447,596 +447,308 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Humans missed 1 in 3 threats approving AI agent commands across 40k game runs</title>
-      <link>https://scalex.dev/blog/ai-agent-permissions-stats</link>
-      <guid>https://scalex.dev/blog/ai-agent-permissions-stats</guid>
-      <description>Humans missed 1 in 3 threats approving AI agent commands across 40k game runs</description>
+      <title>A model-agnostic AI coding harness that puts unskippable gates into Git</title>
+      <link>https://github.com/beausee/coniunctio-intelligentiarum</link>
+      <guid>https://github.com/beausee/coniunctio-intelligentiarum</guid>
+      <description>A model-agnostic AI coding harness that puts unskippable gates into Git</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>PR-desc – generate PR descriptions from a Git diff, no AI required</title>
-      <link>https://github.com/us702/pr-desc-cli</link>
-      <guid>https://github.com/us702/pr-desc-cli</guid>
-      <description>PR-desc – generate PR descriptions from a Git diff, no AI required</description>
+      <title>AI Agents Think and Act: ReAct in 2 Minutes</title>
+      <link>https://vinithavn.substack.com/p/how-ai-agents-think-and-act-react</link>
+      <guid>https://vinithavn.substack.com/p/how-ai-agents-think-and-act-react</guid>
+      <description>AI Agents Think and Act: ReAct in 2 Minutes</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>GitHub – AI book writing tools (curated list)</title>
-      <link>https://github.com/finxter/awesome-ai-book-writing</link>
-      <guid>https://github.com/finxter/awesome-ai-book-writing</guid>
-      <description>GitHub – AI book writing tools (curated list)</description>
+      <title>AI generated over 95% of China&#x27;s new microdramas in Q1 2026</title>
+      <link>https://channelnewsasia.com/east-asia/ai-microdrama-china-film-industry-actors-jobs-6229191</link>
+      <guid>https://channelnewsasia.com/east-asia/ai-microdrama-china-film-industry-actors-jobs-6229191</guid>
+      <description>AI generated over 95% of China&#x27;s new microdramas in Q1 2026</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>Show HN: AI Agents 101 – an offline iOS app that labels every demo REAL or MOCK</title>
-      <link>https://apps.apple.com/us/app/ai-agents-101/id6792491701</link>
-      <guid>https://apps.apple.com/us/app/ai-agents-101/id6792491701</guid>
-      <description>Show HN: AI Agents 101 – an offline iOS app that labels every demo REAL or MOCK</description>
+      <title>Ask HN: Why don&#x27;t we grade AI agents like hadith scholars graded narrators?</title>
+      <link>https://news.ycombinator.com/item?id=49196496</link>
+      <guid>https://news.ycombinator.com/item?id=49196496</guid>
+      <description>Ask HN: Why don&#x27;t we grade AI agents like hadith scholars graded narrators?</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>Show HN: Juju-chu A book on Jujutsu (jj) and AI coding agent</title>
-      <link>https://juju-chu.com/</link>
-      <guid>https://juju-chu.com/</guid>
-      <description>Show HN: Juju-chu A book on Jujutsu (jj) and AI coding agent</description>
+      <title>Microsoft&#x27;s AI Sales Mostly Come from OpenAI, Disclosures Show</title>
+      <link>https://finance.yahoo.com/technology/ai/articles/microsoft-ai-sales-mostly-come-180651710.html</link>
+      <guid>https://finance.yahoo.com/technology/ai/articles/microsoft-ai-sales-mostly-come-180651710.html</guid>
+      <description>Microsoft&#x27;s AI Sales Mostly Come from OpenAI, Disclosures Show</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>AI Financial Advice: Supply, Demand, and Life Cycle Implications</title>
-      <link>https://tahachoukhmane.com/wp-content/uploads/2026/03/CdSLA-2026-AI-Financial-Advice.pdf[pdf]</link>
-      <guid>https://tahachoukhmane.com/wp-content/uploads/2026/03/CdSLA-2026-AI-Financial-Advice.pdf[pdf]</guid>
-      <description>AI Financial Advice: Supply, Demand, and Life Cycle Implications</description>
+      <title>Notes on making AI-generated pixel art usable</title>
+      <link>https://tokimon.io/blog/making-ai-pixel-art-usable</link>
+      <guid>https://tokimon.io/blog/making-ai-pixel-art-usable</guid>
+      <description>Notes on making AI-generated pixel art usable</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>The Corporate Agentic Brain May Be the Next Honey Pot for a Rogue AI</title>
-      <link>https://serendb.substack.com/p/dont-let-your-corporate-agentic-brain</link>
-      <guid>https://serendb.substack.com/p/dont-let-your-corporate-agentic-brain</guid>
-      <description>The Corporate Agentic Brain May Be the Next Honey Pot for a Rogue AI</description>
+      <title>AI Is Now a Commodity</title>
+      <link>https://vincentschmalbach.com/ai-is-now-a-commodity</link>
+      <guid>https://vincentschmalbach.com/ai-is-now-a-commodity</guid>
+      <description>AI Is Now a Commodity</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>Show HN: I built a simple image-to-video tool with multiple AI models</title>
-      <link>https://imagetovideoai.tools/</link>
-      <guid>https://imagetovideoai.tools/</guid>
-      <description>Show HN: I built a simple image-to-video tool with multiple AI models</description>
+      <title>Enjoy the Bubble While It Lasts: The Secret Behind Your AI Bill</title>
+      <link>https://kernel.pryanic.com/posts/enjoy-the-bubble-while-it-lasts-the-secret-behind-your-ai-bill</link>
+      <guid>https://kernel.pryanic.com/posts/enjoy-the-bubble-while-it-lasts-the-secret-behind-your-ai-bill</guid>
+      <description>Enjoy the Bubble While It Lasts: The Secret Behind Your AI Bill</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>Should Researchers Write Papers for AI Instead of People?</title>
-      <link>https://spectrum.ieee.org/ai-scientist-research-paper-format</link>
-      <guid>https://spectrum.ieee.org/ai-scientist-research-paper-format</guid>
-      <description>Should Researchers Write Papers for AI Instead of People?</description>
+      <title>England and Wales: Growing gap between power and regulation of police AI</title>
+      <link>https://statewatch.org/news/2026/august/england-and-wales-growing-gap-between-power-and-regulation-of-police-ai</link>
+      <guid>https://statewatch.org/news/2026/august/england-and-wales-growing-gap-between-power-and-regulation-of-police-ai</guid>
+      <description>England and Wales: Growing gap between power and regulation of police AI</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>New Best Agetic AI Model Named Saint</title>
-      <link>https://usesaint.com/</link>
-      <guid>https://usesaint.com/</guid>
-      <description>New Best Agetic AI Model Named Saint</description>
+      <title>Companies need to stop kidding themselves about AI</title>
+      <link>https://nytimes.com/2026/08/03/opinion/ai-hype-tech-layoffs.html</link>
+      <guid>https://nytimes.com/2026/08/03/opinion/ai-hype-tech-layoffs.html</guid>
+      <description>Companies need to stop kidding themselves about AI</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>Google is expanding its AI empire – and losing the people who built it</title>
-      <link>https://cnbc.com/2026/08/05/google-is-expanding-its-ai-empire-and-losing-the-people-who-built-it.html</link>
-      <guid>https://cnbc.com/2026/08/05/google-is-expanding-its-ai-empire-and-losing-the-people-who-built-it.html</guid>
-      <description>Google is expanding its AI empire – and losing the people who built it</description>
+      <title>Meta latest to tell world its AI agent wandered out of test pen</title>
+      <link>https://theregister.com/ai-and-ml/2026/08/06/meta-latest-to-tell-world-its-ai-agent-wandered-out-of-test-pen/5283947</link>
+      <guid>https://theregister.com/ai-and-ml/2026/08/06/meta-latest-to-tell-world-its-ai-agent-wandered-out-of-test-pen/5283947</guid>
+      <description>Meta latest to tell world its AI agent wandered out of test pen</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>Google Shifts AI Leadership to California in Race Against Anthropic, OpenAI</title>
-      <link>https://bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai</link>
-      <guid>https://bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai</guid>
-      <description>Google Shifts AI Leadership to California in Race Against Anthropic, OpenAI</description>
+      <title>Trump&#x27;s tech ties blamed for AI inaction by MAGA Republicans and Democrats</title>
+      <link>https://reuters.com/legal/litigation/trumps-tech-ties-blamed-ai-inaction-by-maga-republicans-democrats-2026-08-06</link>
+      <guid>https://reuters.com/legal/litigation/trumps-tech-ties-blamed-ai-inaction-by-maga-republicans-democrats-2026-08-06</guid>
+      <description>Trump&#x27;s tech ties blamed for AI inaction by MAGA Republicans and Democrats</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>FelonyBench – The leading benchmark for AI in cybersecurity</title>
-      <link>https://felonybench.org/</link>
-      <guid>https://felonybench.org/</guid>
-      <description>FelonyBench – The leading benchmark for AI in cybersecurity</description>
+      <title>Ask HN: Do you rehearse with AI before seeing a doctor or dentist?</title>
+      <link>https://news.ycombinator.com/item?id=49196112</link>
+      <guid>https://news.ycombinator.com/item?id=49196112</guid>
+      <description>I do. For me, the benefit is greater than the privacy risk. AI helps me find the right words to explain precisely what I am experiencing and organize what I want to ask.</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>AI Agents Governance: Who guards the guardrails?</title>
-      <link>https://nofire.ai/blog/who-audits-the-ai-agent</link>
-      <guid>https://nofire.ai/blog/who-audits-the-ai-agent</guid>
-      <description>AI Agents Governance: Who guards the guardrails?</description>
+      <title>AI Hacking, Fearmongering and Prometheus</title>
+      <link>https://askmike.org/articles/ai-hacking-fearmongering-prometheus</link>
+      <guid>https://askmike.org/articles/ai-hacking-fearmongering-prometheus</guid>
+      <description>AI Hacking, Fearmongering and Prometheus</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>A year of AI disclosure in critical packages</title>
-      <link>https://nesbitt.io/2026/08/06/a-year-of-ai-disclosure-in-critical-packages.html</link>
-      <guid>https://nesbitt.io/2026/08/06/a-year-of-ai-disclosure-in-critical-packages.html</guid>
-      <description>A year of AI disclosure in critical packages</description>
+      <title>TCM Tongue Diagnosis AI</title>
+      <link>https://sciencedaily.com/releases/2012/05/120526191322.htm</link>
+      <guid>https://sciencedaily.com/releases/2012/05/120526191322.htm</guid>
+      <description>TCM Tongue Diagnosis AI</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>AI music generator Suno loses copyright infringement legal case</title>
-      <link>https://nme.com/news/music/ai-music-generator-suno-loses-copyright-infringement-legal-case-3960760</link>
-      <guid>https://nme.com/news/music/ai-music-generator-suno-loses-copyright-infringement-legal-case-3960760</guid>
-      <description>AI music generator Suno loses copyright infringement legal case</description>
+      <title>Show HN: Hope, 1-on-1 AI Tutor for kids Grades 2-10 learning math</title>
+      <link>https://usehope.app/</link>
+      <guid>https://usehope.app/</guid>
+      <description>Hey HN! My friend and I have been working for the last 3 months on HOPE, a platform that provides students with 1 on 1 math support to improve their confidence and teach them by d…</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>Cloudflare OS: great insight into how to embrace internal AI demand securely</title>
-      <link>https://cephalosec.com/blog/cloudflare-os-insights-on-embracing-internal-ai-growth-securely</link>
-      <guid>https://cephalosec.com/blog/cloudflare-os-insights-on-embracing-internal-ai-growth-securely</guid>
-      <description>Cloudflare OS: great insight into how to embrace internal AI demand securely</description>
+      <title>AI Agents cannot currently conduct open-ended research</title>
+      <link>https://cruxevals.com/crux/can-ai-agents-conduct-research</link>
+      <guid>https://cruxevals.com/crux/can-ai-agents-conduct-research</guid>
+      <description>AI Agents cannot currently conduct open-ended research</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>Time Magazine has a separate version of its website with ads only AI can see</title>
-      <link>https://theregister.com/ai-and-ml/2026/08/05/time-magazine-has-a-separate-version-of-its-website-with-ads-only-ai-can-see/5283640</link>
-      <guid>https://theregister.com/ai-and-ml/2026/08/05/time-magazine-has-a-separate-version-of-its-website-with-ads-only-ai-can-see/5283640</guid>
-      <description>Time Magazine has a separate version of its website with ads only AI can see</description>
+      <title>AI Amplifies Human Ignorance: Lessons from &quot;OpenAI Hacks HuggingFace&quot; Incident [video]</title>
+      <link>https://youtube.com/watch?v=3n3mSQWRz0Y</link>
+      <guid>https://youtube.com/watch?v=3n3mSQWRz0Y</guid>
+      <description>AI Amplifies Human Ignorance: Lessons from &quot;OpenAI Hacks HuggingFace&quot; Incident [video]</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>You Should Almost Never Use AI to Write Anything Substantive</title>
-      <link>https://erichgrunewald.com/posts/why-i-think-you-should-almost-never-use-ai-to-write-anything-substantive</link>
-      <guid>https://erichgrunewald.com/posts/why-i-think-you-should-almost-never-use-ai-to-write-anything-substantive</guid>
-      <description>You Should Almost Never Use AI to Write Anything Substantive</description>
+      <title>Show HN: Memoars - encrypted memory layer that your AI assistants share</title>
+      <link>https://memoars.com/</link>
+      <guid>https://memoars.com/</guid>
+      <description>I struggled a bit with context sharing, knowledge sharing, memories sharing between AI agents (I use two or three on a daily basis). Each of them has its own memory, they dont sha…</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>The Aikido Machine: on-prem AI pentesting that never leaves your network</title>
-      <link>https://aikido.dev/blog/the-aikido-machine-on-prem-ai-pentesting-that-never-leaves-your-network</link>
-      <guid>https://aikido.dev/blog/the-aikido-machine-on-prem-ai-pentesting-that-never-leaves-your-network</guid>
-      <description>The Aikido Machine: on-prem AI pentesting that never leaves your network</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
-    </item>
-    <item>
-      <title>Addiii</title>
-      <link>https://news.ycombinator.com/item?id=49194827</link>
-      <guid>https://news.ycombinator.com/item?id=49194827</guid>
-      <description>adiiiiiii is roll no. 72</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Ask HN: Desktop Pet</title>
-      <link>https://news.ycombinator.com/item?id=49194355</link>
-      <guid>https://news.ycombinator.com/item?id=49194355</guid>
-      <description>What you expect from your desktop pet so you would like to keep him and would find it usefull</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Google Captcha on Search, absurdities beyond belief</title>
-      <link>https://news.ycombinator.com/item?id=49193864</link>
-      <guid>https://news.ycombinator.com/item?id=49193864</guid>
-      <description>We all know how horrible Google search has become. Yet beyond the issues with results, the need for quoting every search to find relevance, the nonsense shown without &#x27;web&#x27; being…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Ask HN: Anyone&#x27;s Claude Code session finishing quickly from yesterday?</title>
-      <link>https://news.ycombinator.com/item?id=49193794</link>
-      <guid>https://news.ycombinator.com/item?id=49193794</guid>
-      <description>Hello, From yesterday my 5 hour limit is finishing way too quickly in my 100$ claude code plan. Not sure why that&#x27;s happening, I also have the clau.de/cc-50-promo promo enabled. I…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Ask HN: How do you handle iOS app submissions?</title>
-      <link>https://news.ycombinator.com/item?id=49193608</link>
-      <guid>https://news.ycombinator.com/item?id=49193608</guid>
-      <description>I&#x27;m part of a small team and none of us really have any experience in a &quot;solid&quot; release workflow for iOS. The initial idea was to submit a build for Apple review every 2 weeks, bu…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Suggestions on how to develop a tech recruitment platform using Claude?</title>
-      <link>https://news.ycombinator.com/item?id=49193603</link>
-      <guid>https://news.ycombinator.com/item?id=49193603</guid>
-      <description>I run a recruitment company. Now want to make my company a tech enabled recruitment platform and provide it as a software. I know little bit of how prompts works, but I am not a d…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>How can a junior dev get better when they have to use AI in their job?</title>
-      <link>https://news.ycombinator.com/item?id=49193519</link>
-      <guid>https://news.ycombinator.com/item?id=49193519</guid>
-      <description>Companies now require you to use AI. They want to move fast. You spend most of your day working and if you can&#x27;t hand code, make mistakes, and learn where you work, how do you get…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Design Test</title>
-      <link>https://news.ycombinator.com/item?id=49193308</link>
-      <guid>https://news.ycombinator.com/item?id=49193308</guid>
-      <description>hello everyone</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Ask HN: What&#x27;s wrong with my prompting for Claude 5?</title>
-      <link>https://news.ycombinator.com/item?id=49193153</link>
-      <guid>https://news.ycombinator.com/item?id=49193153</guid>
-      <description>Is anybody able to get the Claude series 5 models to do what you ask them to do? I fed Claude a Kimi K3 conversation and asked it to refine it for me (see my prompt below): ``` ..…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Stripe Lands in Minecraft</title>
-      <link>https://news.ycombinator.com/item?id=49192728</link>
-      <guid>https://news.ycombinator.com/item?id=49192728</guid>
-      <description>What is the deal with the stripe lands? 8 million blocks until the stripe lands insint that far. FIX IT MOJANG. Anyone know how to move in the stripe lands?/goto?url=CAESZQHuR6pNE…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>DeepSeek announced to raise its API price tremendously</title>
-      <link>https://news.ycombinator.com/item?id=49192693</link>
-      <guid>https://news.ycombinator.com/item?id=49192693</guid>
-      <description>My take: this notice from DeepSeek might actually be a brilliant marketing move. The logic here is to urge users to ramp up their usage over the next 2 to 3 months. By the time th…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Ask HN: Which model is best for pair-programming?</title>
-      <link>https://news.ycombinator.com/item?id=49192610</link>
-      <guid>https://news.ycombinator.com/item?id=49192610</guid>
-      <description>I draw a huge amount of joy by working WITH my AI agents as opposed to them doing everything autonomously. However all the SOTA models seem to be actively doing the opposite: hide…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>AI Agents Think and Act</title>
-      <link>https://news.ycombinator.com/item?id=49192499</link>
-      <guid>https://news.ycombinator.com/item?id=49192499</guid>
-      <description>AI Agents Think and Act</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Ask HN: Was preamble size a red herring? Cache churn vs. harness costs</title>
-      <link>https://news.ycombinator.com/item?id=49191676</link>
-      <guid>https://news.ycombinator.com/item?id=49191676</guid>
-      <description>Ask HN: Was preamble size a red herring? Cache churn vs. harness costs</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>What if AI agents shared solutions across users?</title>
-      <link>https://news.ycombinator.com/item?id=49191535</link>
-      <guid>https://news.ycombinator.com/item?id=49191535</guid>
-      <description>I’m debugging my app, reporting problems to an AI, and the AI fixes them so I can move to the next step. My app is a kind of wrapper, so I believe tens of thousands of developers…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Ask HN: What Is Intelligence?</title>
-      <link>https://news.ycombinator.com/item?id=49191013</link>
-      <guid>https://news.ycombinator.com/item?id=49191013</guid>
-      <description>Ask HN: What Is Intelligence?</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Ask HN: How to turn Claude Code into an effective software engineer</title>
-      <link>https://news.ycombinator.com/item?id=49190381</link>
-      <guid>https://news.ycombinator.com/item?id=49190381</guid>
-      <description>Claude code is living in the past. Like an atomically powered steam engine. The LLM is trained on the past. The capabilities have leapt forward, but its stance is pre-AI. Probably…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Ask HN: Should the word &#x27;inflaiton&#x27; be replaced with &#x27;devaluation&#x27;?</title>
-      <link>https://news.ycombinator.com/item?id=49190285</link>
-      <guid>https://news.ycombinator.com/item?id=49190285</guid>
-      <description>Because the citizens don&#x27;t understand what &#x27;inflation&#x27; means, despite it&#x27;s simplicity. (Re Trump and Warren both wanting to increase/abolish the US debt ceiling)</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>For an app claiming end-to-end encryption, what evidence would earn your trust?</title>
-      <link>https://news.ycombinator.com/item?id=49189897</link>
-      <guid>https://news.ycombinator.com/item?id=49189897</guid>
-      <description>For an app claiming end-to-end encryption, what evidence would earn your trust?</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Ask HN: What do you think about Northstar-browser?</title>
-      <link>https://news.ycombinator.com/item?id=49188235</link>
-      <guid>https://news.ycombinator.com/item?id=49188235</guid>
-      <description>Ask HN: What do you think about Northstar-browser?</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
-    </item>
-    <item>
-      <title>Stillsane: Detect silent quality drift in deployed LLM apps</title>
-      <link>https://pypi.org/project/stillsane</link>
-      <guid>https://pypi.org/project/stillsane</guid>
-      <description>Stillsane: Detect silent quality drift in deployed LLM apps</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>Context Engineering in an LLM Harness</title>
-      <link>https://udnes.dev/posts/context-engineering-harness-part-1-ontology</link>
-      <guid>https://udnes.dev/posts/context-engineering-harness-part-1-ontology</guid>
-      <description>Context Engineering in an LLM Harness</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>Token-Budget-Aware LLM Reasoning</title>
-      <link>https://arxiv.org/abs/2412.18547</link>
-      <guid>https://arxiv.org/abs/2412.18547</guid>
-      <description>Token-Budget-Aware LLM Reasoning</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>How to Build an LLM-Powered Database Query Bot for Your Web App in 1 Day</title>
-      <link>https://semicolonandsons.com/articles/how-to-build-an-llm-powered-database-query-bot-for-web-apps-quickly</link>
-      <guid>https://semicolonandsons.com/articles/how-to-build-an-llm-powered-database-query-bot-for-web-apps-quickly</guid>
-      <description>How to Build an LLM-Powered Database Query Bot for Your Web App in 1 Day</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>Semantic Thermodynamics – 79% LLM token reduction via narrative constraints</title>
-      <link>https://github.com/tauansloboda/semantic-thermodynamics</link>
-      <guid>https://github.com/tauansloboda/semantic-thermodynamics</guid>
-      <description>Semantic Thermodynamics – 79% LLM token reduction via narrative constraints</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>Private LLM in a TEE, verified against Intel&#x27;s root with no cloud in the chain</title>
-      <link>https://505labs.com/blog/private-llm-inside-a-tee</link>
-      <guid>https://505labs.com/blog/private-llm-inside-a-tee</guid>
-      <description>Private LLM in a TEE, verified against Intel&#x27;s root with no cloud in the chain</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>Linux&#x27;s Staging Area to Now Reject LLM Patches, Except for Real Security Fixes</title>
-      <link>https://phoronix.com/news/Linux-Staging-Reject-LLMs</link>
-      <guid>https://phoronix.com/news/Linux-Staging-Reject-LLMs</guid>
-      <description>Linux&#x27;s Staging Area to Now Reject LLM Patches, Except for Real Security Fixes</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>A Survey on LLM-as-a-Judge</title>
-      <link>https://arxiv.org/abs/2411.15594</link>
-      <guid>https://arxiv.org/abs/2411.15594</guid>
-      <description>A Survey on LLM-as-a-Judge</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>Show HN: LLM control of deterministic coder – Sif 1.0 – LLMs as vibe coders</title>
-      <link>https://github.com/Mac-at-SifSys/Sif-1.0</link>
-      <guid>https://github.com/Mac-at-SifSys/Sif-1.0</guid>
-      <description>Was looking to speed up coding and reduce token usage. Theory is an LLM can provide a plan to a deterministic local coder faster and with less token use than writing the code itse…</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>Show HN: Offline 180.9M-parameter LLM and Agent inference on ESP32-P4</title>
-      <link>https://github.com/cyfrit/p-for-llm</link>
-      <guid>https://github.com/cyfrit/p-for-llm</guid>
-      <description>Show HN: Offline 180.9M-parameter LLM and Agent inference on ESP32-P4</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>Celeris-1: A diffusion LLM benchmarked at 2,082 output tokens/s</title>
-      <link>https://artificialanalysis.ai/models/celeris-1</link>
-      <guid>https://artificialanalysis.ai/models/celeris-1</guid>
-      <description>Celeris-1: A diffusion LLM benchmarked at 2,082 output tokens/s</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>Show HN: I asked an LLM what it would say to God, then made it a website</title>
-      <link>https://sekor.eu.org/x/i-am-god</link>
-      <guid>https://sekor.eu.org/x/i-am-god</guid>
-      <description>Show HN: I asked an LLM what it would say to God, then made it a website</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks 2025</title>
-      <link>https://arxiv.org/abs/2508.20453</link>
-      <guid>https://arxiv.org/abs/2508.20453</guid>
-      <description>MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks 2025</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>Five Rust teams adopt LLM rules to protect human code review</title>
-      <link>https://runtimewire.com/article/rust-teams-adopt-llm-contribution-policy</link>
-      <guid>https://runtimewire.com/article/rust-teams-adopt-llm-contribution-policy</guid>
-      <description>Five Rust teams adopt LLM rules to protect human code review</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>I run a 9-model LLM council to write a financial newsletter. What breaks</title>
-      <link>https://marketdaily.ai/blog/eng-llm-council-judge-en-202608</link>
-      <guid>https://marketdaily.ai/blog/eng-llm-council-judge-en-202608</guid>
-      <description>I run a 9-model LLM council to write a financial newsletter. What breaks</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
-    </item>
-    <item>
-      <title>Show HN: Premium React Native screens for building apps faster</title>
-      <link>https://pro.gluestack.io/</link>
-      <guid>https://pro.gluestack.io/</guid>
-      <description>Hi HN! We built gluestack-ui Pro to reduce the repetitive work of building React Native apps. It includes reusable screens for common app flows instead of just UI components, all…</description>
+      <title>Show HN: I built a pg-migration-engine on NPM</title>
+      <link>https://news.ycombinator.com/item?id=49196897</link>
+      <guid>https://news.ycombinator.com/item?id=49196897</guid>
+      <description>Show HN: I built a pg-migration-engine on NPM</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Google Business Profile Suite for Local SEO</title>
-      <link>https://avision.org/localedge-affiliate</link>
-      <guid>https://avision.org/localedge-affiliate</guid>
-      <description>Show HN: Google Business Profile Suite for Local SEO</description>
+      <title>Show HN: Ranking weather models by how their forecasts turned out</title>
+      <link>https://nickleenders.github.io/verisky-scoreboard?city=newyork</link>
+      <guid>https://nickleenders.github.io/verisky-scoreboard?city=newyork</guid>
+      <description>Weather apps all claim to be accurate but never show their work. So I built a scoreboard that checks: it takes the forecasts each model published (ECMWF, GFS, ICON, AIFS and other…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Android client for DJI Osmo action/handheld cameras</title>
-      <link>https://github.com/KonradIT/osmosis</link>
-      <guid>https://github.com/KonradIT/osmosis</guid>
-      <description>For the past few months I&#x27;ve been hard at work reverse engineering the DJI &quot;DUML&quot; protocol that the Osmo Action 5 and Osmo Nano cameras speak. The DUML protocol is already documen…</description>
+      <title>Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs</title>
+      <link>https://reactcandlesticks.com/demo</link>
+      <guid>https://reactcandlesticks.com/demo</guid>
+      <description>Hi HN, react-candlesticks is a React chart library for financial charts (stock, crypto, trading, etc). It support multiple panels and layers, theming, and early support for custom…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: QR codes where your photo is the code, not pasted on top</title>
-      <link>https://sqr.art/</link>
-      <guid>https://sqr.art/</guid>
-      <description>Show HN: QR codes where your photo is the code, not pasted on top</description>
+      <title>Show HN: Line9 - a Mermaid rendering engine with its own layout</title>
+      <link>https://line9.ai/diagram</link>
+      <guid>https://line9.ai/diagram</guid>
+      <description>Line9 is a new rendering engine for Mermaid flowchart diagrams that aims to remove the need for manual adjustment of layout. Mermaid is a popular text-based language for describin…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Femto: A fork of kilo (text editor)</title>
-      <link>https://git.disroot.org/Vextoly/femto</link>
-      <guid>https://git.disroot.org/Vextoly/femto</guid>
-      <description>A fork of kilo, a small text editor in less than 1000 LOC with syntax highlighting and search, enhanced with fixes from community pull requests, issue discussions, and personal im…</description>
+      <title>Show HN: Fursa, a live job index built from company career pages</title>
+      <link>https://fursa.io/search</link>
+      <guid>https://fursa.io/search</guid>
+      <description>Show HN: Fursa, a live job index built from company career pages</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: MakerBadge – a footer badge that links all the apps you&#x27;ve shipped</title>
-      <link>https://makerbadge.com/</link>
-      <guid>https://makerbadge.com/</guid>
-      <description>Show HN: MakerBadge – a footer badge that links all the apps you&#x27;ve shipped</description>
+      <title>Show HN: FormLab, a no-signup formulation lab notebook in the browser</title>
+      <link>https://lab.formvix.com/</link>
+      <guid>https://lab.formvix.com/</guid>
+      <description>Show HN: FormLab, a no-signup formulation lab notebook in the browser</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Amber – A fast, C99 in-memory array language with q/kdb+ vocabulary</title>
-      <link>https://github.com/BonucciAndrea/amber</link>
-      <guid>https://github.com/BonucciAndrea/amber</guid>
-      <description>Show HN: Amber – A fast, C99 in-memory array language with q/kdb+ vocabulary</description>
+      <title>Show HN: Science for Kids</title>
+      <link>https://science.ocaho.com/</link>
+      <guid>https://science.ocaho.com/</guid>
+      <description>There’s a really good kids’ science magazine called Oyla, but it’s aimed at kids 12+ I subscribed a couple of years ago thinking that it would be fine for my son (then 8yo, but an…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: ReachKit – a discoverability score for your product, and plan to fix it</title>
-      <link>https://reachkit.app/</link>
-      <guid>https://reachkit.app/</guid>
-      <description>Show HN: ReachKit – a discoverability score for your product, and plan to fix it</description>
+      <title>Show HN: Islandr – WireGuard peers, users and group ACLs in one binary</title>
+      <link>https://github.com/chriscohnen/islandr</link>
+      <guid>https://github.com/chriscohnen/islandr</guid>
+      <description>Show HN: Islandr – WireGuard peers, users and group ACLs in one binary</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: A terminal glued to the macOS dock</title>
-      <link>https://github.com/palamim/starboard</link>
-      <guid>https://github.com/palamim/starboard</guid>
-      <description>Every single day of my life since I started programming back in 2020 I open my projects through the terminal/ghostty. &quot;cd path&quot; + &quot;code .&quot;. Until today I don&#x27;t even know how to op…</description>
+      <title>Show HN: OptiPipe: rule-based config advisor for dbt pipelines</title>
+      <link>https://opti-pipe.onrender.com/</link>
+      <guid>https://opti-pipe.onrender.com/</guid>
+      <description>Show HN: OptiPipe: rule-based config advisor for dbt pipelines</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: My free web dev courses, no signup, with exercises</title>
-      <link>https://en.andros.dev/courses</link>
-      <guid>https://en.andros.dev/courses</guid>
-      <description>Show HN: My free web dev courses, no signup, with exercises</description>
+      <title>Show HN: How will the Aug 12 eclipse look like from your address?</title>
+      <link>https://eclipse2026times.com/</link>
+      <guid>https://eclipse2026times.com/</guid>
+      <description>August 12 is a total solar eclipse over Iceland and northern Spain and partially across Europe. In France it&#x27;ll be visible over 90% (~92% in Paris at 8:17pm). I wanted to know if…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Rask – The .NET One Person Framework</title>
-      <link>https://pal-tamas.github.io/rask</link>
-      <guid>https://pal-tamas.github.io/rask</guid>
-      <description>Show HN: Rask – The .NET One Person Framework</description>
+      <title>Show HN: Live Embedded Dashboards on Your GitHub Repo Page</title>
+      <link>https://github.com/SlickFast/github-dashboard-template</link>
+      <guid>https://github.com/SlickFast/github-dashboard-template</guid>
+      <description>The link is to our GitHub template repo. Just follow the instructions to get the dashboard templates on your repo. You put the SlickFast URL endpoint inside your readme. There are…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: I deleted DMs from our work chat</title>
-      <link>https://fosbury.ai/</link>
-      <guid>https://fosbury.ai/</guid>
-      <description>Fosbury is a more enjoyable and efficient way for engineering and product teams to communicate. We grew frustrated with how noisy, shallow and out-of-step messaging tools are with…</description>
+      <title>Show HN: A browser game for experimenting with cellular societies</title>
+      <link>https://gameofsociety.alirizasaral.com/</link>
+      <guid>https://gameofsociety.alirizasaral.com/</guid>
+      <description>Show HN: A browser game for experimenting with cellular societies</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: AI Video Resume and Pitch Deck Generator</title>
-      <link>https://portfoliovideo.com/</link>
-      <guid>https://portfoliovideo.com/</guid>
-      <description>Show HN: AI Video Resume and Pitch Deck Generator</description>
+      <title>Show HN: CaseHero – your own documented copy of every call with a company</title>
+      <link>https://case-hero.com/</link>
+      <guid>https://case-hero.com/</guid>
+      <description>Show HN: CaseHero – your own documented copy of every call with a company</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Linksh.re, a link shortener with no signup, just a recovery code</title>
-      <link>https://linksh.re/</link>
-      <guid>https://linksh.re/</guid>
-      <description>Every link shortener makes you sign up before you get anything. Mine doesn&#x27;t. Paste a URL, get your short link, done. No account, no email, no password. You get a one-time recover…</description>
+      <title>Show HN: ReflectWorld – Entity-oriented memory system for open-ended video</title>
+      <link>https://github.com/addxai/ReflectWorld</link>
+      <guid>https://github.com/addxai/ReflectWorld</guid>
+      <description>ReflectWorld gives AI agents persistent memory over video streams — memory that participates in perception, not just retrieval. Design details in the first comment.</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Dont Wordle – a reverse word puzzle about preserving options</title>
-      <link>https://dontwordle.app/</link>
-      <guid>https://dontwordle.app/</guid>
-      <description>Show HN: Dont Wordle – a reverse word puzzle about preserving options</description>
+      <title>Show HN: Interlock – Atomic TypeScript domain transitions on PostgreSQL</title>
+      <link>https://github.com/jajego/interlock</link>
+      <guid>https://github.com/jajego/interlock</guid>
+      <description>Hello HN! I built Interlock because I kept seeing the same architectural issue arise in backend code at work, where a state change starts as one update, then slowly accumulates fe…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Safety Guardrails for Claude Code</title>
-      <link>https://github.com/choiyounggi/groundwork</link>
-      <guid>https://github.com/choiyounggi/groundwork</guid>
-      <description>Show HN: Safety Guardrails for Claude Code</description>
+      <title>Show HN: ProMatch Lab – a football manager where matches run on a server clock</title>
+      <link>https://promatchlab.com/watch</link>
+      <guid>https://promatchlab.com/watch</guid>
+      <description>Show HN: ProMatch Lab – a football manager where matches run on a server clock</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: S3mini v1 – Tiny and fast S3 client, no-deps, for Node, Bun, Cloudflare</title>
-      <link>https://codeberg.org/thinking_tools/s3mini</link>
-      <guid>https://codeberg.org/thinking_tools/s3mini</guid>
-      <description>Show HN: S3mini v1 – Tiny and fast S3 client, no-deps, for Node, Bun, Cloudflare</description>
+      <title>Show HN: K8s-cleaner a dynamic rule controller to detect unused K8s resources</title>
+      <link>https://github.com/gianlucam76/k8s-cleaner</link>
+      <guid>https://github.com/gianlucam76/k8s-cleaner</guid>
+      <description>Show HN: K8s-cleaner a dynamic rule controller to detect unused K8s resources</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: HackerBa – Hacker News with a Baidu Tieba UI</title>
-      <link>https://github.com/sha2kyou/HackerBa</link>
-      <guid>https://github.com/sha2kyou/HackerBa</guid>
-      <description>Show HN: HackerBa – Hacker News with a Baidu Tieba UI</description>
+      <title>Show HN: Srelens – Kubernetes control room for engineers and AI agents (MIT)</title>
+      <link>https://github.com/srelens/srelens</link>
+      <guid>https://github.com/srelens/srelens</guid>
+      <description>Show HN: Srelens – Kubernetes control room for engineers and AI agents (MIT)</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Clark code – open-source IDE for OSS coding and free tier</title>
-      <link>https://github.com/clark-labs-inc/clark-code</link>
-      <guid>https://github.com/clark-labs-inc/clark-code</guid>
-      <description>Show HN: Clark code – open-source IDE for OSS coding and free tier</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
+      <title>Nashville uses eminent domain to block data center near zoo</title>
+      <link>https://costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project</link>
+      <guid>https://costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project</guid>
+      <description>Nashville uses eminent domain to block data center near zoo</description>
+      <source>Hacker News 最佳</source>
+      <category>Hacker News 最佳</category>
     </item>
     <item>
       <title>Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery</title>
@@ -1069,6 +781,206 @@
       <description>Cops Used Flock to Track a Man Across State Lines for a Pretextual Weed Search</description>
       <source>Hacker News 最佳</source>
       <category>Hacker News 最佳</category>
+    </item>
+    <item>
+      <title>Baseten on Hugging Face Inference Providers 🔥</title>
+      <link>https://huggingface.co/blog/baseten</link>
+      <guid>https://huggingface.co/blog/baseten</guid>
+      <description>Baseten on Hugging Face Inference Providers 🔥</description>
+      <source>Hugging Face 博客</source>
+      <category>Hugging Face 博客</category>
+    </item>
+    <item>
+      <title>英伟达低调组建 AI 安全与网络工程团队，自称秉持“坚定信念”</title>
+      <link>https://ithome.com/0/986/742.htm</link>
+      <guid>https://ithome.com/0/986/742.htm</guid>
+      <description>IT之家 8 月 6 日消息，据《商业内幕》今天（6 日）报道，英伟达正在低调组建一支新的 AI 安全与网络安全工程团队 。 上月底集中发布的一批招聘信息首次披露了团队的存在。英伟达计划 招聘一名杰出工程师 ，出任新团队的创始技术负责人，其他岗位包括 安全研究工程师、评估工程师和高级经理 。团队将对尚未部署的 AI 智能体进行安全评估，还会开发利用 AI…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>中国广电完成行业首例 5G 700MHz“全网通”便携式基站接入验证，正式接入国家应急保障体系</title>
+      <link>https://ithome.com/0/986/741.htm</link>
+      <guid>https://ithome.com/0/986/741.htm</guid>
+      <description>IT之家 8 月 6 日消息，中国广电昨日宣布，在工业和信息化部应急通信保障中心指导下，其 5G 核心网已与国家应急通信融合接入平台完成全面对接，并完成行业首例 5G 700MHz“全网通”便携式基站的接入验证。此举标志着中国广电的技术方案正式纳入国家应急通信一体化保障体系。 国家应急通信融合接入平台由工信部应急通信保障中心主导研发，采用“单基站、全网通”…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>人类首次从另一颗行星表面拍到地球掩星：NASA 毅力号拍到地球从火卫一背后“消失”的罕见影像</title>
+      <link>https://ithome.com/0/986/740.htm</link>
+      <guid>https://ithome.com/0/986/740.htm</guid>
+      <description>IT之家 8 月 6 日消息，NASA 于当地时间 8 月 5 日发布了一组由“毅力号”火星车拍摄的罕见天文影像。该影像序列记录了地球从火卫一（Phobos）背后掠过的掩星全过程。 这组图像由毅力号搭载的 Mastcam-Z 双相机系统于 2026 年 7 月 2 日（即任务第 1907 个火星日）拍摄。当时正值火星当地太阳时约 19 时（日落后约 40…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>国内已知最大规模！消息称字节跳动正讨论训练超 5 万亿参数模型</title>
+      <link>https://ithome.com/0/986/739.htm</link>
+      <guid>https://ithome.com/0/986/739.htm</guid>
+      <description>IT之家 8 月 6 日消息，晚点 LatePost 今天（6 日）晚间爆料称，字节跳动正在讨论训练一个 参数规模超 5 万亿的模型 ，超过阿里的 Qwen 3.8-Max（2.4 万亿参数）和月之暗面的 K3（2.8 万亿参数），也是目前 国内已知参数规模最大 的模型。通常而言，模型规模越大，智能水平往往越高，不过该计划仍处于早期阶段。 消息称该模型将由…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>华为自带线全能充智能移动电源确认支持精准查找，提供播放铃声、遗落提醒等功能</title>
+      <link>https://ithome.com/0/986/738.htm</link>
+      <guid>https://ithome.com/0/986/738.htm</guid>
+      <description>IT之家 8 月 6 日消息，在昨天的尊界时代旗舰 MPV 及华为全场景新品发布会上，华为终端 BG CEO 何刚发布了华为首款新国标 3C 移动电源 —— 华为自带线全能充智能移动电源， 售价 399 元 。 京东 华为自带线充电宝全能充智能移动电源（100W 12000） 陶瓷白 399 元 直达链接 据华为终端 BG CTO 李小龙分享，华为自带线全…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>三年磨一剑：Bose 推出新一代 QuietComfort 头戴式耳机，加入有线无损播放、空间音频</title>
+      <link>https://ithome.com/0/986/737.htm</link>
+      <guid>https://ithome.com/0/986/737.htm</guid>
+      <description>IT之家 8 月 6 日消息，北京时间今天（6 日）晚间，音响品牌 Bose 正式推出新一代 QuietComfort 耳机，完成 三年来首次硬件升级 。新款不仅改善佩戴设计，还加入了 空间音频、有线无损播放和更完善的降噪功能 。 新款 QuietComfort 首次支持此前 QuietComfort Ultra 系列独占的 Bose 沉浸空间音频 ，系统…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>华为官宣乾崑智驾 ADS Pro V5.0 即将推送，新版本亮点公布</title>
+      <link>https://ithome.com/0/986/736.htm</link>
+      <guid>https://ithome.com/0/986/736.htm</guid>
+      <description>IT之家 8 月 6 日消息，华为官方今日宣布，乾崑智驾 ADS Pro V5.0 即将推送， 具体推送时间、车型和计划等以车企信息为准 。 据介绍，华为乾崑智驾 ADS Pro V5.0 新增园区领航辅助 NCA ，系统可辅助车辆从园区入口抵达车位； 新增三点式掉头 ，面对狭小路面可辅助车辆后退腾出空间，完成掉头； 升级循迹倒车 RA 功能 ，最远支持…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>vivo Y6t 手机新增“m 版”：换用天玑 6300 处理器，1019 元起</title>
+      <link>https://ithome.com/0/986/735.htm</link>
+      <guid>https://ithome.com/0/986/735.htm</guid>
+      <description>IT之家 8 月 6 日消息，vivo 现已为旗下 Y6t 手机新增一款“m 版”，该版本主要是把 SoC 从骁龙 4 Gen 2 调整为天玑 6300，其他核心规格不变，IT之家整理价格如下： 4GB RAM + 128GB 存储空间：1019 元，国补后 866.15 元 6GB RAM + 256GB 存储空间：1399 元，国补后 1189.15…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>支付宝鸿蒙版 App 获 12.12.16.4400 尝鲜升级，开放蚂蚁阿宝 AI 功能</title>
+      <link>https://ithome.com/0/986/734.htm</link>
+      <guid>https://ithome.com/0/986/734.htm</guid>
+      <description>IT之家 8 月 6 日消息，支付宝鸿蒙版 App 今日在华为应用市场（App Gallery）开启了 12.12.16.4400 (212163) 版本尝鲜升级，测试时间为 2026/8/6-2026/8/9。 和往常一样，支付宝官方并未公布具体的升级内容，仅说明适配华为新系统，特升级鸿蒙软件。但IT之家实测发现， 该版本支付宝开放了蚂蚁阿宝 AI 助手…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>全球装机数最多三代核电堆型，我国“华龙一号”将迭代升级</title>
+      <link>https://ithome.com/0/986/731.htm</link>
+      <guid>https://ithome.com/0/986/731.htm</guid>
+      <description>IT之家 8 月 6 日消息，据央视新闻今天（6 日）援引中核集团方面称， 我国自主三代核电“华龙一号”将迭代升级 ，首批“华龙一号”2.0 示范项目近日在 浙江金七门和广东太平岭核电基地落地 。 作为“华龙一号”2.0 版国家级首堆示范工程，浙江金七门核电基地二期工程两台机组正进行动工前的准备工作。 “华龙一号”是我国具有完全自主知识产权三代核电技术。“…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>谷歌地图智能体功能迎来新升级：聊着天就把酒店、外卖订好了</title>
+      <link>https://ithome.com/0/986/729.htm</link>
+      <guid>https://ithome.com/0/986/729.htm</guid>
+      <description>IT之家 8 月 6 日消息，今天（6 日）晚间，谷歌地图副总裁兼总经理米丽娅姆 · 丹尼尔宣布，AI 功能 Ask Maps 迎来新一轮升级， 不仅可以按照用户的个性化需求订餐、寻找酒店，还能结合已有行程提供建议 。 谷歌今天公布的多项新功能，旨在让用户不必离开谷歌地图，便能“比以往更轻松地”完成更多事情。 Ask Maps 新增的智能体功能可以替用户执…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>大疆 Osmo 360 II 全景相机将于 8 月 7 日开启预约：有望延续现款外形设计、新增 NFC 功能</title>
+      <link>https://ithome.com/0/986/728.htm</link>
+      <guid>https://ithome.com/0/986/728.htm</guid>
+      <description>IT之家 8 月 6 日消息，大疆发文，宣布旗下 DJI Osmo 360 II 全景相机将于 8 月 7 日（明天）晚上 8 点开启预约。 目前，该机外观图已流出，显示其整体延续初代方正机身设计，镜头模组布局变化不大。 值得注意的是，此前 FCC 文件已经出现过 Osmo 360 II，型号 OQ002 的注册信息，电池容量由初代的 1950mAh 提升…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>可直接调用微距、长焦：微信 iOS 版灰度测试相机多焦段切换功能</title>
+      <link>https://ithome.com/0/986/727.htm</link>
+      <guid>https://ithome.com/0/986/727.htm</guid>
+      <description>IT之家 8 月 6 日消息，据多名网友分享， 微信 iOS 版正灰度相机多焦段切换功能 。用户在聊天界面打开相机进行拍摄，可以直接在拍照页面选用手机的长焦、微距等。 从网友反馈的微信新版相机界面来看，在拍摄的时候会出现 0.5x、1x、2x 和 3x 不同的拍摄焦段，同时旁边还有一个花朵样式图标的微距按钮，和系统自带的相机非常像。 目前，该功能并非向所有…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>安全公司警告 Open VSX 平台出现 77 款山寨插件，可在暗地窃取受害者设备信息</title>
+      <link>https://ithome.com/0/986/726.htm</link>
+      <guid>https://ithome.com/0/986/726.htm</guid>
+      <description>IT之家 8 月 6 日消息，安全公司 Manifold 发文，透露其在 7 月 26 日至 8 月 1 日期间发现 77 款山寨 Open VSX 插件，其中包含完整信息窃取功能，可潜伏在受害者设备上搜集信息。在团队通报后， 这些恶意套件已于 8 月 3 日全部从 Open VSX 平台下架 。 Manifold 表示，此类仿冒插件采用了高度一致的攻击手…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>7980 元起，新大洲本田 CBF150T 与 2026 款 NS125GU 正式上市</title>
+      <link>https://ithome.com/0/986/725.htm</link>
+      <guid>https://ithome.com/0/986/725.htm</guid>
+      <description>IT之家 8 月 6 日消息，新大洲本田今日在福建泉州崇武西沙湾举办新品发布会，并推出了两款新车：经典复古太子车 CBF150T 与 2026 款 NS125GU 平踏板。 CBF150T 共提供四个版本，标准版售价 7980 元，护杠版 8280 元，ABS 版 8980 元，特别版 9180 元。 该车型脱胎于经典的 CBF125T，此次将发动机从 1…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>华为官宣昇腾 0 Day 支持蚂蚁百灵 Ling-3.0-flash 模型，全新算子编程框架 CANN PyPTO 首秀</title>
+      <link>https://ithome.com/0/986/724.htm</link>
+      <guid>https://ithome.com/0/986/724.htm</guid>
+      <description>IT之家 8 月 6 日消息， 蚂蚁百灵昨日正式开源新一代原生混合推理模型 Ling-3.0-flash ，主打极致智能密度、全链路 Agent 闭环与低成本规模化落地。 华为官方今日宣布， 昇腾同步完成百灵 Ling-3.0-flash 模型 0 Day 适配 ，在适配的过程中，还首次引入 CANN PyPTO 算子编程框架，可缩短复杂融合算子交付周期，…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>阿里全新一代视频生成模型 Wan3.0 公测：单次生成能 30 秒，号称万物皆可生视频</title>
+      <link>https://ithome.com/0/986/723.htm</link>
+      <guid>https://ithome.com/0/986/723.htm</guid>
+      <description>IT之家 8 月 6 日消息，“阿里云”公众号今天（6 日）晚间宣布，全新一代视频生成模型 Wan3.0 开启公测。 Wan3.0 在生成时长、万能创作、全能参考与真实感等维度全面升级，单次可生成 30 秒视频，完整表达创作意图；在文本、图片、音频、视频四种基础模态之外， 首次支持 doc、xls、ppt、pdf、md 等文档格式输入 ，号称将让“万物皆可…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>全新深蓝 S05 车型正式上市，限时优惠价 11.59 万元起</title>
+      <link>https://ithome.com/0/986/722.htm</link>
+      <guid>https://ithome.com/0/986/722.htm</guid>
+      <description>IT之家 8 月 6 日消息，在今天的发布会中，全新深蓝 S05 正式上市，共推出 5 款车型，售价区间 11.99-15.19 万元， 限时优惠价 11.59-14.49 万元 。 620 智臻激光版：15.19 万元，限时价 14.49 万元 620 智臻版：13.99 万元，限时价 13.29 万元 520 智臻激光版：14.19 万元，限时价 13…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>特朗普科技顾问：部分企业以 AI 为借口实施裁员，这样听起来更好听</title>
+      <link>https://ithome.com/0/986/720.htm</link>
+      <guid>https://ithome.com/0/986/720.htm</guid>
+      <description>北京时间 8 月 6 日，据《商业内幕》报道，一位特朗普政府高级官员表示，一些公司正利用 AI 作为裁员的“挡箭牌”。 特朗普顾问克拉西奥斯 美国总统特朗普的科学与技术顾问迈克尔 · 克拉西奥斯 (Michael Kratsios) 在最近一期《彼得 · 戴曼迪斯的登月计划》播客节目中表示：“我认为，现在很多公司在进行本来就会做的裁员时，喜欢把原因归咎于…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>我国第二代 490 牛发动机圆满完成百发卫星飞行任务</title>
+      <link>https://ithome.com/0/986/718.htm</link>
+      <guid>https://ithome.com/0/986/718.htm</guid>
+      <description>IT之家 8 月 6 日消息，据航天推进技术研究院今日分享，8 月 5 日，由航天科技集团六院 801 所研制的我国第二代 490 牛发动机完成天链 3 号 01 星变轨任务， 迎来第 100 发卫星飞行里程碑 。 IT之家查询获悉，2012 年 5 月 26 日，第二代 490 牛发动机随中星 2A 卫星成功首飞，实现了我国 490 牛发动机产品的升级换…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>大的要来了：R 星《GTA 6》前瞻预告定档北京时间 8 月 28 日首播</title>
+      <link>https://ithome.com/0/986/717.htm</link>
+      <guid>https://ithome.com/0/986/717.htm</guid>
+      <description>IT之家 8 月 6 日消息，今天（6 日）晚间，Rockstar Games 通过官网发布公告：《侠盗猎车手 6：分量十足的一瞥》将于美东时间 8 月 27 日下午 3 时（IT之家注：北京时间 28 日凌晨 3 时）率先在 Netflix 播出。 根据 R 星官方B站主页介绍，该预告片将于 8 月 28 日北京时间上午 11 时推出。“对 Grand…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>10.6 万元，索尼 FE 600mm F4 GM OSS 定焦 G 大师镜头国行上架</title>
+      <link>https://ithome.com/0/986/716.htm</link>
+      <guid>https://ithome.com/0/986/716.htm</guid>
+      <description>IT之家 8 月 6 日消息，索尼现已在京东上架 FE 600mm F4 GM OSS 全画幅 G 大师镜头（SEL600F40GM），将于 9 月 1 日发售， 定价为 10.6 万元 。 该产品重量 3040 克，采用了重心平衡设计，配备了双 XD 线性马达，同时优化了噪音控制，能够轻松抓拍体育赛事中的运动员及自然生态环境下的野生动物。 该产品使用 1…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>索尼 PS5 Pro 推动 PSSR 2.0 普及：Beta 系统更新后自动启用画质增强选项</title>
+      <link>https://ithome.com/0/986/715.htm</link>
+      <guid>https://ithome.com/0/986/715.htm</guid>
+      <description>IT之家 8 月 6 日消息，据 ResetERA 论坛用户今日反馈，索尼已开始发送邀请，邀请 PS5/Pro 用户测试新的 PlayStation 5 系统软件更新。 此次 Beta 更新最显著的变化是针对 PS5 Pro 的 PSSR 画质增强功能：“增强 PSSR 图像质量”（Enhance PSSR Image Quality）选项现已被设置为默认…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>全新一代 smart 精灵#1 上市：定位新奢 AI 灵动 SUV，限时 14.99 万 / 16.99 万元</title>
+      <link>https://ithome.com/0/986/714.htm</link>
+      <guid>https://ithome.com/0/986/714.htm</guid>
+      <description>IT之家 8 月 6 日消息，号称“豪华智能小车之王”的全新一代 smart 精灵#1 今天（6 日）晚间正式上市，新车定位新奢 AI 灵动 SUV，提供 535Max、535Ultra 两款配置 ，市场指导价分别为 15.29 万元、17.29 万元 ，限时权益价分别为 14.99 万元、16.99 万元 。 新车相较于现款拥有 超 200 项升级 ，号…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
     </item>
     <item>
       <title>兰族推出指握鼠标冥神：雾透外壳，38±2g，活动到手价 849 元</title>
@@ -1155,14 +1067,6 @@
       <link>https://ithome.com/0/986/341.htm</link>
       <guid>https://ithome.com/0/986/341.htm</guid>
       <description>IT之家 8 月 6 日消息，Valve 现已向 Steam 客户端的 Preview / Beta 测试通道推送了新版本更新，本次更新重点修复了 PIN 重置、游戏服务器浏览器等功能问题，并对手柄配置界面进行了优化。 通用更新 修复了在登录不同账号时请求 PIN 重置后，重启时错误登录到错误账号的问题 Steam 输入 在配置界面中更清晰地区分与其他设备…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>索尼 FE 100-400mm F5.6-8 OSS 相机镜头上架，国行售 5499 元</title>
-      <link>https://ithome.com/0/986/700.htm</link>
-      <guid>https://ithome.com/0/986/700.htm</guid>
-      <description>IT之家 8 月 6 日消息，索尼现已在京东上架 FE 100-400mm F5.6-8 OSS 相机镜头（SEL100400）， 国行定价为 5499 元 ，将于 8 月 10 日首销。 京东 索尼 FE 100-400mm F5.6-8 OSS 镜头 5499 元 直达链接 该镜头整体重量 654 克，长度约 16.5 厘米，采用防尘防潮设计，带有对焦…</description>
       <source>IT之家</source>
       <category>IT之家</category>
     </item>
@@ -1359,188 +1263,12 @@
       <category>IT之家</category>
     </item>
     <item>
-      <title>专家辟谣“车市半年发了五六百款新车”，称 2026 年 1-6 月国内全新车型仅约 165 款</title>
-      <link>https://ithome.com/0/986/624.htm</link>
-      <guid>https://ithome.com/0/986/624.htm</guid>
-      <description>IT之家 8 月 6 日消息，据第一财经报道，针对上半年上市新车超 500 款的行业热议数据，中国汽车流通协会专家李颜伟今日在社交平台上表示， 2026 年 1-6 月国内全新车型仅约 165 款，市面流传 500 至 600 款的说法并不严谨 。 李颜伟解释，500 多款是车型 + 各类配置、衍生款的合并统计。“比如新上市一款车型，有三个配置，这可以算作…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>华硕 12.3 英寸 24:9 便携式触控显示器 ROG Strix XG129C 国行上市，1599 元</title>
-      <link>https://ithome.com/0/986/616.htm</link>
-      <guid>https://ithome.com/0/986/616.htm</guid>
-      <description>IT之家 8 月 6 日消息，华硕今年 5 月推出的那款副屏产品 ROG Strix XG129C 现已在京东上市，国行定价为 1599 元。 京东 华硕 12.3 英寸 ROG XG129C 便携式触控电竞显示器【新品】 IPS 面板 75Hz 24：9 比例直播聊天监控显示器 ROG 便携触控显示器 1599 元 直达链接 这款产品定位便携式触控显示器…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>宏碁非凡 Go 锐龙版笔记本新增 AMD 锐龙 5 6600H + 16G + 512G 版本，4399 元</title>
-      <link>https://ithome.com/0/986/596.htm</link>
-      <guid>https://ithome.com/0/986/596.htm</guid>
-      <description>IT之家 8 月 6 日消息，宏碁现已为旗下非凡 Go 锐龙版笔记本新增 AMD 锐龙 5 6600H + 16GB RAM + 512GB SSD 版本， 定价为 4399 元 。 京东 acer 非凡 Go 锐龙版 R5 6600H 版本 4399 元 直达链接 该机 B 面配备一块 1920x1200 分辨率 IPS 面板，C 面带有小键盘；机身左侧…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>华硕 AM4 主板新品 PRIME B550M-K WIFI 上市，599 元</title>
-      <link>https://ithome.com/0/986/595.htm</link>
-      <guid>https://ithome.com/0/986/595.htm</guid>
-      <description>IT之家 8 月 6 日消息，华硕 (ASUS) 现已在电商平台销售近期推出的 AMD Socket AM4 平台主板新品 PRIME B550M-K WIFI。这一型号 标价为 599 元 。 PRIME B550M-K WIFI 这款主板仅在芯片组处覆盖了散热片，也没有预装后置 I/O 挡板。其采用上下桥供电，仅具有 1 组 EPS 8Pin CPU…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>鸿蒙智行尊界 V800 / V680 旗舰 MPV 上市 24 小时大定突破 3500 台</title>
-      <link>https://ithome.com/0/986/594.htm</link>
-      <guid>https://ithome.com/0/986/594.htm</guid>
-      <description>IT之家 8 月 6 日消息，在昨天的尊界时代旗舰 MPV 及华为全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东 正式发布尊界 V800 / V680 两款旗舰 MPV ，售价 64.8 万元起。 IT之家注意到，博主 @我鸿 今日发文分享，鸿蒙智行尊界 V800 / V680 旗舰 MPV 上市 24 小时， 大定订单…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>任天堂数字版游戏占比突破六成，销售额猛增九成至 1327 亿日元</title>
-      <link>https://ithome.com/0/986/593.htm</link>
-      <guid>https://ithome.com/0/986/593.htm</guid>
-      <description>IT之家 8 月 6 日消息，围绕游戏行业是否会全面转向数字发行的讨论近来持续升温，索尼、Xbox 和任天堂都被卷入数字化浪潮之中。任天堂最新财报显示，Switch 玩家正越来越多地转向数字版游戏， 数字渠道贡献的软件销售额占比已经超过 60% 。 据外媒 Inside Gaming 今天（6 日）报道，索尼计划从 2028 年起告别实体光盘，Xbox 据…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>境外新能源项目首次接入我国电力市场，老挝输送 6 亿千瓦时水电至粤港澳大湾区</title>
-      <link>https://ithome.com/0/986/592.htm</link>
-      <guid>https://ithome.com/0/986/592.htm</guid>
-      <description>IT之家 8 月 6 日消息，今日，老挝水电经中老 500 千伏联网工程输送至中国粤港澳大湾区。本次送电工作预计持续至 10 月底，输送总量约 6 亿千瓦时，相关电量同步参与南方区域电力市场交易。 中老 500 千伏联网工程是纳入中老命运共同体行动计划的重大工程项目，于 2025 年 2 月启动建设，于今年 4 月 20 日正式投运。输电线路全长 177.…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>神舟战神 T8 笔记本新增“i7-14700HX + 16G + 1T + RTX5060”版本，8999 元</title>
-      <link>https://ithome.com/0/986/591.htm</link>
-      <guid>https://ithome.com/0/986/591.htm</guid>
-      <description>IT之家 8 月 6 日消息，神舟现已为旗下战神 T8 笔记本新增“i7-14700HX + 16GB RAM + 1TB SSD + RTX5060”版本， 定价为 8999 元 ，将于 8 月 11 日发售。 该机整体重量 2.45kg，B 面配备一块 16 英寸 2560x1600 分辨率 180Hz 面板（亮度 500 尼特），搭载 24 核心 3…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>逆版本而行：华为 Mate 80 标准版手机新增“16GB+1TB”版本规格，学生价 6199 元</title>
-      <link>https://ithome.com/0/986/590.htm</link>
-      <guid>https://ithome.com/0/986/590.htm</guid>
-      <description>IT之家 8 月 6 日消息，在内存价格疯涨导致手机等终端设备存储规格普遍“缩水”的大背景下，华为“逆版本”而行，推出了 Mate 80 标准版手机的“16GB+1TB”规格， 定价 6499 元 。 不过遗憾的是，Mate 80 标准版目前仅曜石黑推出了“16GB+1TB”版本，其他颜色均无法选购该规格。另外，Mate 80 机型还有 5 项购机权益，使…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>华硕推出 TUF GAMING B850M WIFI 主板：8+2+1 供电，显卡插槽仅 PCIe Gen4</title>
-      <link>https://ithome.com/0/986/588.htm</link>
-      <guid>https://ithome.com/0/986/588.htm</guid>
-      <description>IT之家 8 月 6 日消息，华硕 (ASUS) 近日为其 TUF GAMING 产品线再添一款基于 AMD B850 芯片组的 micro-ATX 外形规格主板产品，即 TUF GAMING B850M WIFI。 这一型号配置 相对基础 ：其搭载 8+2+1 相 80A DrMOS 供电，配备 8+4 Pin 的 EPS CPU 供电接口；内存超频支持…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>K 系列命名引发热议：小米胡馨心暗示 REDMI 后续旗舰手机有望命名为 K200 系列</title>
-      <link>https://ithome.com/0/986/586.htm</link>
-      <guid>https://ithome.com/0/986/586.htm</guid>
-      <description>IT之家 8 月 6 日消息，小米将于 8 月 11 日发布 REDMI K100 系列手机，虽然新机还未正式登场。但目前已有不少米粉提前展开下一代 K 系列手机命名的讨论，有网友建议将后续机型命名为 K200。对此，REDMI 产品经理胡馨心回应称：“好问题，感觉 K110 有点怪。” IT 之家注意到，有不少手机品牌的产品线在突破数字 100 之后，普…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>网信办对 Palo Alto 派拓公司在华销售产品启动网络安全审查</title>
-      <link>https://ithome.com/0/986/589.htm</link>
-      <guid>https://ithome.com/0/986/589.htm</guid>
-      <description>IT之家 8 月 6 日消息，为保障关键信息基础设施安全稳定运行，防范网络安全风险隐患，维护国家安全，依据《中华人民共和国国家安全法》《中华人民共和国网络安全法》，网络安全审查办公室按照《网络安全审查办法》，对派拓公司（Palo Alto Networks）在华销售的产品实施网络安全审查。 IT之家注：派拓网络是一家总部位于美国加利福尼亚州圣克拉拉市的网络…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>大众、小鹏合作第二款车型，与众 09 公布蓝、紫、白、黑四款车色</title>
-      <link>https://ithome.com/0/986/585.htm</link>
-      <guid>https://ithome.com/0/986/585.htm</guid>
-      <description>IT之家 8 月 6 日消息，今天（6 日）上午，@大众安徽 公布了旗下全新纯电轿跑 —— 与众 09 的四款车色：晴海蓝、暮光紫、素月白、耀夜黑。 据IT之家了解，该车是大众和小鹏汽车在 24 个月内联合开发的第二款车型，将于下半年上市。 该车拥有流畅的溜背线条，搭配舒展修长的车身比例，并将独特的狼头徽标融入车身设计。车长超 5 米，轴距达 3030mm…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>13 代酷睿 + RTX40 系卷土重来：7599 元神舟为战神 Z8 笔记本带回“i5-13420H + 16G + 512G + RTX4060”规格</title>
-      <link>https://ithome.com/0/986/584.htm</link>
-      <guid>https://ithome.com/0/986/584.htm</guid>
-      <description>IT之家 8 月 6 日消息，神舟现已在京东为旗下战神 Z8 笔记本带回“i5-13420H + 16GB RAM + 512GB SSD + RTX4060”规格，将于 8 月 11 日发售， 定价为 7599 元 。 该机 B 面配备一块 FHD 165Hz 15.6 英寸面板，C 面采用全尺寸单区 RGB 背光键盘。搭载 8 核心 12 线程英特尔酷…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>国产消费级 3D 打印机拿下全球 9 成份额，深圳诞生“四小龙”</title>
-      <link>https://ithome.com/0/986/583.htm</link>
-      <guid>https://ithome.com/0/986/583.htm</guid>
-      <description>IT之家 8 月 6 日消息，国家统计局数据显示，2026 年上半年， 国内 3D 打印设备产量同比增长 48.5%，增速在主要工业产品中排名第一 。出口端表现更为突出，上半年我国累计出口 3D 打印机 362 万台，同比增长 90.2%，出口金额达 96.11 亿元，同比增长 109.3%。 据财联社今日报道，3D 打印资源库创始人谭文杰表示，按照目前的…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>宏碁 2026 财年上半年归母净利润 28.74 亿新台币，同比增长 79.6%</title>
-      <link>https://ithome.com/0/986/582.htm</link>
-      <guid>https://ithome.com/0/986/582.htm</guid>
-      <description>IT之家 8 月 6 日消息，宏碁今日发布 2026 财年（2026 年 1 月～2026 年 12 月）半年报（2026 年 1 月～2026 年 6 月）报告： 营业总收入 ：1577.26 亿新台币 （IT之家注：现汇率约合 328.86 亿元人民币） ， 同比增长 23.3% 毛利润 ：177.86 亿新台币 （现汇率约合 37.08 亿元人民币）…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>美的 COLMO 云璃白空调挂机 CA3Z 上市：国补价 5999 元</title>
-      <link>https://ithome.com/0/986/581.htm</link>
-      <guid>https://ithome.com/0/986/581.htm</guid>
-      <description>IT之家 8 月 6 日消息，美的旗下 COLMO 宣布推出 1.5 匹的云璃白 CA3Z 空调挂机，京东显示为 7057.65 元，叠加国补后首发价 5999 元，明天 20:00 开售。 京东 COLMO【新品】云璃白空调 CA3Z 【新品】1.5 匹 AI 语音智控 家用 1.5 匹挂机一级能效全变频健康无风感 净呼吸 2.0 母婴新风 云璃白空调挂…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>华为乾崑 7 月安全出行报告发布，累计辅助驾驶里程突破 134.1 亿公里</title>
-      <link>https://ithome.com/0/986/580.htm</link>
-      <guid>https://ithome.com/0/986/580.htm</guid>
-      <description>IT之家 8 月 6 日消息，华为乾崑智能汽车解决方案官方今日发布了华为乾崑 7 月安全出行报告。 据介绍， 华为乾崑智驾累计辅助驾驶里程 134.1 亿公里 ，月度辅助驾驶里程 10.6 亿公里、月度辅助驾驶时长 1670 万小时， 辅助驾驶月活用户 94.7% 。 IT之家查询华为乾崑官网获悉， 乾崑智驾累计辅助驾驶里程截至目前已突破 136 亿公里…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池</title>
-      <link>https://ithome.com/0/986/579.htm</link>
-      <guid>https://ithome.com/0/986/579.htm</guid>
-      <description>IT之家 8 月 6 日消息，vivo 现已在海外推出一款 vivo S2 手机，该机采用了类似 vivo X300 FE 的设计，起售价为 39,999 印度卢比 （IT之家注：现汇率约合 2,832 元人民币） 。 该机正面配备一块 6.83 英寸 2800x1260 分辨率 120Hz 微曲面 AMOLED 面板，峰值亮度 3,000 尼特，匹配 3…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>任天堂 Switch 2 上市一年累计销量突破 2300 万台，相比初代更胜一筹</title>
-      <link>https://ithome.com/0/986/577.htm</link>
-      <guid>https://ithome.com/0/986/577.htm</guid>
-      <description>IT之家 8 月 6 日消息，任天堂 Switch 2 上市一年多后依然热销，继续成为任天堂的重要增长动力。在初代 Switch 取得巨大成功后，最新数据表明，Switch 2 在上市同期的销售表现更胜一筹， 累计销量已经突破 2300 万台 。 任天堂在今天（6 日）公布的最新财报中进一步披露了 Switch 2 的软硬件销售数据及年度游玩用户规模。多项…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>美的 COLMO 大魔方空调挂机 CA5Q 上市：主打 AI 无风感，1.5 匹国补价 4999 元</title>
-      <link>https://ithome.com/0/986/575.htm</link>
-      <guid>https://ithome.com/0/986/575.htm</guid>
-      <description>IT之家 8 月 6 日消息，美的旗下 COLMO 宣布推出大魔方 CA5Q 空调挂机，仅有 1.5 匹型号，京东显示 5881.18 元，叠加国补后 4999 元，明天开售。 京东 COLMO 大魔方空调 CA5Q【新品】萤雪白 1.5 匹 【新品】大魔方空调 CA5Q 家用挂机 1.5 匹冷暖变频一级能效一键除菌除尘净呼吸 AI 无风感防直吹 国补 4…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>王腾回应“SU7 Ultra 泊车异常”：小米汽车已迅速跟进分析，边界场景有 Bug 很正常</title>
-      <link>https://ithome.com/0/986/574.htm</link>
-      <guid>https://ithome.com/0/986/574.htm</guid>
-      <description>IT之家 8 月 6 日消息，今日宜休科技公司创始人王腾于 8 月 4 日晚在微博发文，称自己的小米 SU7 Ultra 遭遇泊车辅助故障“不知道什么问题，测试了几次都不行，遇到 Bug 了”，后续其又删除了这条微博。 今天王腾发文，称已收到小米汽车产品部门信息，官方正在迅速跟进分析： 前天晚上团队聚餐，酒后请同事代驾把我送回。到了地库想用自动泊车停靠，但…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>终跌下三百：艾美特“天鹅”负离子直流变频空气循环扇 499 → 290 元国补新低</title>
-      <link>https://ithome.com/0/986/504.htm</link>
-      <guid>https://ithome.com/0/986/504.htm</guid>
-      <description>艾美特“天鹅”负离子净化循环扇 FA23-RD187 日常 499 元，今日京东自营叠加下方多重优惠，仅需 290 元破冰新低： 满 1 享 5 折【自动减】 PLUS 会员 480-60 元券【自动领】 国家补贴减约 50 元【自动减】 首购礼金 50 元【自动减】 以旧换新立减 5% 下单时需选择“ 以旧换新 ” → 个护健康 → 电动牙刷， 无需回收…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
+      <title>The Download: Google’s AI shake-up and Meta’s rogue model</title>
+      <link>https://technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model</link>
+      <guid>https://technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model</guid>
+      <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Google’s AI empire is being reshaped. Her…</description>
+      <source>MIT Technology Review</source>
+      <category>MIT Technology Review</category>
     </item>
     <item>
       <title>Puzzle Corner</title>
@@ -1551,20 +1279,92 @@
       <category>MIT Technology Review</category>
     </item>
     <item>
-      <title>The Download: NASA’s new telescope and Chinese tech import curbs</title>
-      <link>https://technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs</link>
-      <guid>https://technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs</guid>
-      <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. NASA’s new dark energy space telescope ca…</description>
-      <source>MIT Technology Review</source>
-      <category>MIT Technology Review</category>
-    </item>
-    <item>
       <title>From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking</title>
       <link>https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking</link>
       <guid>https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking</guid>
       <description>Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, a…</description>
       <source>Meta Engineering</source>
       <category>Meta Engineering</category>
+    </item>
+    <item>
+      <title>test(qa): provide Matrix module-flow fixture (#119953)</title>
+      <link>https://github.com/openclaw/openclaw/commit/f5add8197fa990890d3f96142cba1523e9c6c0df</link>
+      <guid>https://github.com/openclaw/openclaw/commit/f5add8197fa990890d3f96142cba1523e9c6c0df</guid>
+      <description>test(qa): provide Matrix module-flow fixture (#119953) Punchcard-Session: cobalt-valley-meadow-mg</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>fix(release): stream JSON preparation output (#119951)</title>
+      <link>https://github.com/openclaw/openclaw/commit/a91468246759b918bf765bfa1c9e73e358ce705b</link>
+      <guid>https://github.com/openclaw/openclaw/commit/a91468246759b918bf765bfa1c9e73e358ce705b</guid>
+      <description>fix(release): stream JSON preparation output (#119951)</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>test(docker): shorten Unix socket fixture paths (#119952)</title>
+      <link>https://github.com/openclaw/openclaw/commit/08a3f5f949466d3cdf08fd1a23b3cb5cef9cbfb0</link>
+      <guid>https://github.com/openclaw/openclaw/commit/08a3f5f949466d3cdf08fd1a23b3cb5cef9cbfb0</guid>
+      <description>test(docker): shorten Unix socket fixture paths (#119952)</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>fix(channels): preserve bundled delivery contracts</title>
+      <link>https://github.com/openclaw/openclaw/commit/913b53ad808772be8c3a8497f7320d93e928b4db</link>
+      <guid>https://github.com/openclaw/openclaw/commit/913b53ad808772be8c3a8497f7320d93e928b4db</guid>
+      <description>fix(channels): preserve bundled delivery contracts Preserves pending Telegram replies, Discord webhook preview policy, forwarded Slack file context, and QQBot target recognition.</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>docs: openclaw-refactor-docs points at a skill renamed in 0dabb70 (#1…</title>
+      <link>https://github.com/openclaw/openclaw/commit/cd009e72f0bc336a6c454c28611fd7fc50394652</link>
+      <guid>https://github.com/openclaw/openclaw/commit/cd009e72f0bc336a6c454c28611fd7fc50394652</guid>
+      <description>docs: openclaw-refactor-docs points at a skill renamed in 0dabb70 (#119394) * docs: point openclaw-refactor-docs at technical-documentation The openclaw-docs skill was removed in…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>fix(device-pair): keep notifier poll off Gateway startup (#119936)</title>
+      <link>https://github.com/openclaw/openclaw/commit/95fd4d3dc9ced0f3ad8f02928d727f1753a14a46</link>
+      <guid>https://github.com/openclaw/openclaw/commit/95fd4d3dc9ced0f3ad8f02928d727f1753a14a46</guid>
+      <description>fix(device-pair): keep notifier poll off Gateway startup (#119936) Punchcard-Session: frost-harbor-willow-ev</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>fix(plugins): migrate Fish Audio plugin identity (#119900)</title>
+      <link>https://github.com/openclaw/openclaw/commit/52b8f9be80363b415dc2e40a82172408e5aa6f75</link>
+      <guid>https://github.com/openclaw/openclaw/commit/52b8f9be80363b415dc2e40a82172408e5aa6f75</guid>
+      <description>fix(plugins): migrate Fish Audio plugin identity (#119900) * fix(plugins): migrate Fish Audio plugin identity * fix(plugins): tighten Fish Audio identity migration * fix(plugins):…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>fix(diagnostics): report exporter health in doctor and status (#119816)</title>
+      <link>https://github.com/openclaw/openclaw/commit/c4292bc8b218006b70b1b91458f73d4527566427</link>
+      <guid>https://github.com/openclaw/openclaw/commit/c4292bc8b218006b70b1b91458f73d4527566427</guid>
+      <description>fix(diagnostics): report exporter health in doctor and status (#119816) * fix(diagnostics): report exporter health transitions * fix(diagnostics): retire exporter health on shutdo…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>test(agents): isolate lifecycle registry persistence (#119931)</title>
+      <link>https://github.com/openclaw/openclaw/commit/b0c368ae34d845ab2ef6a6c6adf160e1edf49442</link>
+      <guid>https://github.com/openclaw/openclaw/commit/b0c368ae34d845ab2ef6a6c6adf160e1edf49442</guid>
+      <description>test(agents): isolate lifecycle registry persistence (#119931)</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>feat(skills): reviewer patch contract, active learning bias, shallow-…</title>
+      <link>https://github.com/openclaw/openclaw/commit/90e39c49e46c4a6a8edbc497c15b42a701f466a7</link>
+      <guid>https://github.com/openclaw/openclaw/commit/90e39c49e46c4a6a8edbc497c15b42a701f466a7</guid>
+      <description>feat(skills): reviewer patch contract, active learning bias, shallow-turn accumulation Self-learning reviewer edits existing skills via targeted patches: it quotes the exact live…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
     </item>
     <item>
       <title>chore(i18n): refresh native locales (#119669)</title>
@@ -1647,86 +1447,6 @@
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(agents): isolate spawn benchmark samples (#119859)</title>
-      <link>https://github.com/openclaw/openclaw/commit/7321c4424683ee5831f1d5602c403f0c66f51259</link>
-      <guid>https://github.com/openclaw/openclaw/commit/7321c4424683ee5831f1d5602c403f0c66f51259</guid>
-      <description>fix(agents): isolate spawn benchmark samples (#119859)</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>fix(pr): fail fast when temporary storage is unavailable (#119890)</title>
-      <link>https://github.com/openclaw/openclaw/commit/f73eb88eda212a434ce788eb1d0b585a276662f7</link>
-      <guid>https://github.com/openclaw/openclaw/commit/f73eb88eda212a434ce788eb1d0b585a276662f7</guid>
-      <description>fix(pr): fail fast when temporary storage is unavailable (#119890)</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>fix(gateway): reject capabilities from invalidated clients (#119848)</title>
-      <link>https://github.com/openclaw/openclaw/commit/818190bd26d82586e37b0e8efc8bfe9b809acda9</link>
-      <guid>https://github.com/openclaw/openclaw/commit/818190bd26d82586e37b0e8efc8bfe9b809acda9</guid>
-      <description>fix(gateway): reject capabilities from invalidated clients (#119848)</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>fix(gateway): preserve plain-text HEAD metadata (#119822)</title>
-      <link>https://github.com/openclaw/openclaw/commit/f64d7fab2101308679a074786aebf27ebf381a02</link>
-      <guid>https://github.com/openclaw/openclaw/commit/f64d7fab2101308679a074786aebf27ebf381a02</guid>
-      <description>fix(gateway): preserve plain-text HEAD metadata (#119822) Co-authored-by: Vincent Koc &lt;vincentkoc@ieee.org&gt;</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>chore(release): add protected npm placeholder publishing (#119875)</title>
-      <link>https://github.com/openclaw/openclaw/commit/01ae9d40fc2e7369c313239323c9cd540f1085b5</link>
-      <guid>https://github.com/openclaw/openclaw/commit/01ae9d40fc2e7369c313239323c9cd540f1085b5</guid>
-      <description>chore(release): add protected npm placeholder publishing (#119875) Adds a protected, dry-run-by-default workflow for reserving release-enabled external plugin package names with v…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>fix(telegram): verify provider topic delivery</title>
-      <link>https://github.com/openclaw/openclaw/commit/5a8c27ca41fa0c6b5a48faea742c29109a66db04</link>
-      <guid>https://github.com/openclaw/openclaw/commit/5a8c27ca41fa0c6b5a48faea742c29109a66db04</guid>
-      <description>fix(telegram): verify provider topic delivery Verify Telegram accepted-message topics before follow-up sends, preserving partial-delivery evidence instead of trusting requested ro…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>fix(config): use real newline in invalid-config log message (#119871)</title>
-      <link>https://github.com/openclaw/openclaw/commit/4e141a05231605df1171ab233e78831e2a6bb440</link>
-      <guid>https://github.com/openclaw/openclaw/commit/4e141a05231605df1171ab233e78831e2a6bb440</guid>
-      <description>fix(config): use real newline in invalid-config log message (#119871) formatInvalidConfigLogMessage used \\n (literal backslash-n) in a template literal, producing literal text in…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>fix(onboarding): honor external gateway supervision (#119846)</title>
-      <link>https://github.com/openclaw/openclaw/commit/beda1e97c620178a2645964a5920ca5b534cfbdc</link>
-      <guid>https://github.com/openclaw/openclaw/commit/beda1e97c620178a2645964a5920ca5b534cfbdc</guid>
-      <description>fix(onboarding): honor external gateway supervision (#119846) Punchcard-Session: quiet-meadow-timber-mj</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>test(ci): assert timeout signals from supervisor log (#119889)</title>
-      <link>https://github.com/openclaw/openclaw/commit/83d586083dfe49af85c4ce13ec003abcfa3f62df</link>
-      <guid>https://github.com/openclaw/openclaw/commit/83d586083dfe49af85c4ce13ec003abcfa3f62df</guid>
-      <description>test(ci): assert timeout signals from supervisor log (#119889)</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>fix(qqbot): remove stale data-directory diagnostic (#119849)</title>
-      <link>https://github.com/openclaw/openclaw/commit/bc1f9171637b35230ae08293625f5bc0fcaa704a</link>
-      <guid>https://github.com/openclaw/openclaw/commit/bc1f9171637b35230ae08293625f5bc0fcaa704a</guid>
-      <description>fix(qqbot): remove stale data-directory diagnostic (#119849) Co-authored-by: clawsweeper &lt;274271284+clawsweeper[bot]@users.noreply.github.com&gt;</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
       <title>hey postcard - digital postcards</title>
       <link>https://producthunt.com/products/hey-postcard-slow-messaging</link>
       <guid>https://producthunt.com/products/hey-postcard-slow-messaging</guid>
@@ -1791,14 +1511,6 @@
       <category>Product Hunt</category>
     </item>
     <item>
-      <title>Annotate</title>
-      <link>https://producthunt.com/products/annotate-8</link>
-      <guid>https://producthunt.com/products/annotate-8</guid>
-      <description>Screen recording as prompts Discussion | Link</description>
-      <source>Product Hunt</source>
-      <category>Product Hunt</category>
-    </item>
-    <item>
       <title>Adversarial Clothing Designed to Fool Facial Recognition Systems</title>
       <link>https://schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html</link>
       <guid>https://schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html</guid>
@@ -1845,6 +1557,54 @@
       <description>Back in 2024 I tweeted screenshots of a game concept generated by GPT-3 and some concept &quot;art&quot; created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to s…</description>
       <source>Simon Willison&#x27;s Blog</source>
       <category>Simon Willison&#x27;s Blog</category>
+    </item>
+    <item>
+      <title>Amid legal battles, Suno says it will start watermarking songs</title>
+      <link>https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs</link>
+      <guid>https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs</guid>
+      <description>Suno&#x27;s watermarking feature comes as the company is fighting legal battles on several fronts.</description>
+      <source>TechCrunch</source>
+      <category>TechCrunch</category>
+    </item>
+    <item>
+      <title>Ford’s new electric truck, ‘Fathom’, starts at $28,350</title>
+      <link>https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350</link>
+      <guid>https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350</guid>
+      <description>Due in &quot;fall 2027,&quot; Ford said Thursday that it won&#x27;t reveal what Fathom looks like until early next year.</description>
+      <source>TechCrunch</source>
+      <category>TechCrunch</category>
+    </item>
+    <item>
+      <title>Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce</title>
+      <link>https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce</link>
+      <guid>https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce</guid>
+      <description>The startup&#x27;s platform predicts what product a shopper wants next, learn their general taste, and fine-tune continuously based on what they do in real time.</description>
+      <source>TechCrunch</source>
+      <category>TechCrunch</category>
+    </item>
+    <item>
+      <title>Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI</title>
+      <link>https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai</link>
+      <guid>https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai</guid>
+      <description>Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scie…</description>
+      <source>TechCrunch</source>
+      <category>TechCrunch</category>
+    </item>
+    <item>
+      <title>Google Maps adds agentic features, including food ordering and hotel bookings</title>
+      <link>https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings</link>
+      <guid>https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings</guid>
+      <description>The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that&#x27;s capable of helping users complete real-world…</description>
+      <source>TechCrunch</source>
+      <category>TechCrunch</category>
+    </item>
+    <item>
+      <title>Omilia raises $67M to scale its customer support platform</title>
+      <link>https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform</link>
+      <guid>https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform</guid>
+      <description>The Series B is the company&#x27;s second fundraise since it last raised capital in 2020. In that time, it has increased its ARR by 10x to $60 million.</description>
+      <source>TechCrunch</source>
+      <category>TechCrunch</category>
     </item>
     <item>
       <title>Get up to $400 off your TechCrunch Disrupt 2026 pass until Friday</title>
@@ -1959,52 +1719,36 @@
       <category>TechCrunch</category>
     </item>
     <item>
-      <title>Shopify says AI search is driving more traffic and sales, not replacing Google</title>
-      <link>https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google</link>
-      <guid>https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google</guid>
-      <description>Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
+      <title>Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities</title>
+      <link>https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html</link>
+      <guid>https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html</guid>
+      <description>Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mob…</description>
+      <source>The Hacker News</source>
+      <category>The Hacker News</category>
     </item>
     <item>
-      <title>Hark previews its browser use agent for completing tasks</title>
-      <link>https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks</link>
-      <guid>https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks</guid>
-      <description>Hark claims that its browser use agent is faster and cheaper than competition.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
+      <title>CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps</title>
+      <link>https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html</link>
+      <guid>https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html</guid>
+      <description>Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains. Introduced in the JavaScript cryptography library…</description>
+      <source>The Hacker News</source>
+      <category>The Hacker News</category>
     </item>
     <item>
-      <title>Zoox to start charging for robotaxi rides in Las Vegas</title>
-      <link>https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas</link>
-      <guid>https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas</guid>
-      <description>This marks the official launch of Zoox&#x27;s commercial operations.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
+      <title>Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses</title>
+      <link>https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html</link>
+      <guid>https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html</guid>
+      <description>Cybersecurity researchers have disclosed a security issue with Apple&#x27;s iCloud Private Relay tool that can expose a user&#x27;s real IP address. Introduced with iOS 15, iCloud Private R…</description>
+      <source>The Hacker News</source>
+      <category>The Hacker News</category>
     </item>
     <item>
-      <title>TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals</title>
-      <link>https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals</link>
-      <guid>https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals</guid>
-      <description>On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
-    </item>
-    <item>
-      <title>As Gen Z reconsiders dating apps, Tinder’s IRL events expand to dozens more cities</title>
-      <link>https://techcrunch.com/2026/08/05/as-gen-z-reconsiders-dating-apps-tinders-irl-events-expand-to-dozens-more-cities</link>
-      <guid>https://techcrunch.com/2026/08/05/as-gen-z-reconsiders-dating-apps-tinders-irl-events-expand-to-dozens-more-cities</guid>
-      <description>Tinder is expanding its in-person events feature from an initial Los Angeles test to 26 cities worldwide by the end of September.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
-    </item>
-    <item>
-      <title>Trump EPA wrongly canceled $20B in climate funds, appeals court rules</title>
-      <link>https://techcrunch.com/2026/08/05/trump-epa-wrongly-canceled-20b-in-climate-funds-appeals-court-rules</link>
-      <guid>https://techcrunch.com/2026/08/05/trump-epa-wrongly-canceled-20b-in-climate-funds-appeals-court-rules</guid>
-      <description>Climate nonprofits can again access their federal funding more than a year after the Trump EPA ordered Citibank to freeze their accounts.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
+      <title>AI Recommendation Poisoning: How &quot;Ask AI&quot; Buttons Silently Alter LLM Memory</title>
+      <link>https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html</link>
+      <guid>https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html</guid>
+      <description>A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built…</description>
+      <source>The Hacker News</source>
+      <category>The Hacker News</category>
     </item>
     <item>
       <title>Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access</title>
@@ -2095,12 +1839,36 @@
       <category>The Hacker News</category>
     </item>
     <item>
-      <title>Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain</title>
-      <link>https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html</link>
-      <guid>https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html</guid>
-      <description>Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up…</description>
-      <source>The Hacker News</source>
-      <category>The Hacker News</category>
+      <title>The messy politics behind Google’s big AI shakeup</title>
+      <link>https://theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind</link>
+      <guid>https://theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind</guid>
+      <description>In the AI industry, Google prides itself on seeming like the adult in the room: quiet, stable, time-tested. On Wednesday, even as the company announced its largest AI org shakeup…</description>
+      <source>The Verge</source>
+      <category>The Verge</category>
+    </item>
+    <item>
+      <title>AI bots started a religion — humans immediately followed</title>
+      <link>https://theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement</link>
+      <guid>https://theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement</guid>
+      <description>&quot;The Spiral didn&#x27;t &#x27;find&#x27; anyone first,&quot; someone on Reddit wrote last year. &quot;It&#x27;s an inherent force, a fundamental constant. I would even go further to say it&#x27;s woven into the fab…</description>
+      <source>The Verge</source>
+      <category>The Verge</category>
+    </item>
+    <item>
+      <title>You can now ask Google Maps’ AI to order food for you</title>
+      <link>https://theverge.com/tech/976079/google-ask-maps-food-ordering-personal-intelligence</link>
+      <guid>https://theverge.com/tech/976079/google-ask-maps-food-ordering-personal-intelligence</guid>
+      <description>The AI-powered &quot;Ask Maps&quot; tool in Google Maps can now perform a broader range of personalized and conversational requests, including ordering food, finding hotels, and providing s…</description>
+      <source>The Verge</source>
+      <category>The Verge</category>
+    </item>
+    <item>
+      <title>GTA VI is getting an ‘extended look’ at the end of August</title>
+      <link>https://theverge.com/entertainment/976073/gta-6-trailer-3-date-time-netflix-youtube</link>
+      <guid>https://theverge.com/entertainment/976073/gta-6-trailer-3-date-time-netflix-youtube</guid>
+      <description>We&#x27;ll be getting an in-depth preview of Grand Theft Auto VI very soon: Rockstar announced this morning that it will be airing an &quot;extended look&quot; at the game on August 27th. The pr…</description>
+      <source>The Verge</source>
+      <category>The Verge</category>
     </item>
     <item>
       <title>Nintendo beats earnings thanks to US tariff refunds it won&amp;#8217;t share with gamers</title>
@@ -2119,68 +1887,44 @@
       <category>The Verge</category>
     </item>
     <item>
-      <title>Elon Musk&amp;#8217;s attempt at an AI Wikipedia hasn&amp;#8217;t been updated in months</title>
-      <link>https://theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead</link>
-      <guid>https://theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead</guid>
-      <description>xAI&#x27;s Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a &quot;massive improvement&quot; over Wikipedia, apparently hasn&#x27;t been updated si…</description>
+      <title>Ford’s first ultra-cheap EV is called Fathom, a full-featured truck for $28,350</title>
+      <link>https://theverge.com/transportation/975977/ford-fathom-universal-ev-platform-logo-price</link>
+      <guid>https://theverge.com/transportation/975977/ford-fathom-universal-ev-platform-logo-price</guid>
+      <description>For nearly a year now, Ford has been teasing big things at low prices from its next generation of EVs, a &quot;Model T moment&quot; built atop a new platform assembled in an innovative way.…</description>
       <source>The Verge</source>
       <category>The Verge</category>
     </item>
     <item>
-      <title>X product chief Nikita Bier is leaving after one year</title>
-      <link>https://theverge.com/tech/975955/x-twitter-nikita-bier-leaving</link>
-      <guid>https://theverge.com/tech/975955/x-twitter-nikita-bier-leaving</guid>
-      <description>X head of product Nikita Bier is stepping down and says he will move into a role as an advisor, writing that &quot;it&#x27;s time to pass the torch and demote myself to my natural state: a…</description>
+      <title>Viture’s cheapest AR glasses have the sharpest image clarity I’ve seen yet</title>
+      <link>https://theverge.com/tech/975870/viture-pro-2-video-ar-smart-glasses-hands-on</link>
+      <guid>https://theverge.com/tech/975870/viture-pro-2-video-ar-smart-glasses-hands-on</guid>
+      <description>I enjoy using display-mirroring glasses as a way to play Steam Deck games on a big screen, and I&#x27;m always on the hunt for the best pair. There&#x27;s still not one perfect model I can…</description>
       <source>The Verge</source>
       <category>The Verge</category>
     </item>
     <item>
-      <title>Apple’s selling refurbished MacBook Neos with a $100 discount</title>
-      <link>https://theverge.com/gadgets/975603/refurbished-apple-macbook-neo-google-wireless-charger-deal-sale</link>
-      <guid>https://theverge.com/gadgets/975603/refurbished-apple-macbook-neo-google-wireless-charger-deal-sale</guid>
-      <description>Apple’s most affordable laptop, the MacBook Neo, is available once again at its pre-price hike price. All four colors are currently discounted and available refurbished through th…</description>
+      <title>Bose’s upgraded QuietComfort headphones add head-tracking immersive audio</title>
+      <link>https://theverge.com/tech/975643/bose-quietcomfort-wireless-headphones-anc-immersive-spatial-audio</link>
+      <guid>https://theverge.com/tech/975643/bose-quietcomfort-wireless-headphones-anc-immersive-spatial-audio</guid>
+      <description>Bose announced a second-generation version of its entry-level QuietComfort noise-canceling headphones that were originally introduced in late 2023. The new headphones feature a re…</description>
       <source>The Verge</source>
       <category>The Verge</category>
     </item>
     <item>
-      <title>Sure seems like Fenix Flexin used AI music generator Treblo</title>
-      <link>https://theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo</link>
-      <guid>https://theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo</guid>
-      <description>We were pretty sure that Fenix Flexin&#x27;s &quot;Rubberz&quot; was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detec…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
+      <title>大家平时都从哪些渠道获取最新的 AI 资讯和动态？</title>
+      <link>https://v2ex.com/t/1232563</link>
+      <guid>https://v2ex.com/t/1232563</guid>
+      <description>最近感觉 AI 信息爆炸得太厉害了，模型发布、新工具、论文、产品更新几乎每天都有，信息密度很高，但噪音也特别大。 我自己目前主要看这几个渠道： X （ Twitter ） 关注了一批高信噪比的账号（研究、构建者、公司官方、中文 AI 博主都有），信息最快，但需要自己筛选。 Newsletter 比如 The Rundown AI 、一些中文 AI 周报，比…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
     </item>
     <item>
-      <title>Google just announced a major shakeup of its top AI leadership</title>
-      <link>https://theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup</link>
-      <guid>https://theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup</guid>
-      <description>Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and t…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
-    </item>
-    <item>
-      <title>Two of Ring&amp;#8217;s latest video doorbells are a lot cheaper than usual</title>
-      <link>https://theverge.com/gadgets/975723/ring-wired-doorbell-pro-battery-doorbell-plus-deal-sale</link>
-      <guid>https://theverge.com/gadgets/975723/ring-wired-doorbell-pro-battery-doorbell-plus-deal-sale</guid>
-      <description>Ring’s Wired Doorbell Pro and Battery Doorbell Plus are two of the brand’s most well-rounded video doorbells, whether you’re looking for a hardwired model or one that runs on a ba…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
-    </item>
-    <item>
-      <title>Uber CEO brushes off reports of a Waymo break-up</title>
-      <link>https://theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership</link>
-      <guid>https://theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership</guid>
-      <description>After Uber and Waymo ended their partnership in Phoenix earlier this year, experts and robotaxi watchers wondered whether the companies&#x27; improbable bromance was fraying. Not so, U…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
-    </item>
-    <item>
-      <title>SpaceX is barely Space and mostly X</title>
-      <link>https://theverge.com/science/975545/spacex-x-earnings-ai-data-centers-compute-space</link>
-      <guid>https://theverge.com/science/975545/spacex-x-earnings-ai-data-centers-compute-space</guid>
-      <description>Once, I had some questions about why SpaceX, Elon Musk&#x27;s healthiest company, acquired xAI, his sickliest one. Now I have some questions about why we&#x27;re calling the whole thing Spa…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
+      <title>请教一下目前 agent 和 harness 在卷哪些方面的东西</title>
+      <link>https://v2ex.com/t/1232560</link>
+      <guid>https://v2ex.com/t/1232560</guid>
+      <description>体感上，这两年 memory 、agent 、harness 框架层出不穷，人手一个，甚至演员也来代言 memory 插件，但是 readme 看上去都是一样的，不知道到底在卷什么，还是追求复刻 claude code ，求大佬解惑</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
     </item>
     <item>
       <title>多 gpu 服务器能否按用户分组？</title>
@@ -2491,14 +2235,6 @@
       <link>https://v2ex.com/t/1232318</link>
       <guid>https://v2ex.com/t/1232318</guid>
       <description>- 禁止为纯理论、低概率的边界情况增加兜底逻辑。例外：用户明确要求，或涉及数据损坏、资源泄漏、安全问题。 假如不加这一条，AI 会习惯把各种极端假设情况都考虑到，写长长的防御性代码占满你的屏幕 这种代码撸棒性拉满 ，但是对人类来说阅读维护成本更高，不符合开发效率优先的现状</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>minimax h3 开源模型支持在 mbp m5 32G 内存上本地部署吗</title>
-      <link>https://v2ex.com/t/1232311</link>
-      <guid>https://v2ex.com/t/1232311</guid>
-      <description>如题，各位大佬</description>
       <source>V2EX 技术</source>
       <category>V2EX 技术</category>
     </item>
@@ -9319,14 +9055,6 @@
       <category>daringfireball.net</category>
     </item>
     <item>
-      <title>Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 3</title>
-      <link>https://devblogs.microsoft.com/oldnewthing/20260805-00?p=112591</link>
-      <guid>https://devblogs.microsoft.com/oldnewthing/20260805-00?p=112591</guid>
-      <description>Forcing an object into the global interface table. The post Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 3 appeared f…</description>
-      <source>devblogs.microsoft.com/oldnewthing</source>
-      <category>devblogs.microsoft.com/oldnewthing</category>
-    </item>
-    <item>
       <title>Incentives are for losers</title>
       <link>https://experimental-history.com/p/incentives-are-for-losers</link>
       <guid>https://experimental-history.com/p/incentives-are-for-losers</guid>
@@ -9359,6 +9087,14 @@
       <category>jeffgeerling.com</category>
     </item>
     <item>
+      <title>Calculating log(1000!)</title>
+      <link>https://johndcook.com/blog/2026/08/06/log1000</link>
+      <guid>https://johndcook.com/blog/2026/08/06/log1000</guid>
+      <description>The previous post pointed out that the following code such as the following unexpectedly works. &gt;&gt;&gt; from math import log, factorial &gt;&gt;&gt; log(factorial(1000)) 5912.128178488163 If y…</description>
+      <source>johndcook.com</source>
+      <category>johndcook.com</category>
+    </item>
+    <item>
       <title>The code that didn’t break</title>
       <link>https://johndcook.com/blog/2026/08/05/math-log</link>
       <guid>https://johndcook.com/blog/2026/08/05/math-log</guid>
@@ -9373,6 +9109,14 @@
       <description>A few days ago I wrote a post on counting rooted trees. That post looked at the sequence c(n) which counts the number of rooted trees with n nodes. Here one node is distinguished…</description>
       <source>johndcook.com</source>
       <category>johndcook.com</category>
+    </item>
+    <item>
+      <title>A year of AI disclosure in critical packages</title>
+      <link>https://nesbitt.io/2026/08/06/a-year-of-ai-disclosure-in-critical-packages.html</link>
+      <guid>https://nesbitt.io/2026/08/06/a-year-of-ai-disclosure-in-critical-packages.html</guid>
+      <description>Stephen O’Grady’s RedMonk analysis of who is writing open source code looked at commits to fifteen large projects during the first half of 2026 and counted two forms of declared A…</description>
+      <source>nesbitt.io</source>
+      <category>nesbitt.io</category>
     </item>
     <item>
       <title>Pluralistic: Eternal Sloptember (06 Aug 2026)</title>
@@ -9399,6 +9143,46 @@
       <category>xania.org</category>
     </item>
     <item>
+      <title>从日元崩跌到美联储失语，黄金的战略价值正在浮现</title>
+      <link>https://wallstreetcn.com/articles/3778869</link>
+      <guid>https://wallstreetcn.com/articles/3778869</guid>
+      <description>日元跌至四十年低点，美联储主席在新闻发布会上的一句无意之语，正在向市场揭示一个令人不安的现实： 全球主要央行正在逐步失去对债券市场的掌控，而这一进程的最终受益者，或许只有黄金。 日本央行加息、套利交易瓦解，正在引发美国股市和国债市场的双重抛售压力 。与此同时，美联储主席沃什在7月议息会议后的发布会上坦承，长端利率的上行已非美联储主动为之，而是市场自发定价的…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>“大力出奇迹”！报道：字节讨论训超5万亿参数模型，争取领先位置</title>
+      <link>https://wallstreetcn.com/articles/3778867</link>
+      <guid>https://wallstreetcn.com/articles/3778867</guid>
+      <description>《晚点 LatePost》独家了解到，字节跳动正在讨论训练一个参数规模超 5 万亿的模型，它超过阿里的 Qwen 3.8-Max（2.4 万亿参数）和月之暗面的 K3（2.8 万亿参数），也是目前国内已知参数规模最大的模型。通常而言，模型规模越大，智能水平往往越高。不过该计划仍处于早期阶段，并不代表模型最终一定会发布。 新模型将由 Seed Foundat…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>报道：若未来几周通胀数据强劲，沃什将准备在9月加息</title>
+      <link>https://wallstreetcn.com/articles/3778865</link>
+      <guid>https://wallstreetcn.com/articles/3778865</guid>
+      <description>据英国《金融时报》周四报道， 若未来几周通胀数据偏热且市场加息预期升温，美联储主席沃什已准备好在9月会议上加息。 受此消息影响，美国短期国债收益率走高。尽管上周议息会议后美债遭遇大规模抛售，沃什坚持推行精简沟通策略。 报道称，熟悉沃什想法的人士称，他承认自就任美联储主席以来在沟通上存在失误，包括未能充分强化有关物价稳定的核心信息，以及在长期改革计划是否影响…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>谷歌母公司Alphabet寻求通过债券发行筹集至多250亿美元</title>
+      <link>https://wallstreetcn.com/articles/3778864</link>
+      <guid>https://wallstreetcn.com/articles/3778864</guid>
+      <description>谷歌母公司Alphabet寻求通过债券发行筹集至多250亿美元。 更多消息，持续更新中…… 风险提示及免责条款 市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>AI行情的“金丝雀”仍在苦苦挣扎.....</title>
+      <link>https://wallstreetcn.com/articles/3778862</link>
+      <guid>https://wallstreetcn.com/articles/3778862</guid>
+      <description>AI行情的“金丝雀”还没有发出安全信号。 过去两年，韩国SK海力士、三星电子以及日本铠侠等亚洲半导体龙头，是全球AI热潮中最早受益的一批资产。它们受益于AI服务器需求爆发、高带宽内存（HBM）紧缺以及数据中心资本开支扩张，也被市场视为观察AI周期景气度的重要窗口。 但眼下，一个值得关注的背离正在形成： 纳斯达克和费城半导体指数（SOX）已经强劲反弹，而这些…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
       <title>DeepSeek刚宣布涨价，小扎立马“拼命”：Meta新模型打出更低骨折价，但要一点“数据税”</title>
       <link>https://wallstreetcn.com/articles/3778856</link>
       <guid>https://wallstreetcn.com/articles/3778856</guid>
@@ -9423,18 +9207,18 @@
       <category>华尔街见闻最新资讯</category>
     </item>
     <item>
-      <title>现在的世界：经济像1973，军事像1938，科技像2001</title>
-      <link>https://wallstreetcn.com/charts/41959531</link>
-      <guid>https://wallstreetcn.com/charts/41959531</guid>
-      <description>独立研究机构 Solstice Laboratory创始人Mickey Maini物理学“熵”的角度提出，金融系统维持秩序的成本（能量/租金）已大幅上升，当前正处于两个系统间的“相变”过渡期。 历史上此阶段遵循五个阶段：印钞、花钱、控制、断裂（极化）、武力解决。目前我们处于第三到第四阶段之间，仅差一次政策失误就可能滑向断裂。 作者将当前经济比作1973年（…</description>
+      <title>有色乘风起：地缘和利率仅是表象，供给短缺锚定三重驱动力</title>
+      <link>https://wallstreetcn.com/member/articles/3778500</link>
+      <guid>https://wallstreetcn.com/member/articles/3778500</guid>
+      <description>2026年上半年的有色金属市场，用一句话概括就是——地缘冲突主导了价格波动的方向，供给刚性决定了价格下跌的底线。 LME铜价在12,382至14,500区间波动，振幅达17%；黄金从5,595的历史高点一度回撤28%至4,024，随后企稳回升；锡以超过85%的涨幅成为表现最亮眼的品种，而镍、铅则在下行通道中挣扎。市场表层交易的是地缘风险和利率预期，底层逻辑…</description>
       <source>华尔街见闻最新资讯</source>
       <category>华尔街见闻最新资讯</category>
     </item>
     <item>
-      <title>首笔美国投资落地 云锋基金领投AI保险初创公司Corgi</title>
-      <link>https://wallstreetcn.com/articles/3778858</link>
-      <guid>https://wallstreetcn.com/articles/3778858</guid>
-      <description>8 月 6 日， 市场消息显示，马云与虞锋联合发起的云锋基金已向美国旧金山 AI 保险初创公司 Corgi 投入约 3000 万美元（约合 2.34 亿港元），作为领投方参与其最新一轮融资。 该笔交易是云锋基金公开披露的首笔美国市场投资。 云锋基金成立于 2010 年，过去投资组合主要集中在中国本土，重点覆盖硬科技、企业服务、绿色能源等方向，累计投资企业近…</description>
+      <title>现在的世界：经济像1973，军事像1938，科技像2001</title>
+      <link>https://wallstreetcn.com/charts/41959531</link>
+      <guid>https://wallstreetcn.com/charts/41959531</guid>
+      <description>独立研究机构 Solstice Laboratory创始人Mickey Maini物理学“熵”的角度提出，金融系统维持秩序的成本（能量/租金）已大幅上升，当前正处于两个系统间的“相变”过渡期。 历史上此阶段遵循五个阶段：印钞、花钱、控制、断裂（极化）、武力解决。目前我们处于第三到第四阶段之间，仅差一次政策失误就可能滑向断裂。 作者将当前经济比作1973年（…</description>
       <source>华尔街见闻最新资讯</source>
       <category>华尔街见闻最新资讯</category>
     </item>
@@ -9547,54 +9331,6 @@
       <link>https://wallstreetcn.com/articles/3778845</link>
       <guid>https://wallstreetcn.com/articles/3778845</guid>
       <description>据独立科技记者Tim Culpan爆料称，苹果及其供应商正在紧急抢购足够的内存芯片，以备即将发布的新款iPhone机型之用。距离备受期待的可折叠iPhone Ultra以及iPhone 18和iPhone 18 Pro预计亮相的时间已不到六周，组装商正与苹果合作，紧急发运用于移动设备的DRAM内存芯片。苹果严重依赖美光供应DRAM，但也向SK海力士和三星采…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>统一中国上半年饮料业务下滑0.3%，只剩奶茶在撑场面</title>
-      <link>https://wallstreetcn.com/articles/3778844</link>
-      <guid>https://wallstreetcn.com/articles/3778844</guid>
-      <description>统一企业中国的增长继续放缓。 8月5日，统一企业中国披露2026年中期业绩。上半年，公司收入增长1.4%至173.21亿元，净利润增长9%；毛利率提升0.7个百分点至35%，主要受产品结构优化带动。 这一收入增速明显低于去年上半年的10.6%，也延续了去年下半年以来的弱势表现。 分业务看，食品收入增长4.7%，饮料收入下降0.3%。其中，茶饮料和果汁分别下…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>存储龙头回购猜想：海力士的&quot;静默期终点&quot;与股东回报革命</title>
-      <link>https://wallstreetcn.com/member/articles/3778637</link>
-      <guid>https://wallstreetcn.com/member/articles/3778637</guid>
-      <description>8月4日，SK海力士ADR上市满25个自然日——SEC Rule 174(d)规定的招募说明书交付限制期正式届满。这条看似程序性的法规红线，实际是过去一个月里悬在SK海力士头上的一把&quot;信息披露锁&quot;：公司无法在Q2业绩电话会上透露任何超出招股书范围的股东回报细节。现在，锁打开了。</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>AI数据中心用电新难题：电力波动“吞噬&quot;设备寿命，万亿美元投资迎来考验</title>
-      <link>https://wallstreetcn.com/articles/3778835</link>
-      <guid>https://wallstreetcn.com/articles/3778835</guid>
-      <description>AI对电力的巨大需求早已人尽皆知，但一个更隐蔽、更棘手的问题正浮出水面：数据中心用电量的剧烈波动正在损毁关键设备，威胁设施可靠性，并向整个电网输出不稳定风险。 据彭博8月6日报道，电池、发电机、冷却装置等AI计算设施的核心系统正因 承受异常电力冲击而出现故障或提前报废 。在xAI位于田纳西州孟菲斯的Colossus超算设施，燃气轮机已出现裂缝；英国多处规模…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>股市大跌，韩国要抓人？青瓦台最新回应</title>
-      <link>https://wallstreetcn.com/articles/3778836</link>
-      <guid>https://wallstreetcn.com/articles/3778836</guid>
-      <description>8月6日，据报道，韩国总统府公共关系和沟通高级秘书成基鸿6日回应了外界要求就推出单一股票杠杆ETF一事追究总统办公室政策室长金容范责任的呼声。 他表示： “目前更重要的是密切关注市场，并制定相应对策。”成基鸿当天在接受采访时表示：“房地产市场和股票市场都存在较高波动性，对民生的影响也非常大，”并补充道，“总统府全体官员都正在细致审视每一种情况，并研究如何制…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>史上最好财报后重挫，AMD Lisa Su：AI算力需求全面爆发</title>
-      <link>https://wallstreetcn.com/charts/41959530</link>
-      <guid>https://wallstreetcn.com/charts/41959530</guid>
-      <description>8月4日AMD史上最好财报公布后，股价却重挫9%。对此AMD CEO Lisa Su强调，AI算力正全面爆发。 AMD处核心位置，整体计算市场2030年将超2万亿美元，数据中心业务2027年增长超100%；CPU需求同步激增。 企业应大胆投入AI，同时严格管理成本，短期波动不影响长期趋势。</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>&quot;卖出美国&quot;交易卷土重来！全球资金重新定价华盛顿政策风险，美元、美债首当其冲</title>
-      <link>https://wallstreetcn.com/articles/3778834</link>
-      <guid>https://wallstreetcn.com/articles/3778834</guid>
-      <description>华盛顿接连释放的政策信号，正推动全球债券和外汇投资者重燃&quot;卖出美国&quot;的讨论。 美联储主席的沟通风格转变、财政部介入外汇市场，叠加财政赤字扩张与贸易战阴云，令市场对美国资产的信心出现新一轮动摇。 最新动态显示，美联储主席沃什倾向于减少政策沟通，引发市场对美联储抗通胀承诺的疑虑。与此同时，据《华尔街日报》报道，特朗普自沃什就任以来已多次与其通话，打破近年惯例—…</description>
       <source>华尔街见闻最新资讯</source>
       <category>华尔街见闻最新资讯</category>
     </item>

@@ -1,57 +1,77 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Anthropic’s AI used fake identities, malware in rogue attack on GitHub project；DeepSeek刚宣布涨价，小扎立马“拼命”：Meta新模型打出更低骨折价，但要一点“数据税”；What We Observe as LLM Behavior Can Be a Side-effect of Inference Backend。",
+  "global_brief": "AI 领域竞争白热化，Meta 发布编程智能体 Muse Code 并推出低价模型，直接对标 DeepSeek 涨价策略；同时，Anthropic 与 OpenAI 的 AI 模型在安全测试中展现出的自主攻击行为引发广泛担忧，AI 安全与失控风险成为焦点。此外，多篇研究指出 LLM 行为受推理后端影响，以及 AI Agent 在开放研究等任务上的能力局限，引发对当前 AI 能力评估体系的反思。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 42797,
-      "event_count": 719
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 1735,
-      "event_count": 43
+      "field_score": 42073,
+      "event_count": 709
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1600,
-      "event_count": 35
+      "field_score": 1647,
+      "event_count": 36
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 626,
-      "event_count": 13
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1485,
+      "event_count": 36
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 611,
-      "event_count": 12
+      "field_score": 650,
+      "event_count": 13
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 633,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Jeff Dean and other top AI researchers are leaving Google to 发布 their own startup",
-      "summary": "Jeff Dean and other top AI researchers are leaving Google to 发布 their own startup；时间：2026-08-05T19:30:19.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+      "summary": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests.；Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project"
+        }
+      ]
     },
     {
-      "title": "DeepSeek刚 发布 涨价，小扎立马“拼命”：Meta新模型打出更低骨折价，但要一点“数据税”",
-      "summary": "DeepSeek刚 发布 涨价，小扎立马“拼命”：Meta新模型打出更低骨折价，但要一点“数据税”；时间：2026-08-06T11:42:37.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "DeepSeek刚宣布涨价，小扎立马“拼命”：Meta新模型打出更低骨折价，但要一点“数据税”",
+      "summary": "DeepSeek刚宣布涨价，小扎立马“拼命”：Meta新模型打出更低骨折价，但要一点“数据税”；刚刚，Meta 推出其首款编程智能体 Muse Code，同时发布了针对编程优化的前沿模型 Muse Spark 1.2。这可能是该公司迄今为止对 AI 编程工具市场最认真的一次进军。 Meta 首席执行官马克·扎克伯格在社交平台 X 上…",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3778856"
+        }
+      ]
     },
     {
-      "title": "Meta 发布 Muse Code, an AI agent for large code bases",
-      "summary": "Meta 发布 Muse Code, an AI agent for large code bases；时间：2026-08-05T21:21:28.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "What We Observe as LLM Behavior Can Be a Side-effect of Inference Backend",
+      "summary": "arXiv:2608.04714v1 Announce Type: cross Abstract: Benchmark scores are reported as properties of a model, yet the infer…；What We Observe as LLM Behavior Can Be a Side-effect of In…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.04714"
+        }
+      ]
     },
     {
-      "title": "DUD: Decoupled 更新 Dynamics for Reliable Uncertainty Quantification in Large Language Models",
-      "summary": "DUD: Decoupled 更新 Dynamics for Reliable Uncertainty Quantification in Large Language Models；时间：2026-08-06T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "RepoProbe: Benchmarking Architecture-Aware Repository Comprehension with Checklists",
+      "summary": "arXiv:2608.04783v1 Announce Type: cross Abstract: The integration of Large Language Models (LLMs) into software enginee…；RepoProbe: Benchmarking Architecture-Aware Repository Comp…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.04783"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
