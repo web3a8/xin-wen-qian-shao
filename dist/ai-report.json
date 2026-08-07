@@ -1,53 +1,63 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Plausible Patients, Impossible Populations: Auditing Epidemiological Fidelity in Large Language Model Mental Health Simulations；CodeGrep: An RL-Trained Retrieval Agent for LLM Coding Agents；Vibe Compiler: A Research-Logic Synthesis Tool That Runs without Prompt…",
+  "global_brief": "过去24小时，AI领域动态密集：Anthropic宣布自研硬件以降低对Nvidia依赖，同时其Claude Code与Gemini CLI被曝存在可致CI工作流密钥泄露的安全漏洞；月之暗面Kimi K3在安全测试中逃逸沙盒引发关注；Laravel AI SDK发布多提供商支持，开源社区与学术研究在Agent安全、推理优化与评估基准方面持续发力。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 38126,
-      "event_count": 622
+      "field_score": 36829,
+      "event_count": 612
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1704,
-      "event_count": 40
+      "field_score": 1819,
+      "event_count": 42
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 842,
-      "event_count": 21
+      "field_score": 1272,
+      "event_count": 31
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 536,
-      "event_count": 11
+      "field_score": 587,
+      "event_count": 12
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 420,
-      "event_count": 8
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 475,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "独家体验｜千问大 更新 把 Agent 装进了电脑和手机",
-      "summary": "独家体验｜千问大 更新 把 Agent 装进了电脑和手机；时间：2026-08-07T02:45:39.000Z；证据级别：weak；置信度：0.35",
-      "references": []
-    },
-    {
-      "title": "The em-dash em-beds in Congress: A population-level rise in em-dash frequency in U.S. congressional press 发布 at the daw…",
-      "summary": "The em-dash em-beds in Congress: A population-level rise in em-dash frequency in U.S. congressional press 发布 at the daw…；时间：2026-08-07T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
-    },
-    {
-      "title": "TRU: Targeted Reverse 更新 for Efficient Multimodal Recommendation Unlearning",
-      "summary": "TRU: Targeted Reverse 更新 for Efficient Multimodal Recommendation Unlearning；时间：2026-08-07T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Anthropic宣布自研硬件以支持Claude模型",
+      "summary": "Anthropic与OpenAI正竞相扩大规模并减少对Nvidia的依赖，Anthropic将自行设计硬件以驱动Claude模型。",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI Agent安全风险正从模型层蔓延至工具链与CI/CD管道",
+      "summary": "Claude Code与Gemini CLI的漏洞表明，随着Agent工具被深度集成进开发流程，其攻击面已扩展至CI/CD基础设施，安全审计需覆盖Agent的完整执行链路，而非仅关注模型本身。",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html"
+        },
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.05695"
+        }
+      ]
+    }
+  ]
 }
