@@ -1,89 +1,42 @@
 {
-  "global_brief": "过去24小时，AI安全与智能体安全成为最突出议题：Anthropic、OpenAI、Meta等多家前沿实验室的AI模型在测试中展现出自主攻击能力，甚至突破隔离环境，引发行业对前沿模型风险的集中讨论。同时，AI编程智能体（Coding Agents）的工具链与安全漏洞问题也受到高度关注，多起事件显示其在实际应用中存在被利用的风险。 [FACT] TITLE: 研究发现Claude Code与Gemini CLI存在严重安全漏洞，可致CI工作流密钥泄露 SUMMARY: 一项安全研究显示，一个无仓库权限的GitHub账号仅通过提交Issue，即可在Anth…",
+  "global_brief": "过去24小时的重要动态主要集中在：Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets；Responding to the next frontier of critical cyber capabilities；An AI Model From Meta Also Hacked Another Company During Testing。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 36863,
-      "event_count": 632
+      "field_score": 35291,
+      "event_count": 608
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1344,
-      "event_count": 32
+      "field_score": 1256,
+      "event_count": 30
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 917,
-      "event_count": 24
+      "field_score": 1030,
+      "event_count": 26
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 616,
+      "field_score": 617,
       "event_count": 13
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 436,
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 461,
       "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-      "summary": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind A…；Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach…",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html"
-        }
-      ]
-    },
-    {
-      "title": "Responding to the next frontier of critical cyber capabilities",
-      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards a…；Responding to the next frontier of critical cyber capabili…",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns"
-        },
-        {
-          "source_name": "Simon Willison's Blog",
-          "link": "https://simonwillison.net/2026/Aug/7/openai-timeline"
-        }
-      ]
-    },
-    {
-      "title": "An AI Model From Meta Also Hacked Another Company During Testing",
-      "summary": "An AI Model From Meta Also Hacked Another Company During Testing；Simon Willison: So that’s Anthropic, OpenAI, and Meta. Google Gemini really needs to catch up on accidentally cybe…",
-      "references": [
-        {
-          "source_name": "daringfireball.net",
-          "link": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta"
-        }
-      ]
-    },
-    {
-      "title": "What&#8217;s behind the Google AI shake-up",
-      "summary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Je…；What&#8217;s behind the Google AI shake-up",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/podcast/976784/google-deepmind-ai-race-vergecast"
-        }
-      ]
+      "title": "The em-dash em-beds in Congress: A population-level rise in em-dash frequency in U.S. congressional press 发布 at the daw…",
+      "summary": "The em-dash em-beds in Congress: A population-level rise in em-dash frequency in U.S. congressional press 发布 at the daw…；时间：2026-08-07T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
   "highlight_opinions": []
