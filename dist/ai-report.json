@@ -1,53 +1,71 @@
 {
-  "global_brief": "过去24小时，AI 领域动态密集，焦点集中在编码代理（Coding Agent）的工程实践与成本优化、模型安全与来源追溯，以及 AI 在商业与工作场景中的渗透。Anthropic 将 Claude Code 的 Auto 模式设为默认，社区对 mini-swe-agent 等工具的实测讨论热烈，同时关于 LLM 幻觉抑制、模型指纹识别和 AI 广告投放等话题也引发了广泛关注。",
+  "global_brief": "过去24小时，AI领域动态密集，核心围绕AI编程工具（Claude Code、Codex、mini-swe-agent）的实战应用与成本优化，以及AI安全与治理议题（针对OpenAI、Anthropic、Meta的恶意攻击事件）。同时，关于AI收入集中度、AI对公民科学记录的冲击等话题也引发了广泛讨论。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 4934,
-      "event_count": 88
+      "field_score": 5587,
+      "event_count": 100
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1464,
-      "event_count": 36
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 477,
-      "event_count": 11
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 138,
-      "event_count": 3
+      "field_score": 1329,
+      "event_count": 33
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 138,
+      "field_score": 450,
+      "event_count": 10
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 393,
+      "event_count": 9
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 140,
       "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "Anthropic 将 Claude Code 的 Auto 模式设为 Pro、Max 和 Team 套餐的默认模式",
-      "summary": "Anthropic 宣布，Claude Code 的 Auto 模式现已成为 Pro、Max 和 Team 套餐的默认设置。",
+      "title": "OpenAI 意外攻击 Hugging Face 事件时间线公布",
+      "summary": "一份关于OpenAI意外攻击Hugging Face事件的时间线已被公布，该事件引发了社区对AI供应链安全的关注。",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h"
+        }
+      ]
+    },
+    {
+      "title": "Claude Code 默认启用 Auto 模式",
+      "summary": "Anthropic 宣布，Claude Code 的 Auto 模式现已成为 Pro、Max 和 Team 套餐的默认设置，这标志着AI编程助手向更自动化方向迈进。",
       "references": [
         {
           "source_name": "Simon Willison's Blog",
           "link": "https://simonwillison.net/2026/Aug/8/auto-mode"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "编码代理的成本与效率权衡成为开发者核心关注点",
-      "summary": "从 mini-swe-agent 的实测对比到开发者分享降低 LLM API 成本的教训，再到 V2EX 上关于 Codex 接中转的讨论，社区普遍反映出对编码代理工具在 token 消耗、API 成本和实际成功率之间平衡的强烈关注。",
+      "title": "以色列初创公司被指与针对 AI 巨头的恶意攻击有关",
+      "summary": "有报道称，一家以色列初创公司与针对 OpenAI、Anthropic 和 Meta 的“流氓AI”攻击事件有关，该事件已引发对AI安全与地缘政治风险的讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html"
+        }
+      ]
+    },
+    {
+      "title": "mini-swe-agent 在开发者社区引发热议",
+      "summary": "开发者社区（V2EX、Hacker News）正在热烈讨论 mini-swe-agent 在代码调试和开发中的实际表现，有观点认为其在 token 消耗和成功率上优于 Codex 和 Claude Code。",
       "references": [
         {
           "source_name": "V2EX 技术",
@@ -58,12 +76,40 @@
           "link": "https://news.ycombinator.com/item?id=49228883"
         },
         {
-          "source_name": "Hacker News LLM",
-          "link": "https://medium.com/@chuanweipeng5/where-my-llm-api-bill-actually-went-and-how-i-cut-it-f10158329c5c"
-        },
+          "source_name": "Hacker News Show",
+          "link": "https://github.com/howieyoung/cli-times"
+        }
+      ]
+    },
+    {
+      "title": "研究提出通过语义三角定位减少 LLM 代码幻觉",
+      "summary": "一篇发表于 OOPSLA 26 的研究论文提出了一种名为“语义三角定位”的方法，旨在减少大语言模型生成代码中的幻觉问题。",
+      "references": [
         {
-          "source_name": "V2EX 技术",
-          "link": "https://v2ex.com/t/1233012"
+          "source_name": "Hacker News LLM",
+          "link": "https://github.com/msv-lab/just-tri-it"
+        }
+      ]
+    },
+    {
+      "title": "中国构建数十亿 AI 智能体模拟地球系统",
+      "summary": "有消息称，中国构建了一个使用数十亿 AI 智能体来模拟地球的系统，该消息在 Hacker News 上引发了广泛关注和讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://twitter.com/howtoprompt__/status/2086110097663795365"
+        }
+      ]
+    }
+  ],
+  "highlight_opinions": [
+    {
+      "title": "AI 收入高度集中，行业风险与机遇并存",
+      "summary": "有分析指出，目前 AI 行业 70% 的收入来自 OpenAI 和 Anthropic 两家公司，这种高度集中可能带来系统性风险，但也意味着头部玩家对行业走向有极强的主导力。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://youtube.com/watch?v=68X8yEatepQ"
         }
       ]
     }
