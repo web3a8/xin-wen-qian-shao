@@ -1,63 +1,71 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Now we have a timeline of the OpenAI accidental attack against Hugging Face；Auto mode is now the default in Claude Code for Pro, Max, and Team plans；My Self-Evolving AI Agent Kept Passing Its Own Tests. The Code Had Never Run。",
+  "global_brief": "过去24小时，AI 领域动态密集，焦点集中在编码代理（Coding Agent）的工程实践与成本优化、模型安全与来源追溯，以及 AI 在商业与工作场景中的渗透。Anthropic 将 Claude Code 的 Auto 模式设为默认，社区对 mini-swe-agent 等工具的实测讨论热烈，同时关于 LLM 幻觉抑制、模型指纹识别和 AI 广告投放等话题也引发了广泛关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5183,
-      "event_count": 91
+      "field_score": 4934,
+      "event_count": 88
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1557,
-      "event_count": 39
+      "field_score": 1464,
+      "event_count": 36
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 570,
-      "event_count": 13
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 495,
+      "field_score": 477,
       "event_count": 11
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 140,
+      "field_score": 138,
+      "event_count": 3
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 138,
       "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-      "summary": "My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face — Hacker News. I think one of…；Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-      "references": []
-    },
-    {
-      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
-      "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans；Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code'…",
-      "references": []
-    },
-    {
-      "title": "My Self-Evolving AI Agent Kept Passing Its Own Tests. The Code Had Never Run",
-      "summary": "My Self-Evolving AI Agent Kept Passing Its Own Tests. The Code Had Never Run；Post #1 covered the birth. Post #2 covered pruning. Post #3 covered cost awareness. Post #4 covered the quality turn. P…",
-      "references": []
-    },
-    {
-      "title": "How to Disable Gemini in Gmail and Google Docs",
-      "summary": "How to Disable Gemini in Gmail and Google Docs；Google recently changed how it refers and assigns names to hacking groups. TechCrunch spoke with one of the world’s for…；Google’s top hacker hunter explains why hacking gro…",
-      "references": []
-    },
-    {
-      "title": "有人真的用过 mini swe agent 来 debug 或是开发吗",
-      "summary": "之前看 deep swe 说 https://github.com/swe-agent/mini-swe-agent 比 codex 和 claude code 在 debug 中的 token 消耗和成功率都要好，我今天自己跑了一下，用…；有人真的用过 mini swe agent 来 debug 或是开发吗；Ask HN: How do you use claude code / codex at work for your en…",
-      "references": []
+      "title": "Anthropic 将 Claude Code 的 Auto 模式设为 Pro、Max 和 Team 套餐的默认模式",
+      "summary": "Anthropic 宣布，Claude Code 的 Auto 模式现已成为 Pro、Max 和 Team 套餐的默认设置。",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Aug/8/auto-mode"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "编码代理的成本与效率权衡成为开发者核心关注点",
+      "summary": "从 mini-swe-agent 的实测对比到开发者分享降低 LLM API 成本的教训，再到 V2EX 上关于 Codex 接中转的讨论，社区普遍反映出对编码代理工具在 token 消耗、API 成本和实际成功率之间平衡的强烈关注。",
+      "references": [
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1232985"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=49228883"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://medium.com/@chuanweipeng5/where-my-llm-api-bill-actually-went-and-how-i-cut-it-f10158329c5c"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1233012"
+        }
+      ]
+    }
+  ]
 }
