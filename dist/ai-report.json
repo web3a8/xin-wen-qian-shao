@@ -1,62 +1,59 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：I Built a GitHub Action That Writes Your PR Descriptions；MetaSICL: Globalizing Auditory LLMs for Underserved Speakers and Languages via Meta Speech In-Context Learning；What building an AI-native finance function taught me。",
+  "global_brief": "过去24小时，AI领域动态密集，Meta发布开源多模态智能体模型Muse Glimmer并推出语音模型MetaSICL，试图重振其AI战略；OpenAI则围绕GPT-5.6系列密集布局，推出网络安全专用模型并扩大Daybreak合作，同时其下一代模型Astra因网络性能触发内部暂停机制，引发安全讨论。开源社区与学术研究在智能体训练、推理优化与安全评估方面也涌现多项新成果。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 31618,
-      "event_count": 548
+      "field_score": 31989,
+      "event_count": 555
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1418,
-      "event_count": 32
+      "field_score": 1678,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1089,
-      "event_count": 28
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 566,
-      "event_count": 12
+      "field_score": 1239,
+      "event_count": 31
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 548,
-      "event_count": 10
+      "field_score": 639,
+      "event_count": 12
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 525,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "I Built a GitHub Action That Writes Your PR Descriptions",
-      "summary": "I Built a GitHub Action That Writes PR Descriptions From Real Diffs (Works With Ollama) Yep, this does what the title s…；I Built a GitHub Action That Writes Your PR Descriptions",
-      "references": []
-    },
-    {
-      "title": "MetaSICL: Globalizing Auditory LLMs for Underserved Speakers and Languages via Meta Speech In-Context Learning",
-      "summary": "arXiv:2601.18904v3 Announce Type: replace-cross Abstract: Generative AI for speech and audio is increasingly expected t…；MetaSICL: Globalizing Auditory LLMs for Underserved Speakers and Languages via Meta Speech In-Cont…",
-      "references": []
-    },
-    {
-      "title": "What building an AI-native finance function taught me",
-      "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to st…；What building an AI-native finance function taught me",
-      "references": []
-    },
-    {
-      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "summary": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "references": []
-    },
-    {
-      "title": "Putting frontier cyber models in more trusted hands",
-      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity service…；Putting frontier cyber models in more trusted hands",
-      "references": []
+      "title": "Meta发布开源多模态智能体模型Muse Glimmer",
+      "summary": "Meta推出Muse Glimmer，定位为本地化、智能体化、多模态且开源的模型，旨在强化其在AI领域的竞争力。",
+      "references": [
+        {
+          "source_name": "Hugging Face 博客",
+          "link": "https://huggingface.co/blog/muse-glimmer"
+        },
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
