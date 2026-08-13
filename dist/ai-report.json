@@ -1,62 +1,47 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Reproducing and Stress-Testing Two Approaches to LLM Reasoning Reliability: Test-Time Probability Aggregation and Logic-Representation Editing；OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning；Explainability in Practice: A…",
+  "global_brief": "过去 24 小时，AI 领域动态密集：国产大模型迎来开源与迭代高峰，阿里发布 2.4T 参数的 Qwen3.8，DeepSeek 推出 V4-Pro 正式版；同时，谷歌 DeepMind 因 Gemini 延期而换帅引发行业关注。此外，多篇 arXiv 研究聚焦于 LLM 推理可靠性、多模态基准与智能体安全，显示基础研究仍在快速推进。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30148,
-      "event_count": 516
+      "field_score": 30054,
+      "event_count": 509
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1577,
+      "field_score": 1622,
       "event_count": 38
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1375,
-      "event_count": 32
+      "field_score": 1296,
+      "event_count": 30
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 588,
-      "event_count": 12
+      "field_score": 553,
+      "event_count": 11
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 479,
-      "event_count": 10
+      "field_score": 354,
+      "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "Reproducing and Stress-Testing Two Approaches to LLM Reasoning Reliability: Test-Time Probability Aggregation and Logic-Representation Editing",
-      "summary": "arXiv:2608.08514v1 Announce Type: cross Abstract: We independently reproduce two recent methods for making large langua…；Reproducing and Stress-Testing Two Approaches to LLM Reasoning Reliability: Test-Time Probability…",
-      "references": []
-    },
-    {
-      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
-      "summary": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let resea…；OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
-      "references": []
-    },
-    {
-      "title": "Explainability in Practice: A Survey of Explainable NLP Across Various Domains",
-      "summary": "arXiv:2502.00837v3 Announce Type: replace-cross Abstract: Natural Language Processing (NLP) is now embedded in critical…；Explainability in Practice: A Survey of Explainable NLP Across Various Domains",
-      "references": []
-    },
-    {
-      "title": "MBA: Multimodal Benchmark and Agents for Real-World Business Ideation",
-      "summary": "arXiv:2608.11616v1 Announce Type: new Abstract: Agentic systems powered by large language models (LLMs) have opened new…；MBA: Multimodal Benchmark and Agents for Real-World Business Ideation",
-      "references": []
-    },
-    {
-      "title": "寒武纪已完成五大国产大模型适配，第六代芯片架构正在研发中",
-      "summary": "IT之家 8 月 13 日消息，寒武纪 8 月 12 日召开 2026 年半年度业绩说明会。2026 年上半年寒武纪实现营业收入 59.96 亿元，同比增长 108.13%；归母净利润 23.11 亿元，同比增长 122.61%。 寒武纪…；寒武纪已完成五大国产大模型适配，第六代芯片架构正在研发中",
-      "references": []
+      "title": "阿里开源 2.4T 参数 Qwen3.8 模型，国产超大模型架构趋同",
+      "summary": "继 Kimi K3 开源半个月后，阿里于 8 月 13 日正式开放 Qwen3.8-2.4T 模型权重，该模型拥有 2.4T 参数，标志着国产超大模型在架构选择上走向趋同。",
+      "references": [
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3779379"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
