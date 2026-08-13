@@ -1,47 +1,62 @@
 {
-  "global_brief": "过去 24 小时，AI 领域动态密集：国产大模型迎来开源与迭代高峰，阿里发布 2.4T 参数的 Qwen3.8，DeepSeek 推出 V4-Pro 正式版；同时，谷歌 DeepMind 因 Gemini 延期而换帅引发行业关注。此外，多篇 arXiv 研究聚焦于 LLM 推理可靠性、多模态基准与智能体安全，显示基础研究仍在快速推进。",
+  "global_brief": "过去24小时的重要动态主要集中在：对标 Claude Cowork：DeepSeek Harness 公测，同步开放插件生态；How to Track AI Referral Traffic from ChatGPT, Claude, Gemini and Perplexity in GA4?；DeepSeek Harness 来了，它不想做下一个Codex。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30054,
-      "event_count": 509
+      "field_score": 20568,
+      "event_count": 355
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1622,
-      "event_count": 38
+      "field_score": 1602,
+      "event_count": 39
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1296,
-      "event_count": 30
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 553,
-      "event_count": 11
+      "field_score": 1325,
+      "event_count": 32
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 354,
+      "field_score": 444,
+      "event_count": 9
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 329,
       "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "阿里开源 2.4T 参数 Qwen3.8 模型，国产超大模型架构趋同",
-      "summary": "继 Kimi K3 开源半个月后，阿里于 8 月 13 日正式开放 Qwen3.8-2.4T 模型权重，该模型拥有 2.4T 参数，标志着国产超大模型在架构选择上走向趋同。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3779379"
-        }
-      ]
+      "title": "对标 Claude Cowork：DeepSeek Harness 公测，同步开放插件生态",
+      "summary": "IT之家 8 月 13 日消息，DeepSeek-V4-Pro-0813 正式开源，同时还推出了其开源（MIT 协议）的代码智能体框架 Harness 的 v0.1 开发者预览版（基于 Cordis），并同步开放了配套的插件生态系统。 截…；对标 Claude Cowork：DeepSeek Harness 公测，同步开放插件生态",
+      "references": []
+    },
+    {
+      "title": "How to Track AI Referral Traffic from ChatGPT, Claude, Gemini and Perplexity in GA4 ?",
+      "summary": "AI assistants are becoming a measurable source of website traffic. People now use ChatGPT, Claude, Gemini, Perplexity a…；How to Track AI Referral Traffic from ChatGPT, Claude, Gemini and Perplexity in GA4?",
+      "references": []
+    },
+    {
+      "title": "DeepSeek Harness 来了，它不想做下一个Codex",
+      "summary": "DeepSeek Harness 来了，它不想做下一个Codex；就在刚刚，DeepSeek 正式发布了首款 Agent 产品，DeepSeek Harness。 早在 V4 Flash 正式版更新日志里，除了直接对标 Claude Opus 模型的 benchmark 成绩，还有一行说明写着「 正式版…；就在刚刚，DeepSeek 正式发布了首款 Agent 产品，DeepSeek Harness。 早在 V4 Flash 正式版更…",
+      "references": []
+    },
+    {
+      "title": "Reproducing and Stress-Testing Two Approaches to LLM Reasoning Reliability: Test-Time Probability Aggregation and Logic-Representation Editing",
+      "summary": "arXiv:2608.08514v1 Announce Type: cross Abstract: We independently reproduce two recent methods for making large langua…；Reproducing and Stress-Testing Two Approaches to LLM Reasoning Reliability: Test-Time Probability…",
+      "references": []
+    },
+    {
+      "title": "Claude's new Scarlet Letter watermark is invisible — for now",
+      "summary": "Claude's new Scarlet Letter watermark is invisible — for now；The mark flags anything Claude processed, even human writing it only edited.；IT之家 8 月 13 日消息，Anthropic 本周宣布，部分 Claude 模型会直接在输出文本中嵌入一种“难以察觉的水印”。内容被复制粘贴后，水印仍会随文…",
+      "references": []
     }
   ],
   "highlight_opinions": []
