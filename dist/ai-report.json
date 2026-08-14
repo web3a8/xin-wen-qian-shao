@@ -1,89 +1,57 @@
 {
-  "global_brief": "过去24小时，AI领域动态密集：OpenAI推出GPT-5.6 Sol的14倍速“Ultrafast”模式并发布构建者指南，Google在Gemini 3.6 Flash发布仅三周后即推出3.7版本，同时Anthropic传出IPO估值或达2万亿美元的消息。此外，DeepSeek发布首款Agent产品，多篇关于LLM可靠性、可解释性及安全性的研究论文集中出现，显示行业竞争与基础研究均在加速。 [FACT] TITLE: OpenAI推出GPT-5.6 Sol“Ultrafast”模式，速度提升14倍 SUMMARY: OpenAI宣布为其最新最强模型G…",
+  "global_brief": "过去24小时的重要动态主要集中在：OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed；早报｜曝iPhone全线涨价100美元/ChatGPT开始拥有你的电脑历史/长鑫科技市值超过腾讯；Benchmarking Gemini, Claude, and OpenAI for Structured Document Extraction。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 31545,
-      "event_count": 544
+      "field_score": 30066,
+      "event_count": 523
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1390,
-      "event_count": 33
+      "field_score": 1280,
+      "event_count": 31
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1266,
-      "event_count": 32
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 542,
-      "event_count": 11
+      "field_score": 1054,
+      "event_count": 26
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 403,
-      "event_count": 8
+      "field_score": 523,
+      "event_count": 11
+    },
+    {
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 498,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
-      "summary": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed；OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an…",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/dali-rajic-chief-revenue-officer"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/989/492.htm"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure"
-        }
-      ]
+      "title": "派早报：深度求索 发布 开源 Agent 框架 DeepSeek Harness 及配套插件生态",
+      "summary": "派早报：深度求索 发布 开源 Agent 框架 DeepSeek Harness 及配套插件生态；时间：2026-08-14T00:52:24.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "Google announces Gemini 3.7 Flash just three weeks after previous release",
-      "summary": "Gemini 3.6 Flash debuted just 3 weeks ago, but Google says 3.7 has \"substantial improvements.\"；Google announces Gemini 3.7 Flash just three weeks after previous release",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release"
-        }
-      ]
+      "title": "OpenAI 发布 ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "summary": "OpenAI 发布 ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed；关键数值：14x；时间：2026-08-13T19:22:40.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "The builder’s guide to GPT‑5.6",
-      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Resp…；The builder’s guide to GPT‑5.6",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/builders-guide-to-gpt-5-6"
-        }
-      ]
+      "title": "Gemini 3.5 Pro延迟 发布 、人才持续流失——谷歌新AI掌门接手一个“烂摊子”",
+      "summary": "Gemini 3.5 Pro延迟 发布 、人才持续流失——谷歌新AI掌门接手一个“烂摊子”；时间：2026-08-13T16:23:03.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     },
     {
-      "title": "Reproducing and Stress-Testing Two Approaches to LLM Reasoning Reliability: Test-Time Probability Aggregation and Logic…",
-      "summary": "arXiv:2608.08514v1 Announce Type: cross Abstract: We independently reproduce two recent methods for making large langua…；Reproducing and Stress-Testing Two Approaches to LLM Reaso…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2608.08514"
-        }
-      ]
+      "title": "Google 发布 Gemini 3.7 Flash just three weeks after previous release",
+      "summary": "Google 发布 Gemini 3.7 Flash just three weeks after previous release；时间：2026-08-13T17:00:13.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
   "highlight_opinions": []
