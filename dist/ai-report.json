@@ -1,42 +1,81 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Local LLM on a 16GB Mac Mini: Replacing GitHub Copilot with Ollama + Qwen；If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them；OpenAI and Anthropic in price war as Chinese AI rivals gain ground。",
+  "global_brief": "过去24小时，AI领域竞争白热化：阿里开源Qwen3.8-27B模型，SpaceX以600亿美元收购AI编程公司Cursor，同时OpenAI与Anthropic在中国AI对手崛起压力下展开价格战。多篇arXiv研究聚焦LLM智能体安全、推理能力与多模态评估，显示行业正从模型发布转向工程化落地与安全治理。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 33321,
+      "field_score": 33282,
       "event_count": 584
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1908,
-      "event_count": 43
+      "field_score": 1949,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1549,
+      "field_score": 1529,
       "event_count": 38
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 517,
-      "event_count": 10
+      "field_score": 505,
+      "event_count": 11
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 512,
-      "event_count": 11
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 482,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 发布 ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
-      "summary": "OpenAI 发布 ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed；关键数值：14x；时间：2026-08-13T19:22:40.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "阿里开源 Qwen3.8-27B 模型，编程、办公场景表现超越 Qwen3.7-Plus",
+      "summary": "IT之家 8 月 14 日消息，今天（14 日）晚间，阿里“千问大模型”公众号宣布，Qwen3.8-27B 模型正式开源，所有开发者、科研机构和企业均可自由下载、部署和使用。 IT之家附体验地址： Hugging Face 魔搭社区 根据…；阿里开源 Qwen3.8-27B 模型，编程、办公场景表现超越 Qwen3.7-Plus；8月14日晚，阿里千问正式…",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/989/953.htm"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3779482"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "summary": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground；US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground"
+        }
+      ]
+    },
+    {
+      "title": "早报｜曝iPhone全线涨价100美元/ChatGPT开始拥有你的电脑历史/长鑫科技市值超过腾讯",
+      "summary": "早报｜曝iPhone全线涨价100美元/ChatGPT开始拥有你的电脑历史/长鑫科技市值超过腾讯；🤖 DeepSeek Harness 开发者预览版发布：Agent 能力可由插件自由组合 📱 曝苹果或将 iPhone 全线涨价 100 美元 🆕 Google 发布 Gemini 3.7 Flash，编程与多步智能体任务性能提升 💰 A…",
+      "references": [
+        {
+          "source_name": "爱范儿",
+          "link": "https://ifanr.com/1675193"
+        }
+      ]
+    },
+    {
+      "title": "Explainability in Practice: A Survey of Explainable NLP Across Various Domains",
+      "summary": "arXiv:2502.00837v3 Announce Type: replace-cross Abstract: Natural Language Processing (NLP) is now embedded in critical…；Explainability in Practice: A Survey of Explainable NLP Ac…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2502.00837"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
