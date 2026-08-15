@@ -1,42 +1,77 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot；AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution；MBA: Multimodal Benchmark and Agents for Real-World Business…",
+  "global_brief": "过去24小时，AI研究领域持续高产，重点集中在生成式AI对开源协作的影响、多智能体系统的效率与安全、以及LLM在专业领域（如医疗、神学、图推理）的基准测试与能力边界探索。开源与智能体主题贯穿始终，显示出学界对AI实用性与可靠性的双重关注。 [FACT] TITLE: 生成式AI对开源协作的影响研究发布 SUMMARY: 一项基于GitHub Copilot的研究 分析了生成式AI对协作式开源软件开发的影响，该研究以arXiv:2410.02091v4形式更新发布，为理解AI编程工具在真实协作场景中的作用提供了实证数据。 SCORE: 69 ART…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 22788,
-      "event_count": 377
+      "field_score": 21997,
+      "event_count": 373
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1063,
-      "event_count": 26
+      "field_score": 1031,
+      "event_count": 25
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1000,
-      "event_count": 25
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 498,
-      "event_count": 11
+      "field_score": 765,
+      "event_count": 19
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 469,
+      "field_score": 463,
+      "event_count": 10
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 445,
       "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "MOSAIC 发布 the Moral, Social and Individual Dimensions of Large Language Models",
-      "summary": "MOSAIC 发布 the Moral, Social and Individual Dimensions of Large Language Models；时间：2026-08-15T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot",
+      "summary": "arXiv:2410.02091v4 Announce Type: replace-cross Abstract: Generative artificial intelligence (AI) facilitates content p…；The Impact of Generative AI on Collaborative Open-Source S…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2410.02091"
+        }
+      ]
+    },
+    {
+      "title": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution",
+      "summary": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution；arXiv:2607.26661v3 Announce Type: replace Abstract: Ascend C operator optimization is…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2607.26661"
+        }
+      ]
+    },
+    {
+      "title": "MBA: Multimodal Benchmark and Agents for Real-World Business Ideation",
+      "summary": "arXiv:2608.11616v2 Announce Type: replace Abstract: Agentic systems powered by large language models (LLMs) have opened…；MBA: Multimodal Benchmark and Agents for Real-World Busine…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.11616"
+        }
+      ]
+    },
+    {
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "summary": "arXiv:2608.13560v1 Announce Type: cross Abstract: Transforming multimodal sources into condensed and structured media o…；AutoDesign: Meta-Harness Optimization for Long-Horizon Age…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.13560"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
