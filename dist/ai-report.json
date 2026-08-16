@@ -1,67 +1,63 @@
 {
-  "global_brief": "AI 领域持续主导全球技术讨论，焦点从模型能力转向 Agent 安全、本地化部署与效率优化。OpenAI 桌面端新功能引发隐私争议，而 Stripe 拟超 70 亿美元收购 OpenRouter 则凸显 AI 基础设施的资本整合加速。同时，社区对 Coding Agent 的实用性与 LLM 输出风格同质化的抱怨渐成主流。",
+  "global_brief": "过去24小时的重要动态主要集中在：Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things；I Tested DeepSeek vs Qwen vs Kimi vs GLM — Here's the Winner；ChatGPT’s Computer History tracks your clicks and keystrokes。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5426,
-      "event_count": 97
+      "field_score": 5945,
+      "event_count": 105
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1302,
+      "field_score": 1268,
       "event_count": 34
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 618,
-      "event_count": 15
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 551,
-      "event_count": 11
+      "field_score": 491,
+      "event_count": 10
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 397,
-      "event_count": 8
+      "field_score": 448,
+      "event_count": 9
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 406,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI 桌面应用新增“计算机历史”功能，记录用户操作并用于训练",
-      "summary": "OpenAI 在 macOS 版 ChatGPT 桌面应用中推出“Computer History”功能，可追踪用户的点击和按键操作，并将其转化为训练数据。该功能引发了对用户隐私和数据使用的广泛担忧。",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
-        }
-      ]
+      "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+      "summary": "Friday's big release was Qwen 3.8 27B, an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen resea…；Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+      "references": []
+    },
+    {
+      "title": "I Tested DeepSeek vs Qwen vs Kimi vs GLM — Here's the Winner",
+      "summary": "I Tested DeepSeek vs Qwen vs Kimi vs GLM — Here's the Winner；So here's what happened: i Tested DeepSeek vs Qwen vs Kimi vs GLM — Here's the Winner Okay, so I've been on this absolu…",
+      "references": []
+    },
+    {
+      "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+      "summary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, le…；ChatGPT’s Computer History tracks your clicks and keystrokes",
+      "references": []
+    },
+    {
+      "title": "Graph Engineering Explained: The Missing Fifth Layer of AI Agent Architecture",
+      "summary": "Every \"my agent isn't working\" postmortem starts the same way: someone rewrites the prompt. Adds a constraint. Adds an…；Graph Engineering Explained: The Missing Fifth Layer of AI Agent Architecture",
+      "references": []
+    },
+    {
+      "title": "Privibe - LLM Cli Local first+privacy focus+llama.cpp cache branch + Qwen3.x",
+      "summary": "Article URL: https://github.com/alainnothere/privibe/tree/main Comments URL: https://news.ycombinator.com/item?id=49315…；Privibe - LLM Cli Local first+privacy focus+llama.cpp cache branch + Qwen3.x",
+      "references": []
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI Agent 安全工具爆发式涌现，但碎片化严重",
-      "summary": "近期 Hacker News 上涌现出 Xaidr、AgentShield、Sentinel Scan 等多个 Agent 安全工具，且均以开源形式发布。这反映出社区对 Agent 自主行动风险的普遍焦虑，但工具之间缺乏统一标准，可能形成新的碎片化生态。",
-      "references": [
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/delphisecurity/xaidr"
-        },
-        {
-          "source_name": "Hacker News AI",
-          "link": "https://github.com/aiconnai/agentshield"
-        },
-        {
-          "source_name": "Hacker News LLM",
-          "link": "https://fbirds5230.github.io/sentinel-scan"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
