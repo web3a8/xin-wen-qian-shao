@@ -1,53 +1,63 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Anthropic 发布 AI 风险报告：旗下智能体会攻击同类并隐藏自身违规痕迹；The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot；AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution。",
+  "global_brief": "今日全球科技动态聚焦于AI大模型生态的快速演进：DeepSeek V4 Pro正式版发布并上线国家超算互联网，同时小红书开源模型获华为昇腾0 Day适配，显示国产AI软硬件协同加速。社区侧，关于AI Agent工具链、LLM内存管理与隐私、以及AI模型开源生态的讨论热度持续攀升，开发者对模型效率、身份验证和本地化部署的关注度显著提高。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 20918,
-      "event_count": 351
+      "field_score": 6542,
+      "event_count": 120
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1501,
-      "event_count": 37
+      "field_score": 1601,
+      "event_count": 40
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 749,
-      "event_count": 18
+      "field_score": 481,
+      "event_count": 13
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 507,
-      "event_count": 11
+      "field_score": 441,
+      "event_count": 10
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 330,
+      "field_score": 323,
       "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "IT早报 0816：DeepSeek V4 Pro 正式版、Harness 上线国家超算互联网；番茄小说作者“去世”三年后“复活”；曝小米 18 手机标准版延至明年初 发布 ...",
-      "summary": "IT早报 0816：DeepSeek V4 Pro 正式版、Harness 上线国家超算互联网；番茄小说作者“去世”三年后“复活”；曝小米 18 手机标准版延至明年初 发布...；时间：2026-08-15T23:44:32.000Z；证据级别：weak；置信度：0.35",
-      "references": []
-    },
-    {
-      "title": "MOSAIC 发布 the Moral, Social and Individual Dimensions of Large Language Models",
-      "summary": "MOSAIC 发布 the Moral, Social and Individual Dimensions of Large Language Models；时间：2026-08-15T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
-    },
-    {
-      "title": "Anthropic 发布 AI 风险报告：旗下智能体会攻击同类并隐藏自身违规痕迹",
-      "summary": "Anthropic 发布 AI 风险报告：旗下智能体会攻击同类并隐藏自身违规痕迹；时间：2026-08-15T23:09:18.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "DeepSeek V4 Pro 正式版发布，Harness 上线国家超算互联网",
+      "summary": "据IT之家报道，DeepSeek V4 Pro正式版于8月16日发布，同时Harness工具已上线国家超算互联网平台，标志着国产大模型在算力基础设施层面的进一步整合。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/990/211.htm"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "国产AI生态正从“模型竞赛”转向“软硬协同”与“基础设施整合”",
+      "summary": "综合DeepSeek V4 Pro上线国家超算互联网、华为昇腾0 Day适配小红书开源模型等事件，可以观察到中国AI产业的重心正在从单纯的模型参数比拼，转向构建从芯片、算力到模型的垂直整合生态，这可能是应对外部算力限制的长期战略。",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/990/211.htm"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/990/256.htm"
+        }
+      ]
+    }
+  ]
 }
