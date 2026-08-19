@@ -1,42 +1,89 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：When Self-Consistency Backfires: Majority Vote Hurts the Majority of Hard Science Problems for Small LLMs；SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE；Google packs Search and Gemini with new AI study tools。",
+  "global_brief": "过去24小时，AI领域动态密集，OpenAI在数据留存与安全策略上出现调整，同时其广告业务向欧洲扩张；谷歌则发力AI学习工具。学术界围绕LLM推理、对齐、安全及Agent应用发布了多项研究，其中关于小模型自一致性投票失效的研究值得关注。此外，字节跳动调整大模型部门组织架构，为超大参数模型铺路。 [FACT] TITLE: OpenAI 为前沿模型提供零数据留存选项，并暂停强化学习训练 SUMMARY: OpenAI 宣布为符合条件的 API 客户提供前沿模型的零数据留存（Zero Data Retention）选项，并预览了 Private Safet…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 40519,
-      "event_count": 712
+      "field_score": 41848,
+      "event_count": 736
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2080,
-      "event_count": 46
+      "field_score": 2379,
+      "event_count": 52
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1441,
+      "field_score": 1411,
       "event_count": 37
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 825,
-      "event_count": 16
+      "field_score": 869,
+      "event_count": 17
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 546,
-      "event_count": 11
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 729,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "Cursor capitalizes on GitHub frustration 发布 rival hosting platform",
-      "summary": "Cursor capitalizes on GitHub frustration 发布 rival hosting platform；时间：2026-08-18T22:14:25.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Offering Zero Data Retention for frontier models",
+      "summary": "Offering Zero Data Retention for frontier models；OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI…；OpenAI on…",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html"
+        },
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/alifar/openai-adds-zero-data-retention-and-private-safety-processing-for-enterprise-ai-26dd"
+        },
+        {
+          "source_name": "garymarcus.substack.com",
+          "link": "https://garymarcus.substack.com/p/breaking-openais-unraveling-has-begun"
+        }
+      ]
+    },
+    {
+      "title": "When Self-Consistency Backfires: Majority Vote Hurts the Majority of Hard Science Problems for Small LLMs",
+      "summary": "arXiv:2608.11403v2 Announce Type: replace-cross Abstract: Self-consistency via majority vote reduces per-problem accura…；When Self-Consistency Backfires: Majority Vote Hurts the M…",
+      "references": [
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2608.11403"
+        }
+      ]
+    },
+    {
+      "title": "SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE",
+      "summary": "arXiv:2608.17948v1 Announce Type: cross Abstract: Recent research has leveraged Large Language Models (LLMs) to enhance…；SIGMA: SHAP-Guided Implicit-Trajectory Generation for Meta…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.17948"
+        }
+      ]
+    },
+    {
+      "title": "Google packs Search and Gemini with new AI study tools",
+      "summary": "Google packs Search and Gemini with new AI study tools；The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to…",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
