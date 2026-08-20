@@ -1,75 +1,53 @@
 {
-  "global_brief": "过去24小时，AI领域动态密集，以阿里发布Qwen-UI-Agent、OpenAI强化企业隐私保护与智能体安全、以及Binance推出AI代理交易工具为代表，行业正加速从模型能力竞争转向智能体落地与安全治理。同时，多篇arXiv研究聚焦LLM推理机制、偏见与安全漏洞，显示学术界对模型可靠性的关注持续升温。 [FACT] TITLE: 阿里发布Qwen-UI-Agent，聚焦真实世界GUI智能体 SUMMARY: 阿里巴巴正式推出Qwen-UI-Agent，这是一个以真实世界为中心的GUI智能体基座模型，覆盖移动端、电脑端、网页端及深度搜索环境，旨在让模…",
+  "global_brief": "AI 领域持续主导全球科技动态，OpenAI 与 Anthropic 在企业级隐私保护上展开直接竞争，同时 Meta 成为微软最大 AI 客户之一，显示大型科技公司对算力的需求激增。此外，AI 智能体在金融交易、编码辅助等场景的应用加速落地，但安全与可控性问题同步引发关注。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32093,
-      "event_count": 544
+      "field_score": 32500,
+      "event_count": 560
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1804,
-      "event_count": 41
+      "field_score": 1701,
+      "event_count": 39
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1559,
-      "event_count": 39
+      "field_score": 1402,
+      "event_count": 35
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 884,
+      "event_count": 19
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 539,
-      "event_count": 11
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 428,
-      "event_count": 8
+      "field_score": 500,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "阿里发布 Qwen-UI-Agent，主打让模型真正“会用”每一块屏幕",
-      "summary": "IT之家 8 月 20 日消息，据千问大模型官方公众号，阿里巴巴正式推出 Qwen-UI-Agent，一个以真实世界为中心的 GUI 智能体基座模型，涵盖移动端、电脑端、网页端以及深度搜索（DeepSearch）环境。 据介绍，Qwen…；阿里发布 Qwen-UI-Agent，主打让模型真正“会用”每一块屏幕",
+      "title": "OpenAI 推出前沿模型零数据保留与私有安全评估功能",
+      "summary": "OpenAI 宣布为符合条件的 API 客户提供零数据保留（ZDR）选项，并预览了私有安全评估功能，旨在加强企业客户的数据隐私保护。此举被视为对 Anthropic 隐私保护策略的直接回应。",
       "references": [
         {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/992/239.htm"
-        }
-      ]
-    },
-    {
-      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
-      "summary": "Binance now lets AI agents trade, but keeping them in check is largely up to users；Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.",
-      "references": [
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html"
+        },
         {
           "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users"
-        }
-      ]
-    },
-    {
-      "title": "Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1 8B",
-      "summary": "arXiv:2608.18419v1 Announce Type: cross Abstract: Recent work has shown that large language models (LLMs) exhibit stron…；Mechanistic Interpretability of Structure-Aware Numerical…",
-      "references": [
-        {
-          "source_name": "arXiv AI",
-          "link": "https://arxiv.org/abs/2608.18419"
-        }
-      ]
-    },
-    {
-      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
-      "summary": "Cognition CEO denies report that SpaceX tried to acquire the startup；SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it ra…",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup"
+          "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections"
         }
       ]
     }
