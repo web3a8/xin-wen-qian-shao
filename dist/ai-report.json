@@ -1,62 +1,59 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Cognition CEO denies report that SpaceX tried to acquire the startup；When Self-Consistency Backfires: Majority Vote Hurts the Majority of Hard Science Problems for Small LLMs；OpenAI seeks to one-up Anthropic with new customer privacy protections。",
+  "global_brief": "OpenAI 与 Anthropic 在企业级 AI 服务上的竞争白热化，双方围绕客户隐私保护与数据安全展开攻防，OpenAI 推出零数据保留与私有安全预览功能。同时，AI 编程工具赛道出现重大并购传闻，SpaceX 被曝有意收购 Cognition，但遭 CEO 否认。多模态模型安全与智能体可靠性成为学术研究焦点，多篇论文聚焦安全基准与推理优化。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 42203,
-      "event_count": 740
+      "field_score": 30962,
+      "event_count": 532
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2199,
-      "event_count": 49
+      "field_score": 1600,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1022,
-      "event_count": 26
+      "field_score": 1208,
+      "event_count": 30
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 822,
-      "event_count": 16
+      "field_score": 591,
+      "event_count": 11
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 755,
-      "event_count": 15
+      "field_score": 517,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
-      "summary": "Cognition CEO denies report that SpaceX tried to acquire the startup；SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to ca…",
-      "references": []
-    },
-    {
-      "title": "When Self-Consistency Backfires: Majority Vote Hurts the Majority of Hard Science Problems for Small LLMs",
-      "summary": "arXiv:2608.11403v2 Announce Type: replace-cross Abstract: Self-consistency via majority vote reduces per-problem accura…；When Self-Consistency Backfires: Majority Vote Hurts the Majority of Hard Science Problems for Sma…",
-      "references": []
-    },
-    {
-      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-      "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterpri…；OpenAI seeks to one-up Anthropic with new customer privacy protections；OpenAI hit the brakes. Now…",
-      "references": []
-    },
-    {
-      "title": "Offering Zero Data Retention for frontier models",
-      "summary": "Offering Zero Data Retention for frontier models；OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI…；OpenAI on Tuesday revealed that it paused reinforc…",
-      "references": []
-    },
-    {
-      "title": "SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE",
-      "summary": "arXiv:2608.17948v1 Announce Type: cross Abstract: Recent research has leveraged Large Language Models (LLMs) to enhance…；SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE",
-      "references": []
+      "title": "OpenAI 推出前沿模型零数据保留服务并预览私有安全功能",
+      "summary": "OpenAI 在官方博客宣布，为符合条件的 API 客户提供前沿模型的零数据保留（Zero Data Retention）选项，并预览了新的私有安全（Private Safety）功能。此举被视为直接回应 Anthropic 在企业级隐私保护方面的竞争压力。",
+      "references": [
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+        },
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
