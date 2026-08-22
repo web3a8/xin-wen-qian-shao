@@ -1,29 +1,29 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Frontier AI labs still won’t say how they’d contain a rogue model；llm 0.32.1；EP223: Ollama vs vLLM vs SGLang。",
+  "global_brief": "过去24小时的重要动态主要集中在：Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research；llm 0.33；Frontier AI labs still won’t say how they’d contain a rogue model。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5369,
-      "event_count": 97
+      "field_score": 6556,
+      "event_count": 117
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1497,
-      "event_count": 38
+      "field_score": 1427,
+      "event_count": 37
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 726,
+      "field_score": 702,
       "event_count": 18
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 440,
-      "event_count": 9
+      "field_score": 373,
+      "event_count": 8
     },
     {
       "field_key": "finance",
@@ -34,13 +34,18 @@
   ],
   "highlight_facts": [
     {
-      "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
-      "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions abo…；Frontier AI labs still won’t say how they’d contain a rogue model",
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific p…；Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenA…",
       "references": []
     },
     {
-      "title": "llm 0.32.1",
-      "summary": "llm 0.32.1；Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its u…",
+      "title": "llm 0.33",
+      "summary": "llm 0.33；Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP clie…",
+      "references": []
+    },
+    {
+      "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+      "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions abo…；Frontier AI labs still won’t say how they’d contain a rogue model",
       "references": []
     },
     {
@@ -49,13 +54,8 @@
       "references": []
     },
     {
-      "title": "ANTE：原生支持本地 GGUF 的 Coding Agent， Qwen3.6 27B 在 TB 2.1 跑到 56.2%",
-      "summary": "ANTE 一个运行在终端里的 Coding Agent。使用方式类似 Claude Code / Codex，但它从头用 Rust 编写，下载包约 15 MB，解压后是一个没有 Node.js 、Python 等运行时依赖的单文件程…；ANTE：原生支持本地 GGUF 的 Coding Agent， Qwen3.6 27B 在 TB 2.1 跑到 56.2%",
-      "references": []
-    },
-    {
-      "title": "Claude Watermarks AI-Generated Text",
-      "summary": "Article URL: https://magazine.sebastianraschka.com/p/claude-watermarking Comments URL: https://news.ycombinator.com/ite…；Claude Watermarks AI-Generated Text；感觉 Vibe Coding 时代， Windows 系统要凉了",
+      "title": "feat(ui): add a Claude CLI 200K/1M context-window switch to the model…",
+      "summary": "feat(ui): add a Claude CLI 200K/1M context-window switch to the model picker (#127951) Adds a generic plugin-declared s…；feat(ui): add a Claude CLI 200K/1M context-window switch to the model…",
       "references": []
     }
   ],
