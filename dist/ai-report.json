@@ -1,62 +1,81 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Cheap OpenAI-compatible inference for AI agents via x402 ($0.10/1M tokens on Solana + Base)；Anthropic’s best AI model struggles to attract users as cheaper tools thrive；How to test your LLM app for prompt injection: promptfoo vs garak vs Giskard vs PyRIT vs sent…",
+  "global_brief": "AI 智能体工具链成为今日最热领域，多款多智能体协作与编排工具集中发布，同时围绕 AI 安全、模型采用率及知识产权保护的讨论升温。开发者社区正积极探索如何更高效地并行运行多个编码智能体，并关注 AI 带来的新型网络威胁与产业伦理问题。 [FACT] TITLE: 开发者展示单窗口并行运行五个编码智能体的新方案 SUMMARY: 开发者分享了 NestMux 桌面应用，该应用可在同一窗口内并行运行 Claude Code、Codex、Gemini CLI 和 Copilot 等五个编码智能体，旨在提升多智能体协作效率。 SCORE: 84 ART…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5082,
-      "event_count": 99
+      "field_score": 5628,
+      "event_count": 106
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1440,
+      "field_score": 1446,
       "event_count": 38
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 356,
-      "event_count": 8
+      "field_score": 298,
+      "event_count": 7
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 328,
-      "event_count": 8
+      "field_score": 234,
+      "event_count": 6
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 248,
-      "event_count": 5
+      "field_score": 207,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "Cheap OpenAI-compatible inference for AI agents via x402 ($0.10/1M tokens on Solana + Base)",
-      "summary": "Cheap OpenAI-compatible inference for AI agents via x402 ($0.10/1M tokens on Solana + Base)；If you're building an autonomous AI agent, you've probably hit the same wall I did: your bot needs LLM inference, but e…",
-      "references": []
+      "title": "How we run five coding agents side by side in one window",
+      "summary": "How we run five coding agents side by side in one window；I build NestMux, a desktop app that runs Claude Code, Codex, Gemini CLI, Copilot and OpenCode in a grid of real termina…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/eliseomdq/how-we-run-five-coding-agents-side-by-side-in-one-window-32gf"
+        }
+      ]
     },
     {
       "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-      "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive；Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story…",
-      "references": []
+      "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive；Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers…",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t"
+        }
+      ]
     },
     {
-      "title": "How to test your LLM app for prompt injection: promptfoo vs garak vs Giskard vs PyRIT vs sentinel-scan-cli",
-      "summary": "How to test your LLM app for prompt injection: promptfoo vs garak vs Giskard vs PyRIT vs sentinel-scan-cli；If you're shipping anything with an LLM in the request path (a support bot, an agent that calls tools, a RAG pip…",
-      "references": []
+      "title": "fix(release): register focused beta evidence on main (#128391)",
+      "summary": "fix(release): register focused beta evidence on main (#128391)；fix(release): register focused beta evidence on main (#128391) * fix(release): repair frozen beta validation blocker…",
+      "references": [
+        {
+          "source_name": "OpenClaw Commits",
+          "link": "https://github.com/openclaw/openclaw/commit/3d302c58c6e9b069d84357074a71e0f65b001cfa"
+        },
+        {
+          "source_name": "OpenClaw Releases",
+          "link": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fe9a46d218504-1787525305"
+        }
+      ]
     },
     {
-      "title": "英伟达砸 60 亿美元投资 Poolside，意图打造中国开源 AI 竞争对手",
-      "summary": "IT之家 8 月 23 日消息，据《华尔街日报》今天报道，英伟达同意向人工智能初创企业 Poolside 支付 60 亿美元 （IT之家注：现汇率约合 404.58 亿元人民币），换取该公司的 AI 模型软件授权，同时将向该公司 109…；英伟达砸 60 亿美元投资 Poolside，意图打造中国开源 AI 竞争对手",
-      "references": []
-    },
-    {
-      "title": "Model Cascade: making LLM classification cheaper",
-      "summary": "Many LLM workloads are classification tasks. This can get expensive, and I believe it is going to become more and more…；Model Cascade: making LLM classification cheaper",
-      "references": []
+      "title": "Prism Reviewer – Multi-agent AI code reviewer built with LangGraph and LiteLLM",
+      "summary": "Article URL: https://github.com/marketplace/actions/prism-reviewer-ai Comments URL: https://news.ycombinator.com/item?i…；Prism Reviewer – Multi-agent AI code reviewer built with L…",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://github.com/marketplace/actions/prism-reviewer-ai"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
