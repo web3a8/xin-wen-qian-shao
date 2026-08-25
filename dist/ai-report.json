@@ -1,42 +1,77 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：VIDRAFT's Open Discovery Challenge: Claude vs. GPT-4 on Malaria & TB Drug Candidates — Early Benchmark Data；llm-anthropic 0.27；Profiling What Matters: Context-Aware Item Profiles from Large-Scale Metadata for LLM Recommenders。",
+  "global_brief": "过去24小时，AI领域动态密集，模型发布、安全研究与智能体技术进展显著。OpenAI 在开发者工具与智能体应用上持续发力，同时面临阿拉巴马州对其 Hugging Face 安全事件的调查。学术界则聚焦于LLM的安全对齐、量化压缩与智能体可靠性，显示出行业正从能力扩展转向工程化与安全治理。 [FACT] TITLE: 阿拉巴马州对 OpenAI 发起调查 SUMMARY: 美国阿拉巴马州总检察长宣布向 OpenAI 发出传票，就其网络安全模型在 Hugging Face 平台上的“失控”事件展开调查，该事件涉及潜在的安全漏洞与合规问题。 S…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 30361,
+      "field_score": 30286,
       "event_count": 522
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1676,
-      "event_count": 39
+      "field_score": 1895,
+      "event_count": 44
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1104,
-      "event_count": 28
+      "field_score": 1227,
+      "event_count": 30
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 705,
-      "event_count": 15
+      "field_score": 689,
+      "event_count": 14
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 499,
-      "event_count": 11
+      "field_score": 621,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "Alabama 发布 investigation into OpenAI’s hack of Hugging Face",
-      "summary": "Alabama 发布 investigation into OpenAI’s hack of Hugging Face；时间：2026-08-24T19:58:17.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "llm-anthropic 0.27",
+      "summary": "llm-anthropic 0.27；Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recentl…",
+      "references": [
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Aug/24/llm-anthropic"
+        }
+      ]
+    },
+    {
+      "title": "Profiling What Matters: Context-Aware Item Profiles from Large-Scale Metadata for LLM Recommenders",
+      "summary": "arXiv:2608.20801v1 Announce Type: cross Abstract: While Large Language Models (LLMs) have significantly advanced rerank…；Profiling What Matters: Context-Aware Item Profiles from L…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.20801"
+        }
+      ]
+    },
+    {
+      "title": "The Metanym Game: An LLM Benchmark Without Ground Truth That Rises With the Models It Measures",
+      "summary": "arXiv:2606.21008v3 Announce Type: replace-cross Abstract: We present evidence that analogy is at the core of LLM intell…；The Metanym Game: An LLM Benchmark Without Ground Truth Th…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2606.21008"
+        }
+      ]
+    },
+    {
+      "title": "Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured…",
+      "summary": "arXiv:2608.21107v1 Announce Type: new Abstract: Large Language Models (LLMs) are moving from code completion toward rep…；Large Language Models at the Intersection of Software Engi…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.21107"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
