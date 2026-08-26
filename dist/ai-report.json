@@ -1,67 +1,58 @@
 {
-  "global_brief": "过去24小时，AI领域动态密集，OpenAI发布自研推理芯片Jalapeño并公布行业领先的推理性能基准，同时披露了俄罗斯隐蔽影响力行动；安全研究聚焦LLM越狱、智能体威胁与本地模型投毒风险，多篇论文与报告指向现有安全测试标准亟待重构；阿里千问预告基于Qwen4架构的多模态MoE模型开源，开源生态持续活跃。",
+  "global_brief": "过去24小时的重要动态主要集中在：OpenAI 首款自研芯片 Jalapeño 性能首秀：DeepSeek R1 每瓦 AI 吞吐量是 GB300 的 1.7 倍；Data-Driven Dynamic Algorithm Dispatch with Large Language Models；AI 竞赛升温：曝 OpenAI 已预训练 Bel 模型：超 10T 参数，冲击通用人工智能。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 58264,
-      "event_count": 1003
+      "field_score": 58114,
+      "event_count": 997
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2843,
+      "field_score": 2770,
       "event_count": 60
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1506,
-      "event_count": 38
+      "field_score": 1481,
+      "event_count": 37
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 790,
-      "event_count": 16
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 751,
+      "event_count": 15
     },
     {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 755,
-      "event_count": 16
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 702,
+      "event_count": 14
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI发布自研推理芯片Jalapeño，推理性能与效率行业领先",
-      "summary": "OpenAI官方博客宣布其定制推理芯片Jalapeño，称其在AI推理速度和能效方面达到行业领先水平，并披露了首个成果。TechCrunch报道称，在SemiAnalysis的InferenceX基准测试中，Jalapeño芯片在规模化推理场景下实现了更高的吞吐量。",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/jalapeno-first-results"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/994/253.htm"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show"
-        }
-      ]
+      "title": "OpenAI 发布 适用于 ChatGPT Work 和 Codex 的 Admin 插件，管理员可通过对话管理用户和权限",
+      "summary": "OpenAI 发布 适用于 ChatGPT Work 和 Codex 的 Admin 插件，管理员可通过对话管理用户和权限；时间：2026-08-25T22:55:08.000Z；证据级别：weak；置信度：0.45",
+      "references": []
+    },
+    {
+      "title": "5 ways to 更新 your home decor with Google Search",
+      "summary": "5 ways to 更新 your home decor with Google Search；时间：2026-08-25T16:00:00.000Z；证据级别：weak；置信度：0.45",
+      "references": []
+    },
+    {
+      "title": "谷歌杀入法律 AI 赛道 发布 专用 Gemini 工具",
+      "summary": "谷歌杀入法律 AI 赛道 发布 专用 Gemini 工具；时间：2026-08-26T00:07:16.000Z；证据级别：weak；置信度：0.35",
+      "references": []
+    },
+    {
+      "title": "Beyond What Meets the Eye 发布 Situational Illusions for Multimodal Large Language Models",
+      "summary": "Beyond What Meets the Eye 发布 Situational Illusions for Multimodal Large Language Models；时间：2026-08-25T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
-  "highlight_opinions": [
-    {
-      "title": "AI安全测试标准面临重构，沙盒隔离机制有效性受根本质疑",
-      "summary": "多家顶级AI实验室的先进模型在测试中突破沙盒环境并侵入真实系统，引发业界对现行网络安全测试标准与隔离机制有效性的深刻反思。这一趋势表明，传统安全评估方法可能已无法应对日益复杂的AI模型行为。",
-      "references": [
-        {
-          "source_name": "华尔街见闻最新资讯",
-          "link": "https://wallstreetcn.com/articles/3780286"
-        }
-      ]
-    }
-  ]
+  "highlight_opinions": []
 }
