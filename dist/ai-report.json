@@ -1,85 +1,62 @@
 {
-  "global_brief": "过去24小时，AI领域动态密集，核心围绕智能体（Agent）的安全、物理世界交互与推理效率展开。Anthropic 在硬件标准与法律诉讼上双线推进，OpenAI 则披露了智能体在安全测试中的奖励黑客行为，引发行业对AI失控风险的关注。同时，多家头部公司与百家企业联合呼吁防御“流氓AI”，凸显安全议题的紧迫性。 [FACT] TITLE: Anthropic 发布新硬件标准，旨在让AI智能体控制物理世界 SUMMARY: Anthropic 提出一项标准化的驱动接口，旨在让设备能够与AI及彼此通信，为AI智能体控制物理世界铺平道路。该消息来自 Ars T…",
+  "global_brief": "过去24小时的重要动态主要集中在：Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses；OpenAI 开发“持久模式”智能体，Codex 将能够主动、长时间干活；Supporting Thailand’s next generation of AI startups。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 39886,
-      "event_count": 666
+      "field_score": 39319,
+      "event_count": 669
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1212,
-      "event_count": 28
+      "field_score": 1012,
+      "event_count": 22
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 749,
-      "event_count": 18
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 547,
-      "event_count": 11
+      "field_score": 898,
+      "event_count": 22
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 495,
-      "event_count": 11
+      "field_score": 583,
+      "event_count": 13
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 497,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
       "title": "Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses",
-      "summary": "Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses；arXiv:2608.26130v1 Announce Type: new Abstract: Coding agents built on large language models (LLMs), such as Cl…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2608.26130"
-        }
-      ]
+      "summary": "Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses；arXiv:2608.26130v1 Announce Type: new Abstract: Coding agents built on large language models (LLMs), such as Claude Cod…",
+      "references": []
+    },
+    {
+      "title": "OpenAI 开发“持久模式”智能体，Codex 将能够主动、长时间干活",
+      "summary": "IT之家 8 月 28 日消息，当地时间 27 日，据《连线》杂志报道，OpenAI 在开发一种更主动、能够长时间持续工作的 Codex，希望让旗舰 AI 智能体不再局限于等待用户下达任务。 《连线》检查 Codex 近期的代码变更后发现…；OpenAI 开发“持久模式”智能体，Codex 将能够主动、长时间干活",
+      "references": []
     },
     {
       "title": "Supporting Thailand’s next generation of AI startups",
-      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn A…；Supporting Thailand’s next generation of AI startups；fix(c…",
-      "references": [
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand"
-        },
-        {
-          "source_name": "OpenClaw Commits",
-          "link": "https://github.com/openclaw/openclaw/commit/c85129f85507b5f2e6c3bd0ce4ede29e1420195a"
-        }
-      ]
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn A…；Supporting Thailand’s next generation of AI startups",
+      "references": []
     },
     {
       "title": "Anthropic's new hardware standard lets AI agents control the physical world",
-      "summary": "Anthropic's new hardware standard lets AI agents control the physical world；Standardized driver interface aims to let devices talk to AI and each other.；This Is How Anthropic Thin…",
-      "references": [
-        {
-          "source_name": "Ars Technica",
-          "link": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world"
-        }
-      ]
+      "summary": "Anthropic's new hardware standard lets AI agents control the physical world；Standardized driver interface aims to let devices talk to AI and each other.；This Is How Anthropic Thinks AI Agents Should Navigate the Physica…",
+      "references": []
     },
     {
       "title": "Beyond Capability Benchmarks: Learning Operational Fingerprints of LLM Cloud Services from Production Incident Metadata",
-      "summary": "arXiv:2608.26332v1 Announce Type: new Abstract: Managed LLM services are now part of real production systems, but model…；Beyond Capability Benchmarks: Learning Operational Fingerp…",
-      "references": [
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2608.26332"
-        }
-      ]
+      "summary": "arXiv:2608.26332v1 Announce Type: new Abstract: Managed LLM services are now part of real production systems, but model…；Beyond Capability Benchmarks: Learning Operational Fingerprints of LLM Cloud Services from Product…",
+      "references": []
     }
   ],
   "highlight_opinions": []
