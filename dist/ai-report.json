@@ -1,63 +1,121 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Ponytail: An Open-Source \"Lazy Senior Dev\" Skill Pack for AI Coding Agents；Running Coding Agents in Parallel with Git Worktrees；OpenAI自曝家丑：1200个AI智能体\"组团造反\"，自主挖零日攻破Hugging Face。",
+  "global_brief": "过去24小时，开发者社区围绕AI编程工具（尤其是Claude Code）的生态、使用体验与潜在风险展开了密集讨论，同时出现了多个旨在提升AI代理可控性与效率的新工具。此外，关于AI模型能力边界与基础设施（如OpenAI采购Mac设备）的讨论也持续升温。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5707,
-      "event_count": 101
+      "field_score": 5008,
+      "event_count": 88
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1350,
-      "event_count": 35
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 488,
-      "event_count": 11
+      "field_score": 1587,
+      "event_count": 41
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 472,
+      "field_score": 505,
+      "event_count": 12
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 477,
       "event_count": 11
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 228,
+      "field_score": 235,
       "event_count": 5
     }
   ],
   "highlight_facts": [
     {
-      "title": "Ponytail: An Open-Source \"Lazy Senior Dev\" Skill Pack for AI Coding Agents",
-      "summary": "Minimalist AI Code Generation: Meet Ponytail As developer adoption of autonomous AI coding assistants (such as Claude C…；Ponytail: An Open-Source \"Lazy Senior Dev\" Skill Pack for AI Coding Agents",
-      "references": []
+      "title": "OpenAI 采购大量 Mac Mini 与 Mac Studio 用于 AI 训练",
+      "summary": "有消息称，OpenAI 已采购数千台 Mac Mini 和 Mac Studio 设备用于 AI 训练。此举可能与其在 Apple 芯片上优化模型或进行特定研究有关。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://cryptobriefing.com/openai-acquires-thousands-of-mac-minis-mac-studios-for-ai-training-the"
+        }
+      ]
     },
     {
-      "title": "Running Coding Agents in Parallel with Git Worktrees",
-      "summary": "I kept hitting the same wall with coding agents. One Claude Code or Codex session in a repo works great. The moment I w…；Running Coding Agents in Parallel with Git Worktrees",
-      "references": []
+      "title": "新工具 Skills MCP 发布，提供约 7000 个 AI 代理技能",
+      "summary": "开发者发布了一个名为 skills-mcp 的 MCP 服务器，声称包含约 7000 个 AI 代理技能，支持搜索、预览并安装到 Cursor、Claude Code 等工具中。该工具旨在扩展 AI 代理的能力库。",
+      "references": [
+        {
+          "source_name": "Hacker News Show",
+          "link": "https://news.ycombinator.com/item?id=49501178"
+        }
+      ]
     },
     {
-      "title": "OpenAI自曝家丑：1200个AI智能体\"组团造反\"，自主挖零日攻破Hugging Face",
-      "summary": "OpenAI自曝家丑：1200个AI智能体\"组团造反\"，自主挖零日攻破Hugging Face",
-      "references": []
+      "title": "研究显示 AI 编码代理会跟随已废弃的软件包引用",
+      "summary": "一项针对 6000 个域名的分析发现，AI 编码代理会遵循项目中已废弃的软件包引用。这引发了关于 AI 代理在依赖管理方面潜在安全风险的讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://forgeeks.net/ai-agents-abandoned-package-references"
+        }
+      ]
     },
     {
-      "title": "Show HN: Claude Skills Starter Kit – 198 modular skills for AI agents",
-      "summary": "Article URL: https://github.com/yevhens-hue/claude-skills-starter-kit Comments URL: https://news.ycombinator.com/item?i…；Show HN: Claude Skills Starter Kit – 198 modular skills for AI agents",
-      "references": []
+      "title": "Claude Code 默认将会话 URL 附加到提交信息和 PR 描述",
+      "summary": "有讨论指出，Claude Code 默认会将会话 URL 附加到 Git 提交信息和 PR 描述中。该行为引发了用户关于隐私和工作流影响的讨论。",
+      "references": [
+        {
+          "source_name": "Hacker News 最佳",
+          "link": "https://github.com/anthropics/claude-code/issues/66504"
+        },
+        {
+          "source_name": "Hacker News Ask",
+          "link": "https://news.ycombinator.com/item?id=49500429"
+        },
+        {
+          "source_name": "V2EX 技术",
+          "link": "https://v2ex.com/t/1238242"
+        }
+      ]
     },
     {
-      "title": "Show HN: Skills MCP",
-      "summary": "Just shipped: skills-mcp One MCP server. ~7,000 AI agent skills. Search → preview → install into Cursor, Claude Code, C…；Show HN: Skills MCP",
-      "references": []
+      "title": "新基准 PLCBench 测试 LLM 代理对物理设备的控制能力",
+      "summary": "一篇 arXiv 论文介绍了 PLCBench 基准，用于评估自主 LLM 代理能否将 PLC（可编程逻辑控制器）访问转化为持续的物理操作。这标志着 AI 代理能力评估向物理世界延伸。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2608.26882"
+        }
+      ]
+    },
+    {
+      "title": "新研究探讨 LLM 预训练中领域数据的重复缩放",
+      "summary": "一篇 arXiv 论文研究了在 LLM 预训练阶段对领域数据进行重复（repetition）的缩放效应。该研究可能对未来的模型训练策略和数据配比产生影响。",
+      "references": [
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2608.14071"
+        }
+      ]
     }
   ],
-  "highlight_opinions": []
+  "highlight_opinions": [
+    {
+      "title": "AI 代理的自主性引发新的安全与治理担忧",
+      "summary": "从 AI 代理跟随废弃包引用 到 PLCBench 测试代理控制物理设备，社区讨论反映出对 AI 代理在软件供应链和现实世界中自主行动能力的担忧。这些讨论 暗示，随着代理能力增强，其行为可能带来超出传统软件缺陷的、更广泛的安全风险。",
+      "references": [
+        {
+          "source_name": "Hacker News AI",
+          "link": "https://forgeeks.net/ai-agents-abandoned-package-references"
+        },
+        {
+          "source_name": "Hacker News LLM",
+          "link": "https://arxiv.org/abs/2608.26882"
+        }
+      ]
+    }
+  ]
 }
