@@ -1,23 +1,23 @@
 {
-  "global_brief": "过去24小时，AI领域研究热度持续高涨，重点集中在多模态大模型（MLLM）的评测基准、推理效率优化以及智能体（Agent）的安全与对齐。开源模型与低资源语言模型成为重要关注点，同时美国国防领域引入商用AI模型也引发关注。",
+  "global_brief": "过去24小时，AI领域研究热度持续高涨，重点集中在多模态大模型（MLLM）的能力评估、安全性与推理效率优化上。同时，开源模型与智能体（Agent）技术成为研究与应用的双重焦点，并出现向垂直领域（如教育、金融、生物）渗透的趋势。值得关注的是，美国国防部正式引入商业AI模型，标志着大模型在关键行业的应用进入新阶段。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 76443,
-      "event_count": 1299
+      "field_score": 77565,
+      "event_count": 1314
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2688,
-      "event_count": 59
+      "field_score": 2499,
+      "event_count": 54
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1921,
-      "event_count": 47
+      "field_score": 1801,
+      "event_count": 44
     },
     {
       "field_key": "world",
@@ -28,30 +28,26 @@
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 923,
+      "field_score": 921,
       "event_count": 19
     }
   ],
   "highlight_facts": [
     {
-      "title": "SinLlama：面向僧伽罗语的开源大语言模型发布",
-      "summary": "一项研究发布了SinLlama，一个针对低资源语言僧伽罗语的大语言模型，基于8B参数架构，并包含270M参数的特定组件，旨在改善低资源语言在开源生态中的覆盖。",
+      "title": "美国国防部部署商业AI模型",
+      "summary": "据TechCrunch报道，美国五角大楼已拥有其专属版本的ChatGPT和Grok，这些模型将加入谷歌Gemini，共同部署于国防部系统。",
       "references": [
         {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2508.09115"
-        },
-        {
-          "source_name": "arXiv 机器学习",
-          "link": "https://arxiv.org/abs/2606.08051"
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok"
         }
       ]
     }
   ],
   "highlight_opinions": [
     {
-      "title": "推理效率与量化成为LLM部署的核心竞争点",
-      "summary": "多篇研究（如Kascade、SemKV、FAMPWQ）同时聚焦于长上下文推理中的稀疏注意力、KV缓存量化与权重量化，表明在模型规模增长趋缓后，提升推理效率与降低部署成本已成为该领域最活跃的优化方向。",
+      "title": "推理效率与安全性成为LLM研究双主线",
+      "summary": "从多项研究（如Kascade、SemKV、FAMPWQ）可以看出，社区正集中攻克长上下文推理的算力与内存瓶颈；同时，MUSE、SGM等安全评估与对齐工作也密集出现，表明在模型能力快速提升后，可靠性与可控性正成为下一阶段竞争的关键。",
       "references": [
         {
           "source_name": "arXiv 机器学习",
@@ -64,6 +60,14 @@
         {
           "source_name": "arXiv 机器学习",
           "link": "https://arxiv.org/abs/2608.24945"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2603.02482"
+        },
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2512.15052"
         }
       ]
     }
