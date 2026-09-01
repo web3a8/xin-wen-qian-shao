@@ -1,47 +1,105 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Path to Astra: critical capabilities and frontier safeguards；SinLlama -- A Large Language Model for Sinhala；Gurukul AI: An Interactive AI-Driven Educational Platform for Indian Education System。",
+  "global_brief": "过去24小时，AI领域动态密集，核心焦点集中在两大模型发布与安全争议上：OpenAI因Hugging Face安全事件推迟新模型开发，而Anthropic则推出更便宜、限制更少的Claude Fable 5.1系列。同时，AI在医疗、创意工具和智能体领域的应用加速落地，多篇学术研究聚焦于推理效率、安全评估与多模态能力。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 77209,
-      "event_count": 1344
+      "field_score": 76966,
+      "event_count": 1340
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 2577,
-      "event_count": 55
+      "field_score": 2213,
+      "event_count": 46
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1513,
-      "event_count": 39
+      "field_score": 1384,
+      "event_count": 36
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 1143,
-      "event_count": 23
+      "field_score": 1180,
+      "event_count": 24
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 850,
-      "event_count": 18
+      "field_score": 815,
+      "event_count": 17
     }
   ],
   "highlight_facts": [
     {
-      "title": "Sequoia-incubated Empirik 发布 with $21M to predict outages before they happen",
-      "summary": "Sequoia-incubated Empirik 发布 with $21M to predict outages before they happen；关键数值：21M；时间：2026-09-01T16:31:04.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "summary": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development o…；OpenAI delayed its new model’s development after the Huggi…",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems"
+        },
+        {
+          "source_name": "OpenAI 博客",
+          "link": "https://openai.com/index/path-to-astra"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities"
+        }
+      ]
     },
     {
-      "title": "Anthropic’s new Fable 发布 is cheaper, less restrictive",
-      "summary": "Anthropic’s new Fable 发布 is cheaper, less restrictive；时间：2026-09-01T19:39:22.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
+      "summary": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work；Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms…",
+      "references": [
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1"
+        },
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive"
+        },
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/997/193.htm"
+        },
+        {
+          "source_name": "华尔街见闻最新资讯",
+          "link": "https://wallstreetcn.com/articles/3780853"
+        }
+      ]
+    },
+    {
+      "title": "SinLlama -- A Large Language Model for Sinhala",
+      "summary": "arXiv:2508.09115v5 Announce Type: replace Abstract: Low-resource languages such as Sinhala are often overlooked by open…；SinLlama -- A Large Language Model for Sinhala；arXiv:2606.…",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2508.09115"
+        },
+        {
+          "source_name": "arXiv 机器学习",
+          "link": "https://arxiv.org/abs/2606.08051"
+        }
+      ]
+    },
+    {
+      "title": "Gurukul AI: An Interactive AI-Driven Educational Platform for Indian Education System",
+      "summary": "arXiv:2608.28611v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) like ChatGPT and LLaMA…；Gurukul AI: An Interactive AI-Driven Educational Platform f…",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2608.28611"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
