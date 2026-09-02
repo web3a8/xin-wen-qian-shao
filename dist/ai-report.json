@@ -1,109 +1,52 @@
 {
-  "global_brief": "过去24小时，AI领域竞争白热化，OpenAI、谷歌与Anthropic相继释放重磅信号：OpenAI预告其具备强大网络攻击能力的Astra模型即将发布，并获美国政府支持其版权训练立场；谷歌则低调上线Gemini 3.8 Flash模型。与此同时，针对AI编程助手的安全漏洞研究浮出水面，显示恶意配置文件可劫持主流AI代理执行任意代码，安全风险与模型迭代同步加速。 [FACT] TITLE: 恶意.git配置可致Claude、Codex、Cursor等AI代理执行攻击者代码 SUMMARY: Manifold Security披露了七个命令行工具中的八个…",
+  "global_brief": "过去24小时的重要动态主要集中在：Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs；Google releases Gemini 3.8 Flash, its third Flash model in six weeks；Malicious.git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 46293,
-      "event_count": 785
+      "field_score": 46295,
+      "event_count": 783
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1357,
-      "event_count": 29
+      "field_score": 1249,
+      "event_count": 28
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1142,
-      "event_count": 28
+      "field_score": 1027,
+      "event_count": 26
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 610,
-      "event_count": 12
+      "field_score": 648,
+      "event_count": 13
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 518,
-      "event_count": 9
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 541,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
-      "summary": "Malicious.git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code；Manifold Security has disclosed eight security flaws across seven command-line AI codi…",
-      "references": [
-        {
-          "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html"
-        }
-      ]
+      "title": "Google, Anthropic, and OpenAI 发布 Cyber AI Models, Safeguards, and Access Programs",
+      "summary": "Google, Anthropic, and OpenAI 发布 Cyber AI Models, Safeguards, and Access Programs；时间：2026-09-02T18:27:49.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
-      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.；OpenAI’s Astra model is on the way — and very good at breaking into…",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety"
-        },
-        {
-          "source_name": "Wired",
-          "link": "https://wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities"
-        }
-      ]
+      "title": "Google 发布 Gemini 3.8 Flash, its third Flash model in six weeks",
+      "summary": "Google 发布 Gemini 3.8 Flash, its third Flash model in six weeks；时间：2026-09-02T18:13:54.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-      "summary": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence indu…；US government sides with OpenAI on issue of training LLMs…",
-      "references": [
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit"
-        },
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/997/653.htm"
-        },
-        {
-          "source_name": "garymarcus.substack.com",
-          "link": "https://garymarcus.substack.com/p/red-alert-openai-is-poised-to-cross"
-        }
-      ]
-    },
-    {
-      "title": "谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景",
-      "summary": "IT之家 9 月 2 日消息，谷歌今天（2 日）在 Google DeepMind 网站低调上线了 Gemini 3.8 Flash 模型。其基于 Gemini 3.7 Flash，拥有在软件工程和智能体知识工作流方面的性能提升，并持续支…；谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景；Gemini 3.8 Flash…",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/997/702.htm"
-        },
-        {
-          "source_name": "Vercel Blog",
-          "link": "https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai-gateway"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/09/02/enhanced-geothermal-notches-another-win-as-google-buys-400-mw-from-fervo"
-        },
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/policy/988316/google-ad-tech-antitrust-remedies-decision"
-        }
-      ]
+      "title": "Meta 发布 更强大AI模型，声称进一步缩小了与竞争对手差距",
+      "summary": "Meta 发布 更强大AI模型，声称进一步缩小了与竞争对手差距；时间：2026-09-02T20:35:54.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
   "highlight_opinions": []
