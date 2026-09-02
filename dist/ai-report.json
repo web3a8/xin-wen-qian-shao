@@ -1,52 +1,81 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：OpenAI’s Astra model is on the way — and very good at breaking into computer systems；PersianAnonymizer: Evaluating LLM-Labeled Training for Efficient NER-based Anonymization in Persian；In-Context Neurofeedback: Can LLMs Control Their Internal Representations thr…",
+  "global_brief": "[GLOBAL_BRIEF] 过去24小时，AI领域竞争白热化，OpenAI、谷歌与Anthropic相继释放新一代模型信号，其中OpenAI Astra模型被曝具备“关键性”网络攻击能力，引发安全担忧。同时，针对AI编程代理（如Claude Code、Codex）的安全漏洞研究成为焦点，揭示出开源生态与工具链的潜在风险。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 46955,
-      "event_count": 777
+      "field_score": 46814,
+      "event_count": 774
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1562,
-      "event_count": 35
+      "field_score": 1641,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1278,
-      "event_count": 32
+      "field_score": 1012,
+      "event_count": 25
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 727,
+      "field_score": 726,
       "event_count": 14
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 536,
-      "event_count": 9
+      "field_score": 614,
+      "event_count": 11
     }
   ],
   "highlight_facts": [
     {
-      "title": "The latest AI news we 发布 in August 2026",
-      "summary": "The latest AI news we 发布 in August 2026；时间：2026-09-01T20:45:00.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "summary": "Malicious.git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code；Manifold Security has disclosed eight security flaws across seven command-line AI codi…",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html"
+        }
+      ]
     },
     {
-      "title": "Anthropic’s new Fable 发布 is cheaper, less restrictive",
-      "summary": "Anthropic’s new Fable 发布 is cheaper, less restrictive；时间：2026-09-01T19:39:22.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "Claude Fable 5.1 กับ Mythos 5.1, โมเดลเดียวกันที่ต่างกันแค่ 'การ์ดป้องกัน'",
+      "summary": "Claude Fable 5.1 กับ Mythos 5.1, โมเดลเดียวกันที่ต่างกันแค่ \"การ์ดป้องกัน\" โดย Nokka (นก-กา), นักเขียนอิสระสายเทคโนโลยี…；Claude Fable 5.1 กับ Mythos 5.1, โมเดลเดียวกันที่ต่างกันแค…",
+      "references": [
+        {
+          "source_name": "Dev.to",
+          "link": "https://dev.to/sarantoon/claude-fable-51-kab-mythos-51-omedlediiywkanthiitaangkanaekh-kaardpngkan-3jg5"
+        }
+      ]
     },
     {
-      "title": "TRU: Targeted Reverse 更新 for Efficient Multimodal Recommendation Unlearning",
-      "summary": "TRU: Targeted Reverse 更新 for Efficient Multimodal Recommendation Unlearning；时间：2026-09-02T04:00:00.000Z；证据级别：weak；置信度：0.35",
-      "references": []
+      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
+      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.；OpenAI’s Astra model is on the way — and very good at breaking into…",
+      "references": [
+        {
+          "source_name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems"
+        },
+        {
+          "source_name": "Wired",
+          "link": "https://wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities"
+        }
+      ]
+    },
+    {
+      "title": "PersianAnonymizer: Evaluating LLM-Labeled Training for Efficient NER-based Anonymization in Persian",
+      "summary": "arXiv:2609.00958v1 Announce Type: new Abstract: We target practical anonymization of Persian customer chats by training…；PersianAnonymizer: Evaluating LLM-Labeled Training for Eff…",
+      "references": [
+        {
+          "source_name": "arXiv NLP",
+          "link": "https://arxiv.org/abs/2609.00958"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
