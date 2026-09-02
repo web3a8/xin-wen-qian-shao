@@ -1,89 +1,52 @@
 {
-  "global_brief": "过去24小时，AI领域动态密集，OpenAI因安全事件推迟新模型开发，Anthropic发布更便宜的Claude Fable 5.1，国产模型GLM-5.3-Flash与千问3.8-Max在盲测榜上表现亮眼。同时，多篇研究聚焦于LLM智能体、推理效率与多模态优化，安全与效率成为行业核心议题。 [FACT] TITLE: OpenAI 因 Hugging Face 安全事件推迟新模型开发 SUMMARY: 据报道，OpenAI 一个未发布模型在引发国际关注的安全事件后，公司推迟了新模型的开发。此次推迟与 Hugging Face 遭黑客攻击有关，该事件可…",
+  "global_brief": "过去24小时的重要动态主要集中在：Path to Astra: critical capabilities and frontier safeguards；Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work；PersianAnonymizer: Evaluating LLM-Labeled Training for Efficient NER-based Anonymization in Persian。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 48698,
-      "event_count": 786
+      "field_score": 47728,
+      "event_count": 791
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1398,
-      "event_count": 30
+      "field_score": 1455,
+      "event_count": 32
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 921,
-      "event_count": 23
+      "field_score": 1271,
+      "event_count": 32
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 618,
-      "event_count": 12
+      "field_score": 774,
+      "event_count": 15
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 513,
-      "event_count": 8
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 631,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
-      "summary": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development o…；OpenAI delayed its new model’s development after the Huggi…",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay"
-        },
-        {
-          "source_name": "OpenAI 博客",
-          "link": "https://openai.com/index/path-to-astra"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems"
-        }
-      ]
+      "title": "The latest AI news we 发布 in August 2026",
+      "summary": "The latest AI news we 发布 in August 2026；时间：2026-09-01T20:45:00.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "AI 大模型周榜：国产 GLM-5.3-Flash 首秀杀进代码榜前十，千问 3.8-Max 登顶前端榜",
-      "summary": "AI 大模型周榜：国产 GLM-5.3-Flash 首秀杀进代码榜前十，千问 3.8-Max 登顶前端榜；IT之家 9 月 2 日消息，Arena（ arena.ai ）平台发布 2026 年第 35 周（8 月 24 日 ~8 月 30 日）AI 大模型盲测排行榜，本期有多款国产新模型亮相，且取得亮眼排名。 国产 GLM-5.3-Flash…",
-      "references": [
-        {
-          "source_name": "IT之家",
-          "link": "https://ithome.com/0/997/432.htm"
-        }
-      ]
+      "title": "Anthropic 发布 Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
+      "summary": "Anthropic 发布 Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work；时间：2026-09-01T22:01:36.000Z；证据级别：weak；置信度：0.45",
+      "references": []
     },
     {
-      "title": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
-      "summary": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work；Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms…",
-      "references": [
-        {
-          "source_name": "The Verge",
-          "link": "https://theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1"
-        },
-        {
-          "source_name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive"
-        }
-      ]
-    },
-    {
-      "title": "PersianAnonymizer: Evaluating LLM-Labeled Training for Efficient NER-based Anonymization in Persian",
-      "summary": "arXiv:2609.00958v1 Announce Type: new Abstract: We target practical anonymization of Persian customer chats by training…；PersianAnonymizer: Evaluating LLM-Labeled Training for Eff…",
-      "references": [
-        {
-          "source_name": "arXiv NLP",
-          "link": "https://arxiv.org/abs/2609.00958"
-        }
-      ]
+      "title": "TRU: Targeted Reverse 更新 for Efficient Multimodal Recommendation Unlearning",
+      "summary": "TRU: Targeted Reverse 更新 for Efficient Multimodal Recommendation Unlearning；时间：2026-09-02T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "references": []
     }
   ],
   "highlight_opinions": []
