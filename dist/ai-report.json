@@ -1,29 +1,29 @@
 {
-  "global_brief": "过去24小时，AI领域动态密集：谷歌六周内发布第三款Flash模型并推出网络安全专用模型，同时OpenAI、Anthropic与谷歌联合公布网络AI模型与安全措施；安全研究揭示恶意.git配置可劫持主流AI编程助手执行任意代码；美国政府就版权训练材料问题表态支持OpenAI立场。此外，多篇arXiv研究聚焦LLM智能体长期退化、多模态安全漂移及模型压缩等议题。",
+  "global_brief": "过去24小时，AI领域动态密集：Google发布Gemini 3.8 Flash系列模型并联合Anthropic、OpenAI推出网络安全AI模型；同时，针对AI代理的供应链攻击研究、美国政府支持OpenAI版权诉讼立场等事件引发广泛关注。多篇arXiv研究聚焦于LLM的量化压缩、代理长期性能衰减及多模态安全等前沿议题。 [FACT] TITLE: Google发布Gemini 3.8 Flash，六周内第三款Flash模型 SUMMARY: Google于本周发布Gemini 3.8 Flash模型，这是其在六周内推出的第三款Flash系列模型，而P…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 35867,
-      "event_count": 601
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 1579,
-      "event_count": 37
+      "field_score": 36319,
+      "event_count": 609
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1472,
-      "event_count": 36
+      "field_score": 1393,
+      "event_count": 34
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 1321,
+      "event_count": 31
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 620,
-      "event_count": 12
+      "field_score": 705,
+      "event_count": 14
     },
     {
       "field_key": "world",
@@ -34,8 +34,18 @@
   ],
   "highlight_facts": [
     {
-      "title": "谷歌发布Gemini 3.8 Flash，六周内第三款Flash模型",
-      "summary": "谷歌发布Gemini 3.8 Flash，这是其在六周内推出的第三款Flash系列模型，而Pro系列模型的更新似乎处于暂停状态。该消息被多来源报道。",
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "summary": "Malicious.git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code；Manifold Security has disclosed eight security flaws across seven command-line AI codi…",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html"
+        }
+      ]
+    },
+    {
+      "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+      "summary": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks；Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.；llm-gemini 0.34",
       "references": [
         {
           "source_name": "Ars Technica",
@@ -54,18 +64,27 @@
           "link": "https://ifanr.com/1678222"
         }
       ]
-    }
-  ],
-  "highlight_opinions": [
+    },
     {
-      "title": "AI编程助手供应链安全风险凸显",
-      "summary": "针对Claude、Codex、Cursor等主流AI编程助手的攻击面正在扩大，恶意仓库配置可成为攻击载体。随着AI代理自主性增强，开发者在引入第三方代码或配置时面临新的供应链安全挑战，这需要从工具链和开发流程层面共同应对。",
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "summary": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and h…；Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safe…",
       "references": [
         {
           "source_name": "The Hacker News",
-          "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html"
+          "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html"
+        }
+      ]
+    },
+    {
+      "title": "GPTKB 2.0: Browsing, Querying, and Auditing a Disambiguated LLM-Derived Knowledge Base",
+      "summary": "arXiv:2608.06992v2 Announce Type: replace-cross Abstract: We present a web demo for exploring a large-scale disambiguat…；GPTKB 2.0: Browsing, Querying, and Auditing a Disambiguate…",
+      "references": [
+        {
+          "source_name": "arXiv AI",
+          "link": "https://arxiv.org/abs/2608.06992"
         }
       ]
     }
-  ]
+  ],
+  "highlight_opinions": []
 }
