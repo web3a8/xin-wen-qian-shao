@@ -1,52 +1,89 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Meta 发布最强 AI 模型 Muse Spark 1.3，编码能力超 GPT-5.6 Sol；Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs；Malicious.git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code。",
+  "global_brief": "过去24小时，AI领域竞争白热化，Meta与Google相继发布重磅新模型，同时AI智能体安全风险成为焦点，多家厂商同步推出网络安全模型与防护机制。此外，美国政府首次在版权诉讼中明确支持OpenAI，为AI训练数据的法律边界带来重大变数。 [FACT] TITLE: Meta发布迄今最强AI模型Muse Spark 1.3，编码能力超越GPT-5.6 Sol SUMMARY: Meta于9月2日发布Muse Spark 1.3，官方称其为迄今最强大模型，专为延长智能体工作流与增强编码能力设计，其编码能力已超越GPT-5.6 Sol（IT之家，S1）。…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 46453,
-      "event_count": 786
+      "field_score": 44114,
+      "event_count": 753
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1308,
-      "event_count": 29
+      "field_score": 1254,
+      "event_count": 28
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1119,
-      "event_count": 27
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 610,
-      "event_count": 12
+      "field_score": 1019,
+      "event_count": 25
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 604,
-      "event_count": 12
+      "field_score": 644,
+      "event_count": 13
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 516,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "Google, Anthropic, and OpenAI 发布 Cyber AI Models, Safeguards, and Access Programs",
-      "summary": "Google, Anthropic, and OpenAI 发布 Cyber AI Models, Safeguards, and Access Programs；时间：2026-09-02T18:27:49.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "Meta 发布最强 AI 模型 Muse Spark 1.3，编码能力超 GPT-5.6 Sol",
+      "summary": "IT之家 9 月 3 日消息，Meta Platforms 于 2026 年 9 月 2 日发布迄今最强大 AI 模型 Muse Spark 1.3，专为延长智能体工作流与增强编码能力设计。 Meta 首席 AI 官 Alexandr W…；Meta 发布最强 AI 模型 Muse Spark 1.3，编码能力超 GPT-5.6 Sol",
+      "references": [
+        {
+          "source_name": "IT之家",
+          "link": "https://ithome.com/0/997/728.htm"
+        }
+      ]
     },
     {
-      "title": "Google 发布 Gemini 3.8 Flash, its third Flash model in six weeks",
-      "summary": "Google 发布 Gemini 3.8 Flash, its third Flash model in six weeks；关键数值：50.98万；时间：2026-09-02T18:13:54.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+      "summary": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks；Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.；llm-gemini 0.34",
+      "references": [
+        {
+          "source_name": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks"
+        },
+        {
+          "source_name": "Simon Willison's Blog",
+          "link": "https://simonwillison.net/2026/Sep/2/llm-gemini"
+        },
+        {
+          "source_name": "少数派",
+          "link": "https://sspai.com/post/114113"
+        },
+        {
+          "source_name": "The Verge",
+          "link": "https://theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
+        }
+      ]
     },
     {
-      "title": "Meta 发布 最强 AI 模型 Muse Spark 1.3，编码能力超 GPT-5.6 Sol",
-      "summary": "Meta 发布 最强 AI 模型 Muse Spark 1.3，编码能力超 GPT-5.6 Sol；时间：2026-09-02T23:29:36.000Z；证据级别：weak；置信度：0.45",
-      "references": []
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "summary": "Malicious.git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code；Manifold Security has disclosed eight security flaws across seven command-line AI codi…",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html"
+        }
+      ]
+    },
+    {
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "summary": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and h…；Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safe…",
+      "references": [
+        {
+          "source_name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html"
+        }
+      ]
     }
   ],
   "highlight_opinions": []
