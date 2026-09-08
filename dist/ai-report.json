@@ -1,51 +1,61 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：llm 0.35；Cultural Misalignment in Large Language Models: Detection, Measurement, and Mitigation Through Targeted Fine-Tuning；微信 WeMM-Embedding 多模态模型已在微信大规模使用：覆盖朋友圈搜索等，每天调用量 10 亿次。",
+  "global_brief": "过去24小时的重要动态主要集中在：llm 0.35；WeatherNext 3: Our most advanced global weather AI model；Secure temporary file sharing for AI agents and humans。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 32494,
-      "event_count": 567
+      "field_score": 6804,
+      "event_count": 126
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1143,
-      "event_count": 28
+      "field_score": 1222,
+      "event_count": 30
+    },
+    {
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 521,
+      "event_count": 12
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1140,
-      "event_count": 23
+      "field_score": 485,
+      "event_count": 11
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 401,
-      "event_count": 8
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 375,
+      "field_score": 342,
       "event_count": 7
     }
   ],
   "highlight_facts": [
     {
-      "title": "fix( 发布 ): bind source admission and retain first-hop coverage (#1…",
-      "summary": "fix( 发布 ): bind source admission and retain first-hop coverage (#1…；时间：2026-09-08T02:28:55.000Z；证据级别：strong；置信度：0.90",
+      "title": "llm 0.35",
+      "summary": "llm 0.35；Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra. Tags: openai, llm, gpt-6-astra",
       "references": []
     },
     {
-      "title": "fix(plugins) 发布 resources after runtime inspection (#141780)",
-      "summary": "fix(plugins) 发布 resources after runtime inspection (#141780)；时间：2026-09-08T02:57:25.000Z；证据级别：strong；置信度：0.90",
+      "title": "WeatherNext 3: Our most advanced global weather AI model",
+      "summary": "Article URL: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/ Comme…；WeatherNext 3: Our most advanced global weather AI model",
       "references": []
     },
     {
-      "title": "Molecular D\\'ej\\`a Vu: Digit-Level Retrieval of 发布 Values in Frontier Language Models",
-      "summary": "Molecular D\\'ej\\`a Vu: Digit-Level Retrieval of 发布 Values in Frontier Language Models；时间：2026-09-07T04:00:00.000Z；证据级别：weak；置信度：0.35",
+      "title": "Secure temporary file sharing for AI agents and humans",
+      "summary": "Article URL: https://github.com/aispace-sh/aispace-client Comments URL: https://news.ycombinator.com/item?id=49604280 P…；Secure temporary file sharing for AI agents and humans",
+      "references": []
+    },
+    {
+      "title": "Quire – humans and AI agents editing local Markdown together",
+      "summary": "Article URL: https://github.com/heetdalsania/quire Comments URL: https://news.ycombinator.com/item?id=49603593 Points:…；Quire – humans and AI agents editing local Markdown together",
+      "references": []
+    },
+    {
+      "title": "Lightpanda Session Bridge – Hand real logins to headless AI agents",
+      "summary": "Article URL: https://github.com/Raknaos/lightpanda-session-bridge Comments URL: https://news.ycombinator.com/item?id=49…；Lightpanda Session Bridge – Hand real logins to headless AI agents",
       "references": []
     }
   ],
