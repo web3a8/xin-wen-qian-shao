@@ -1,41 +1,61 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：llm 0.35；DeepSeek V4.1 Flash 中间版本内测：新模型结构，原生多模态支持，更快更强、成本更低；Stealing AI Reasoning Traces。",
+  "global_brief": "过去24小时的重要动态主要集中在：llm 0.35；分析机构 Similarweb：网页端 AI 聊天机器人中 ChatGPT 使用者最多，8 月市场份额回升至 55.5%；perf(copilot): keep model metadata on lightweight SDK exports (#142134)。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 7192,
-      "event_count": 131
+      "field_score": 7784,
+      "event_count": 142
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1465,
-      "event_count": 37
-    },
-    {
-      "field_key": "tech",
-      "field_name": "Tech",
-      "field_score": 564,
-      "event_count": 13
+      "field_score": 1372,
+      "event_count": 34
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 528,
-      "event_count": 12
+      "field_score": 587,
+      "event_count": 13
+    },
+    {
+      "field_key": "tech",
+      "field_name": "Tech",
+      "field_score": 466,
+      "event_count": 11
     },
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 358,
-      "event_count": 7
+      "field_score": 442,
+      "event_count": 9
     }
   ],
   "highlight_facts": [
     {
-      "title": "fix( 发布 ): plugin previews fail with missing tooling dependencies …",
-      "summary": "fix( 发布 ): plugin previews fail with missing tooling dependencies …；时间：2026-09-08T10:45:09.000Z；证据级别：strong；置信度：0.90",
+      "title": "llm 0.35",
+      "summary": "llm 0.35；Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra. Tags: openai, llm, gpt-6-astra",
+      "references": []
+    },
+    {
+      "title": "分析机构 Similarweb：网页端 AI 聊天机器人中 ChatGPT 使用者最多，8 月市场份额回升至 55.5%",
+      "summary": "IT之家 9 月 8 日消息，分析机构 Similarweb 现已公布 2026 年 8 月 AI 聊天机器人网页端流量统计数据，当前 ChatGPT 仍占据 AI 聊天机器人网页端流量主导地位，近期市场份额进一步回升， 从 3 个月前的…；分析机构 Similarweb：网页端 AI 聊天机器人中 ChatGPT 使用者最多，8 月市场份额回升至 55.5%",
+      "references": []
+    },
+    {
+      "title": "perf(copilot): keep model metadata on lightweight SDK exports (#142134)",
+      "summary": "perf(copilot): keep model metadata on lightweight SDK exports (#142134)；release-publish/135d2700e7b6-1788829835: test(release): require completed managed survivor evidence (#141663)；test(update): require completed manag…",
+      "references": []
+    },
+    {
+      "title": "The Work Now Within Reach",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more e…；The Work Now Within Reach",
+      "references": []
+    },
+    {
+      "title": "Stealing AI Reasoning Traces",
+      "summary": "Interesting research: “ Stealing Reasoning Traces from Proprietary LLM APIs “: Abstract: Leading large language model p…；Stealing AI Reasoning Traces",
       "references": []
     }
   ],
