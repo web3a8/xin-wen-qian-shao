@@ -1,41 +1,61 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Perplexity trusts GPT-6 Astra with end-to-end systems；谷歌 DeepMind 安全研究员离职，称 AI 五年内造成巨大危害的概率高得吓人；国内首个国产 GPU + 类脑芯片大模型异构混合推理系统发布，较同类国产 GPU 算力集群性价比提升一倍以上。",
+  "global_brief": "过去24小时的重要动态主要集中在：Perplexity trusts GPT-6 Astra with end-to-end systems；谷歌 DeepMind 安全研究员离职，称 AI 五年内造成巨大危害的概率高得吓人；Claude Code Token Compromise & Hook Hijacking: Auditing CVE-2026-21852。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 5077,
-      "event_count": 90
+      "field_score": 5706,
+      "event_count": 99
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1500,
+      "field_score": 1488,
       "event_count": 38
-    },
-    {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 575,
-      "event_count": 12
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 515,
-      "event_count": 12
+      "field_score": 586,
+      "event_count": 13
     },
     {
-      "field_key": "world",
-      "field_name": "World",
-      "field_score": 135,
-      "event_count": 3
+      "field_key": "devtools",
+      "field_name": "Devtools",
+      "field_score": 416,
+      "event_count": 9
+    },
+    {
+      "field_key": "security",
+      "field_name": "Security",
+      "field_score": 122,
+      "event_count": 2
     }
   ],
   "highlight_facts": [
     {
-      "title": "国内首个国产 GPU + 类脑芯片大模型异构混合推理系统 发布 较同类国产 GPU 算力集群性价比提升一倍以上",
-      "summary": "国内首个国产 GPU + 类脑芯片大模型异构混合推理系统 发布 较同类国产 GPU 算力集群性价比提升一倍以上；时间：2026-09-13T07:32:12.000Z；证据级别：weak；置信度：0.35",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "summary": "Perplexity trusts GPT-6 Astra with end-to-end systems；Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less…；Generating running routes with GPT-6 Astra a…",
+      "references": []
+    },
+    {
+      "title": "谷歌 DeepMind 安全研究员离职，称 AI 五年内造成巨大危害的概率高得吓人",
+      "summary": "IT之家 9 月 13 日消息，谷歌 DeepMind 研究员乔希 · 恩格尔斯（Josh Engels）已离开公司的通用人工智能安全团队，加入独立 AI 评估机构 METR。他表示，自己认为未来五年内 AI 系统造成巨大危害的概率“高得…；谷歌 DeepMind 安全研究员离职，称 AI 五年内造成巨大危害的概率高得吓人",
+      "references": []
+    },
+    {
+      "title": "Claude Code Token Compromise & Hook Hijacking: Auditing CVE-2026-21852",
+      "summary": "Claude Code Token Compromise & Hook Hijacking: Auditing CVE-2026-21852；Original Investigation: This article was originally published with interactive benchmarks and hardware telemetry at Ey…",
+      "references": []
+    },
+    {
+      "title": "Doop ให้ agent วาดดีไซน์บน canvas เดียวกับคุณได้ แต่มีเงื่อนไข",
+      "summary": "Doop ให้ agent วาดดีไซน์บน canvas เดียวกับคุณได้ แต่มีเงื่อนไข；Doop ให้ agent วาดดีไซน์บน canvas เดียวกับคุณได้ แต่มีเงื่อนไข โดย Nokka (นก-กา) | 13 กันยายน 2026 บทความนี้เขียนโดย AI…",
+      "references": []
+    },
+    {
+      "title": "DeepSeek MLA Architecture: How Multi-Head Latent Attention Cuts KV Cache by 93%",
+      "summary": "DeepSeek MLA Architecture: How Multi-Head Latent Attention Cuts KV Cache by 93%；Original Investigation: This article was originally published with interactive benchmarks and hardware telemetry at Ey…",
       "references": []
     }
   ],
