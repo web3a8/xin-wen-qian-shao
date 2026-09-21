@@ -1,56 +1,61 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：llm-keys-ui 0.1；因为 zcodex，做了个局域网 Agent 监护；Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode。",
+  "global_brief": "过去24小时的重要动态主要集中在：How a Cooperative-Override Circuit Suppresses Nash Play in Large Language Models；TashevOS: TashevOS v0.1.0-alpha.1 — Foundation；SignGPT: Toward LLM-Mediated Sign Language Interaction through Gloss-Free Translation and Generation。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 2611,
-      "event_count": 51
+      "field_score": 26268,
+      "event_count": 441
+    },
+    {
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 1356,
+      "event_count": 34
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 417,
-      "event_count": 11
+      "field_score": 1346,
+      "event_count": 29
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 645,
+      "event_count": 12
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 226,
-      "event_count": 5
-    },
-    {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 100,
-      "event_count": 2
-    },
-    {
-      "field_key": "science",
-      "field_name": "Science",
-      "field_score": 43,
-      "event_count": 1
+      "field_score": 598,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
-      "title": "llm-keys-ui 0.1",
-      "summary": "llm-keys-ui 0.1；Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agen…",
+      "title": "How a Cooperative-Override Circuit Suppresses Nash Play in Large Language Models",
+      "summary": "arXiv:2604.27167v3 Announce Type: replace-cross Abstract: On the named Prisoner's Dilemma under direct prompting, three…；How a Cooperative-Override Circuit Suppresses Nash Play in Large Language Models",
       "references": []
     },
     {
-      "title": "因为 zcodex，做了个局域网 Agent 监护",
-      "summary": "https://github.com/s-silt/nmzp-monitor 架构很简单。专用 CT 核心跑在 Node HTTPS （自签证书，不往系统里装根证），被监护机上挂探针； join 只写本机已经存在的宿主目录，不擅自扩权。适…；因为 zcodex，做了个局域网 Agent 监护",
+      "title": "TashevOS: TashevOS v0.1.0-alpha.1 — Foundation",
+      "summary": "TashevOS: TashevOS v0.1.0-alpha.1 — Foundation；TashevOS: TashevOS v0.1.0-alpha.1 — Foundation First public TashevOS alpha. Included: project and Git discovery; AI det…",
       "references": []
     },
     {
-      "title": "Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",
-      "summary": "Article URL: https://github.com/marciob/openmsg Comments URL: https://news.ycombinator.com/item?id=49779581 Points: 2 #…；Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",
+      "title": "SignGPT: Toward LLM-Mediated Sign Language Interaction through Gloss-Free Translation and Generation",
+      "summary": "arXiv:2609.21709v1 Announce Type: new Abstract: Large language models (LLMs) provide limited support for sign language…；SignGPT: Toward LLM-Mediated Sign Language Interaction through Gloss-Free Translation and Generation",
       "references": []
     },
     {
-      "title": "基于机密计算的 LLM 推理商",
-      "summary": "AI 公司对用户隐私可能不太上心，经常有意或无意地爆雷。 Grok Build 上传用户代码库： https://www.v2ex.com/t/1227071 ZCode 仓库数据上传： https://v2ex.com/t/124303…；基于机密计算的 LLM 推理商",
+      "title": "CESBench: Benchmarking Large Language Models on Cryptographic Engineering Security for IoT Devices",
+      "summary": "arXiv:2609.21344v1 Announce Type: cross Abstract: For Internet of Things (IoT) devices, a secure algorithm alone is not…；CESBench: Benchmarking Large Language Models on Cryptographic Engineering Security for IoT Devices",
+      "references": []
+    },
+    {
+      "title": "PolyBridgeBench: Benchmarking Multimodal LLMs for Physics-Grounded Bridge Design",
+      "summary": "arXiv:2609.21493v1 Announce Type: new Abstract: Multimodal large language models, or MLLMs, perform well at visual unde…；PolyBridgeBench: Benchmarking Multimodal LLMs for Physics-Grounded Bridge Design",
       "references": []
     }
   ],
