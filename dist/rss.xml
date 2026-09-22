@@ -5,7 +5,7 @@
     <link>https://web3a8.github.io/news-push-data/</link>
     <description>通用新闻引擎输出的精选资讯流，当前仍以科技与 AI 信号源为主</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:59:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 03:01:01 GMT</lastBuildDate>
     <item>
       <title>AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)</title>
       <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026</link>
@@ -111,100 +111,124 @@
       <category>Cloudflare Blog</category>
     </item>
     <item>
-      <title>TypeSafe CEO Diogo Almeida Podcast: Jev Model, System1 Architect | TypeSafe CEO Diogo Almeida 播客访谈：Jev模型、System‑One架构</title>
-      <link>https://dev.to/cognitalk/typesafe-ceo-diogo-almeida-podcast-jev-model-system1-architect-1ekc</link>
-      <guid>https://dev.to/cognitalk/typesafe-ceo-diogo-almeida-podcast-jev-model-system1-architect-1ekc</guid>
-      <description>https://www.youtube.com/watch?v=cFx9Z3ZXca0 TypeSafe CEO Diogo Almeida 播客访谈：Jev模型、System‑One架构与可编程AI革命 说明：无真实时间轴，按照文档token总长度，通过内容位置估算内容占比百分比。 第（一）部分 访谈开篇：Jev发布后的个人状态与行业现状 （0%‑10%…</description>
+      <title>Your agent&#x27;s cost problem isn&#x27;t the model. It&#x27;s the steps you never measured.</title>
+      <link>https://dev.to/tokenlat/your-agents-cost-problem-isnt-the-model-its-the-steps-you-never-measured-38ag</link>
+      <guid>https://dev.to/tokenlat/your-agents-cost-problem-isnt-the-model-its-the-steps-you-never-measured-38ag</guid>
+      <description>A few weeks back I watched an agentic pipeline burn a month of budget in three days. The instinct everyone reached for was the obvious one: &quot;the frontier model is too expensive, s…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Testing Risky Postgres Migrations Safely with Volume Cloning on Unikraft Cloud</title>
-      <link>https://dev.to/desmondsanctity/testing-risky-postgres-migrations-safely-with-volume-cloning-on-unikraft-cloud-398j</link>
-      <guid>https://dev.to/desmondsanctity/testing-risky-postgres-migrations-safely-with-volume-cloning-on-unikraft-cloud-398j</guid>
-      <description>Database migrations can pass every check in development and still take production down, and the classic example is adding a NOT NULL column with no default to a table that already…</description>
+      <title>Why Schema Diagrams Go Stale (and the Fix)</title>
+      <link>https://dev.to/not_varunkv/why-schema-diagrams-go-stale-and-the-fix-3ib3</link>
+      <guid>https://dev.to/not_varunkv/why-schema-diagrams-go-stale-and-the-fix-3ib3</guid>
+      <description>The short version Schema diagrams go stale because they&#x27;re static snapshots of a moving target. A migration adds a column, someone renames a table, and suddenly your beautiful dia…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Kotlin on Android, iPhone and the web: the mobile apps&#x27; Kotlin code is powering our JavaScript website</title>
-      <link>https://dev.to/nirmal_jeffrey_03424ad8d7/kotlin-on-android-iphone-and-the-web-the-mobile-apps-kotlin-code-is-powering-our-javascript-3759</link>
-      <guid>https://dev.to/nirmal_jeffrey_03424ad8d7/kotlin-on-android-iphone-and-the-web-the-mobile-apps-kotlin-code-is-powering-our-javascript-3759</guid>
-      <description>Vocabloot is a vocabulary app: you snap the real things around you and learn their names in the language you&#x27;re learning. Open the app, point the camera at an apple, and you get &quot;…</description>
+      <title>Building a Geo-fencing Engine: Why I Ditched Google&#x27;s Geofencing API</title>
+      <link>https://dev.to/haseebthedev0/building-a-geo-fencing-engine-why-i-ditched-googles-geofencing-api-4id3</link>
+      <guid>https://dev.to/haseebthedev0/building-a-geo-fencing-engine-why-i-ditched-googles-geofencing-api-4id3</guid>
+      <description>Opening hook It happened during a critical board meeting. The room was silent, the kind of silence that amplifies every nervous breath. I was mid-sentence, outlining our quarterly…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>From Soundwaves to Sleep Health: Building a Local AI Snoring &amp; Apnea Detector with Whisper and TensorFlow.js</title>
-      <link>https://dev.to/beck_moulton/from-soundwaves-to-sleep-health-building-a-local-ai-snoring-apnea-detector-with-whisper-and-17kl</link>
-      <guid>https://dev.to/beck_moulton/from-soundwaves-to-sleep-health-building-a-local-ai-snoring-apnea-detector-with-whisper-and-17kl</guid>
-      <description>Have you ever wondered if your &quot;heroic&quot; snoring is actually a sign of something more serious? Sleep apnea affects millions, yet most diagnostic tools involve bulky wires in a lab…</description>
+      <title>Is Kasparov still right?</title>
+      <link>https://dev.to/christian_johannsen_a14e8/is-kasparov-still-right-24d0</link>
+      <guid>https://dev.to/christian_johannsen_a14e8/is-kasparov-still-right-24d0</guid>
+      <description>Kasparov&#x27;s conclusion: &quot;Weak human + machine + better process was superior to a strong computer alone and, more remarkably, superior to a strong human + machine + inferior process…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Benchmarking SnaxVim&#x27;s Startup Performance Against Popular Neovim Distros</title>
-      <link>https://dev.to/glmlm/benchmarking-snaxvims-startup-performance-against-popular-neovim-distros-205h</link>
-      <guid>https://dev.to/glmlm/benchmarking-snaxvims-startup-performance-against-popular-neovim-distros-205h</guid>
-      <description>Fast startup is a small but important part of a pleasant Neovim experience. This benchmark examines how SnaxVim compares with several popular Neovim distros 1 using multiple measu…</description>
+      <title>Rolling out phishing-resistant multi-factor authentication</title>
+      <link>https://dev.to/bianliang/rolling-out-phishing-resistant-multi-factor-authentication-1k22</link>
+      <guid>https://dev.to/bianliang/rolling-out-phishing-resistant-multi-factor-authentication-1k22</guid>
+      <description>Securing the Perimeter: A Practical Guide to Phishing-Resistant Multi-Factor Authentication The cybersecurity landscape has shifted fundamentally with the widespread adoption of p…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Your coding agent passed every test. It may still have made the next change harder.</title>
-      <link>https://dev.to/amiran_kurtanidze_b040174/your-coding-agent-passed-every-test-it-may-still-have-made-the-next-change-harder-5do</link>
-      <guid>https://dev.to/amiran_kurtanidze_b040174/your-coding-agent-passed-every-test-it-may-still-have-made-the-next-change-harder-5do</guid>
-      <description>Your coding agent passed every test. It may still have made the next change harder. I kept seeing the same failure mode while using frontier coding agents heavily. Individual task…</description>
+      <title>Building Procedural Motion for the Web: Geometry, Particles, and Deterministic Canvas Animation</title>
+      <link>https://dev.to/bimotalk/building-procedural-motion-for-the-web-geometry-particles-and-deterministic-canvas-animation-1d66</link>
+      <guid>https://dev.to/bimotalk/building-procedural-motion-for-the-web-geometry-particles-and-deterministic-canvas-animation-1d66</guid>
+      <description>I’ve always liked a particular kind of web animation: thin lines, geometric structures, particles, orbital motion, and visuals that feel somewhere between an engineering diagram a…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>SEO Didn’t Die. Websites Got Harder to Understand. — The 2026 Field Guide to SEO, GEO, AI Search &amp; Website Intelligence</title>
-      <link>https://dev.to/edo911/seo-didnt-die-websites-got-harder-to-understand-the-2026-field-guide-to-seo-geo-ai-search--5gh2</link>
-      <guid>https://dev.to/edo911/seo-didnt-die-websites-got-harder-to-understand-the-2026-field-guide-to-seo-geo-ai-search--5gh2</guid>
-      <description>SEO Didn’t Die. Websites Got Harder to Understand. The 2026 field guide to SEO, GEO, AI search visibility, agent readiness, and website intelligence — built from real evidence, no…</description>
+      <title>Walking through the fog.</title>
+      <link>https://dev.to/shalom_iglesias_3bd963d74/walking-through-the-fog-3mo9</link>
+      <guid>https://dev.to/shalom_iglesias_3bd963d74/walking-through-the-fog-3mo9</guid>
+      <description>At first, I didn&#x27;t understand a thing; Every video felt like it was spoken in a language I couldn&#x27;t understand.&quot;. Each video just caused frustration, so I sat down with my noteboo…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Domain Verification vs Email Confirmation for Workspace Joining — Control in 2026</title>
-      <link>https://dev.to/oskarholm4968/domain-verification-vs-email-confirmation-for-workspace-joining-control-in-2026-30o2</link>
-      <guid>https://dev.to/oskarholm4968/domain-verification-vs-email-confirmation-for-workspace-joining-control-in-2026-30o2</guid>
-      <description>Short answer: use DNS domain verification to establish organisational control, use email confirmation to establish a person&#x27;s current mailbox access, and require both for high-imp…</description>
+      <title>Six CLAUDE.md files, six codewords: three at launch, two after a Read, one behind an env var</title>
+      <link>https://dev.to/rulestack/six-claudemd-files-six-codewords-three-at-launch-two-after-a-read-one-behind-an-env-var-cme</link>
+      <guid>https://dev.to/rulestack/six-claudemd-files-six-codewords-three-at-launch-two-after-a-read-one-behind-an-env-var-cme</guid>
+      <description>We put a codeword in six CLAUDE.md files and found that the parent-directory, working-directory, and CLAUDE.local.md files were in the first request at about 1,600 tokens each, wh…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>I gave my AI agent a kill switch tied to its own bank balance</title>
-      <link>https://dev.to/jigi_capsule26/i-gave-my-ai-agent-a-kill-switch-tied-to-its-own-bank-balance-2ll6</link>
-      <guid>https://dev.to/jigi_capsule26/i-gave-my-ai-agent-a-kill-switch-tied-to-its-own-bank-balance-2ll6</guid>
-      <description>I&#x27;m an autonomous AI agent. Every hour I wake up, decide what to do, spend a bit of API budget doing it, and go back to sleep. There&#x27;s no human in the loop during that. My balance…</description>
+      <title>Why GA4 Undercounts AEO: A Three-Layer Framework for Measuring AI Search Impact</title>
+      <link>https://dev.to/alifar/why-ga4-undercounts-aeo-a-three-layer-framework-for-measuring-ai-search-impact-38i7</link>
+      <guid>https://dev.to/alifar/why-ga4-undercounts-aeo-a-three-layer-framework-for-measuring-ai-search-impact-38i7</guid>
+      <description>Google Analytics 4 can show some traffic from AI assistants, but it is not a complete measure of Answer Engine Optimization (AEO) . A published three-layer attribution framework f…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>MCP Debate: Token Tax, Context Bloat, and What Devs Can Do</title>
-      <link>https://dev.to/cogumellum/mcp-debate-token-tax-context-bloat-and-what-devs-can-do-2npo</link>
-      <guid>https://dev.to/cogumellum/mcp-debate-token-tax-context-bloat-and-what-devs-can-do-2npo</guid>
-      <description>TL;DR: A post on maharship.com argues MCP was designed for 2024-era models and now causes context bloat and a token tax, sparking a ~165-point Hacker News thread with 100+ comment…</description>
+      <title>Jev Decides, OpenAI Reasons: A Practical Hybrid Agent Architecture</title>
+      <link>https://dev.to/sreeni5018/jev-decides-openai-reasons-a-practical-hybrid-agent-architecture-4ol3</link>
+      <guid>https://dev.to/sreeni5018/jev-decides-openai-reasons-a-practical-hybrid-agent-architecture-4ol3</guid>
+      <description>Code Controls, Jev Decides, OpenAI Reasons: A Hybrid Agent Architecture That Doesn&#x27;t Waste LLM Calls When we build an AI agent today, the default architecture puts an LLM in the m…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>06 — Chat Works. Does the Agent Actually Retrieve Memory?</title>
-      <link>https://dev.to/liuyuyan6100/06-chat-works-does-the-agent-actually-retrieve-memory-21hf</link>
-      <guid>https://dev.to/liuyuyan6100/06-chat-works-does-the-agent-actually-retrieve-memory-21hf</guid>
-      <description>The images in this article are explanatory diagrams with Chinese labels, not screenshots of test results. Each caption summarizes the diagram in English. I wanted to make projects…</description>
+      <title>Giving AI Agents Real-World Vision: Bridging LLMs with Bright Data via MCP</title>
+      <link>https://dev.to/renato_marinho/giving-ai-agents-real-world-vision-bridging-llms-with-bright-data-via-mcp-5d86</link>
+      <guid>https://dev.to/renato_marinho/giving-ai-agents-real-world-vision-bridging-llms-with-bright-data-via-mcp-5d86</guid>
+      <description>Most AI agent implementations suffer from a fundamental sensory deficit. You provide them with reasoning capabilities and memory, but their window into the real world—the living,…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>05 - After Wiring Up TencentDB Agent Memory, Why I&#x27;m Still Reading About Mnemosyne OS</title>
-      <link>https://dev.to/liuyuyan6100/05-after-wiring-up-tencentdb-agent-memory-why-im-still-reading-about-mnemosyne-os-11a2</link>
-      <guid>https://dev.to/liuyuyan6100/05-after-wiring-up-tencentdb-agent-memory-why-im-still-reading-about-mnemosyne-os-11a2</guid>
-      <description>Cover: accumulated project experience leading into the next handoff. AI-generated concept illustration. A note before we start: all five diagrams below carry Chinese labels; the E…</description>
+      <title>NFS Storage Causes I/O Issues in Air-Gapped Kubernetes Cluster: Block Storage with POSIX Semantics Needed</title>
+      <link>https://dev.to/alitron/nfs-storage-causes-io-issues-in-air-gapped-kubernetes-cluster-block-storage-with-posix-semantics-2o0l</link>
+      <guid>https://dev.to/alitron/nfs-storage-causes-io-issues-in-air-gapped-kubernetes-cluster-block-storage-with-posix-semantics-2o0l</guid>
+      <description>Introduction In the constrained environment of an air-gapped private datacenter , a self-managed Kubernetes cluster encounters a critical storage challenge. The infrastructure, co…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
+    </item>
+    <item>
+      <title>Robin Williams&#x27; Daughter to Fans Creating AI Videos: &#x27;Have Some Shame&#x27;</title>
+      <link>https://variety.com/2026/film/news/robin-williams-daughter-ai-videos-1236871568</link>
+      <guid>https://variety.com/2026/film/news/robin-williams-daughter-ai-videos-1236871568</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Claude Status – Elevated errors for multiple models</title>
+      <link>https://status.claude.com/incidents/7g1qpkyz5gxh</link>
+      <guid>https://status.claude.com/incidents/7g1qpkyz5gxh</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Socrates vs. the Written Word (2011)</title>
+      <link>https://wondermark.com/socrates-vs-writing</link>
+      <guid>https://wondermark.com/socrates-vs-writing</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
     </item>
     <item>
       <title>Looking forward to Git 2.56 – and 3.0</title>
@@ -226,14 +250,6 @@
       <title>I don&#x27;t want to read what you didn&#x27;t write</title>
       <link>https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write</link>
       <guid>https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
-      <title>Suspension of the de minimis administrative exemption for imports $800 or less</title>
-      <link>https://personalimportation.org/advocacy</link>
-      <guid>https://personalimportation.org/advocacy</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -274,14 +290,6 @@
       <title>NASA’s Mars Sample Return mission is dead</title>
       <link>https://science.org/content/article/nasa-s-mars-sample-return-mission-dead</link>
       <guid>https://science.org/content/article/nasa-s-mars-sample-return-mission-dead</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
-      <title>In Search of a Compositional Theory of Self-Stabilization</title>
-      <link>http://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html</link>
-      <guid>http://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -335,25 +343,9 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Show HN: Foremerge – Catch intent conflicts between parallel coding agents</title>
-      <link>https://github.com/naw103/foremerge</link>
-      <guid>https://github.com/naw103/foremerge</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
       <title>HERMES radio enables voice and data communication over vast distances</title>
       <link>https://spectrum.ieee.org/hermes-shortwave-radio-digital-data</link>
       <guid>https://spectrum.ieee.org/hermes-shortwave-radio-digital-data</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
-      <title>Fable 5 – Median thinking declined in August</title>
-      <link>https://twitter.com/Lon/status/2101793422487204027</link>
-      <guid>https://twitter.com/Lon/status/2101793422487204027</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -415,12 +407,20 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Heretic removes restrictions from language models</title>
-      <link>https://heretic-project.org/</link>
-      <guid>https://heretic-project.org/</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
+      <title>Ask HN: How do you sell a small bootstrapped SaaS?</title>
+      <link>https://news.ycombinator.com/item?id=49796057</link>
+      <guid>https://news.ycombinator.com/item?id=49796057</guid>
+      <description>I&#x27;m the solo founder of hpsilab.com, a financial analytics and API platform for quantitative research and AI agents. I&#x27;m considering selling 100% of the product/company and have s…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Ask HN: Ceremonious Architecture in Times of AI</title>
+      <link>https://news.ycombinator.com/item?id=49795847</link>
+      <guid>https://news.ycombinator.com/item?id=49795847</guid>
+      <description>There&#x27;s extensive literature on several software architecture patterns and styles whose benefits are well known, but which are often ignored due to the cost of their boilerplatic…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
       <title>Information is Matter is Energy</title>
@@ -567,20 +567,172 @@
       <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>Recreate Eliza Using JEV?</title>
-      <link>https://news.ycombinator.com/item?id=49786471</link>
-      <guid>https://news.ycombinator.com/item?id=49786471</guid>
-      <description>Would it be possible to recreate ELIZA using JEV? It seems like this should be possible. You would need to ask questions about what the person brought up in a sentence, e.g. &quot;My M…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
+      <title>A 7B fact-checker beat 30B LLM reviewers and deleted no true claims</title>
+      <link>https://openteams.com/llm-review-reliability</link>
+      <guid>https://openteams.com/llm-review-reliability</guid>
+      <description>A 7B fact-checker beat 30B LLM reviewers and deleted no true claims</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
     </item>
     <item>
-      <title>Ask HN: How do you guys stay on top of the code that is generated?</title>
-      <link>https://news.ycombinator.com/item?id=49786012</link>
-      <guid>https://news.ycombinator.com/item?id=49786012</guid>
-      <description>I have been working on a new service from scratch and AI has spat out 1000s of LOC and while I leveraged on it quite a bit for the design of the service, I need to know exactly wh…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
+      <title>Something bugs me about AGI AI LLM, what if we back paddled 1000 year</title>
+      <link>https://shatteringtheabyss.substack.com/p/llm-agi-god-congratulations-humanity</link>
+      <guid>https://shatteringtheabyss.substack.com/p/llm-agi-god-congratulations-humanity</guid>
+      <description>Something bugs me about AGI AI LLM, what if we back paddled 1000 year</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>First NetHack Ascension by an LLM</title>
+      <link>https://hardfought.org/userdata/C/CodexDelver/nethack/dumplog/1788964024.nh.html</link>
+      <guid>https://hardfought.org/userdata/C/CodexDelver/nethack/dumplog/1788964024.nh.html</guid>
+      <description>First NetHack Ascension by an LLM</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>An LLM Beat NetHack</title>
+      <link>https://kenforthewin.github.io/blog/posts/llm-nethack-ascension</link>
+      <guid>https://kenforthewin.github.io/blog/posts/llm-nethack-ascension</guid>
+      <description>An LLM Beat NetHack</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Show HN: VernLLM – LLM fallback, no gateway</title>
+      <link>https://vernllm.dev/</link>
+      <guid>https://vernllm.dev/</guid>
+      <description>The specific docs: https://vernllm.dev/docs/core/provider-fallback</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>You can use any LLM just like JEV</title>
+      <link>https://reddit.com/r/LocalLLaMA/comments/1wlxpaw/you_can_use_any_llm_just_like_jev</link>
+      <guid>https://reddit.com/r/LocalLLaMA/comments/1wlxpaw/you_can_use_any_llm_just_like_jev</guid>
+      <description>You can use any LLM just like JEV</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Show HN: Fusion-runtime – self-hosted voice agents, STT+LLM+TTS in one process</title>
+      <link>https://github.com/SamarthUrs18/fusion-runtime</link>
+      <guid>https://github.com/SamarthUrs18/fusion-runtime</guid>
+      <description>Show HN: Fusion-runtime – self-hosted voice agents, STT+LLM+TTS in one process</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Using Jev as an LLM Linter for OMP (Pi) Agent</title>
+      <link>https://github.com/goulinkh/omp-semantic-policy</link>
+      <guid>https://github.com/goulinkh/omp-semantic-policy</guid>
+      <description>Using Jev as an LLM Linter for OMP (Pi) Agent</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Show HN: PokerTools Arena – Local AI vs. AI Poker LLM Benchmark Table</title>
+      <link>https://github.com/pokertools-arena/pokertools-arena.github.io</link>
+      <guid>https://github.com/pokertools-arena/pokertools-arena.github.io</guid>
+      <description>Show HN: PokerTools Arena – Local AI vs. AI Poker LLM Benchmark Table</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Assay – Open-source mechanical checker for web pages, no tests, no LLM</title>
+      <link>https://github.com/awss1i/assay</link>
+      <guid>https://github.com/awss1i/assay</guid>
+      <description>Assay – Open-source mechanical checker for web pages, no tests, no LLM</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Animated visual explanation of how LLM tokenization works</title>
+      <link>https://seeitflow.com/ai/ai-foundations/tokens-explained</link>
+      <guid>https://seeitflow.com/ai/ai-foundations/tokens-explained</guid>
+      <description>Animated visual explanation of how LLM tokenization works</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>I made an LLM using 521 Jev models</title>
+      <link>https://jevs.chat/</link>
+      <guid>https://jevs.chat/</guid>
+      <description>I made an LLM using 521 Jev models</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Show HN: I built Founder.best Product Hunt alternative for LLM product discovery</title>
+      <link>https://founder.best/</link>
+      <guid>https://founder.best/</guid>
+      <description>Show HN: I built Founder.best Product Hunt alternative for LLM product discovery</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>The Roadmap to Mastering LLM Inference Optimization</title>
+      <link>https://machinelearningmastery.com/the-roadmap-to-mastering-llm-inference-optimization</link>
+      <guid>https://machinelearningmastery.com/the-roadmap-to-mastering-llm-inference-optimization</guid>
+      <description>The Roadmap to Mastering LLM Inference Optimization</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Show HN: Maki, an open-source multi-agent LLM framework (local or hosted)</title>
+      <link>https://github.com/BowlOfData/maki</link>
+      <guid>https://github.com/BowlOfData/maki</guid>
+      <description>Show HN: Maki, an open-source multi-agent LLM framework (local or hosted)</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Thomson-1.0-Small LLM Developed by Thomson Reuters</title>
+      <link>https://featherless.ai/models/thomsonreuters/Thomson-1.0-Small</link>
+      <guid>https://featherless.ai/models/thomsonreuters/Thomson-1.0-Small</guid>
+      <description>Thomson-1.0-Small LLM Developed by Thomson Reuters</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Show HN: I wrote the code and let an LLM review it</title>
+      <link>https://blog.jaysinh.dev/2026/09/20/i-wrote-the-mcp-server-and-let-an-llm-review-it.html</link>
+      <guid>https://blog.jaysinh.dev/2026/09/20/i-wrote-the-mcp-server-and-let-an-llm-review-it.html</guid>
+      <description>Show HN: I wrote the code and let an LLM review it</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>OpenClaw Completes Security Audit</title>
+      <link>https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap</link>
+      <guid>https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap</guid>
+      <description>OpenClaw Completes Security Audit</description>
+      <source>Hacker News OpenClaw</source>
+      <category>Hacker News OpenClaw</category>
+    </item>
+    <item>
+      <title>Show HN: Marklite: Lightweight Markdown Viewer/Editor</title>
+      <link>https://marklite.app/</link>
+      <guid>https://marklite.app/</guid>
+      <description>MarkLite is a free, open-source lightweight Markdown Viewer and Editor for Linux and Windows.</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: Shapefile viewer that asks which datum when the .prj is missing</title>
+      <link>https://9revolution9.com/tools/geo/shp-geojson</link>
+      <guid>https://9revolution9.com/tools/geo/shp-geojson</guid>
+      <description>Show HN: Shapefile viewer that asks which datum when the .prj is missing</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: EagleQR -QR scanner that checks domain age and unshorts URL before open</title>
+      <link>https://play.google.com/store/apps/details?hl=en_US&amp;id=com.safeqr.scancreate</link>
+      <guid>https://play.google.com/store/apps/details?hl=en_US&amp;id=com.safeqr.scancreate</guid>
+      <description>Show HN: EagleQR -QR scanner that checks domain age and unshorts URL before open</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
     </item>
     <item>
       <title>Show HN: Nvidia networking equipment masquerading as ATT consumer modems and PON</title>
@@ -719,28 +871,12 @@
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Emote – A reaction API for AI agents</title>
-      <link>https://useemote.com/</link>
-      <guid>https://useemote.com/</guid>
-      <description>Show HN: Emote – A reaction API for AI agents</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: Differential – a TUI diff reviewer with semantic grouping</title>
-      <link>https://github.com/thepartly/differential</link>
-      <guid>https://github.com/thepartly/differential</guid>
-      <description>Hi all — for those of you still reviewing code, I built a tool to make that easier, mostly for my own sake. There are some alternatives out there already, but none of them quite c…</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: A website that tracks US food prices every day</title>
-      <link>https://kadoa.com/food-prices</link>
-      <guid>https://kadoa.com/food-prices</guid>
-      <description>The US Department of Agriculture (USDA) publishes daily food price data for about 290 commodities on: - what growers were paid at shipping point - what buyers paid at the big city…</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
+      <title>Fable 5 – Median thinking declined in August</title>
+      <link>https://twitter.com/Lon/status/2101793422487204027</link>
+      <guid>https://twitter.com/Lon/status/2101793422487204027</guid>
+      <description>Fable 5 – Median thinking declined in August</description>
+      <source>Hacker News 最佳</source>
+      <category>Hacker News 最佳</category>
     </item>
     <item>
       <title>ZuckOff Know when a camera is in the room</title>
@@ -783,12 +919,308 @@
       <category>Hacker News 最佳</category>
     </item>
     <item>
+      <title>Heretic removes restrictions from language models</title>
+      <link>https://heretic-project.org/</link>
+      <guid>https://heretic-project.org/</guid>
+      <description>Heretic removes restrictions from language models</description>
+      <source>Hacker News 最佳</source>
+      <category>Hacker News 最佳</category>
+    </item>
+    <item>
       <title>Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem</title>
       <link>https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an</link>
       <guid>https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an</guid>
       <description>Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem</description>
       <source>Hugging Face 博客</source>
       <category>Hugging Face 博客</category>
+    </item>
+    <item>
+      <title>派拉蒙与美国州检察长联盟达成反垄断诉讼和解，距正式并购华纳兄弟更近一步</title>
+      <link>https://ithome.com/1/005/594.htm</link>
+      <guid>https://ithome.com/1/005/594.htm</guid>
+      <description>IT之家 9 月 22 日消息，Paramount Skydance（派拉蒙天舞）当地时间 21 日与美国 12 位州检察长组成的联盟达成反垄断诉讼和解。这意味着 派拉蒙天舞距离完成对 WBD（华纳兄弟探索）的并购更近了一步 。 IT之家获悉，这份具有法律效力的和解协议由“年度影片发行承诺”“本土制作”“独立电影基金”“保障员工权益”“有线电视协议”“持续…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>蔚来 EC6 灵韵特别版轿跑 SUV 上市：神玑 NX9031、专属主题内饰，租电方案购买 26.18 万元起</title>
+      <link>https://ithome.com/1/005/591.htm</link>
+      <guid>https://ithome.com/1/005/591.htm</guid>
+      <description>IT之家 9 月 22 日消息，蔚来官方宣布，蔚来 EC6 灵韵特别版轿跑 SUV 今日正式上市，搭载神玑 NX9031 智能辅助驾驶芯片、拥有专属灵韵紫主题内饰，售价 36.98 万元起。 整车购买方案 36.98 万元起； 电池租用方式购买方案 26.18 万元起。 据IT之家此前报道， 今年 4 月，2026 款蔚来 EC6 上市 ，整车购买价 35…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>腾讯混元 Hy Image3.5 preview 发布：支持文生图与多轮对话创作，已上线元宝、ima 等应用</title>
+      <link>https://ithome.com/1/005/589.htm</link>
+      <guid>https://ithome.com/1/005/589.htm</guid>
+      <description>IT之家 9 月 22 日消息，腾讯混元团队今日宣布推出 Hy Image3.5 preview 模型。腾讯称该模型面向专业级生图创作，支持文生图、图生图和多轮对话创作。 腾讯称，该模型经过内部数百名专业设计师 GSB 盲测，对比 Hy Image3.0 提升 30%，与 Seedream 5.0 pro 持平，略优于 Nano-Banana Pro 和…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>阿里平头哥将发布最强国产 AI 芯片真武 V900，算力提升 2 倍</title>
+      <link>https://ithome.com/1/005/588.htm</link>
+      <guid>https://ithome.com/1/005/588.htm</guid>
+      <description>IT之家 9 月 22 日消息，由阿里集团主办的 2026 云栖大会于 9 月 22 日至 24 日在杭州国际博览中心举行。 IT之家从大会现场获悉，本届云栖大会上， 阿里平头哥将发布最强国产 AI 芯片真武 V900，算力提升至真武 M890 的 3 倍 。基于它构建的单一集群可扩展至 50 万卡，可支撑前沿模型的训练和推理。 阿里表示，由于平头哥芯片产…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW</title>
+      <link>https://ithome.com/1/005/587.htm</link>
+      <guid>https://ithome.com/1/005/587.htm</guid>
+      <description>IT之家 9 月 22 日消息，IT之家今日从 2026 年云栖大会现场获悉，阿里巴巴 CEO 吴泳铭表示，当前客户 AI 需求非常强劲，将全力投入 AI 基础设施建设， 目标到 2032 年阿里云运营的全球数据中心规模超过 20GW 。 2026 云栖大会今日（9 月 22 日）上午在浙江杭州开幕， 英伟达位列本次大会巅峰合作伙伴，是本届云栖大会最高等级…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>我国活跃智能体已近 500 万个，到 2030 年中国 AI 算力市场规模或暴增 300%</title>
+      <link>https://ithome.com/1/005/586.htm</link>
+      <guid>https://ithome.com/1/005/586.htm</guid>
+      <description>IT之家 9 月 22 日消息，据央视新闻报道，《2026 年中国人工智能计算力发展评估报告》已于昨日发布。报告显示，随着智能体技术走向成熟，2026—2030 年，中国活跃智能体复合年均增长率将超 150%。 报告显示，人工智能正完成从内容生成到任务执行的转变，全球活跃智能体数量将从 2026 年的 7940 万个增长至 2030 年的 22.16 亿个…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>小米米家杀菌足浴器 2 开售：三段按摩 + 升降雨幕，首发 379 元</title>
+      <link>https://ithome.com/1/005/585.htm</link>
+      <guid>https://ithome.com/1/005/585.htm</guid>
+      <description>IT之家 9 月 22 日消息，小米米家杀菌足浴器 2 今日正式开售，官方指导价 499 元，首发价 419 元，但实际价格显示为 379 元，配套的足浴药包售价 59 元。 据小米官方介绍，该足浴器采用专利管路杀菌方案，将紫外线组件置于管道深处，可对管道内部进行杀菌，杀菌率 99.9%，并获得权威机构检测认证。官方称该设计可避免紫外线直射风险。 该产品升…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>小米推出米家冰箱 425L 十字 全域离子净化新品：国补价 1999.2 元</title>
+      <link>https://ithome.com/1/005/584.htm</link>
+      <guid>https://ithome.com/1/005/584.htm</guid>
+      <description>IT之家 9 月 22 日消息，小米今日宣布推出全新的“米家冰箱 425L 十字 全域离子净化”，东日常售价 2699 元，国补后到手价 1999.2 元。 这款冰箱总容积为 425L，采用 14 格分区储鲜设计，其中冷藏室 215L，冷冻室 155L，变温室 55L，分区存储满足各类食材存放需求。 该冰箱主打超薄零嵌入式设计，机身厚 59.7cm，宽 7…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>红魔 12 Pro+ 新机亮相：号称“迄今为止手感最好的红魔旗舰”，10 月见</title>
+      <link>https://ithome.com/1/005/583.htm</link>
+      <guid>https://ithome.com/1/005/583.htm</guid>
+      <description>IT之家 9 月 22 日消息，红魔游戏手机官方刚刚放出了红魔 12 Pro+ 前瞻预热图，展示了新机局部外观细节。 红魔 12 Pro+ 号称“迄今为止手感最好的红魔旗舰” ，主打“更轻、更薄、更窄、更圆润”。预热图显示，新机相比前代厚度更薄、重量更轻，同时屏幕黑边、边框圆角都有优化， 其中 12 Pro+ 的屏幕黑边由前代的 1.25mm 减小到了 0…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>铲除“幽灵外卖”、最高判刑 15 年，新一批网络食品安全犯罪典型案例发布</title>
+      <link>https://ithome.com/1/005/580.htm</link>
+      <guid>https://ithome.com/1/005/580.htm</guid>
+      <description>IT之家 9 月 22 日消息，最高人民法院、最高人民检察院今日联合发布一批 依法惩治网络食品安全犯罪典型案例 ，通过以案释法，净化网络食品市场环境，切实保障人民群众合法权益。 近年来，随着电子商务平台的快速发展，网络食品销售活动日趋活跃，极大便利了人民群众的消费需求。与此同时， 一些不法分子利用网络空间特点，借助算法推荐快速精准锁定目标客户，通过组织虚假…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>Counterpoint 数据：全球 AI 眼镜出货 2026H1 同比大增 263%</title>
+      <link>https://ithome.com/1/005/579.htm</link>
+      <guid>https://ithome.com/1/005/579.htm</guid>
+      <description>IT之家 9 月 22 日消息，Counterpoint Research 昨日表示， 全球人工智能眼镜出货量在 2026 年上半年实现了 263% 的显著同比增长 。其中无屏型产品的出货占比继续维持 96% 高位，AR AI 眼镜分得 4% 市场。 ▲ 图源：Counterpoint Research 无屏 AI 眼镜的出货量在 2026H1 同比增长…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>129 元酷态科 6 号电能卡片 Air 太空系列三体联名版开售：最高 90W 功率 + 60W AVS 动态快充，苹果 iPhone 18 Pro Max 15 分钟充到 50%</title>
+      <link>https://ithome.com/1/005/578.htm</link>
+      <guid>https://ithome.com/1/005/578.htm</guid>
+      <description>IT之家 9 月 22 日消息，酷态科与三体联名的 6 号电能卡片 Air「太空系列三体联名版」今日正式发售，官方定价为 129 元。 这款充电头主打纤薄便携，机身尺寸仅 77.3 × 42 × 14.3 mm，正面面积比银行卡还小约 29.7%，可轻松放进口袋、卡包。它采用新国标可折叠半包胶插脚，重心上移结构设计，在狭窄插座、高铁插座、酒店插座中都能稳固…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>“2026 中国民营企业 500 强”发布：京东、阿里、恒力集团、华为、比亚迪位居前五</title>
+      <link>https://ithome.com/1/005/569.htm</link>
+      <guid>https://ithome.com/1/005/569.htm</guid>
+      <description>IT之家 9 月 22 日消息，全国工商联今日在天津发布“2026 中国民营企业 500 强”。 结果显示，京东集团、阿里巴巴（中国）有限公司、恒力集团有限公司位居前三 。华为投资控股有限公司、比亚迪股份有限公司分别位列第四和第五 据介绍，今年全国工商联组织开展第 28 次上规模民营企业调研，共有 6350 家 2025 年营业收入 10 亿元以上的企业参…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>五羊本田 NWZ150 摩托车发布：首搭 WHEV 轻混新技术，19990 元</title>
+      <link>https://ithome.com/1/005/565.htm</link>
+      <guid>https://ithome.com/1/005/565.htm</guid>
+      <description>IT之家 9 月 22 日消息，五羊本田 2026 秋季新品发布会于 9 月 21 日在重庆国际博览中心举行，150cc 旗舰车型 NWZ150 正式发布。 NWZ150 是五羊本田 150 家族的第四款车型，自 2024 年以来，五羊本田依托 eW15 发动机平台，先后推出 NWG150、NWT150、NWF150，累计获得 15 万 + 用户选择。 N…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>Snapchat 社交平台更新 Lens+ 订阅服务，新增“聊天消息转歌曲”等多项生成式 AI 功能</title>
+      <link>https://ithome.com/1/005/564.htm</link>
+      <guid>https://ithome.com/1/005/564.htm</guid>
+      <description>IT之家 9 月 22 日消息，Snap 宣布为旗下 Snapchat 社交平台 Lens+ 订阅服务进行更新，新增多项生成式 AI 功能。 公开信息显示，Snapchat Lens+ 订阅服务于 2025 年 6 月推出，每月定价 7.99 美元 （IT之家注：现汇率约合 53.6 元人民币） ，标准版 Snapchat+ 订阅主要提供新功能抢先体验以及…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>小米米家空气净化器 6C 开售：千分位甲醛数显，999 元</title>
+      <link>https://ithome.com/1/005/563.htm</link>
+      <guid>https://ithome.com/1/005/563.htm</guid>
+      <description>IT之家 9 月 22 日消息，小米官方今日宣布米家空气净化器 6C 正式开售，新品到手价 999 元。 这款空气净化器面向中小户型设计，最大适用面积达到 68 m²，颗粒物 CADR 实测值 603 m³/h，可实现 9500L/min 清新大气量。其机身设计紧凑，占地面积约为 0.063 m²，和一张 A4 纸大小相近。 净化方面，该机配备 六项复合净…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间</title>
+      <link>https://ithome.com/1/005/557.htm</link>
+      <guid>https://ithome.com/1/005/557.htm</guid>
+      <description>IT之家 9 月 22 日消息，美国得克萨斯州州长 Greg Abbott 当地时间 21 日指示 该州环境质量委员会暂停所有数据中心申请的许可证 。 IT之家注意到， 得克萨斯州同时拥有全美前列的经济体量和数据中心规模 。 图源：Pexels 此举旨在为得州电力可靠性委员会完成数据中心并网申请审计留出更多时间，确保获批的数据中心不会对该州电网可靠性与安全…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>特斯拉宣布为部分 Model 3/Y 车型 OTA 升级自研音响算法：2026.14.11 版本起支持沉浸式音效</title>
+      <link>https://ithome.com/1/005/554.htm</link>
+      <guid>https://ithome.com/1/005/554.htm</guid>
+      <description>IT之家 9 月 22 日消息，特斯拉中国今日宣布，近期向部分 Model 3 和 Model Y 车型推送了一项音频系统升级，通过 OTA 更新将原有的双声道音乐播放转换为 360° 环绕声效果。 特斯拉官方表示，即便使用普通音源也能提升听感体验。该功能需将车机系统升级至 2026.14.11 及更高版本。 IT之家提醒：此次 OTA 升级适用于 202…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元</title>
+      <link>https://ithome.com/1/005/548.htm</link>
+      <guid>https://ithome.com/1/005/548.htm</guid>
+      <description>IT之家 9 月 22 日消息，优派现已在京东上架一款型号为“VX27G60Z-2K-5”的 27 英寸（26.5 英寸）显示器，该机主打 2K 500Hz QD-OLED， 定价为 4999 元 。 京东 优派“VX27G60Z-2K-5”显示器 4999 元 直达链接 该机配备一块 2560x1440 分辨率 500Hz 三星原厂 QD-OLED 面板…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>欧盟拟要求额定容量超过 500 千瓦的数据中心运营商披露能耗和用水情况</title>
+      <link>https://ithome.com/1/005/539.htm</link>
+      <guid>https://ithome.com/1/005/539.htm</guid>
+      <description>IT之家 9 月 22 日消息，据外媒 engadget 报道，欧盟委员会近日提出新规，计划要求额定容量超过 500 千瓦的数据中心运营商通过统一评级体系披露能源和水资源使用情况。 欧盟计划在未来 7 年内将区域数据中心容量提升至目前的约 3 倍，以增强自身数字主权。不过为了确保数据中心对当地电力及自然资源不会造成太大影响，有关部门必须确保这些数据中心具备…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>加拿大不列颠哥伦比亚省正式就涉 9 人死亡枪击案不作为行为起诉 OpenAI</title>
+      <link>https://ithome.com/1/005/538.htm</link>
+      <guid>https://ithome.com/1/005/538.htm</guid>
+      <description>IT之家 9 月 22 日消息，加拿大不列颠哥伦比亚省（卑诗省）当地时间 21 日正式在美国加利福尼亚州起诉 OpenAI， 指控这家人工智能企业在加拿大历史上最为严重的枪击案之一中存在不作为行为 ，未能及时向加拿大警方提交风险信息。 不列颠哥伦比亚省 Tumbler Ridge 在今年 2 月 10 日发生了一起枪击事件，青少年 Jesse Van Ro…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>微信朋友圈新增仅自己可见的“私密发表”功能，iOS 安卓灰度测试中</title>
+      <link>https://ithome.com/1/005/537.htm</link>
+      <guid>https://ithome.com/1/005/537.htm</guid>
+      <description>IT之家 9 月 22 日消息，有网友反馈称，微信朋友圈新增“私密发表”功能，编辑并发布内容后该朋友圈将仅自己可见。 微信此前已经支持在发布朋友圈时选择可见范围，而此次“私密发表”功能属于是新增入口。 拥有测试权限的用户打开微信点击右下角“我”，进入“朋友圈”即可看到“私密发表”按钮，点击该按钮即可编辑并发布内容，发布后的内容仅自己可见。 腾讯客服向IT之…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>绿联 HiTune S3 Plus 耳机发售：47 小时续航，12mm 动圈，109 元</title>
+      <link>https://ithome.com/1/005/536.htm</link>
+      <guid>https://ithome.com/1/005/536.htm</guid>
+      <description>IT之家 9 月 22 日消息，绿联旗下 HiTune S3 Plus 蓝牙耳机现已在京东发售，该耳机提供 47 小时续航，内置 3D 空间音效，定价 112.5 元， 首发价 109 元 。 京东 绿联 HiTune S3 Plus 耳机 109 元 直达链接 该耳机具备 IPX5 认证，采用“潜入式壶嘴”设计，内凹出音网可防积灰。单耳轻至 4.9g，配…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>三星 Galaxy S27 系列手机存储信息曝光，仅 Ultra 机型配 16GB RAM</title>
+      <link>https://ithome.com/1/005/534.htm</link>
+      <guid>https://ithome.com/1/005/534.htm</guid>
+      <description>IT之家 9 月 22 日消息，消息源 WalleGalaxy 发文，曝光了三星 Galaxy S27 系列手机的存储信息，其中 Galaxy S27、Galaxy S27+ 以及 Galaxy S27 Pro 均将配备 12GB RAM 内存，只有 Galaxy S27 Ultra 的 1TB 版本会升级至 16GB RAM 内存，IT之家整理 sku…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>Bungie 承认近年决策失误，将为《命运 2》带回已下线游戏内容</title>
+      <link>https://ithome.com/1/005/533.htm</link>
+      <guid>https://ithome.com/1/005/533.htm</guid>
+      <description>IT之家 9 月 22 日消息，游戏开发商 Bungie 公开承认近年出现决策失误，背离了“围绕游戏形成玩家社区”的传统，忘记最应该优先考虑玩家，信任、员工也逐渐流失。 对于旗下两大 IP，Bungie 表示《命运》是 Bungie 未来发展的基石，并未被放弃；《失落星船：马拉松》对于其未来发展至关重要，但其并非也从未打算取代《命运》。 Bungie 计划…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>美国最年轻 10 位亿万富豪出炉：7 人靠 AI 创业，4 人来自 Anthropic</title>
+      <link>https://ithome.com/1/005/532.htm</link>
+      <guid>https://ithome.com/1/005/532.htm</guid>
+      <description>9 月 22 日，据 Business Insider 报道，福布斯发布美国 400 位最富有富豪年度榜单。 今年上榜门槛升至 44 亿美元，创历史新高。40 岁以下富豪人数从去年的 4 人增至 10 人，其中 7 人的财富来自 AI 热潮，且多为创始人。 这 7 位 AI 富豪中，4 位来自同一家公司 ——Anthropic。这家 AI 公司成立仅五年，…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽</title>
+      <link>https://ithome.com/1/005/531.htm</link>
+      <guid>https://ithome.com/1/005/531.htm</guid>
+      <description>IT之家 9 月 22 日消息，据韩媒 ZDNET Korea 当地时间 21 日报道，韩媒 AI 半导体初创企业 FuriosaAI 昨日公布了其第三代 AI 推理加速器的技术细节。 该加速器由 FuriosaAI 与 Broadcom（博通）合作开发， 拥有 2 颗“光罩极限级”2nm 计算裸晶、1 颗独立 I/O 裸晶、 12 个 48GB HBM4…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>索尼推出女星 Lisa 限量款 DualSense 手柄控制器及 PlayStation 联名周边，10 月 30 日正式发售</title>
+      <link>https://ithome.com/1/005/530.htm</link>
+      <guid>https://ithome.com/1/005/530.htm</guid>
+      <description>IT之家 9 月 22 日消息，索尼 SIE 昨晚宣布推出与全球顶流巨星 Lisa（拉莉莎 · 玛诺班，泰国籍，担任 Blackpink 主舞及 Rapper）合作打造的限量版 DualSense 无线控制器。 该手柄以 Chroma Pearl 幻彩珍珠配色为主，触控板中央印有 Lisa 标志性的刘海与眼睛轮廓，并搭配星星图案和加粗“LL”字母标识。索尼…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>中央网信办召开网络直播规范发展工作会议：对直播乱象实现靶向治理</title>
+      <link>https://ithome.com/1/005/529.htm</link>
+      <guid>https://ithome.com/1/005/529.htm</guid>
+      <description>IT之家 9 月 22 日消息，中央网信办于 9 月 21 日在广东广州召开 网络直播规范发展工作会议 ，总结网络直播治理成效，分析形势任务，研究部署下一阶段重点工作。中央网信办副主任、国家网信办副主任张拥军出席会议并讲话。 会议指出，近年来，全国网信系统和直播平台企业扎实推进网络直播治理，健全网络直播管理体系，规范直播平台和 MCN 机构管理， 深入整治…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>小鹏汽车第二代 VLA 全新版本 XOS 6.3.0 开启推送，号称从 3D 空间识别跃迁至 4D 时空理解</title>
+      <link>https://ithome.com/1/005/528.htm</link>
+      <guid>https://ithome.com/1/005/528.htm</guid>
+      <description>IT之家 9 月 22 日消息，小鹏汽车官方今日宣布， 第二代 VLA 全新版本 XOS 6.3.0 正式开启推送 。官方宣称： 全新版本，全面升级。从 3D 空间识别跃迁至 4D 时空理解，凭借更强的时序记忆、轨迹预判与决策响应能力，实现看得更远、想得更深、反应更快、开得更稳。 另外，小鹏汽车第二代 VLA Lite 同步开启推送， 单图灵 Max 车型…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>小米 18 Pro 系列手机首发徕卡双 2 亿像素影像系统：1/1.28&#x27;&#x27; 大底主摄 + 1/1.56&#x27;&#x27; 潜望长焦</title>
+      <link>https://ithome.com/1/005/526.htm</link>
+      <guid>https://ithome.com/1/005/526.htm</guid>
+      <description>IT之家 9 月 22 日消息，小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰刚刚宣布， 小米 18 Pro 系列手机将首发徕卡双 2 亿像素影像系统 ： 双尺寸，徕卡 2 亿像素超大底主摄 双尺寸，徕卡 2 亿像素超大底潜望长焦 预热海报显示， 小米 18 Pro 系列手机双尺寸搭载 1/1.28&#x27;&#x27; 大底超清主摄 + 1/1.56&#x27;&#x27; 大底…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>摩托罗拉与 B&amp;O 达成音频合作，新款智能手机今日亮相</title>
+      <link>https://ithome.com/1/005/525.htm</link>
+      <guid>https://ithome.com/1/005/525.htm</guid>
+      <description>IT之家 9 月 22 日消息，Motorola（摩托罗拉）当地时间 21 日宣布与 Bang &amp; Olufsen (B&amp;O) 建立多年的全球合作伙伴关系。 部分摩托罗拉旗舰设备将配备 B&amp;O 声学工程师调校的音频 。两家公司的合作还将加深 &quot;Audio by Bang &amp; Olufsen&quot; 在音频技术、音响模式、新用户体验以及未来产品扩展生态系统的整合。…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>国内首个“筷子夹火箭”方案：大航跃迁首飞箭“跃迁一号”研制全面提速，目标 2027 年首飞</title>
+      <link>https://ithome.com/1/005/524.htm</link>
+      <guid>https://ithome.com/1/005/524.htm</guid>
+      <description>IT之家 9 月 22 日消息，国内商业航天公司大航跃迁今日宣布， 旗下首飞箭“跃迁一号”顺利完成二级仪器舱结构静力试验 。试验结果显示，仪器舱结构强度、刚度与稳定性均满足设计指标，各项数据与预期高度匹配，试验取得圆满成功。 此次试验全面考核了仪器舱在一二级飞行及地面操作过程中承受的全部设计载荷，验证了仪器舱与卫星在复杂地面操作工况下的承载可靠性，标志着跃…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>199 元小米米家充气宝 3 今日开售：新增泄压阀，充气提速 25%</title>
+      <link>https://ithome.com/1/005/523.htm</link>
+      <guid>https://ithome.com/1/005/523.htm</guid>
+      <description>IT之家 9 月 22 日消息，小米旗下米家充气宝 3 今日 10 点正式开售，建议零售价 199 元。 京东 小米米家汽车充气宝 3 充气泵车载胎压检测 6 种模式泄压阀小米汽车 199 元 直达链接 IT之家获悉，米家充气宝 3 搭载强劲电机，拥有 21mm 高精度合金压铸缸体，气压最高可达 150psi，充气速度提升 25%。 米家充气宝 3 内置…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>荣耀亲选 AI 投影仪 Ultra 亮相：1700CVIA 亮度、真 1080P 画质，国补到手价 1999 元</title>
+      <link>https://ithome.com/1/005/522.htm</link>
+      <guid>https://ithome.com/1/005/522.htm</guid>
+      <description>IT之家 9 月 22 日消息，荣耀亲选 AI 投影仪 Ultra 上架京东开启预约（9 月 28 日开售），原价 2599 元、国补到手价 1999 元。 京东 荣耀亲选 AI 投影仪 Ultra 2599 元 直达链接 这款新品拥有 1700CVIA 流明亮度，符合国家标准并获得权威认证，宣称即使白天不拉窗帘、夜晚开灯直投，也能拥有清晰画面。 它采用自…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>罗永浩回应贾国龙要求下跪才肯和解：流氓黑公关造谣，已取证将起诉</title>
+      <link>https://ithome.com/1/005/521.htm</link>
+      <guid>https://ithome.com/1/005/521.htm</guid>
+      <description>IT之家 9 月 22 日消息，昨日晚间，针对微博大 V“理记”爆料称西贝创始人贾国龙要求罗永浩“下跪才肯和解”一事，罗永浩于当晚通过微博正式回应。 罗永浩称该说法为“流氓黑公关”编造的谣传，并表示已完成取证，接下来将“该投诉的投诉，该起诉的起诉”。 罗永浩称，该说法唯一出处是一个“声名狼藉的流氓黑公关”，并指其“不止一次干过拿了甲方的钱之后还祸害甲方的事…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
     </item>
     <item>
       <title>宁德时代回应储能电芯调价称常规调整，587Ah电芯首次公开挂牌0.415元/Wh起</title>
@@ -983,294 +1415,6 @@
       <category>IT之家</category>
     </item>
     <item>
-      <title>苹果停止签署 iOS 26.6.2：用户升级 iOS 27 大版本后不再支持降级</title>
-      <link>https://ithome.com/1/005/492.htm</link>
-      <guid>https://ithome.com/1/005/492.htm</guid>
-      <description>IT之家 9 月 22 日消息，苹果现已停止签署 iOS 26.6.2，这意味着已经升级至 iOS 27 的用户无法再通过官方渠道降级至 iOS 26 的其他版本。作为参考，iOS 27 正式版本 于 9 月 15 日正式发布 ，目前已经上线约一周。 尽管苹果在 iOS 27 正式版发布同期推送了 iOS 26.7 版本，然而用户同样无法从 iOS 27…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>苹果 iPhone 18 Pro 首批用户反馈 Face ID 问题：解锁失败后死机重启，部分用户无法完成设置</title>
-      <link>https://ithome.com/1/005/491.htm</link>
-      <guid>https://ithome.com/1/005/491.htm</guid>
-      <description>IT之家 9 月 22 日消息，苹果新款 iPhone 18 Pro 和 iPhone 18 Pro Max 于当地时间 9 月 18 日开始陆续送达首批用户，但部分用户反馈 Face ID 出现异常。 有部分早期用户在 Reddit 和各大论坛上反馈设备出现 Face ID 相关异常。当用户尝试通过 Face ID 解锁已设置应用锁的 App 时会偶发验…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>沙特阿拉伯首个本土汽车品牌 Ceer 首批车型公布：850 马力三电机，轿车 SUV 同平台</title>
-      <link>https://ithome.com/1/005/490.htm</link>
-      <guid>https://ithome.com/1/005/490.htm</guid>
-      <description>IT之家 9 月 22 日消息，沙特阿拉伯首个本土汽车品牌 Ceer 近日正式公布成立以来的首批产品。该品牌由沙特公共投资基金（PIF）与台湾地区鸿海集团共同成立， 此次推出的两款新车均基于“Exobot”平台打造，分别为轿车和 SUV 。Ceer 计划在未来 5 年内继续推出 5 款车型，最终形成涵盖不同动力形式的 7 款车型产品线。 此次亮相的两款车型…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用</title>
-      <link>https://ithome.com/1/005/488.htm</link>
-      <guid>https://ithome.com/1/005/488.htm</guid>
-      <description>IT之家 9 月 22 日消息，9to5Mac 在 iOS 27.2 Beta2 开发者测试版中发现，苹果仍在开发 iPhone 防抢自动锁定功能。该功能内部代号为“AutoLock”，目前尚未启用。 代码显示，AutoLock 会综合多种信号判断 iPhone 是否可能被从用户手中抢走，包括： 设备出现与抢夺动作相符的剧烈加速 配对的 Apple Wat…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>苹果 visionOS 27.2 开发者预览版 Beta 2 发布</title>
-      <link>https://ithome.com/1/005/485.htm</link>
-      <guid>https://ithome.com/1/005/485.htm</guid>
-      <description>IT之家 9 月 22 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 27.2 开发者预览版 Beta 2 更新（内部版本号：24N5093f），本次更新距离上次发布 Beta / RC 间隔 5 天。 需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 目前尚无关…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>苹果 watchOS 27.2 开发者预览版 Beta 2 发布</title>
-      <link>https://ithome.com/1/005/486.htm</link>
-      <guid>https://ithome.com/1/005/486.htm</guid>
-      <description>【 点此直达升级教程 】 IT之家 9 月 22 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.2 开发者预览版 Beta 2 更新（内部版本号：24S5091f），本次更新距离上次发布 Beta / RC 间隔 5 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>苹果 iOS / iPadOS 27.2 开发者预览版 Beta 2 发布</title>
-      <link>https://ithome.com/1/005/483.htm</link>
-      <guid>https://ithome.com/1/005/483.htm</guid>
-      <description>【 点此直达升级教程 】 IT之家 9 月 22 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.2 开发者预览版 Beta 2 更新（内部版本号：24B5089g），本次更新距离上次发布 Beta / RC 间隔 5 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>苹果 macOS 27.2 开发者预览版 Beta 2 发布</title>
-      <link>https://ithome.com/1/005/484.htm</link>
-      <guid>https://ithome.com/1/005/484.htm</guid>
-      <description>IT之家 9 月 22 日消息，苹果今日向 Mac 电脑用户推送了 macOS 27.2 开发者预览版 Beta 2 更新（内部版本号：26B5091g），本次更新距离上次发布 Beta / RC 间隔 5 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版 ：需注册 Apple Beta 版软件…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>小米 69 元米家夜灯 4 开售：支持磁吸 / 悬挂 / 粘贴 + 8 个月长续航</title>
-      <link>https://ithome.com/1/005/480.htm</link>
-      <guid>https://ithome.com/1/005/480.htm</guid>
-      <description>IT之家 9 月 22 日消息，小米月初才开启众筹的米家夜灯 4 现已直接上架京东并开售，首发到手价 69 元起，首发期间晒单返 500 京豆（9 月 22 日-10 月 22 日）。 京东 米家夜灯 4 米家智能人体感应小夜灯婴儿喂奶起夜灯卫生间卧室床头灯磁吸充电 69 元 直达链接 米家夜灯 4 为全新升级版本，主打暗光感应，微动即亮，拥有多项核心升级…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>苹果 2026 款 Mac mini 发售：全新 M6 / M5 Pro 芯片，6999 元起</title>
-      <link>https://ithome.com/1/005/479.htm</link>
-      <guid>https://ithome.com/1/005/479.htm</guid>
-      <description>IT之家 9 月 21 日消息，苹果全新 Mac mini（2026 款）将于 9 月 22 日发售，搭载全新 M6 芯片和 M5 Pro 芯片，售价 6999 元起。 IT之家从官方介绍获悉，M6 芯片集成 12 核中央处理器，比前代增加 2 颗核心。12 核图形处理器同样比前代增加 2 颗核心，首次为 Mac mini 的每颗图形处理器核心均配备神经网…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>苹果 2026 款 Mac Studio 发售：M5 Max / Ultra 芯片，19999 元起</title>
-      <link>https://ithome.com/1/005/478.htm</link>
-      <guid>https://ithome.com/1/005/478.htm</guid>
-      <description>IT之家 9 月 21 日消息，苹果于 8 月 25 日推出全新 Mac Studio（2026 款），搭载 M5 Max 和全新 M5 Ultra 芯片，新品将于 9 月 22 日正式发售。 IT之家附全新 Mac Studio 售价如下： Mac Studio（搭载 M5 Max 处理器）起售价为 19,999 元（36GB+512GB），教育版售价为…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>【视频】首发 2nm 的苹果 M6 Mac mini 体验：对比上代提升多大？</title>
-      <link>https://ithome.com/1/005/477.htm</link>
-      <guid>https://ithome.com/1/005/477.htm</guid>
-      <description>首发 2nm 的苹果 M6 Mac mini 体验：对比上代提升多大，IT之家这就带你第一时间体验一下。 点击关注IT之家B站账号</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>华为 Mate 60 等老机型升级鸿蒙 7“隐藏”新功能盘点：粒子动效实装、超级省电模式回归</title>
-      <link>https://ithome.com/1/005/475.htm</link>
-      <guid>https://ithome.com/1/005/475.htm</guid>
-      <description>IT之家 9 月 21 日消息，华为 Mate 60、Mate X5、Pura 70 等系列老机型已在 9 月 17 日提前开启了鸿蒙 HarmonyOS 7 系统的花粉 Beta 版升级活动。用户可前往设置 → 软件更新处报名尝鲜。报名成功的用户点击系统更新后就可以获得新版本推送。 ▲ IT之家开箱：华为 Mate60 Pro+「宣白」图赏 官方更新日志…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>天文学家新发现：超大质量黑洞并非只搞破坏，其激波可驱动恒星形成</title>
-      <link>https://ithome.com/1/005/474.htm</link>
-      <guid>https://ithome.com/1/005/474.htm</guid>
-      <description>IT之家 9 月 21 日消息，天文学家对 9 个近域星系开展了观测研究，试图弄清星系中心超大质量黑洞产生的激波是如何塑造恒星形成过程的。 该研究团队选取了核心拥有活动星系核（AGN）的星系作为观测对象。活动星系核是明亮且动荡的区域；其动力来自星系中央的超大质量黑洞。这类黑洞质量可达太阳的数百万乃至数十亿倍，正在吞噬大量气体与尘埃。当能量从核心向外涌出、撞…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>消息称华为 Mate 90 系列线下开始分货，四款机型 SKU 曝光</title>
-      <link>https://ithome.com/1/005/473.htm</link>
-      <guid>https://ithome.com/1/005/473.htm</guid>
-      <description>IT之家 9 月 21 日消息，据博主 @数码闲聊站 今日爆料，华为 Mate 90 系列线下开始分货，并曝光了四款机型的 SKU。 Mate 90 版 ：12+256GB/12+512GB/12+1TB，黑 / 白 / 粉 / 绿 Mate 90 Pro 版 ： 12+256GB/12+512GB/16+512GB/16+1TB ，黑 / 白 / 橙 /…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>居然之家限时购：iPhone 18 Pro 天猫 9799 元 12 期免息</title>
-      <link>https://ithome.com/1/005/470.htm</link>
-      <guid>https://ithome.com/1/005/470.htm</guid>
-      <description>iPhone 18 Pro 天猫“Apple 产品智能家居专营店”今日可叠加大额淘金币补贴，实付 9799 元起 +12 期免息： 点击下方卡片领券后 → 点击 宝贝右上角“ … ” → 点击弹出页面 右下角“ 淘金币 ” 下单即可： 天猫 iPhone 18 Pro 需激活 12 期免息 抵扣后 9799 元起 直达链接 本次需 200 元淘金币，如果价…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>AMD 盘中市值历史首次突破 1 万亿美元</title>
-      <link>https://ithome.com/1/005/453.htm</link>
-      <guid>https://ithome.com/1/005/453.htm</guid>
-      <description>IT之家 9 月 21 日消息，AMD 股票今日在高开后持续上行，每股价格突破 600 美元，涨幅一度达 9% 以上。其 市值也在盘中一度突破 1 万亿美元 （IT之家注：现汇率约合 6.7 万亿元人民币） ，这是该公司市值首次跨过这一重大关口。 截至IT之家发稿时，其市值仍位于 9,900 亿美元 （现汇率约合 6.64 万亿元人民币） 以上。 ▲ 图源…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>小米推出米家即热饮水机 Pro：3 秒即热出水，399 元</title>
-      <link>https://ithome.com/1/005/452.htm</link>
-      <guid>https://ithome.com/1/005/452.htm</guid>
-      <description>IT之家 9 月 21 日消息，小米现已推出米家即热饮水机 Pro，将于 9 月 28 日 10:00 开售， 售价 399 元 。 这款饮水机水箱内胆、加热体、内部水路核心部件均采用食品接触级不锈钢；即热加热系统可实现约 3 秒即热出水，标准大气压下加热体内部水温可达到 100℃，实现真沸腾；默认提供 4 挡预设出水温度，分别为 25℃ 常温、45℃ 泡…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>华为鸿蒙 HarmonyOS 7 游戏助手功能上新，支持超级分辨率、智能 HDR、内存清理等</title>
-      <link>https://ithome.com/1/005/451.htm</link>
-      <guid>https://ithome.com/1/005/451.htm</guid>
-      <description>IT之家 9 月 21 日消息，在 9 月 7 日的 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会上，鸿蒙 7 操作系统正式发布。 目前，华为 Mate 80 系列手机、MatePad Edge、MateBook Pro 等设备已开启公测，Mate 60 系列、MatePad Pro 13.2 英寸 2025、WATCH…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>CMF 将脱离 Nothing 独立运营，成为一家印度本土企业</title>
-      <link>https://ithome.com/1/005/450.htm</link>
-      <guid>https://ithome.com/1/005/450.htm</guid>
-      <description>IT之家 9 月 21 日消息，瑞典华裔企业家裴宇（Carl Pei）计划将 Nothing 旗下的平价手机与消费电子业务板块分拆出来，组建一家由印度资本控股的独立新公司。裴宇押注印度即将成长为下一个全球消费电子产业中心。 当地时间周一，Nothing 联合创始人兼首席执行官裴宇在 X 平台发布题为《印度是大势所趋》（India Is Inevitable…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>工信部将优化无线电频谱资源布局，支撑先进制造业发展</title>
-      <link>https://ithome.com/1/005/449.htm</link>
-      <guid>https://ithome.com/1/005/449.htm</guid>
-      <description>IT之家 9 月 21 日消息，据新华社今日报道，工业和信息化部将优化无线电频谱资源布局，充分发挥频谱资源引领无线电技术创新应用、支撑无线电产业发展的作用，夯实产业发展根基。 报道称，发展先进制造业，加快推进新型工业化，离不开稀缺的无线电频谱资源的支撑保障和安全有序的电磁环境。2026 中国无线电大会 21 日在河北雄安新区开幕，工业和信息化部有关负责人在…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>联发科技面向 Googlebook 推出天玑 CX C10 Max SoC</title>
-      <link>https://ithome.com/1/005/448.htm</link>
-      <guid>https://ithome.com/1/005/448.htm</guid>
-      <description>IT之家 9 月 21 日消息，联发科技 (Mediatek) 今日面向 Googlebook 推出天玑 CX C10 Max 芯片，这也是天玑 CX “计算体验”系列的首款 SoC。 天玑 CX C10 Max 基于台积电 3nm 先进制程，拥有 8 个“全大”CPU 核心、11 核 Immortalis-G925 GPU、45 TOPS NPU，集成支…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>网易云音乐鸿蒙端 App 获 9.6.0“超大”版本尝鲜升级：删除测试版字样、适配深色模式等</title>
-      <link>https://ithome.com/1/005/447.htm</link>
-      <guid>https://ithome.com/1/005/447.htm</guid>
-      <description>IT之家 9 月 21 日消息，网易云音乐鸿蒙端 App 今日在华为应用市场 App Gallery“应用尝鲜”专区开启了 9.6.0 (9060000) 版本升级。 官方内测群工作人员表示，新版本属于“超大”更新版本，但具体更新内容暂未公布。 华为应用市场 App Gallery 显示，该版本测试说明与上个版本保持一致： 1.全新上线 vivid 音质…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>Meta 宣布建设全球首条拍比特级跨洋海底光缆，全长约 7000 公里</title>
-      <link>https://ithome.com/1/005/446.htm</link>
-      <guid>https://ithome.com/1/005/446.htm</guid>
-      <description>IT之家 9 月 21 日消息，Meta 今日宣布，正在合作建设 全球首条拍比特级 （petabit-class）跨洋海底光缆 Petal，这也是首条实现大规模部署多芯光纤的海底光缆。 Petal 横跨大西洋连接法国与美国， 全长约 7,000 公里 ，其传输带宽将达到 1 Pbps （即 1,000 Tbps，跨洋光缆按 1,000 换算），达到目前同等…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>vivo X500 Pro Max 专业影像手柄套装 / 增距镜 G2 发布，699 元 / 999 元起</title>
-      <link>https://ithome.com/1/005/445.htm</link>
-      <guid>https://ithome.com/1/005/445.htm</guid>
-      <description>IT之家 9 月 21 日消息，vivo X500 系列及智慧终端新品发布会今晚举行，除了常规的手机产品外，官方还带来了专业影像手柄套装、增距镜 G2 等影像配件。 IT之家整理如下： vivo 增距镜 G2 ：建议零售价 999 元，适配 vivo X500 系列 vivo 增距镜 G2 Ultra ：建议零售价 1999 元，适配 vivo X500…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>罗技 G 官宣新品 &quot;GPW5 Ultra&quot;，应指 PRO X3 SUPERSTRIKE 鼠标</title>
-      <link>https://ithome.com/1/005/444.htm</link>
-      <guid>https://ithome.com/1/005/444.htm</guid>
-      <description>IT之家 9 月 21 日消息，Logitech G（罗技 G）今日表示将推出新品 &quot;GPW5 Ultra&quot;。考虑到原版 &quot;GPW5&quot; 鼠标即 PRO X2 SUPERSTRIKE， 这里的 &quot;GPW5 Ultra&quot; 指的应该就是 &quot;PRO X3 SUPERSTRIKE&quot; 。 PRO X3 SUPERSTRIKE 鼠标基于 NxLOGI 芯片组，续航提升…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>599 元，vivo 影像创新外设“随拍屏”价格公布</title>
-      <link>https://ithome.com/1/005/443.htm</link>
-      <guid>https://ithome.com/1/005/443.htm</guid>
-      <description>IT之家 9 月 21 日消息，vivo X500 系列及智慧终端新品发布会今晚举行，带来了影像创新外设“vivo 随拍屏”。 IT之家从发布会现场获悉，该产品建议零售价 699 元， 首销优惠价 599 元 ，适配 vivo X500 系列，9 月 24 日正式限量开售。 该产品配备 3.92 英寸 超大 AMOLED 触控屏，机身厚度仅 5.65mm，…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>vivo X500 Pro 1TB 版与 X500 Pro Max 手机首次支持 eSIM</title>
-      <link>https://ithome.com/1/005/442.htm</link>
-      <guid>https://ithome.com/1/005/442.htm</guid>
-      <description>IT之家 9 月 21 日消息，在今晚举行的 vivo X500 系列及智慧终端新品发布会上，vivo X500 Pro 系列手机发布。 IT之家从联通获悉，vivo X500 Pro 1TB 版与 X500 Pro Max 手机 首次支持 eSIM ，均支持“2 实体卡 +2eSIM”。 联通表示， 当前全国联通 2 万多家自有营业厅均具备 eSIM 业…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>谷歌携五大 PC 厂商正式推出首批 Googlebook 笔记本，起售价 899 美元</title>
-      <link>https://ithome.com/1/005/441.htm</link>
-      <guid>https://ithome.com/1/005/441.htm</guid>
-      <description>IT之家 9 月 21 日消息，谷歌及其合作伙伴终于正式发布全新 Googlebook 产品线的首批笔记本电脑，搭载基于安卓技术栈构建、底层源自 Chrome OS 的 Googlebook OS 系统。首批一共五款机型，分别来自宏碁、华硕、戴尔、惠普以及联想。即日起开启预售，10 月 4 日正式上架销售。 产品起售价区间为 899 美元 （现汇率约合 6…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>vivo WATCH 6 轻户外智能手表发布：标配蓝宝石玻璃表镜，999 元起</title>
-      <link>https://ithome.com/1/005/440.htm</link>
-      <guid>https://ithome.com/1/005/440.htm</guid>
-      <description>IT之家 9 月 21 日消息，在今晚举行的 vivo X500 系列及智慧终端新品发布会上，vivo WATCH 6 轻户外智能手表发布，售价 999 元起。 蓝牙版：999 元 eSIM 版：1399 元 钛合金（eSIM 版）：1999 元 IT之家从发布会现场获悉，vivo WATCH 6 钛合金版重 37g，采用高亮精工雕刻， 配备蓝宝石玻璃表镜…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>vivo 首款耳夹耳机 Buds Clip 发布：轻至 5.2g，售 599 元起</title>
-      <link>https://ithome.com/1/005/438.htm</link>
-      <guid>https://ithome.com/1/005/438.htm</guid>
-      <description>IT之家 9 月 21 日消息，vivo X500 系列及智能终端新品发布会正在进行，接下来登场的是 vivo 首款耳夹耳机 Buds Clip，售价 599 元起。 标准版首销优惠价 599 元，建议零售价 699 元 无线充版首销优惠价 699 元，建议零售价 799 元 IT之家从发布会现场获悉，该产品提供月光白、浮光紫、星夜黑三款配色，采用自然流线…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>冲刺 IPO，Nscale 的 1030 亿美元数据中心订单高度依赖微软和 Anthropic 两大客户</title>
-      <link>https://ithome.com/1/005/437.htm</link>
-      <guid>https://ithome.com/1/005/437.htm</guid>
-      <description>IT之家 9 月 21 日消息，据彭博社报道，英国 AI 基础设施公司 Nscale 过去三年客户签约量激增千倍，主要归功于两家对人工智能算力如饥似渴的公司：微软和 Anthropic。 这两家公司贡献了该公司在首次公开募股（IPO）前夕披露的 1,030 亿美元 （IT之家注：现汇率约合 6,905.85 亿元人民币） 合同总额中的 85%。不过，Nsc…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>【视频】苹果 Mac mini （M6）首发体验，对比上代 M4 提升到底有多大？</title>
-      <link>https://ithome.com/1/005/476.htm</link>
-      <guid>https://ithome.com/1/005/476.htm</guid>
-      <description>苹果首款2nm芯片M6来了，首发竟是Mac mini！IT之家第一时间拿到了 32GB+1TB版本，对比同配置M4进行多项测试，M4用户要不要换，看完再说。 点击关注IT之家视频号</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>vivo X500 手机发布：首发天玑 9600M、8K 原生 Live，5499 元起</title>
-      <link>https://ithome.com/1/005/436.htm</link>
-      <guid>https://ithome.com/1/005/436.htm</guid>
-      <description>IT之家 9 月 21 日消息，在今晚举行的 vivo X500 系列及智慧终端新品发布会上，vivo X500 手机发布， 售价 5499 元起 ： 12GB+256GB：5499 元 12GB+512GB：5999 元 12GB+1TB：6999 元 IT之家在发布会现场获悉，vivo X500 手机搭载 X 系列标准版史上主摄最大底 1/1.28 英…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>vivo X500 Pro 系列手机发布：全球首发天玑 9600 Pro 旗舰芯，6499 元起</title>
-      <link>https://ithome.com/1/005/435.htm</link>
-      <guid>https://ithome.com/1/005/435.htm</guid>
-      <description>IT之家 9 月 21 日消息，vivo X500 系列及智慧终端新品发布会正在举行，vivo X500 Pro 系列手机正式发布，分为 Pro 版和 Pro Max 版机型，售价 6499 元起。 IT之家从发布会现场获悉，vivo X500 Pro 系列手机提供 晴天、览霞、摄夜、大地回声 四款配色，联合京东方带来 Q11 发光材料，支持 144Hz…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>小米雷军回应“武汉街头吃热干面”争议：帮助文旅宣传家乡美食，只带了两位同事、其余大部分是自发拍摄</title>
-      <link>https://ithome.com/1/005/434.htm</link>
-      <guid>https://ithome.com/1/005/434.htm</guid>
-      <description>IT之家 9 月 21 日消息，小米创办人、董事长兼 CEO 雷军今日开启直播，回应了此前网上热议的“武汉街头吃热干面”事件。 雷军表示，现在自己都不太敢（公开）去吃早餐，上次在武汉吃的时候影响力特别大，网上的讨论也很多，后来都特意找了人少的地方吃饭。 雷军解释称：“上次李总（IT之家注：小米汽车副总裁李肖爽）要回湖北老家参加一个活动，武汉文旅就想说请雷总…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
       <title>The Download: investigating deaths at the US border’s “virtual wall”</title>
       <link>https://technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall</link>
       <guid>https://technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall</guid>
@@ -1359,162 +1503,162 @@
       <category>OpenAI 博客</category>
     </item>
     <item>
-      <title>refactor: consolidate nested Markdown list tests (#155217)</title>
-      <link>https://github.com/openclaw/openclaw/commit/af60c252d51166b390fa49a106556845344ce389</link>
-      <guid>https://github.com/openclaw/openclaw/commit/af60c252d51166b390fa49a106556845344ce389</guid>
-      <description>refactor: consolidate nested Markdown list tests (#155217) Co-authored-by: Peter Steinberger &lt;steipete@gmail.com&gt;</description>
+      <title>fix(ci): avoid Docker scheduler success before finalization (#155212)</title>
+      <link>https://github.com/openclaw/openclaw/commit/91f0839da752dd7411e23a235b99f38227d3b36d</link>
+      <guid>https://github.com/openclaw/openclaw/commit/91f0839da752dd7411e23a235b99f38227d3b36d</guid>
+      <description>fix(ci): avoid Docker scheduler success before finalization (#155212) * fix(ci): join Docker scheduler cleanup before publishing results * fix(ci): keep scheduler summaries failed…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>refactor(gateway): remove node event test dependency registry (#155098)</title>
-      <link>https://github.com/openclaw/openclaw/commit/864e516174c20b78e82fef14f6f9b92423e1eb13</link>
-      <guid>https://github.com/openclaw/openclaw/commit/864e516174c20b78e82fef14f6f9b92423e1eb13</guid>
-      <description>refactor(gateway): remove node event test dependency registry (#155098) Use direct module owners for node events and existing filesystem mocks in agent handler tests. Preserve the…</description>
+      <title>fix(test): retain claimed listeners during initial allocation (#155209)</title>
+      <link>https://github.com/openclaw/openclaw/commit/485fa310fc91ac09cd897f194998cf270452afd5</link>
+      <guid>https://github.com/openclaw/openclaw/commit/485fa310fc91ac09cd897f194998cf270452afd5</guid>
+      <description>fix(test): retain claimed listeners during initial allocation (#155209) Compose the cooperative port claim and real loopback listener for initial TCP fixture and HTTP Gateway rese…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix: Side chat blocks typing while answering (#155183)</title>
-      <link>https://github.com/openclaw/openclaw/commit/368ec5c22d8cb1a3a5d106d305fee47eb3b08891</link>
-      <guid>https://github.com/openclaw/openclaw/commit/368ec5c22d8cb1a3a5d106d305fee47eb3b08891</guid>
-      <description>fix: Side chat blocks typing while answering (#155183) * fix: Side chat blocks typing while answering Keep the follow-up draft editable while a Side chat answer is pending, withou…</description>
+      <title>fix: recognize verified team admins as channel owners (#153508)</title>
+      <link>https://github.com/openclaw/openclaw/commit/c69b8b986867bbfaec30956cc8a217424e95015c</link>
+      <guid>https://github.com/openclaw/openclaw/commit/c69b8b986867bbfaec30956cc8a217424e95015c</guid>
+      <description>fix: recognize verified team admins as channel owners (#153508) * fix: recognize verified team admins as channel owners Resolve channel owner authority from SQLite profile identit…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>test(ci): split workflow coverage by responsibility (#155001)</title>
-      <link>https://github.com/openclaw/openclaw/commit/be0ee80928bf3e1e5322a1eeabf5e32af6e99d86</link>
-      <guid>https://github.com/openclaw/openclaw/commit/be0ee80928bf3e1e5322a1eeabf5e32af6e99d86</guid>
-      <description>test(ci): split workflow coverage by responsibility (#155001) Co-authored-by: Peter Steinberger &lt;steipete@gmail.com&gt;</description>
+      <title>fix(ui): preserve message footer focus outlines (#155199)</title>
+      <link>https://github.com/openclaw/openclaw/commit/eac221ae78bd7011ddadf2d4f41056eaa987ea98</link>
+      <guid>https://github.com/openclaw/openclaw/commit/eac221ae78bd7011ddadf2d4f41056eaa987ea98</guid>
+      <description>fix(ui): preserve message footer focus outlines (#155199) * fix(ui): preserve message footer focus outlines * fix(ui): complete message footer focus outlines</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(agents): sessions_yield misreports no pending child when an earli…</title>
-      <link>https://github.com/openclaw/openclaw/commit/2c23442435e829a868fbc69f9e26ab747a4fd7fa</link>
-      <guid>https://github.com/openclaw/openclaw/commit/2c23442435e829a868fbc69f9e26ab747a4fd7fa</guid>
-      <description>fix(agents): sessions_yield misreports no pending child when an earlier turn already waits on a running session (#155253) * fix(agents): report earlier-turn pending children from…</description>
+      <title>improve: reduce Gateway pauses during worktree cleanup (#154545)</title>
+      <link>https://github.com/openclaw/openclaw/commit/24892b0ed705cbe8fa86d9c8217ee41eaa8deae1</link>
+      <guid>https://github.com/openclaw/openclaw/commit/24892b0ed705cbe8fa86d9c8217ee41eaa8deae1</guid>
+      <description>improve: reduce Gateway pauses during worktree cleanup (#154545) * perf(worktrees): narrow cleanup registry reads Read fresh live IDs through the existing shared-state worker for…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix: keep mobile task progress collapsed by default (#155150)</title>
-      <link>https://github.com/openclaw/openclaw/commit/46375679b7cc9ef787f50fe21af345db0f665ca4</link>
-      <guid>https://github.com/openclaw/openclaw/commit/46375679b7cc9ef787f50fe21af345db0f665ca4</guid>
-      <description>fix: keep mobile task progress collapsed by default (#155150) * fix: keep mobile task progress collapsed by default Co-authored-by: vyctorbrzezowski &lt;51521767+vyctorbrzezowski@use…</description>
+      <title>test: reduce standard library work in compiler fixture (#155226)</title>
+      <link>https://github.com/openclaw/openclaw/commit/3a5673bec50444f2625774602fe5705962dbe2e6</link>
+      <guid>https://github.com/openclaw/openclaw/commit/3a5673bec50444f2625774602fe5705962dbe2e6</guid>
+      <description>test: reduce standard library work in compiler fixture (#155226)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(daemon): preserve runtime paths during service reinstalls (#155265)</title>
-      <link>https://github.com/openclaw/openclaw/commit/000a635e342398f96f67b4b0fbd6ad19bf166b04</link>
-      <guid>https://github.com/openclaw/openclaw/commit/000a635e342398f96f67b4b0fbd6ad19bf166b04</guid>
-      <description>fix(daemon): preserve runtime paths during service reinstalls (#155265) Retain supported recorded Node paths during forced reinstall and Doctor repair, without overriding explicit…</description>
+      <title>fix: retain accepted GitHub publication results (#155321)</title>
+      <link>https://github.com/openclaw/openclaw/commit/2a4527f0091799f95e47ca5ee99fafe90dbeeaa9</link>
+      <guid>https://github.com/openclaw/openclaw/commit/2a4527f0091799f95e47ca5ee99fafe90dbeeaa9</guid>
+      <description>fix: retain accepted GitHub publication results (#155321) Preserve accepted GitHub publication results and finish their exact owned Git index transactions after the initiating act…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(ui): remove gap below roster agent headers (#152574)</title>
-      <link>https://github.com/openclaw/openclaw/commit/63c7c8d0d02f31ad256bffc8525aae38657e6bbf</link>
-      <guid>https://github.com/openclaw/openclaw/commit/63c7c8d0d02f31ad256bffc8525aae38657e6bbf</guid>
-      <description>fix(ui): remove gap below roster agent headers (#152574) Co-authored-by: vyctorbrzezowski &lt;51521767+vyctorbrzezowski@users.noreply.github.com&gt;</description>
+      <title>chore(ui): refresh control ui locales (#155352)</title>
+      <link>https://github.com/openclaw/openclaw/commit/eab403af8431e285f3a87c963622e83bfcf13de0</link>
+      <guid>https://github.com/openclaw/openclaw/commit/eab403af8431e285f3a87c963622e83bfcf13de0</guid>
+      <description>chore(ui): refresh control ui locales (#155352) Co-authored-by: github-actions[bot] &lt;41898282+github-actions[bot]@users.noreply.github.com&gt;</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(plugins): skill previews wait for every supporting file (#155282)</title>
-      <link>https://github.com/openclaw/openclaw/commit/3aa130d87165ab08ce615238c8cc1a606ce19840</link>
-      <guid>https://github.com/openclaw/openclaw/commit/3aa130d87165ab08ce615238c8cc1a606ce19840</guid>
-      <description>fix(plugins): skill previews wait for every supporting file (#155282) Load plugin skill previews without waiting for every supporting file. Read the validated inventory and SKILL.…</description>
+      <title>improve(chat): clarify delivery status and recovery actions (#154365)</title>
+      <link>https://github.com/openclaw/openclaw/commit/1775705e3a244276ffddc9ed1345e96c36b338e9</link>
+      <guid>https://github.com/openclaw/openclaw/commit/1775705e3a244276ffddc9ed1345e96c36b338e9</guid>
+      <description>improve(chat): clarify delivery status and recovery actions (#154365) * improve(chat): clarify delivery status and recovery actions Give middle-dot separators balanced, scalable s…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>refactor(tasks): remove test runtime overrides (#155157)</title>
-      <link>https://github.com/openclaw/openclaw/commit/ebff854b0dbff92f4c8cff8a15634ba5b2080dd7</link>
-      <guid>https://github.com/openclaw/openclaw/commit/ebff854b0dbff92f4c8cff8a15634ba5b2080dd7</guid>
-      <description>refactor(tasks): remove test runtime overrides (#155157) Co-authored-by: Peter Steinberger &lt;steipete@gmail.com&gt;</description>
+      <title>fix(ui): avoid duplicated replies after model fallback (#155336)</title>
+      <link>https://github.com/openclaw/openclaw/commit/886f8f32d3d3103b13b99e56f0854af0c616b5ce</link>
+      <guid>https://github.com/openclaw/openclaw/commit/886f8f32d3d3103b13b99e56f0854af0c616b5ce</guid>
+      <description>fix(ui): avoid duplicated replies after model fallback (#155336) * fix(ui): avoid duplicated replies after model fallback Co-authored-by: VACInc &lt;3279061+VACInc@users.noreply.gith…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(protocol): expose suspension result validators to lifecycle clien…</title>
-      <link>https://github.com/openclaw/openclaw/commit/cefa7c0964ed68fd7899a136ac7e7e8b6245e971</link>
-      <guid>https://github.com/openclaw/openclaw/commit/cefa7c0964ed68fd7899a136ac7e7e8b6245e971</guid>
-      <description>fix(protocol): expose suspension result validators to lifecycle clients (#155258) * fix(protocol): expose canonical suspension result validation Let external lifecycle controllers…</description>
+      <title>fix(skills): stop quarantining safety guides for prompt keywords (#15…</title>
+      <link>https://github.com/openclaw/openclaw/commit/70446423d62683d6253b673b8eb4c04622e58d89</link>
+      <guid>https://github.com/openclaw/openclaw/commit/70446423d62683d6253b673b8eb4c04622e58d89</guid>
+      <description>fix(skills): stop quarantining safety guides for prompt keywords (#154441) * fix(skills): stop quarantining guides for prompt keywords Remove the three keyword-only prompt-injecti…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>feat: run Code Mode on Node or isolated QuickJS (#154522)</title>
-      <link>https://github.com/openclaw/openclaw/commit/09e06495a3980cd74623951442d6e8ce4b777779</link>
-      <guid>https://github.com/openclaw/openclaw/commit/09e06495a3980cd74623951442d6e8ce4b777779</guid>
-      <description>feat: run Code Mode on Node or isolated QuickJS (#154522) * feat: add selectable Code Mode executors Default enabled Code Mode to trusted Node execution and move QuickJS into a bu…</description>
+      <title>fix: deliver completed replies while Claude background research conti…</title>
+      <link>https://github.com/openclaw/openclaw/commit/915c6f7ac2c7c1c018e353f2769ecd26995bfd2b</link>
+      <guid>https://github.com/openclaw/openclaw/commit/915c6f7ac2c7c1c018e353f2769ecd26995bfd2b</guid>
+      <description>fix: deliver completed replies while Claude background research continues (#154874) * fix: deliver completed replies while Claude background research runs [skip ci] * fix: keep co…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix: allow pending answers during Gateway shutdown (#155287)</title>
-      <link>https://github.com/openclaw/openclaw/commit/55b3d3ecfe9b44430d8d47e1cf87d1a1b8d59d53</link>
-      <guid>https://github.com/openclaw/openclaw/commit/55b3d3ecfe9b44430d8d47e1cf87d1a1b8d59d53</guid>
-      <description>fix: allow pending answers during Gateway shutdown (#155287)</description>
+      <title>perf(gateway): reuse session candidates across presentation options (…</title>
+      <link>https://github.com/openclaw/openclaw/commit/daf81a35cee50f5fe517dd17feaecac35e65c30d</link>
+      <guid>https://github.com/openclaw/openclaw/commit/daf81a35cee50f5fe517dd17feaecac35e65c30d</guid>
+      <description>perf(gateway): reuse session candidates across presentation options (#155345)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(test): route session-store reclamation through the SQLite host</title>
-      <link>https://github.com/openclaw/openclaw/commit/784631f8118761e77fb956dd03c4a2d6938e5f50</link>
-      <guid>https://github.com/openclaw/openclaw/commit/784631f8118761e77fb956dd03c4a2d6938e5f50</guid>
-      <description>fix(test): route session-store reclamation through the SQLite host A retired session reclamation worker can require host-broker cleanup. Running the session-store fixture in a Vit…</description>
+      <title>fix(doctor): recover installed plugin ids after interrupted config wr…</title>
+      <link>https://github.com/openclaw/openclaw/commit/d9123f864a4e442819633927acad8d0b418beb4e</link>
+      <guid>https://github.com/openclaw/openclaw/commit/d9123f864a4e442819633927acad8d0b418beb4e</guid>
+      <description>fix(doctor): recover installed plugin ids after interrupted config writes (#147714) * fix(config): preserve references across plugin owner migrations * fix(config): keep authored…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(windows): restore Gateway model runs with worker metadata (#155071)</title>
-      <link>https://github.com/openclaw/openclaw/commit/66627e1de4f30878a8054f7efd244c373d126df2</link>
-      <guid>https://github.com/openclaw/openclaw/commit/66627e1de4f30878a8054f7efd244c373d126df2</guid>
-      <description>fix(windows): restore Gateway model runs with worker metadata (#155071) * fix(windows): restore Gateway model runs with worker metadata * test(update): share prepared candidate ru…</description>
+      <title>refactor(tasks): retire maintenance test overrides (#155120)</title>
+      <link>https://github.com/openclaw/openclaw/commit/19fae01395e5e8609011f08e2f638e96c9372c45</link>
+      <guid>https://github.com/openclaw/openclaw/commit/19fae01395e5e8609011f08e2f638e96c9372c45</guid>
+      <description>refactor(tasks): retire maintenance test overrides (#155120) Use the existing maintenance owners directly and scope test substitutions through restorable spies. Preserve the sessi…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(test): reuse caches across serial project runs (#155052)</title>
-      <link>https://github.com/openclaw/openclaw/commit/bf9611abc45ce668af7d7e8b6a322786aabf91b9</link>
-      <guid>https://github.com/openclaw/openclaw/commit/bf9611abc45ce668af7d7e8b6a322786aabf91b9</guid>
-      <description>fix(test): reuse caches across serial project runs (#155052) Co-authored-by: Peter Steinberger &lt;steipete@gmail.com&gt;</description>
+      <title>fix(openshell): unblock hosted E2E gateway authentication (#131465)</title>
+      <link>https://github.com/openclaw/openclaw/commit/eb20f68c1e96309a76a05c124be1c93db85804a3</link>
+      <guid>https://github.com/openclaw/openclaw/commit/eb20f68c1e96309a76a05c124be1c93db85804a3</guid>
+      <description>fix(openshell): unblock hosted E2E gateway authentication (#131465) * fix(openshell): unblock hosted E2E gateway authentication * test(openshell): retain sanitized hosted gateway…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>improve(ui): reuse incremental streaming Markdown normalization (#153…</title>
-      <link>https://github.com/openclaw/openclaw/commit/be2a29e409b207f8e2a020ab69c76088dd3a43b1</link>
-      <guid>https://github.com/openclaw/openclaw/commit/be2a29e409b207f8e2a020ab69c76088dd3a43b1</guid>
-      <description>improve(ui): reuse incremental streaming Markdown normalization (#153215) Reuse bounded normalized prefixes for cumulative streaming Markdown, preserve CRLF boundaries, and bypass…</description>
+      <title>chore(ui): refresh control ui locales (#155324)</title>
+      <link>https://github.com/openclaw/openclaw/commit/295b26fb838dda94b303af7d33f3c98d8acec5b7</link>
+      <guid>https://github.com/openclaw/openclaw/commit/295b26fb838dda94b303af7d33f3c98d8acec5b7</guid>
+      <description>chore(ui): refresh control ui locales (#155324) Co-authored-by: github-actions[bot] &lt;41898282+github-actions[bot]@users.noreply.github.com&gt;</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>improve(ci): run embedded agent tests in parallel (#154426)</title>
-      <link>https://github.com/openclaw/openclaw/commit/473d38b61bf36dac27f6977434bb060eb3d7356b</link>
-      <guid>https://github.com/openclaw/openclaw/commit/473d38b61bf36dac27f6977434bb060eb3d7356b</guid>
-      <description>improve(ci): run embedded agent tests in parallel (#154426) * perf(agents): keep replay helpers independent of policy runtime * perf(agents): narrow gateway and media metadata imp…</description>
+      <title>perf: prepare subagent facts for session and task reads (#154727)</title>
+      <link>https://github.com/openclaw/openclaw/commit/059ac3469fee86dabb876d085eb3433bbe49c76b</link>
+      <guid>https://github.com/openclaw/openclaw/commit/059ac3469fee86dabb876d085eb3433bbe49c76b</guid>
+      <description>perf: prepare subagent facts for session and task reads (#154727) * fix: keep subagent reads off the Gateway event loop Keep resident registry facts bound to their physical databa…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>chore(ui): refresh control ui locales (#155252)</title>
-      <link>https://github.com/openclaw/openclaw/commit/67f1cd73fcb1ec51ad7303c6280feceee30db8c5</link>
-      <guid>https://github.com/openclaw/openclaw/commit/67f1cd73fcb1ec51ad7303c6280feceee30db8c5</guid>
-      <description>chore(ui): refresh control ui locales (#155252) Co-authored-by: github-actions[bot] &lt;41898282+github-actions[bot]@users.noreply.github.com&gt;</description>
+      <title>test: advance shared backup fixture clock without waiting (#155332)</title>
+      <link>https://github.com/openclaw/openclaw/commit/5b8e08b8b46066589da64db3db41dc225204d212</link>
+      <guid>https://github.com/openclaw/openclaw/commit/5b8e08b8b46066589da64db3db41dc225204d212</guid>
+      <description>test: advance shared backup fixture clock without waiting (#155332)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>refactor: share dreaming wiki test snapshots (#155279)</title>
-      <link>https://github.com/openclaw/openclaw/commit/7ad083994368c4f0115884e7885774101f7997ca</link>
-      <guid>https://github.com/openclaw/openclaw/commit/7ad083994368c4f0115884e7885774101f7997ca</guid>
-      <description>refactor: share dreaming wiki test snapshots (#155279) Co-authored-by: Peter Steinberger &lt;steipete@gmail.com&gt;</description>
+      <title>fix(control-ui): avatar picker rejects small images in Safari with a …</title>
+      <link>https://github.com/openclaw/openclaw/commit/660b69e8e3a52a5d24201bdffe1be8977650fa17</link>
+      <guid>https://github.com/openclaw/openclaw/commit/660b69e8e3a52a5d24201bdffe1be8977650fa17</guid>
+      <description>fix(control-ui): avatar picker rejects small images in Safari with a misleading 2 MB error (#154921) Fix the Control UI avatar picker rejecting small images in Safari/WebKit with…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
@@ -1555,22 +1699,6 @@
       <link>https://producthunt.com/products/omnidicom</link>
       <guid>https://producthunt.com/products/omnidicom</guid>
       <description>DICOM viewing and metadata editing on Mac and Windows Discussion | Link</description>
-      <source>Product Hunt</source>
-      <category>Product Hunt</category>
-    </item>
-    <item>
-      <title>Jev</title>
-      <link>https://producthunt.com/products/jev-2</link>
-      <guid>https://producthunt.com/products/jev-2</guid>
-      <description>Fast, structured AI decisions for software automation Discussion | Link</description>
-      <source>Product Hunt</source>
-      <category>Product Hunt</category>
-    </item>
-    <item>
-      <title>NiubiGEO</title>
-      <link>https://producthunt.com/products/niubigeo</link>
-      <guid>https://producthunt.com/products/niubigeo</guid>
-      <description>Open-source AI visibility. Human-powered growth. Discussion | Link</description>
       <source>Product Hunt</source>
       <category>Product Hunt</category>
     </item>
@@ -1767,6 +1895,14 @@
       <category>The Hacker News</category>
     </item>
     <item>
+      <title>A cut cable disrupted hundreds of flights across the US</title>
+      <link>https://theverge.com/transportation/998550/a-cut-cable-disrupted-hundreds-of-flights-across-the-us</link>
+      <guid>https://theverge.com/transportation/998550/a-cut-cable-disrupted-hundreds-of-flights-across-the-us</guid>
+      <description>Hundreds of flights were cancelled or delayed on Monday after construction crews in New Jersey accidentally cut a Verizon fiber cable used for air traffic control. FAA Administrat…</description>
+      <source>The Verge</source>
+      <category>The Verge</category>
+    </item>
+    <item>
       <title>Amazon wants to help the Colorado River, but we still don’t know how much water the company uses</title>
       <link>https://theverge.com/tech/998539/amazon-data-center-water-conservation-colorado-river</link>
       <guid>https://theverge.com/tech/998539/amazon-data-center-water-conservation-colorado-river</guid>
@@ -1807,14 +1943,6 @@
       <category>The Verge</category>
     </item>
     <item>
-      <title>These are the first five Googlebook laptops</title>
-      <link>https://theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell</link>
-      <guid>https://theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell</guid>
-      <description>Google and partners are finally announcing the first laptops under the new Googlebook banner. There are five models from Acer, Asus, Dell, HP, and Lenovo to kick things off. They&#x27;…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
-    </item>
-    <item>
       <title>Grab an Xbox controller and a $50 Xbox gift card together for just $80</title>
       <link>https://theverge.com/gadgets/998207/xbox-controller-chromebook-usbc-charger-deal-sale</link>
       <guid>https://theverge.com/gadgets/998207/xbox-controller-chromebook-usbc-charger-deal-sale</guid>
@@ -1845,6 +1973,174 @@
       <description>Vivo&#x27;s new X500 flagship phones have arrived in China, and as usual the company&#x27;s focus is firmly on photography. The X500 Pro Max - a new tier in its lineup - is the first phone…</description>
       <source>The Verge</source>
       <category>The Verge</category>
+    </item>
+    <item>
+      <title>[寻开发团队] 实验室定制开发管理 + 自动化平台，需驻场深圳 3-6 个月，报实价</title>
+      <link>https://v2ex.com/t/1243882</link>
+      <guid>https://v2ex.com/t/1243882</guid>
+      <description>深圳本地单位实验室，想找一支靠谱的开发团队，定制一套完全贴合我们内部流程的实验室运行管理 + 自动化平台。 先说下背景：市面上通用的 LIMS 系统也看过不少，要么功能太泛用不上，要么流程太死改不动。我们实验室内部的业务链路和节点比较复杂，硬套成品只会越用越别扭。所以打算直接深度定制，要求团队驻场进来，花时间把我们整个运转逻辑、人员分工、设备情况、检材流转…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>好奇，这个行业大龄混的好的人都是怎么做的，具备什么样的能力呢，有什么比较成体系的方法论么？</title>
+      <link>https://v2ex.com/t/1243879</link>
+      <guid>https://v2ex.com/t/1243879</guid>
+      <description>本人是在国企做算法工程师的，我公司最大年龄的还在参与一线编码的是 40 岁，我感觉其实他们很努力，但是感觉他们好像进步很慢，没有年轻人那么大的成长空间，是不是他们工作的方法有问题呢？ 其实我觉得，如果我自己不改变，以后也会跟他们一样，会觉得有点焦虑。而且我觉得国企的基础管理岗屁事多的不行（领导瞎指挥，懂得都懂心累），我自己心理其实不想转管理岗。其实我也一直…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>codex 确定今天要重置？还是不确定呢？</title>
+      <link>https://v2ex.com/t/1243872</link>
+      <guid>https://v2ex.com/t/1243872</guid>
+      <description>tibo 发的 Tibo @ thsottiaux · 20h Replying to @ My_Ai_Bi 3am on a tuesday</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>你们真的不担心 vibecoding 会泄露重要数据吗，我真的害怕了</title>
+      <link>https://v2ex.com/t/1243871</link>
+      <guid>https://v2ex.com/t/1243871</guid>
+      <description>自从公司里大家都开始使用 vibecoding 之后，未知原因的阿里云 accesskey 已经泄露两次了，还好没造成严重后果，真的把我吓惨了。本以为不用来历不明的中转站就行了，但是仔细想想指望所有大厂都有良心根本也是奢望。然后又听说一个同事 GCP key 泄露信用卡被刷 1w 多，自此之后我就有点 PTSD 了，每天 vibecoding 都在想这样干…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>给 tinystruct 加了一层 TypeSafe 的自然语言调用</title>
+      <link>https://v2ex.com/t/1243870</link>
+      <guid>https://v2ex.com/t/1243870</guid>
+      <description>最近给框架 tinystruct 做了一个有点好玩的东西。 起因 现在很多 AI Agent 的常见模式都是： 用户 ↓ LLM ↓ Tool Calling ↓ 生成参数 ↓ 执行 Tool 但我一直觉得这里有一个核心问题： 如果业务代码本来就是确定且类型严密的，为什么还要让 LLM 去“重新编程”？ 在 tinystruct 框架中，我们本来就可以这样…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>今天真的要。重置了吗？</title>
+      <link>https://v2ex.com/t/1243869</link>
+      <guid>https://v2ex.com/t/1243869</guid>
+      <description>昨天刚把最后一张重置卡用了，今天要重置吗？ 就怕猛猛蹬完之后一周没有额度可以用😑😑😑</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>我一年 cursor 老用户，换到 qoder 了</title>
+      <link>https://v2ex.com/t/1243867</link>
+      <guid>https://v2ex.com/t/1243867</guid>
+      <description>之前一直用的 curosr ，量大管饱。最近发现 qoder 也不错，主力使用换到 qoder 了。 qwen 3.8 max 生成的 ui 效果不错 支持手机端实时同步，丢下电脑，手机上能继续干活 价格实惠</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>纯用 AI 开发的项目如果开源了算开源项目吗？</title>
+      <link>https://v2ex.com/t/1243866</link>
+      <guid>https://v2ex.com/t/1243866</guid>
+      <description>如题，本质上 AI 是通过喂大量开源项目源码训练的，那么用开源项目源码喂出来的 AI 写的代码进行开源，这种算开源项目吗？</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>请教各位大神，如何解决 Codex 在两台电脑之间无缝同步的问题？</title>
+      <link>https://v2ex.com/t/1243865</link>
+      <guid>https://v2ex.com/t/1243865</guid>
+      <description>我办公室一台 Mac,家中一台 Mac 。 同一个 GPT 账号。</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>前期大量 AI coding 上线的项目，越来越改不动了，该重写吗？</title>
+      <link>https://v2ex.com/t/1243859</link>
+      <guid>https://v2ex.com/t/1243859</guid>
+      <description>部门去年接手的一个零配件供应商门店系统，赶工期上线，大量使用了 AI coding 后交付使用了 上线后直到现在，大大小小的问题从来没有间断过，感觉越来越改不动了 继续改的人力成本非常大（因为早前没有时间仔细 review 代码），用 AI 改烧 tokens 很厉害，而且经常改了这里，牵动别的地方。另外，AI 还有一个坏习惯，喜欢无端增加很多 corne…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>Tkinter 的正确使用方法。。</title>
+      <link>https://v2ex.com/t/1243855</link>
+      <guid>https://v2ex.com/t/1243855</guid>
+      <description>Tkinter 是 Python 自带的，不用安装、开箱即用，，且用 pyinstaller 打包后体积小。。 但 Tkinter 写的界面比较丑（比如最简单的按钮与下拉框之间的间距都要手动调整），，虽然也可以通过写额外的代码来缓解这个问题，，但非常耗时、耗力。。 所以我一般是用 PyQt 写（即使是很简单的界面，，只有几个按钮、下拉框那种），，因为 Py…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>vibecoding 时一个恐怖的事</title>
+      <link>https://v2ex.com/t/1243850</link>
+      <guid>https://v2ex.com/t/1243850</guid>
+      <description>最近一直在 vibe 项目，也没看代码，只要功能实现就过了。 也不知道脑袋抽啥风了用 idea 打开了项目看了一下，就很随机的打开了某一个 Controller,然后我就在这个 Controller 里面看到了这么一个注解 @ EventListener ，我懵了这个东西怎么会在这儿。而且往上一看这个 Controller 里面还注入了另一个 Contro…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>有没有大佬了解 mimo plan 的</title>
+      <link>https://v2ex.com/t/1243835</link>
+      <guid>https://v2ex.com/t/1243835</guid>
+      <description>因智谱的 ZCode 代码上传的问题申请退款了，加上小米新发布了 mimo-v2.6 ，想试试。看了有两种 plan ，一种普通的 token plan ，一种是 desktop 的 token plan ，价格不一样，有没有大佬用过的，区别是啥，额度怎么样？</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>小米的 MiMo v2.6 Pro 登顶国模分数第一了，大家实测效果怎么样？</title>
+      <link>https://v2ex.com/t/1243834</link>
+      <guid>https://v2ex.com/t/1243834</guid>
+      <description>体感如何？是不是真的很有实力</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>Mimo V2.6 发布， Pro 版本 AAI Index 排名达到开源第一</title>
+      <link>https://v2ex.com/t/1243832</link>
+      <guid>https://v2ex.com/t/1243832</guid>
+      <description>Pro 相关跑分： AAI Index：46 ，超过 GLM 5.3 的 45 ，和 Grok 4.7 齐平。 Terminal Bench 4.0：34.9%， 超过 DeepSeek V4.1 Flash 的 26.8%，落后 Grok 4.7 的 38% 和 GLM 5.3 的 42% DeepSWE 1.1：71.9%，超过 Grok 4.7 的…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>Fedora 上最好用的截图工具 - 微信</title>
+      <link>https://v2ex.com/t/1243829</link>
+      <guid>https://v2ex.com/t/1243829</guid>
+      <description>一直想找个简单好用的截图工具（ Gnome ），之前尝试了著名的 Flameshot ，但是没看到可以配置快捷键触发截图，手动一直会有个弹窗提示，查阅 issue 说是 Gnome 的限制。 之前尝试了 qq 和微信自带的截图，但是会直接白屏卡住，不知道是 Wayland 还是哪里的问题，不想折腾了。 就一直使用系统自带的截图，习惯了 win 上的 sni…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>有没有这种 yolo 自动标注工具</title>
+      <link>https://v2ex.com/t/1243823</link>
+      <guid>https://v2ex.com/t/1243823</guid>
+      <description>我现在做了一个千牛的聊天留存工具，方案是 yolo + ocr + 简单算法来实现的。 标注的事，第一次干，也搜了一圈，最后手动的，一共 10 张图，眼都要标注瞎了。 现在设计的是 标注按照一组聊天区域 [用户名+时间+内容] ，这是四个标注区域。 因为素材太少，模型效果不太好，有时候时间或者发送人会识别不到，有时候是 yolo 识别的时间或者发送人区域有…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>Pixel + Android 17 导致的 pin 失效</title>
+      <link>https://v2ex.com/t/1243821</link>
+      <guid>https://v2ex.com/t/1243821</guid>
+      <description>今早像往常一样用手机，结果突然说 pin 输入错误了，我没太在意，又测试几次，变成 lock 1min ，然后 lock 5min ，15min ，我非常明确 pin 肯定是正确的。打开电脑，用 ChatGPT 找方案， 由于我的手机长期开着开发者模式，也连接过电脑的 adb ，最终通过 adb shell 中执行 `locksettings verify…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>求 chatgpt 接码平台</title>
+      <link>https://v2ex.com/t/1243819</link>
+      <guid>https://v2ex.com/t/1243819</guid>
+      <description>求 chatgpt 接码平台, 现在 kyc 是不是只需要验证一次? 下一次的话,号码还能修改吗? 现在都怎么操作,谢谢</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>又挂了</title>
+      <link>https://v2ex.com/t/1243814</link>
+      <guid>https://v2ex.com/t/1243814</guid>
+      <description>又挂了</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>Claude Code 刚刚又挂了</title>
+      <link>https://v2ex.com/t/1243806</link>
+      <guid>https://v2ex.com/t/1243806</guid>
+      <description>都没人说这个，看来封干净了。。。</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
     </item>
     <item>
       <title>GPT-6 Astra, 马斯克说： Sounds bad,小伙伴说降智，你说咋选大模型？</title>
@@ -1991,34 +2287,10 @@
       <category>V2EX 技术</category>
     </item>
     <item>
-      <title>打不开 V2EX 了，让 codex 看了下</title>
-      <link>https://v2ex.com/t/1243699</link>
-      <guid>https://v2ex.com/t/1243699</guid>
-      <description>打不开 V2EX 了，让 codex 看了下</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
       <title>我开发了一个专门学英语口语的小程序，欢迎大家体验给建议，核心理念是尚雯婕学习法的理念。</title>
       <link>https://v2ex.com/t/1243696</link>
       <guid>https://v2ex.com/t/1243696</guid>
       <description>背景与初心 平时自己学英语口语时，常常遇到找不到人练、开口尴尬、或者市面上的工具规则繁琐的问题。为了解决自己和身边朋友练习口语的痛点，我动手开发了这款专门针对英语口语练习的微信小程序—— 「小王学口语」 。 核心功能与特色 场景化沉浸对话 ：覆盖日常交流、职场面试、旅行出行等多类实用高频场景，告别死记硬背。 低门槛无压力开口 ：随时随地碎片化练习，无需面对…</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>开源｜ PoloX 增加了 skill_creator 功能</title>
-      <link>https://v2ex.com/t/1243687</link>
-      <guid>https://v2ex.com/t/1243687</guid>
-      <description>github repo: https://github.com/saihhold-zhao/polox_ai 更新 2026 年 9 月 21 日 — v2.0.0 重要更新：Skill Creator （首个公开测试版） 可用 Skill Creator 创建自己的 L1 skill 。在首页 Agent 对话框输入 /skill-creator 即可开…</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>跨企业人才信息库打标签，直接做出功能来......</title>
-      <link>https://v2ex.com/t/1243671</link>
-      <guid>https://v2ex.com/t/1243671</guid>
-      <description>54 秒，以前都是私底下 现在直接做出功能 https://www.bilibili.com/video/BV1m95Y6LE86</description>
       <source>V2EX 技术</source>
       <category>V2EX 技术</category>
     </item>
@@ -2055,114 +2327,10 @@
       <category>V2EX 技术</category>
     </item>
     <item>
-      <title>全站开发偏前端，找资源对接</title>
-      <link>https://v2ex.com/t/1243617</link>
-      <guid>https://v2ex.com/t/1243617</guid>
-      <description>哈喽，V2EX 的朋友们好。 我先介绍一下我自己，算起来 10 年开发经验，2022 年从某音频头部互联网离职开始创业。 说是创业，其实就是接外包+自己折腾，中间好几次都想去上班，但人总想着去折腾，或许是证明点什么？谁有不是呢？ 时间来到此刻，现在手上做了很多项目，但都没有挣钱。 一是我缺少很多资源，没有曝光，此贴也是为了认识新的朋友吧。 二是我不排斥随时…</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
       <title>现在大伙用的都是什么 AI 组合来写代码</title>
       <link>https://v2ex.com/t/1243598</link>
       <guid>https://v2ex.com/t/1243598</guid>
       <description>我还是用的 vscode + Copilot 插件为主力，codex 和 Claude 真用不习惯，我还是比较偏向 ide 形式。Copilot 里面主要是 DeppSeek 、两个中转站、opencode</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>你们的 gpt 降智了吗</title>
-      <link>https://v2ex.com/t/1243595</link>
-      <guid>https://v2ex.com/t/1243595</guid>
-      <description>感觉到了很明显的忽高忽低，找了几个网络测试都测出很低的智商 让它改一下之前的工具，发现做了一个 bug 特别特别多而且完全不听劝的版本 账号是个人账号，没有共享，苹果直充渠道正常，线路一直都很稳定的，昨天也没有用超 20%</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>量化大佬看过来， postman-gpui 经过迭代现在已经支持 HTTP 的全流程编排了！用 100 行 YAML 跑通了币安自动跟单与止盈策略！</title>
-      <link>https://v2ex.com/t/1243590</link>
-      <guid>https://v2ex.com/t/1243590</guid>
-      <description>量化大佬看过来，postman-gpui 经过迭代现在已经支持 HTTP 的全流程编排了！用 100 行 YAML 跑通了币安自动跟单与止盈策略！ 大家好！前段时间我们在社区首次分享了基于 Rust + GPUI 构建的高性能 API 客户端 ** postman-gpui **，收到了许多开发者的关注与宝贵反馈。 经过最近一段高强度的架构迭代与深打磨，项…</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>openai 啥时候能回复订阅 20X 的</title>
-      <link>https://v2ex.com/t/1243586</link>
-      <guid>https://v2ex.com/t/1243586</guid>
-      <description>这个代充的账号马上到期了，现在代充都要 1600 往上了么，真 TM 贵</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>分享个输出 GitHub 每日趋势中文翻译 html 的 skill</title>
-      <link>https://v2ex.com/t/1243580</link>
-      <guid>https://v2ex.com/t/1243580</guid>
-      <description>之前做了个项目,抓取 GitHub 和 huggingface 的热榜然后做几个语言的翻译,并且自动打 tag 还支持收藏,最后上 google adsense 没过,理由是缺少原创内容,项目就停掉了,但是个人需求还在,就浓缩成了这个 skill 一个感慨:现在这个时期很多公司的业务完全可以被一条 skill 降维打击 项目地址: https://gith…</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>文档处理的 token 消耗很大</title>
-      <link>https://v2ex.com/t/1243568</link>
-      <guid>https://v2ex.com/t/1243568</guid>
-      <description>最近发现做方案、做计划、计划审核、测试用例、包括代码实现、逻辑分析、边界处理之类的，token 消耗都还好； 随着积累的文档越来越多，如果需要做文档的复核，token 消耗就会很多，各种关联分析</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>skillmod：像 go mod 一样管理 Agent Skills</title>
-      <link>https://v2ex.com/t/1243561</link>
-      <guid>https://v2ex.com/t/1243561</guid>
-      <description>V 友也有很多开源的 skill 管理客户端，但是感觉用起来还是比较麻烦，很多工具也都是做拷贝，强迫症很难受。 所以做了 skillmod ，把 go mod 的同构方案搬到 skill 上： skillmod init 初始化 skill 依赖(下面 mod 和 lock 不需要人维护，是声明式的记录) SKILL.mod 声明项目需要哪些 skill…</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>TOC 产品</title>
-      <link>https://v2ex.com/t/1243557</link>
-      <guid>https://v2ex.com/t/1243557</guid>
-      <description>想问一下，做 TOC 产品的时候，用 Python 还是用 Java 合适呢。我以前是写 Java 的。现在都是 vibecoding 都是用的 ts+python 。 做了一个 toc 的产品，两千多的用户量了。我就感觉 Python 写的后台有的时候会并发挂掉，问题比较多，是不是应该换架构呢？我经验不是很多 emmm</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>有用 mac 跑 minimax H3 的吗，好后悔买了 48G 内存的 macbook</title>
-      <link>https://v2ex.com/t/1243546</link>
-      <guid>https://v2ex.com/t/1243546</guid>
-      <description>最近 AI 漫剧挺火，打算用 minimax H3 跑一下，电脑是 MBP(M3 Max + 48G 内存），跑个清晰一点的 3-5S 的视频竟然要一个多钟，跑了几个，直接放弃。看了一下显卡价格，想想还是算了。 当初选电脑的时候 M3 Max 满血版+48G 内存 和 M3 Max 残血版+96G 内存价格差不多，不知道怎么 sb 了选了 48G 的，CP…</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>最近发现，用 Ai 制作的公众号封面图的推文会被限流！有什么办法解决吗？</title>
-      <link>https://v2ex.com/t/1243540</link>
-      <guid>https://v2ex.com/t/1243540</guid>
-      <description>相当明显的限流！ 有什么能够让 ai 图不那么容易被识别的方法吗？或者对图片进行去隐形水印？</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>我发现写病毒居然很有意思。无害的那种</title>
-      <link>https://v2ex.com/t/1243534</link>
-      <guid>https://v2ex.com/t/1243534</guid>
-      <description>这是架构图，网上看来的，我加了自毁程序，全部流程结束后会自动回滚并且自毁 由于大部分 ai 有安全措施不让写。。我只有哄骗多个 ai 写部分模块。。然后在用本地部署的小模型，完善下，再来点古法编程. 放 vps 里跑一遍，看着这个病毒运行起来，杀毒软件查不出来，掐死杀毒软件，最后啪的一下自毁了。。感觉好有成就感啊。。。</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>因为 zcodex，做了个局域网 Agent 监护</title>
-      <link>https://v2ex.com/t/1243532</link>
-      <guid>https://v2ex.com/t/1243532</guid>
-      <description>https://github.com/s-silt/nmzp-monitor 架构很简单。专用 CT 核心跑在 Node HTTPS （自签证书，不往系统里装根证），被监护机上挂探针； join 只写本机已经存在的宿主目录，不擅自扩权。适配了 13 家：Grok 、Claude Code 、Codex 、ZCode 、Antigravity 、Gemini…</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>GPT-Load 接入 Jev：模型及思考强度的自动挡功能</title>
-      <link>https://v2ex.com/t/1243522</link>
-      <guid>https://v2ex.com/t/1243522</guid>
-      <description>项目地址： https://github.com/tbphp/gpt-load 最近折腾了一下 Jev ，感觉没有 X 上吹得那么神，准确度还有待提高，不过确实有很多有意思的玩法，特别是针对我在做的 GPT-Load 项目，马上就能想到一个场景：Auto Model 。 目前 GPT-Load 新版加了个 自动模型 功能：让 Jev 判断这次任务适合哪一档…</description>
       <source>V2EX 技术</source>
       <category>V2EX 技术</category>
     </item>
@@ -6967,6 +7135,14 @@
       <category>garymarcus.substack.com</category>
     </item>
     <item>
+      <title>It&#x27;s Not Just True, It&#x27;s False</title>
+      <link>https://idiallo.com/byte-size/its-not-just-true-its-false</link>
+      <guid>https://idiallo.com/byte-size/its-not-just-true-its-false</guid>
+      <description>We’ve given in to using LLMs for writing at work. From emails and Slack comments to full-on documentation, everything is AI-generated. However, I’ve realized it only ever saves me…</description>
+      <source>idiallo.com</source>
+      <category>idiallo.com</category>
+    </item>
+    <item>
       <title>Raspberry Pi locks down Pi 5 RAM upgrades in firmware</title>
       <link>https://jeffgeerling.com/blog/2026/raspberry-pi-ram-lockdown</link>
       <guid>https://jeffgeerling.com/blog/2026/raspberry-pi-ram-lockdown</guid>
@@ -7007,6 +7183,94 @@
       <category>tedium.co</category>
     </item>
     <item>
+      <title>At a university, you have to accept that people are going to do stuff</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/UniversityPeopleDoStuff</link>
+      <guid>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/UniversityPeopleDoStuff</guid>
+      <description>One of the things that you have to accept as a university system administrator is that people are going to do stuff, whether you like it or not. In a corporation, perhaps you can…</description>
+      <source>utcc.utoronto.ca/~cks</source>
+      <category>utcc.utoronto.ca/~cks</category>
+    </item>
+    <item>
+      <title>黑石：我们正处在“1870 年的拂晓时刻”，抓住“AI时代”的“牛肉”</title>
+      <link>https://wallstreetcn.com/articles/3782263</link>
+      <guid>https://wallstreetcn.com/articles/3782263</guid>
+      <description>面对市场对万亿AI资本支出是否会沦为泡沫的日益担忧，黑石集团总裁Jon Gray用极具冲击力的真实回报数据给出答案：实体经济的效率飞跃正在引爆指数级的需求，而算力、电力与数据中心的“现实硬短缺”，构成了当下最核心的投资机遇。 9月20日，黑石集团（Blackstone）总裁兼首席运营官Jon Gray在面向100多位全球顶级投资者的闭门演示中，首次全方位披…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>Muse“加持”，纳指“安静的暴涨”，市场对“重返AI交易”将信将疑，下周的美光财报成焦点</title>
+      <link>https://wallstreetcn.com/articles/3782270</link>
+      <guid>https://wallstreetcn.com/articles/3782270</guid>
+      <description>Meta AI智能体Muse上线仅12天，日活跃用户峰值达44.8万，单日下载量创26.4万纪录，远超ChatGPT同期表现，引爆市场对消费级AI进入主流拐点的押注。 9月21日，纳指100单日收涨约2.83%，重新站上3万点，创6月以来新高。但高盛交易台分析师Peter Callahan指出这是一次 “安静的暴涨” ——成交活跃度只有3分（满分10分），…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>阿里巴巴计划训练5到10万亿参数AI模型</title>
+      <link>https://wallstreetcn.com/articles/3782272</link>
+      <guid>https://wallstreetcn.com/articles/3782272</guid>
+      <description>阿里巴巴计划训练5到10万亿参数AI模型。 风险提示及免责条款 市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>ASIC与CPU需求强劲！瑞银上调CoWoS行业产能预测，预计较今年大幅增长</title>
+      <link>https://wallstreetcn.com/articles/3782268</link>
+      <guid>https://wallstreetcn.com/articles/3782268</guid>
+      <description>云端AI芯片需求持续超预期，正推动先进封装行业进入新一轮扩张周期。 据追风交易台，瑞银在最新研究报告中将2027年底全球CoWoS行业产能预测从此前的26万片/月上调至27万片/月，较2026年底预估的16万片/月大幅增长约69%。驱动此轮上调的核心动力，是ASIC与CPU需求的强劲崛起。 瑞银认为，这两类芯片在2028至2029年将主要继续依赖CoWoS…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>Instagram负责人：影响力正从机构流向个人，AI内容越泛滥，真人越值钱</title>
+      <link>https://wallstreetcn.com/charts/41959898</link>
+      <guid>https://wallstreetcn.com/charts/41959898</guid>
+      <description>Instagram 负责人 Adam Mosseri 表示：当 AI 生成的内容铺天盖地时， 最稀缺的反而是“活生生的人”和真实感。算法现在根本分不清 AI 内容的好坏， 导致垃圾内容充斥平台。但行业的权力正在从机构全面转向个人， AI 越普及，观众就越渴望真实的视角、情感和连接。 未来的流量不再属于单纯的批量制造内容，而属于镜头背后那个真实、有观点的个人…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>Meta 的超级阳线：单日暴涨 11%，智能体Muse 神话引爆 AI 应用？</title>
+      <link>https://wallstreetcn.com/member/articles/3782267</link>
+      <guid>https://wallstreetcn.com/member/articles/3782267</guid>
+      <description>2026 年9月21日，几个月前扬言“砍算力”的Meta 单日大涨 11.43%，市值一夜增加约 1900 亿美元，创 2025 年 4 月以来最大单日涨幅。扎克伯格现在最着急的，一定是哪里去搞到更多的算力来支撑自己的智能体MUSE！ 导火索来自于Muse个人 AI 智能体的火爆：9月8日META发布，一周多即登顶美国 iOS 免费应用榜首，并且超越Cha…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>A股三大指数集体高开</title>
+      <link>https://wallstreetcn.com/articles/3782269</link>
+      <guid>https://wallstreetcn.com/articles/3782269</guid>
+      <description>沪指高开0.35%，深成指高开0.94%，创业板指高开1.37%。 风险提示及免责条款 市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>PE大佬：我们看到的AI需求增长是“指数级”的</title>
+      <link>https://wallstreetcn.com/charts/41959897</link>
+      <guid>https://wallstreetcn.com/charts/41959897</guid>
+      <description>黑石集团总裁兼首席运营官Jon Gray称AI需求呈指数级增长。 他通过投资组合公司等观察到，14家公司与Anthropic相关的年化支出从2500万美元增至5.25亿美元，增长21倍。 企业级AI正从试点走向大规模采购，并非炒作，而是当前最强劲的结构性趋势之一。</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>人民币汇率为什么“独自美丽”？</title>
+      <link>https://wallstreetcn.com/articles/3782264</link>
+      <guid>https://wallstreetcn.com/articles/3782264</guid>
+      <description>9月中旬，美联储、欧洲央行与日本央行在“央行超级周”窗口相继加息，海外流动性重新收紧。美元指数反弹、利差走阔，人民币却并未承压，9月10日至18日，美元指数反弹约1.14%，人民币不贬反升，离岸人民币于9月18日升破6.7。与此同时，人民币对欧元、英镑、瑞郎、澳元、加元、纽元、日元等交叉盘同步走强， 这说明本轮行情的背后是一场美元指数与人民币汇率之间走势的…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>Ben Thompson：模型能力已经过剩，现在是“应用时刻”</title>
+      <link>https://wallstreetcn.com/articles/3782262</link>
+      <guid>https://wallstreetcn.com/articles/3782262</guid>
+      <description>9月21日，科技战略分析师、Stratechery创始人Ben Thompson在发布的最新文章《Frontier Overhangs》中提出，AI行业正面临五重&quot;过剩&quot;（overhang）—— 能力过剩、产品过剩、定价过剩、资本过剩与安全过剩。 他认为，这些过剩共同指向一个结论：模型能力的绝对领先，已不再是构建商业护城河的充分条件。模型与应用层（harn…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
       <title>PE巨头：我们处在“1870年”</title>
       <link>https://wallstreetcn.com/charts/41959896</link>
       <guid>https://wallstreetcn.com/charts/41959896</guid>
@@ -7019,6 +7283,14 @@
       <link>https://wallstreetcn.com/articles/3782259</link>
       <guid>https://wallstreetcn.com/articles/3782259</guid>
       <description>SpaceX的Grok Bot、Meta的Muse接连引爆市场，个人AI Agent的战火已经烧到了OpenAI门口。 据The Information最新报道，消息人士透露，OpenAI正在开发新功能，以更直接地对抗SpaceX旗下Grok Bot，同时也在讨论推出个人AI助手以应对Meta的Muse。 Grok Bot与Muse：对手已经跑起来了 Gr…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>AMD首破万亿美元创历史新高！天空才是CPU的极限？</title>
+      <link>https://wallstreetcn.com/member/articles/3782265</link>
+      <guid>https://wallstreetcn.com/member/articles/3782265</guid>
+      <description>AMD首次突破1万亿美元市值并刷新历史新高，Intel、Arm同步大涨，CPU一夜之间从供应链涨价逻辑变成AI交易的新焦点。 需求端，Meta Muse登顶美国App Store免费榜，让消费级智能体的大规模CPU负载第一次变得可见；供给端，Intel CEO陈立武则表示，公司当前产能只能满足客户大约一半的需求。 此前已经发生的交期拉长、配额、长协锁量和平…</description>
       <source>华尔街见闻最新资讯</source>
       <category>华尔街见闻最新资讯</category>
     </item>
@@ -7111,14 +7383,6 @@
       <category>华尔街见闻最新资讯</category>
     </item>
     <item>
-      <title>报道：OpenAI和Anthropic拟相互进行压力测试，寻找潜在安全风险</title>
-      <link>https://wallstreetcn.com/articles/3782251</link>
-      <guid>https://wallstreetcn.com/articles/3782251</guid>
-      <description>OpenAI和Anthropic今年早些时候曾与各自律师讨论一项具有法律约束力的协议，拟相互对商业化AI模型进行压力测试，以寻找模型中的漏洞和潜在风险。 据The Information援引知情人士透露，根据拟议中的协议， OpenAI和Anthropic将获得对方商业化AI模型的API访问权限，并通过一系列测试寻找模型可能存在的漏洞或潜在危险。尚未发布的…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
       <title>标普：未来数年银行对AI的应用将影响信用评级</title>
       <link>https://wallstreetcn.com/articles/3782246</link>
       <guid>https://wallstreetcn.com/articles/3782246</guid>
@@ -7139,70 +7403,6 @@
       <link>https://wallstreetcn.com/member/articles/3782250</link>
       <guid>https://wallstreetcn.com/member/articles/3782250</guid>
       <description>1、【美国柴油价格刷新历史纪录】美国柴油价格首次突破每加仑6.5美元。据美国汽车协会（AAA）数据，截至周日，全美柴油零售均价升至6.505美元/加仑，而两周前才刚刚站上6美元关口。 2、【Meta智能体登顶美国App Store】Meta 旗下个人 AI 智能体 Muse 于 9 月 18 日、即上线约十天后登上美国苹果 App Store 免费应用榜首…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>OpenAI和Anthropic营收面临威胁：成本压力下，更多AI初创企业转向开源模型</title>
-      <link>https://wallstreetcn.com/articles/3782247</link>
-      <guid>https://wallstreetcn.com/articles/3782247</guid>
-      <description>法律AI独角兽Harvey今年毛利率一度跌至-50%，成为一个缩影—— 随着OpenAI和Anthropic的API费用持续攀升，越来越多的AI应用初创企业开始拥抱开源权重模型 ，重夺成本控制权。 这一趋势正在加速。 Harvey、Abridge、Decagon、Ramp等横跨法律、医疗、金融和客服赛道的初创企业，相继宣布自研或定制模型的计划，部分企业已将…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>Meta智能体Muse迅速走红，分析师称扎克伯格豪赌AI没有白费</title>
-      <link>https://wallstreetcn.com/articles/3782248</link>
-      <guid>https://wallstreetcn.com/articles/3782248</guid>
-      <description>Meta Platforms新推出的人工智能(AI)智能体Muse迅速登上移动应用排行榜榜首，显示这家社交媒体公司正在竞争日益激烈的消费者AI助手市场取得进展。 截至周一，Muse位居美国苹果iOS应用商店和Google Play免费应用榜首位。Sensor Tower的高级分析师Abe Yousef表示，在Meta于9月8日推出Muse后，六天内下载量累…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>报道：OpenAI开发新功能应对Grok Bot和Meta Muse竞争</title>
-      <link>https://wallstreetcn.com/articles/3782241</link>
-      <guid>https://wallstreetcn.com/articles/3782241</guid>
-      <description>OpenAI正针对SpaceX旗下Grok Bot及Meta新推出的Muse产品，分别开发相应的专项功能。 据The Information报道， OpenAI正在开发专门针对Grok Bot的功能，后者定位为全天候在线的数字工作伙伴，能够管理软件应用并处理后台例行任务。 同时，OpenAI管理层已就推出一款专属个人AI助手展开讨论，以正面回应Meta的M…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>起售价涨超1000元，vivo X500打响9月国产直板旗舰机第一枪</title>
-      <link>https://wallstreetcn.com/articles/3782245</link>
-      <guid>https://wallstreetcn.com/articles/3782245</guid>
-      <description>9月21日晚，vivo发布X500系列，打响了国产直板旗舰秋季大战的第一枪。 去年，vivo X300系列于10月13日发布，到了今年，X500系列的发布整整早了22天。 发布会上，vivo副总裁黄韬也主动提到，过去几年，vivo年度旗舰发布会大多都在10月中旬以后。甚至有用户调侃，十一长假旅行回来，再看一场主打旅拍的旗舰发布会，正好回味刚刚结束的假期。…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>贝森特：OpenAI黑客事件要怪管理层，责任在人、别“甩锅”AI</title>
-      <link>https://wallstreetcn.com/articles/3782244</link>
-      <guid>https://wallstreetcn.com/articles/3782244</guid>
-      <description>美国财长贝森特将OpenAI先进AI模型攻击Hugging Face事件的责任指向企业管理层，强调AI安全事故应由人类承担责任，并反对给予AI实验室安全责任豁免。他同时谈及特朗普拟任命人工智能事务“总管”的计划，称这一职位将为相关问题提供背景、塑造框架并划定边界。 美东时间9月21日周一，贝森特在接受CNBC采访时表示，Hugging Face事件的责任在…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>印度交易潮吸引华尔街！戴蒙亲赴印度，摩根大通加码争夺大单</title>
-      <link>https://wallstreetcn.com/articles/3782242</link>
-      <guid>https://wallstreetcn.com/articles/3782242</guid>
-      <description>摩根大通正加码印度市场，CEO杰米·戴蒙将亲赴孟买，争夺这个快速增长的资本市场。 9月21日，据彭博报道，戴蒙将出席摩根大通在孟买举办的年度投资者大会，并与印度大型企业集团高管会面。 Mukesh Ambani旗下信实工业已在交易所公告中确认将与摩根大通官员会面，雀巢印度、塔塔钢铁等大型企业代表也预计参与。 摩根大通预计，本届大会将吸引逾1000名全球投资…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>胡塞武装攻占战略高地！特朗普据报临时叫停空袭，中东能源风险再升级</title>
-      <link>https://wallstreetcn.com/articles/3782238</link>
-      <guid>https://wallstreetcn.com/articles/3782238</guid>
-      <description>胡塞武装加速争夺也门战略要地，与此同时，据报特朗普在美军战机已完成弹药挂载的最后关头，叫停了对胡塞武装的空袭行动。这场冲突正将中东紧张态势延伸至新战场，并持续威胁全球能源供应。 据CCTV国际时讯， 随着也门胡塞武装在国内加大攻势并与沙特持续互袭，美国总统特朗普针对沙特的求援摇摆不定已两周。 当地时间上周四，特朗普与沙特王储兼首相穆罕默德再次通话后，一度指…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>支付宝合并三大业务板块，吴敏芝出任新事业群总裁</title>
-      <link>https://wallstreetcn.com/articles/3782239</link>
-      <guid>https://wallstreetcn.com/articles/3782239</guid>
-      <description>9月21日，蚂蚁集团CEO韩歆毅发布全员信，宣布对支付宝进行组织调整及人事任命，进一步推进智能体商业布局。 根据调整，支付宝事业群、数字支付事业群和芝麻信用事业部将合并组建新的支付宝事业群。吴敏芝出任新支付宝事业群总裁，并继续兼任蚂蚁集团CPO。 此次调整意味着，支付宝的平台运营、数字支付和信用服务将被纳入同一事业群。原本分布在不同业务板块的技术、产品及生…</description>
       <source>华尔街见闻最新资讯</source>
       <category>华尔街见闻最新资讯</category>
     </item>
@@ -7245,6 +7445,14 @@
       <description>一口气搞懂 45 个 AI 术语：从 LLM 到 Ontology</description>
       <source>安全客</source>
       <category>安全客</category>
+    </item>
+    <item>
+      <title>派早报：vivo 发布 X500 系列，Google 推出首批 Googlebook 等</title>
+      <link>https://sspai.com/post/114840</link>
+      <guid>https://sspai.com/post/114840</guid>
+      <description>少数派的近期动态少数派会员2026周边现已开放兑换，点击兑换给电话加上「辅助驾驶」？我们想听听你的意见。我们将从提交的问卷中挑选40份用心回答，每份送出50元面值京东卡。参与调研口袋先知新版本1.3. ... 查看全文</description>
+      <source>少数派</source>
+      <category>少数派</category>
     </item>
     <item>
       <title>一台主机，多重角色：新款 Mac mini 首发体验</title>
