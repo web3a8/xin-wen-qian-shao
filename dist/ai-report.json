@@ -1,56 +1,56 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：大模型价格战：OpenAI和Anthropic掀桌了，国产模型面临最强压力？；Anthropic is cutting off its internal evaluations from the internet；腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill。",
+  "global_brief": "过去24小时的重要动态主要集中在：Ollama num_ctx Truncated 287 of 400 Prompts and Never Told Me；大模型价格战：OpenAI和Anthropic掀桌了，国产模型面临最强压力？；Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6376,
-      "event_count": 116
+      "field_score": 5770,
+      "event_count": 109
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1525,
-      "event_count": 37
+      "field_score": 1464,
+      "event_count": 36
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 784,
-      "event_count": 20
+      "field_score": 501,
+      "event_count": 13
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 141,
-      "event_count": 3
+      "field_score": 251,
+      "event_count": 5
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 124,
-      "event_count": 3
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 155,
+      "event_count": 4
     }
   ],
   "highlight_facts": [
+    {
+      "title": "Ollama num_ctx Truncated 287 of 400 Prompts and Never Told Me",
+      "summary": "My local RAG bot answered 46% of my test questions correctly. Llama 3.1 8B on Ollama, a 128K context window on the mode…；Ollama num_ctx Truncated 287 of 400 Prompts and Never Told Me",
+      "references": []
+    },
     {
       "title": "大模型价格战：OpenAI和Anthropic掀桌了，国产模型面临最强压力？",
       "summary": "Anthropic 发布 Claude Haiku 5.5，把 10 万 token 以内请求的输入价定为每百万 0.10 美元，正好和OpenAI两周前推出的 GPT-6 Luna 分毫不差，也比自己的上一代 Haiku 4.5 便宜九…；大模型价格战：OpenAI和Anthropic掀桌了，国产模型面临最强压力？",
       "references": []
     },
     {
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "summary": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws；Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery…",
+      "references": []
+    },
+    {
       "title": "Anthropic is cutting off its internal evaluations from the internet",
-      "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off interne…；Anthropic is cutting off its internal evaluations from the internet；Anthropic can’t reliably contr…",
-      "references": []
-    },
-    {
-      "title": "腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill",
-      "summary": "IT之家 10 月 10 日消息，今日， 腾讯云宣布开源内部自用 TeamAI。这是一款基于 Git 的团队 AI 协作工具。它把团队使用的 Skill、工作规范、工具配置和项目知识统一放进 Git 仓库，像管理代码一样进行评审、更新和版…；腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill",
-      "references": []
-    },
-    {
-      "title": "消息称 Meta 已搁置向 Anthropic 出租 AI 算力的计划",
-      "summary": "IT之家 10 月 10 日消息，《华尔街日报》在一篇当地时间昨日的报道中提到，Meta 已搁置向 Anthropic 出租 AI 算力的计划。 报道指出，Anthropic 首席执行官 Dario Amodei 今年早些时候曾亲自致电…；消息称 Meta 已搁置向 Anthropic 出租 AI 算力的计划",
+      "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off interne…；Anthropic is cutting off its internal evaluations from the internet；Anthropic detailed the activit…",
       "references": []
     },
     {
