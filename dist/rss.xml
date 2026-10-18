@@ -5,7 +5,7 @@
     <link>https://web3a8.github.io/news-push-data/</link>
     <description>通用新闻引擎输出的精选资讯流，当前仍以科技与 AI 信号源为主</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 18 Oct 2026 17:58:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:59:31 GMT</lastBuildDate>
     <item>
       <title>Anthropic gives outside AI watchdog “employee-like” access</title>
       <link>https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access</link>
@@ -15,111 +15,175 @@
       <category>Ars Technica</category>
     </item>
     <item>
-      <title>CSV delimiter detection should be allowed to return ambiguity</title>
-      <link>https://dev.to/__be2942592/csv-delimiter-detection-should-be-allowed-to-return-ambiguity-7bb</link>
-      <guid>https://dev.to/__be2942592/csv-delimiter-detection-should-be-allowed-to-return-ambiguity-7bb</guid>
-      <description>Consider this small delimited file: id,name;label 1,A;B With a comma delimiter, it has two columns: [ [ &quot; id &quot; , &quot; name;label &quot; ], [ &quot; 1 &quot; , &quot; A;B &quot; ] ] With a semicolon delimiter…</description>
+      <title>GPUStack With vLLM in Production: Pinning KV Cache Before the OOM Finds You</title>
+      <link>https://dev.to/dave_mille/gpustack-with-vllm-in-production-pinning-kv-cache-before-the-oom-finds-you-84m</link>
+      <guid>https://dev.to/dave_mille/gpustack-with-vllm-in-production-pinning-kv-cache-before-the-oom-finds-you-84m</guid>
+      <description>We run a small on-prem inference fleet - four nodes, mixed A6000 and 4090 cards - and last quarter we replaced a pile of hand-rolled docker run wrappers with GPUStack. The pitch i…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Giving AI Agents a Memory They Can Reason Over: Building AI Supervisor with FalkorDB</title>
-      <link>https://dev.to/moizz_/giving-ai-agents-a-memory-they-can-reason-over-building-ai-supervisor-with-falkordb-5768</link>
-      <guid>https://dev.to/moizz_/giving-ai-agents-a-memory-they-can-reason-over-building-ai-supervisor-with-falkordb-5768</guid>
-      <description>How we used graph memory to connect failures, decisions, dependencies, and verification in an AI coding-agent control plane. The problem: AI agents can finish a task without finis…</description>
+      <title>Must Read for Vibe Coders: The Five Habits That Separate a Demo From a Product</title>
+      <link>https://dev.to/tdk-cli/must-read-for-vibe-coders-the-five-habits-that-separate-a-demo-from-a-product-32ee</link>
+      <guid>https://dev.to/tdk-cli/must-read-for-vibe-coders-the-five-habits-that-separate-a-demo-from-a-product-32ee</guid>
+      <description>If you vibe-code, read this before you share anything you built. An agent can produce a working app in an afternoon. What it cannot do is check that the app works on a second mach…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>A policy changed. Which company documents just became wrong?</title>
-      <link>https://dev.to/parthjaina2107/a-policy-changed-which-company-documents-just-became-wrong-3pdk</link>
-      <guid>https://dev.to/parthjaina2107/a-policy-changed-which-company-documents-just-became-wrong-3pdk</guid>
-      <description>A company changes its refund window from 30 days to 14. The approved policy gets updated. But the help centre still says 30 days. A saved AI reply repeats the old promise. A refun…</description>
+      <title>Udhaar Book: photograph the khata, get the udhaar back</title>
+      <link>https://dev.to/ramantiw45/udhaar-book-photograph-the-khata-get-the-udhaar-back-5bej</link>
+      <guid>https://dev.to/ramantiw45/udhaar-book-photograph-the-khata-get-the-udhaar-back-5bej</guid>
+      <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle TL;DR — Photograph one page of a shop&#x27;s handwritten credit notebook. An open-weight model r…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Reject malformed UTF-8 before it reaches your CSV parser</title>
-      <link>https://dev.to/__be2942592/reject-malformed-utf-8-before-it-reaches-your-csv-parser-mbk</link>
-      <guid>https://dev.to/__be2942592/reject-malformed-utf-8-before-it-reaches-your-csv-parser-mbk</guid>
-      <description>A CSV import can have the right number of columns and still contain damaged text. The damage may happen before the CSV parser receives a string. JavaScript&#x27;s TextDecoder replaces…</description>
+      <title>Node.js Daily Shipment Reports: Scheduling Subscriber Email Fan-Out with Durable Jobs</title>
+      <link>https://dev.to/vespasianblack3884/nodejs-daily-shipment-reports-scheduling-subscriber-email-fan-out-with-durable-jobs-1p92</link>
+      <guid>https://dev.to/vespasianblack3884/nodejs-daily-shipment-reports-scheduling-subscriber-email-fan-out-with-durable-jobs-1p92</guid>
+      <description>Short answer: for a scheduled daily report email backend, use cron to start one coordinator, then put one durable, idempotent delivery job per subscriber behind it; direct sending…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>What If Startups Could Find More Value in What They Already Have? The Story Behind Stack Intel</title>
-      <link>https://dev.to/hilarious_24001/what-if-startups-could-find-more-value-in-what-they-already-have-the-story-behind-stack-intel-48m9</link>
-      <guid>https://dev.to/hilarious_24001/what-if-startups-could-find-more-value-in-what-they-already-have-the-story-behind-stack-intel-48m9</guid>
-      <description>From a question about startup failure to a vision for company intelligence, opportunity discovery, and better technology decisions. There is a statistic that has followed startup…</description>
+      <title>Building a Leakage-Aware Readmission Model on 100,000 Diabetic Encounters</title>
+      <link>https://dev.to/code_with_mwai/building-a-leakage-aware-readmission-model-on-100000-diabetic-encounters-2dmf</link>
+      <guid>https://dev.to/code_with_mwai/building-a-leakage-aware-readmission-model-on-100000-diabetic-encounters-2dmf</guid>
+      <description>What a I learnt about outcome definitions, patient-grouped splits and honest metrics while predicting hospital readmission with scikit-learn. The problem Hospital readmission is e…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>AI Supervisor: AI agents do the work. AI Supervisor makes sure the work gets done.</title>
-      <link>https://dev.to/moizz_/ai-supervisor-ai-agents-do-the-work-ai-supervisor-makes-sure-the-work-gets-done-39nh</link>
-      <guid>https://dev.to/moizz_/ai-supervisor-ai-agents-do-the-work-ai-supervisor-makes-sure-the-work-gets-done-39nh</guid>
-      <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built AI coding agents can write code and complete tasks, but a completion message d…</description>
+      <title>FramePilot: Turning a Video Brief Into a Billable Project</title>
+      <link>https://dev.to/bazik/framepilot-turning-a-video-brief-into-a-billable-project-4dhk</link>
+      <guid>https://dev.to/bazik/framepilot-turning-a-video-brief-into-a-billable-project-4dhk</guid>
+      <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle An AI-powered business assistant for freelance video creators, built with Gemma and Ollama.…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Your company&#x27;s docs are lying to you. A graph can tell you which ones.</title>
-      <link>https://dev.to/samina_parveen_11a71af857/your-companys-docs-are-lying-to-you-a-graph-can-tell-you-which-ones-dj0</link>
-      <guid>https://dev.to/samina_parveen_11a71af857/your-companys-docs-are-lying-to-you-a-graph-can-tell-you-which-ones-dj0</guid>
-      <description># Your company&#x27;s docs are lying to you. A graph can tell you which ones. At most companies, &quot;why do we use Kafka?&quot; has an answer. It&#x27;s in ADR-007, written two years ago by someone…</description>
+      <title>Leadfinder: evidence-backed WhatsApp pitches for Lagos freelancers, on Gemma for $0.32 per 1,000 leads</title>
+      <link>https://dev.to/bennykillua/leadfinder-evidence-backed-whatsapp-pitches-for-lagos-freelancers-on-gemma-for-032-per-1000-5921</link>
+      <guid>https://dev.to/bennykillua/leadfinder-evidence-backed-whatsapp-pitches-for-lagos-freelancers-on-gemma-for-032-per-1000-5921</guid>
+      <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built Cold pitches in Lagos fail because they say nothing Freelancers in Lagos who s…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Why I gave my code review agent a graph</title>
-      <link>https://dev.to/hemanth_saichitra_fb1bc0/why-i-gave-my-code-review-agent-a-graph-598o</link>
-      <guid>https://dev.to/hemanth_saichitra_fb1bc0/why-i-gave-my-code-review-agent-a-graph-598o</guid>
-      <description>**# Why I gave my code review agent a graph By a student builder who got tired of watching AI hallucinate code reviews. Like almost every computer science student working with gen…</description>
+      <title>ReLoopAI: Turning Waste into Sustainable Business Opportunities with AI ♻️</title>
+      <link>https://dev.to/nawed_ullah_86d66394947ac/reloopai-turning-waste-into-sustainable-business-opportunities-with-ai-320h</link>
+      <guid>https://dev.to/nawed_ullah_86d66394947ac/reloopai-turning-waste-into-sustainable-business-opportunities-with-ai-320h</guid>
+      <description>What I Built ReLoopAI — Discover opportunities in waste. Turn ideas into possibilities. ReLoopAI is an AI-powered application designed to help people discover potential business o…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>SentinelGraph: Building a Graph-Powered AI Cybersecurity Investigation Agent with FalkorDB</title>
-      <link>https://dev.to/parnika_sm/sentinelgraph-building-a-graph-powered-ai-cybersecurity-investigation-agent-with-falkordb-59eb</link>
-      <guid>https://dev.to/parnika_sm/sentinelgraph-building-a-graph-powered-ai-cybersecurity-investigation-agent-with-falkordb-59eb</guid>
-      <description>SentinelGraph: Building a Graph-Powered AI Cybersecurity Investigation Agent with FalkorDB How connected data can help security analysts investigate alerts, trace evidence, and ma…</description>
+      <title>Every parcel I post to America now needs a 10-digit code. I fine-tuned an 8B model to find it, and to ask when it can&#x27;t</title>
+      <link>https://dev.to/iamrobertmoore/every-parcel-i-post-to-america-now-needs-a-10-digit-code-i-fine-tuned-an-8b-model-to-find-it-and-14jj</link>
+      <guid>https://dev.to/iamrobertmoore/every-parcel-i-post-to-america-now-needs-a-10-digit-code-i-fine-tuned-an-8b-model-to-find-it-and-14jj</guid>
+      <description>This is a submission for the Hacktoberfest 2026 Open-Source AI Challenge, Week 2: Side Hustle . Try it before you read anything: tariff-desk.onrender.com . Click &quot;Soy candle&quot;, or…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>How we used FalkorDB, Graph Theory (WCC, Betweenness, PageRank), and Multi-Agent simulation to catch breaking ecosystem changes before merge.</title>
-      <link>https://dev.to/prem_jha_e193105ad8ece2c0/how-we-used-falkordb-graph-theory-wcc-betweenness-pagerank-and-multi-agent-simulation-to-4pgi</link>
-      <guid>https://dev.to/prem_jha_e193105ad8ece2c0/how-we-used-falkordb-graph-theory-wcc-betweenness-pagerank-and-multi-agent-simulation-to-4pgi</guid>
-      <description>What if a clean refactor breaks 32 integrations? On October 16, 2026, Home Assistant merged PR #186863 , a refactor that moved sensor entity classes into a separate module. The co…</description>
+      <title>The Future of Offline Payments: The DeFi Approach</title>
+      <link>https://dev.to/hilda_enyioko/the-future-of-offline-payments-the-defi-approach-5g97</link>
+      <guid>https://dev.to/hilda_enyioko/the-future-of-offline-payments-the-defi-approach-5g97</guid>
+      <description>Over the last two decades, digital payments have become an integral part of our everyday lives. Today, we can send money across borders, purchase goods using mobile wallets, and t…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Why ChatGPT Search &amp; Perplexity Ignore Your Website: The Technical GEO Audit (2026)</title>
-      <link>https://dev.to/thesqb/why-chatgpt-search-perplexity-ignore-your-website-the-technical-geo-audit-2026-1e7g</link>
-      <guid>https://dev.to/thesqb/why-chatgpt-search-perplexity-ignore-your-website-the-technical-geo-audit-2026-1e7g</guid>
-      <description>Why ChatGPT Search &amp; Perplexity Ignore Your Website: The Technical GEO Audit (2026) Over the past few months, the search landscape has undergone a tectonic shift. With ChatGPT Sea…</description>
+      <title>TutorSaathi AI: An Open-Source AI Teaching Assistant for English Tutors 🇮🇳</title>
+      <link>https://dev.to/rishabh_dev/tutorsaathi-ai-an-open-source-ai-teaching-assistant-for-english-tutors-28h8</link>
+      <guid>https://dev.to/rishabh_dev/tutorsaathi-ai-an-open-source-ai-teaching-assistant-for-english-tutors-28h8</guid>
+      <description>What I Built TutorSaathi AI is an AI-powered teaching assistant designed to help English tutors and coaching centers create personalized learning materials for Hindi-speaking stud…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>HustleCraft AI: Open-Source AI Toolkit for Freelancers &amp; Side Hustlers</title>
-      <link>https://dev.to/chaubeydev55/hustlecraft-ai-open-source-ai-toolkit-for-freelancers-side-hustlers-2nie</link>
-      <guid>https://dev.to/chaubeydev55/hustlecraft-ai-open-source-ai-toolkit-for-freelancers-side-hustlers-2nie</guid>
-      <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built I built HustleCraft AI , an open-source AI toolkit designed for freelancers, i…</description>
+      <title>No-Logs Claims vs. Independent Audits: What 377 VPN Privacy Policies Say</title>
+      <link>https://dev.to/vpnradarlab/no-logs-claims-vs-independent-audits-what-377-vpn-privacy-policies-say-243a</link>
+      <guid>https://dev.to/vpnradarlab/no-logs-claims-vs-independent-audits-what-377-vpn-privacy-policies-say-243a</guid>
+      <description>&quot;No logs&quot; is the most common promise in VPN marketing. It is also the hardest one for a buyer to check. A privacy policy can say &quot;no logs&quot; in the headline and describe, a few para…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled</title>
-      <link>https://liveandletsfly.com/british-airways-meta-smart-glasses-filming</link>
-      <guid>https://liveandletsfly.com/british-airways-meta-smart-glasses-filming</guid>
+      <title>US threatens Europe over Starlink restrictions</title>
+      <link>https://ft.com/content/d1e28d93-8574-4a46-946a-b261c401d6fa</link>
+      <guid>https://ft.com/content/d1e28d93-8574-4a46-946a-b261c401d6fa</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Someone Behind the Software</title>
+      <title>Personal software factories are a waste of time</title>
+      <link>https://peterp.me/articles/personal-software-factories-are-a-waste-of-time</link>
+      <guid>https://peterp.me/articles/personal-software-factories-are-a-waste-of-time</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Free Pascal Compiler Now Supports Dynamic Packages</title>
+      <link>https://getlazarus.org/dynamic</link>
+      <guid>https://getlazarus.org/dynamic</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>HOA&#x27;s are making the home crisis worse</title>
+      <link>https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html</link>
+      <guid>https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>CFPB Opens Debanking Investigation into Nine Large National Banks</title>
+      <link>https://forbes.com/sites/ajdhaliwal/2026/10/16/cfpb-opens-debanking-investigation-into-nine-large-national-banks</link>
+      <guid>https://forbes.com/sites/ajdhaliwal/2026/10/16/cfpb-opens-debanking-investigation-into-nine-large-national-banks</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Investing in the Public Benefit</title>
+      <link>https://anthropic.com/news/public-benefit-fund</link>
+      <guid>https://anthropic.com/news/public-benefit-fund</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>PalmOS Lemmings by Aaron Ardiri</title>
+      <link>https://github.com/ardiri/palmos-lemmings</link>
+      <guid>https://github.com/ardiri/palmos-lemmings</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Mitos editor is a fork of Helix</title>
+      <link>https://mitos.computer/</link>
+      <guid>https://mitos.computer/</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Namecheap just seized and disabled all my domains</title>
+      <link>https://reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains</link>
+      <guid>https://reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Someone behind the software</title>
       <link>https://karrisaarinen.com/posts/someone-behind-the-software</link>
       <guid>https://karrisaarinen.com/posts/someone-behind-the-software</guid>
       <description>Comments</description>
@@ -146,14 +210,6 @@
       <title>Will it be a golden age or a dark age for mathematics (and science)?</title>
       <link>https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science</link>
       <guid>https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
-      <title>Websites are closing their doors to AI agents</title>
-      <link>https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web</link>
-      <guid>https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -194,14 +250,6 @@
       <title>Open MicroManipulator – A sub-micrometer 3D motion control plattform</title>
       <link>https://github.com/0x23/MicroManipulatorStepper</link>
       <guid>https://github.com/0x23/MicroManipulatorStepper</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
-      <title>The Brain Sandwich</title>
-      <link>https://terriblesoftware.org/2026/10/02/the-brain-sandwich</link>
-      <guid>https://terriblesoftware.org/2026/10/02/the-brain-sandwich</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -253,6 +301,62 @@
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Consumer apprehension grows as US retailers adopt AI-assisted pricing tools</title>
+      <link>https://apnews.com/article/ai-prices-dynamic-customers-technology-64c446cd117d3be664de4ab570fb9857</link>
+      <guid>https://apnews.com/article/ai-prices-dynamic-customers-technology-64c446cd117d3be664de4ab570fb9857</guid>
+      <description>Consumer apprehension grows as US retailers adopt AI-assisted pricing tools</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Beating Warcraft III&#x27;s insane AI with self-play reinforcement learning on one PC</title>
+      <link>https://warlock.ai/blog/warcraftsim-1</link>
+      <guid>https://warlock.ai/blog/warcraftsim-1</guid>
+      <description>Beating Warcraft III&#x27;s insane AI with self-play reinforcement learning on one PC</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Trustbut checks if an AI agent&#x27;s new tests fail without its change</title>
+      <link>https://github.com/isAlmogK/trustbut</link>
+      <guid>https://github.com/isAlmogK/trustbut</guid>
+      <description>Trustbut checks if an AI agent&#x27;s new tests fail without its change</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Self-hosted workspace where notes, tasks and AI chats are all items</title>
+      <link>https://github.com/sianachi/nixsites</link>
+      <guid>https://github.com/sianachi/nixsites</guid>
+      <description>Self-hosted workspace where notes, tasks and AI chats are all items</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Leaked Anthropic Draft AI Regulatory Bill Is Unacceptable and Troubling</title>
+      <link>https://thezvi.substack.com/p/leaked-anthropic-draft-ai-regulatory</link>
+      <guid>https://thezvi.substack.com/p/leaked-anthropic-draft-ai-regulatory</guid>
+      <description>Leaked Anthropic Draft AI Regulatory Bill Is Unacceptable and Troubling</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>AI/Pangram and Writing</title>
+      <link>https://ninza7.medium.com/ai-pangram-writing-966c1da59c48</link>
+      <guid>https://ninza7.medium.com/ai-pangram-writing-966c1da59c48</guid>
+      <description>AI/Pangram and Writing</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Why Clay Has an AI Writing Policy</title>
+      <link>https://clay.com/blog/ai-writing-policy</link>
+      <guid>https://clay.com/blog/ai-writing-policy</guid>
+      <description>Why Clay Has an AI Writing Policy</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
     </item>
     <item>
       <title>AI Is the Uber Moment for Mathematics</title>
@@ -359,52 +463,164 @@
       <category>Hacker News AI</category>
     </item>
     <item>
-      <title>GhostOS – Lightweight, Offline Desktop AI Assistant (macOS/Win/Linux)</title>
-      <link>https://github.com/GhostOS-ai/GhostOS</link>
-      <guid>https://github.com/GhostOS-ai/GhostOS</guid>
-      <description>GhostOS – Lightweight, Offline Desktop AI Assistant (macOS/Win/Linux)</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>Ask HN: A plea to help me help my father</title>
+      <link>https://news.ycombinator.com/item?id=50144561</link>
+      <guid>https://news.ycombinator.com/item?id=50144561</guid>
+      <description>My mother died in a car accident yesterday. To my great regret, I had constantly been putting off seeing her for years, and it leaves me deeply stricken that not only did she die…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>Show HN: TaskPocket, a to-do app with an MCP server instead of built-in AI</title>
-      <link>https://taskpocket.io/</link>
-      <guid>https://taskpocket.io/</guid>
-      <description>Show HN: TaskPocket, a to-do app with an MCP server instead of built-in AI</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>AppStore – Waiting for Review</title>
+      <link>https://news.ycombinator.com/item?id=50142796</link>
+      <guid>https://news.ycombinator.com/item?id=50142796</guid>
+      <description>Hello, I&#x27;ve been in the iOS App Review for 4 days, and I&#x27;m wondering what the experience is for others with it; 2 years ago, when I submitted a different one, it went through in l…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>World Bank says &#x27;small AI&#x27; could transform developing countries</title>
-      <link>https://theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies</link>
-      <guid>https://theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies</guid>
-      <description>World Bank says &#x27;small AI&#x27; could transform developing countries</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>Tell HN: Massive amount of spam from &quot;Who Wants to be hired&quot;</title>
+      <link>https://news.ycombinator.com/item?id=50142714</link>
+      <guid>https://news.ycombinator.com/item?id=50142714</guid>
+      <description>Hey everyone, I&#x27;ve previously had some success with these threads, but the last 2-3 times I&#x27;ve posted in them, my inbox has just been flooded with spam. Even more so on this last…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>Anthropic&#x27;s proposed AI safety bill only kicks in if 50 deaths or $1B in damages</title>
-      <link>https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an…</link>
-      <guid>https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an…</guid>
-      <description>Anthropic&#x27;s proposed AI safety bill only kicks in if 50 deaths or $1B in damages</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>Ask HN: System One models for autonomous agents</title>
+      <link>https://news.ycombinator.com/item?id=50142037</link>
+      <guid>https://news.ycombinator.com/item?id=50142037</guid>
+      <description>I&#x27;ve seen a few impressive demos of Typesafe&#x27;s new paradigm with System One models, and it seemed really clear to me that this was probably the direction the industry, especially…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>Show HN: DocuMemory – Persistent memory and context for AI coding tools</title>
-      <link>https://documemory.dev/</link>
-      <guid>https://documemory.dev/</guid>
-      <description>Show HN: DocuMemory – Persistent memory and context for AI coding tools</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>Ask HN: ATS devs or recruiters, applicant using email addresses like duck.com?</title>
+      <link>https://news.ycombinator.com/item?id=50140519</link>
+      <guid>https://news.ycombinator.com/item?id=50140519</guid>
+      <description>Just out of curiosity, I was just wondering if using e-mail addresses that end with @duck.com would reduce chances of hire. If so, how? Why? If not, do you think it should?</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>Software is recursive and AI is the base case</title>
-      <link>https://t3.at/blog/2026-10-06-ai-base-case</link>
-      <guid>https://t3.at/blog/2026-10-06-ai-base-case</guid>
-      <description>Software is recursive and AI is the base case</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
+      <title>Ask HN: How to speed up code-reviews?</title>
+      <link>https://news.ycombinator.com/item?id=50140385</link>
+      <guid>https://news.ycombinator.com/item?id=50140385</guid>
+      <description>Writing software is practically free. Validating that the software does what we want is not. Any good methodologies to resolve this glaring bottleneck? What&#x27;s your post-ai SDLC?</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Google Meet Enshittification</title>
+      <link>https://news.ycombinator.com/item?id=50140303</link>
+      <guid>https://news.ycombinator.com/item?id=50140303</guid>
+      <description>Google Meet Android app meeting join now claims to need Notification Permissions for incoming and outgoing calls. This claim is false. There&#x27;s no such requirement. And if there we…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Ask HN: Why people keep posting AI-generated projects around the Internet?</title>
+      <link>https://news.ycombinator.com/item?id=50139584</link>
+      <guid>https://news.ycombinator.com/item?id=50139584</guid>
+      <description>Programming-related subreddits and other media platforms are current flooded by the waterfall of AI-generated projects. A typical post contains a problem description and the link…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Ask HN: How can we stop UX people from changing UIs to get promotions?</title>
+      <link>https://news.ycombinator.com/item?id=50137490</link>
+      <guid>https://news.ycombinator.com/item?id=50137490</guid>
+      <description>Every product seems to go through constant UI churn that has no benefit to users other than changing around whitespace or refreshing the look. If you have a full time UX person th…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Google Fonts as a Protest Piece?</title>
+      <link>https://news.ycombinator.com/item?id=50137303</link>
+      <guid>https://news.ycombinator.com/item?id=50137303</guid>
+      <description>I just noticed that all of the Google Fonts example text now reflects the Universal Declaration of Human Rights. This cannot be coincidence, given the context of the last 2 years.…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>How do you deal with AI Output of your boss?</title>
+      <link>https://news.ycombinator.com/item?id=50135854</link>
+      <guid>https://news.ycombinator.com/item?id=50135854</guid>
+      <description>So, my boss goes on a rampage. You can clearly see the joy and at the same time the rage and impatience. AI is the tool he always wanted. We are too slow. Process is out of the wi…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Poll: Stanford students preferred 22% less salary for annual equity liquidity</title>
+      <link>https://news.ycombinator.com/item?id=50135643</link>
+      <guid>https://news.ycombinator.com/item?id=50135643</guid>
+      <description>I’m one of the founders of Street. We ran a poll with 500+ people in our Stanford network about how they’d choose between two startup offers. Both had the same role, vesting and $…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>For those using huge amount of tokens monthly for dev work, why do you need it?</title>
+      <link>https://news.ycombinator.com/item?id=50135393</link>
+      <guid>https://news.ycombinator.com/item?id=50135393</guid>
+      <description>I can&#x27;t even use 1b a month because I review everything LLMs write. I even used AI to code my own harness in C and my own VSCode like IDE in C++ (I hated how slow it felt) and I s…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Ask HN: What Got You into Rust?</title>
+      <link>https://news.ycombinator.com/item?id=50135186</link>
+      <guid>https://news.ycombinator.com/item?id=50135186</guid>
+      <description>Back in 2024 I was experimenting with prosthetic arms and trying to figure out how to build one with an EMG sensor. The problem I kept running into was that the EMG sensor kept cr…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Ianal?</title>
+      <link>https://news.ycombinator.com/item?id=50134891</link>
+      <guid>https://news.ycombinator.com/item?id=50134891</guid>
+      <description>looks like we&#x27;ve been kidding ourselves all these years prefixing our advice with &quot;IANAL&quot;. Maybe let&#x27;s switch to IANAA from now on.</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Real knowledge dont matter any more</title>
+      <link>https://news.ycombinator.com/item?id=50134684</link>
+      <guid>https://news.ycombinator.com/item?id=50134684</guid>
+      <description>My X news feed are all about AI modules names , with tweets like Opus ! wow Sonnet OMG! and in the end either no body tried them or they have 1M $ sub . miss the days it was about…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Leviathan LLM Inference</title>
+      <link>https://github.com/CuppaTea1983/Leviathan</link>
+      <guid>https://github.com/CuppaTea1983/Leviathan</guid>
+      <description>Leviathan LLM Inference</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Neurastheniacc: LLM-based C-&gt;WASM compiler you didn&#x27;t need</title>
+      <link>https://github.com/vivshaw/neurastheniacc</link>
+      <guid>https://github.com/vivshaw/neurastheniacc</guid>
+      <description>Neurastheniacc: LLM-based C-&gt;WASM compiler you didn&#x27;t need</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>A protocol for LLM intent search</title>
+      <link>https://zenodo.org/records/23452266</link>
+      <guid>https://zenodo.org/records/23452266</guid>
+      <description>A protocol for LLM intent search</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>The LLM Comments Are Not for You</title>
+      <link>https://danilafe.com/blog/comments_not_for_you</link>
+      <guid>https://danilafe.com/blog/comments_not_for_you</guid>
+      <description>The LLM Comments Are Not for You</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
     </item>
     <item>
       <title>LLM analyzed 150k Reddit posts to identify side effects of unapproved new GLP-1</title>
@@ -479,20 +695,68 @@
       <category>Hacker News LLM</category>
     </item>
     <item>
-      <title>Three LLM judges couldn&#x27;t tell an AI agent&#x27;s real memory from a counterfeit one</title>
-      <link>https://kairos-experiment.com/checks.html</link>
-      <guid>https://kairos-experiment.com/checks.html</guid>
-      <description>Three LLM judges couldn&#x27;t tell an AI agent&#x27;s real memory from a counterfeit one</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
+      <title>Show HN: Dieline generator for packaging (type the size, get the drawing)</title>
+      <link>https://die-lines.com/</link>
+      <guid>https://die-lines.com/</guid>
+      <description>Show HN: Dieline generator for packaging (type the size, get the drawing)</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Apple releases RSI-Inference: evaluating agents for self-improving LLM inference</title>
-      <link>https://twitter.com/onloglogn/status/2111170954944823685</link>
-      <guid>https://twitter.com/onloglogn/status/2111170954944823685</guid>
-      <description>Apple releases RSI-Inference: evaluating agents for self-improving LLM inference</description>
-      <source>Hacker News LLM</source>
-      <category>Hacker News LLM</category>
+      <title>Show HN: Snitch – see every connection your computer makes</title>
+      <link>https://github.com/aixisstudio/Snitch</link>
+      <guid>https://github.com/aixisstudio/Snitch</guid>
+      <description>Show HN: Snitch – see every connection your computer makes</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: A World 3D globe where kids collect birds</title>
+      <link>https://birdsaroundworld.com/</link>
+      <guid>https://birdsaroundworld.com/</guid>
+      <description>Yesterday I saw a super interesting project around maps for kids that reminded me something: my little one and I love maps. My kid, who&#x27;s 9yo, wants to be an ornithologist. I didn…</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: Browser Memory Consumption on macOS</title>
+      <link>https://krausest.github.io/AppMemoryReport/BrowserMemory.html</link>
+      <guid>https://krausest.github.io/AppMemoryReport/BrowserMemory.html</guid>
+      <description>I wanted to measure browser memory usage, so I built a small tool. The results are actually pretty interesting...</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: OpenDesk, an open-source alternative to Zendesk and Intercom</title>
+      <link>https://opendesk.sh/</link>
+      <guid>https://opendesk.sh/</guid>
+      <description>Show HN: OpenDesk, an open-source alternative to Zendesk and Intercom</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: Agentic-Coding-Biolerplate</title>
+      <link>https://github.com/ulrischa/agentic-coding-biolerplate</link>
+      <guid>https://github.com/ulrischa/agentic-coding-biolerplate</guid>
+      <description>Show HN: Agentic-Coding-Biolerplate</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: Beyond Ping</title>
+      <link>https://zenodo.org/records/23327569</link>
+      <guid>https://zenodo.org/records/23327569</guid>
+      <description>Show HN: Beyond Ping</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: Videolabs – narrated terminal-style courses</title>
+      <link>https://videolabs.pages.dev/</link>
+      <guid>https://videolabs.pages.dev/</guid>
+      <description>I enjoy learning new tools watching videos on youtube of people showing their experiments, and sometimes i cannot find a good video explaining exactly what i need. So i created th…</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
     </item>
     <item>
       <title>Show HN: I recreated Contra in a custom NES game engine (NOT an emulator)</title>
@@ -591,62 +855,6 @@
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Correct Hooks – Easy webhook auth with asymmetric signatures</title>
-      <link>https://github.com/handlewithcarecollective/correct-hooks</link>
-      <guid>https://github.com/handlewithcarecollective/correct-hooks</guid>
-      <description>A while back, I needed to make a webhook system for a project I was working on. I pretty quickly found out that webhook auth is not an entirely solved problem with people frequent…</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: Serving static assets with 4.5x higher throughput using eBPF</title>
-      <link>https://github.com/lerboe/beeper</link>
-      <guid>https://github.com/lerboe/beeper</guid>
-      <description>Show HN: Serving static assets with 4.5x higher throughput using eBPF</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: We bought terafabs.si so Elon couldn&#x27;t and made an arcade game</title>
-      <link>https://terafabs.si/</link>
-      <guid>https://terafabs.si/</guid>
-      <description>Show HN: We bought terafabs.si so Elon couldn&#x27;t and made an arcade game</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: A GitHub contribution for my newborn&#x27;s feedings, turned into SaaS</title>
-      <link>https://milo.baby/</link>
-      <guid>https://milo.baby/</guid>
-      <description>Hi HN, I am a new dad, and as I started paternity leave I had all this time on my hands and started building with Claude. I built a GitHub contribution chart for my baby’s feeding…</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: Nanoconsole SGX, a $2 DIY game console from a 15cts microcontroller</title>
-      <link>https://nanoconsole.codeberg.page/</link>
-      <guid>https://nanoconsole.codeberg.page/</guid>
-      <description>The Nanoconsole SGX is a VGA console made from a ch32v003 chip (16k flash/2k ram, no multiplication). It has onboard buttons and speaker. It sports a USB bootloader, has none less…</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: Wordchute – a word game where every word changes the board</title>
-      <link>https://wordchute.com/</link>
-      <guid>https://wordchute.com/</guid>
-      <description>Show HN: Wordchute – a word game where every word changes the board</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: Pi-cowboy – use Codex, Claude Code, OpenCode as subagents</title>
-      <link>https://github.com/electric-dragon-80000v/pi-cowboy</link>
-      <guid>https://github.com/electric-dragon-80000v/pi-cowboy</guid>
-      <description>pi-cowboy is an agent orchestrator for Pi( https://pi.dev ) and Herdr( https://github.com/herdrdev/herdr ). Break large jobs into focused subtasks, hand them off to background age…</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
       <title>Zuckerberg&#x27;s Meta Takes Down No Kings Instagram During Protest Day</title>
       <link>https://meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day</link>
       <guid>https://meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day</guid>
@@ -659,14 +867,6 @@
       <link>https://tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends</link>
       <guid>https://tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends</guid>
       <description>NY announces game ownership bill requiring ownership rather than licensing</description>
-      <source>Hacker News 最佳</source>
-      <category>Hacker News 最佳</category>
-    </item>
-    <item>
-      <title>OpenCode Hacked: User credentials leaked</title>
-      <link>https://twitter.com/opencode/status/2111516673953935833</link>
-      <guid>https://twitter.com/opencode/status/2111516673953935833</guid>
-      <description>OpenCode Hacked: User credentials leaked</description>
       <source>Hacker News 最佳</source>
       <category>Hacker News 最佳</category>
     </item>
@@ -1151,162 +1351,170 @@
       <category>IT之家</category>
     </item>
     <item>
-      <title>fix(state): release idle agent database leases in CLI processes (#175…</title>
-      <link>https://github.com/openclaw/openclaw/commit/f8ce98e8431238dbec7e31dc8e1275c19c92a27b</link>
-      <guid>https://github.com/openclaw/openclaw/commit/f8ce98e8431238dbec7e31dc8e1275c19c92a27b</guid>
-      <description>fix(state): release idle agent database leases in CLI processes (#175986)</description>
+      <title>NetNewsWire 7.2.1b1 for Mac</title>
+      <link>https://github.com/Ranchero-Software/NetNewsWire/releases/tag/mac-7.2.1b1</link>
+      <guid>https://github.com/Ranchero-Software/NetNewsWire/releases/tag/mac-7.2.1b1</guid>
+      <description>Fixed bug where navigated-to row, in column layout, might appear under column headers Fixed bug where scroller hiding/showing could mess up sidebar layout Added magnet as an allow…</description>
+      <source>NetNewsWire Releases</source>
+      <category>NetNewsWire Releases</category>
+    </item>
+    <item>
+      <title>fix(process): surface PTY EOF write failures (#176362)</title>
+      <link>https://github.com/openclaw/openclaw/commit/104c81dd4a863c99fb37a31e9008404b691634b3</link>
+      <guid>https://github.com/openclaw/openclaw/commit/104c81dd4a863c99fb37a31e9008404b691634b3</guid>
+      <description>fix(process): surface PTY EOF write failures (#176362)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(check): AGENTS.md size check fails on stale dependencies (#176309)</title>
-      <link>https://github.com/openclaw/openclaw/commit/6f586672163684dda37eee51066d0ce1e78449d1</link>
-      <guid>https://github.com/openclaw/openclaw/commit/6f586672163684dda37eee51066d0ce1e78449d1</guid>
-      <description>fix(check): AGENTS.md size check fails on stale dependencies (#176309) Related: #176065 ## What Problem This Solves Fixes: committing an `AGENTS.md` change fails with an unrelated…</description>
+      <title>test: wait for managed media stream retirement before uniqueness chec…</title>
+      <link>https://github.com/openclaw/openclaw/commit/d0dcce33fd710433af596a4022466a0f41b59265</link>
+      <guid>https://github.com/openclaw/openclaw/commit/d0dcce33fd710433af596a4022466a0f41b59265</guid>
+      <description>test: wait for managed media stream retirement before uniqueness checks (#175638)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>refactor(cli): test approval stdin through command execution (#176305)</title>
-      <link>https://github.com/openclaw/openclaw/commit/d3b680c03effc2248e229601d27bbaf656900174</link>
-      <guid>https://github.com/openclaw/openclaw/commit/d3b680c03effc2248e229601d27bbaf656900174</guid>
-      <description>refactor(cli): test approval stdin through command execution (#176305)</description>
+      <title>chore(catalog): rank Muse Wonder after Claude Sonnet 5.5 (#176366)</title>
+      <link>https://github.com/openclaw/openclaw/commit/e08207aea9d41cde8a8621fb1f2d3ce1296faea4</link>
+      <guid>https://github.com/openclaw/openclaw/commit/e08207aea9d41cde8a8621fb1f2d3ce1296faea4</guid>
+      <description>chore(catalog): rank Muse Wonder after Claude Sonnet 5.5 (#176366) Move muse-wonder-1 and its unversioned muse-wonder alias from the end of the recommended list to directly after…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(gateway): keep node worker tunnel exec deadline on the monotonic …</title>
-      <link>https://github.com/openclaw/openclaw/commit/beb702d83e613443cec2d9e3247cd5d1d9c5e15d</link>
-      <guid>https://github.com/openclaw/openclaw/commit/beb702d83e613443cec2d9e3247cd5d1d9c5e15d</guid>
-      <description>fix(gateway): keep node worker tunnel exec deadline on the monotonic clock (#171977) The node-worker tunnel&#x27;s workspace-command retry deadline now uses the monotonic clock. A wall…</description>
+      <title>fix(telegram): a reply to an image sent as a file reaches the agent a…</title>
+      <link>https://github.com/openclaw/openclaw/commit/fbe01bba4ae88d8858097267e583847cb665ba7e</link>
+      <guid>https://github.com/openclaw/openclaw/commit/fbe01bba4ae88d8858097267e583847cb665ba7e</guid>
+      <description>fix(telegram): a reply to an image sent as a file reaches the agent as an unsupported document (#174884) * fix(telegram): keep hydrated media type when a reply selects a cached do…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(state): stopping a lease on Bun can leave the state database lock…</title>
-      <link>https://github.com/openclaw/openclaw/commit/c1da606e2d03498cb50237caab2c65b1ca1aead6</link>
-      <guid>https://github.com/openclaw/openclaw/commit/c1da606e2d03498cb50237caab2c65b1ca1aead6</guid>
-      <description>fix(state): stopping a lease on Bun can leave the state database locked (#176296) ## What Problem This Solves Fixes: an expired maintenance lease can stay in the state database wh…</description>
+      <title>test(ui): accept history deltas in finished Stop proof (#176361)</title>
+      <link>https://github.com/openclaw/openclaw/commit/af7c0d2398befaf60d8c90e6705297aaf14ce2a5</link>
+      <guid>https://github.com/openclaw/openclaw/commit/af7c0d2398befaf60d8c90e6705297aaf14ce2a5</guid>
+      <description>test(ui): accept history deltas in finished Stop proof (#176361)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(hooks): catch stale generated files and oversized AGENTS.md befor…</title>
-      <link>https://github.com/openclaw/openclaw/commit/2f595930f12591ba59b109467beb9a65baf7e8d4</link>
-      <guid>https://github.com/openclaw/openclaw/commit/2f595930f12591ba59b109467beb9a65baf7e8d4</guid>
-      <description>fix(hooks): catch stale generated files and oversized AGENTS.md before commit (#176065) Related: #176053 (merged; it trims root `AGENTS.md` under the cap) ## What Problem This Sol…</description>
+      <title>fix: redact identifying map keys in triage archives (#175272)</title>
+      <link>https://github.com/openclaw/openclaw/commit/c0a21b259ffb7defb3b525e19e11aa673d7e448e</link>
+      <guid>https://github.com/openclaw/openclaw/commit/c0a21b259ffb7defb3b525e19e11aa673d7e448e</guid>
+      <description>fix: redact identifying map keys in triage archives (#175272) * fix: redact identifying map keys in triage archives * fix: hide native identifiers in diagnostic DM maps</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(plugins): avoid blocking discovery on lazy state snapshots (#176291)</title>
-      <link>https://github.com/openclaw/openclaw/commit/676658eded43f29f9609ca146d108f0def5c2fc5</link>
-      <guid>https://github.com/openclaw/openclaw/commit/676658eded43f29f9609ca146d108f0def5c2fc5</guid>
-      <description>fix(plugins): avoid blocking discovery on lazy state snapshots (#176291) * fix(plugins): avoid blocking discovery on lazy state snapshots * test(plugins): preserve async snapshot…</description>
+      <title>fix(codex): revalidate requester authority before native dispatch (#1…</title>
+      <link>https://github.com/openclaw/openclaw/commit/1398ba9837e19da853bb6b1d6623cb6fee5421f6</link>
+      <guid>https://github.com/openclaw/openclaw/commit/1398ba9837e19da853bb6b1d6623cb6fee5421f6</guid>
+      <description>fix(codex): revalidate requester authority before native dispatch (#176352) Retain requester policy and parent lineage in the existing prepared native execution policy, then consu…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(cron): job stops right after sending to its own delivery target (…</title>
-      <link>https://github.com/openclaw/openclaw/commit/075b46634555fa317782a0f4d88e158faa935e42</link>
-      <guid>https://github.com/openclaw/openclaw/commit/075b46634555fa317782a0f4d88e158faa935e42</guid>
-      <description>fix(cron): job stops right after sending to its own delivery target (#176141) Related: #170653, #176092 ## What Problem This Solves Fixes: a cron job stops right after it sends a…</description>
+      <title>fix(workboard): keep requeued cards ready after an old worker ends (#…</title>
+      <link>https://github.com/openclaw/openclaw/commit/5d493c8df6499873b673d75f746a96a651bacd4d</link>
+      <guid>https://github.com/openclaw/openclaw/commit/5d493c8df6499873b673d75f746a96a651bacd4d</guid>
+      <description>fix(workboard): keep requeued cards ready after an old worker ends (#174979) * fix(workboard): keep requeued cards ready after an old worker ends * fix(workboard): reject completi…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(doctor): restore a converged system agent&#x27;s persona and memory af…</title>
-      <link>https://github.com/openclaw/openclaw/commit/b40434ed82f0e7caeb9af256c0242a370f1a7202</link>
-      <guid>https://github.com/openclaw/openclaw/commit/b40434ed82f0e7caeb9af256c0242a370f1a7202</guid>
-      <description>fix(doctor): restore a converged system agent&#x27;s persona and memory after upgrade (#165112) Related: #127802 Supersedes #127949 ## What Problem This Solves Fixes: after an upgrade,…</description>
+      <title>chore(llama-cpp): explain why managed batch sizes stay native (#176350)</title>
+      <link>https://github.com/openclaw/openclaw/commit/9c629dd933790b31ecd8538b7c777b6411448c43</link>
+      <guid>https://github.com/openclaw/openclaw/commit/9c629dd933790b31ecd8538b7c777b6411448c43</guid>
+      <description>chore(llama-cpp): explain why managed batch sizes stay native (#176350) Peter decided (#137557) to keep llama.cpp&#x27;s native batch/ubatch defaults for managed servers after measurin…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>refactor(searxng): exercise real client network guards (#176295)</title>
-      <link>https://github.com/openclaw/openclaw/commit/ee6b1db4ebcf87aac8f3a4eac071a886583e5e8b</link>
-      <guid>https://github.com/openclaw/openclaw/commit/ee6b1db4ebcf87aac8f3a4eac071a886583e5e8b</guid>
-      <description>refactor(searxng): exercise real client network guards (#176295)</description>
+      <title>fix: surface mandatory config schema failures (#176039)</title>
+      <link>https://github.com/openclaw/openclaw/commit/6fcf1c433273aa44c0663c09a4c0432bc5567ece</link>
+      <guid>https://github.com/openclaw/openclaw/commit/6fcf1c433273aa44c0663c09a4c0432bc5567ece</guid>
+      <description>fix: surface mandatory config schema failures (#176039)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(cli): strip terminal controls from the inspected Claw agent name …</title>
-      <link>https://github.com/openclaw/openclaw/commit/9856f57a828a4d269306020cd0b6b88bdbd848e3</link>
-      <guid>https://github.com/openclaw/openclaw/commit/9856f57a828a4d269306020cd0b6b88bdbd848e3</guid>
-      <description>fix(cli): strip terminal controls from the inspected Claw agent name (#174989) `openclaw claws inspect` no longer writes terminal control sequences from an untrusted claw manifest…</description>
+      <title>refactor(matrix): remove unused resolver fixture setup (#176354)</title>
+      <link>https://github.com/openclaw/openclaw/commit/a8307013add13130826a2ceb5b7c14a923a02aa4</link>
+      <guid>https://github.com/openclaw/openclaw/commit/a8307013add13130826a2ceb5b7c14a923a02aa4</guid>
+      <description>refactor(matrix): remove unused resolver fixture setup (#176354)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(anthropic): reconcile terminal fallback serving estimates (#176289)</title>
-      <link>https://github.com/openclaw/openclaw/commit/b607b7fefe9cf8108423ea029606d21f1624415f</link>
-      <guid>https://github.com/openclaw/openclaw/commit/b607b7fefe9cf8108423ea029606d21f1624415f</guid>
-      <description>fix(anthropic): reconcile terminal fallback serving estimates (#176289) * test(anthropic): expose terminal fallback pricing regression * fix(anthropic): reconcile terminal fallbac…</description>
+      <title>docs(agents): remove stale, duplicate and conflicting scoped guide ru…</title>
+      <link>https://github.com/openclaw/openclaw/commit/050ea4d27043627e2b2b84b993dae6c341343238</link>
+      <guid>https://github.com/openclaw/openclaw/commit/050ea4d27043627e2b2b84b993dae6c341343238</guid>
+      <description>docs(agents): remove stale, duplicate and conflicting scoped guide rules (#176320) Related: #176053, #176308 ## What Problem This Solves Fixes: agents working in a subsystem load…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>test(channels): initialize Telegram binding contract runtime</title>
-      <link>https://github.com/openclaw/openclaw/commit/f6d03f693201759b74f4e1a3703281d3ab212690</link>
-      <guid>https://github.com/openclaw/openclaw/commit/f6d03f693201759b74f4e1a3703281d3ab212690</guid>
-      <description>test(channels): initialize Telegram binding contract runtime The registry-backed fixture registers Telegram&#x27;s channel directly and omitted the runtime initialization performed by…</description>
+      <title>fix(gateway): preserve live owners and recover stale Linux locks (#17…</title>
+      <link>https://github.com/openclaw/openclaw/commit/1446ecc39398c6e4f53cda9a260342cb914e8cb8</link>
+      <guid>https://github.com/openclaw/openclaw/commit/1446ecc39398c6e4f53cda9a260342cb914e8cb8</guid>
+      <description>fix(gateway): preserve live owners and recover stale Linux locks (#175118) * fix(gateway): prevent spurious restart when Windows boot identity disagrees When same-host Windows boo…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(ci): avoid rewriting portable pnpm package archives (#176279)</title>
-      <link>https://github.com/openclaw/openclaw/commit/e6b4a1595f7357ccfbe76c6347cd36813f301ed9</link>
-      <guid>https://github.com/openclaw/openclaw/commit/e6b4a1595f7357ccfbe76c6347cd36813f301ed9</guid>
-      <description>fix(ci): avoid rewriting portable pnpm package archives (#176279)</description>
+      <title>fix: allow large catch-up diffs during live updates (#176351)</title>
+      <link>https://github.com/openclaw/openclaw/commit/0960eff1598bb2c90318c36a6b10d0befb87660c</link>
+      <guid>https://github.com/openclaw/openclaw/commit/0960eff1598bb2c90318c36a6b10d0befb87660c</guid>
+      <description>fix: allow large catch-up diffs during live updates (#176351)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(ci): repair diagnostic and WhatsApp export audits (#176286)</title>
-      <link>https://github.com/openclaw/openclaw/commit/14a53244238016c712d2313640c7d72e7e46181e</link>
-      <guid>https://github.com/openclaw/openclaw/commit/14a53244238016c712d2313640c7d72e7e46181e</guid>
-      <description>fix(ci): repair diagnostic and WhatsApp export audits (#176286) * fix(ci): recognize diagnostic reset test consumers * fix(ci): remove unused WhatsApp translator type Co-authored-…</description>
+      <title>fix(tui): TUI re-reads the session after every tool call during a run…</title>
+      <link>https://github.com/openclaw/openclaw/commit/781afcf53be3b8a94d4b92178e69f83003df7dad</link>
+      <guid>https://github.com/openclaw/openclaw/commit/781afcf53be3b8a94d4b92178e69f83003df7dad</guid>
+      <description>fix(tui): TUI re-reads the session after every tool call during a run (#176149) `openclaw tui` no longer sends a `sessions.describe` and a `sessions.list` request after every pers…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>refactor(firecrawl): cover parsing through real client calls (#176287)</title>
-      <link>https://github.com/openclaw/openclaw/commit/94fa98bfd93a62c4fb5f442dc3a3e9cc888f4b8e</link>
-      <guid>https://github.com/openclaw/openclaw/commit/94fa98bfd93a62c4fb5f442dc3a3e9cc888f4b8e</guid>
-      <description>refactor(firecrawl): cover parsing through real client calls (#176287)</description>
+      <title>fix(nodes): sanitize terminal controls in camera list report (#175624)</title>
+      <link>https://github.com/openclaw/openclaw/commit/6410eadd48f6800a21282ab4b4abc6a2b8aff762</link>
+      <guid>https://github.com/openclaw/openclaw/commit/6410eadd48f6800a21282ab4b4abc6a2b8aff762</guid>
+      <description>fix(nodes): sanitize terminal controls in camera list report (#175624) `openclaw nodes camera list` no longer writes control characters from a paired node&#x27;s camera name, position…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(ci): dependency checks fail on diagnostic test reset exports (#17…</title>
-      <link>https://github.com/openclaw/openclaw/commit/fab581e939503f8ec3ad1bcaf4239768011691de</link>
-      <guid>https://github.com/openclaw/openclaw/commit/fab581e939503f8ec3ad1bcaf4239768011691de</guid>
-      <description>fix(ci): dependency checks fail on diagnostic test reset exports (#176285) ## What Problem This Solves Fixes: `check-dependencies` fails on main because Knip reports 7 unused `res…</description>
+      <title>fix: attribute composer predictions in completion diagnostics (#176271)</title>
+      <link>https://github.com/openclaw/openclaw/commit/c8e786ca8aeef7f19988acd89fffb57d4c752558</link>
+      <guid>https://github.com/openclaw/openclaw/commit/c8e786ca8aeef7f19988acd89fffb57d4c752558</guid>
+      <description>fix: attribute composer predictions in completion diagnostics (#176271) Co-authored-by: Vincent Koc &lt;vincentkoc@ieee.org&gt;</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(memory-core): skip agent DB snapshots for non-local embedding pro…</title>
-      <link>https://github.com/openclaw/openclaw/commit/c7d58180902acd551acd0182dc51e32edab49863</link>
-      <guid>https://github.com/openclaw/openclaw/commit/c7d58180902acd551acd0182dc51e32edab49863</guid>
-      <description>fix(memory-core): skip agent DB snapshots for non-local embedding providers in Doctor (#176281) Doctor&#x27;s memory-core managed-local-embedding-setup check made a full private copy o…</description>
+      <title>fix: accept current generated service wrappers during updates (#176346)</title>
+      <link>https://github.com/openclaw/openclaw/commit/2aca4a06b2c8df4908b1e0d4582cbaedd4d62f36</link>
+      <guid>https://github.com/openclaw/openclaw/commit/2aca4a06b2c8df4908b1e0d4582cbaedd4d62f36</guid>
+      <description>fix: accept current generated service wrappers during updates (#176346)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>feat(openai): support prepared image Decisions (#176133)</title>
-      <link>https://github.com/openclaw/openclaw/commit/621f574e663903db526aae335a28300616c9fc6a</link>
-      <guid>https://github.com/openclaw/openclaw/commit/621f574e663903db526aae335a28300616c9fc6a</guid>
-      <description>feat(openai): support prepared image Decisions (#176133) * feat(openai): support prepared image Decisions Select capability-specific Platform routes before credential resolution,…</description>
+      <title>refactor(cron): remove unused receipt fixture observations (#176345)</title>
+      <link>https://github.com/openclaw/openclaw/commit/a45e6b04003f29a91b67ecbefe5c5d0806c50830</link>
+      <guid>https://github.com/openclaw/openclaw/commit/a45e6b04003f29a91b67ecbefe5c5d0806c50830</guid>
+      <description>refactor(cron): remove unused receipt fixture observations (#176345)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(plugins): reduce preparation worker admission memory (#176280)</title>
-      <link>https://github.com/openclaw/openclaw/commit/b81e502d2dd5498e235cad1a67049d845ce17317</link>
-      <guid>https://github.com/openclaw/openclaw/commit/b81e502d2dd5498e235cad1a67049d845ce17317</guid>
-      <description>fix(plugins): reduce preparation worker admission memory (#176280)</description>
+      <title>test(qa): drain auth stdin in source-root capture fixture (#176337)</title>
+      <link>https://github.com/openclaw/openclaw/commit/6c9dbe3c6431a4b0d1db0b13833747fe2906385e</link>
+      <guid>https://github.com/openclaw/openclaw/commit/6c9dbe3c6431a4b0d1db0b13833747fe2906385e</guid>
+      <description>test(qa): drain auth stdin in source-root capture fixture (#176337)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
@@ -1327,10 +1535,18 @@
       <category>Simon Willison&#x27;s Blog</category>
     </item>
     <item>
+      <title>Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’</title>
+      <link>https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything</link>
+      <guid>https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything</guid>
+      <description>&quot;You Can See Everything&quot; is having the second biggest opening weekend ever for a documentary film.</description>
+      <source>TechCrunch</source>
+      <category>TechCrunch</category>
+    </item>
+    <item>
       <title>Disney agrees to hire the majority of Character.AI’s workforce</title>
       <link>https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce</link>
       <guid>https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce</guid>
-      <description>After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI’s former CEO Karand…</description>
+      <description>The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company co…</description>
       <source>TechCrunch</source>
       <category>TechCrunch</category>
     </item>
@@ -1367,20 +1583,28 @@
       <category>TechCrunch</category>
     </item>
     <item>
-      <title>Replit makes OpenAI its default over Anthropic, CEO says</title>
-      <link>https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says</link>
-      <guid>https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says</guid>
-      <description>Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
-    </item>
-    <item>
       <title>ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants</title>
       <link>https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html</link>
       <guid>https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html</guid>
       <description>ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained un…</description>
       <source>The Hacker News</source>
       <category>The Hacker News</category>
+    </item>
+    <item>
+      <title>Mister Organ is one of the most unsettling documentaries I’ve ever seen</title>
+      <link>https://theverge.com/entertainment/1013545/mister-organ-horror-documentary-review</link>
+      <guid>https://theverge.com/entertainment/1013545/mister-organ-horror-documentary-review</guid>
+      <description>Mister Organ doesn&#x27;t reach the level of societal horror of The Act of Killing or the creepypasta-meets-true-crime gruesomeness of Beware the Slenderman, but there&#x27;s something deep…</description>
+      <source>The Verge</source>
+      <category>The Verge</category>
+    </item>
+    <item>
+      <title>A woman was arrested in Philly for blocking a delivery robot</title>
+      <link>https://theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot</link>
+      <guid>https://theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot</guid>
+      <description>Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia&#x27;s AB…</description>
+      <source>The Verge</source>
+      <category>The Verge</category>
     </item>
     <item>
       <title>TikTok bans Musk documentary account</title>
@@ -1647,22 +1871,6 @@
       <category>V2EX 技术</category>
     </item>
     <item>
-      <title>以解决 &quot;Hello World&quot; 问题为视角, 并把 C++ Modules 原生开发的项目结合起来, 制作了一个创意动画视频</title>
-      <link>https://v2ex.com/t/1249685</link>
-      <guid>https://v2ex.com/t/1249685</guid>
-      <description>C++ Modules 目前处于过渡期, 之前存在一系列问题。而 MC++ 就是通过开发一系列基础设施工具, 实现 C++ Modules 开发体验大幅度上升: 解决了工具链、包管理、构建系统、智能代码提示等诸多问题. 然后, 由于做的几个开源项目都偏向基础设施, 不太容易一下说清楚。然后就想到 以 让 Hello World 优雅的运行为切入点, 把几个…</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>tibo 发推了，还有额度的赶紧用，重置卡先留着</title>
-      <link>https://v2ex.com/t/1249683</link>
-      <guid>https://v2ex.com/t/1249683</guid>
-      <description>估计还是北京时间午后</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
       <title>AI Gateway logs now show session affinity</title>
       <link>https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity</link>
       <guid>https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity</guid>
@@ -1727,6 +1935,22 @@
       <category>Wired</category>
     </item>
     <item>
+      <title>Manton Reece’s Spitball Theory on Why the Wall-Mounted HomeView Costs the Same as the Version With the Subwoofer Base</title>
+      <link>https://manton.org/2026/10/17/in-john-grubers-initial-thoughts.html</link>
+      <guid>https://manton.org/2026/10/17/in-john-grubers-initial-thoughts.html</guid>
+      <description>Manton Reece: All I can come up with is that Apple doesn’t want you to buy the wall-mounted version unless you’re really sure that’s what you need. If the wall-mounted version was…</description>
+      <source>daringfireball.net</source>
+      <category>daringfireball.net</category>
+    </item>
+    <item>
+      <title>Michigan Democratic Senate Candidate Abdul El-Sayed on His Allegiances</title>
+      <link>https://x.com/AbdulElSayed/status/2111627277578731885</link>
+      <guid>https://x.com/AbdulElSayed/status/2111627277578731885</guid>
+      <description>I do see some political content in my feed on X. For example, this extraordinary video posted by Abdul El-Sayed, who seems poised to become the next junior senator from Michigan.…</description>
+      <source>daringfireball.net</source>
+      <category>daringfireball.net</category>
+    </item>
+    <item>
       <title>Whatever You Say Bounces Off Me and Sticks to You</title>
       <link>https://reuters.com/business/retail-consumer/openai-employee-who-left-apple-took-files-about-unreleased-device-openai-alleges-2026-10-14</link>
       <guid>https://reuters.com/business/retail-consumer/openai-employee-who-left-apple-took-files-about-unreleased-device-openai-alleges-2026-10-14</guid>
@@ -1781,22 +2005,6 @@
       <description>Let&#x27;s get this out of the way first - this is a terrible idea! I want my two-factor authentication codes to be easily accessible to me, so I&#x27;ve built a watch app which will displa…</description>
       <source>shkspr.mobi</source>
       <category>shkspr.mobi</category>
-    </item>
-    <item>
-      <title>Servers have widely varying requirements for their environment</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/tech/ServerEnvRequirementsVaryALot</link>
-      <guid>https://utcc.utoronto.ca/~cks/space/blog/tech/ServerEnvRequirementsVaryALot</guid>
-      <description>One of the things that I usually don&#x27;t have much reason to think about is how servers can have varying requirements for the environment you put them in. Once upon a time this woul…</description>
-      <source>utcc.utoronto.ca/~cks</source>
-      <category>utcc.utoronto.ca/~cks</category>
-    </item>
-    <item>
-      <title>Forcing a direct kernel reboot is sometimes needed and recommended</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/linux/ForcedRebootCanBeNeeded</link>
-      <guid>https://utcc.utoronto.ca/~cks/space/blog/linux/ForcedRebootCanBeNeeded</guid>
-      <description>Normally when we need to reboot one of our servers, I type &#x27; reboot &#x27; and don&#x27;t think twice about it. This is sometimes a mistake (for reasons other than rebooting the wrong serve…</description>
-      <source>utcc.utoronto.ca/~cks</source>
-      <category>utcc.utoronto.ca/~cks</category>
     </item>
     <item>
       <title>孙正义：眼光要看到10年后，阿里这些投资相比AI“微不足道”</title>
