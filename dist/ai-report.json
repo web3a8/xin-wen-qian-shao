@@ -1,41 +1,61 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication；fix(codex): context refresh blocks replies on managed inference route…；Show HN: AgentTrust – Zero-trust security and human approvals for AI agents。",
+  "global_brief": "过去24小时的重要动态主要集中在：LiteLLM 1.107.0 was malware. A 5-minute check for AI developers, and the one-line setting that would have skipped it；Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms；SANE: Automated Scorer-Specific Metamorphic Testing for LLM Judges。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 4858,
-      "event_count": 87
+      "field_score": 36020,
+      "event_count": 596
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1282,
-      "event_count": 32
+      "field_score": 1223,
+      "event_count": 30
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 595,
-      "event_count": 14
+      "field_score": 1003,
+      "event_count": 22
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 267,
-      "event_count": 6
+      "field_key": "science",
+      "field_name": "Science",
+      "field_score": 737,
+      "event_count": 13
     },
     {
-      "field_key": "devtools",
-      "field_name": "Devtools",
-      "field_score": 217,
-      "event_count": 5
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 563,
+      "event_count": 10
     }
   ],
   "highlight_facts": [
     {
-      "title": "fix(codex): context 更新 blocks replies on managed inference route…",
-      "summary": "fix(codex): context 更新 blocks replies on managed inference route…；时间：2026-10-26T01:53:33.000Z；证据级别：weak；置信度：0.45",
+      "title": "LiteLLM 1.107.0 was malware. A 5-minute check for AI developers, and the one-line setting that would have skipped it",
+      "summary": "LiteLLM 1.107.0 was malware. A 5-minute check for AI developers, and the one-line setting that would have skipped it；On October 21, 2026, a malicious litellm==1.107.0 was published to PyPI. It is the second compromise o…",
+      "references": []
+    },
+    {
+      "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+      "summary": "arXiv:2610.32945v1 Announce Type: cross Abstract: Large language model (LLM) platforms introducing advertising must dec…；Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+      "references": []
+    },
+    {
+      "title": "SANE: Automated Scorer-Specific Metamorphic Testing for LLM Judges",
+      "summary": "arXiv:2610.28886v2 Announce Type: replace-cross Abstract: LLM judges increasingly mediate benchmark evaluation, model s…；SANE: Automated Scorer-Specific Metamorphic Testing for LLM Judges",
+      "references": []
+    },
+    {
+      "title": "Seeing Through the Chain: Understanding and Mitigating Hallucinations in Multimodal Large Reasoning Models",
+      "summary": "arXiv:2602.03380v3 Announce Type: replace Abstract: While multimodal reasoning models (MLRMs) have exhibited impressive…；Seeing Through the Chain: Understanding and Mitigating Hallucinations in Multimodal Large Reasonin…",
+      "references": []
+    },
+    {
+      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+      "summary": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Syn…；TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
       "references": []
     }
   ],
