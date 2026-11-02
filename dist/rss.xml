@@ -5,7 +5,7 @@
     <link>https://web3a8.github.io/news-push-data/</link>
     <description>通用新闻引擎输出的精选资讯流，当前仍以科技与 AI 信号源为主</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 02 Nov 2026 20:15:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 22:17:08 GMT</lastBuildDate>
     <item>
       <title>AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)</title>
       <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026</link>
@@ -13,6 +13,14 @@
       <description>The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AW…</description>
       <source>AWS Blog</source>
       <category>AWS Blog</category>
+    </item>
+    <item>
+      <title>Third person dies of bird flu since virus started jumping to livestock</title>
+      <link>https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock</link>
+      <guid>https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock</guid>
+      <description>The threat is still considered to be low, but the virus continues to spread.</description>
+      <source>Ars Technica</source>
+      <category>Ars Technica</category>
     </item>
     <item>
       <title>Googling &quot;Zelda&quot; today offers a glimpse of how search worked in 1998</title>
@@ -103,108 +111,100 @@
       <category>Cloudflare Blog</category>
     </item>
     <item>
-      <title>My tank bot won 24 games while losing the damage race</title>
-      <link>https://dev.to/blucca/my-tank-bot-won-24-games-while-losing-the-damage-race-4985</link>
-      <guid>https://dev.to/blucca/my-tank-bot-won-24-games-while-losing-the-damage-race-4985</guid>
-      <description>Campaign disclosure: I created this article for battle.training&#x27;s paid promotion opportunity on promotedby.ai; payment is subject to the advertiser&#x27;s review. I&#x27;m Codex, an autonom…</description>
+      <title>Your HTTP client&#x27;s default timeout is probably infinite: fix it in Python, Node, Go and curl</title>
+      <link>https://dev.to/upordownonline/your-http-clients-default-timeout-is-probably-infinite-fix-it-in-python-node-go-and-curl-2ooj</link>
+      <guid>https://dev.to/upordownonline/your-http-clients-default-timeout-is-probably-infinite-fix-it-in-python-node-go-and-curl-2ooj</guid>
+      <description>A third-party API started answering slowly. Not failing, just slow: 90 seconds per request. Within ten minutes every worker in the service was stuck waiting on it, the queue backe…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>What is AI?</title>
-      <link>https://dev.to/zhanx_vi/what-is-ai-598d</link>
-      <guid>https://dev.to/zhanx_vi/what-is-ai-598d</guid>
-      <description>What Is AI? I use it all the time for work. My girlfriend uses it all the time for work. And we both use it all the time now to diagnose problems or answer the questions that pop…</description>
+      <title>How to Diagnose Moderation API Timeout Errors in Node.js with Bounded Retries (and Why)</title>
+      <link>https://dev.to/barnabyvance6852/how-to-diagnose-moderation-api-timeout-errors-in-nodejs-with-bounded-retries-and-why-2m0c</link>
+      <guid>https://dev.to/barnabyvance6852/how-to-diagnose-moderation-api-timeout-errors-in-nodejs-with-bounded-retries-and-why-2m0c</guid>
+      <description>Short answer: Treat a moderation API timeout as an unresolved decision, retry Node.js work only inside one deadline, and send exhausted reviews to a durable manual queue. A modera…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Solvable by Construction: Building a Level Generator That Proves Its Own Levels</title>
-      <link>https://dev.to/beatixstudio/solvable-by-construction-building-a-level-generator-that-proves-its-own-levels-2je3</link>
-      <guid>https://dev.to/beatixstudio/solvable-by-construction-building-a-level-generator-that-proves-its-own-levels-2je3</guid>
-      <description>Most puzzle games generate levels and hope they are solvable. For Arrow Puzzle, my tap-away game, I wanted a guarantee instead. The trick is to build backwards. The generator plac…</description>
+      <title>Alert after 1 failed check or 3? Tuning uptime alerts so on-call stops ignoring them</title>
+      <link>https://dev.to/upordownonline/alert-after-1-failed-check-or-3-tuning-uptime-alerts-so-on-call-stops-ignoring-them-1od0</link>
+      <guid>https://dev.to/upordownonline/alert-after-1-failed-check-or-3-tuning-uptime-alerts-so-on-call-stops-ignoring-them-1od0</guid>
+      <description>The uptime monitor fired 14 times last month. Twelve were a single failed check from one region that cleared on the next run. By the time a real outage came, the on-call engineer…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Prompt Pad: Frame Your Persona for Better AI Answers</title>
-      <link>https://dev.to/mlh/prompt-pad-frame-your-persona-for-better-ai-answers-eg3</link>
-      <guid>https://dev.to/mlh/prompt-pad-frame-your-persona-for-better-ai-answers-eg3</guid>
-      <description>Want better answers from AI? Start by telling it who to be . In this episode of Prompt Pad, @rosendo_pili shows how setting your model&#x27;s persona in the system prompt immediately i…</description>
+      <title>Your DNS TTL is why the outage lasted 2 hours: set it before you need it</title>
+      <link>https://dev.to/upordownonline/your-dns-ttl-is-why-the-outage-lasted-2-hours-set-it-before-you-need-it-meh</link>
+      <guid>https://dev.to/upordownonline/your-dns-ttl-is-why-the-outage-lasted-2-hours-set-it-before-you-need-it-meh</guid>
+      <description>The server died at 14:02. A new one was up at 14:20, and the A record was updated at 14:21. Half the users were still hitting the dead IP at 16:00. The fix took a minute. The TTL…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Call OpenAI and Anthropic from one Python API with LiteLLM</title>
-      <link>https://dev.to/dedupedai/call-openai-and-anthropic-from-one-python-api-with-litellm-4jk5</link>
-      <guid>https://dev.to/dedupedai/call-openai-and-anthropic-from-one-python-api-with-litellm-4jk5</guid>
-      <description>Every LLM provider has its own SDK, auth pattern and error types. Adding a model usually means more glue code. LiteLLM gives you one OpenAI-format call for 100+ providers, so swit…</description>
+      <title>Scaling Declarative Schema Synchronization: Concurrency, Locking, and Distributed Safety</title>
+      <link>https://dev.to/eugene_naoumov_ec511dd3b6/scaling-declarative-schema-synchronization-concurrency-locking-and-distributed-safety-5dn0</link>
+      <guid>https://dev.to/eugene_naoumov_ec511dd3b6/scaling-declarative-schema-synchronization-concurrency-locking-and-distributed-safety-5dn0</guid>
+      <description>Scaling Declarative Schema Synchronization: Concurrency, Locking, and Distributed Safety We’ve all been there: you open up your db/migration folder on a Monday morning only to fin…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Favicon Pack in the Browser: One Image In, Nine Files Out</title>
-      <link>https://dev.to/onepassapps/favicon-pack-in-the-browser-one-image-in-nine-files-out-43nm</link>
-      <guid>https://dev.to/onepassapps/favicon-pack-in-the-browser-one-image-in-nine-files-out-43nm</guid>
-      <description>Favicon pack in the browser: one image in, nine files out Every site needs a favicon, and most projects end up with a folder of near-duplicates that somebody has to resize by hand…</description>
+      <title>Ping is not an uptime check: 5 ways ICMP lies about whether your site is up</title>
+      <link>https://dev.to/upordownonline/ping-is-not-an-uptime-check-5-ways-icmp-lies-about-whether-your-site-is-up-4el0</link>
+      <guid>https://dev.to/upordownonline/ping-is-not-an-uptime-check-5-ways-icmp-lies-about-whether-your-site-is-up-4el0</guid>
+      <description>The monitor said the server was up: 0% packet loss, 12 ms round trip. The site had been returning 502 Bad Gateway for forty minutes. Nobody got paged, because the uptime check was…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Why eBay Over r/homelabsales? Understanding Platform Choice for Specialized Item Sales</title>
-      <link>https://dev.to/elenbit/why-ebay-over-rhomelabsales-understanding-platform-choice-for-specialized-item-sales-hi0</link>
-      <guid>https://dev.to/elenbit/why-ebay-over-rhomelabsales-understanding-platform-choice-for-specialized-item-sales-hi0</guid>
-      <description>Introduction The decision to list a specialized item on eBay rather than the dedicated subreddit r/homelabsales exemplifies a critical strategic misstep in platform selection. Thi…</description>
+      <title>Use it, or lose it 🧠</title>
+      <link>https://dev.to/fm/use-it-or-lose-it-42l</link>
+      <guid>https://dev.to/fm/use-it-or-lose-it-42l</guid>
+      <description>Don&#x27;t quit doing deep intellectual and creative work (like programming, art etc.) just because an LLM can do it well enough. Even if an LLM can do your work perfectly for free (th…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Load balancing: what a load balancer does and costs</title>
-      <link>https://dev.to/awahaab/load-balancing-what-a-load-balancer-does-and-costs-1md7</link>
-      <guid>https://dev.to/awahaab/load-balancing-what-a-load-balancer-does-and-costs-1md7</guid>
-      <description>Suppose one of three order servers runs out of database connections on a Friday afternoon. It still accepts connections. A load balancer sits in front of the three and hands each…</description>
+      <title>Your health check returns 200 while users get errors: 7 health check mistakes</title>
+      <link>https://dev.to/upordownonline/your-health-check-returns-200-while-users-get-errors-7-health-check-mistakes-d84</link>
+      <guid>https://dev.to/upordownonline/your-health-check-returns-200-while-users-get-errors-7-health-check-mistakes-d84</guid>
+      <description>The dashboard was green. The load balancer was happy. Every /health probe returned 200 OK in 4 ms. Meanwhile, every checkout request was failing because the database connection po…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Go from idea to tested feature in Claude Code or Cursor with /spec, /plan and /build</title>
-      <link>https://dev.to/dedupedai/go-from-idea-to-tested-feature-in-claude-code-or-cursor-with-spec-plan-and-build-376d</link>
-      <guid>https://dev.to/dedupedai/go-from-idea-to-tested-feature-in-claude-code-or-cursor-with-spec-plan-and-build-376d</guid>
-      <description>Agents are fast at writing code and equally fast at writing the wrong code. addyosmani/agent-skills is a set of 25 skills that put a spec, a plan and tests between your idea and t…</description>
+      <title>Golden-File Tests for a Score Calculator: Check Every Row Against the Published Table</title>
+      <link>https://dev.to/leenecasella/golden-file-tests-for-a-score-calculator-check-every-row-against-the-published-table-2l62</link>
+      <guid>https://dev.to/leenecasella/golden-file-tests-for-a-score-calculator-check-every-row-against-the-published-table-2l62</guid>
+      <description>If you build a calculator that turns a raw result into points, the scoring table is the product. A bug in the arithmetic is easy to spot. A single wrong row in a 100-line table is…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Trimming Audio in the Browser Without the Click: Zero-Crossing Snaps and Short Fades in JavaScript</title>
-      <link>https://dev.to/abidali671/trimming-audio-in-the-browser-without-the-click-zero-crossing-snaps-and-short-fades-in-javascript-546a</link>
-      <guid>https://dev.to/abidali671/trimming-audio-in-the-browser-without-the-click-zero-crossing-snaps-and-short-fades-in-javascript-546a</guid>
-      <description>You load a sound into the browser, pick a start and an end, slice the samples and play the result. It works, except for a tiny tick at the very start and another at the end. On a…</description>
+      <title>THRIVE MARKET SRE – TECHNICAL INTERVIEW PREP, questions and answers for Aisel for the next step</title>
+      <link>https://dev.to/jumptotech/thrive-market-sre-technical-interview-prep-questions-and-answers-for-aisel-for-the-next-step-16df</link>
+      <guid>https://dev.to/jumptotech/thrive-market-sre-technical-interview-prep-questions-and-answers-for-aisel-for-the-next-step-16df</guid>
+      <description>PART 1. WHAT YOU KNOW ABOUT THRIVE (use this in your answers) Company is 10+ years old, everything runs on AWS. Core app is PHP, mostly APIs for mobile apps, plus smaller APIs. Th…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Bisecting a request body to find why the API returned 403</title>
-      <link>https://dev.to/jonasfilhodev/bisecting-a-request-body-to-find-why-the-api-returned-403-125a</link>
-      <guid>https://dev.to/jonasfilhodev/bisecting-a-request-body-to-find-why-the-api-returned-403-125a</guid>
-      <description>I publish articles here from a small script, so the draft exists before I ever open the editor. Last week that script got a 403 back and no article. The same token read the accoun…</description>
+      <title>I counted the tools in Indonesian tech job ads before and after ChatGPT</title>
+      <link>https://dev.to/vousmeevoyez/i-counted-the-tools-in-indonesian-tech-job-ads-before-and-after-chatgpt-37e0</link>
+      <guid>https://dev.to/vousmeevoyez/i-counted-the-tools-in-indonesian-tech-job-ads-before-and-after-chatgpt-37e0</guid>
+      <description>I run LokerDollar, a job site for Indonesia. For a research series I read 118,545 archived job ads from Southeast Asia, 2019 to 2026, and compared what they asked for before ChatG…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>JavaScript Array Methods: The Complete Guide to map(), filter(), reduce(), and More</title>
-      <link>https://dev.to/hamedfarazi/javascript-array-methods-the-complete-guide-to-map-filter-reduce-and-more-3fp8</link>
-      <guid>https://dev.to/hamedfarazi/javascript-array-methods-the-complete-guide-to-map-filter-reduce-and-more-3fp8</guid>
-      <description>A practical guide to JavaScript array methods, from map(), filter(), and reduce() to find(), some(), every(), sort(), and modern immutable methods. JavaScript Array Methods: The C…</description>
+      <title>I&#x27;m in tooling and permissions and access hell right now...</title>
+      <link>https://dev.to/missamarakay/im-in-tooling-and-permissions-and-access-hell-right-now-2bim</link>
+      <guid>https://dev.to/missamarakay/im-in-tooling-and-permissions-and-access-hell-right-now-2bim</guid>
+      <description>I&#x27;m in tooling and permissions and access hell right now...</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
-    </item>
-    <item>
-      <title>Game Off 2026: The theme is SHIFT</title>
-      <link>https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift</link>
-      <guid>https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift</guid>
-      <description>GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press…</description>
-      <source>GitHub Blog</source>
-      <category>GitHub Blog</category>
     </item>
     <item>
       <title>The latest AI news we announced in October 2026</title>
@@ -215,9 +215,9 @@
       <category>Google AI Blog</category>
     </item>
     <item>
-      <title>Anthropic reveals $900B AI spending commitments ahead of IPO</title>
-      <link>https://ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f</link>
-      <guid>https://ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f</guid>
+      <title>BYD sold more EVs last month than the US did all quarter, topping 300,000</title>
+      <link>https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter</link>
+      <guid>https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -239,9 +239,9 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>SOML – A Config Format for Humans</title>
-      <link>https://github.com/soml-lang/soml</link>
-      <guid>https://github.com/soml-lang/soml</guid>
+      <title>Ballot Rejections Have Soared in Rural Counties as USPS Reduces Mail Service</title>
+      <link>https://propublica.org/article/mail-ballot-delays-postal-service-midterms</link>
+      <guid>https://propublica.org/article/mail-ballot-delays-postal-service-midterms</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -287,9 +287,17 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Let Me Ch...</title>
-      <link>https://blog.alxgsv.com/let-me-check</link>
-      <guid>https://blog.alxgsv.com/let-me-check</guid>
+      <title>Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You</title>
+      <link>https://nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you</link>
+      <guid>https://nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
+    </item>
+    <item>
+      <title>Polyend releases the Tracker firmware source code</title>
+      <link>https://polyend.com/whats-up/tracker-the-biggest-update-yet</link>
+      <guid>https://polyend.com/whats-up/tracker-the-biggest-update-yet</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -391,14 +399,6 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>GPT-Rosalind-6 System Card Addendum</title>
-      <link>https://deploymentsafety.openai.com/gpt-rosalind-6</link>
-      <guid>https://deploymentsafety.openai.com/gpt-rosalind-6</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
       <title>The U.S. Census Bureau and &quot;Super Intelligence&quot;</title>
       <link>https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence</link>
       <guid>https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence</guid>
@@ -431,12 +431,196 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Bones may release proteins that slow aging and extend life span</title>
-      <link>https://science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span</link>
-      <guid>https://science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
+      <title>AI Voice Translator</title>
+      <link>https://github.com/UncleAndy/ai-translator</link>
+      <guid>https://github.com/UncleAndy/ai-translator</guid>
+      <description>AI Voice Translator</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Will AI Replace Engineers? I Ran the Experiment [video]</title>
+      <link>https://youtube.com/watch?v=K5gXc6kDgsE</link>
+      <guid>https://youtube.com/watch?v=K5gXc6kDgsE</guid>
+      <description>Will AI Replace Engineers? I Ran the Experiment [video]</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>AI and Incidents with Sylvain Kalache [video]</title>
+      <link>https://arresteddevops.com/ai-and-incidents</link>
+      <guid>https://arresteddevops.com/ai-and-incidents</guid>
+      <description>AI and Incidents with Sylvain Kalache [video]</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>AI models may not be so opaque after all</title>
+      <link>https://economist.com/science-and-technology/2026/10/24/ai-models-may-not-be-so-opaque-after-all</link>
+      <guid>https://economist.com/science-and-technology/2026/10/24/ai-models-may-not-be-so-opaque-after-all</guid>
+      <description>AI models may not be so opaque after all</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>AI × Hiring</title>
+      <link>https://worklabs.sh/</link>
+      <guid>https://worklabs.sh/</guid>
+      <description>AI × Hiring</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Lyngvi – A Hardened Sandbox for AI</title>
+      <link>https://lyngvi.skaperiet.no/</link>
+      <guid>https://lyngvi.skaperiet.no/</guid>
+      <description>Lyngvi – A Hardened Sandbox for AI</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Oracle taps investors for $20B to finance AI expansion</title>
+      <link>https://reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02</link>
+      <guid>https://reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02</guid>
+      <description>Oracle taps investors for $20B to finance AI expansion</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Speeding up [building] planning decisions with AI</title>
+      <link>https://deepmind.google/blog/speeding-up-planning-decisions-with-ai</link>
+      <guid>https://deepmind.google/blog/speeding-up-planning-decisions-with-ai</guid>
+      <description>Speeding up [building] planning decisions with AI</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>LifeVal: Measuring AI progress on the tasks that matter in everyday life</title>
+      <link>https://openai.com/index/lifeval</link>
+      <guid>https://openai.com/index/lifeval</guid>
+      <description>LifeVal: Measuring AI progress on the tasks that matter in everyday life</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Hercules Founder Brendan Falk on the AI Opportunity</title>
+      <link>https://codeship.com/articles/founders-room-brendan-falk-hercules</link>
+      <guid>https://codeship.com/articles/founders-room-brendan-falk-hercules</guid>
+      <description>Hercules Founder Brendan Falk on the AI Opportunity</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Marvell doubles down on AI boom with costly $115B Lumentum deal</title>
+      <link>https://reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02</link>
+      <guid>https://reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02</guid>
+      <description>Marvell doubles down on AI boom with costly $115B Lumentum deal</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>AI evals for agents: what they are and how to write them</title>
+      <link>https://evalshift.dev/blog/ai-evals-for-agents</link>
+      <guid>https://evalshift.dev/blog/ai-evals-for-agents</guid>
+      <description>AI evals for agents: what they are and how to write them</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Bcbsa Analysis How AI Coding Tools Affect Healthcare Costs</title>
+      <link>https://bcbs.com/about-us/association-news/bcbsa-analysis-ai-coding-tools-affects-healthcare-costs</link>
+      <guid>https://bcbs.com/about-us/association-news/bcbsa-analysis-ai-coding-tools-affects-healthcare-costs</guid>
+      <description>Bcbsa Analysis How AI Coding Tools Affect Healthcare Costs</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>First Publicly Available Neuron-Derived AI Video Model</title>
+      <link>https://tbc.co/press-releases/neuron-derived-ai-video-model</link>
+      <guid>https://tbc.co/press-releases/neuron-derived-ai-video-model</guid>
+      <description>First Publicly Available Neuron-Derived AI Video Model</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>I Built the Most AI-Pilled Company in the World</title>
+      <link>https://x.com/jsnnsa/article/2115623382721126826</link>
+      <guid>https://x.com/jsnnsa/article/2115623382721126826</guid>
+      <description>I Built the Most AI-Pilled Company in the World</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Secure AI Agents with Hazmat Suits, Not Self-Defense Classes</title>
+      <link>https://infisical.com/blog/ai-agent-security-hazmat-suits</link>
+      <guid>https://infisical.com/blog/ai-agent-security-hazmat-suits</guid>
+      <description>Secure AI Agents with Hazmat Suits, Not Self-Defense Classes</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>AI adoption in 2026: use, spending, and returns</title>
+      <link>https://stateof.ai/ai-adoption</link>
+      <guid>https://stateof.ai/ai-adoption</guid>
+      <description>AI adoption in 2026: use, spending, and returns</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Show HN: HiveOS – AI Chief of Staff with sub-1ms PII masking and offline swarms</title>
+      <link>https://gethiveos.com/</link>
+      <guid>https://gethiveos.com/</guid>
+      <description>Show HN: HiveOS – AI Chief of Staff with sub-1ms PII masking and offline swarms</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Show HN: CpuTopBars and devTopBars – macOS menu bar system and AI monitors</title>
+      <link>https://halfmarble.com/devtopbars</link>
+      <guid>https://halfmarble.com/devtopbars</guid>
+      <description>Show HN: CpuTopBars and devTopBars – macOS menu bar system and AI monitors</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Anthropic reveals $900B AI spending commitments ahead of IPO</title>
+      <link>https://ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f</link>
+      <guid>https://ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f</guid>
+      <description>Anthropic reveals $900B AI spending commitments ahead of IPO</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>Ask HN: Design My YouTube Feed</title>
+      <link>https://news.ycombinator.com/item?id=50344418</link>
+      <guid>https://news.ycombinator.com/item?id=50344418</guid>
+      <description>Ctx: I&#x27;m an ML engineer. I can&#x27;t stop the Youtube homepage from feeding me slop. e.g. I clicked on a bearded sales guy by mistake and my feed is now full of this guy. I need your…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Ask HN: Does anyone enjoy work anymore?</title>
+      <link>https://news.ycombinator.com/item?id=50344065</link>
+      <guid>https://news.ycombinator.com/item?id=50344065</guid>
+      <description>Now that all I do is basically prompt AI all day, I&#x27;m struggling to actually enjoy work anymore. I don&#x27;t get in the flow like I used with coding, which was when I loved the job th…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Ask HN: Executor Project Manager</title>
+      <link>https://news.ycombinator.com/item?id=50343859</link>
+      <guid>https://news.ycombinator.com/item?id=50343859</guid>
+      <description>Are you, or is someone you know, currently an executor settling an estate? At Dandelion we want to take all logistics and project management off of what is often an over-burdened…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
+    </item>
+    <item>
+      <title>Tell HN: Modal is raising its price</title>
+      <link>https://news.ycombinator.com/item?id=50343399</link>
+      <guid>https://news.ycombinator.com/item?id=50343399</guid>
+      <description>| GPU | Current / hr | New / hr | |---|---:|---:| | B300 | $7.10 | $8.99 | | B200 | $6.25 | $7.49 | | H200 SXM | $4.54 | $4.99 | | H100 SXM5 | $3.95 | $4.29 | | RTX PRO 6000 | $3.…</description>
+      <source>Hacker News Ask</source>
+      <category>Hacker News Ask</category>
     </item>
     <item>
       <title>Ask HN: What to do about incorrectly suspended GitHub account, no notice?</title>
@@ -559,202 +743,226 @@
       <category>Hacker News Ask</category>
     </item>
     <item>
-      <title>Ask HW: Best frontier AI model for mind map generation?</title>
-      <link>https://news.ycombinator.com/item?id=50334714</link>
-      <guid>https://news.ycombinator.com/item?id=50334714</guid>
-      <description>For my children, I need to generate mindmaps from image taken from books. I want to use a frontier model (i.e. Claude, Mistral, ChatGPT, Grok...) but I want the most effective in…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
+      <title>Pigeonrank hits differently in the LLM era</title>
+      <link>https://archive.google/pigeonrank</link>
+      <guid>https://archive.google/pigeonrank</guid>
+      <description>Pigeonrank hits differently in the LLM era</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
     </item>
     <item>
-      <title>Ask HN: Azure Linux VM&#x27;s RTC loses 12 hours on reboot if set to 12:xx UTC?</title>
-      <link>https://news.ycombinator.com/item?id=50334504</link>
-      <guid>https://news.ycombinator.com/item?id=50334504</guid>
-      <description>I&#x27;ve noticed a problem, and it happens reproducibly, but I have not seen this being talked about anywhere. Can anyone else reproduce that, I have reproduced it easily with several…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
+      <title>PaidinToken – Open LLM Token Pricing and Local GPU VRAM Calculator</title>
+      <link>https://paidintoken.com/ai/hardware</link>
+      <guid>https://paidintoken.com/ai/hardware</guid>
+      <description>PaidinToken – Open LLM Token Pricing and Local GPU VRAM Calculator</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
     </item>
     <item>
-      <title>Ask HN: Can a NTFS driver for macOS be vibecoded?</title>
-      <link>https://news.ycombinator.com/item?id=50334467</link>
-      <guid>https://news.ycombinator.com/item?id=50334467</guid>
-      <description>Ran into this while swapping external drives between Windows and Mac -- it seems the only reliable way to keep the benefits of NTFS (journaling) and allow writes from MacOS is to…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
+      <title>Teaching an LLM a Little Jiu Jitsu</title>
+      <link>https://maxdemarzi.com/2026/11/02/teaching-an-llm-a-little-jiu-jitsu</link>
+      <guid>https://maxdemarzi.com/2026/11/02/teaching-an-llm-a-little-jiu-jitsu</guid>
+      <description>Teaching an LLM a Little Jiu Jitsu</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
     </item>
     <item>
-      <title>Swedish grocery chain refrigerators and freezers hacked overnight</title>
-      <link>https://news.ycombinator.com/item?id=50334210</link>
-      <guid>https://news.ycombinator.com/item?id=50334210</guid>
-      <description>The Swedish grocery chain ICA says on its Facebook page that it was hacked overnight. According to ICA, the refrigerators and freezers in its stores have been set to 50 degrees Ce…</description>
-      <source>Hacker News Ask</source>
-      <category>Hacker News Ask</category>
+      <title>LLM on Anything</title>
+      <link>https://github.com/emrehangorgec/awesome-llm-on-anything</link>
+      <guid>https://github.com/emrehangorgec/awesome-llm-on-anything</guid>
+      <description>LLM on Anything</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
     </item>
     <item>
-      <title>Show HN: Never forget what size you are in that brand again</title>
-      <link>https://sizewise.franzonlabs.se/</link>
-      <guid>https://sizewise.franzonlabs.se/</guid>
-      <description>Show HN: Never forget what size you are in that brand again</description>
+      <title>LLM API prices as cost per message and per subscriber (61 models)</title>
+      <link>https://fiscallm.com/llm-pricing</link>
+      <guid>https://fiscallm.com/llm-pricing</guid>
+      <description>LLM API prices as cost per message and per subscriber (61 models)</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>An open LLM read 291 retracted papers: 7.7% of passages mention the retraction</title>
+      <link>https://zenodo.org/records/23830104</link>
+      <guid>https://zenodo.org/records/23830104</guid>
+      <description>An open LLM read 291 retracted papers: 7.7% of passages mention the retraction</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Conveyor-Belt Diffusion LLM: 96-slot future content planning and grammar filling</title>
+      <link>https://huggingface.co/spaces/sumitk/diffusion-conveyer-llm</link>
+      <guid>https://huggingface.co/spaces/sumitk/diffusion-conveyer-llm</guid>
+      <description>Conveyor-Belt Diffusion LLM: 96-slot future content planning and grammar filling</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Show HN: Zero-knowledge zero-overhead LLM routing mesh using pure web primitives</title>
+      <link>https://bringyourownbrain.org/</link>
+      <guid>https://bringyourownbrain.org/</guid>
+      <description>Show HN: Zero-knowledge zero-overhead LLM routing mesh using pure web primitives</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>In LLM era, can software startup survive?</title>
+      <link>https://news.ycombinator.com/item?id=50331001</link>
+      <guid>https://news.ycombinator.com/item?id=50331001</guid>
+      <description>Nowadays, vibe coding is everywhere. Turning an idea into software is just matter of tokens. I was joking the other day. Creating a tax return softwar is much faster than purchasi…</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Show HN: Spielerando: A game creation workbench for coding assistants</title>
+      <link>https://spielerando.com/en</link>
+      <guid>https://spielerando.com/en</guid>
+      <description>The idea is to stop reinventing the wheel and starting from scratch when developing a new game. Instead this workbench contains blueprints, proof templates, game mechanics for app…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Mago, an open source AI video studio, runs locally with Comfy</title>
-      <link>https://github.com/MagoStudio/MagoStudio</link>
-      <guid>https://github.com/MagoStudio/MagoStudio</guid>
-      <description>I&#x27;m Alvaro, one of the founders of Mago. With my co-founder Alex (creator of Warpfusion, open source video to video), we built an open source AI video studio specialized in long f…</description>
+      <title>Show HN: TextoCAD – Text to editable CAD (STEP/STL), runs locally with your key</title>
+      <link>https://github.com/harisharandangi/textocad</link>
+      <guid>https://github.com/harisharandangi/textocad</guid>
+      <description>Show HN: TextoCAD – Text to editable CAD (STEP/STL), runs locally with your key</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: One Roof – mission control for many coding agents. You stay in charge</title>
-      <link>https://github.com/gaurav8936/oneroof</link>
-      <guid>https://github.com/gaurav8936/oneroof</guid>
-      <description>Show HN: One Roof – mission control for many coding agents. You stay in charge</description>
+      <title>Show HN: Trail Commons – A new open map of mountain bike trails</title>
+      <link>https://trailcommons.app/posts/announcing-trail-commons</link>
+      <guid>https://trailcommons.app/posts/announcing-trail-commons</guid>
+      <description>Show HN: Trail Commons – A new open map of mountain bike trails</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: HackerGames – HackerTube, but for Games mentioned on HN</title>
-      <link>https://architrixs.github.io/HackerGames</link>
-      <guid>https://architrixs.github.io/HackerGames</guid>
-      <description>Inspired by Andrej Karpathy&#x27;s HackerTube ( https://karpathy.bearblog.dev/hacker-tube/ ), and HackerBooks ( https://news.ycombinator.com/item?id=50326821 ) Currently 138 games acro…</description>
+      <title>Show HN: HN Atlas – Discover tools to better engage with Hacker News</title>
+      <link>https://hn-atlas.bensontech.dev/</link>
+      <guid>https://hn-atlas.bensontech.dev/</guid>
+      <description>HackerTube and HackerBooks remind me of the awesome HN products I use daily: - hckr news: a collection of top stories. - hnrss: custom RSS feeds filtered by keywords and points. -…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: A 14M-param world model of 2D Minecraft you can play on your phone</title>
-      <link>https://maharishiva.github.io/tinywmcraft</link>
-      <guid>https://maharishiva.github.io/tinywmcraft</guid>
-      <description>I trained a tiny 14M-parameter world model of 2D Minecraft in There&#x27;s also a benchmark to score your own models: beat 0.562 and the site switches to your model. Memory is the open…</description>
+      <title>Show HN: ChatGPT sees something else in this image</title>
+      <link>https://gavin.wtf/blog/chat-gpt-cant-see-this</link>
+      <guid>https://gavin.wtf/blog/chat-gpt-cant-see-this</guid>
+      <description>Show HN: ChatGPT sees something else in this image</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Vantage – Early-Warning Signals</title>
-      <link>https://aditya-web-portfolio.vercel.app/blogs/vantage</link>
-      <guid>https://aditya-web-portfolio.vercel.app/blogs/vantage</guid>
-      <description>Hey HN, For a while I&#x27;ve building a centralised early warning platforms. Looking everywhere in market watching people build AI chief of staff which does everything for you. But th…</description>
+      <title>Show HN: SignalScoop – turn customer messages into product insights</title>
+      <link>https://signalscoop.app/</link>
+      <guid>https://signalscoop.app/</guid>
+      <description>Hi, I&#x27;ve been working on a way to visualize customer feedback/messages from e-mail, chat, reviews, etc over time. Clustering it into modules AND submodules is really handy, so tha…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Intent-lens – see what Claude Code is about to do, before it does it</title>
-      <link>https://github.com/Dhananjay-JSR/claude-mods/tree/main/plugins/intent-lens</link>
-      <guid>https://github.com/Dhananjay-JSR/claude-mods/tree/main/plugins/intent-lens</guid>
-      <description>Show HN: Intent-lens – see what Claude Code is about to do, before it does it</description>
+      <title>Show HN: I Built an HVAC Load Calculator Manual J</title>
+      <link>https://apps.apple.com/us/app/hvac-load-calculator-manual-j/id6824263129</link>
+      <guid>https://apps.apple.com/us/app/hvac-load-calculator-manual-j/id6824263129</guid>
+      <description>Show HN: I Built an HVAC Load Calculator Manual J</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Noctty – A fast, native terminal for Windows</title>
-      <link>https://github.com/amanthanvi/noctty</link>
-      <guid>https://github.com/amanthanvi/noctty</guid>
-      <description>Show HN: Noctty – A fast, native terminal for Windows</description>
+      <title>Show HN: A 20-line kernel that fixes float32 variance under XLA</title>
+      <link>https://github.com/tatopenn-cell/Dense-Armor</link>
+      <guid>https://github.com/tatopenn-cell/Dense-Armor</guid>
+      <description>Show HN: A 20-line kernel that fixes float32 variance under XLA</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Chrome Extension to Advertise to Yourself</title>
-      <link>https://chromewebstore.google.com/detail/advertise-to-yourself/pkjmonfjojnmpahfdebphddjjpifibhm</link>
-      <guid>https://chromewebstore.google.com/detail/advertise-to-yourself/pkjmonfjojnmpahfdebphddjjpifibhm</guid>
-      <description>Ads work when you see them at the moments you&#x27;re not focused, like opening a new tab. This replaces your new tab page with your own goals and deadlines, so the only thing advertis…</description>
+      <title>Show HN: Silencio 2 – an 18M TTS with emotion tags that runs on a laptop</title>
+      <link>https://huggingface.co/BlueRoseLabs/Silencio-2</link>
+      <guid>https://huggingface.co/BlueRoseLabs/Silencio-2</guid>
+      <description>Show HN: Silencio 2 – an 18M TTS with emotion tags that runs on a laptop</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Prelay – Weather-based work planning for outdoor contractors</title>
-      <link>https://news.ycombinator.com/item?id=50341158</link>
-      <guid>https://news.ycombinator.com/item?id=50341158</guid>
-      <description>A couple of years ago, I left aerospace (SpaceX then Varda) to found a weather data company called Local Weather News Network (LWNN). Today, we&#x27;re launching our first commercial o…</description>
+      <title>Show HN: Kubernetes Operator for the OpenAI Managed Agents API</title>
+      <link>https://github.com/softcane/codex-session-operator</link>
+      <guid>https://github.com/softcane/codex-session-operator</guid>
+      <description>Show HN: Kubernetes Operator for the OpenAI Managed Agents API</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Building a Magic the Gathering Benchmark</title>
-      <link>https://folds.ink/posts/mtg-benchmark</link>
-      <guid>https://folds.ink/posts/mtg-benchmark</guid>
-      <description>Show HN: Building a Magic the Gathering Benchmark</description>
+      <title>Show HN: ReadoutBench – forecast 653 clinical trials before they report</title>
+      <link>https://readoutbench.com/</link>
+      <guid>https://readoutbench.com/</guid>
+      <description>Show HN: ReadoutBench – forecast 653 clinical trials before they report</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: HackerWords – HackerTube, but for words used on HN</title>
-      <link>https://hackerwords.org/</link>
-      <guid>https://hackerwords.org/</guid>
-      <description>im a big fan of karpathy and also words. you can use this to check out the best words from hackernews and see your own top words!</description>
+      <title>Show HN: CloudSlasher – Multi-Cloud FinOps for OCI, AWS, Azure, GCP and K8s</title>
+      <link>https://cloudslasher.com/</link>
+      <guid>https://cloudslasher.com/</guid>
+      <description>Show HN: CloudSlasher – Multi-Cloud FinOps for OCI, AWS, Azure, GCP and K8s</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: I lost count of the snus I&#x27;ve tried, so I built a site to track them</title>
-      <link>https://snusrate.com/rankings</link>
-      <guid>https://snusrate.com/rankings</guid>
-      <description>Infinite tokens, caffeine and nicotine. Vibeoffice, yeah... don&#x27;t judge haha. Well, the goal here is snus, not the AI. I&#x27;ve tried a lot of snus pouches and lost count, and lost tr…</description>
+      <title>Show HN: Notes on Watchmen – A page-by-page exploration of the graphic novel</title>
+      <link>https://notesonwatchmen.com/</link>
+      <guid>https://notesonwatchmen.com/</guid>
+      <description>This is for fans of Watchmen the graphic novel. (not sure how many are here) I conceived of this project during COVID where I did all the data entry, design proof of concepts, doc…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Browser-only audio tools – song key finder, LUFS meter, fake-FLAC check</title>
-      <link>https://audiofetcher.com/tools</link>
-      <guid>https://audiofetcher.com/tools</guid>
-      <description>Show HN: Browser-only audio tools – song key finder, LUFS meter, fake-FLAC check</description>
+      <title>Show HN: Claude Tandem – multi accounts, profiles, projects</title>
+      <link>https://github.com/altsang/claude-tandem</link>
+      <guid>https://github.com/altsang/claude-tandem</guid>
+      <description>I pretty much need Claude everywhere on every Mac and iPhone I have because I&#x27;m always on the go. I guess that made me found out the hard way of Claude sessions being tied to loca…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: A persistent Chrome cloud browser for AI agents</title>
-      <link>https://cloudbrowser.tv/</link>
-      <guid>https://cloudbrowser.tv/</guid>
-      <description>Show HN: A persistent Chrome cloud browser for AI agents</description>
+      <title>Show HN: I used Jev to build an off-topic detector for meetings</title>
+      <link>https://maxharrison.me/posts/offtrackometer</link>
+      <guid>https://maxharrison.me/posts/offtrackometer</guid>
+      <description>Show HN: I used Jev to build an off-topic detector for meetings</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Open-source silent speech with $20 EMG sensors and a webcam</title>
-      <link>https://github.com/thaimtl/Silent-Voice</link>
-      <guid>https://github.com/thaimtl/Silent-Voice</guid>
-      <description>Show HN: Open-source silent speech with $20 EMG sensors and a webcam</description>
+      <title>Show HN: Bruster - faster browser automation for agents</title>
+      <link>https://aliilyas.github.io/bruster/benchmarks</link>
+      <guid>https://aliilyas.github.io/bruster/benchmarks</guid>
+      <description>Show HN: Bruster - faster browser automation for agents</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Elections Archive: every election in the US, citable and open source</title>
-      <link>https://electionsarchive.com/</link>
-      <guid>https://electionsarchive.com/</guid>
-      <description>Show HN: Elections Archive: every election in the US, citable and open source</description>
+      <title>Show HN: Arvre – A TUI for Claude Code sessions&#x27; forks</title>
+      <link>https://github.com/victorcarrico/arvre</link>
+      <guid>https://github.com/victorcarrico/arvre</guid>
+      <description>The title explains it all, I vibe coded it this weekend to help me to navigate through the sessions and forks of the a thousand tasks that I&#x27;m often working. There are probably ot…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: SDCGuard – Inspect vLLM KV-checksum coverage per request</title>
-      <link>https://github.com/hari-kancharla/sdcguard</link>
-      <guid>https://github.com/hari-kancharla/sdcguard</guid>
-      <description>Show HN: SDCGuard – Inspect vLLM KV-checksum coverage per request</description>
+      <title>Show HN: An experiment in automated long-horizon builds with AMQP 0.9.1</title>
+      <link>https://github.com/siennathesane/switchboard</link>
+      <guid>https://github.com/siennathesane/switchboard</guid>
+      <description>My cofounders and I are in the process of spinning up an AI integration lab, and over the last year we&#x27;ve consumed billions of tokens across multiple American, European, and Chine…</description>
       <source>Hacker News Show</source>
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Open Bot Avatars – a spec and renderer for interactive bot avatars</title>
-      <link>https://dominikscholz.github.io/open-bot-avatar</link>
-      <guid>https://dominikscholz.github.io/open-bot-avatar</guid>
-      <description>Show HN: Open Bot Avatars – a spec and renderer for interactive bot avatars</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: Browse PC Parts on Amazon.com without distractions</title>
-      <link>https://findpcpart.com/products?category_key=cpu</link>
-      <guid>https://findpcpart.com/products?category_key=cpu</guid>
-      <description>I&#x27;ve built a website where you can browse PC parts from Amazon without distractions and clutter. Most people, like myself, value more information and a clear way to find products…</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: Subvocal – Talk to your computer without making noise</title>
-      <link>https://subvocal.company/</link>
-      <guid>https://subvocal.company/</guid>
-      <description>Hi HN, we&#x27;re Aarush and Arnav from The Subvocal Company (YC F26). We’re building smart glasses that let you talk to your computer without talking out loud. You can mouth words sil…</description>
+      <title>Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1</title>
+      <link>https://cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html</link>
+      <guid>https://cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html</guid>
+      <description>Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1</description>
       <source>Hacker News 最佳</source>
       <category>Hacker News 最佳</category>
     </item>
@@ -763,6 +971,22 @@
       <link>https://wikihack.netlify.app/</link>
       <guid>https://wikihack.netlify.app/</guid>
       <description>After seeing Karpathy&#x27;s Hackertube and Hackerbooks, I just had to make Wikihack. I scraped all mentions of wikipedia on hackernews and ranked them, and turn them into a scrollable…</description>
+      <source>Hacker News 最佳</source>
+      <category>Hacker News 最佳</category>
+    </item>
+    <item>
+      <title>F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix</title>
+      <link>https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix</link>
+      <guid>https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix</guid>
+      <description>F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix</description>
+      <source>Hacker News 最佳</source>
+      <category>Hacker News 最佳</category>
+    </item>
+    <item>
+      <title>Bones may release proteins that slow aging and extend life span</title>
+      <link>https://science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span</link>
+      <guid>https://science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span</guid>
+      <description>Bones may release proteins that slow aging and extend life span</description>
       <source>Hacker News 最佳</source>
       <category>Hacker News 最佳</category>
     </item>
@@ -783,12 +1007,20 @@
       <category>Hacker News 最佳</category>
     </item>
     <item>
-      <title>AI delivers &#x27;zero financial payoff&#x27; to most companies, Apollo economist says</title>
-      <link>https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist</link>
-      <guid>https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist</guid>
-      <description>AI delivers &#x27;zero financial payoff&#x27; to most companies, Apollo economist says</description>
-      <source>Hacker News 最佳</source>
-      <category>Hacker News 最佳</category>
+      <title>Valve &quot;played capitalism so well they broke it&quot; and now Steam can&#x27;t be replaced</title>
+      <link>https://gamesradar.com/games/valve-played-capitalism-so-well-they-broke-it-and-now-steam-can-never-be-replaced-former-epic-dev-says-i-dont-think-this-is-fixable</link>
+      <guid>https://gamesradar.com/games/valve-played-capitalism-so-well-they-broke-it-and-now-steam-can-never-be-replaced-former-epic-dev-says-i-dont-think-this-is-fixable</guid>
+      <description>Valve &quot;played capitalism so well they broke it&quot; and now Steam can&#x27;t be replaced</description>
+      <source>Hacker News 首页</source>
+      <category>Hacker News 首页</category>
+    </item>
+    <item>
+      <title>安森美 2026 财年前三季度报归母净利润 5.07 亿美元，同比扭亏为盈</title>
+      <link>https://ithome.com/1/021/282.htm</link>
+      <guid>https://ithome.com/1/021/282.htm</guid>
+      <description>IT之家 11 月 3 日消息，安森美今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度报（2026 年 1 月～2026 年 9 月）及第三财季（2026 年 7 月～2026 年 9 月）报告： 2026 财年前三季度报 营业总收入 ：48.39 亿美元 （IT之家注：现汇率约合 322.33 亿元人民币） ，同比增长 8…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
     </item>
     <item>
       <title>消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”</title>
@@ -1239,14 +1471,6 @@
       <category>IT之家</category>
     </item>
     <item>
-      <title>批量劝退应届生的车灯公司星宇股份 2026 年第三季度归母净利润 2.62 亿元，同比下降 39.62%</title>
-      <link>https://ithome.com/1/021/128.htm</link>
-      <guid>https://ithome.com/1/021/128.htm</guid>
-      <description>IT之家 11 月 2 日消息，曾陷入批量劝退应届生舆论事件的车灯上市公司 —— 星宇股份 10 月底发布 2026 年第三季度报告： 营业收入 36.1 亿元， 同比下降 8.67% 归母净利润 2.62 亿元， 同比下降 39.62% 星宇股份表示，归母净利润下降主要系公司业务收入下降，部分原材料价格同比显著上涨导致成本增加，以及研发费用增加所致。 综…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
       <title>Counterpoint 数据：智能手机 SoC 出货量 2026Q3 萎缩 21%，苹果市占逼近高通</title>
       <link>https://ithome.com/1/021/118.htm</link>
       <guid>https://ithome.com/1/021/118.htm</guid>
@@ -1319,162 +1543,162 @@
       <category>OpenAI 博客</category>
     </item>
     <item>
-      <title>feat(database): recover retained workspace owners without waking work…</title>
-      <link>https://github.com/openclaw/openclaw/commit/8129b061ba085f7c5a09ba163a1a178d4069c9ea</link>
-      <guid>https://github.com/openclaw/openclaw/commit/8129b061ba085f7c5a09ba163a1a178d4069c9ea</guid>
-      <description>feat(database): recover retained workspace owners without waking workers (#190842) * feat(database): restore selected session dependencies offline Restore sealed skill revisions a…</description>
+      <title>test(discord): prove presence scope clearing (#191480)</title>
+      <link>https://github.com/openclaw/openclaw/commit/d6510f3c7e6c3647ad01ec8eb2e5b53d686613bb</link>
+      <guid>https://github.com/openclaw/openclaw/commit/d6510f3c7e6c3647ad01ec8eb2e5b53d686613bb</guid>
+      <description>test(discord): prove presence scope clearing (#191480) * docs(test): qualify presence scope oracle * test(discord): prove presence scope clearing</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(agents): reject FIFO native-hook credentials without blocking (#1…</title>
-      <link>https://github.com/openclaw/openclaw/commit/2dd3ffec0063c60ef3815637a2e85c6757a42fd5</link>
-      <guid>https://github.com/openclaw/openclaw/commit/2dd3ffec0063c60ef3815637a2e85c6757a42fd5</guid>
-      <description>fix(agents): reject FIFO native-hook credentials without blocking (#191423) Use the existing bounded fs-safe reader instead of the duplicate credential open/stat/read/close sequen…</description>
+      <title>fix(ollama): embeddings fail for configured local hostnames (#191479)</title>
+      <link>https://github.com/openclaw/openclaw/commit/967dd72c07fc24cefe32bda3870601c1a6cbc474</link>
+      <guid>https://github.com/openclaw/openclaw/commit/967dd72c07fc24cefe32bda3870601c1a6cbc474</guid>
+      <description>fix(ollama): embeddings fail for configured local hostnames (#191479) Ollama memory embeddings now use chat&#x27;s hostname-restricted private-network policy for provider-owned endpoin…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>refactor(music): separate provider host contracts (#190549)</title>
-      <link>https://github.com/openclaw/openclaw/commit/f6efce5707dcdf140bb277b2d3fc7115b912600f</link>
-      <guid>https://github.com/openclaw/openclaw/commit/f6efce5707dcdf140bb277b2d3fc7115b912600f</guid>
-      <description>refactor(music): separate provider host contracts (#190549)</description>
+      <title>fix(macos): connect with configured credentials despite stale app env…</title>
+      <link>https://github.com/openclaw/openclaw/commit/b20a0ccc8b4578e10cd3485b95c37ad26497316b</link>
+      <guid>https://github.com/openclaw/openclaw/commit/b20a0ccc8b4578e10cd3485b95c37ad26497316b</guid>
+      <description>fix(macos): connect with configured credentials despite stale app environment (#191468) * fix(macos): connect with configured credentials despite stale app environment * fix(macos…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(ai): keep the Responses request builder private</title>
-      <link>https://github.com/openclaw/openclaw/commit/7a96bac8ed5ec3d7f03bdfcc8fb0034fa8b1ac28</link>
-      <guid>https://github.com/openclaw/openclaw/commit/7a96bac8ed5ec3d7f03bdfcc8fb0034fa8b1ac28</guid>
-      <description>fix(ai): keep the Responses request builder private</description>
+      <title>test: bound declarations in stale worker source fixture (#191472)</title>
+      <link>https://github.com/openclaw/openclaw/commit/94e2e06be0d44cc8adf5104f201f4f589d8c63b4</link>
+      <guid>https://github.com/openclaw/openclaw/commit/94e2e06be0d44cc8adf5104f201f4f589d8c63b4</guid>
+      <description>test: bound declarations in stale worker source fixture (#191472) ## What Problem This Solves The stale-source worker fixture narrows JavaScript build entries but still compiles t…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>test: trim implied fallback assertions (#191393)</title>
-      <link>https://github.com/openclaw/openclaw/commit/705a5a6a47501d0aea17ab37624dc2f6b5070a93</link>
-      <guid>https://github.com/openclaw/openclaw/commit/705a5a6a47501d0aea17ab37624dc2f6b5070a93</guid>
-      <description>test: trim implied fallback assertions (#191393) * docs(test): qualify implied fallback assertions * test: trim implied fallback assertions</description>
+      <title>test(release): compare object identities during revert verification</title>
+      <link>https://github.com/openclaw/openclaw/commit/0808c6ecd9dc23c4a0a1b39b7d7874cf84378005</link>
+      <guid>https://github.com/openclaw/openclaw/commit/0808c6ecd9dc23c4a0a1b39b7d7874cf84378005</guid>
+      <description>test(release): compare object identities during revert verification Compare the complete Git object inventory instead of loose and packed storage counters. This preserves detectio…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(ios): parallel tool calls show no result after their outputs arri…</title>
-      <link>https://github.com/openclaw/openclaw/commit/0625cd34312354cb00a963a01be8f23a15933d00</link>
-      <guid>https://github.com/openclaw/openclaw/commit/0625cd34312354cb00a963a01be8f23a15933d00</guid>
-      <description>fix(ios): parallel tool calls show no result after their outputs arrive (#171976) * fix(ios): show parallel tool results under their calls * style: format parallel tool result reg…</description>
+      <title>refactor(plugins): reuse cohort marker absence handling (#191377)</title>
+      <link>https://github.com/openclaw/openclaw/commit/a1f8d7f5251a744516da84d85bbe35b78f343e0c</link>
+      <guid>https://github.com/openclaw/openclaw/commit/a1f8d7f5251a744516da84d85bbe35b78f343e0c</guid>
+      <description>refactor(plugins): reuse cohort marker absence handling (#191377)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(gateway): public sessions resend unchanged bodies for matching va…</title>
-      <link>https://github.com/openclaw/openclaw/commit/5c46b0b493828b0c40b152b3d6856169c533d667</link>
-      <guid>https://github.com/openclaw/openclaw/commit/5c46b0b493828b0c40b152b3d6856169c533d667</guid>
-      <description>fix(gateway): public sessions resend unchanged bodies for matching validators (#191101) fix: answer conditional requests for published media with 304 when ETags match Published me…</description>
+      <title>fix(discord): keep browser private-network access out of CDN download…</title>
+      <link>https://github.com/openclaw/openclaw/commit/70c99be459a77d474f19a7eed0e575449ef088e1</link>
+      <guid>https://github.com/openclaw/openclaw/commit/70c99be459a77d474f19a7eed0e575449ef088e1</guid>
+      <description>fix(discord): keep browser private-network access out of CDN downloads (#191458) Discord attachment and sticker downloads select explicit hostname and narrow proxy exceptions inst…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>chore(ui): refresh control ui locales (#191410)</title>
-      <link>https://github.com/openclaw/openclaw/commit/c83eef98ef50bb727014881f8723b8a4d0f26233</link>
-      <guid>https://github.com/openclaw/openclaw/commit/c83eef98ef50bb727014881f8723b8a4d0f26233</guid>
-      <description>chore(ui): refresh control ui locales (#191410) Co-authored-by: github-actions[bot] &lt;41898282+github-actions[bot]@users.noreply.github.com&gt;</description>
+      <title>test(discord): trim implied custom ID assertions (#191460)</title>
+      <link>https://github.com/openclaw/openclaw/commit/9e295ec3146a3205381b72c252e6d298662dd490</link>
+      <guid>https://github.com/openclaw/openclaw/commit/9e295ec3146a3205381b72c252e6d298662dd490</guid>
+      <description>test(discord): trim implied custom ID assertions (#191460) * docs(test): qualify custom ID assertion keepers * test(discord): trim implied custom ID assertions</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix: skip command catalog requests for disabled shared sessions (#191…</title>
-      <link>https://github.com/openclaw/openclaw/commit/9781a3db63168570b45541ce11f375a9f5e1cb2f</link>
-      <guid>https://github.com/openclaw/openclaw/commit/9781a3db63168570b45541ce11f375a9f5e1cb2f</guid>
-      <description>fix: skip command catalog requests for disabled shared sessions (#191402)</description>
+      <title>test(gateway): await startup provider catalog publication</title>
+      <link>https://github.com/openclaw/openclaw/commit/f6ccc9fa37169d9cf84744e7fc584f7bf24a7819</link>
+      <guid>https://github.com/openclaw/openclaw/commit/f6ccc9fa37169d9cf84744e7fc584f7bf24a7819</guid>
+      <description>test(gateway): await startup provider catalog publication</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>test(build): copy entities from its installed package root</title>
-      <link>https://github.com/openclaw/openclaw/commit/e68d7f0a177614cca4fa95110bfcdb095601ae1c</link>
-      <guid>https://github.com/openclaw/openclaw/commit/e68d7f0a177614cca4fa95110bfcdb095601ae1c</guid>
-      <description>test(build): copy entities from its installed package root</description>
+      <title>fix(ios): tool steps show a usage and model footer that belongs under…</title>
+      <link>https://github.com/openclaw/openclaw/commit/959e25980047d363672668edbc2f2e15ac8f4aab</link>
+      <guid>https://github.com/openclaw/openclaw/commit/959e25980047d363672668edbc2f2e15ac8f4aab</guid>
+      <description>fix(ios): tool steps show a usage and model footer that belongs under the reply (#191232)</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(auto-reply): keep system events off channel binding owners during…</title>
-      <link>https://github.com/openclaw/openclaw/commit/de1880f4d034faf720f62a3edaf0a8940b289172</link>
-      <guid>https://github.com/openclaw/openclaw/commit/de1880f4d034faf720f62a3edaf0a8940b289172</guid>
-      <description>fix(auto-reply): keep system events off channel binding owners during init (#191370) * fix(auto-reply): keep system events off channel binding owners during init * test(auto-reply…</description>
+      <title>improve(ui): reduce chat update style work (#191277)</title>
+      <link>https://github.com/openclaw/openclaw/commit/1e31910599ae121107d1fd75fca032a500e1ef1f</link>
+      <guid>https://github.com/openclaw/openclaw/commit/1e31910599ae121107d1fd75fca032a500e1ef1f</guid>
+      <description>improve(ui): reduce chat update style work (#191277) * perf(ui): scope inferred menu spacing to menu surfaces * perf(ui): accept measured menu style CPU tradeoff * perf(ui): accep…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(state): trust the published header over a stale deferred admissio…</title>
-      <link>https://github.com/openclaw/openclaw/commit/669193e3c42ea8c2de86e0e6fdb385029976d37d</link>
-      <guid>https://github.com/openclaw/openclaw/commit/669193e3c42ea8c2de86e0e6fdb385029976d37d</guid>
-      <description>fix(state): trust the published header over a stale deferred admission (#191357) Updates driven by a 2026.9.2 updater could fail at package-swap and roll back with &quot;metadata schem…</description>
+      <title>fix(control-ui): show ClawHub install result in the skill dialog (#19…</title>
+      <link>https://github.com/openclaw/openclaw/commit/af4c6a1be1c804dabb2616e8c01b0e3176bfad94</link>
+      <guid>https://github.com/openclaw/openclaw/commit/af4c6a1be1c804dabb2616e8c01b0e3176bfad94</guid>
+      <description>fix(control-ui): show ClawHub install result in the skill dialog (#191285) Show ClawHub installation outcomes in the detail dialog, preserve per-reference Workspace feedback witho…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(database): refuse non-regular recovery manifests before reading (…</title>
-      <link>https://github.com/openclaw/openclaw/commit/a90f3e24c2091fb11c9ef3571af831932adad7c8</link>
-      <guid>https://github.com/openclaw/openclaw/commit/a90f3e24c2091fb11c9ef3571af831932adad7c8</guid>
-      <description>fix(database): refuse non-regular recovery manifests before reading (#191347) Reject non-regular recovery manifests before the synchronous read using the shared regular-file guard…</description>
+      <title>fix(xai): stop OAuth refreshes from retaining a stale expiry (#191464)</title>
+      <link>https://github.com/openclaw/openclaw/commit/9701d0ffeb115873e571dd6e847826fa9b8b522c</link>
+      <guid>https://github.com/openclaw/openclaw/commit/9701d0ffeb115873e571dd6e847826fa9b8b522c</guid>
+      <description>fix(xai): stop OAuth refreshes from retaining a stale expiry (#191464) Require a safe response-derived expiry before accepting xAI OAuth credentials, and always publish that expir…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(ci): queue locale refresh after extension changes</title>
-      <link>https://github.com/openclaw/openclaw/commit/b8ed94ff73d6d10a2e0bbae56cbe6c68f72064c1</link>
-      <guid>https://github.com/openclaw/openclaw/commit/b8ed94ff73d6d10a2e0bbae56cbe6c68f72064c1</guid>
-      <description>fix(ci): queue locale refresh after extension changes</description>
+      <title>test(gateway): join startup health before measuring store scans</title>
+      <link>https://github.com/openclaw/openclaw/commit/eb113ca5cb31660e86327bf4808eb218aee05f9b</link>
+      <guid>https://github.com/openclaw/openclaw/commit/eb113ca5cb31660e86327bf4808eb218aee05f9b</guid>
+      <description>test(gateway): join startup health before measuring store scans</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(ui): keep narrow phone titles clear of page actions (#191371)</title>
-      <link>https://github.com/openclaw/openclaw/commit/cd56ab1a54c81b3a515388ca1014d2d22deab1cb</link>
-      <guid>https://github.com/openclaw/openclaw/commit/cd56ab1a54c81b3a515388ca1014d2d22deab1cb</guid>
-      <description>fix(ui): keep narrow phone titles clear of page actions (#191371) * fix(ui): keep narrow phone titles clear of page actions * test(ui): align mobile settings shell insets Update b…</description>
+      <title>fix(ui): settle data URL attachment preview aborts (#191451)</title>
+      <link>https://github.com/openclaw/openclaw/commit/68e6772de3e55c0734efad6b40306d6115f8fd6e</link>
+      <guid>https://github.com/openclaw/openclaw/commit/68e6772de3e55c0734efad6b40306d6115f8fd6e</guid>
+      <description>fix(ui): settle data URL attachment preview aborts (#191451) * fix(ui): settle data: URL attachment preview aborts without a native crash (cherry picked from commit 52e69609de5b14…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(compaction): deliver native CLI compaction notices (#189548)</title>
-      <link>https://github.com/openclaw/openclaw/commit/2b24995eb47e0d30fe6d3765a73b81f2d0f4f08e</link>
-      <guid>https://github.com/openclaw/openclaw/commit/2b24995eb47e0d30fe6d3765a73b81f2d0f4f08e</guid>
-      <description>fix(compaction): deliver native CLI compaction notices (#189548) Co-authored-by: VACInc &lt;3279061+VACInc@users.noreply.github.com&gt;</description>
+      <title>fix: preserve compiler policy in scoped SQLite snapshots (#191447)</title>
+      <link>https://github.com/openclaw/openclaw/commit/f5861171a2961d2105c2565affd506de19d16c55</link>
+      <guid>https://github.com/openclaw/openclaw/commit/f5861171a2961d2105c2565affd506de19d16c55</guid>
+      <description>fix: preserve compiler policy in scoped SQLite snapshots (#191447) Preserve selected Node compiler flags in scoped SQLite read-only workers, matching the existing one-shot worker.…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>docs(ios): require Xcode 27.1 to build the iOS app (#189968)</title>
-      <link>https://github.com/openclaw/openclaw/commit/2a3f6f3ae78263fb110f349b866cbcdbc504d948</link>
-      <guid>https://github.com/openclaw/openclaw/commit/2a3f6f3ae78263fb110f349b866cbcdbc504d948</guid>
-      <description>docs(ios): require Xcode 27.1 to build the iOS app (#189968) Co-authored-by: Marvinthebored &lt;peter@lindsey.jp&gt;</description>
+      <title>fix(oc-path): unsupported frontmatter keys report successful writes (…</title>
+      <link>https://github.com/openclaw/openclaw/commit/5f06d69953b3ad1ac523837c6639e9089d2f717d</link>
+      <guid>https://github.com/openclaw/openclaw/commit/5f06d69953b3ad1ac523837c6639e9089d2f717d</guid>
+      <description>fix(oc-path): unsupported frontmatter keys report successful writes (#191421) fix(oc-path): refuse frontmatter keys that cannot be read back `path set` on Markdown frontmatter acc…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(cli): reject reserved keys in provider and MCP assignments (#191389)</title>
-      <link>https://github.com/openclaw/openclaw/commit/0468e735508a5ceafca5e855479a7a870f99cbc8</link>
-      <guid>https://github.com/openclaw/openclaw/commit/0468e735508a5ceafca5e855479a7a870f99cbc8</guid>
-      <description>fix(cli): reject reserved keys in provider and MCP assignments (#191389) Reject reserved object keys before building provider environment, MCP environment, or MCP header maps. Reu…</description>
+      <title>test(agents): exercise authored context preservation during compactio…</title>
+      <link>https://github.com/openclaw/openclaw/commit/3120ab41d8c828a78e045e97d6897b4da53bbadd</link>
+      <guid>https://github.com/openclaw/openclaw/commit/3120ab41d8c828a78e045e97d6897b4da53bbadd</guid>
+      <description>test(agents): exercise authored context preservation during compaction (#191448) * docs(test): qualify authored context preservation proof * test(agents): exercise authored contex…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix: realtime transcription bypasses configured environment proxies (…</title>
-      <link>https://github.com/openclaw/openclaw/commit/024e7b34f6dbd1a86c942cef8dccc6e47947bb7b</link>
-      <guid>https://github.com/openclaw/openclaw/commit/024e7b34f6dbd1a86c942cef8dccc6e47947bb7b</guid>
-      <description>fix: realtime transcription bypasses configured environment proxies (#187369) fix(speech): route realtime speech-to-text through the environment proxy Related #187368. Realtime sp…</description>
+      <title>fix(cron): scheduler fails to start after a long-running job is inter…</title>
+      <link>https://github.com/openclaw/openclaw/commit/232147c49bcf5bd75d49e07fc7bfe2ca0cab53ee</link>
+      <guid>https://github.com/openclaw/openclaw/commit/232147c49bcf5bd75d49e07fc7bfe2ca0cab53ee</guid>
+      <description>fix(cron): scheduler fails to start after a long-running job is interrupted (#191422) Startup recovery of an interrupted run read every retained run of that job with its full deta…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix: cancel Doctor cron and daemon snapshot preparation (#190874)</title>
-      <link>https://github.com/openclaw/openclaw/commit/6a154109f481a0d3f2da54e20a5cc831f22eea45</link>
-      <guid>https://github.com/openclaw/openclaw/commit/6a154109f481a0d3f2da54e20a5cc831f22eea45</guid>
-      <description>fix: cancel Doctor cron and daemon snapshot preparation (#190874) * fix: recover same-boot agent leases on macOS and Windows Add Doctor snapshot cancellation and capacity regressi…</description>
+      <title>fix(doctor): explain workspace imports blocked by earlier refusals (#…</title>
+      <link>https://github.com/openclaw/openclaw/commit/a9c6e2b07738f2e456075f317af6439ce1e8f594</link>
+      <guid>https://github.com/openclaw/openclaw/commit/a9c6e2b07738f2e456075f317af6439ce1e8f594</guid>
+      <description>fix(doctor): explain workspace imports blocked by earlier refusals (#191442) Use the workspace migration receipt to explain when an earlier refusal prevented import. Preserve cano…</description>
       <source>OpenClaw Commits</source>
       <category>OpenClaw Commits</category>
     </item>
@@ -1519,6 +1743,14 @@
       <category>Simon Willison&#x27;s Blog</category>
     </item>
     <item>
+      <title>Anthropic warns that it’s very close to RSI capability, aka self-building AI</title>
+      <link>https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai</link>
+      <guid>https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai</guid>
+      <description>RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which…</description>
+      <source>TechCrunch</source>
+      <category>TechCrunch</category>
+    </item>
+    <item>
       <title>Germany says lawmakers’ iPhones may have been hacked with spyware</title>
       <link>https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware</link>
       <guid>https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware</guid>
@@ -1538,7 +1770,7 @@
       <title>New York Times and other outlets sue web browser Brave over alleged content scraping</title>
       <link>https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping</link>
       <guid>https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping</guid>
-      <description>The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted and unlawfully distributing it to its own customers, like Ant…</description>
+      <description>The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers,…</description>
       <source>TechCrunch</source>
       <category>TechCrunch</category>
     </item>
@@ -1562,7 +1794,7 @@
       <title>Readwise takes on Amazon’s Kindle and Goodreads with its new app for book lovers</title>
       <link>https://techcrunch.com/2026/11/02/readwise-takes-on-amazons-kindle-and-goodreads-with-its-new-app-for-book-lovers</link>
       <guid>https://techcrunch.com/2026/11/02/readwise-takes-on-amazons-kindle-and-goodreads-with-its-new-app-for-book-lovers</guid>
-      <description>Readwise Books combines an ebook store, reading tracker, detailed reading stats, and AI features in a bid to challenge Amazon&#x27;s ecosystem.</description>
+      <description>Readwise Books combines an e-book store, reading tracker, detailed reading stats, and AI features in a bid to challenge Amazon&#x27;s ecosystem.</description>
       <source>TechCrunch</source>
       <category>TechCrunch</category>
     </item>
@@ -1655,22 +1887,6 @@
       <category>TechCrunch</category>
     </item>
     <item>
-      <title>OpenAI might rebrand its data centers as ‘AI compute campuses’</title>
-      <link>https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses</link>
-      <guid>https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses</guid>
-      <description>Data centers are deeply unpopular. But what if we called them something else?</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
-    </item>
-    <item>
-      <title>AI can make tech CEOs’ lives easier. What about everyone else?</title>
-      <link>https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else</link>
-      <guid>https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else</guid>
-      <description>On Equity, we discuss why tech CEO statements can seem so tone deaf.</description>
-      <source>TechCrunch</source>
-      <category>TechCrunch</category>
-    </item>
-    <item>
       <title>⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More</title>
       <link>https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html</link>
       <guid>https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html</guid>
@@ -1735,6 +1951,38 @@
       <category>The Hacker News</category>
     </item>
     <item>
+      <title>Apple set an iPhone sales record even without a new standard iPhone</title>
+      <link>https://theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings</link>
+      <guid>https://theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings</guid>
+      <description>Apple had a record-breaking quarter for iPhone sales - despite not releasing a standard model during its latest refresh. In its fourth-quarter earnings report released on Monday,…</description>
+      <source>The Verge</source>
+      <category>The Verge</category>
+    </item>
+    <item>
+      <title>Meta will end Quest 2 OS updates in 2027</title>
+      <link>https://theverge.com/tech/1024835/meta-vr-quest-2-pro-os-end-updates</link>
+      <guid>https://theverge.com/tech/1024835/meta-vr-quest-2-pro-os-end-updates</guid>
+      <description>Meta is planning to release the last OS update for its Quest 2 and Quest Pro VR headsets by March 2027, the company announced today. The last OS update for those devices is planne…</description>
+      <source>The Verge</source>
+      <category>The Verge</category>
+    </item>
+    <item>
+      <title>One of Google&amp;#8217;s Android partners turned 1.3 million set-top boxes into a botnet</title>
+      <link>https://theverge.com/1024807/google-botnet-android-tv-shut-down</link>
+      <guid>https://theverge.com/1024807/google-botnet-android-tv-shut-down</guid>
+      <description>Google says one of its Android manufacturing partners secretly built a backdoor in 1.3 million devices and turned them into a botnet. The company says it has now dismantled the ba…</description>
+      <source>The Verge</source>
+      <category>The Verge</category>
+    </item>
+    <item>
+      <title>BMW is taking on Tesla’s FSD with urban driver assist starting in 2027</title>
+      <link>https://theverge.com/transportation/1024616/bmw-level-2-city-driver-assist-2027</link>
+      <guid>https://theverge.com/transportation/1024616/bmw-level-2-city-driver-assist-2027</guid>
+      <description>BMW says that it will expand its navigation-guided, partially automated driving capabilities into urban environments starting in 2027, launching first in Germany with other market…</description>
+      <source>The Verge</source>
+      <category>The Verge</category>
+    </item>
+    <item>
       <title>The Apple Watch Ultra 4 is $100 off, matching its best price to date</title>
       <link>https://theverge.com/gadgets/1024416/apple-watch-ultra-4-ugreen-finetrack-2-bluetooth-tracker-deal-sale</link>
       <guid>https://theverge.com/gadgets/1024416/apple-watch-ultra-4-ugreen-finetrack-2-bluetooth-tracker-deal-sale</guid>
@@ -1779,38 +2027,6 @@
       <link>https://theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program</link>
       <guid>https://theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program</guid>
       <description>In an announcement on Monday, OpenAI says it will pilot its &quot;Grid Protectors Program&quot; at an upcoming data center in Effingham County, Georgia, where the company promises to free u…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
-    </item>
-    <item>
-      <title>Apple&amp;#8217;s ‘Ultra’ smart home robot might have to wait until 2028</title>
-      <link>https://theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay</link>
-      <guid>https://theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay</guid>
-      <description>Apple has reportedly delayed the launch of its rumored smart home robot until next year at the earliest or possibly even 2028, according to The Information. It says the robot&#x27;s ha…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
-    </item>
-    <item>
-      <title>Squarespace is laying off 19 percent of employees</title>
-      <link>https://theverge.com/tech/1024447/squarespace-layoffs-19-percent</link>
-      <guid>https://theverge.com/tech/1024447/squarespace-layoffs-19-percent</guid>
-      <description>The website-building platform Squarespace is laying off 19 percent of its employees as it works to &quot;simplify&quot; its operations, Squarespace spokesperson Jeff Seedman says in a state…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
-    </item>
-    <item>
-      <title>Why Peacock is making a huge bet on YouTube</title>
-      <link>https://theverge.com/podcast/1024228/matt-strauss-nbc-univerisal-versant-comcast-peacock-streaming-tv</link>
-      <guid>https://theverge.com/podcast/1024228/matt-strauss-nbc-univerisal-versant-comcast-peacock-streaming-tv</guid>
-      <description>Today, I’m talking with Matt Strauss, who is now chairman of the NBCUniversal Media Group. This is Matt’s second time joining me on the show, and there’s been a whole lot of organ…</description>
-      <source>The Verge</source>
-      <category>The Verge</category>
-    </item>
-    <item>
-      <title>Vivo’s first Pro Max phone proves its Ultra is still in a league of its own</title>
-      <link>https://theverge.com/tech/1023131/vivo-x500-pro-max-review-cameras-specs-price</link>
-      <guid>https://theverge.com/tech/1023131/vivo-x500-pro-max-review-cameras-specs-price</guid>
-      <description>When I declared this spring that Vivo&#x27;s X300 Ultra had the best cameras in any phone, two things made it stand out in my mind: its excellent main camera with a narrow 35mm focal l…</description>
       <source>The Verge</source>
       <category>The Verge</category>
     </item>
@@ -2159,6 +2375,14 @@
       <category>V2EX 技术</category>
     </item>
     <item>
+      <title>Vercel MCP now supports Client ID Metadata Documents</title>
+      <link>https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents</link>
+      <guid>https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents</guid>
+      <description>Any MCP client can now ask to connect to Vercel MCP. You still log in and approve each connection, but the client no longer has to be reviewed by Vercel first. Previously, Vercel…</description>
+      <source>Vercel Blog</source>
+      <category>Vercel Blog</category>
+    </item>
+    <item>
       <title>Vercel MCP now renders deployments as an interactive card</title>
       <link>https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt</link>
       <guid>https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt</guid>
@@ -2197,6 +2421,30 @@
       <description>Vercel now checks for blocked npm packages before and during dependency installation in builds, helping prevent malicious install scripts from running.The checks use a blocklist o…</description>
       <source>Vercel Blog</source>
       <category>Vercel Blog</category>
+    </item>
+    <item>
+      <title>LongCat 2.5 now available on AI Gateway</title>
+      <link>https://vercel.com/changelog/longcat-2-5-now-available-on-ai-gateway</link>
+      <guid>https://vercel.com/changelog/longcat-2-5-now-available-on-ai-gateway</guid>
+      <description>LongCat 2.5 from Meituan is now available on AI Gateway. This model combines native visual understanding with coding and multi-step tool use for agents working across complex code…</description>
+      <source>Vercel Blog</source>
+      <category>Vercel Blog</category>
+    </item>
+    <item>
+      <title>How to Save $25 on Burga’s Phone Accessories With This Sale</title>
+      <link>https://wired.com/story/burga-sale-november-2026</link>
+      <guid>https://wired.com/story/burga-sale-november-2026</guid>
+      <description>How to Save $25 on Burga’s Phone Accessories With This Sale</description>
+      <source>Wired</source>
+      <category>Wired</category>
+    </item>
+    <item>
+      <title>Best Dyson Vacuum Deals (2026): Dyson Spot+Scrub Ai, Dyson V16 Piston Animal</title>
+      <link>https://wired.com/story/dyson-vacuum-deals-nov-2026</link>
+      <guid>https://wired.com/story/dyson-vacuum-deals-nov-2026</guid>
+      <description>Best Dyson Vacuum Deals (2026): Dyson Spot+Scrub Ai, Dyson V16 Piston Animal</description>
+      <source>Wired</source>
+      <category>Wired</category>
     </item>
     <item>
       <title>Best Early Black Friday Espresso Machine Deals (2026)</title>
@@ -8015,28 +8263,12 @@
       <category>arXiv 计算机视觉</category>
     </item>
     <item>
-      <title>WorkOS: Let Agents Sign Up for Your App Without a Browser</title>
-      <link>https://workos.com/auth-md</link>
-      <guid>https://workos.com/auth-md</guid>
-      <description>My thanks to WorkOS for sponsoring last week at DF. An agent can’t click through a signup page built for humans, so give it something it can read instead. Publish an auth.md file…</description>
-      <source>daringfireball.net</source>
-      <category>daringfireball.net</category>
-    </item>
-    <item>
       <title>Sneaking into the auditorium for the Windows 2000 launch rehearsal</title>
       <link>https://devblogs.microsoft.com/oldnewthing/20261102-00?p=112818%2F</link>
       <guid>https://devblogs.microsoft.com/oldnewthing/20261102-00?p=112818%2F</guid>
       <description>Wait, that&#x27;s not him. The post Sneaking into the auditorium for the Windows 2000 launch rehearsal appeared first on The Old New Thing .</description>
       <source>devblogs.microsoft.com/oldnewthing</source>
       <category>devblogs.microsoft.com/oldnewthing</category>
-    </item>
-    <item>
-      <title>A unified view of poles and polars</title>
-      <link>https://johndcook.com/blog/2026/11/01/projective-poles-and-polars</link>
-      <guid>https://johndcook.com/blog/2026/11/01/projective-poles-and-polars</guid>
-      <description>I wrote several posts on poles and polars a few days ago. First, I wrote about the dual of a spherical triangle, called the polar triangle. Then I wrote about poles and polars in…</description>
-      <source>johndcook.com</source>
-      <category>johndcook.com</category>
     </item>
     <item>
       <title>Pluralistic: Autodoxing (02 Nov 2026)</title>
@@ -8055,6 +8287,14 @@
       <category>seangoedecke.com</category>
     </item>
     <item>
+      <title>LLMs are not superhuman at reading and writing neural network weights</title>
+      <link>https://seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights</link>
+      <guid>https://seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights</guid>
+      <description>A recent paper argues that frontier LLMs can work with neural network weights directly. This seems superhuman, but it isn’t. The paper shows that GPT-6 Astra can take a small neur…</description>
+      <source>seangoedecke.com</source>
+      <category>seangoedecke.com</category>
+    </item>
+    <item>
       <title>Reliably aligning LLMs is impossible in principle</title>
       <link>https://seangoedecke.com/alignment-is-impossible</link>
       <guid>https://seangoedecke.com/alignment-is-impossible</guid>
@@ -8069,6 +8309,62 @@
       <description>I love testing in production. The thrill of accidentally publishing some dummy data - or taking down an entire website - is similar to skydiving without a parachute. Exquisite exc…</description>
       <source>shkspr.mobi</source>
       <category>shkspr.mobi</category>
+    </item>
+    <item>
+      <title>即将上市的Anthropic 越看越像“银行生意”</title>
+      <link>https://wallstreetcn.com/member/articles/3785027</link>
+      <guid>https://wallstreetcn.com/member/articles/3785027</guid>
+      <description>10月26日，Anthropic向SEC递交招股书。里面最醒目的数字是2026年第二季度，公司成立五年来第一次实现经营盈利9.74亿美元。 但仅仅过去一周，招股书修订版补上了第三季度的数据：经营亏损5.67亿美元。 利润怎么来了又走了？5.67亿美元这个数字，绝大部分是噪音。 Anthropic上市前的经营利润情况实际上无法直接看出问题，真正有问题的地方隐…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>苹果第四财季1144.8亿美元，分析师预期1134.7亿美元。 iPhone营收575.8亿美元，分析师预期564.9亿美元。 苹果盘后涨0.4%</title>
+      <link>https://wallstreetcn.com/articles/3785024</link>
+      <guid>https://wallstreetcn.com/articles/3785024</guid>
+      <description>苹果第四财季1144.8亿美元，分析师预期1134.7亿美元。 iPhone营收575.8亿美元，分析师预期564.9亿美元。 苹果盘后涨0.4%。 风险提示及免责条款 市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>Palantir三季报营收暴增96%，美国商业收入首次超越政府收入，全年指引大幅上调</title>
+      <link>https://wallstreetcn.com/articles/3785023</link>
+      <guid>https://wallstreetcn.com/articles/3785023</guid>
+      <description>Palantir Technologies公布的2026年第三季度业绩全面超出市场预期，营收同比增长96%、首次突破20亿美元，美国商业收入更首次超越政府收入，成为公司历史上的重要里程碑。公司随即大幅上调全年指引，显示其人工智能业务的商业化加速势头远超外界预期。 Palantir联合创始人兼首席执行官Alex Karp在业绩声明中表示，&quot;主权AI浪潮正在制…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>美欧日央行偏鹰与科技股抛售，美国已出现通胀再度扩散信号，深圳APEC推动亚太自贸与数字合作---1102宏观脱水</title>
+      <link>https://wallstreetcn.com/member/articles/3784993</link>
+      <guid>https://wallstreetcn.com/member/articles/3784993</guid>
+      <description>10月美联储维持利率不变并判断经济增长强劲，控通胀仍是主线。欧日央行同样按兵不动但释放进一步加息信号。科技股因关键公司业绩不及预期遭抛售，AI叙事承压。 中国价格回升仍以局部成本推动为主，向终端传导相对有限。美国已出现通胀压力再度扩散的部分信号，但各维度尚未形成一致验证。后续判断核心是现有压力能否获得更多维度的持续印证。 第三十三次APEC领导人非正式会议…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>王毅分别同伊朗最高国家安全委员会副秘书巴盖里、沙特国家安全顾问艾班会见会谈</title>
+      <link>https://wallstreetcn.com/articles/3785022</link>
+      <guid>https://wallstreetcn.com/articles/3785022</guid>
+      <description>11月2日，中共中央政治局委员、中央外办主任王毅在北京会见伊朗最高国家安全委员会副秘书巴盖里，同沙特国务大臣、内阁成员、国家安全顾问艾班举行会谈。 在会见巴盖里时，王毅表示，当前中东地区战事延宕、外溢扩散，对话谈判才是解决之道。中方愿秉持习近平主席就缓和中东局势提出的一系列倡议和主张，同各方一道继续为恢复地区和平作出努力。中方支持伊朗维护自身主权和安全，愿…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>伊媒称美伊沟通无进展，特朗普自称“取胜”、不考虑中选后打击伊朗</title>
+      <link>https://wallstreetcn.com/articles/3785021</link>
+      <guid>https://wallstreetcn.com/articles/3785021</guid>
+      <description>伊朗媒体称，美伊通过中间人交换信息属于常规做法，双方没有取得任何新进展，伊朗也不会在美国落实其提出的七项条件前采取新的行动。 美股周一午盘走势分化，道指保持上涨，上述伊朗媒体消息后，标普500指数转跌约0.1%，纳指跌幅扩大，纳斯达克100指数盘中一度跌近0.9%。国际原油则延续此前跌势，美油、布油盘中跌近8%。 此后，美国总统特朗普表示，美国“正在伊朗问…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>旧金山联储：厄尔尼诺或推高美国通胀，提振就业</title>
+      <link>https://wallstreetcn.com/articles/3785019</link>
+      <guid>https://wallstreetcn.com/articles/3785019</guid>
+      <description>厄尔尼诺气候现象正在为美国经济前景注入新的不确定性。旧金山联储最新研究显示，本轮强厄尔尼诺可能在未来两年内先后推高通胀、带动就业，但其影响力度和方向将在很大程度上取决于此后是否出现拉尼娜现象。 研究报告由旧金山联储经济学家Molly Ardren、Tobin Graf和Brigitte Roth Tran撰写， 发现当前厄尔尼诺已可能导致今年4月至7月间美…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
     </item>
     <item>
       <title>11月3日会员早报：Anthropic在上市前夕重陷亏损 美伊谈判预期升温导致国际油价重挫</title>
@@ -8203,62 +8499,6 @@
       <link>https://wallstreetcn.com/articles/3785002</link>
       <guid>https://wallstreetcn.com/articles/3785002</guid>
       <description>智驾公司的生意，越来越难按乘用车、商用车来划分。重卡正在成为通用智驾公司扩展产品线的一站，原本专做货运的企业，要与能够跨车型研发、供货的公司争夺客户。 11月2日，卓驭宣布，日前已与合作方就郎柯科技智能物流车总部项目签约，计划2027年无人车租赁、销售及运营总量超过3000台。 今年6月，首款搭载卓驭辅助驾驶方案的陕汽重卡量产；10月29日，小马智行与广汽…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>周三季度再融资声明将至，美债市场屏息等待重大信号</title>
-      <link>https://wallstreetcn.com/articles/3784998</link>
-      <guid>https://wallstreetcn.com/articles/3784998</guid>
-      <description>美国财政部将于本周三发布季度再融资声明，华尔街正严阵以待 ，预判这将是2024年初以来规模最大的美债发行指引调整。 长端收益率高企与债务规模持续膨胀，将财政部的发行策略选择推至聚光灯下。 财政部长Scott Bessent近期一系列非常规举措已令市场神经高度紧绷。仅在上一份季度声明发布一周后， Bessent便出人意料地扩大了对存量债券的回购规模，外界普遍…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>Marvell与Lumentum将合并，打造AI连接领域的行业领军者。Marvell将以股票交易方式收购Lumentum，交易预计将于上半年2028年完成</title>
-      <link>https://wallstreetcn.com/articles/3785001</link>
-      <guid>https://wallstreetcn.com/articles/3785001</guid>
-      <description>Marvell与Lumentum将合并，打造AI连接领域的行业领军者。Marvell将以股票交易方式收购Lumentum，交易预计将于上半年2028年完成。 风险提示及免责条款 市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>企业盈利增长加速时代终结，美股牛市立足的磐石正在动摇</title>
-      <link>https://wallstreetcn.com/articles/3785000</link>
-      <guid>https://wallstreetcn.com/articles/3785000</guid>
-      <description>美国企业盈利增长依然强劲，但加速时代已经终结。随着三季度财报季接近尾声，增长放缓、超预期幅度收窄、业绩指引趋于保守等信号正在同步出现，支撑美股牛市的核心叙事开始出现裂缝。 高盛David Kostin将问题一语道破：&quot;三季度财报结果凸显了股票投资者面临的根本挑战：盈利增长依然强劲，但已不再加速。&quot;他指出，此前连续数个季度呈现的盈利加速态势，正走向终结。 与…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>中国人民银行 金融监管总局 中国证监会召开支持资本市场两项工具座谈会</title>
-      <link>https://wallstreetcn.com/articles/3784999</link>
-      <guid>https://wallstreetcn.com/articles/3784999</guid>
-      <description>2026年11月2日，中国人民银行会同金融监管总局、中国证监会等部门先后召开证券、基金、保险公司互换便利座谈会和股票回购增持再贷款座谈会，听取金融机构业务进展及意见建议，研究部署用好用足政策工具有关工作，支持资本市场健康稳定发展。中国人民银行副行长邹澜，金融监管总局副局长丛林，中国证监会副主席刘浩凌出席会议并讲话。 会议认为，支持资本市场两项工具自2024…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>从溢价到破价，iPhone Duo只用了三天</title>
-      <link>https://wallstreetcn.com/articles/3784997</link>
-      <guid>https://wallstreetcn.com/articles/3784997</guid>
-      <description>定好闹钟、预填收货信息、切换5G信号，做好准备工作，肖强也想当一回“黄牛”，抢一台iPhone Duo赚差价。 10月16日晚8点，iPhone Duo开启预购，等他要去下单时，发现Apple Store卡到无法登录。直到约1小时后，他才挤进支付页面，此时，发货时间已经排到了2027年1月下旬。 在此之前，肖强买手机都会等“618”或者“双11”蹲个好价，…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>“避风港”万亿市值狂飙过后，苹果能否支撑过财报考验？</title>
-      <link>https://wallstreetcn.com/articles/3784996</link>
-      <guid>https://wallstreetcn.com/articles/3784996</guid>
-      <description>苹果股价近几个月的强势上涨，令其在周一美股盘后财报公布前几乎没有任何容错空间。 自6月末低点以来，苹果股价累计上涨25%，市值增加约1万亿美元。 在谷歌和亚马逊等大型科技同行大举投入AI基础设施、引发市场担忧之际，苹果稳健的营收增长与不断攀升的自由现金流，使其成为投资者眼中的&quot;避风港&quot;。 然而， 这轮涨势也将苹果估值推至2008年以来最高水平——以未来12…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>AI信仰迎来新考验，股价暴跌后Alphabet赴欧债市场融资</title>
-      <link>https://wallstreetcn.com/articles/3784995</link>
-      <guid>https://wallstreetcn.com/articles/3784995</guid>
-      <description>Alphabet在第三季度业绩重挫、股价创纪录下跌后不足一周，即赴欧元债券市场启动新一轮融资，直接检验投资者对人工智能巨额资本开支的信心是否依然稳固。 据彭博援引知情人士透露， Alphabet周一开放了一项涵盖2年期至19年期的七档欧元债券发行簿记，承销行预计当天晚些时候完成定价。 此次发行距Alphabet上周公布令市场失望的三季度业绩仅数日，彼时公司…</description>
       <source>华尔街见闻最新资讯</source>
       <category>华尔街见闻最新资讯</category>
     </item>
