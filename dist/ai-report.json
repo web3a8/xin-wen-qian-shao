@@ -1,46 +1,61 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：35岁不会写代码？这波 AI 红利，可能就轮到你了；fix(release): defer ClawHub on authenticated core recovery (#195350)；release-publish/e3a09aaba1f4-1794162889: fix: verify plugin releases from their qualified producer (#195341)。",
+  "global_brief": "过去24小时的重要动态主要集中在：Can an AI agent fine-tune a model for you, end to end?；fix(agents): retry empty llmman turns on the Ollama API (#187769)；Apple is racing to make Siri more agentic。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 4899,
-      "event_count": 93
+      "field_score": 5955,
+      "event_count": 112
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1421,
+      "field_score": 1387,
       "event_count": 36
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 692,
-      "event_count": 14
+      "field_score": 740,
+      "event_count": 16
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 502,
-      "event_count": 11
+      "field_score": 576,
+      "event_count": 13
     },
     {
       "field_key": "finance",
       "field_name": "Finance",
-      "field_score": 96,
-      "event_count": 2
+      "field_score": 153,
+      "event_count": 3
     }
   ],
   "highlight_facts": [
     {
-      "title": "fix( 发布 ): defer ClawHub on authenticated core recovery (#195350)",
-      "summary": "fix( 发布 ): defer ClawHub on authenticated core recovery (#195350)；时间：2026-11-08T18:59:44.000Z；证据级别：strong；置信度：0.90",
+      "title": "Can an AI agent fine-tune a model for you, end to end?",
+      "summary": "A coding agent such as Claude Code, Codex or Cursor can run a fine-tune from data check to downloaded adapter, provided…；Can an AI agent fine-tune a model for you, end to end?",
       "references": []
     },
     {
-      "title": "release 发布 /e3a09aaba1f4-1794162889: fix: verify plugin releases from their qualified producer (#195341)",
-      "summary": "release 发布 /e3a09aaba1f4-1794162889: fix: verify plugin releases from their qualified producer (#195341)；时间：2026-11-08T18:31:08.000Z；证据级别：strong；置信度：0.90",
+      "title": "fix(agents): retry empty llmman turns on the Ollama API (#187769)",
+      "summary": "fix(agents): retry empty llmman turns on the Ollama API (#187769)；fix(release): recover quota-limited publisher reads safely Preserve fresh authorization across quota waits, bound publi…；release-publish/2fc131eeb4a3-179…",
+      "references": []
+    },
+    {
+      "title": "Apple is racing to make Siri more agentic",
+      "summary": "Apple is racing to make Siri more agentic；Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and d…",
+      "references": []
+    },
+    {
+      "title": "35岁不会写代码？这波 AI 红利，可能就轮到你了",
+      "summary": "35岁不会写代码？这波 AI 红利，可能就轮到你了；今年以来，全球科技公司已宣布裁员近 20 万人。与此同时，有一个 AI 岗位的招聘需求却在爆发：美国的招聘广告三年涨了 30 多倍，薪资中位数约 19.5 万美元；国内相关职位的发布量一年涨了 21 倍。 OpenAI、Anthropic…",
+      "references": []
+    },
+    {
+      "title": "Show HN: LLM-cost-watch – Ask Claude why your LLM bill jumped",
+      "summary": "Article URL: https://github.com/rohith0707/llm-cost-watch Comments URL: https://news.ycombinator.com/item?id=50415785 P…；Show HN: LLM-cost-watch – Ask Claude why your LLM bill jumped",
       "references": []
     }
   ],
