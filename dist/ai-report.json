@@ -1,41 +1,61 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Apple is racing to make Siri more agentic；35岁不会写代码？这波 AI 红利，可能就轮到你了；release-publish/2fc131eeb4a3-1794109014: fix(release): correct Parallel ClawHub category metadata (#194973)。",
+  "global_brief": "过去24小时的重要动态主要集中在：Apple is racing to make Siri more agentic；Runtime-Enforced Agentic Systems；Anthropic 揭秘科学家用 Claude 都干啥：大多用来分析数据和写作。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 6098,
-      "event_count": 114
+      "field_score": 4071,
+      "event_count": 82
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1460,
-      "event_count": 37
+      "field_score": 1433,
+      "event_count": 35
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 680,
-      "event_count": 15
+      "field_score": 747,
+      "event_count": 17
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 510,
-      "event_count": 11
+      "field_score": 424,
+      "event_count": 9
     },
     {
-      "field_key": "finance",
-      "field_name": "Finance",
-      "field_score": 194,
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 174,
       "event_count": 4
     }
   ],
   "highlight_facts": [
     {
-      "title": "release 发布 /2fc131eeb4a3-1794109014: fix(release): correct Parallel ClawHub category metadata (#194973)",
-      "summary": "release 发布 /2fc131eeb4a3-1794109014: fix(release): correct Parallel ClawHub category metadata (#194973)；时间：2026-11-08T03:34:59.000Z；证据级别：strong；置信度：0.90",
+      "title": "Apple is racing to make Siri more agentic",
+      "summary": "Apple is racing to make Siri more agentic；Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and d…",
+      "references": []
+    },
+    {
+      "title": "Runtime-Enforced Agentic Systems",
+      "summary": "As large language models transition from text generators to autonomous agents operating across enterprise systems, the…；Runtime-Enforced Agentic Systems",
+      "references": []
+    },
+    {
+      "title": "Anthropic 揭秘科学家用 Claude 都干啥：大多用来分析数据和写作",
+      "summary": "Anthropic 揭秘科学家用 Claude 都干啥：大多用来分析数据和写作；IT之家 11 月 9 日消息，Anthropic 近日发布研究报告， 显示科学家主要将 Claude 用于数据分析和写作，收集数据、生成研究假设则较少使用 AI。 IT之家了解到，Anthropic 此次研究使用了 2026 年 8…",
+      "references": []
+    },
+    {
+      "title": "腾讯开源的 DSpine 推测解码挺有意思，但什么时候能在 Mac 上支持 Qwen3.8-27B？",
+      "summary": "最近一直在研究 Apple Silicon 本地运行大模型的性能，发现腾讯开源了一个推测解码项目 DSpine。 GitHub： https://github.com/Tencent/DSpine DSpine 的思路是通过多层并行预测…；腾讯开源的 DSpine 推测解码挺有意思，但什么时候能在 Mac 上支持 Qwen3.8-27B？",
+      "references": []
+    },
+    {
+      "title": "Show HN: Replay your Claude Code logs to count parallel session collisions",
+      "summary": "Article URL: https://github.com/dooly6276/claude-bulkhead Comments URL: https://news.ycombinator.com/item?id=50419582 P…；Show HN: Replay your Claude Code logs to count parallel session collisions",
       "references": []
     }
   ],
