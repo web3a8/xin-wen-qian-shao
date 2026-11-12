@@ -1,41 +1,46 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI；llm 0.37.2；Reliability of Claude Code as an Agentic AI Grading System for Handwritten University Exams。",
+  "global_brief": "过去24小时的重要动态主要集中在：Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI；Local coding LLM on a 24GB GPU: Qwen2.5-Coder 32B vs Qwen3-Coder 30B-A3B (it's all about context)；llm 0.37.2。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 41139,
-      "event_count": 713
+      "field_score": 41284,
+      "event_count": 714
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1605,
-      "event_count": 36
+      "field_score": 1502,
+      "event_count": 34
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1331,
-      "event_count": 34
+      "field_score": 1269,
+      "event_count": 31
     },
     {
       "field_key": "science",
       "field_name": "Science",
-      "field_score": 972,
+      "field_score": 970,
       "event_count": 21
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 599,
-      "event_count": 13
+      "field_score": 573,
+      "event_count": 12
     }
   ],
   "highlight_facts": [
     {
       "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
       "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.；Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "references": []
+    },
+    {
+      "title": "Local coding LLM on a 24GB GPU: Qwen2.5-Coder 32B vs Qwen3-Coder 30B-A3B (it's all about context)",
+      "summary": "If you want a local coding model on an RTX 4090 / 3090 / 7900 XTX, the question isn't only \"does it load\", it's \"does i…；Local coding LLM on a 24GB GPU: Qwen2.5-Coder 32B vs Qwen3-Coder 30B-A3B (it's all about context)",
       "references": []
     },
     {
@@ -51,11 +56,6 @@
     {
       "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
       "summary": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "references": []
-    },
-    {
-      "title": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities",
-      "summary": "arXiv:2611.14356v1 Announce Type: cross Abstract: Rapidly evolving LLM architectures and heterogeneous mobile hardware…；EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness an…",
       "references": []
     }
   ],
