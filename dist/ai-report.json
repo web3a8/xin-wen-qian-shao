@@ -1,41 +1,61 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：AICost: an independent price desk for LLM API costs；Apple may be developing its own AI agent that runs your Mac；From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging。",
+  "global_brief": "过去24小时的重要动态主要集中在：From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging；Validation-driven Deployment of LLM Inference Platforms for Agentic Workloads；Tencent Hy4 flash: 220B parameters, 12B active, and what the KV cache and license mean for self-hos…",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 44066,
-      "event_count": 752
+      "field_score": 43278,
+      "event_count": 736
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1371,
-      "event_count": 32
-    },
-    {
-      "field_key": "domestic",
-      "field_name": "Domestic",
-      "field_score": 947,
-      "event_count": 23
+      "field_score": 1544,
+      "event_count": 36
     },
     {
       "field_key": "world",
       "field_name": "World",
-      "field_score": 890,
-      "event_count": 18
+      "field_score": 973,
+      "event_count": 20
     },
     {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 759,
-      "event_count": 15
+      "field_key": "domestic",
+      "field_name": "Domestic",
+      "field_score": 945,
+      "event_count": 23
+    },
+    {
+      "field_key": "finance",
+      "field_name": "Finance",
+      "field_score": 712,
+      "event_count": 13
     }
   ],
   "highlight_facts": [
     {
-      "title": "fix(openai): send the numeric OpenClaw 发布 as the ChatGPT version…",
-      "summary": "fix(openai): send the numeric OpenClaw 发布 as the ChatGPT version…；时间：2026-11-20T10:48:25.000Z；证据级别：weak；置信度：0.45",
+      "title": "From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging",
+      "summary": "arXiv:2606.00357v3 Announce Type: replace Abstract: Training strong large language models (LLMs) requires high-quality…；From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging；arXiv:2608.005…",
+      "references": []
+    },
+    {
+      "title": "Validation-driven Deployment of LLM Inference Platforms for Agentic Workloads",
+      "summary": "arXiv:2611.25905v1 Announce Type: new Abstract: Enterprises are moving agentic workloads from closed APIs to their own…；Validation-driven Deployment of LLM Inference Platforms for Agentic Workloads",
+      "references": []
+    },
+    {
+      "title": "Tencent Hy4 flash: 220B parameters, 12B active, and what the KV cache and license mean for self-hosting",
+      "summary": "Tencent Hy4 flash: 220B parameters, 12B active, and what the KV cache and license mean for self-hosting；TL;DR Tencent's Hy4 flash, released on Hugging Face on November 17, 2026, is a multimodal mixture-of-experts model…",
+      "references": []
+    },
+    {
+      "title": "Living off the Local Model: Abusing Browser-Embedded Language Models for Post-Exploitation",
+      "summary": "arXiv:2611.25086v1 Announce Type: cross Abstract: Browsers now ship local language models to ordinary endpoints. Google…；Living off the Local Model: Abusing Browser-Embedded Language Models for Post-Exploitation；arXiv:2…",
+      "references": []
+    },
+    {
+      "title": "LazyWeights: Decode-on-Demand Edge LLMs",
+      "summary": "arXiv:2611.17108v3 Announce Type: replace-cross Abstract: Memory determines which large language models (LLMs) an edge…；LazyWeights: Decode-on-Demand Edge LLMs",
       "references": []
     }
   ],
