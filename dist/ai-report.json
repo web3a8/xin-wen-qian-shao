@@ -1,23 +1,23 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：腾讯 Hy4 正式开源，混元 LLM 系列实现全量开放；Apple may be developing its own AI agent that runs your Mac；From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging。",
+  "global_brief": "过去24小时的重要动态主要集中在：腾讯 Hy4 正式开源，混元 LLM 系列实现全量开放；From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging；Apple may be developing its own AI agent that runs your Mac。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 45210,
-      "event_count": 747
+      "field_score": 45271,
+      "event_count": 748
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1517,
-      "event_count": 34
+      "field_score": 1623,
+      "event_count": 36
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1245,
-      "event_count": 31
+      "field_score": 1216,
+      "event_count": 29
     },
     {
       "field_key": "world",
@@ -28,14 +28,34 @@
     {
       "field_key": "security",
       "field_name": "Security",
-      "field_score": 681,
-      "event_count": 13
+      "field_score": 786,
+      "event_count": 15
     }
   ],
   "highlight_facts": [
     {
-      "title": "fix(agents): keep projected prompt 更新 out of later user turns (#…",
-      "summary": "fix(agents): keep projected prompt 更新 out of later user turns (#…；时间：2026-11-20T04:52:57.000Z；证据级别：weak；置信度：0.45",
+      "title": "腾讯 Hy4 正式开源，混元 LLM 系列实现全量开放",
+      "summary": "IT之家 11 月 20 日消息，腾讯混元团队今日宣布 Hy4 大模型正式开源，模型权重已在 GitHub、Hugging Face、ModelScope 和 GitCode 四个平台同步上线，开发者可自行下载部署。 至此，混元 LLM…；腾讯 Hy4 正式开源，混元 LLM 系列实现全量开放",
+      "references": []
+    },
+    {
+      "title": "From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging",
+      "summary": "arXiv:2606.00357v3 Announce Type: replace Abstract: Training strong large language models (LLMs) requires high-quality…；From \"Weak\" Signals to Strong Models: Preference Delta Aggregation with LoRA Merging；arXiv:2608.005…",
+      "references": []
+    },
+    {
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "summary": "Apple may be developing its own AI agent that runs your Mac；The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and Open…",
+      "references": []
+    },
+    {
+      "title": "Validation-driven Deployment of LLM Inference Platforms for Agentic Workloads",
+      "summary": "arXiv:2611.25905v1 Announce Type: new Abstract: Enterprises are moving agentic workloads from closed APIs to their own…；Validation-driven Deployment of LLM Inference Platforms for Agentic Workloads",
+      "references": []
+    },
+    {
+      "title": "Living off the Local Model: Abusing Browser-Embedded Language Models for Post-Exploitation",
+      "summary": "arXiv:2611.25086v1 Announce Type: cross Abstract: Browsers now ship local language models to ordinary endpoints. Google…；Living off the Local Model: Abusing Browser-Embedded Language Models for Post-Exploitation；arXiv:2…",
       "references": []
     }
   ],
