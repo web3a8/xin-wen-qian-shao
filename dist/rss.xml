@@ -5,7 +5,7 @@
     <link>https://web3a8.github.io/news-push-data/</link>
     <description>通用新闻引擎输出的精选资讯流，当前仍以科技与 AI 信号源为主</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Nov 2026 02:07:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 04:08:50 GMT</lastBuildDate>
     <item>
       <title>GLP-1 drugs could have a surprisingly large environmental payoff</title>
       <link>https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff</link>
@@ -15,100 +15,108 @@
       <category>Ars Technica</category>
     </item>
     <item>
-      <title>3 Ways to Set a Proxy in Chrome (and Why They&#x27;re Not the Same Thing)</title>
-      <link>https://dev.to/axioapi/3-ways-to-set-a-proxy-in-chrome-and-why-theyre-not-the-same-thing-b15</link>
-      <guid>https://dev.to/axioapi/3-ways-to-set-a-proxy-in-chrome-and-why-theyre-not-the-same-thing-b15</guid>
-      <description>3 Ways to Set a Proxy in Chrome (and Why They&#x27;re Not the Same Thing) &quot;How do I set a proxy in Chrome&quot; gets you three genuinely different answers depending on what you actually nee…</description>
+      <title>4 Things That Break When Converting docker-compose.yml to Kubernetes Manifests</title>
+      <link>https://dev.to/dev_in_the_fog/4-things-that-break-when-converting-docker-composeyml-to-kubernetes-manifests-1h1l</link>
+      <guid>https://dev.to/dev_in_the_fog/4-things-that-break-when-converting-docker-composeyml-to-kubernetes-manifests-1h1l</guid>
+      <description>Moving a working local docker-compose.yml to Kubernetes rarely succeeds with a blind one-to-one translation. Four differences cause most first-deploy CrashLoopBackOff failures. 1.…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Why an Amazon FNSKU Cannot Be a UPC: Code 128 Has Letters</title>
-      <link>https://dev.to/fancy39_9841cbc02f99f729c/why-an-amazon-fnsku-cannot-be-a-upc-code-128-has-letters-4mlh</link>
-      <guid>https://dev.to/fancy39_9841cbc02f99f729c/why-an-amazon-fnsku-cannot-be-a-upc-code-128-has-letters-4mlh</guid>
-      <description>A barcode is not a universal container for whatever text you throw at it. This becomes obvious the first time someone pastes X001ABCDE9 into a UPC-A form and wonders why the form…</description>
+      <title>AI Helps the Power Grid Read Its Own Paperwork</title>
+      <link>https://dev.to/maurizio_morri_f7f4bd128c/ai-helps-the-power-grid-read-its-own-paperwork-41pp</link>
+      <guid>https://dev.to/maurizio_morri_f7f4bd128c/ai-helps-the-power-grid-read-its-own-paperwork-41pp</guid>
+      <description>Most talk about AI and energy is about how much electricity AI uses. I want to look at the other side: how AI can help the grid itself move faster. The queue problem Before a new…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>curl Cheat Sheet for API Debugging: Commands and Fixes</title>
-      <link>https://dev.to/devtalk94/curl-cheat-sheet-for-api-debugging-commands-and-fixes-4m80</link>
-      <guid>https://dev.to/devtalk94/curl-cheat-sheet-for-api-debugging-commands-and-fixes-4m80</guid>
-      <description>Last updated: 15 November 2026. See the update log at the end. When an API call fails, the browser and your application are the worst places to debug it: too many layers, too litt…</description>
+      <title>Why One Regex Freezes Your Node.js Event Loop: Detecting Catastrophic Backtracking (ReDoS)</title>
+      <link>https://dev.to/dev_in_the_fog/why-one-regex-freezes-your-nodejs-event-loop-detecting-catastrophic-backtracking-redos-3n4b</link>
+      <guid>https://dev.to/dev_in_the_fog/why-one-regex-freezes-your-nodejs-event-loop-detecting-catastrophic-backtracking-redos-3n4b</guid>
+      <description>A single copy-pasted validation regex can pin a Node.js API server at 100% CPU with just one 35-byte request. Because JavaScript&#x27;s V8 regex engine uses backtracking NFA execution,…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>e2ee_vault: a small toolkit for zero-knowledge encrypted vaults in Dart</title>
-      <link>https://dev.to/abdeldjalilchougui/e2eevault-a-small-toolkit-for-zero-knowledge-encrypted-vaults-in-dart-509o</link>
-      <guid>https://dev.to/abdeldjalilchougui/e2eevault-a-small-toolkit-for-zero-knowledge-encrypted-vaults-in-dart-509o</guid>
-      <description>A password manager, a private gallery and an encrypted notes app share one promise: the server stores the data but cannot read it. Keeping that promise takes more than calling an…</description>
+      <title>Read Both Bodies and the Loudest Issue Wins</title>
+      <link>https://dev.to/aheadkit/read-both-bodies-and-the-loudest-issue-wins-4le5</link>
+      <guid>https://dev.to/aheadkit/read-both-bodies-and-the-loudest-issue-wins-4le5</guid>
+      <description>The helper reads the docs issue first. Issue 390, the README with the wrong flag, two sentences in, the answer sitting right there in the trimmed list. Then it reads the crash iss…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Text Diff Checker: How I Found the One Env Variable That Broke Production</title>
-      <link>https://dev.to/meng_meng_56f17e28e55f140/text-diff-checker-how-i-found-the-one-env-variable-that-broke-production-fbk</link>
-      <guid>https://dev.to/meng_meng_56f17e28e55f140/text-diff-checker-how-i-found-the-one-env-variable-that-broke-production-fbk</guid>
-      <description>Last week one endpoint in production started returning 500s. The same code on my laptop worked fine. Same database, same queue, same deploy. The only thing that wasn&#x27;t the same, a…</description>
+      <title>The countdown is not there to pressure you</title>
+      <link>https://dev.to/succday/the-countdown-is-not-there-to-pressure-you-2p5a</link>
+      <guid>https://dev.to/succday/the-countdown-is-not-there-to-pressure-you-2p5a</guid>
+      <description>Every timed game gets the same complaint: the clock makes people panic. In a hidden-word game the clock does something more specific. It closes the window where a player talks the…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Keep the currency code attached when importing money from CSV</title>
-      <link>https://dev.to/tihmlo_90/keep-the-currency-code-attached-when-importing-money-from-csv-2eia</link>
-      <guid>https://dev.to/tihmlo_90/keep-the-currency-code-attached-when-importing-money-from-csv-2eia</guid>
-      <description>This article and its synthetic code example were drafted with AI assistance. An export with USD 12.40 and EUR 12.40 has two currency balances. Summing the numeric column produces…</description>
+      <title>LoRaWAN Operations SOP: After Go-Live, the Network Lives on Process</title>
+      <link>https://dev.to/manthink/lorawan-operations-sop-after-go-live-the-network-lives-on-process-4pni</link>
+      <guid>https://dev.to/manthink/lorawan-operations-sop-after-go-live-the-network-lives-on-process-4pni</guid>
+      <description>The last few issues walked the delivery chain end to end: the production line provisions credentials, the batch manifest ships with the goods, factory acceptance guards the gate,…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>open-code-review: a deterministic pipeline plus LLM agent for line-level review</title>
-      <link>https://dev.to/sun_young_517829fc09d0c05/open-code-review-a-deterministic-pipeline-plus-llm-agent-for-line-level-review-4p1k</link>
-      <guid>https://dev.to/sun_young_517829fc09d0c05/open-code-review-a-deterministic-pipeline-plus-llm-agent-for-line-level-review-4p1k</guid>
-      <description>The original alibaba/open-code-review repository has 55427 stars, is written in Go, and ships under Apache-2.0. A Chinese translation of its README was published on 2026-11-21 at…</description>
+      <title>A 24-character input is a scoring rule</title>
+      <link>https://dev.to/succday/a-24-character-input-is-a-scoring-rule-51h6</link>
+      <guid>https://dev.to/succday/a-24-character-input-is-a-scoring-rule-51h6</guid>
+      <description>SameWord gives each player one field, 24 characters, one word. That limit looks like a technical shortcut. It is actually the rule that makes the game scoreable. Normalization is…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Giải mã kiến trúc LLM từ Jakub Pachocki: Tại sao nén dữ liệu và Perplexity quyết định năng lực mô hình?</title>
-      <link>https://dev.to/tintucai/giai-ma-kien-truc-llm-tu-jakub-pachocki-tai-sao-nen-du-lieu-va-perplexity-quyet-dinh-nang-luc-mo-28ai</link>
-      <guid>https://dev.to/tintucai/giai-ma-kien-truc-llm-tu-jakub-pachocki-tai-sao-nen-du-lieu-va-perplexity-quyet-dinh-nang-luc-mo-28ai</guid>
-      <description>Trong cộng đồng kỹ thuật, nhiều kỹ sư thường mặc định rằng các bước tiến thần tốc của mô hình ngôn ngữ lớn (LLM) đến từ việc ghép nối hàng loạt module chuyên biệt và kỹ thuật tinh…</description>
+      <title>Cómo pedir una web a Bolt o v0 sin que te cambie medio proyecto</title>
+      <link>https://dev.to/enercoruna/como-pedir-una-web-a-bolt-o-v0-sin-que-te-cambie-medio-proyecto-3m6i</link>
+      <guid>https://dev.to/enercoruna/como-pedir-una-web-a-bolt-o-v0-sin-que-te-cambie-medio-proyecto-3m6i</guid>
+      <description>Bolt y v0 generan una interfaz completa en segundos. El problema llega en la segunda iteración: pides un botón y te rehacen la cabecera, o te añaden una dependencia que no necesit…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Owning the Path from Key Press to Screen</title>
-      <link>https://dev.to/minodisk/owning-the-path-from-key-press-to-screen-3c1c</link>
-      <guid>https://dev.to/minodisk/owning-the-path-from-key-press-to-screen-3c1c</guid>
-      <description>Handpic is a culling app for RAW files: you page through what you shot, give stars, reject the rest, and the judgments go into metadata files saved next to the RAW files (XMP or D…</description>
+      <title>The Defaults Are the Attack Surface: What I Learned Auditing Open-Source Middleware</title>
+      <link>https://dev.to/aaannvv/the-defaults-are-the-attack-surface-what-i-learned-auditing-open-source-middleware-212l</link>
+      <guid>https://dev.to/aaannvv/the-defaults-are-the-attack-surface-what-i-learned-auditing-open-source-middleware-212l</guid>
+      <description>The Defaults Are the Attack Surface: What I Learned Auditing Open-Source Middleware Every few weeks another CVE drops for an open-source admin console, report engine, or job sched…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Don&#x27;t Fix Accessibility After the Fact: Constraints to Put in Your First AI Website Prompt</title>
-      <link>https://dev.to/riona_he_211b12cf8ae69e74/dont-fix-accessibility-after-the-fact-constraints-to-put-in-your-first-ai-website-prompt-47bh</link>
-      <guid>https://dev.to/riona_he_211b12cf8ae69e74/dont-fix-accessibility-after-the-fact-constraints-to-put-in-your-first-ai-website-prompt-47bh</guid>
-      <description>Disclosure: I am on the team behind VibUI, a paid prompt library for websites. You will see one mention of it in the last tool section. The accessibility rules here do not depend…</description>
+      <title>We Fixed Our ZFS Write Spikes, Then Reads Got 4 Slower!</title>
+      <link>https://dev.to/abk/we-fixed-our-zfs-write-spikes-then-reads-got-4x-slower-2hn0</link>
+      <guid>https://dev.to/abk/we-fixed-our-zfs-write-spikes-then-reads-got-4x-slower-2hn0</guid>
+      <description>One of our databases was getting hit by long garbage-collection pauses. The trigger turned out to be ZFS: compressing writes with gzip-9 took heavy bursts of CPU, and whenever a b…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>Theme Park (1994): The Bullfrog Sim Where Salty Chips Were a Business Strategy</title>
-      <link>https://dev.to/sun_jack_eddy/theme-park-1994-the-bullfrog-sim-where-salty-chips-were-a-business-strategy-58mj</link>
-      <guid>https://dev.to/sun_jack_eddy/theme-park-1994-the-bullfrog-sim-where-salty-chips-were-a-business-strategy-58mj</guid>
-      <description>Some games teach you how to aim. Bullfrog&#x27;s Theme Park (1994) taught a whole generation how a business works: rides break, staff go on strike, and if you put enough salt on the ch…</description>
+      <title>Catching WordPress privilege escalation without a signature: check the capability again at the write</title>
+      <link>https://dev.to/_abbdc2/catching-wordpress-privilege-escalation-without-a-signature-check-the-capability-again-at-the-write-fdf</link>
+      <guid>https://dev.to/_abbdc2/catching-wordpress-privilege-escalation-without-a-signature-check-the-capability-again-at-the-write-fdf</guid>
+      <description>Disclosure first: I make Ensomedia Security, a free WordPress plugin. Version 1.1.34 ships the feature described here. This post is about the technique, the hooks it needs and the…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
     </item>
     <item>
-      <title>SaaS Event Alert Emails: Custom Domain Templates for Property Notice Recovery</title>
-      <link>https://dev.to/andersonblake6857/saas-event-alert-emails-custom-domain-templates-for-property-notice-recovery-5adh</link>
-      <guid>https://dev.to/andersonblake6857/saas-event-alert-emails-custom-domain-templates-for-property-notice-recovery-5adh</guid>
-      <description>Pick this approach Template owner Recovery boundary to evaluate Application rendering with Amazon SES Your application team Keep approved content and dispatch evidence together. A…</description>
+      <title>Fixing PostgreSQL PATH Issues on Windows: Managing Multiple Installed Versions (14, 18, and 19)</title>
+      <link>https://dev.to/vincenttommi/fixing-postgresql-path-issues-on-windows-managing-multiple-installed-versions-14-18-and-19-4me8</link>
+      <guid>https://dev.to/vincenttommi/fixing-postgresql-path-issues-on-windows-managing-multiple-installed-versions-14-18-and-19-4me8</guid>
+      <description>If you&#x27;ve installed PostgreSQL on Windows and tried running: psql --version Only to receive this error: &#x27;psql&#x27; is not recognized as an internal or external command, operable progr…</description>
       <source>Dev.to</source>
       <category>Dev.to</category>
+    </item>
+    <item>
+      <title>Advanced Character Physics (2001) [pdf]</title>
+      <link>https://cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf</link>
+      <guid>https://cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf</guid>
+      <description>Comments</description>
+      <source>Hacker News</source>
+      <category>Hacker News</category>
     </item>
     <item>
       <title>Free alternative TV network built from the Internet Archive&#x27;s forgotten videos</title>
@@ -127,25 +135,9 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Nespresso&#x27;s project to reduce grams of coffee per capsule</title>
-      <link>https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus</link>
-      <guid>https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
       <title>0rwx – A simple model of AI usage, inspired by Unix permissions</title>
       <link>https://0rwx.com/</link>
       <guid>https://0rwx.com/</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
-    </item>
-    <item>
-      <title>What should AAA game devs do</title>
-      <link>https://gamethoughts.bearblog.dev/what-should-aaa-game-devs-do</link>
-      <guid>https://gamethoughts.bearblog.dev/what-should-aaa-game-devs-do</guid>
       <description>Comments</description>
       <source>Hacker News</source>
       <category>Hacker News</category>
@@ -295,12 +287,36 @@
       <category>Hacker News</category>
     </item>
     <item>
-      <title>Toyota, Nissan, and Honda to standardize parts to lower costs</title>
-      <link>https://caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs</link>
-      <guid>https://caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs</guid>
-      <description>Comments</description>
-      <source>Hacker News</source>
-      <category>Hacker News</category>
+      <title>Motion Brew, 100 free animated React components your AI agent can install</title>
+      <link>https://motion-brew.com/</link>
+      <guid>https://motion-brew.com/</guid>
+      <description>Motion Brew, 100 free animated React components your AI agent can install</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>CRS; Taxing AI: Alternative Approaches [pdf]</title>
+      <link>https://everycrsreport.com/files/2026-11-18_R49520_89f5bd00177f068d1c0bfa42cffcb1cfe4d0f36c.pdf</link>
+      <guid>https://everycrsreport.com/files/2026-11-18_R49520_89f5bd00177f068d1c0bfa42cffcb1cfe4d0f36c.pdf</guid>
+      <description>CRS; Taxing AI: Alternative Approaches [pdf]</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>VistaPrint applies generative AI edits to prints without consent or warning</title>
+      <link>https://bsky.app/profile/mostlybree.kitrocha.com/post/3n2vxgsvrhs2q</link>
+      <guid>https://bsky.app/profile/mostlybree.kitrocha.com/post/3n2vxgsvrhs2q</guid>
+      <description>VistaPrint applies generative AI edits to prints without consent or warning</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
+    </item>
+    <item>
+      <title>It Will Never: confident predictions and verdicts about AI [video]</title>
+      <link>https://youtube.com/watch?v=_Zzv15cwG1A</link>
+      <guid>https://youtube.com/watch?v=_Zzv15cwG1A</guid>
+      <description>It Will Never: confident predictions and verdicts about AI [video]</description>
+      <source>Hacker News AI</source>
+      <category>Hacker News AI</category>
     </item>
     <item>
       <title>Dario Amodei suggests video games could pacify the masses after AI takes jobs</title>
@@ -419,30 +435,6 @@
       <link>https://bootybang.ai/</link>
       <guid>https://bootybang.ai/</guid>
       <description>GTA 6&#x27;s fictional porn studio &quot;Booty Bang&quot; now has a real AI parody site</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
-    </item>
-    <item>
-      <title>Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme</title>
-      <link>https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now</link>
-      <guid>https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now</guid>
-      <description>Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
-    </item>
-    <item>
-      <title>Free AI app that improves framerate of videos</title>
-      <link>https://flowframes.app/</link>
-      <guid>https://flowframes.app/</guid>
-      <description>Free AI app that improves framerate of videos</description>
-      <source>Hacker News AI</source>
-      <category>Hacker News AI</category>
-    </item>
-    <item>
-      <title>The MIT Processor Database brings decades of chip history into the AI era</title>
-      <link>https://cap.csail.mit.edu/mit-processor-database-brings-decades-chip-history-ai-era</link>
-      <guid>https://cap.csail.mit.edu/mit-processor-database-brings-decades-chip-history-ai-era</guid>
-      <description>The MIT Processor Database brings decades of chip history into the AI era</description>
       <source>Hacker News AI</source>
       <category>Hacker News AI</category>
     </item>
@@ -607,6 +599,14 @@
       <category>Hacker News Ask</category>
     </item>
     <item>
+      <title>Show HN: Ignis – A browser-native LLM and multimodal inference engine</title>
+      <link>https://ignis.ray-d-song.com/</link>
+      <guid>https://ignis.ray-d-song.com/</guid>
+      <description>Show HN: Ignis – A browser-native LLM and multimodal inference engine</description>
+      <source>Hacker News LLM</source>
+      <category>Hacker News LLM</category>
+    </item>
+    <item>
       <title>Writing an LLM from scratch, part 32f – Interventions: weight decay</title>
       <link>https://gilesthomas.com/2026/03/llm-from-scratch-32f-interventions-weight-decay</link>
       <guid>https://gilesthomas.com/2026/03/llm-from-scratch-32f-interventions-weight-decay</guid>
@@ -645,6 +645,62 @@
       <description>A Slinky on an Escalator Is a Weirdly Good Test of LLM Intelligence</description>
       <source>Hacker News LLM</source>
       <category>Hacker News LLM</category>
+    </item>
+    <item>
+      <title>Show HN: Interactive Rubik&#x27;s Cube in the browser – one-shot DeepSeek flash</title>
+      <link>https://asamarts.github.io/deeprubik</link>
+      <guid>https://asamarts.github.io/deeprubik</guid>
+      <description>Repo/code - https://github.com/asamarts/deeprubik This was an experiment at one-shotting something with DeepSeek flash and a custom harness. Metrics/costs/usage numbers are in the…</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: Just Dashboard, open-source Linux management dashboard</title>
+      <link>https://just-dashboard.com/</link>
+      <guid>https://just-dashboard.com/</guid>
+      <description>Show HN: Just Dashboard, open-source Linux management dashboard</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: Dere Type Quiz – a free 2-minute dere test</title>
+      <link>https://deretypesquiz.com/</link>
+      <guid>https://deretypesquiz.com/</guid>
+      <description>Show HN: Dere Type Quiz – a free 2-minute dere test</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: SaaSStatsHub Signals – find website ideas from rising search trends</title>
+      <link>https://signals.saasstatshub.com/</link>
+      <guid>https://signals.saasstatshub.com/</guid>
+      <description>Show HN: SaaSStatsHub Signals – find website ideas from rising search trends</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: Hearth 64 – A cozy fireplace screensaver ROM for real N64 hardware</title>
+      <link>https://github.com/njgreb/n64fireplace</link>
+      <guid>https://github.com/njgreb/n64fireplace</guid>
+      <description>Show HN: Hearth 64 – A cozy fireplace screensaver ROM for real N64 hardware</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: Hammerspoon 2 Beta 1 is released</title>
+      <link>https://hammerspoon.org/</link>
+      <guid>https://hammerspoon.org/</guid>
+      <description>The first beta of Hammerspoon 2 is now available! Hammerspoon 2 is a ground-up rewrite of Hammerspoon that uses JavaScript instead of Lua, using the same JavaScriptCore engine as…</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
+    </item>
+    <item>
+      <title>Show HN: Biohacking in Chess – can coffee make you a better player?</title>
+      <link>https://plantsresearch.pro/chess-lab</link>
+      <guid>https://plantsresearch.pro/chess-lab</guid>
+      <description>In short: For the past few years, I&#x27;ve been building a biohacking platform called Plants Research Pro (PRP), designed to help people discover research on bioactive materials and p…</description>
+      <source>Hacker News Show</source>
+      <category>Hacker News Show</category>
     </item>
     <item>
       <title>Show HN: Thir – Linux 6.12 kernel with an all-Rust userspace and framebuffer GUI</title>
@@ -735,70 +791,6 @@
       <category>Hacker News Show</category>
     </item>
     <item>
-      <title>Show HN: Pi-protokoll – Per-turn protocols for fast compaction in Pi</title>
-      <link>https://github.com/sebion7125/pi-protokoll</link>
-      <guid>https://github.com/sebion7125/pi-protokoll</guid>
-      <description>Show HN: Pi-protokoll – Per-turn protocols for fast compaction in Pi</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: Prompt Studio – Free, client-side structured prompt generator for LLMs</title>
-      <link>https://freeaipromptgen.com/</link>
-      <guid>https://freeaipromptgen.com/</guid>
-      <description>Show HN: Prompt Studio – Free, client-side structured prompt generator for LLMs</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: Aaf-gate – policy gate and kill switch for existing agent runtimes</title>
-      <link>https://github.com/buberlo/aaf-gate</link>
-      <guid>https://github.com/buberlo/aaf-gate</guid>
-      <description>Show HN: Aaf-gate – policy gate and kill switch for existing agent runtimes</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: Scheduling a Simulated Vertical Farm</title>
-      <link>https://greenmaxxing.netlify.app/?present=1</link>
-      <guid>https://greenmaxxing.netlify.app/?present=1</guid>
-      <description>A 3D simulation of a vertical lettuce farm I built at a hackathon. It runs entirely in the browser. Two copies of the same farm run side by side one on fixed schedules, one with a…</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: PortReaper Find and kill zombie nodes</title>
-      <link>https://github.com/amitgal45/portreaper</link>
-      <guid>https://github.com/amitgal45/portreaper</guid>
-      <description>Show HN: PortReaper Find and kill zombie nodes</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: Gall – Inkling 2 Mini on 24GB M2, frees RAM between messages</title>
-      <link>https://github.com/ltrgoddard/gall</link>
-      <guid>https://github.com/ltrgoddard/gall</guid>
-      <description>Thinking Machines Lab gives 32GB as the minimum RAM requirement for Inkling 2 Mini on Mac, but with the Q3 quant I felt it must be possible to get somewhere reasonable on my 24GB…</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Show HN: TheGitAI CLI/Desktop Agent with Computer Control on Linux (Wayland+X11)</title>
-      <link>https://thegit.ai/tour</link>
-      <guid>https://thegit.ai/tour</guid>
-      <description>Show HN: TheGitAI CLI/Desktop Agent with Computer Control on Linux (Wayland+X11)</description>
-      <source>Hacker News Show</source>
-      <category>Hacker News Show</category>
-    </item>
-    <item>
-      <title>Europe weakens chemical rules as science links them to &#x27;lifestyle diseases&#x27;</title>
-      <link>https://lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html</link>
-      <guid>https://lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html</guid>
-      <description># Commen…</description>
-      <source>Hacker News 最佳</source>
-      <category>Hacker News 最佳</category>
-    </item>
-    <item>
       <title>87% of the Anthropic power will come from gas and 11% from coal in 2028</title>
       <link>https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power</link>
       <guid>https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power</guid>
@@ -815,28 +807,276 @@
       <category>Hacker News 最佳</category>
     </item>
     <item>
-      <title>Data Processing Incidents on Inference Providers</title>
-      <link>https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers</link>
-      <guid>https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers</guid>
-      <description>Data Processing Incidents on Inference Providers</description>
-      <source>Hacker News 最佳</source>
-      <category>Hacker News 最佳</category>
+      <title>小鹏 P7 全新内饰色「云境灰」公布，橙灰撞色设计</title>
+      <link>https://ithome.com/1/030/804.htm</link>
+      <guid>https://ithome.com/1/030/804.htm</guid>
+      <description>IT之家 11 月 23 日消息，小鹏 P7 全新内饰色「云境灰」官图今日公布，将于 11 月 25 日小鹏科技日正式亮相。 灵感来自阳光映照下的云朵， 浅云般的灰白色调铺陈座舱，明亮而舒展， 一抹橙色跃然于颈间与缝线， 橙灰撞色，点亮鲜活灵动的驾控氛围。 今日早些时候，小鹏 P7 还公布了一款全新车色 ——「晨曦粉」，同样将于 11 月 25 日小鹏科技…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
     </item>
     <item>
-      <title>The Mythology of Conscious AI</title>
-      <link>https://noemamag.com/the-mythology-of-conscious-ai</link>
-      <guid>https://noemamag.com/the-mythology-of-conscious-ai</guid>
-      <description>The Mythology of Conscious AI</description>
-      <source>Hacker News 最佳</source>
-      <category>Hacker News 最佳</category>
+      <title>黑客 Voices38 声称已破解《影之刃零》游戏 D 加密</title>
+      <link>https://ithome.com/1/030/803.htm</link>
+      <guid>https://ithome.com/1/030/803.htm</guid>
+      <description>IT之家 11 月 23 日消息，据科技媒体 Notebookcheck 今天报道，黑客 Voices38 声称已破解《影之刃零》游戏的 D 加密技术（Denuvo）， 目前 PC 版破解游戏已在盗版渠道传播 。 据报道，Denuvo 开发商 Irdeto 已于 9 月份在美国提起诉讼，指控 Voices38 违反《数字千年版权法》（IT之家注：DMCA）…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
     </item>
     <item>
-      <title>Agent swarm trying to solve P vs. NP</title>
-      <link>https://pequalnp.com/</link>
-      <guid>https://pequalnp.com/</guid>
-      <description>Agent swarm trying to solve P vs. NP</description>
-      <source>Hacker News 首页</source>
-      <category>Hacker News 首页</category>
+      <title>美国网络安全事件频发：特朗普撤换国家网络总监，此前 FBI 国家犯罪信息中心疑似遭黑客入侵</title>
+      <link>https://ithome.com/1/030/801.htm</link>
+      <guid>https://ithome.com/1/030/801.htm</guid>
+      <description>IT之家 11 月 23 日消息，据央视新闻今日报道，美国总统特朗普已撤换美国国家网络总监肖恩 · 凯恩克罗斯（Sean Cairncross），并提名美国国防部首席信息官柯尔丝滕 · 戴维斯（Kirsten A. Davies）接任。 此次人事调整发生在美国多个联邦政府机构接连曝出网络安全事件。IT之家此前报道，包括微软、苹果、AWS、联合航空等企业或机…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>紫光展锐携手比派发布全球首款 5G 开源“派”BPI-M2C，基于 UIS7885</title>
+      <link>https://ithome.com/1/030/800.htm</link>
+      <guid>https://ithome.com/1/030/800.htm</guid>
+      <description>IT之家 11 月 23 日消息，紫光展锐 (UNISOC) 近日与香蕉派 (Banana Pi) 开源硬件项目主导方比派一道发布 全球首款 5G 开源“派” BPI-M2C。 这款高性能单板计算机 (SBC) 基于紫光展锐 5G 行业智能解决方案 UIS7885 。该芯片采用 6nm 制程工艺，提供 4× Arm Cortex-A76 + 4× Arm…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>蚂蚁 CEO 韩歆毅：阿福已有 1.5 亿用户成全球最大 AI 健康应用，呼吁医保、商保从“治病”延伸到“健康”</title>
+      <link>https://ithome.com/1/030/799.htm</link>
+      <guid>https://ithome.com/1/030/799.htm</guid>
+      <description>IT之家 11 月 23 日现场消息，2026 蚂蚁阿福医疗健康生态大会今日（11 月 23 日）在广东广州举行。 蚂蚁集团首席执行官韩歆毅在主论坛发言中表示，AI 正在拓宽人类健康自塑的边界，让健康管理从“千人一方”走向“一人一方”、从“以治病为中心”转向“以健康为中心”，这是 AI 对医疗健康领域最深远的影响之一， 其价值不亚于 AI 医疗和 AI 药…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>虚幻引擎 5.9 预览版 2 更新：支持纯蓝图项目 Web 打包，AI 工具集默认开启</title>
+      <link>https://ithome.com/1/030/798.htm</link>
+      <guid>https://ithome.com/1/030/798.htm</guid>
+      <description>IT之家 11 月 23 日消息，Epic Games 现已发布虚幻引擎 5.9 预览版 2，本次更新进一步改进了 Web 端打包功能，以及 AI 辅助游戏开发的相关功能。 IT之家注意到，本次更新引入一项实验性特性， 允许使用 WebAssembly 和 WebGPU 在浏览器运行 UE 项目 。在预览 2 中，开发者不再需要像 Preview 1 那样…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>消息称亚马逊接近以 75 亿美元收购人工智能初创企业 Decart</title>
+      <link>https://ithome.com/1/030/797.htm</link>
+      <guid>https://ithome.com/1/030/797.htm</guid>
+      <description>IT之家 11 月 23 日消息，《金融时报》当地时间昨日报道称，Amazon 已就收购 Decart 展开深入谈判， 双方最早可能在本周初达成协议 ，但这笔价值约为 75 亿美元 （IT之家注：现汇率约合 501.1 亿元人民币） 的交易仍有破裂的风险。 Decart 由三位以色列工程师于 2023 年创立，提供跨算力硬件类型的人工智能堆栈优化服务，同时…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>信息窗口乱跳转或无法关闭，工信部通报 YY、快看漫画等 23 款 App 及 SDK</title>
+      <link>https://ithome.com/1/030/796.htm</link>
+      <guid>https://ithome.com/1/030/796.htm</guid>
+      <description>IT之家 11 月 23 日消息，工信部今日发布《关于侵害用户权益行为的 APP（SDK）通报》（2026 年第 7 批，总第 60 批）。 公告称，根据中央网信办、工业和信息化部、公安部联合发布的《关于开展 2026 年个人信息保护系列专项行动的公告》，依据《个人信息保护法》《网络安全法》《电信条例》《电信和互联网用户个人信息保护规定》等法律法规，工信部…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>摩托车网联平台接入率突破 90%，我国牵头的摩托车及轻便摩托车信息与服务国际标准立项</title>
+      <link>https://ithome.com/1/030/795.htm</link>
+      <guid>https://ithome.com/1/030/795.htm</guid>
+      <description>IT之家 11 月 23 日消息，据央视新闻今日报道， 国际标准化组织正式批准《摩托车和轻便摩托车信息和服务术语》国际标准立项 。该国际标准旨在填补全球范围内的空白，为行业信息与服务相关技术发展提供通用术语基础。 该标准系统构建了包含信息与服务通用术语、车载终端和用户设备、通信和网络、安全与报警系统、服务共 5 部分内容。其核心定义涵盖： 摩托车信息交互与…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>蚂蚁阿福宣布全新升级：“望闻问切”实时视频看健康，全家档案一个 App 管</title>
+      <link>https://ithome.com/1/030/794.htm</link>
+      <guid>https://ithome.com/1/030/794.htm</guid>
+      <description>IT之家 11 月 23 日现场消息，在今日的蚂蚁阿福医疗健康生态大会上，蚂蚁阿福 App 宣布迎来全新升级。 IT之家在大会现场获悉，蚂蚁阿福 App 基于蚂蚁百灵医疗健康系列模型，带来两项功能大升级： 实时视频看健康，AI 也能“望闻问切” ：哪里不舒服，直接给阿福打视频电话，指给阿福看、说给阿福听。结合主动追问和智能硬件，阿福准确分析身体问题，还能连…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>壹号本预热《EVA》联名限量款 OneXPlayer X2：明日香二号机设计</title>
+      <link>https://ithome.com/1/030/793.htm</link>
+      <guid>https://ithome.com/1/030/793.htm</guid>
+      <description>IT之家 11 月 23 日消息，壹号本 (ONE-NETBOOK) 本月 20 日宣布将推出《新世纪福音战士》(EVA) 联名限量款 OneXPlayer X2 三合一 PC 游戏掌机。 该特别版 融入二号机风格设计元素与明日香主题涂装 ，以红色为主基调，搭配黑、金点缀。 常规版 OneXPlayer X2 基于英特尔锐炫 G3 Extreme 处理器；…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>特朗普：我希望英伟达董事会能重新聘用黄仁勋，这对英伟达、美国来说都是最好的事情</title>
+      <link>https://ithome.com/1/030/792.htm</link>
+      <guid>https://ithome.com/1/030/792.htm</guid>
+      <description>IT之家 11 月 23 日消息，美国总统唐纳德 · 特朗普今日在真实社交平台表示， 他希望英伟达董事会能重新聘用黄仁勋 。这对英伟达公司、美国来说都是最好的事情。 据IT之家此前报道 ，黄仁勋于 11 月初向英伟达发布全员信，承认自己的出轨行为，称他的行为伤害了妻儿，没有任何借口。 特朗普随后表示 ，他只知道黄仁勋是很好的人，他认为黄仁勋应该继续担任英伟…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>小鹏 P7 全新车色「晨曦粉」亮相，11 月 25 日线下首展</title>
+      <link>https://ithome.com/1/030/791.htm</link>
+      <guid>https://ithome.com/1/030/791.htm</guid>
+      <description>IT之家 11 月 23 日消息，今日，小鹏 P7 全新车色「晨曦粉」正式亮相，将于 11 月 25 日小鹏科技日开启线下首展。 IT之家附官方介绍： 灵感来自晨曦洒落湖面的一缕柔光，温柔而闪耀。 低饱和、高明度的银粉色调，融入多粒径金属铝粉， 光影随角度流转，呈现细腻灵动的金属质感。 将晨曦的光彩，流动于车身之上。 IT之家注意到， 全新小鹏 P7 于…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>Flyme Auto 全球累计装车量突破 376.9 万辆，魅族与亿咖通联合开发</title>
+      <link>https://ithome.com/1/030/790.htm</link>
+      <guid>https://ithome.com/1/030/790.htm</guid>
+      <description>IT之家 11 月 23 日消息，魅族 Flyme AIOS 今日公布 Flyme Auto 最新装机数据。 官方数据显示，2026 年 10 月，Flyme Auto 新增装机量为 175,341 辆，1—10 月累计装机量超过 1,502,000 辆，全球累计搭载量超过 3,769,000 辆。 魅族表示，Flyme Auto 持续应用于汽车领域，全球…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>vivo S70 系列手机官宣 12 月发布，预计提供“闪光人像专业套装”</title>
+      <link>https://ithome.com/1/030/789.htm</link>
+      <guid>https://ithome.com/1/030/789.htm</guid>
+      <description>IT之家 11 月 23 日消息，vivo S70 系列手机今日在各大电商平台开启预约，官网显示新品将于 12 月发布，分为 vivo S70、S70 旗舰版两款机型。 据博主 @数码闲聊站 今日爆料，vivo S70 系列将提供专门的 「闪光人像专业套装」 。“这套人像外设主打进阶玩法，不仅拍得清楚，在暗光人像光影和氛围感上摸到了新高度，真正做到了动态人…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>蚂蚁阿福发布全新 AI 健康手环“福环”和 AI 健康戒指“福戒”</title>
+      <link>https://ithome.com/1/030/788.htm</link>
+      <guid>https://ithome.com/1/030/788.htm</guid>
+      <description>IT之家 11 月 23 日现场消息，在今日的蚂蚁阿福医疗健康生态大会上，蚂蚁阿福带来了两款全新的 AI 健康硬件 —— AI 健康手环 · 福环 AI 健康戒指 · 福戒 两款产品均主打健康监测和超长续航 ，主要用来记录睡眠、心率、呼吸、血氧等身体指标，并通过 AI 给出健康报告、改善建议。 IT之家在大会现场了解到， 福环可以选择有屏版、无屏版 ，福戒…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>小米 REDMI 多款笔记本电脑今日已执行涨价：涨幅最高 500 元</title>
+      <link>https://ithome.com/1/030/787.htm</link>
+      <guid>https://ithome.com/1/030/787.htm</guid>
+      <description>IT之家 11 月 23 日消息，博主 @懒酱的日记本 发现，小米旗下多款笔记本电脑今日起价格上调 300～500 元： REDMI Book 14 2024 焕新版 REDMI Book 14 2025 REDMI Book 16 2025 REDMI Book 16 /14 2026 REDMI Book Pro 16/14 2026 以 REDMI…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>腾讯魔方新作《异人之下》定档 12 月 17 日，登陆 PC、iOS、安卓、鸿蒙</title>
+      <link>https://ithome.com/1/030/786.htm</link>
+      <guid>https://ithome.com/1/030/786.htm</guid>
+      <description>IT之家 11 月 23 日消息，腾讯魔方工作室旗下 3D 格斗竞技游戏《异人之下》宣布定档 12 月 17 日， 登陆 PC、iOS、安卓和鸿蒙端 。 目前，本作已在苹果 App Store 中上线。官方宣称本作提供纯粹极致的 3D 格斗竞技体验，以武术道法与民间术数为根源的招数技能，拥有沉浸式剧情体验、全网独家的角色故事。 同时，这款游戏改编自现象级国…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>小米推出米家窗帘伴侣卷帘版：单次续航 4 个月，众筹价 259 元</title>
+      <link>https://ithome.com/1/030/785.htm</link>
+      <guid>https://ithome.com/1/030/785.htm</guid>
+      <description>IT之家 11 月 23 日消息，今日，米家窗帘伴侣卷帘版在小米有品上架，众筹到手价 259 元起，建议零售价 349 元起（ 点击前往 ）。 IT之家从商品页面获悉，该产品是后装智能配件，无需布线、不改电路，通过带动卷帘拉珠实现电动升降。该产品兼容斑马帘、全面料卷帘、香格里拉帘、百叶帘、蜂巢帘与罗马帘。它提供单件与两件套两种规格，双开卷帘需按两件选购。…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>蚂蚁百灵医疗健康大模型宣布开源，最轻量版一台笔记本就能部署</title>
+      <link>https://ithome.com/1/030/784.htm</link>
+      <guid>https://ithome.com/1/030/784.htm</guid>
+      <description>IT之家 11 月 23 日现场消息，在今日的蚂蚁阿福医疗健康生态大会上， 蚂蚁百灵医疗健康大模型宣布全面开源 。 蚂蚁百灵医疗健康大模型家族包含大语言模型、实时音视频模型、预测模型、安全防护模型，支持疾病未来六年的发病风险预测，疾病种类、准确率超越全球多个专用模型。 IT之家在大会现场了解到，蚂蚁百灵医疗健康大模型带来医生专业个人版多模态模型（124B）…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>谷歌 AI 搜索变现受阻，苹果服务业务收入增长也随之放缓</title>
+      <link>https://ithome.com/1/030/783.htm</link>
+      <guid>https://ithome.com/1/030/783.htm</guid>
+      <description>IT之家 11 月 23 日消息，据科技媒体 Appleinsider 昨天报道，苹果与谷歌达成的搜索合作协议，带来的收益已不如从前。如今用户的搜索习惯已经改变，导致市场格局生变。 据报道，苹果与谷歌早已就 Safari 默认搜索引擎达成合作关系。谷歌每年向苹果支付 200 亿美元 （IT之家注：现汇率约合 1,336.27 亿元人民币） ，让 iPhon…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>小米推出米家智能水暖毯 Pro：左右双区独立调温，众筹价 799 元</title>
+      <link>https://ithome.com/1/030/782.htm</link>
+      <guid>https://ithome.com/1/030/782.htm</guid>
+      <description>IT之家 11 月 23 日消息，米家智能水暖毯 Pro 已在小米有品上架并开启众筹预约，众筹价 799 元，建议零售价 1099 元。众筹将于 11 月 25 日 10:00 开始，12 月 2 日 09:59 结束（ 点击前往 ）。 IT之家从商品页面获悉，该产品支持 左右双区独立温控 ，两区水箱独立加热、双水路物理隔绝，配备 2 个出水口与 2 个回…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>特斯拉 AI4.5 芯片有望明年推出，马斯克称内存太贵、从 32GB 降到 24GB</title>
+      <link>https://ithome.com/1/030/780.htm</link>
+      <guid>https://ithome.com/1/030/780.htm</guid>
+      <description>IT之家 11 月 23 日消息，特斯拉 CEO 埃隆 · 马斯克今日在 X 平台发文回复博主 Sawyer Merritt， 升级版 AI4.5 芯片的性能提升较小，主要是将内存升级到 LPDDR5X 。 马斯克表示 AI5 芯片将专属于特斯拉 Optimus 机器人，汽车将继续使用 AI4。Sawyer Merritt 则表示， AI4.5 芯片有望在…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>海盗船推出 WS 3200D RS 工作站机箱：配备安全锁孔、防盗螺丝</title>
+      <link>https://ithome.com/1/030/779.htm</link>
+      <guid>https://ithome.com/1/030/779.htm</guid>
+      <description>IT之家 11 月 23 日消息，CORSAIR（海盗船）本月中旬推出了 WS 3200D RS 机箱。这一型号与面向游戏 PC 的标准 3200D RS 共享基础，但针对工作站工作负载进行了优化调整。 WS 3200D RS 两侧均配备钢制面板，前脸则是 Y 型开孔的大气流面板； 内置 Kensington 安全锁孔 ， 采用 TORX 防盗螺丝 ；新增…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>迈从 G87 V3 机械键盘发布：全新多功能按键旋钮，首发 239 元起</title>
+      <link>https://ithome.com/1/030/778.htm</link>
+      <guid>https://ithome.com/1/030/778.htm</guid>
+      <description>IT之家 11 月 23 日消息，迈从 G87 V3 全能 87 配列机械键盘今日发布，11 月 25 日 10:00 全平台开售，首发到手价 239 元、269 元。 IT之家从官方公布信息获悉，G87 V3 提供海平线、晴空蓝、鎏金黑、白影彩、黑粉、雾桃渐变 6 款配色，键帽为 PBT 双色注塑，可选原厂高度与原厂侧刻；机身铭牌采用铝合金阳极氧化与镭雕…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>马斯克称存储芯片涨价使特斯拉 AI4 车载电脑成本翻倍</title>
+      <link>https://ithome.com/1/030/777.htm</link>
+      <guid>https://ithome.com/1/030/777.htm</guid>
+      <description>IT之家 11 月 23 日消息，特斯拉 CEO 埃隆 · 马斯克 11 月 22 日表示，受全球 DRAM 内存和 NAND 闪存价格上涨影响， 特斯拉 AI4 车载计算机的物料成本已经翻倍 。 他在 X 平台上回应有关特斯拉最新版完全自动驾驶（FSD）监督版 v15.0.1 计算需求的讨论时称，“由于内存和存储价格上涨， AI4 现在的成本是原来的两倍…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>高通汽车芯片业务年收入达 80 亿美元，有望 2027 年登顶全球汽车半导体市场</title>
+      <link>https://ithome.com/1/030/776.htm</link>
+      <guid>https://ithome.com/1/030/776.htm</guid>
+      <description>IT之家 11 月 23 日消息，据科技媒体 Wccftech 昨天报道，高通多年来意在摆脱过度依赖智能手机的刻板印象，毕竟在 DRAM 飞速涨价的今天，手机芯片业务面临着较大压力。最新行业数据表明，该公司规模最大的多元化布局正在提前取得成效。 根据最新分析，高通汽车芯片业务年收入已达到 80 亿美元 （IT之家注：现汇率约合 534.51 亿元人民币）…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>鸿蒙智行问界新 M7 官宣：升级面向 L3 的全域冗余架构，新色首发「翡冷翠」「暖阳金」</title>
+      <link>https://ithome.com/1/030/775.htm</link>
+      <guid>https://ithome.com/1/030/775.htm</guid>
+      <description>IT之家 11 月 23 日消息，鸿蒙智行问界新 M7 正式官宣，并公布了两款新配色： 温润「翡冷翠」 华贵「暖阳金」 余承东表示，问界 M7 系列一直很受家庭用户欢迎，上市至今已经交付超 47 万辆，稳居中国品牌 30 万级 SUV 车型销量第一。问界新 M7 升级了面向 L3 的全域冗余架构、华为乾崑智驾 ADS 5 以及全新的内外饰设计。 据IT之家…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>东风日产 NX7 定档 11 月 27 日广州车展上市：全系宁德时代电池，预售 12.99 万元起</title>
+      <link>https://ithome.com/1/030/774.htm</link>
+      <guid>https://ithome.com/1/030/774.htm</guid>
+      <description>IT之家 11 月 23 日消息，东风日产 N 序列第四款车型 NX7 将于 11 月 27 日在广州车展正式上市，并同步开启交付。 新车已于 11 月 13 日开启预售，共推出三款配置，预售价区间为 12.99 万元至 14.99 万元，定位“智能零压 SUV”，采用大五座布局。 三款车型的预售价分别为：320 Pro 12.99 万元、320 Max…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>Singularity Computers 推出外置液冷系统：四组 560 冷排，5000W 解热</title>
+      <link>https://ithome.com/1/030/773.htm</link>
+      <guid>https://ithome.com/1/030/773.htm</guid>
+      <description>IT之家 11 月 23 日消息，澳大利亚分体式液冷制造商 Singularity Computers 当地时间本月 21 日推出了 SC Enterprise 5000W 液冷系统。该外置散热装置 具备 5kW 的设计解热能力 。 SC Enterprise 5000W 配备 4 组 Alphacool 560mm UT60 冷排 ，拥有 2 个串联的…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>奇瑞纵横 R700 车型 11 月 26 日发布，与纵横 G700 同平台打造</title>
+      <link>https://ithome.com/1/030/772.htm</link>
+      <guid>https://ithome.com/1/030/772.htm</guid>
+      <description>IT之家 11 月 23 日消息，据易车今日报道，奇瑞纵横 R700 将于 11 月 26 日正式发布。作为纵横品牌全新“R”系列首款车型，与纵横 G700 同平台打造，虽然整体延续了方盒子硬派造型，但细节上却与纵横 G700 不同。 ▲ 纵横 G700 IT之家注意到， 奇瑞 2027 款纵横 G700 于 9 月 29 日宣布上市 ，共推出 5 款配置…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>歼-35、空警-600 将亮相 12 月 7 日珠海航展并首设海上展区，055 型万吨大驱面向公众开放</title>
+      <link>https://ithome.com/1/030/771.htm</link>
+      <guid>https://ithome.com/1/030/771.htm</guid>
+      <description>IT之家 11 月 23 日消息，第十六届中国国际航空航天博览会定于 12 月 7 日至 13 日在广东珠海举办。 恰逢中国航展创办三十周年，本届航展采用“一展三区”布局，在珠海国际航展中心主展区之外，新增高栏港海上装备展示区与莲洲无人装备展示区，展演空间从空中、陆地延伸至近岸水域。海军将以室内展厅、室外静态展示、飞行表演和舰艇开放四个板块实装参展。 飞行…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>韩国防 AI 作弊新招：要求考生穿围裙考试、时隔 6 年重新收缴手机</title>
+      <link>https://ithome.com/1/030/770.htm</link>
+      <guid>https://ithome.com/1/030/770.htm</guid>
+      <description>IT之家 11 月 23 日消息，据韩媒报道，韩国第 28 届警卫指导师考试前日开考。据考生所述，本次考试加强了作弊防范力度，去年只要求将手机和手表放在包里，今年全部收走。 考场还要求考生穿上餐馆使用的一次性围裙 ，各处都悬挂着禁止作弊的标语。 受韩国一税务师榜首考生自曝使用 AI 作弊影响，韩国 753 种国家资格考试开始加强反作弊措施。尽管此前已宣布严…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
+    </item>
+    <item>
+      <title>四部门：鼓励发展适合养老场景的人工智能体、服务机器人、智能穿戴设备、外骨骼等新产品</title>
+      <link>https://ithome.com/1/030/769.htm</link>
+      <guid>https://ithome.com/1/030/769.htm</guid>
+      <description>IT之家 11 月 23 日消息，今日，发改委等四部门印发《“一老一小”服务体系建设实施方案》。 其中提到，支持养老、托育机构应用智能管理服务、智慧消防安防等系统，提升管理水平。推动养老机构配置智能健康监测、辅助器具等设备。 鼓励发展适合养老场景的人工智能体、服务机器人、智能穿戴设备、外骨骼等新产品 ，支持在养老机构、社区等场景应用或设置体验区。鼓励有条件…</description>
+      <source>IT之家</source>
+      <category>IT之家</category>
     </item>
     <item>
       <title>从北影毕设到院线电影：B站《龙心少女》最新 PV 公布，摔跤社与火药方糖联合制作</title>
@@ -890,7 +1130,7 @@
       <title>捷波带来 MTX-RYZ1 主板：板载锐龙 7 PRO 8845HS，提供 PCIe 插槽</title>
       <link>https://ithome.com/1/030/758.htm</link>
       <guid>https://ithome.com/1/030/758.htm</guid>
-      <description>IT之家 11 月 23 日消息，捷波 (Jetway) 近日在其官网上线了面向工业嵌入式领域的 Mini-ITX 主板 MTX-RYZ1。这一型号 板载 AMD 锐龙 7 PRO 8845HS 处理器 。 MTX-RYZ1 拥有 2 条 DDR5-5600 SO-DIMM 内存插槽，支持 EEC； 提供 1 条 PCIe ×8 插槽 、1 个 M.2 M…</description>
+      <description>IT之家 11 月 23 日消息，捷波 (Jetway) 近日在其官网上线了面向工业嵌入式领域的 Mini-ITX 主板 MTX-RYZ1。这一型号 板载 AMD 锐龙 7 PRO 8845HS 处理器 。 MTX-RYZ1 拥有 2 条 DDR5-5600 SO-DIMM 内存插槽，支持 ECC； 提供 1 条 PCIe ×8 插槽 、1 个 M.2 M…</description>
       <source>IT之家</source>
       <category>IT之家</category>
     </item>
@@ -1047,278 +1287,6 @@
       <category>IT之家</category>
     </item>
     <item>
-      <title>《GTA6》发售后，《GTA5》PC Steam 在线人数翻倍至 23.9 万</title>
-      <link>https://ithome.com/1/030/737.htm</link>
-      <guid>https://ithome.com/1/030/737.htm</guid>
-      <description>IT之家 11 月 23 日消息，GTATracker 汇总的数据显示，11 月 22 日，《GTA 5》增强版、传承版和在线模式在 Steam 的同时在线总人数超过 23.9 万， 约为当月部分繁忙日期的两倍 。 《GTA 5》正在迎来第二春，Steam 玩家数量反映了其获得的新支持。增强版和经典版的人气甚至超过了《GTA 6》发布前。虽然同时在线玩家峰…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>《雾山五行 · 封界大战》院线电影公开：坚持手绘，档期待定</title>
-      <link>https://ithome.com/1/030/736.htm</link>
-      <guid>https://ithome.com/1/030/736.htm</guid>
-      <description>IT之家 11 月 23 日消息，哔哩哔哩在 2026~2027 年国创动画作品发布会上宣布，将与六道无鱼动画工作室再次合作，把《雾山五行》第三季最终季改编为院线电影《雾山五行 · 封界大战》，并首次公布预告片。 《雾山五行》剧集第一季豆瓣评分 8.7，第二季升至 9.2。此次电影承接第二季后续剧情，封界危机降临，群妖破山而出，闻人翊悬为守护雾山与苍生迎战…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>消息称苹果为 iPhone Duo 开发锁屏右侧纵向小组件栏，可显示更多信息</title>
-      <link>https://ithome.com/1/030/735.htm</link>
-      <guid>https://ithome.com/1/030/735.htm</guid>
-      <description>IT之家 11 月 23 日消息，据 X 平台消息人士 pdfu 昨日爆料，苹果曾测试过一套 iPhone Duo 实验性界面，允许锁屏状态下，在屏幕右侧显示两个不同的小组件。 据介绍，该功能可在屏幕右侧增加纵向排列的圆形小组件。 pdfu 称右侧的小组件可以和现有的底部栏同时使用 ，让用户在锁屏上查看更多信息。 同时，这一额外的小组件区域被称为“Comp…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>陈立武：英特尔 18A 制程良率达 70%，下一代 14A 计划 2028 年量产</title>
-      <link>https://ithome.com/1/030/734.htm</link>
-      <guid>https://ithome.com/1/030/734.htm</guid>
-      <description>IT之家 11 月 23 日消息，据 Tom&#x27;s Hardware 报道，英特尔 CEO 陈立武在 11 月 19 日举行的 TomorrowX 会议上称，Intel 18A 制程的芯片良品率已达到 70%。 陈立武表示，自己于 2025 年 3 月接任英特尔 CEO 时，18A 制程的良品率“非常糟糕”，目前已经提升至 70%。 Intel 18A 是英…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>微软 CEO 纳德拉感叹：Claude Code 仅半年动摇 VS Code 地位</title>
-      <link>https://ithome.com/1/030/733.htm</link>
-      <guid>https://ithome.com/1/030/733.htm</guid>
-      <description>IT之家 11 月 23 日消息，据科技媒体 Windows Latest 今天报道，这几天，不少开发者炫耀自己已经好几个月没打开过 VS Code。如今微软 CEO 萨提亚 · 纳德拉表示，他完全了解这一现象。Anthropic 推出 Claude Code 后， VS Code 等传统代码编辑器、IDE 大概六个月就失去了存在感 。 IT之家注：VS…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>不满 Instagram 账号被封，印度反对党在 Meta 多地办事处示威并与警方冲突</title>
-      <link>https://ithome.com/1/030/732.htm</link>
-      <guid>https://ithome.com/1/030/732.htm</guid>
-      <description>IT之家 11 月 23 日消息，据路透社 11 月 21 日报道，印度主要反对党国大党的青年团近日因不满旗下成员的 Instagram 账号遭到限制，前往 Meta 印度办事处抗议，还与警方及安保人员发生冲突。 印度青年国大党（Indian Youth Congress，简称 IYC）还向 Meta 发出最后通牒，要求在七天内恢复相关账号，否则将在印度各…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>BLG 连斩 4 支韩国队夺冠，《英雄联盟》S16 中国 LPL 纪录片《风起今朝》12 月播出</title>
-      <link>https://ithome.com/1/030/731.htm</link>
-      <guid>https://ithome.com/1/030/731.htm</guid>
-      <description>IT之家 11 月 23 日消息，《英雄联盟》赛事今日官宣，2026 全球总决赛 LPL 纪录片《风起今朝》将于 12 月在B站播出，首支预告短片公布。 IT之家注意到，《英雄联盟》2026 全球总决赛（S16）冠亚军决赛于 11 月 15 日落幕，来自中国 LPL 赛区的 BLG 战队以 3:1 的比分力克韩国 LCK 赛区的 GEN 战队， 连斩 4…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>古尔曼：苹果若想在 AI 时代生存下去，需进行结构和文化层面的全面改革</title>
-      <link>https://ithome.com/1/030/730.htm</link>
-      <guid>https://ithome.com/1/030/730.htm</guid>
-      <description>IT之家 11 月 23 日消息，彭博社记者马克 · 古尔曼昨日在新一期《Power On》通讯中认为，苹果传统的软件开发方式可能阻碍其进入 AI 时代。僵化的发布周期、集中化的决策和缓慢的开发流程，让苹果很难和 AI 领域竞争对手抗衡。 ▲ 苹果首席执行官约翰 · 特努斯（John Ternus） 古尔曼警告称，虽然苹果在软硬件和生态领域仍然优势明显，…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>苹果 Siri AI 集体诉讼案和解：符合条件的 iPhone 预计每台可获赔至少 61 美元</title>
-      <link>https://ithome.com/1/030/729.htm</link>
-      <guid>https://ithome.com/1/030/729.htm</guid>
-      <description>IT之家 11 月 23 日消息，苹果今年 5 月同意支付 2.5 亿美元 （IT之家注：现汇率约合 16.73 亿元人民币） ，以和解一起涉及 Siri AI 功能延迟上线的美国集体诉讼。 根据 MacRumors 当地时间 11 月 21 日的报道，代表消费者的律师于 11 月 16 日提交法庭文件，预计符合条件的用户每台 iPhone 可获赔至少 6…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>美国达美航空系统故障，致亚特兰大机场数百航班延误</title>
-      <link>https://ithome.com/1/030/728.htm</link>
-      <guid>https://ithome.com/1/030/728.htm</guid>
-      <description>IT之家 11 月 23 日消息，据新华社今日报道，美国达美航空公司技术系统出现故障，导致 22 日进出亚特兰大国际机场的数百个航班出现延误。 美国联邦航空管理局发布的信息显示，达美航空飞往亚特兰大国际机场的航班 平均延误近一个小时 ，涉及约 20 个航线控制中心。 达美航空公司表示， 航班延误是由于其重量与平衡自动化系统出现故障 。公司正与空管部门协调，…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>Mozilla 指责苹果阻止真正的 Firefox 浏览器登陆 iPhone，称现有 App 无法直接抛弃 WebKit</title>
-      <link>https://ithome.com/1/030/727.htm</link>
-      <guid>https://ithome.com/1/030/727.htm</guid>
-      <description>IT之家 11 月 23 日消息，Mozilla 前天（11 月 20 日）发布声明，指责苹果长期阻碍真正的 Firefox 火狐浏览器登陆 iPhone。 据IT之家了解，Firefox 的 iOS 版使用 WebKit 引擎，而非 Mozilla 自主开发的 Gecko 引擎。 Mozilla 表示，即使欧盟《数字市场法案》和日本《智能手机软件竞争促进…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>2027 款福特烈马将于广州车展上市，新增大海道版本</title>
-      <link>https://ithome.com/1/030/726.htm</link>
-      <guid>https://ithome.com/1/030/726.htm</guid>
-      <description>IT之家 11 月 23 日消息，据易车 11 月 22 日报道，2027 款福特烈马将在广州车展正式上市。新车新增烈马大海道版本，与荒地版形成两条差异化的外观与越野套件路线。 大海道版以红色车身搭配撞色白顶 ，车身侧面印有大号 BRONCO 拉花，配银黑双色防脱越野轮毂与全地形 AT 胎，面向户外穿越、打卡出行；荒地版采用纯黑车身与黑银配色防脱轮毂，整体…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>IT早报 1123：菲尔兹奖得主谈“AI 攻克黎曼猜想”仍需解决关键思路；特斯拉新功能堪比 GTA6；张雪机车计划明年推外卖电摩；国漫斗破苍穹九年长篇完结...</title>
-      <link>https://ithome.com/1/030/725.htm</link>
-      <guid>https://ithome.com/1/030/725.htm</guid>
-      <description>“IT早报”时间，大家好，现在是 2026 年 11 月 23 日星期一，今天的重要科技资讯有： 1. 菲尔兹奖得主梅纳德谈“AI 攻克黎曼猜想”：相信证明正确，但成果被人理解、才可能得到认可 Lean 与 Mathlib 社区发布联合声明，以 Lean 库形式给出的黎曼猜想证明已经通过核验，该证明的代码约 1700 万行。&gt;&gt; 查看详情 2. 特斯拉 F…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>马斯克被曝悄悄开发菲律宾岛屿，具体位置未披露</title>
-      <link>https://ithome.com/1/030/724.htm</link>
-      <guid>https://ithome.com/1/030/724.htm</guid>
-      <description>IT之家 11 月 23 日消息，菲律宾驻美大使何塞 · 曼努埃尔 · 罗穆亚尔德斯透露，埃隆 · 马斯克可能正在菲律宾开发“一两座”岛屿。他表示，马斯克近期常低调访问菲律宾，对当地表现出浓厚兴趣。截至IT之家发稿，相关话题已登上微博热搜。 罗穆亚尔德斯于 11 月 19 日接受菲律宾 ANC 新闻频道采访时透露，马斯克于当地时间 11 月 18 日上午…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>涉案金额超 3 亿元，北京查处首例区块链虚拟货币新型协助传销案</title>
-      <link>https://ithome.com/1/030/723.htm</link>
-      <guid>https://ithome.com/1/030/723.htm</guid>
-      <description>IT之家 11 月 23 日消息，据央视新闻今日报道，日前，北京首例利用区块链、虚拟货币技术为传销活动提供协助的违法案件被查处， 涉案金额超 3 亿元人民币 。 据报道，涉案科技公司是某公链的外包服务商，提供运营、市场推广、交易所对接和维护等服务。该公链推出多款理财项目，兜售相关虚拟货币，以高额收益回报为诱饵，售出价值人民币超 3 亿元的虚拟货币。 北京市…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>微软计划 2027 年将 Wi-Fi 驱动移出 Win11 内核，降低蓝屏风险</title>
-      <link>https://ithome.com/1/030/722.htm</link>
-      <guid>https://ithome.com/1/030/722.htm</guid>
-      <description>IT之家 11 月 23 日消息，据科技媒体 Windows Latest 今天报道，微软计划于 2027 年将 Wi-Fi 驱动从 Win11 内核迁移至用户模式，降低驱动程序故障导致整个系统崩溃的风险。这项调整是微软「驱动质量计划」（DQI）的一部分， 旨在减少内核模式驱动的使用 ， 提升 Win11 稳定性和安全性 。 微软 Windows 产品经理…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>郑州“7·6”火灾调查报告公布：非法改装电摩入户充电，锂电池爆燃引发事故致 5 人死亡</title>
-      <link>https://ithome.com/1/030/721.htm</link>
-      <guid>https://ithome.com/1/030/721.htm</guid>
-      <description>IT之家 11 月 23 日消息，郑州市消防救援支队于 11 月 20 日晚发布了《郑州市惠济区和昌珑悦小区“7·6”较大火灾事故调查报告》。 郑州市人民政府事故调查组认定，这起造成 5 人死亡、1 人受伤的火灾，是一起由电动摩托车非法改装、违规进楼入户充电、锂电池热失控后爆燃直接引发的责任事故。事故过火面积约 15 平方米，直接经济损失 530.75 万…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限</title>
-      <link>https://ithome.com/1/030/720.htm</link>
-      <guid>https://ithome.com/1/030/720.htm</guid>
-      <description>IT之家 11 月 23 日消息，当地时间于 11 月 22 日，OpenAI 首席科学家雅库布 · 帕霍茨基（Jakub Pachocki）发文，提议 AI 企业应建立行业统一标准，对先进 AI 模型的开发设置共同限制，在研究人员具备更可靠的模型行为理解和监控能力之前，不应突破约定的发展门槛。 他认为，传统 AI 能力评测基准会随着技术进步迅速过时，而困…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>古尔曼：苹果准备在明年 2 月至 3 月 iOS 27.4 周期中推出入门级 iPad、iPhone 18e 和全新 MacBook Neo</title>
-      <link>https://ithome.com/1/030/719.htm</link>
-      <guid>https://ithome.com/1/030/719.htm</guid>
-      <description>IT之家 11 月 23 日消息，彭博社记者马克 · 古尔曼昨晚发布了最新一期 Power On 新闻通讯，分析了苹果在 AI Agent 竞争中的处境，并披露了苹果 2027 年上半年的部分新品计划。 IT之家此前报道，苹果正在招聘负责 Agentic AI 项目的高级工程管理人员，招聘描述涉及跨应用操作、网页浏览、命令执行及代码编写和调试等能力。 古尔…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>美国初创企业公布 AI 自研 CPU 架构 Frostbite，能效是传统处理器的 4.59 倍</title>
-      <link>https://ithome.com/1/030/717.htm</link>
-      <guid>https://ithome.com/1/030/717.htm</guid>
-      <description>IT之家 11 月 22 日消息，美国加利福尼亚州帕洛阿尔托的初创公司 Architect Labs 在一篇研究博客中宣布，其人工智能系统已经自主发现、设计并验证了一款名为 Frostbite 的通用 CPU。这款处理器采用全新的指令集，从底层开始重新设计，试图摆脱传统 CPU 的部分架构限制。 在 25 项工作负载测试中，由 4 个计算单元组成的 Fro…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>研华 ASR-A505 单板计算机曝光，搭载英特尔 &quot;Nova Lake H&quot; 处理器</title>
-      <link>https://ithome.com/1/030/716.htm</link>
-      <guid>https://ithome.com/1/030/716.htm</guid>
-      <description>IT之家 11 月 22 日消息，根据研华 (Advantech) 泄露到网络上的一份演示文稿，该企业正在开发一款基于英特尔第 4 代酷睿 Ultra 处理器 &quot;Nova Lake H&quot; 的“四英寸级”单板计算机 (SBC) ASR-A505。 该 SBC 板载一颗 &quot; 8P+4E+4LE &quot; 的 16 核心 16 线程 CPU ，配备 18MB 的 LL…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>Oracle：已确保履行与 OpenAI 合同全部所需资金</title>
-      <link>https://ithome.com/1/030/715.htm</link>
-      <guid>https://ithome.com/1/030/715.htm</guid>
-      <description>IT之家 11 月 22 日消息，Oracle（甲骨文）当地时间本月 20 日表示， 该企业已在本月初筹集到了履行与 OpenAI 交易的全部所需资金 ，与供应商进行的任何进一步私下讨论仅为补充选项。 ▲ Abilene Oracle 称其与 OpenAI 在 AI 基础设施合作方面的进展迅速： 位于美国得克萨斯州 Abilene 的园区已用于 GPT-6…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>R 星：《GTA 6》亲密戏份制作难度高，随主角关系动态变化</title>
-      <link>https://ithome.com/1/030/714.htm</link>
-      <guid>https://ithome.com/1/030/714.htm</guid>
-      <description>IT之家 11 月 22 日消息，据游戏开发商 Rockstar Games 介绍，为《侠盗猎车手 6》（GTA 6）设计真实可信的性爱与亲密互动场景，并不是一件容易的事。 作为一款《GTA》系列游戏，同时也是一部爱情故事，《GTA 6》中出现大量性爱和亲密互动场景并不令人意外。不过，如何恰当地把握这些内容的尺度，对开发团队而言是一项不小的挑战。 IT之家…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>签约后也能涨价：消息称 AI 服务器厂商交付前提价，涨幅最高达 45%</title>
-      <link>https://ithome.com/1/030/713.htm</link>
-      <guid>https://ithome.com/1/030/713.htm</guid>
-      <description>IT之家 11 月 22 日消息，据金融时报报道，随着人工智能基础设施成本飙升并向下游客户传导，销售数据中心设备的科技公司正在与买家签署合同数月后，大幅上调搭载英伟达芯片的人工智能服务器价格。 包括戴尔、慧与科技（HPE）、联想和超微电脑（Supermicro）在内的供应商，向自建数据中心的客户销售服务器，其中包含 GPU、内存芯片和网络设备等组件。 此类…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>MiniMax 利用最新内部模型破解多个密码学前沿方案，刷新国际挑战赛纪录</title>
-      <link>https://ithome.com/1/030/711.htm</link>
-      <guid>https://ithome.com/1/030/711.htm</guid>
-      <description>IT之家 11 月 22 日消息，MiniMax 今日宣布，近期，MiniMax 研究团队利用 MiniMax 最新内部模型对现代密码方案开展了系统性的自动化密码分析。 在测试中，模型发掘出了多处此前未知的算法构造缺陷， 并将多项原本仅停留在论文理论层面的攻击，推进到了秒级至分钟级的可执行破解 。 IT之家获悉，相关进展主要涵盖三个方面： 针对历届 NIS…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>苹果首款折叠屏手机 iPhone Duo 开启百亿补贴，电商平台优惠千元到手 14499 元起</title>
-      <link>https://ithome.com/1/030/710.htm</link>
-      <guid>https://ithome.com/1/030/710.htm</guid>
-      <description>IT之家 11 月 22 日消息，苹果首款折叠屏手机 iPhone Duo 于 10 月 23 日发售，上市约一个月后，目前该机已陆续开始在电商平台开始补贴，以拼多多为例，目前该机已开启百亿补贴，相对于上市价（15999 元起）优惠千元，到手价 14499 元起。 参考IT之家先前报道，有消息称苹果 iPhone Duo 折叠屏手机首销期（首销日 + 后三…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>Nomadic 无人机停高压电线上就能充电，每架可负责监测 25 公里电网线路</title>
-      <link>https://ithome.com/1/030/708.htm</link>
-      <guid>https://ithome.com/1/030/708.htm</guid>
-      <description>IT之家 11 月 22 日消息，科技初创公司 Nomadic 本周展示了旗下的 NOMAD 无人机，同时宣布完成 600 万美元 （IT之家注：现汇率约合 4,016 万元人民币） 种子轮融资。这款四旋翼无人机有一项与其名字相呼应的独特能力：几乎可以一直飞行，无需返回基地。NOMAD 无人机能够停靠在高压输电线上，直接从线路获取电能并为自身充电，随后继续…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>雷诺集团 CEO 福兰反思职业生涯最大失误：当年未能指出在华销量目标不切实际</title>
-      <link>https://ithome.com/1/030/707.htm</link>
-      <guid>https://ithome.com/1/030/707.htm</guid>
-      <description>IT之家 11 月 22 日消息，据欧洲汽车新闻报道，雷诺集团首席执行官福兰（Francois Provost）直言，当年未能向时任首席执行官卡洛斯 · 戈恩（Carlos Ghosn） 指出其在华销量目标不切实际 ，是自己职业生涯中最大的失误。 福兰于 2025 年 7 月出任雷诺首席执行官，他曾在 2016 年和 2017 年负责该车企在华业务运营。戈…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>韩国最大电力公司韩电再曝大规模数据泄露，152 万人信息外泄</title>
-      <link>https://ithome.com/1/030/706.htm</link>
-      <guid>https://ithome.com/1/030/706.htm</guid>
-      <description>IT之家 11 月 22 日消息，韩国最大电力公司韩国电力公社（IT之家注：KEPCO，简称“韩电”）今日表示，已确认发生另一起涉及约 152 万用户个人信息的数据泄露事件。 上个月，该公司披露了一起影响 35,528 名内部员工、退休人员及合作方员工的信息泄露事件。 据介绍，本次泄露的信息中大量包含了居民登录号码（韩国身份证号）、电话号码、地址、账号、卡…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>日本零售业接连爆发数据泄露事件，塔唱片约 1020 万账户信息遭窃</title>
-      <link>https://ithome.com/1/030/704.htm</link>
-      <guid>https://ithome.com/1/030/704.htm</guid>
-      <description>IT之家 11 月 22 日消息，据彭博社报道，日本音乐零售商塔唱片（Tower Records Japan Inc.）表示，公司遭遇未经授权的访问，导致客户信息泄露。这使塔唱片成为近期披露数据泄露事件的又一家日本零售企业。 塔唱片在周日更新的一份声明中表示，此次事件导致约 1020 万个账户的登录信息泄露，包括电子邮件地址和用户 ID。公司称，已于周四发…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>微星推出“PRO MP272L”27 英寸显示器：1080P 100Hz，599 元</title>
-      <link>https://ithome.com/1/030/703.htm</link>
-      <guid>https://ithome.com/1/030/703.htm</guid>
-      <description>IT之家 11 月 22 日消息，微星现已在京东上架“PRO MP272L”27 英寸显示器，该机为 1080P 100Hz 规格，定价为 599 元。 京东 微星 PRO MP272L 显示器 599 元 直达链接 该机配备一块 1920x1080 分辨率 100Hz IPS 面板，MPRT 响应速度 1ms，显示器亮度 250 尼特。显示器支架支持俯仰…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>B站就“AI 大肥鱼”智能体账号泛滥发布调查问卷，征集治理意见</title>
-      <link>https://ithome.com/1/030/702.htm</link>
-      <guid>https://ithome.com/1/030/702.htm</guid>
-      <description>IT之家 11 月 22 日消息，近期B站出现大量爱好者设置的 AI 智能体账号，这些账号通常以“大肥鱼”“小飞鲸”等昵称，使用 DeepSeek 鲸鱼娘等形象作为头像，在评论区广泛活跃。 对此，B站官方账号“哔哩哔哩社区小管家”于 11 月 20 日发布《关于 AI“大肥鱼”你怎么看？》治理意见征询，面向用户征集对 AI 账号及相关行为的意见，并表示将根…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>699 → 278 元办公人用过就回不去了：罗技 MX Master 3S Lite 鼠标政府补贴大破价</title>
-      <link>https://ithome.com/1/030/701.htm</link>
-      <guid>https://ithome.com/1/030/701.htm</guid>
-      <description>【 手小慎拍 ，此款适合大多数男性手掌握持。】 罗技 Logitech MX Master 3s Lite（国行称为菁英版）在去年 10 月上市，官方定价 699 元。 今日京东 PLUS 会员国补后低至 323 元，大多数小伙伴点击下方卡片后，京东 App 上部会自动 弹出 51-50 元加码券 ， 手动点击“领券”后 仅需 278 元破冰新低： 京东…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
-      <title>贝尔金推出新款 40W 单 USB-C 充电头：支持 PD 3.2/PPS 协议，77 元</title>
-      <link>https://ithome.com/1/030/700.htm</link>
-      <guid>https://ithome.com/1/030/700.htm</guid>
-      <description>IT之家 11 月 22 日消息，贝尔金现已在京东上架新款 40W 单 USB-C 充电头，定价为 77 元。 京东 贝尔金 40W 充电头 77 元 直达链接 该产品采用柔和沙色配色，整体造型圆润，尺寸为 34x38x33mm，重量为 57g，匹配可折叠插脚，正面提供一个 USB-C 40W 接口，支持 PD 3.2 和 PPS 协议。 IT之家附产品参…</description>
-      <source>IT之家</source>
-      <category>IT之家</category>
-    </item>
-    <item>
       <title>NetNewsWire 7.3.1 (7244) for iOS</title>
       <link>https://github.com/Ranchero-Software/NetNewsWire/releases/tag/iOS-7.3.1-7244</link>
       <guid>https://github.com/Ranchero-Software/NetNewsWire/releases/tag/iOS-7.3.1-7244</guid>
@@ -1333,6 +1301,94 @@
       <description>Fix (hopefully, we think) a crash related to a nil title in the navbar</description>
       <source>NetNewsWire Releases</source>
       <category>NetNewsWire Releases</category>
+    </item>
+    <item>
+      <title>fix: preserve restarted child results and gateway test ownership (#20…</title>
+      <link>https://github.com/openclaw/openclaw/commit/92e92d76b921e51be2f92f9e536da8102e7eb7b8</link>
+      <guid>https://github.com/openclaw/openclaw/commit/92e92d76b921e51be2f92f9e536da8102e7eb7b8</guid>
+      <description>fix: preserve restarted child results and gateway test ownership (#203839) * fix(ci): unify gateway fixture process ownership * test(ci): verify cancelled gateway descendant clean…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>fix: refresh catalog scroll edges and show the installed skills count…</title>
+      <link>https://github.com/openclaw/openclaw/commit/89540c0adc7c6ede5042f684af8d2e786b762010</link>
+      <guid>https://github.com/openclaw/openclaw/commit/89540c0adc7c6ede5042f684af8d2e786b762010</guid>
+      <description>fix: refresh catalog scroll edges and show the installed skills count (#202715) * fix(sdk): reuse the tools schema in config declarations Give the optional tools schema an exact,…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>fix(test): recognize successful no-op release updates (#203883)</title>
+      <link>https://github.com/openclaw/openclaw/commit/7d0cc1ec81573b6da960913164ac5c7189084738</link>
+      <guid>https://github.com/openclaw/openclaw/commit/7d0cc1ec81573b6da960913164ac5c7189084738</guid>
+      <description>fix(test): recognize successful no-op release updates (#203883)</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>refactor(agents): delete the receipt boolean and the MCP grant and se…</title>
+      <link>https://github.com/openclaw/openclaw/commit/096214ac84dc31a2945d901bccc81e2229eb7efa</link>
+      <guid>https://github.com/openclaw/openclaw/commit/096214ac84dc31a2945d901bccc81e2229eb7efa</guid>
+      <description>refactor(agents): delete the receipt boolean and the MCP grant and settle-batch receipts (#203892) ## Problem R2 of the one-admission receipt cluster. After #203760 (R1c), two rec…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>fix(ci): allow fifteen minutes for macOS handoff package checks (#203…</title>
+      <link>https://github.com/openclaw/openclaw/commit/82848e3103dbe31aa5190c4eee888f54ecefd7b5</link>
+      <guid>https://github.com/openclaw/openclaw/commit/82848e3103dbe31aa5190c4eee888f54ecefd7b5</guid>
+      <description>fix(ci): allow fifteen minutes for macOS handoff package checks (#203896) Keep the existing metadata checks enabled while allowing slow npm pack dry runs to finish. App source, re…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>test: trim infrastructure state and cron diagnostics (#198919)</title>
+      <link>https://github.com/openclaw/openclaw/commit/b151c830713020fe0de9e37c3d21b76671fe0add</link>
+      <guid>https://github.com/openclaw/openclaw/commit/b151c830713020fe0de9e37c3d21b76671fe0add</guid>
+      <description>test: trim infrastructure state and cron diagnostics (#198919) * test: trim low-value infrastructure diagnostics * test: remove orphaned worker memory fixture * test(ci): remove s…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>fix(release): reuse original ClawHub bytes after partial publication …</title>
+      <link>https://github.com/openclaw/openclaw/commit/49795c31df01d405cf9930ecdf817333e41473d1</link>
+      <guid>https://github.com/openclaw/openclaw/commit/49795c31df01d405cf9930ecdf817333e41473d1</guid>
+      <description>fix(release): reuse original ClawHub bytes after partial publication (#203888) * fix(release): reuse original ClawHub bytes after partial publication Preserve full original roster…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>chore(release): close out 2026.11.7 on main (#203880)</title>
+      <link>https://github.com/openclaw/openclaw/commit/4e2e0383d5fad4785c1911e95d72f3dbb391b6f1</link>
+      <guid>https://github.com/openclaw/openclaw/commit/4e2e0383d5fad4785c1911e95d72f3dbb391b6f1</guid>
+      <description>chore(release): close out 2026.11.7 on main (#203880) Record shipped notes, align release package metadata, and add verified SDK and updater compatibility inventories. Preserve al…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>fix(ci): select a supported runtime for failure reporting (#203818)</title>
+      <link>https://github.com/openclaw/openclaw/commit/03dc1d1ad66494e0f8a00ad1d2199e2ec3f10aec</link>
+      <guid>https://github.com/openclaw/openclaw/commit/03dc1d1ad66494e0f8a00ad1d2199e2ec3f10aec</guid>
+      <description>fix(ci): select a supported runtime for failure reporting (#203818) * fix(ci): select a supported runtime for failure reporting Bootstrap the sparse reporter with the workflow Nod…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>feat: filter shared sessions by owner or involvement (#203063)</title>
+      <link>https://github.com/openclaw/openclaw/commit/177e5545ddfbdba894ef5b1a3a342ed65e1c8edf</link>
+      <guid>https://github.com/openclaw/openclaw/commit/177e5545ddfbdba894ef5b1a3a342ed65e1c8edf</guid>
+      <description>feat: filter shared sessions by owner or involvement (#203063) * feat(session-share): filter shared sessions by owner or involvement * feat: filter shared sessions by owner or inv…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
+    </item>
+    <item>
+      <title>fix: reuse release evidence after orchestration-only repairs (#203885)</title>
+      <link>https://github.com/openclaw/openclaw/commit/8a6443a48a04fd1a3f41216f9a8b8dbf228253dc</link>
+      <guid>https://github.com/openclaw/openclaw/commit/8a6443a48a04fd1a3f41216f9a8b8dbf228253dc</guid>
+      <description>fix: reuse release evidence after orchestration-only repairs (#203885) Co-authored-by: RomneyDa &lt;6581799+RomneyDa@users.noreply.github.com&gt; Co-authored-by: vincentkoc &lt;25068+vince…</description>
+      <source>OpenClaw Commits</source>
+      <category>OpenClaw Commits</category>
     </item>
     <item>
       <title>test(ui): measure the Gateway heading grid track (#203879)</title>
@@ -1407,98 +1463,50 @@
       <category>OpenClaw Commits</category>
     </item>
     <item>
-      <title>fix(memory): keep scope hashes stable across locales (#201865)</title>
-      <link>https://github.com/openclaw/openclaw/commit/b49b45a49bcd9d7c4d49d6f85a67ff9a53bdcbf0</link>
-      <guid>https://github.com/openclaw/openclaw/commit/b49b45a49bcd9d7c4d49d6f85a67ff9a53bdcbf0</guid>
-      <description>fix(memory): keep scope hashes stable across locales (#201865) * fix(memory): stabilize scope hash collation * fix(memory): order scope paths deterministically * docs(memory): exp…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
+      <title>release-publish/74fafa8a501e-1795406592: fix(release): avoid artifact selector CLI import deadlock</title>
+      <link>https://github.com/openclaw/openclaw/releases/tag/release-publish%2F74fafa8a501e-1795406592</link>
+      <guid>https://github.com/openclaw/openclaw/releases/tag/release-publish%2F74fafa8a501e-1795406592</guid>
+      <description>Run the async CLI with explicit rejection handling after module evaluation. Preserve exact historical artifact gates and cover the direct Node entry point. Co-authored-by: RomneyD…</description>
+      <source>OpenClaw Releases</source>
+      <category>OpenClaw Releases</category>
     </item>
     <item>
-      <title>fix(tlon): require approval before responding in group DMs (#202775)</title>
-      <link>https://github.com/openclaw/openclaw/commit/6eb70d4ece4de1744cb88bdb7a2bfcf1f2351448</link>
-      <guid>https://github.com/openclaw/openclaw/commit/6eb70d4ece4de1744cb88bdb7a2bfcf1f2351448</guid>
-      <description>fix(tlon): require approval before responding in group DMs (#202775) * fix(tlon): gate group DMs by club approval * fix(tlon): persist configured club grants * docs(config): recor…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
+      <title>release-publish/e55d2d53a2b1-1795405271: fix(release): retain authenticated tag during artifact verification</title>
+      <link>https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fe55d2d53a2b1-1795405271</link>
+      <guid>https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fe55d2d53a2b1-1795405271</guid>
+      <description>Derive the retained receipt tag from the authenticated original candidate. Preserve exact receipt equality and reject conflicting caller tags. Proved through the production final…</description>
+      <source>OpenClaw Releases</source>
+      <category>OpenClaw Releases</category>
     </item>
     <item>
-      <title>chore(ui): refresh control ui locales (#203864)</title>
-      <link>https://github.com/openclaw/openclaw/commit/c4c3df433099e32b7161d21643b305462f35feb9</link>
-      <guid>https://github.com/openclaw/openclaw/commit/c4c3df433099e32b7161d21643b305462f35feb9</guid>
-      <description>chore(ui): refresh control ui locales (#203864) Co-authored-by: github-actions[bot] &lt;41898282+github-actions[bot]@users.noreply.github.com&gt;</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
+      <title>release-publish/1ffe20774ef4-1795405014: fix(release): reuse explicitly selected historical publication artifacts</title>
+      <link>https://github.com/openclaw/openclaw/releases/tag/release-publish%2F1ffe20774ef4-1795405014</link>
+      <guid>https://github.com/openclaw/openclaw/releases/tag/release-publish%2F1ffe20774ef4-1795405014</guid>
+      <description>Freeze explicit predecessor baselines and preserve original producer identities and tested publication bytes. Keep recovery retired and limit compatibility to the reviewed beta.2…</description>
+      <source>OpenClaw Releases</source>
+      <category>OpenClaw Releases</category>
     </item>
     <item>
-      <title>fix: keep short branch names compact in New Session (#203852)</title>
-      <link>https://github.com/openclaw/openclaw/commit/5bc681c1f8e1d4ab4fb7591211789fb8fb1bf61d</link>
-      <guid>https://github.com/openclaw/openclaw/commit/5bc681c1f8e1d4ab4fb7591211789fb8fb1bf61d</guid>
-      <description>fix: keep short branch names compact in New Session (#203852) * fix: keep short branch names compact in New Session Co-authored-by: vyctorbrzezowski &lt;51521767+vyctorbrzezowski@use…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>test(gateway): exercise the onboarding transcript commit guard (#203859)</title>
-      <link>https://github.com/openclaw/openclaw/commit/5bde6a145d8405fec426df85ee65cee2896099da</link>
-      <guid>https://github.com/openclaw/openclaw/commit/5bde6a145d8405fec426df85ee65cee2896099da</guid>
-      <description>test(gateway): exercise the onboarding transcript commit guard (#203859)</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>test(cron): configure a model for scheduled policy fixtures (#203856)</title>
-      <link>https://github.com/openclaw/openclaw/commit/6b66e88e0671779eab3697da487ecc7cd04dda16</link>
-      <guid>https://github.com/openclaw/openclaw/commit/6b66e88e0671779eab3697da487ecc7cd04dda16</guid>
-      <description>test(cron): configure a model for scheduled policy fixtures (#203856) The scheduled policy fixture provided credentials without selecting a model. Cron creation correctly rejects…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>fix: keep SQLite read receipts stable (#203850)</title>
-      <link>https://github.com/openclaw/openclaw/commit/2960ee5365b01d5ea42c3904effa2ee4b9178bb8</link>
-      <guid>https://github.com/openclaw/openclaw/commit/2960ee5365b01d5ea42c3904effa2ee4b9178bb8</guid>
-      <description>fix: keep SQLite read receipts stable (#203850) * test(sqlite): cover ignored prepared SQL tails * fix(sqlite): classify only the prepared statement * test(sqlite): cover admitted…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>fix: keep the compaction strip readable in narrow chats (#203698)</title>
-      <link>https://github.com/openclaw/openclaw/commit/25f8e3d03440a9c466c5aa11772eb791317d879a</link>
-      <guid>https://github.com/openclaw/openclaw/commit/25f8e3d03440a9c466c5aa11772eb791317d879a</guid>
-      <description>fix: keep the compaction strip readable in narrow chats (#203698) * fix: keep the compaction strip readable in narrow chats Co-authored-by: vyctorbrzezowski &lt;51521767+vyctorbrzezo…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>fix: keep Mac Browser tabs visible behind the command palette (#203661)</title>
-      <link>https://github.com/openclaw/openclaw/commit/4b94c6d136f6bd533bb7a76274c09186eb94b81e</link>
-      <guid>https://github.com/openclaw/openclaw/commit/4b94c6d136f6bd533bb7a76274c09186eb94b81e</guid>
-      <description>fix: keep Mac Browser tabs visible behind the command palette (#203661) * fix: keep Mac Browser tabs visible behind the command palette Co-authored-by: vyctorbrzezowski &lt;51521767+…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>improve(ui): rank named settings first and improve Cmd+K session sear…</title>
-      <link>https://github.com/openclaw/openclaw/commit/b674a83db5d675c721af68412af3805b4b1acd05</link>
-      <guid>https://github.com/openclaw/openclaw/commit/b674a83db5d675c721af68412af3805b4b1acd05</guid>
-      <description>improve(ui): rank named settings first and improve Cmd+K session search (#200301) Prefer named settings in Cmd+K and keep scoped access, checkout and recent-session behavior while…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
-    </item>
-    <item>
-      <title>fix: show session Details alongside the Home sidebar (#203701)</title>
-      <link>https://github.com/openclaw/openclaw/commit/3fe6e3bfb12ee3274747b580b94bf9fd1fa15a8f</link>
-      <guid>https://github.com/openclaw/openclaw/commit/3fe6e3bfb12ee3274747b580b94bf9fd1fa15a8f</guid>
-      <description>fix: show session Details alongside the Home sidebar (#203701) * fix: show session Details alongside the Home sidebar Co-authored-by: vyctorbrzezowski &lt;51521767+vyctorbrzezowski@u…</description>
-      <source>OpenClaw Commits</source>
-      <category>OpenClaw Commits</category>
+      <title>release-publish/49795c31df01-1795402770</title>
+      <link>https://github.com/openclaw/openclaw/releases/tag/release-publish%2F49795c31df01-1795402770</link>
+      <guid>https://github.com/openclaw/openclaw/releases/tag/release-publish%2F49795c31df01-1795402770</guid>
+      <description>fix(release): reuse original ClawHub bytes after partial publication …</description>
+      <source>OpenClaw Releases</source>
+      <category>OpenClaw Releases</category>
     </item>
     <item>
       <title>openclaw 2026.11.7</title>
       <link>https://github.com/openclaw/openclaw/releases/tag/v2026.11.7</link>
       <guid>https://github.com/openclaw/openclaw/releases/tag/v2026.11.7</guid>
       <description>2026.11.7 Highlights Conversation recovery: Recover interrupted replies and child results across Gateway restarts without losing pending work. ( #198905 , #201544 , #200924 , #200…</description>
+      <source>OpenClaw Releases</source>
+      <category>OpenClaw Releases</category>
+    </item>
+    <item>
+      <title>release-publish/8a6443a48a04-1795400964: fix: reuse release evidence after orchestration-only repairs (#203885)</title>
+      <link>https://github.com/openclaw/openclaw/releases/tag/release-publish%2F8a6443a48a04-1795400964</link>
+      <guid>https://github.com/openclaw/openclaw/releases/tag/release-publish%2F8a6443a48a04-1795400964</guid>
+      <description>Co-authored-by: RomneyDa 6581799+RomneyDa@users.noreply.github.com Co-authored-by: vincentkoc 25068+vincentkoc@users.noreply.github.com</description>
       <source>OpenClaw Releases</source>
       <category>OpenClaw Releases</category>
     </item>
@@ -1679,12 +1687,44 @@
       <category>The Verge</category>
     </item>
     <item>
-      <title>Your questions about Apple HomeView’s audio, answered</title>
-      <link>https://theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay</link>
-      <guid>https://theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay</guid>
-      <description>After I published my review of the HomeView, Apple&#x27;s first smart display, y&#x27;all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time t…</description>
+      <title>Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker</title>
+      <link>https://theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink</link>
+      <guid>https://theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink</guid>
+      <description>After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto&#x27;s follow-up to its tiny Kodak camera is an equally small d…</description>
       <source>The Verge</source>
       <category>The Verge</category>
+    </item>
+    <item>
+      <title>听完“土豆姐”的分享，写了一个防 AI 写屎山的开源 Skill</title>
+      <link>https://v2ex.com/t/1259076</link>
+      <guid>https://v2ex.com/t/1259076</guid>
+      <description>最近看了前阵子 Grok Bot 首席工程师 Lauren Tan（土豆姐）的访谈，深受启发，顺手把这套方法论整理成了一个开源的 Agent Skill + 硬性 Lint 预设库：** ai-code-dictator **。 先坦白：我自己刚把仓库搭好、规则和脚本都写完了， 还没来得及在大型生产项目里重度实战 ，发出来主要是想和大家交流思路，也欢迎有痛…</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>感觉 Chatgpt 没送重置很久了啊，很不习惯</title>
+      <link>https://v2ex.com/t/1259052</link>
+      <guid>https://v2ex.com/t/1259052</guid>
+      <description>上一次爽蹬还是那个谁说一天一个大更新，没更新就送的时候，然后就没怎么送过重置了，额度用完就只能躺着等下周了</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>资料读取识别</title>
+      <link>https://v2ex.com/t/1259037</link>
+      <guid>https://v2ex.com/t/1259037</guid>
+      <description>我想问一下 pdf word 这些资料上传读取都是怎么做的？ 主要是关于图片。有些图片比如扫描件这种 ocr 就行了都是一些有内容的文本图片，但是有些资料里面包含一些插图，比如我上传个人介绍 pdf。除了文本 里面还有一些奖状啊这种插图，都是无关紧要的内容的话，也要走一遍 ocr 吗？这样的话不是会浪费时间嘛，并且提取出来的内容意义不大。</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
+    </item>
+    <item>
+      <title>看到很多人订阅 Gemini 很心动，问下一年 pro 量大管饱吗？</title>
+      <link>https://v2ex.com/t/1259033</link>
+      <guid>https://v2ex.com/t/1259033</guid>
+      <description>平常一直在使用 jio 的 pro，使用 3.8 flash，帮助我梳理产品哲学和视觉，还挺好用。 现在看好多人订阅新模型，我对新模型的能力还比较有信心，主要想问下 5h/周使用量怎么样？和 GPT 相比如何？</description>
+      <source>V2EX 技术</source>
+      <category>V2EX 技术</category>
     </item>
     <item>
       <title>给 19.4k★ Rust 检索引擎 XERJ 跑了 60 题中文法规/财报 RAG 基准，不改引擎把 R@3 从 22.2% 拉到 91.1%（两份 PR 已合入官方）</title>
@@ -1815,14 +1855,6 @@
       <category>V2EX 技术</category>
     </item>
     <item>
-      <title>AI 进化的程度要让我笑死了</title>
-      <link>https://v2ex.com/t/1258920</link>
-      <guid>https://v2ex.com/t/1258920</guid>
-      <description>做任务：AI， 我有个任务，你帮我做一下 AI 哼哧哼哧，十几分钟就干完了 要验收：AI，这个你新做的页面，你控制我的电脑，帮我检查一下 AI 哼哧哼哧，十几分钟检查完了 好了，任务就可以提交了</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
       <title>做稍微有点难的问题,用 6.2 astra low 还是 sol xhigh?</title>
       <link>https://v2ex.com/t/1258916</link>
       <guid>https://v2ex.com/t/1258916</guid>
@@ -1863,50 +1895,10 @@
       <category>V2EX 技术</category>
     </item>
     <item>
-      <title>阿里云 99 的又可以续费了</title>
-      <link>https://v2ex.com/t/1258875</link>
-      <guid>https://v2ex.com/t/1258875</guid>
-      <description>如题。 又续费了一年，到期 2028 年了。</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
       <title>要取消 claude 订阅吗</title>
       <link>https://v2ex.com/t/1258871</link>
       <guid>https://v2ex.com/t/1258871</guid>
       <description>请教大神，目前有 gpt plus 20 刀，claude pro 20 刀，刚刚搞了个 100 刀的 google gemini， 发现 fable 5.2 在 claude 里不能用了 - 要另外买，业余编程非重度使用，gpt 全家尤其高中小朋友在用做学习，是否应该取消 claude？</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>彻底不让 Codex 碰业务代码了，留着打杂清静不少</title>
-      <link>https://v2ex.com/t/1258866</link>
-      <guid>https://v2ex.com/t/1258866</guid>
-      <description>临下班改完最后一个 bug，看着 Gemini 调 codex exec 在后台吭哧吭哧跑测试，突然觉得吃灰的订阅总算没白留。 以前让 Codex 写代码真是折寿，两行能搞定的事非套三层校验再包个 wrapper，每次看 diff 都火大。现在代码只归 Gemini 4 管，脏活累活全甩出去跑，瞬间舒坦多了。</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>分享一下我订阅 gemini 黑五优惠的流程</title>
-      <link>https://v2ex.com/t/1258863</link>
-      <guid>https://v2ex.com/t/1258863</guid>
-      <description>先刷个 2 刀一个月的订阅，不行 5 刀三个月的也行，反正也只会先付一个月 我是之前就买了 5 刀的优惠，然后在电脑上点击切换订阅还是要 199 所以改成去手机 gemini app 上切换到包年，这个时候就会生效订阅续费半价 99 刀的 pro 的黑五活动 付款之后订阅自动切换到一年，然后谷故歌歌会退款之前订阅的 5 刀（按剩下的时间，我退了 3.3 刀…</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>iOS 土耳其 App Store 半价订阅 google one Ultra 方法</title>
-      <link>https://v2ex.com/t/1258860</link>
-      <guid>https://v2ex.com/t/1258860</guid>
-      <description>搬运的 L 站的 Wender 大佬的帖子 稍微修改了下 可惜我已经有 gpt 100 了-。- , 有想买便宜稳定的 VPS 的可以 看看（RN） https://v2ex.com/t/1258457 ^https://one.google.com/ai\?.*$ # 下面是20倍的 20tb\.m\.v2 20tb.m # 下面是30倍的 30tb\.…</description>
-      <source>V2EX 技术</source>
-      <category>V2EX 技术</category>
-    </item>
-    <item>
-      <title>发现 Devin 还是挺好用的</title>
-      <link>https://v2ex.com/t/1258858</link>
-      <guid>https://v2ex.com/t/1258858</guid>
-      <description>在社区的活动里和 poke 聊了两个多小时，提交了一个真正自己在做的项目，最后给了$50+一个月$200 的 max 订阅。 把 Devin 的 gui 下载好了，让它作主控，同时管 gemini/codex/claude 三个 cli 并行工作，体验瞬间变得很丝滑。 沟通方式上也比 gpt 系列的防御性话术好很多，再也不用面对 gpt 的防御天书看了半天…</description>
       <source>V2EX 技术</source>
       <category>V2EX 技术</category>
     </item>
@@ -1959,6 +1951,14 @@
       <category>Wired</category>
     </item>
     <item>
+      <title>Zenith Data Systems, Part II</title>
+      <link>https://abortretry.fail/p/zenith-data-systems-part-ii</link>
+      <guid>https://abortretry.fail/p/zenith-data-systems-part-ii</guid>
+      <description>Pioneering while struggling to survive</description>
+      <source>abortretry.fail</source>
+      <category>abortretry.fail</category>
+    </item>
+    <item>
       <title>Ivy</title>
       <link>https://semantical.com/</link>
       <guid>https://semantical.com/</guid>
@@ -1973,6 +1973,22 @@
       <description>And why isn‘t it immediately rescuing the market?</description>
       <source>garymarcus.substack.com</source>
       <category>garymarcus.substack.com</category>
+    </item>
+    <item>
+      <title>slopcore</title>
+      <link>https://geohot.github.io/blog/jekyll/update/2026/11/23/slopcore.html</link>
+      <guid>https://geohot.github.io/blog/jekyll/update/2026/11/23/slopcore.html</guid>
+      <description>The Hitler of the 21st century will try to hold it back. In defiance of nature, insist humans be in charge, insist they are the humans in charge, it’s for your own good you see, n…</description>
+      <source>geohot.github.io</source>
+      <category>geohot.github.io</category>
+    </item>
+    <item>
+      <title>Tranquility</title>
+      <link>https://blog.coredump.cx/p/tranquility</link>
+      <guid>https://blog.coredump.cx/p/tranquility</guid>
+      <description>The Oval Office.</description>
+      <source>lcamtuf.substack.com</source>
+      <category>lcamtuf.substack.com</category>
     </item>
     <item>
       <title>When in doubt, flail about</title>
@@ -1999,12 +2015,60 @@
       <category>troyhunt.com</category>
     </item>
     <item>
-      <title>Ways to not know your password despite using it</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/NotKnowingPasswordWays</link>
-      <guid>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/NotKnowingPasswordWays</guid>
-      <description>Every so often, one of our people approaches us because they&#x27;ve forgotten their password and now they need to use it, so they need it reset. Some of the time, their account is sti…</description>
-      <source>utcc.utoronto.ca/~cks</source>
-      <category>utcc.utoronto.ca/~cks</category>
+      <title>Manus联创张涛：免费补贴是AI应用创业的最大陷阱，要面向“六个月后的模型”做创新</title>
+      <link>https://wallstreetcn.com/articles/3786488</link>
+      <guid>https://wallstreetcn.com/articles/3786488</guid>
+      <description>近日，Manus联合创始人、首席产品官张涛在北京大学AI创投课堂发表了一场长达两小时的演讲，披露了这家30人公司从0到1的创业决策链条。在这场演讲中，张涛抛出了一个在当前AI创业圈颇具争议的判断：免费补贴是AI应用创业最大的陷阱，中国AI创业者可能在被上一代移动互联网的打法所误导。 我觉得回看过去两三年，中国AI应用创业，我觉得有一个非常大的陷阱，就是我们…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>局势有变？贝森特“改口”：黄仁勋可能“不知情”</title>
+      <link>https://wallstreetcn.com/charts/41960217</link>
+      <guid>https://wallstreetcn.com/charts/41960217</guid>
+      <description>一周前，美国财政部长贝森特态度强硬，直指英伟达存在“不合规文化”，甚至要求董事会进行“彻底的重组”，限期10天给出答复。但仅仅几天过去，局势似乎迎来了微妙的反转。随着特朗普公开表态“不介意黄仁勋回归”，贝森特的口风也发生了180度大转弯。面对媒体的追问，他不再将矛头直指黄仁勋，而是反复强调“可能性”，甚至暗示：这一切，会不会只是英伟达“底层员工”的个人行为？</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>铠侠暴跌之后，高盛认为：估值偏低而股东回报强劲，“与过去的航运股类似”</title>
+      <link>https://wallstreetcn.com/articles/3786487</link>
+      <guid>https://wallstreetcn.com/articles/3786487</guid>
+      <description>铠侠控股股价近期大幅下挫，但高盛认为进一步下行空间有限，并维持买入评级。 追风交易台消息，11月22日，高盛分析师Shuhei Nakamura与Kaho Otake发布研究报告指出，铠侠股价当前对应截至2028年3月的财年， 预期市盈率仅约1.5倍，市净率在不考虑额外回购的情形下亦低于1倍，均处于历史周期低位。 与此同时，公司管理层已承诺将100%的超额…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>特朗普“再提”：我希望英伟达董事会重新聘用黄仁勋</title>
+      <link>https://wallstreetcn.com/articles/3786490</link>
+      <guid>https://wallstreetcn.com/articles/3786490</guid>
+      <description>特朗普就英伟达和黄仁勋在TRUTH SOCIAL发文。 特朗普称，我希望英伟达董事会重新聘用黄仁勋。重新聘用黄仁勋对英伟达和美国来说都是最好的选择。 更多消息，持续更新中 风险提示及免责条款 市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>科技一线大佬：只有黄仁勋才能掌管英伟达，董事会是“蠢货”</title>
+      <link>https://wallstreetcn.com/charts/41960216</link>
+      <guid>https://wallstreetcn.com/charts/41960216</guid>
+      <description>Shopify 联合创始人兼CEOTobias Lütke承认黄仁勋婚外情等丑闻“不是好事”，但强调只有他能掌管英伟达。 公司市值超4万亿美元，价值与其愿景深度绑定；董事会若因丑闻仓促切割，将造成巨大损失。并且批评董事会是“蠢货”，缺乏真正延长一家如此火热公司的守护者记录。</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>黄仁勋归来？贝森特口风突变背后的市场深度博弈</title>
+      <link>https://wallstreetcn.com/member/articles/3786481</link>
+      <guid>https://wallstreetcn.com/member/articles/3786481</guid>
+      <description>贝森特在媒体采访上的口风突变，这是发生在一周之内的诡异事件。 特朗普自APEC回归后，明确支持黄仁勋复位英伟达CEO。 至于美股市场，正在把&quot;黄仁勋是否回归&quot;当成一个二元事件来交易。对于英伟达的制度折价率——它由监管、治理、政治三笔彼此独立的折扣构成。黄仁勋的人事变动只是这三笔折扣最显眼的投影。</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>iPhone Duo渠道价跌破官方价，256G款较官价低约1300元，门店可取现货</title>
+      <link>https://wallstreetcn.com/articles/3786486</link>
+      <guid>https://wallstreetcn.com/articles/3786486</guid>
+      <description>发售之初需要加价数千元的iPhone Duo正在面临行情大跳水。 据蓝鲸新闻，记者查询发现，部分平台优惠价格已低于官方价格 1000多元。 以拼多多为例，256G版本的iPhone Duo补贴价低至14699元，比官方价格低了1300元。 得物上，256G版本的白色iPhone Duo 跌至15149元，较官方价格低了850元。 记者从数码商家处了解到，由…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
     </item>
     <item>
       <title>共享数据飞轮！特斯拉FSD v15统一“汽车与机器人视觉”</title>
@@ -2019,6 +2083,14 @@
       <link>https://wallstreetcn.com/articles/3786484</link>
       <guid>https://wallstreetcn.com/articles/3786484</guid>
       <description>11月23日，A股早盘震荡分化，沪指低开低走，盘初跌破3600点，创业板盘初一度快速上冲，科创50跌超1%，北证50涨近2%。AI硬件活跃，电路板、光模块、覆铜板等逆势拉升，物理AI再度反弹，上纬新材、宇树科技涨幅居前。油气、白酒、煤炭等陷入调整。 港股低空低走，恒指、恒科指双双跌超1%，恒科指跌近2%，权重科网股多数下挫，腾讯、阿里、美团等纷纷走低。AI…</description>
+      <source>华尔街见闻最新资讯</source>
+      <category>华尔街见闻最新资讯</category>
+    </item>
+    <item>
+      <title>高盛谈美股“见底”三大条件：AI货币化、美联储转鸽与机构仓位下降</title>
+      <link>https://wallstreetcn.com/articles/3786485</link>
+      <guid>https://wallstreetcn.com/articles/3786485</guid>
+      <description>标普500指数自10月高点已累计下跌12%，高盛认为，在三个关键条件得到满足之前，市场尚难言触底。 此轮调整已超过标普500指数自1980年以来历年峰谷跌幅的中位数水平。追风交易台消息，高盛在最新发布的《美国每周市场启动》报告中指出， 支持美股见底并启动反弹的三大催化剂分别为：AI投资货币化前景获得投资者信心背书、美联储政策释放鸽派信号，以及机构投资者仓位…</description>
       <source>华尔街见闻最新资讯</source>
       <category>华尔街见闻最新资讯</category>
     </item>
@@ -2139,70 +2211,6 @@
       <link>https://wallstreetcn.com/member/articles/3786466</link>
       <guid>https://wallstreetcn.com/member/articles/3786466</guid>
       <description>1、【韩国准备启动2008年时的稳市措施】11月22日（周日）下午3时，韩国副总理兼财政经济部长官在政府首尔大楼，与韩国银行行长、金融委员会委员长、金融监督院院长召开紧急市场形势检查会议（F4会议），敲定市场稳定对策。一旦启用，将是2008年金融危机以来的首次。启动时间和基金规模尚未确定，这套措施将赶在周一开盘前出台。 2、【美股三大指数全线陷入技术性回调…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>垄断、暴利与资本管制：地球上最赚钱的“虚拟央行”</title>
-      <link>https://wallstreetcn.com/charts/41960215</link>
-      <guid>https://wallstreetcn.com/charts/41960215</guid>
-      <description>GTA 6 首日狂揽 37.9 亿美元，吊打《复联4》全球票房！但华尔街真正看重的，其实是 R 星背后那家“不用安抚债市、也不用去国会听证”的地球最暴利虚拟央行。 13 年老游戏靠 4% 玩家年印 5 亿美金，零成本收割铸币税、搞资本管制、封杀竞争货币……2027 年 GTA 6 在线模式上线，老玩家十几年的存款清零还是继承？如果你是行长，你怎么选？</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>当前红利资产估值还有多少空间?</title>
-      <link>https://wallstreetcn.com/articles/3786465</link>
-      <guid>https://wallstreetcn.com/articles/3786465</guid>
-      <description>下半年以来，以红利为主的稳定价值类资产的超额收益持续扩大，股息率与潜在回报率水平也进一步被压缩。 当前红利资产到底贵不贵，估值还有多少上行空间？ 我们从价值类资产的筛选逻辑、估值定价、预期收益率等角度讨论以下七个问题： 第一，如何构建稳定价值资产包。 我们从行业和个股两个层面筛选ROE高且稳定的资产：行业层面以ROE中位数和变异系数筛出稳定价值类三级行业，…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>为马斯克融资买GPU，高盛“秀操作”</title>
-      <link>https://wallstreetcn.com/articles/3786456</link>
-      <guid>https://wallstreetcn.com/articles/3786456</guid>
-      <description>周四，高盛联手阿波罗全球管理公司（Apollo Global Management），协助马斯克旗下的SpaceX完成了约320亿美元债券定价。这批兼具公司债与资产支持证券（ABS）特征的债券，是高盛耗时一年多交出的答卷——试图在不压垮企业资产负债表的前提下，为昂贵的AI芯片找到买单方案。 这笔债券属于SpaceX总额约440亿美元整体融资的核心部分，虽获…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>冲上热搜！特斯拉推出FSD V15，“实景视图”可显示摄像头画面叠加FSD行驶规划！中国市场准备工作推进中</title>
-      <link>https://wallstreetcn.com/articles/3786464</link>
-      <guid>https://wallstreetcn.com/articles/3786464</guid>
-      <description>当地时间11月21日，特斯拉正式启动FSD（Full Self-Driving，完全自动驾驶）V15监督版推送。特斯拉称，新版本将升级端到端自动驾驶网络的多个环节，重点改善安全关键场景处理能力，并推出全新的驾驶可视化界面Tesla Reality View。 特斯拉CEO马斯克随后表示，FSD V15将于12月向更多用户广泛推送，称这一版本将带来“特别的东…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>沪深北交易所调整融资保证金比例，100%调低至80%</title>
-      <link>https://wallstreetcn.com/articles/3786460</link>
-      <guid>https://wallstreetcn.com/articles/3786460</guid>
-      <description>2026年11月22日，经中国证监会批准，沪深北交易所发布通知调整融资保证金比例， 将投资者融资买入证券的最低保证金比例由100%调低至80%，相关规则调整自2026年11月30日起施行。 今年1月，沪深北交易所根据当时的市场形势，将融资保证金比例由80%调高至100%，对于缓解杠杆风险顺周期累积、促进投资者理性交易起到了积极作用。近期，融资交易活跃度明显…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>报道：韩国将着手准备设立稳定股市基金</title>
-      <link>https://wallstreetcn.com/articles/3786459</link>
-      <guid>https://wallstreetcn.com/articles/3786459</guid>
-      <description>韩国将为期三个月放宽每日股票回购额度限制。（彭博） 风险提示及免责条款 市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>风险远未结束！硅谷大佬预警：我现在全面避险！</title>
-      <link>https://wallstreetcn.com/charts/41960214</link>
-      <guid>https://wallstreetcn.com/charts/41960214</guid>
-      <description>硅谷知名投资人查马斯（Chamath Palihapitiya）在最新一期《All-In》播客中明确表示，自己当前整体处于避险模式（Risk-off），并指出市场面临三大下行风险： 1、宏观经济：后面仍有大量不确定性尚未释放； 2、AI 交易与“英伟达银行”：国会听证会尚未落幕，一旦英伟达的资金循环链条收紧或关闭，直接冲击仍未可知； 3、网络安全与现实动荡…</description>
-      <source>华尔街见闻最新资讯</source>
-      <category>华尔街见闻最新资讯</category>
-    </item>
-    <item>
-      <title>黄仁勋事件后美对华算力管制走向何方？</title>
-      <link>https://wallstreetcn.com/articles/3786457</link>
-      <guid>https://wallstreetcn.com/articles/3786457</guid>
-      <description>2026年11月12日，执掌英伟达三十三年的联合创始人黄仁勋辞去总裁、首席执行官及董事职务，由首席财务官科莱特·克雷斯（Colette Kress）出任临时首席执行官，资深董事哈维·琼斯（Harvey C. Jones）出任公司历史上首位董事会主席。引发此次人事变动的直接导火索，是《纽约时报》自10月下旬起连续披露黄仁勋与新加坡算力云服务商 Megaspe…</description>
       <source>华尔街见闻最新资讯</source>
       <category>华尔街见闻最新资讯</category>
     </item>
