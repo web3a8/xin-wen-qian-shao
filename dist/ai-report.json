@@ -1,41 +1,61 @@
 {
-  "global_brief": "过去24小时的重要动态主要集中在：GPT-6 models demonstrate intrinsic protein-design capabilities；“AI 教父”杨立昆怒怼 Anthropic CEO 阿莫迪：炒作 AI 危险论，只是让自己掌握控制权；Even the best AI agents struggle with everyday life。",
+  "global_brief": "过去24小时的重要动态主要集中在：Tiny gradient edits fix small model's endless thinking loops；Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?；GPT-6 models demonstrate intrinsic protein-design capabilities。",
   "top_fields": [
     {
       "field_key": "ai",
       "field_name": "AI",
-      "field_score": 8741,
-      "event_count": 155
+      "field_score": 51813,
+      "event_count": 861
     },
     {
       "field_key": "tech",
       "field_name": "Tech",
-      "field_score": 1477,
-      "event_count": 36
+      "field_score": 1973,
+      "event_count": 45
     },
     {
       "field_key": "domestic",
       "field_name": "Domestic",
-      "field_score": 1384,
-      "event_count": 34
+      "field_score": 1110,
+      "event_count": 27
+    },
+    {
+      "field_key": "world",
+      "field_name": "World",
+      "field_score": 965,
+      "event_count": 18
     },
     {
       "field_key": "devtools",
       "field_name": "Devtools",
-      "field_score": 695,
-      "event_count": 14
-    },
-    {
-      "field_key": "security",
-      "field_name": "Security",
-      "field_score": 422,
-      "event_count": 9
+      "field_score": 857,
+      "event_count": 17
     }
   ],
   "highlight_facts": [
     {
-      "title": "OpenAI and Cisco 发布 AI-Assisted Linux Security Tool to Block Exploits Before Patching",
-      "summary": "OpenAI and Cisco 发布 AI-Assisted Linux Security Tool to Block Exploits Before Patching；时间：2026-11-24T06:02:57.000Z；证据级别：weak；置信度：0.35",
+      "title": "Tiny gradient edits fix small model's endless thinking loops",
+      "summary": "Qwen3.5-0.8B rarely closed its thinking block at 4,096 tokens, scoring 15.4% on MATH-500. Fine-tuning only 140 to 139,7…；Tiny gradient edits fix small model's endless thinking loops",
+      "references": []
+    },
+    {
+      "title": "Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?",
+      "summary": "arXiv:2611.33031v1 Announce Type: cross Abstract: We give four large language models (LLMs) of the Claude family the co…；Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?",
+      "references": []
+    },
+    {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "summary": "GPT-6 models demonstrate intrinsic protein-design capabilities；GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding acro…",
+      "references": []
+    },
+    {
+      "title": "CPU-Eval: Evaluating Large Language Models for CPU Hardware Code Generation",
+      "summary": "arXiv:2611.32405v1 Announce Type: cross Abstract: Benchmarks such as VerilogEval have supported rapid advances in hardw…；CPU-Eval: Evaluating Large Language Models for CPU Hardware Code Generation",
+      "references": []
+    },
+    {
+      "title": "CAPTA: Identifying LLMs Behind AI Agents",
+      "summary": "arXiv:2611.32686v1 Announce Type: new Abstract: Large language model (LLM)-based agents access remote services through…；CAPTA: Identifying LLMs Behind AI Agents",
       "references": []
     }
   ],
